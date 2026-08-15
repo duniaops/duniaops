@@ -1,0 +1,15 @@
+{
+  "name": "duniaops-website",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "build:blog": "node scripts/build-blog.mjs",
+    "build:site": "npm run build:blog && node scripts/build-site.mjs",
+    "check:site": "node scripts/check-dist.mjs",
+    "test": "npm run build:site && npm run check:site"
+  },
+  "devDependencies": {
+    "gray-matter": "4.0.3",
+    "markdown-it": "14.3.0"
+  }
+}

@@ -1,0 +1,27 @@
+_to_delete/
+.DS_Store
+node_modules/
+dist/
+coverage/
+
+# Local editor and tool output
+.idea/
+.vscode/
+*.log
+
+# Local configuration and credentials
+.env
+.env.*
+!.env.example
+*.key
+*.pem
+*.p12
+*.pfx
+*.jks
+*.keystore
+
+# private — never publish
+invoices/
+
+# Local Netlify folder
+.netlify

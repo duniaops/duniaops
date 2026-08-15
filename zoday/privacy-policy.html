@@ -1,0 +1,615 @@
+<!DOCTYPE html>
+<html lang="tr">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Zoday — Gizlilik Politikası / Privacy Policy</title>
+<meta name="description" content="Zoday mobil uygulaması gizlilik politikası ve privacy policy. Verilerin nasıl toplandığını, kullanıldığını, paylaşıldığını ve korunduğunu açıklar.">
+<link rel="canonical" href="https://www.duniaops.com/zoday/privacy-policy">
+<meta property="og:title" content="Zoday — Gizlilik Politikası / Privacy Policy">
+<meta property="og:description" content="Zoday mobile app privacy policy in Turkish and English.">
+<meta property="og:type" content="website">
+<meta property="og:url" content="https://www.duniaops.com/zoday/privacy-policy">
+<meta name="twitter:card" content="summary">
+<meta name="theme-color" content="#17102d">
+<link rel="icon" type="image/png" href="/assets/favicon.png?v=20260721">
+<style>
+  :root {
+    color-scheme: light;
+    --night: #17102d;
+    --night-soft: #251a46;
+    --paper: #fbf9f4;
+    --paper-raised: #ffffff;
+    --ink: #25202f;
+    --muted: #6e6876;
+    --rule: #ded8e5;
+    --accent: #7257cc;
+    --accent-dark: #4d369e;
+    --accent-soft: #eee9ff;
+    --gold: #d7a84d;
+  }
+  * { box-sizing: border-box; }
+  html { scroll-behavior: smooth; }
+  body {
+    margin: 0;
+    background:
+      radial-gradient(circle at 12% 5%, rgba(126, 94, 214, .38), transparent 29rem),
+      radial-gradient(circle at 86% 23%, rgba(215, 168, 77, .14), transparent 24rem),
+      var(--night);
+    color: var(--ink);
+    font: 16px/1.72 -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+    -webkit-font-smoothing: antialiased;
+  }
+  body::before {
+    content: "";
+    position: fixed;
+    inset: 0;
+    pointer-events: none;
+    opacity: .45;
+    background-image:
+      radial-gradient(circle, rgba(255,255,255,.85) 0 1px, transparent 1.5px),
+      radial-gradient(circle, rgba(255,255,255,.55) 0 1px, transparent 1.5px);
+    background-position: 24px 18px, 11px 8px;
+    background-size: 92px 92px, 143px 143px;
+    mask-image: linear-gradient(to bottom, #000 0, transparent 38rem);
+  }
+  a { color: var(--accent-dark); text-underline-offset: .18em; }
+  a:hover { text-decoration-thickness: 2px; }
+  .skip-link {
+    position: fixed;
+    z-index: 10;
+    top: .75rem;
+    left: .75rem;
+    transform: translateY(-200%);
+    padding: .7rem 1rem;
+    border-radius: .5rem;
+    background: #fff;
+    color: var(--night);
+  }
+  .skip-link:focus { transform: none; }
+  .site-mark {
+    position: relative;
+    z-index: 1;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: min(100% - 2rem, 72rem);
+    margin: 0 auto;
+    padding: 1.25rem 0;
+  }
+  .zoday-mark {
+    display: inline-flex;
+    align-items: center;
+    gap: .65rem;
+    color: #fff;
+    font-size: .82rem;
+    font-weight: 700;
+    letter-spacing: .22em;
+    text-decoration: none;
+  }
+  .zoday-orbit {
+    position: relative;
+    width: 2.15rem;
+    height: 2.15rem;
+    border: 1px solid rgba(255,255,255,.5);
+    border-radius: 50%;
+  }
+  .zoday-orbit::before {
+    content: "";
+    position: absolute;
+    inset: .55rem;
+    border-radius: 50%;
+    background: linear-gradient(135deg, #fff3b5, var(--gold));
+    box-shadow: 0 0 20px rgba(215,168,77,.6);
+  }
+  .zoday-orbit::after {
+    content: "";
+    position: absolute;
+    width: .34rem;
+    height: .34rem;
+    top: -.13rem;
+    left: .85rem;
+    border-radius: 50%;
+    background: #fff;
+  }
+  .duniaops-link { color: rgba(255,255,255,.7); font-size: .8rem; text-decoration: none; }
+  .duniaops-link:hover { color: #fff; }
+  .wrap {
+    position: relative;
+    z-index: 1;
+    width: min(100% - 2rem, 64rem);
+    margin: 1rem auto 4rem;
+    padding: clamp(2rem, 6vw, 5rem) clamp(1.15rem, 6vw, 6rem) 3rem;
+    border: 1px solid rgba(255,255,255,.16);
+    border-radius: 1.5rem;
+    background: var(--paper);
+    box-shadow: 0 30px 80px rgba(5, 2, 16, .38);
+  }
+  header {
+    position: relative;
+    padding: 0 0 2rem;
+    margin-bottom: 2.75rem;
+    border-bottom: 1px solid var(--rule);
+  }
+  header::after {
+    content: "✦";
+    position: absolute;
+    right: 0;
+    bottom: 1.5rem;
+    color: var(--gold);
+    font-size: 1.5rem;
+  }
+  h1, h2, h3 { color: var(--ink); }
+  h1 {
+    max-width: 36rem;
+    margin: 0 0 .55rem;
+    font-family: Georgia, "Times New Roman", serif;
+    font-size: clamp(2.15rem, 6vw, 4.1rem);
+    font-weight: 500;
+    line-height: 1.05;
+    letter-spacing: -.045em;
+  }
+  .sub { margin: 0; color: var(--muted); font-size: .92rem; }
+  .langnav { display: flex; gap: .5rem; margin: 1.5rem 0 0; font-size: .88rem; }
+  .langnav a {
+    padding: .48rem .8rem;
+    border: 1px solid var(--rule);
+    border-radius: 999px;
+    background: var(--paper-raised);
+    color: var(--accent-dark);
+    font-weight: 650;
+    text-decoration: none;
+  }
+  .langnav a:hover, .langnav a:focus-visible { border-color: var(--accent); background: var(--accent-soft); }
+  section { scroll-margin-top: 1.5rem; }
+  section > p:first-child { font-size: 1.06rem; }
+  h2 {
+    margin: 3.4rem 0 1rem;
+    padding-top: .2rem;
+    font-family: Georgia, "Times New Roman", serif;
+    font-size: clamp(1.55rem, 4vw, 2rem);
+    font-weight: 500;
+    line-height: 1.25;
+    letter-spacing: -.025em;
+  }
+  h3 { margin: 2.1rem 0 .65rem; font-size: 1.03rem; line-height: 1.4; }
+  p { margin: .85rem 0; }
+  ul { padding-left: 1.35rem; }
+  li { margin: .48rem 0; padding-left: .15rem; }
+  li::marker { color: var(--accent); }
+  .table-scroll {
+    overflow-x: auto;
+    margin: 1.1rem 0 1.75rem;
+    border: 1px solid var(--rule);
+    border-radius: .8rem;
+    background: var(--paper-raised);
+    -webkit-overflow-scrolling: touch;
+  }
+  table { width: 100%; min-width: 34rem; border-collapse: collapse; font-size: .92rem; }
+  th, td { padding: .78rem .85rem; text-align: left; vertical-align: top; border-bottom: 1px solid var(--rule); }
+  tr:last-child td { border-bottom: 0; }
+  th {
+    background: #f3f0f6;
+    color: var(--muted);
+    font-size: .73rem;
+    font-weight: 750;
+    letter-spacing: .075em;
+    text-transform: uppercase;
+  }
+  tbody tr:hover { background: #faf8fd; }
+  .note {
+    position: relative;
+    margin: 1.8rem 0;
+    padding: 1.15rem 1.25rem 1.15rem 1.45rem;
+    border: 1px solid #dcd3fa;
+    border-left: 4px solid var(--accent);
+    border-radius: .25rem .8rem .8rem .25rem;
+    background: var(--accent-soft);
+    color: #484052;
+  }
+  .divider { margin: 5rem 0 0; border: 0; border-top: 1px solid var(--rule); }
+  #en { padding-top: .1rem; }
+  #en > h1 { margin-top: 4rem !important; }
+  footer { margin-top: 4rem; padding-top: 1.75rem; border-top: 1px solid var(--rule); color: var(--muted); font-size: .85rem; }
+  footer a { color: inherit; }
+  @media (max-width: 640px) {
+    .site-mark { padding: 1rem 0; }
+    .duniaops-link { max-width: 8rem; text-align: right; }
+    .wrap { width: min(100% - 1rem, 64rem); margin-top: .25rem; padding-inline: 1rem; border-radius: 1rem; }
+    header::after { display: none; }
+    h1 { font-size: clamp(2.2rem, 12vw, 3.3rem); }
+    .table-scroll { margin-inline: -.25rem; }
+  }
+  @media (prefers-color-scheme: dark) {
+    :root {
+      color-scheme: dark;
+      --night: #0d081b;
+      --night-soft: #19112f;
+      --paper: #17131f;
+      --paper-raised: #211b2b;
+      --ink: #f1ecf4;
+      --muted: #b5adba;
+      --rule: #3c3445;
+      --accent: #a991ff;
+      --accent-dark: #c0afff;
+      --accent-soft: #2b2341;
+      --gold: #e5bc68;
+    }
+    th { background: #251f2e; }
+    tbody tr:hover { background: #1e1926; }
+    .note { border-color: #4a3b74; border-left-color: var(--accent); color: #ded7e5; }
+    .skip-link { background: var(--paper-raised); color: var(--ink); }
+  }
+  @media (prefers-reduced-motion: reduce) { html { scroll-behavior: auto; } }
+  @media print {
+    body { background: #fff; }
+    body::before, .site-mark, .skip-link { display: none; }
+    .wrap { width: 100%; margin: 0; padding: 0; border: 0; box-shadow: none; }
+    .table-scroll { overflow: visible; }
+    table { min-width: 0; }
+    .note { break-inside: avoid; }
+  }
+</style>
+</head>
+<body>
+<a class="skip-link" href="#tr">İçeriğe geç / Skip to content</a>
+
+<nav class="site-mark" aria-label="Brand navigation">
+  <a class="zoday-mark" href="#tr" aria-label="Zoday privacy policy">
+    <span class="zoday-orbit" aria-hidden="true"></span>
+    <span>ZODAY</span>
+  </a>
+  <a class="duniaops-link" href="/">DuniaOps Solution and Consulting LTD</a>
+</nav>
+
+<main class="wrap">
+<header>
+  <h1>Zoday — Gizlilik Politikası</h1>
+  <p class="sub">Yürürlük tarihi: 13 Ağustos 2026 · Sürüm 1.0</p>
+  <p class="langnav"><a href="#tr" lang="tr">Türkçe</a> <a href="#en" lang="en">English</a></p>
+</header>
+
+<!-- ===================== TÜRKÇE ===================== -->
+<section id="tr">
+
+<p>Zoday, gökyüzünün gerçek verisiyle astrolojik yorum ve fal sunan bir mobil uygulamadır.
+Bu politika, uygulamayı kullandığında hangi verilerin toplandığını, neden toplandığını,
+kimlerle paylaşıldığını ve bunlar üzerinde hangi haklara sahip olduğunu anlatır.</p>
+
+<p><strong>Veri sorumlusu:</strong> DuniaOps Solution and Consulting LTD<br>
+<strong>İletişim:</strong> <a href="mailto:info@duniaops.com">info@duniaops.com</a></p>
+
+<div class="note">
+<strong>Önce en önemlisi:</strong> Zoday'de hesap açmıyorsun. E-posta, telefon numarası
+veya parola istemiyoruz. Uygulama ilk açıldığında cihazına anonim bir kimlik atanır ve
+verilerin yalnızca o kimliğe bağlanır. Bu, seni isim veya e-posta üzerinden
+tanıyamadığımız anlamına gelir — ama aynı zamanda uygulamayı silersen o kimliği geri
+getiremeyiz.
+</div>
+
+<h2>1. Topladığımız veriler</h2>
+
+<h3>1.1 Senin girdiğin bilgiler</h3>
+<div class="table-scroll"><table>
+  <tr><th>Veri</th><th>Zorunlu mu</th><th>Ne için</th></tr>
+  <tr><td>Doğum tarihi</td><td>Evet</td><td>Güneş burcunu hesaplamak</td></tr>
+  <tr><td>Doğum saati</td><td>Hayır</td><td>Yükselen burç ve natal harita</td></tr>
+  <tr><td>Doğum yeri</td><td>Hayır</td><td>Natal haritanın doğru hesaplanması</td></tr>
+  <tr><td>Adın</td><td>Hayır</td><td>Yorumlarda sana hitap etmek</td></tr>
+  <tr><td>Bulunduğun şehir</td><td>Hayır</td><td>Falına hava durumu ve yerel saati katmak</td></tr>
+  <tr><td>Fal soruların</td><td>Hayır</td><td>Sorduğun soruya cevap üretmek</td></tr>
+  <tr><td>Bildirim tercihleri</td><td>Hayır</td><td>Sabah bildiriminin saati</td></tr>
+</table></div>
+
+<h3>1.2 Sevdiklerin — başkalarına ait bilgiler</h3>
+<p>Uygulamaya sevdiğin kişileri ekleyebilir, onlar için günlük yorum ve fal alabilirsin.
+Bunun için o kişinin <strong>adını, yakınlık derecesini ve doğum tarihini</strong>
+giriyorsun. Bu bilgiler yalnızca senin hesabına bağlı kalır; o kişiye hiçbir bildirim
+gitmez ve kimseyle paylaşılmaz.</p>
+<p>Ancak bu, <em>başka bir insanın kişisel verisi</em>. Uygulama bunu eklerken sana
+hatırlatıyor: yalnızca o kişinin rahatsız olmayacağından emin olduğun bilgileri gir.
+Bu veriyi girmenin hukuki sorumluluğu sana aittir. İstediğin an kişiyi silebilirsin;
+silindiğinde ona ait tüm yorumlar da silinir.</p>
+
+<h3>1.3 Otomatik oluşan veriler</h3>
+<ul>
+  <li><strong>Anonim kullanıcı kimliği</strong> — cihazına atanan rastgele bir tanımlayıcı.</li>
+  <li><strong>Hesaplanan astrolojik veriler</strong> — güneş burcu, yükselen burç, natal harita.</li>
+  <li><strong>Üretilen fallar</strong> — metnin kendisi ve üretilirken kullanılan bağlam
+      (sorduğun soru, adın, burcun, doğum tarihin, şehrin ve o günkü hava durumu dahil).</li>
+  <li><strong>Cihaz dili ve saat dilimi</strong> — içeriğin doğru dil ve saatte gelmesi için.</li>
+  <li><strong>Bildirim jetonu</strong> — bildirim açıksa, telefonuna bildirim gönderebilmek için.</li>
+  <li><strong>Abonelik durumu</strong> — Plus üyeliğinin aktif olup olmadığı, ürün ve bitiş tarihi.</li>
+  <li><strong>Davet verileri</strong> — sana ait davet kodu, kodunu kimin kullandığı ve
+      kazandığın hediye günlerin kaydı.</li>
+</ul>
+
+<h3>1.4 Konum</h3>
+<p>Konum tamamen isteğe bağlıdır ve Ayarlar'dan istediğin an kapatabilirsin.</p>
+<ul>
+  <li><strong>Cihaz konumuna izin verirsen:</strong> koordinatların yaklaşık 1 kilometre
+      hassasiyetine yuvarlanır, yalnızca o falın hava durumunu almak için bir kez
+      kullanılır ve <strong>hiçbir yerde saklanmaz</strong>.</li>
+  <li><strong>Konum yerine şehir seçersen:</strong> seçtiğin şehrin adı ve şehir merkezinin
+      koordinatları profilinde saklanır. Bu senin bulunduğun nokta değil, şehrin
+      merkezidir.</li>
+</ul>
+
+<h3>1.5 Ödeme bilgileri</h3>
+<p>Zoday hiçbir zaman kart numaranı, banka bilgini veya fatura adresini görmez. Abonelik
+ödemeleri tamamen Apple App Store veya Google Play üzerinden yürür. Bize yalnızca
+aboneliğin aktif olup olmadığı bilgisi ulaşır.</p>
+
+<h2>2. Verileri neden işliyoruz</h2>
+<div class="table-scroll"><table>
+  <tr><th>Amaç</th><th>Hukuki dayanak</th></tr>
+  <tr><td>Yorumları ve falları üretmek, uygulamayı çalıştırmak</td><td>Sözleşmenin ifası</td></tr>
+  <tr><td>Konum, bildirim, sevdiklerin</td><td>Açık rızan (istediğin an geri alabilirsin)</td></tr>
+  <tr><td>Aboneliği ve davet kredisini yönetmek</td><td>Sözleşmenin ifası</td></tr>
+  <tr><td>Kötüye kullanımı ve sahte davetleri engellemek</td><td>Meşru menfaat</td></tr>
+  <tr><td>Yasal yükümlülükler (ör. muhasebe)</td><td>Hukuki yükümlülük</td></tr>
+</table></div>
+
+<h2>3. Yapay zekâ ile üretilen içerik</h2>
+<p>Fallar OpenAI'ın dil modelleri kullanılarak üretilir. Bir fal istediğinde OpenAI'a
+şunlar gönderilir: <strong>adın (girdiysen), burcun, doğum tarihin, seçtiğin konu,
+yazdıysan sorunun metni, şehrinin adı ve o günkü hava durumu</strong> ile o gün Dünya'nın
+yakınından geçen gök cisimlerinin NASA verisi. Ham koordinatların asla gönderilmez.</p>
+
+<p>Serbest metin soruları, gönderilmeden önce OpenAI'ın içerik denetim servisinden
+geçirilir. Bu denetim kendine zarar verme sinyali yakalarsa Zoday fal üretmez; bunun
+yerine destek almanı öneren bir mesaj gösterir ve <strong>o soru hiçbir yere
+kaydedilmez</strong>.</p>
+
+<div class="note">
+Fal sorularına ne yazacağın tamamen sana kalmış. Sağlık, ilişkiler veya maddi durumun
+gibi hassas konuları yazarsan bu bilgiler de yukarıdaki akışın parçası olur ve falla
+birlikte saklanır. Paylaşmak istemediğin şeyleri yazmamanı öneririz.
+</div>
+
+<h2>4. Verileri kimlerle paylaşıyoruz</h2>
+<p>Verilerini satmıyoruz, reklam amacıyla kimseye vermiyoruz. Uygulamanın çalışması için
+şu hizmet sağlayıcılarını kullanıyoruz:</p>
+<div class="table-scroll"><table>
+  <tr><th>Sağlayıcı</th><th>Ne alıyor</th><th>Ne için</th></tr>
+  <tr><td>Supabase</td><td>Yukarıda sayılan tüm veriler</td><td>Veritabanı ve sunucu altyapısı</td></tr>
+  <tr><td>OpenAI</td><td>Bölüm 3'te sayılanlar</td><td>Fal metnini üretmek ve içerik denetimi</td></tr>
+  <tr><td>Open-Meteo</td><td>Yalnızca yuvarlanmış koordinat</td><td>Hava durumu</td></tr>
+  <tr><td>NASA (NeoWs)</td><td>Hiçbir kişisel veri</td><td>Günlük gök cismi verisi</td></tr>
+  <tr><td>RevenueCat</td><td>Anonim kimliğin ve abonelik durumu</td><td>Abonelik yönetimi</td></tr>
+  <tr><td>Expo</td><td>Bildirim jetonu ve bildirim metni</td><td>Bildirim teslimi</td></tr>
+  <tr><td>Apple / Google</td><td>Ödeme bilgileri (bize ulaşmadan)</td><td>Satın alma işlemleri</td></tr>
+</table></div>
+
+<p>Uygulamanın kullanımını ölçmek ve hataları yakalamak için analitik (PostHog) ve hata
+takibi (Sentry) araçları kullandığımızda, bunlara yalnızca <strong>anonim kimliğin ve
+uygulama içi olaylar</strong> (hangi ekranın açıldığı, bir falın tamamlandığı gibi)
+gönderilir. Fal metinleri, soruların, adın ve doğum bilgilerin bu araçlara
+gönderilmez.</p>
+
+<p>Bu sağlayıcıların bir kısmı Türkiye dışında, Avrupa Birliği ve Amerika Birleşik
+Devletleri'nde bulunan sunucularda veri işler. Verilerin yurt dışına aktarımı, uygulamayı
+kullanmayı seçerek verdiğin açık rızaya ve ilgili sözleşmesel güvencelere dayanır.</p>
+
+<h2>5. Ne kadar süre saklıyoruz</h2>
+<p>Verilerin, sen silene kadar saklanır. Hesabını sildiğinde profilin, falların,
+sevdiklerin, bildirim jetonun ve davet kayıtların kalıcı olarak silinir — bu işlem geri
+alınamaz. Yasal saklama yükümlülüğü bulunan muhasebe kayıtları (satın alma kayıtları)
+ilgili mevzuatın öngördüğü süre boyunca Apple ve Google tarafında kalır.</p>
+
+<h2>6. Haklarını nasıl kullanırsın</h2>
+<p>Çoğunu uygulamanın içinden, kimseye başvurmadan kullanabilirsin:</p>
+<ul>
+  <li><strong>Verilerini indir</strong> — Ayarlar → "Verilerimi indir (JSON)". Profilin,
+      falların, sevdiklerin ve abonelik durumun tek dosyada.</li>
+  <li><strong>Hesabını sil</strong> — Ayarlar → "Hesabımı sil". Anında ve kalıcı.</li>
+  <li><strong>Konumu kapat</strong> — Ayarlar → "Fallarda konumumu kullan".</li>
+  <li><strong>Bağlam verilerini temizle</strong> — Ayarlar → "Bağlam verilerimi temizle".</li>
+  <li><strong>Bildirimleri kapat</strong> — Ayarlar veya telefonunun bildirim ayarları.</li>
+</ul>
+<p>KVKK 11. madde ve GDPR kapsamında ayrıca bilgi talep etme, düzeltme, işlemeye itiraz
+etme ve şikâyette bulunma haklarına sahipsin. Bunlar için
+<a href="mailto:info@duniaops.com">info@duniaops.com</a> adresine yazabilirsin;
+başvurulara en geç 30 gün içinde dönüş yapılır. Türkiye'de Kişisel Verileri Koruma
+Kurumu'na, Avrupa Birliği'nde ise bulunduğun ülkenin veri koruma otoritesine şikâyette
+bulunma hakkın saklıdır.</p>
+
+<h2>7. Çocuklar</h2>
+<p>Zoday 13 yaşın altındaki çocuklara yönelik değildir ve bilerek onlardan veri
+toplamayız. 13 yaşın altında bir çocuğa ait veri topladığımızı fark edersek siliriz.
+18 yaşın altındaysan uygulamayı ebeveyninin bilgisi dâhilinde kullanmalısın.</p>
+
+<h2>8. Güvenlik</h2>
+<p>Veriler şifreli bağlantı üzerinden taşınır ve veritabanında satır düzeyinde erişim
+kuralları ile korunur: her kayıt yalnızca onu oluşturan anonim kimlik tarafından
+okunabilir. Hiçbir sistem yüzde yüz güvenli değildir; bu nedenle paylaşmak istemediğin
+bilgileri fal sorularına yazmamanı öneririz.</p>
+
+<h2>9. Eğlence amaçlıdır</h2>
+<p>Zoday'in ürettiği yorum ve fallar eğlence amaçlıdır. Tıbbi, psikolojik, hukuki veya
+finansal tavsiye niteliği taşımaz ve bu alanlarda uzman görüşünün yerine geçmez.</p>
+
+<h2>10. Bu politikadaki değişiklikler</h2>
+<p>Politikayı güncellersek bu sayfadaki yürürlük tarihini değiştiririz. Veri işleme
+biçimimizde esaslı bir değişiklik olursa uygulama içinden bilgilendiririz.</p>
+
+</section>
+
+<hr class="divider">
+
+<!-- ===================== ENGLISH ===================== -->
+<section id="en" lang="en">
+
+<h1 style="margin-top:3rem">Zoday — Privacy Policy</h1>
+<p class="sub">Effective: 13 August 2026 · Version 1.0</p>
+
+<p>Zoday is a mobile app that gives astrological readings woven from real sky data. This
+policy explains what we collect when you use it, why, who else sees it, and what you can
+do about it.</p>
+
+<p><strong>Data controller:</strong> DuniaOps Solution and Consulting LTD<br>
+<strong>Contact:</strong> <a href="mailto:info@duniaops.com">info@duniaops.com</a></p>
+
+<div class="note">
+<strong>The most important thing first:</strong> Zoday has no sign-up. We never ask for
+an email address, a phone number or a password. The app assigns your device an anonymous
+identifier and everything you create is tied only to that. It means we cannot identify
+you by name or email — and also that if you delete the app, we cannot bring that
+identity back.
+</div>
+
+<h2>1. What we collect</h2>
+
+<h3>1.1 What you enter</h3>
+<div class="table-scroll"><table>
+  <tr><th>Data</th><th>Required</th><th>Why</th></tr>
+  <tr><td>Birth date</td><td>Yes</td><td>To compute your sun sign</td></tr>
+  <tr><td>Birth time</td><td>No</td><td>Rising sign and natal chart</td></tr>
+  <tr><td>Birth place</td><td>No</td><td>Accurate natal chart</td></tr>
+  <tr><td>Your name</td><td>No</td><td>So readings can address you</td></tr>
+  <tr><td>Your current city</td><td>No</td><td>To weave weather and local time into a reading</td></tr>
+  <tr><td>Your questions</td><td>No</td><td>To answer what you actually asked</td></tr>
+  <tr><td>Notification preferences</td><td>No</td><td>When your morning reading arrives</td></tr>
+</table></div>
+
+<h3>1.2 Loved ones — other people's data</h3>
+<p>You can add people you care about and get daily readings for them. To do that you
+enter their <strong>name, relationship to you, and birth date</strong>. This stays
+private to your account, is never shared, and that person is never contacted.</p>
+<p>But it is <em>another person's personal data</em>. The app reminds you of this when
+you add someone: only enter details they would be comfortable with. You are responsible
+for having a lawful basis to enter it. You can delete a person at any time, which also
+deletes every reading made for them.</p>
+
+<h3>1.3 What is generated automatically</h3>
+<ul>
+  <li><strong>An anonymous user ID</strong> — a random identifier for your device.</li>
+  <li><strong>Computed astrology</strong> — sun sign, rising sign, natal chart.</li>
+  <li><strong>Your readings</strong> — the text, plus the context used to produce it
+      (your question, name, sign, birth date, city and that day's weather).</li>
+  <li><strong>Device language and time zone</strong> — so content arrives in the right
+      language at the right hour.</li>
+  <li><strong>A push token</strong> — only if notifications are on.</li>
+  <li><strong>Subscription state</strong> — whether Plus is active, the product, expiry.</li>
+  <li><strong>Referral data</strong> — your invite code, who used it, and the gift days
+      you have earned.</li>
+</ul>
+
+<h3>1.4 Location</h3>
+<p>Location is entirely optional and can be switched off in Settings at any time.</p>
+<ul>
+  <li><strong>If you allow device location:</strong> your coordinates are rounded to
+      roughly one kilometre, used once to fetch the weather for that reading, and
+      <strong>never stored</strong>.</li>
+  <li><strong>If you pick a city instead:</strong> the city name and the coordinates of
+      the city centre are saved to your profile. That is the centre of a city, not
+      where you are.</li>
+</ul>
+
+<h3>1.5 Payment data</h3>
+<p>Zoday never sees your card number, bank details or billing address. Subscription
+payments are handled entirely by the Apple App Store or Google Play. All we receive is
+whether your subscription is active.</p>
+
+<h2>2. Why we process it</h2>
+<div class="table-scroll"><table>
+  <tr><th>Purpose</th><th>Legal basis</th></tr>
+  <tr><td>Producing readings and running the app</td><td>Performance of a contract</td></tr>
+  <tr><td>Location, notifications, loved ones</td><td>Your consent (withdrawable anytime)</td></tr>
+  <tr><td>Managing subscriptions and referral credit</td><td>Performance of a contract</td></tr>
+  <tr><td>Preventing abuse and fraudulent referrals</td><td>Legitimate interest</td></tr>
+  <tr><td>Legal obligations such as accounting</td><td>Legal obligation</td></tr>
+</table></div>
+
+<h2>3. AI-generated content</h2>
+<p>Readings are produced using OpenAI's language models. When you request one, we send
+OpenAI: <strong>your name (if given), sun sign, birth date, chosen topic, your question
+if you wrote one, your city name and that day's weather</strong>, along with NASA data
+about objects passing near Earth. Your raw coordinates are never sent.</p>
+
+<p>Free-text questions pass through OpenAI's content moderation service first. If that
+check detects a self-harm signal, Zoday does not produce a reading — it shows a message
+encouraging you to reach out for support, and <strong>that question is not stored
+anywhere</strong>.</p>
+
+<div class="note">
+What you write in a question is up to you. If you write about your health, your
+relationships or your finances, that text becomes part of the flow described above and
+is stored alongside the reading. We suggest not writing anything you would not want
+stored.
+</div>
+
+<h2>4. Who else sees your data</h2>
+<p>We do not sell your data and we do not share it for advertising. We use these
+providers to run the app:</p>
+<div class="table-scroll"><table>
+  <tr><th>Provider</th><th>What they receive</th><th>Why</th></tr>
+  <tr><td>Supabase</td><td>Everything listed above</td><td>Database and server infrastructure</td></tr>
+  <tr><td>OpenAI</td><td>The items in section 3</td><td>Generating readings, content moderation</td></tr>
+  <tr><td>Open-Meteo</td><td>Rounded coordinates only</td><td>Weather</td></tr>
+  <tr><td>NASA (NeoWs)</td><td>No personal data</td><td>Daily near-Earth object data</td></tr>
+  <tr><td>RevenueCat</td><td>Your anonymous ID and subscription state</td><td>Subscription management</td></tr>
+  <tr><td>Expo</td><td>Push token and notification text</td><td>Notification delivery</td></tr>
+  <tr><td>Apple / Google</td><td>Payment data (never reaching us)</td><td>Purchases</td></tr>
+</table></div>
+
+<p>Where we use analytics (PostHog) and error tracking (Sentry) to understand usage and
+catch crashes, those tools receive only <strong>your anonymous ID and in-app events</strong>
+(such as which screen opened, or that a reading completed). Reading text, your questions,
+your name and your birth details are not sent to them.</p>
+
+<p>Some of these providers process data on servers in the European Union and the United
+States. Any transfer outside your country relies on your consent in choosing to use the
+app, together with the contractual safeguards we have in place with each provider.</p>
+
+<h2>5. How long we keep it</h2>
+<p>We keep your data until you delete it. Deleting your account permanently removes your
+profile, readings, loved ones, push token and referral records — this cannot be undone.
+Purchase records that Apple and Google are legally required to retain remain with them
+for the period the law requires.</p>
+
+<h2>6. Your rights</h2>
+<p>Most of them you can exercise inside the app, without asking anyone:</p>
+<ul>
+  <li><strong>Export your data</strong> — Settings → "Download my data (JSON)".</li>
+  <li><strong>Delete your account</strong> — Settings → "Delete my account". Immediate
+      and permanent.</li>
+  <li><strong>Turn off location</strong> — Settings → "Use my location for readings".</li>
+  <li><strong>Clear your context data</strong> — Settings → "Clear my context data".</li>
+  <li><strong>Turn off notifications</strong> — Settings, or your phone's settings.</li>
+</ul>
+<p>Under the GDPR and Turkey's KVKK you also have rights of access, rectification,
+objection to processing, and complaint. Write to
+<a href="mailto:info@duniaops.com">info@duniaops.com</a>; we respond within 30 days at
+the latest. You may also complain to your national data protection authority, or in
+Turkey to the Personal Data Protection Authority (KVKK).</p>
+
+<h2>7. Children</h2>
+<p>Zoday is not directed at children under 13 and we do not knowingly collect their data.
+If we learn that we have, we delete it. If you are under 18, use the app with your
+parent's knowledge.</p>
+
+<h2>8. Security</h2>
+<p>Data travels over encrypted connections and is protected in the database by row-level
+access rules: each record can only be read by the anonymous identity that created it. No
+system is perfectly secure, which is why we suggest not writing anything into a question
+that you would not want stored.</p>
+
+<h2>9. For entertainment</h2>
+<p>Zoday's horoscopes and readings are for entertainment. They are not medical,
+psychological, legal or financial advice and are not a substitute for a professional.</p>
+
+<h2>10. Changes to this policy</h2>
+<p>If we update this policy we will change the effective date on this page. If we change
+something material about how we handle data, we will tell you inside the app.</p>
+
+</section>
+
+<footer>
+  DuniaOps Solution and Consulting LTD · <a href="mailto:info@duniaops.com">info@duniaops.com</a><br>
+  Son güncelleme / Last updated: 13 Ağustos 2026
+</footer>
+
+</main>
+</body>
+</html>

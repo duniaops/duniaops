@@ -1,0 +1,21 @@
+https://duniaops.com/* https://www.duniaops.com/:splat 301!
+/index.html / 301!
+/services/ai-software-development.html /services/ai-software-development 301!
+/services/booking-and-allocation-systems.html /services/booking-and-allocation-systems 301!
+/services/devops-and-cloud-consultancy.html /services/devops-and-cloud-consultancy 301!
+/services/mobile-app-development.html /services/mobile-app-development 301!
+/services/software-consultancy.html /services/software-consultancy 301!
+/products.html /products 301!
+/products/rockimals.html /products/rockimals 301!
+/products/zoday.html /products/zoday 301!
+/products/lumo.html /products/lumo 301!
+/privacy.html /privacy 301!
+/zoday/privacy-policy.html /zoday/privacy-policy 301!
+/zoday/support.html /zoday/support 301!
+/thank-you.html /thank-you 301!
+# blog:start
+/blog.html /blog 301!
+/blog/gpt-56-in-plain-english-picking-the-right-model.html /blog/gpt-56-in-plain-english-picking-the-right-model 301!
+/blog/uk-ai-brand-rankings-2026-preference-trust-context.html /blog/uk-ai-brand-rankings-2026-preference-trust-context 301!
+/blog/why-software-outsourcing-is-good-for-your-business-in-2026.html /blog/why-software-outsourcing-is-good-for-your-business-in-2026 301!
+# blog:end

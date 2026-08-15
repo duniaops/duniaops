@@ -1,0 +1,395 @@
+<!DOCTYPE html>
+<html lang="tr">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Zoday — Destek / Support</title>
+<meta name="description" content="Zoday destek sayfası: hesap, günlük yorumlar, yükselen burç, Zoday Plus, satın alımlar, bildirimler, veriler ve konum hakkında yardım.">
+<link rel="canonical" href="https://www.duniaops.com/zoday/support">
+<meta property="og:title" content="Zoday — Destek / Support">
+<meta property="og:description" content="Zoday support and frequently asked questions in Turkish and English.">
+<meta property="og:type" content="website">
+<meta property="og:url" content="https://www.duniaops.com/zoday/support">
+<meta name="twitter:card" content="summary">
+<meta name="theme-color" content="#17102d">
+<link rel="icon" type="image/png" href="/assets/favicon.png?v=20260721">
+<style>
+  :root {
+    color-scheme: light;
+    --night: #17102d;
+    --night-soft: #251a46;
+    --paper: #fbf9f4;
+    --paper-raised: #ffffff;
+    --ink: #25202f;
+    --muted: #6e6876;
+    --rule: #ded8e5;
+    --accent: #7257cc;
+    --accent-dark: #4d369e;
+    --accent-soft: #eee9ff;
+    --gold: #d7a84d;
+  }
+  * { box-sizing: border-box; }
+  html { scroll-behavior: smooth; }
+  body {
+    margin: 0;
+    background:
+      radial-gradient(circle at 12% 5%, rgba(126, 94, 214, .38), transparent 29rem),
+      radial-gradient(circle at 86% 23%, rgba(215, 168, 77, .14), transparent 24rem),
+      var(--night);
+    color: var(--ink);
+    font: 16px/1.72 -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+    -webkit-font-smoothing: antialiased;
+  }
+  body::before {
+    content: "";
+    position: fixed;
+    inset: 0;
+    pointer-events: none;
+    opacity: .45;
+    background-image:
+      radial-gradient(circle, rgba(255,255,255,.85) 0 1px, transparent 1.5px),
+      radial-gradient(circle, rgba(255,255,255,.55) 0 1px, transparent 1.5px);
+    background-position: 24px 18px, 11px 8px;
+    background-size: 92px 92px, 143px 143px;
+    mask-image: linear-gradient(to bottom, #000 0, transparent 38rem);
+  }
+  a { color: var(--accent-dark); text-underline-offset: .18em; }
+  a:hover { text-decoration-thickness: 2px; }
+  .skip-link {
+    position: fixed;
+    z-index: 10;
+    top: .75rem;
+    left: .75rem;
+    transform: translateY(-200%);
+    padding: .7rem 1rem;
+    border-radius: .5rem;
+    background: #fff;
+    color: var(--night);
+  }
+  .skip-link:focus { transform: none; }
+  .site-mark {
+    position: relative;
+    z-index: 1;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: min(100% - 2rem, 72rem);
+    margin: 0 auto;
+    padding: 1.25rem 0;
+  }
+  .zoday-mark {
+    display: inline-flex;
+    align-items: center;
+    gap: .65rem;
+    color: #fff;
+    font-size: .82rem;
+    font-weight: 700;
+    letter-spacing: .22em;
+    text-decoration: none;
+  }
+  .zoday-orbit {
+    position: relative;
+    width: 2.15rem;
+    height: 2.15rem;
+    border: 1px solid rgba(255,255,255,.5);
+    border-radius: 50%;
+  }
+  .zoday-orbit::before {
+    content: "";
+    position: absolute;
+    inset: .55rem;
+    border-radius: 50%;
+    background: linear-gradient(135deg, #fff3b5, var(--gold));
+    box-shadow: 0 0 20px rgba(215,168,77,.6);
+  }
+  .zoday-orbit::after {
+    content: "";
+    position: absolute;
+    width: .34rem;
+    height: .34rem;
+    top: -.13rem;
+    left: .85rem;
+    border-radius: 50%;
+    background: #fff;
+  }
+  .duniaops-link { color: rgba(255,255,255,.7); font-size: .8rem; text-decoration: none; }
+  .duniaops-link:hover { color: #fff; }
+  .wrap {
+    position: relative;
+    z-index: 1;
+    width: min(100% - 2rem, 64rem);
+    margin: 1rem auto 4rem;
+    padding: clamp(2rem, 6vw, 5rem) clamp(1.15rem, 6vw, 6rem) 3rem;
+    border: 1px solid rgba(255,255,255,.16);
+    border-radius: 1.5rem;
+    background: var(--paper);
+    box-shadow: 0 30px 80px rgba(5, 2, 16, .38);
+  }
+  header {
+    position: relative;
+    padding: 0 0 2rem;
+    margin-bottom: 2.75rem;
+    border-bottom: 1px solid var(--rule);
+  }
+  header::after {
+    content: "✦";
+    position: absolute;
+    right: 0;
+    bottom: 1.5rem;
+    color: var(--gold);
+    font-size: 1.5rem;
+  }
+  h1, h2, h3 { color: var(--ink); }
+  h1 {
+    max-width: 36rem;
+    margin: 0 0 .55rem;
+    font-family: Georgia, "Times New Roman", serif;
+    font-size: clamp(2.15rem, 6vw, 4.1rem);
+    font-weight: 500;
+    line-height: 1.05;
+    letter-spacing: -.045em;
+  }
+  .sub { margin: 0; color: var(--muted); font-size: .92rem; }
+  .langnav { display: flex; gap: .5rem; margin: 1.5rem 0 0; font-size: .88rem; }
+  .langnav a {
+    padding: .48rem .8rem;
+    border: 1px solid var(--rule);
+    border-radius: 999px;
+    background: var(--paper-raised);
+    color: var(--accent-dark);
+    font-weight: 650;
+    text-decoration: none;
+  }
+  .langnav a:hover, .langnav a:focus-visible { border-color: var(--accent); background: var(--accent-soft); }
+  section { scroll-margin-top: 1.5rem; }
+  h2 {
+    margin: 3.4rem 0 1rem;
+    padding-top: .2rem;
+    font-family: Georgia, "Times New Roman", serif;
+    font-size: clamp(1.55rem, 4vw, 2rem);
+    font-weight: 500;
+    line-height: 1.25;
+    letter-spacing: -.025em;
+  }
+  h3 { margin: 0 0 .45rem; font-size: 1.03rem; line-height: 1.4; }
+  p { margin: .85rem 0; }
+  .contact-card {
+    display: grid;
+    gap: .3rem;
+    margin: 1.15rem 0 2rem;
+    padding: 1.35rem 1.45rem;
+    border: 1px solid #dcd3fa;
+    border-radius: .8rem;
+    background: var(--accent-soft);
+  }
+  .contact-card a {
+    width: fit-content;
+    font-family: Georgia, "Times New Roman", serif;
+    font-size: clamp(1.35rem, 4vw, 1.8rem);
+    font-weight: 500;
+    line-height: 1.25;
+  }
+  .contact-card p { margin: 0; color: var(--muted); font-size: .9rem; }
+  .faq-list { border-top: 1px solid var(--rule); }
+  .faq-item { padding: 1.45rem 0; border-bottom: 1px solid var(--rule); }
+  .faq-item p { margin-bottom: 0; color: var(--muted); }
+  .note {
+    position: relative;
+    margin: 2.5rem 0 1.25rem;
+    padding: 1.15rem 1.25rem 1.15rem 1.45rem;
+    border: 1px solid #dcd3fa;
+    border-left: 4px solid var(--accent);
+    border-radius: .25rem .8rem .8rem .25rem;
+    background: var(--accent-soft);
+    color: #484052;
+  }
+  .legal-links { display: flex; flex-wrap: wrap; gap: .55rem 1.25rem; margin: 1.4rem 0 0; }
+  .legal-links a { font-weight: 650; }
+  .divider { margin: 5rem 0 0; border: 0; border-top: 1px solid var(--rule); }
+  #en { padding-top: .1rem; }
+  #en > h1 { margin-top: 4rem; }
+  footer { margin-top: 4rem; padding-top: 1.75rem; border-top: 1px solid var(--rule); color: var(--muted); font-size: .85rem; }
+  footer a { color: inherit; }
+  @media (max-width: 640px) {
+    .site-mark { padding: 1rem 0; }
+    .duniaops-link { max-width: 8rem; text-align: right; }
+    .wrap { width: min(100% - 1rem, 64rem); margin-top: .25rem; padding-inline: 1rem; border-radius: 1rem; }
+    header::after { display: none; }
+    h1 { font-size: clamp(2.2rem, 12vw, 3.3rem); }
+    .contact-card { padding-inline: 1rem; }
+  }
+  @media (prefers-color-scheme: dark) {
+    :root {
+      color-scheme: dark;
+      --night: #0d081b;
+      --night-soft: #19112f;
+      --paper: #17131f;
+      --paper-raised: #211b2b;
+      --ink: #f1ecf4;
+      --muted: #b5adba;
+      --rule: #3c3445;
+      --accent: #a991ff;
+      --accent-dark: #c0afff;
+      --accent-soft: #2b2341;
+      --gold: #e5bc68;
+    }
+    .contact-card, .note { border-color: #4a3b74; }
+    .note { border-left-color: var(--accent); color: #ded7e5; }
+    .skip-link { background: var(--paper-raised); color: var(--ink); }
+  }
+  @media (prefers-reduced-motion: reduce) { html { scroll-behavior: auto; } }
+  @media print {
+    body { background: #fff; }
+    body::before, .site-mark, .skip-link { display: none; }
+    .wrap { width: 100%; margin: 0; padding: 0; border: 0; box-shadow: none; }
+    .faq-item, .note, .contact-card { break-inside: avoid; }
+  }
+</style>
+</head>
+<body>
+<a class="skip-link" href="#tr">İçeriğe geç / Skip to content</a>
+
+<nav class="site-mark" aria-label="Marka navigasyonu">
+  <a class="zoday-mark" href="#tr" aria-label="Zoday destek">
+    <span class="zoday-orbit" aria-hidden="true"></span>
+    <span>ZODAY</span>
+  </a>
+  <a class="duniaops-link" href="/">DuniaOps Solution and Consulting LTD</a>
+</nav>
+
+<main class="wrap">
+<header>
+  <h1>Zoday — Destek</h1>
+  <p class="sub">Yardım ve sık sorulan sorular / Help and frequently asked questions</p>
+  <p class="langnav"><a href="#tr" lang="tr">Türkçe</a> <a href="#en" lang="en">English</a></p>
+</header>
+
+<!-- ===================== TÜRKÇE ===================== -->
+<section id="tr">
+  <h2>İletişim</h2>
+  <div class="contact-card">
+    <a href="mailto:info@duniaops.com">info@duniaops.com</a>
+    <p>Sorularınıza iki iş günü içinde yanıt veririz.</p>
+  </div>
+
+  <h2>Sık sorulan sorular</h2>
+  <div class="faq-list">
+    <article class="faq-item">
+      <h3>Zoday’i kullanmak için hesap gerekiyor mu?</h3>
+      <p>Hayır. Zoday anonim olarak çalışır; hesap açmanız, e-posta adresi, telefon numarası veya parola vermeniz gerekmez.</p>
+    </article>
+
+    <article class="faq-item">
+      <h3>Bugünkü yorum neden görünmüyor?</h3>
+      <p>İnternet bağlantınızı kontrol edin, uygulamayı tamamen kapatıp yeniden açın ve cihazınızın tarih ile saat ayarlarının otomatik olduğundan emin olun. Sorun devam ederse bize yazın.</p>
+    </article>
+
+    <article class="faq-item">
+      <h3>Yükselen burcum neden çıkmıyor?</h3>
+      <p>Yükselen burcun hesaplanabilmesi için doğum saatinizi ve doğum yerinizi birlikte girmeniz gerekir. Bu bilgilerden biri eksikse yükselen burç gösterilmez.</p>
+    </article>
+
+    <article class="faq-item">
+      <h3>Zoday Plus aboneliğimi nasıl iptal ederim?</h3>
+      <p>iPhone’da Ayarlar &gt; adınız &gt; Abonelikler &gt; Zoday yolunu izleyin. Aboneliğin yenilenmemesi için mevcut dönemin bitiminden en az 24 saat önce iptal etmeniz gerekir.</p>
+    </article>
+
+    <article class="faq-item">
+      <h3>Satın aldım ama Plus açılmadı. Ne yapmalıyım?</h3>
+      <p>Zoday içinde Ayarlar &gt; Satın alımları geri yükle seçeneğine dokunun. Satın alma sırasında kullandığınız Apple hesabıyla giriş yaptığınızdan emin olun.</p>
+    </article>
+
+    <article class="faq-item">
+      <h3>Bildirimler neden gelmiyor?</h3>
+      <p>Zoday’de bildirimlerin açık olduğunu, iPhone Ayarlar &gt; Bildirimler &gt; Zoday bölümünde bildirimlere izin verildiğini ve Odak veya Rahatsız Etme modunun bildirimi engellemediğini kontrol edin.</p>
+    </article>
+
+    <article class="faq-item">
+      <h3>Verilerimi indirebilir veya silebilir miyim?</h3>
+      <p>Evet. Her iki işlemi de uygulama içindeki Ayarlar bölümünden anında yapabilirsiniz. E-posta göndermeniz gerekmez.</p>
+    </article>
+
+    <article class="faq-item">
+      <h3>Konumum saklanıyor mu?</h3>
+      <p>Hayır. Konumunuz yalnızca o falın hava durumunu almak için anlık olarak kullanılır ve saklanmaz.</p>
+    </article>
+  </div>
+
+  <div class="note"><strong>Zoday eğlence amaçlıdır;</strong> yorumlar tıbbi, finansal veya hukuki tavsiye değildir.</div>
+
+  <p class="legal-links">
+    <a href="/zoday/privacy-policy">Gizlilik Politikası</a>
+    <a href="https://www.apple.com/legal/internet-services/itunes/dev/stdeula/" rel="external">Apple Standart EULA</a>
+  </p>
+</section>
+
+<hr class="divider">
+
+<!-- ===================== ENGLISH ===================== -->
+<section id="en" lang="en">
+  <h1>Zoday — Support</h1>
+  <p class="sub">Help and frequently asked questions</p>
+
+  <h2>Contact</h2>
+  <div class="contact-card">
+    <a href="mailto:info@duniaops.com">info@duniaops.com</a>
+    <p>We reply within two business days.</p>
+  </div>
+
+  <h2>Frequently asked questions</h2>
+  <div class="faq-list">
+    <article class="faq-item">
+      <h3>Do I need an account to use Zoday?</h3>
+      <p>No. Zoday works anonymously; you do not need to create an account or provide an email address, phone number or password.</p>
+    </article>
+
+    <article class="faq-item">
+      <h3>Why can’t I see today’s reading?</h3>
+      <p>Check your internet connection, fully close and reopen the app, and make sure your device’s date and time are set automatically. If the problem continues, contact us.</p>
+    </article>
+
+    <article class="faq-item">
+      <h3>Why isn’t my rising sign showing?</h3>
+      <p>Your birth time and birth place are both required to calculate your rising sign. It will not appear if either detail is missing.</p>
+    </article>
+
+    <article class="faq-item">
+      <h3>How do I cancel Zoday Plus?</h3>
+      <p>On your iPhone, go to Settings &gt; your name &gt; Subscriptions &gt; Zoday. Cancel at least 24 hours before the end of the current period to prevent renewal.</p>
+    </article>
+
+    <article class="faq-item">
+      <h3>I purchased Plus, but it isn’t active. What should I do?</h3>
+      <p>In Zoday, go to Settings &gt; Restore purchases. Make sure you are signed in with the same Apple account used for the purchase.</p>
+    </article>
+
+    <article class="faq-item">
+      <h3>Why am I not receiving notifications?</h3>
+      <p>Check that notifications are enabled in Zoday, allowed under iPhone Settings &gt; Notifications &gt; Zoday, and not being blocked by a Focus or Do Not Disturb mode.</p>
+    </article>
+
+    <article class="faq-item">
+      <h3>Can I download or delete my data?</h3>
+      <p>Yes. You can do both instantly from Settings inside the app. No email is required.</p>
+    </article>
+
+    <article class="faq-item">
+      <h3>Is my location stored?</h3>
+      <p>No. Your location is used momentarily only to get the weather for that reading and is not stored.</p>
+    </article>
+  </div>
+
+  <div class="note"><strong>Zoday is for entertainment;</strong> readings are not medical, financial or legal advice.</div>
+
+  <p class="legal-links">
+    <a href="/zoday/privacy-policy">Privacy Policy</a>
+    <a href="https://www.apple.com/legal/internet-services/itunes/dev/stdeula/" rel="external">Apple Standard EULA</a>
+  </p>
+</section>
+
+<footer>
+  DuniaOps Solution and Consulting LTD · <a href="mailto:info@duniaops.com">info@duniaops.com</a>
+</footer>
+</main>
+</body>
+</html>

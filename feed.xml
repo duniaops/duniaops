@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>DuniaOps Blog</title>
+    <link>https://www.duniaops.com/blog</link>
+    <description>Practical articles about software development, AI, DevOps, cloud engineering, booking platforms and mobile products.</description>
+    <language>en-gb</language>
+    <atom:link href="https://www.duniaops.com/feed.xml" rel="self" type="application/rss+xml"/>
+    <lastBuildDate>Tue, 11 Aug 2026 00:00:00 GMT</lastBuildDate>
+    <item>
+      <title>GPT-5.6 in Plain English: Picking the Right Model for the Job</title>
+      <link>https://www.duniaops.com/blog/gpt-56-in-plain-english-picking-the-right-model</link>
+      <guid isPermaLink="true">https://www.duniaops.com/blog/gpt-56-in-plain-english-picking-the-right-model</guid>
+      <pubDate>Tue, 11 Aug 2026 00:00:00 GMT</pubDate>
+      <description>GPT-5.6 comes in Sol, Terra and Luna. Here is a simple guide to what each model is for and how teams can choose without jargon or guesswork.</description>
+      <author>info@duniaops.com (DuniaOps Team)</author>
+      <category>AI-Accelerated Development</category>
+      <category>GPT-5.6</category>
+      <category>Artificial Intelligence</category>
+      <category>AI Model Selection</category>
+      <category>AI Software Development</category>
+    </item>
+    <item>
+      <title>UK AI Brand Rankings 2026: Why Preference Is Only Part of the Story</title>
+      <link>https://www.duniaops.com/blog/uk-ai-brand-rankings-2026-preference-trust-context</link>
+      <guid isPermaLink="true">https://www.duniaops.com/blog/uk-ai-brand-rankings-2026-preference-trust-context</guid>
+      <pubDate>Fri, 07 Aug 2026 00:00:00 GMT</pubDate>
+      <description>What UK AI brand preference data reveals about market leaders, rising challengers, worker segments, accuracy and real product value for UK teams.</description>
+      <author>info@duniaops.com (DuniaOps Team)</author>
+      <category>AI-Accelerated Development</category>
+      <category>Artificial Intelligence</category>
+      <category>AI Product Strategy</category>
+      <category>Brand Perception</category>
+      <category>UK Technology</category>
+      <category>Digital Products</category>
+    </item>
+    <item>
+      <title>Why Software Outsourcing Is Good for Your Business in 2026</title>
+      <link>https://www.duniaops.com/blog/why-software-outsourcing-is-good-for-your-business-in-2026</link>
+      <guid isPermaLink="true">https://www.duniaops.com/blog/why-software-outsourcing-is-good-for-your-business-in-2026</guid>
+      <pubDate>Fri, 31 Jul 2026 00:00:00 GMT</pubDate>
+      <description>Learn how software outsourcing can improve delivery speed, specialist access, cost control and business focus—and how to manage the risks in 2026.</description>
+      <author>info@duniaops.com (DuniaOps Team)</author>
+      <category>Software Consultancy</category>
+      <category>Software Outsourcing</category>
+      <category>Delivery Strategy</category>
+      <category>Software Development</category>
+      <category>Technical Leadership</category>
+    </item>
+  </channel>
+</rss>
