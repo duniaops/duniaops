@@ -1,5 +1,6 @@
 # DuniaOps web sitesini organizasyona taşı ve güvenli biçimde public yap
 
+**Status:** Implemented on 15 August 2026; only the time-dependent follow-ups listed in the completion record remain.
 **Type:** Epic
 **Priority:** P1 — kaynak dosyaların bir bölümü hâlihazırda Netlify üzerinden sunuluyor; public geçişten önce sınırların netleştirilmesi gerekiyor.
 **Risk:** High — Git geçmişinin yeniden yazılması, production deploy bağlantısının değiştirilmesi ve private içeriğin public yapılması geri dönüşü sınırlı işlemlerdir.
@@ -38,7 +39,28 @@ The following decisions were approved on 15 August 2026:
 - Rename the default branch from `master` to `main`.
 - Do not accept unsolicited external contributions; disable public Issues, Wiki, and Projects.
 - Use the `DuniaOps/duniaops-dev` team as code owner and grant it the required repository access after transfer.
-- Transfer the repository while private, verify the existing Netlify production project, and only then make the repository public.
+- Create a new private `DuniaOps/duniaops` repository from the approved clean root history, retain the personal repository as a private archive, verify the existing Netlify production project against the organization repository, and only then make the new repository public.
+
+## Completion Record — 15 August 2026
+
+- [x] Created and verified a complete private Git bundle outside the repository before changing the public history.
+- [x] Created `DuniaOps/duniaops` with a clean root history on `main`; the old personal repository remains private and is retained locally as the `archive` remote.
+- [x] Confirmed the public history contains only approved no-reply author metadata and no legacy branches or tags.
+- [x] Scanned a fresh public clone and both baseline commits with Gitleaks 8.30.1; no leaks were found.
+- [x] Applied the mixed license model, public security policy, contribution policy, CODEOWNERS ownership, public-repo ignore rules, and sanitized brand source.
+- [x] Added a deterministic `dist/` allowlist build and repository-native validation; `npm ci`, `npm audit`, `npm test`, JavaScript syntax, XML, diff, and Netlify build checks passed.
+- [x] Verified the clean build contains 46 public files with no forbidden source paths, broken internal links, stale output, draft article, template article, or symlinks.
+- [x] Installed the Netlify GitHub App for only `DuniaOps/duniaops` and relinked the existing production project to `main`, `npm run build:site`, and `dist` without creating a second site or changing its custom domain.
+- [x] Pinned Netlify builds to Node.js 24 and completed a Git-triggered production deploy from commit `4e9ef9d` (deploy `6a808a951972b86741cfb184`).
+- [x] Verified 21 production public paths return HTTP 200, all eight named source paths return HTTP 404, the bare domain redirects once to `www`, and the required security headers are present.
+- [x] Verified TLS, the custom domain, canonical host, robots, sitemap, RSS, service/product/privacy/support pages, and the existing `project-enquiry` Netlify form.
+- [x] Submitted a clearly marked browser test enquiry, reached `/thank-you`, verified every expected form field in Netlify, and deleted only the test submission afterward.
+- [x] Verified a populated honeypot does not enter normal Netlify submissions.
+- [x] Verified a fresh visitor loads no Google Analytics script before consent, reject keeps it unloaded and persists, accept loads it, and Cookie settings can change the decision. Static inspection confirms `generate_lead` carries no form fields.
+- [x] Made the canonical repository public; disabled Issues, Wiki, and Projects; granted `DuniaOps Dev` push access; protected `main` against force-push and deletion; enabled vulnerability alerts, Dependabot security updates, secret scanning, push protection, and private vulnerability reporting.
+- [ ] Confirm the accepted test page view in GA4 Realtime with an authorized analytics user; the repository and Netlify project do not expose Realtime data through the available interfaces.
+- [ ] Recheck domain, TLS, Forms delivery, analytics, and GitHub security alerts after 24 hours.
+- [ ] Run the optional device-matrix, browser-console, accessibility, and performance checks if release policy requires measured evidence beyond the completed smoke tests.
 
 ## Proposed Solution
 
@@ -311,10 +333,10 @@ git remote -v
 - GA4, Netlify Forms veya mevcut privacy modelinin ürünsel olarak yeniden tasarlanması.
 - Şirketin hukuki unvanı, marka tescili veya privacy metninin hukuki danışmanlık kapsamında yeniden yazılması.
 
-## Remaining Operational Question
+## Resolved Operational Question
 
-- Netlify GitHub App'in kişisel hesaptaki mevcut repository bağlantısını transfer sonrasında otomatik olarak takip edip etmediği doğrulanacak. Gerekirse app, DuniaOps organizasyonuna kurulacak ve aynı production projesi yeni canonical repo konumuna yeniden bağlanacak.
+- Netlify GitHub App did not automatically follow the new clean-history repository. It was installed for only `DuniaOps/duniaops`, and the existing production project was manually relinked to that repository without changing the site, domain, Forms data, or deploy history.
 
 ## Suggested Next Step
 
-Onaylanan kararları uygula; Faz 0–6 kanıtlarını private repo üzerinde tamamla. Ardından repoyu private olarak transfer et, aynı Netlify production projesinden başarılı deploy ve smoke test al ve son gate geçtikten sonra public visibility ile GitHub güvenlik ayarlarını uygula.
+Complete the two time-dependent follow-ups above: confirm the consented page view in GA4 Realtime with an authorized analytics user and perform the 24-hour operational recheck. The optional device/performance pass can be scheduled separately if measured release evidence is required.
