@@ -174,6 +174,7 @@
   }
   h3 { margin: 2.1rem 0 .65rem; font-size: 1.03rem; line-height: 1.4; }
   p { margin: .85rem 0; }
+  code { font-family: ui-monospace, SFMono-Regular, Menlo, monospace; font-size: .9em; }
   ul { padding-left: 1.35rem; }
   li { margin: .48rem 0; padding-left: .15rem; }
   li::marker { color: var(--accent); }
@@ -265,7 +266,7 @@
 <main class="wrap">
 <header>
   <h1>Zoday — Gizlilik Politikası</h1>
-  <p class="sub">Yürürlük tarihi: 13 Ağustos 2026 · Sürüm 1.0</p>
+  <p class="sub">Yürürlük tarihi: 16 Ağustos 2026 · Sürüm 1.1</p>
   <p class="langnav"><a href="#tr" lang="tr">Türkçe</a> <a href="#en" lang="en">English</a></p>
 </header>
 
@@ -280,11 +281,12 @@ kimlerle paylaşıldığını ve bunlar üzerinde hangi haklara sahip olduğunu 
 <strong>İletişim:</strong> <a href="mailto:info@duniaops.com">info@duniaops.com</a></p>
 
 <div class="note">
-<strong>Önce en önemlisi:</strong> Zoday'de hesap açmıyorsun. E-posta, telefon numarası
-veya parola istemiyoruz. Uygulama ilk açıldığında cihazına anonim bir kimlik atanır ve
-verilerin yalnızca o kimliğe bağlanır. Bu, seni isim veya e-posta üzerinden
-tanıyamadığımız anlamına gelir — ama aynı zamanda uygulamayı silersen o kimliği geri
-getiremeyiz.
+<strong>Önce en önemlisi:</strong> Zoday'i kullanmak için hesap açman gerekmiyor.
+Uygulama ilk açıldığında cihazına anonim bir kimlik atanır ve verilerin yalnızca o
+kimliğe bağlanır. Telefon numarası veya parola hiçbir zaman istemiyoruz. Yalnızca
+verilerini yeni bir cihaza taşımak istersen, isteğe bağlı olarak Apple ile giriş
+yapabilirsin (bkz. 1.6) — bunu yapmadığın sürece seni isim veya e-posta üzerinden
+tanıyamayız, ama uygulamayı silersen o kimliği de geri getiremeyiz.
 </div>
 
 <h2>1. Topladığımız veriler</h2>
@@ -296,7 +298,7 @@ getiremeyiz.
   <tr><td>Doğum saati</td><td>Hayır</td><td>Yükselen burç ve natal harita</td></tr>
   <tr><td>Doğum yeri</td><td>Hayır</td><td>Natal haritanın doğru hesaplanması</td></tr>
   <tr><td>Adın</td><td>Hayır</td><td>Yorumlarda sana hitap etmek</td></tr>
-  <tr><td>Bulunduğun şehir</td><td>Hayır</td><td>Falına hava durumu ve yerel saati katmak</td></tr>
+  <tr><td>Bulunduğun şehir</td><td>Hayır</td><td>Falına şehrini ve yerel saati katmak</td></tr>
   <tr><td>Fal soruların</td><td>Hayır</td><td>Sorduğun soruya cevap üretmek</td></tr>
   <tr><td>Bildirim tercihleri</td><td>Hayır</td><td>Sabah bildiriminin saati</td></tr>
 </table></div>
@@ -316,7 +318,7 @@ silindiğinde ona ait tüm yorumlar da silinir.</p>
   <li><strong>Anonim kullanıcı kimliği</strong> — cihazına atanan rastgele bir tanımlayıcı.</li>
   <li><strong>Hesaplanan astrolojik veriler</strong> — güneş burcu, yükselen burç, natal harita.</li>
   <li><strong>Üretilen fallar</strong> — metnin kendisi ve üretilirken kullanılan bağlam
-      (sorduğun soru, adın, burcun, doğum tarihin, şehrin ve o günkü hava durumu dahil).</li>
+      (sorduğun soru, adın, burcun, doğum tarihin ve şehrin dahil).</li>
   <li><strong>Cihaz dili ve saat dilimi</strong> — içeriğin doğru dil ve saatte gelmesi için.</li>
   <li><strong>Bildirim jetonu</strong> — bildirim açıksa, telefonuna bildirim gönderebilmek için.</li>
   <li><strong>Abonelik durumu</strong> — Plus üyeliğinin aktif olup olmadığı, ürün ve bitiş tarihi.</li>
@@ -328,8 +330,9 @@ silindiğinde ona ait tüm yorumlar da silinir.</p>
 <p>Konum tamamen isteğe bağlıdır ve Ayarlar'dan istediğin an kapatabilirsin.</p>
 <ul>
   <li><strong>Cihaz konumuna izin verirsen:</strong> koordinatların yaklaşık 1 kilometre
-      hassasiyetine yuvarlanır, yalnızca o falın hava durumunu almak için bir kez
-      kullanılır ve <strong>hiçbir yerde saklanmaz</strong>.</li>
+      hassasiyetine yuvarlanır, yalnızca o falı doğru yarıküreye ve mevsime oturtmak için
+      bir kez kullanılır ve <strong>hiçbir yerde saklanmaz</strong>. Şehir adı cihazında
+      çözülür.</li>
   <li><strong>Konum yerine şehir seçersen:</strong> seçtiğin şehrin adı ve şehir merkezinin
       koordinatları profilinde saklanır. Bu senin bulunduğun nokta değil, şehrin
       merkezidir.</li>
@@ -340,11 +343,26 @@ silindiğinde ona ait tüm yorumlar da silinir.</p>
 ödemeleri tamamen Apple App Store veya Google Play üzerinden yürür. Bize yalnızca
 aboneliğin aktif olup olmadığı bilgisi ulaşır.</p>
 
+<h3>1.6 Apple ile giriş</h3>
+<p>Verilerini yeni bir cihaza taşımak istersen anonim kimliğini bir Apple hesabına
+bağlayabilirsin. Bu tamamen isteğe bağlıdır ve uygulamanın hiçbir özelliği bunu
+gerektirmez.</p>
+<ul>
+  <li>Apple bize <strong>bir e-posta adresi ve (paylaşmayı seçersen) adını</strong>
+      verir. Apple'ın <em>E-postamı Gizle</em> seçeneğini kullanırsan bize ulaşan adres
+      <code>@privaterelay.appleid.com</code> uzantılı bir yönlendirme adresidir; gerçek
+      adresini görmeyiz.</li>
+  <li>Bu adres yalnızca <strong>aynı hesapla tekrar giriş yaptığında seni tanımak</strong>
+      için kullanılır. Sana pazarlama e-postası göndermeyiz.</li>
+  <li>Bağlantıyı kaldırmak istersen hesabını silmen yeterlidir (Ayarlar → "Hesabımı sil").</li>
+</ul>
+
 <h2>2. Verileri neden işliyoruz</h2>
 <div class="table-scroll"><table>
   <tr><th>Amaç</th><th>Hukuki dayanak</th></tr>
   <tr><td>Yorumları ve falları üretmek, uygulamayı çalıştırmak</td><td>Sözleşmenin ifası</td></tr>
   <tr><td>Konum, bildirim, sevdiklerin</td><td>Açık rızan (istediğin an geri alabilirsin)</td></tr>
+  <tr><td>Apple ile giriş (cihaz değiştirme)</td><td>Açık rızan</td></tr>
   <tr><td>Aboneliği ve davet kredisini yönetmek</td><td>Sözleşmenin ifası</td></tr>
   <tr><td>Kötüye kullanımı ve sahte davetleri engellemek</td><td>Meşru menfaat</td></tr>
   <tr><td>Yasal yükümlülükler (ör. muhasebe)</td><td>Hukuki yükümlülük</td></tr>
@@ -353,8 +371,8 @@ aboneliğin aktif olup olmadığı bilgisi ulaşır.</p>
 <h2>3. Yapay zekâ ile üretilen içerik</h2>
 <p>Fallar OpenAI'ın dil modelleri kullanılarak üretilir. Bir fal istediğinde OpenAI'a
 şunlar gönderilir: <strong>adın (girdiysen), burcun, doğum tarihin, seçtiğin konu,
-yazdıysan sorunun metni, şehrinin adı ve o günkü hava durumu</strong> ile o gün Dünya'nın
-yakınından geçen gök cisimlerinin NASA verisi. Ham koordinatların asla gönderilmez.</p>
+yazdıysan sorunun metni ve şehrinin adı</strong> ile o gün Dünya'nın yakınından geçen
+gök cisimlerinin NASA verisi. Ham koordinatların asla gönderilmez.</p>
 
 <p>Serbest metin soruları, gönderilmeden önce OpenAI'ın içerik denetim servisinden
 geçirilir. Bu denetim kendine zarar verme sinyali yakalarsa Zoday fal üretmez; bunun
@@ -374,11 +392,12 @@ birlikte saklanır. Paylaşmak istemediğin şeyleri yazmamanı öneririz.
   <tr><th>Sağlayıcı</th><th>Ne alıyor</th><th>Ne için</th></tr>
   <tr><td>Supabase</td><td>Yukarıda sayılan tüm veriler</td><td>Veritabanı ve sunucu altyapısı</td></tr>
   <tr><td>OpenAI</td><td>Bölüm 3'te sayılanlar</td><td>Fal metnini üretmek ve içerik denetimi</td></tr>
-  <tr><td>Open-Meteo</td><td>Yalnızca yuvarlanmış koordinat</td><td>Hava durumu</td></tr>
+  <tr><td>Open-Meteo</td><td>Yalnızca aradığın şehrin adı</td><td>Şehir arama (coğrafi kodlama)</td></tr>
   <tr><td>NASA (NeoWs)</td><td>Hiçbir kişisel veri</td><td>Günlük gök cismi verisi</td></tr>
   <tr><td>RevenueCat</td><td>Anonim kimliğin ve abonelik durumu</td><td>Abonelik yönetimi</td></tr>
   <tr><td>Expo</td><td>Bildirim jetonu ve bildirim metni</td><td>Bildirim teslimi</td></tr>
   <tr><td>Apple / Google</td><td>Ödeme bilgileri (bize ulaşmadan)</td><td>Satın alma işlemleri</td></tr>
+  <tr><td>Apple</td><td>Apple ile giriş yaparsan e-posta adresin</td><td>Kimlik doğrulama</td></tr>
 </table></div>
 
 <p>Uygulamanın kullanımını ölçmek ve hataları yakalamak için analitik (PostHog) ve hata
@@ -387,8 +406,9 @@ uygulama içi olaylar</strong> (hangi ekranın açıldığı, bir falın tamamla
 gönderilir. Fal metinleri, soruların, adın ve doğum bilgilerin bu araçlara
 gönderilmez.</p>
 
-<p>Bu sağlayıcıların bir kısmı Türkiye dışında, Avrupa Birliği ve Amerika Birleşik
-Devletleri'nde bulunan sunucularda veri işler. Verilerin yurt dışına aktarımı, uygulamayı
+<p>PostHog ve Sentry, Zoday'in verilerini <strong>Avrupa Birliği'ndeki</strong>
+sunucularda işler. Diğer sağlayıcıların bir kısmı Türkiye dışında, Avrupa Birliği ve
+Amerika Birleşik Devletleri'nde bulunan sunucularda veri işler. Verilerin yurt dışına aktarımı, uygulamayı
 kullanmayı seçerek verdiğin açık rızaya ve ilgili sözleşmesel güvencelere dayanır.</p>
 
 <h2>5. Ne kadar süre saklıyoruz</h2>
@@ -441,7 +461,7 @@ biçimimizde esaslı bir değişiklik olursa uygulama içinden bilgilendiririz.<
 <section id="en" lang="en">
 
 <h1 style="margin-top:3rem">Zoday — Privacy Policy</h1>
-<p class="sub">Effective: 13 August 2026 · Version 1.0</p>
+<p class="sub">Effective: 16 August 2026 · Version 1.1</p>
 
 <p>Zoday is a mobile app that gives astrological readings woven from real sky data. This
 policy explains what we collect when you use it, why, who else sees it, and what you can
@@ -451,11 +471,12 @@ do about it.</p>
 <strong>Contact:</strong> <a href="mailto:info@duniaops.com">info@duniaops.com</a></p>
 
 <div class="note">
-<strong>The most important thing first:</strong> Zoday has no sign-up. We never ask for
-an email address, a phone number or a password. The app assigns your device an anonymous
-identifier and everything you create is tied only to that. It means we cannot identify
-you by name or email — and also that if you delete the app, we cannot bring that
-identity back.
+<strong>The most important thing first:</strong> Zoday needs no account. The app assigns
+your device an anonymous identifier and everything you create is tied only to that. We
+never ask for a phone number or a password. The one exception is optional: if you want
+to move your data to a new device you can sign in with Apple (see 1.6). Until you do,
+we cannot identify you by name or email — and if you delete the app, we cannot bring
+that identity back either.
 </div>
 
 <h2>1. What we collect</h2>
@@ -467,7 +488,7 @@ identity back.
   <tr><td>Birth time</td><td>No</td><td>Rising sign and natal chart</td></tr>
   <tr><td>Birth place</td><td>No</td><td>Accurate natal chart</td></tr>
   <tr><td>Your name</td><td>No</td><td>So readings can address you</td></tr>
-  <tr><td>Your current city</td><td>No</td><td>To weave weather and local time into a reading</td></tr>
+  <tr><td>Your current city</td><td>No</td><td>To weave your city and local time into a reading</td></tr>
   <tr><td>Your questions</td><td>No</td><td>To answer what you actually asked</td></tr>
   <tr><td>Notification preferences</td><td>No</td><td>When your morning reading arrives</td></tr>
 </table></div>
@@ -486,7 +507,7 @@ deletes every reading made for them.</p>
   <li><strong>An anonymous user ID</strong> — a random identifier for your device.</li>
   <li><strong>Computed astrology</strong> — sun sign, rising sign, natal chart.</li>
   <li><strong>Your readings</strong> — the text, plus the context used to produce it
-      (your question, name, sign, birth date, city and that day's weather).</li>
+      (your question, name, sign, birth date and city).</li>
   <li><strong>Device language and time zone</strong> — so content arrives in the right
       language at the right hour.</li>
   <li><strong>A push token</strong> — only if notifications are on.</li>
@@ -499,8 +520,9 @@ deletes every reading made for them.</p>
 <p>Location is entirely optional and can be switched off in Settings at any time.</p>
 <ul>
   <li><strong>If you allow device location:</strong> your coordinates are rounded to
-      roughly one kilometre, used once to fetch the weather for that reading, and
-      <strong>never stored</strong>.</li>
+      roughly one kilometre, used once to place that reading in the right hemisphere and
+      season, and <strong>never stored</strong>. The city name is resolved on your
+      device.</li>
   <li><strong>If you pick a city instead:</strong> the city name and the coordinates of
       the city centre are saved to your profile. That is the centre of a city, not
       where you are.</li>
@@ -511,11 +533,24 @@ deletes every reading made for them.</p>
 payments are handled entirely by the Apple App Store or Google Play. All we receive is
 whether your subscription is active.</p>
 
+<h3>1.6 Sign in with Apple</h3>
+<p>If you want to move your data to a new device, you can link your anonymous identity
+to an Apple account. This is entirely optional and no feature of the app requires it.</p>
+<ul>
+  <li>Apple gives us <strong>an email address and, if you choose to share it, your
+      name</strong>. If you use Apple's <em>Hide My Email</em>, the address we receive is
+      a <code>@privaterelay.appleid.com</code> relay — we never see your real one.</li>
+  <li>That address is used only to <strong>recognise you when you sign in again</strong>
+      with the same account. We do not send you marketing email.</li>
+  <li>To undo the link, delete your account (Settings → "Delete my account").</li>
+</ul>
+
 <h2>2. Why we process it</h2>
 <div class="table-scroll"><table>
   <tr><th>Purpose</th><th>Legal basis</th></tr>
   <tr><td>Producing readings and running the app</td><td>Performance of a contract</td></tr>
   <tr><td>Location, notifications, loved ones</td><td>Your consent (withdrawable anytime)</td></tr>
+  <tr><td>Sign in with Apple (moving devices)</td><td>Your consent</td></tr>
   <tr><td>Managing subscriptions and referral credit</td><td>Performance of a contract</td></tr>
   <tr><td>Preventing abuse and fraudulent referrals</td><td>Legitimate interest</td></tr>
   <tr><td>Legal obligations such as accounting</td><td>Legal obligation</td></tr>
@@ -524,8 +559,8 @@ whether your subscription is active.</p>
 <h2>3. AI-generated content</h2>
 <p>Readings are produced using OpenAI's language models. When you request one, we send
 OpenAI: <strong>your name (if given), sun sign, birth date, chosen topic, your question
-if you wrote one, your city name and that day's weather</strong>, along with NASA data
-about objects passing near Earth. Your raw coordinates are never sent.</p>
+if you wrote one, and your city name</strong>, along with NASA data about objects passing
+near Earth. Your raw coordinates are never sent.</p>
 
 <p>Free-text questions pass through OpenAI's content moderation service first. If that
 check detects a self-harm signal, Zoday does not produce a reading — it shows a message
@@ -546,11 +581,12 @@ providers to run the app:</p>
   <tr><th>Provider</th><th>What they receive</th><th>Why</th></tr>
   <tr><td>Supabase</td><td>Everything listed above</td><td>Database and server infrastructure</td></tr>
   <tr><td>OpenAI</td><td>The items in section 3</td><td>Generating readings, content moderation</td></tr>
-  <tr><td>Open-Meteo</td><td>Rounded coordinates only</td><td>Weather</td></tr>
+  <tr><td>Open-Meteo</td><td>Only the city name you type</td><td>City search (geocoding)</td></tr>
   <tr><td>NASA (NeoWs)</td><td>No personal data</td><td>Daily near-Earth object data</td></tr>
   <tr><td>RevenueCat</td><td>Your anonymous ID and subscription state</td><td>Subscription management</td></tr>
   <tr><td>Expo</td><td>Push token and notification text</td><td>Notification delivery</td></tr>
   <tr><td>Apple / Google</td><td>Payment data (never reaching us)</td><td>Purchases</td></tr>
+  <tr><td>Apple</td><td>Your email address, if you sign in with Apple</td><td>Authentication</td></tr>
 </table></div>
 
 <p>Where we use analytics (PostHog) and error tracking (Sentry) to understand usage and
@@ -558,8 +594,9 @@ catch crashes, those tools receive only <strong>your anonymous ID and in-app eve
 (such as which screen opened, or that a reading completed). Reading text, your questions,
 your name and your birth details are not sent to them.</p>
 
-<p>Some of these providers process data on servers in the European Union and the United
-States. Any transfer outside your country relies on your consent in choosing to use the
+<p>PostHog and Sentry process Zoday's data on servers in the <strong>European
+Union</strong>. Some of the other providers process data on servers in the European
+Union and the United States. Any transfer outside your country relies on your consent in choosing to use the
 app, together with the contractual safeguards we have in place with each provider.</p>
 
 <h2>5. How long we keep it</h2>
@@ -607,7 +644,7 @@ something material about how we handle data, we will tell you inside the app.</p
 
 <footer>
   DuniaOps Solution and Consulting LTD · <a href="mailto:info@duniaops.com">info@duniaops.com</a><br>
-  Son güncelleme / Last updated: 13 Ağustos 2026
+  Son güncelleme / Last updated: 16 Ağustos 2026
 </footer>
 
 </main>
