@@ -6,7 +6,20 @@
     <description>Practical articles about software development, AI, DevOps, cloud engineering, booking platforms and mobile products.</description>
     <language>en-gb</language>
     <atom:link href="https://www.duniaops.com/feed.xml" rel="self" type="application/rss+xml"/>
-    <lastBuildDate>Tue, 11 Aug 2026 00:00:00 GMT</lastBuildDate>
+    <lastBuildDate>Tue, 18 Aug 2026 00:00:00 GMT</lastBuildDate>
+    <item>
+      <title>From AI Prototype to Production: The Work That Makes It Dependable</title>
+      <link>https://www.duniaops.com/blog/from-ai-prototype-to-production</link>
+      <guid isPermaLink="true">https://www.duniaops.com/blog/from-ai-prototype-to-production</guid>
+      <pubDate>Tue, 18 Aug 2026 00:00:00 GMT</pubDate>
+      <description>AI can make a working prototype quickly. Learn what must change before it becomes secure, reliable software that real users can depend on in production.</description>
+      <author>info@duniaops.com (DuniaOps Team)</author>
+      <category>AI-Accelerated Development</category>
+      <category>AI Software Development</category>
+      <category>Software Prototyping</category>
+      <category>Production Readiness</category>
+      <category>Secure by Design</category>
+    </item>
     <item>
       <title>GPT-5.6 in Plain English: Picking the Right Model for the Job</title>
       <link>https://www.duniaops.com/blog/gpt-56-in-plain-english-picking-the-right-model</link>

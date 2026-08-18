@@ -361,9 +361,9 @@ ${robots ? `<meta name="robots" content="${escapeHtml(robots)}">\n` : ''}<link r
 ${extra}`;
 }
 
-function blogCard(post, heading = 'h2') {
+function blogCard(post, heading = 'h2', extraClass = '') {
   const category = CATEGORIES[post.category];
-  return `<article class="blog-card">
+  return `<article class="blog-card${extraClass ? ` ${extraClass}` : ''}">
   <a class="blog-card-image" href="/blog/${post.slug}" tabindex="-1" aria-hidden="true"><img src="${post.image}?v=${post.imageVersion}" alt="" width="1200" height="630" loading="lazy" decoding="async"></a>
   <div class="blog-card-body">
     <div class="article-meta"><span>${escapeHtml(category.label)}</span><span aria-hidden="true">·</span><time datetime="${post.published}">${displayDate(post.published)}</time><span aria-hidden="true">·</span><span>${post.readingMinutes} min read</span></div>
@@ -639,10 +639,11 @@ ${items}
 
 function renderHomepageLatest(posts) {
   if (!posts.length) return '';
+  const homepagePosts = posts.slice(0, 4);
   return `<section class="homepage-blog" aria-labelledby="latest-blog-title">
   <div class="container">
     <div class="section-head"><span class="kicker">From the blog</span><h2 id="latest-blog-title">Latest thinking from the DuniaOps team</h2><p>Practical guidance for teams building and operating modern software.</p></div>
-    <div class="blog-grid blog-grid-related">${posts.slice(0, 3).map((post) => blogCard(post, 'h3')).join('\n')}</div>
+    <div class="blog-grid blog-grid-related homepage-blog-grid">${homepagePosts.map((post, index) => blogCard(post, 'h3', index === 3 ? 'homepage-blog-card-fourth' : '')).join('\n')}</div>
     <div class="homepage-blog-more"><a class="btn btn-outline" href="/blog">View all articles</a></div>
   </div>
 </section>`;
