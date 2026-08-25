@@ -6,7 +6,20 @@
     <description>Practical articles about software development, AI, DevOps, cloud engineering, booking platforms and mobile products.</description>
     <language>en-gb</language>
     <atom:link href="https://www.duniaops.com/feed.xml" rel="self" type="application/rss+xml"/>
-    <lastBuildDate>Tue, 18 Aug 2026 00:00:00 GMT</lastBuildDate>
+    <lastBuildDate>Tue, 25 Aug 2026 00:00:00 GMT</lastBuildDate>
+    <item>
+      <title>When Should a UK Software Team Hire a DevOps Consultancy?</title>
+      <link>https://www.duniaops.com/blog/when-to-hire-devops-consultancy-uk</link>
+      <guid isPermaLink="true">https://www.duniaops.com/blog/when-to-hire-devops-consultancy-uk</guid>
+      <pubDate>Tue, 25 Aug 2026 00:00:00 GMT</pubDate>
+      <description>Learn when your UK software team needs DevOps support, what a consultancy should deliver, and how to choose an engagement that leaves you stronger.</description>
+      <author>info@duniaops.com (DuniaOps Team)</author>
+      <category>DevOps &amp; Cloud Consultancy</category>
+      <category>DevOps Consultancy</category>
+      <category>UK Software Teams</category>
+      <category>CI/CD</category>
+      <category>Cloud Engineering</category>
+    </item>
     <item>
       <title>From AI Prototype to Production: The Work That Makes It Dependable</title>
       <link>https://www.duniaops.com/blog/from-ai-prototype-to-production</link>

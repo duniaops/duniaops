@@ -1,0 +1,140 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="800" height="940" viewBox="0 0 800 940" role="img" aria-labelledby="title desc">
+  <title id="title">Five-stage DevOps consultancy engagement lifecycle</title>
+  <desc id="desc">An animated marker travels through understand, prioritise, implement, secure and handover, ending with team ownership.</desc>
+  <defs>
+    <linearGradient id="background" x1="0" y1="0" x2="1" y2="1">
+      <stop stop-color="#07182b"/>
+      <stop offset="0.58" stop-color="#0a2038"/>
+      <stop offset="1" stop-color="#111a30"/>
+    </linearGradient>
+    <linearGradient id="route" x1="0" y1="0" x2="0" y2="1">
+      <stop stop-color="#31a8eb"/>
+      <stop offset="0.55" stop-color="#6a91d1"/>
+      <stop offset="1" stop-color="#ef756c"/>
+    </linearGradient>
+    <linearGradient id="ownership" x1="0" y1="0" x2="1" y2="0">
+      <stop stop-color="#1173c9" stop-opacity=".32"/>
+      <stop offset="1" stop-color="#e2645c" stop-opacity=".24"/>
+    </linearGradient>
+    <radialGradient id="blueGlow" cx="0" cy="0" r="1" gradientTransform="translate(90 42) rotate(45) scale(470 360)" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#2b9de0" stop-opacity=".22"/>
+      <stop offset="1" stop-color="#2b9de0" stop-opacity="0"/>
+    </radialGradient>
+    <pattern id="grid" width="34" height="34" patternUnits="userSpaceOnUse">
+      <path d="M34 0H0V34" fill="none" stroke="#fff" stroke-opacity=".035"/>
+    </pattern>
+    <filter id="ringGlow" x="-100%" y="-100%" width="300%" height="300%">
+      <feGaussianBlur stdDeviation="4" result="blur"/>
+      <feMerge><feMergeNode in="blur"/><feMergeNode in="SourceGraphic"/></feMerge>
+    </filter>
+    <style>
+      text{font-family:Inter,ui-sans-serif,system-ui,-apple-system,BlinkMacSystemFont,"Segoe UI",sans-serif}
+      .eyebrow{fill:#73c9f2;font-size:16px;font-weight:750;letter-spacing:2.4px}
+      .title{fill:#fff;font-size:35px;font-weight:760;letter-spacing:-1px}
+      .intro{fill:#aebdcd;font-size:18px;font-weight:500}
+      .card{fill:#fff;fill-opacity:.055;stroke:#fff;stroke-opacity:.11}
+      .step-number{fill:#fff;font-size:16px;font-weight:780;text-anchor:middle}
+      .step-title{fill:#fff;font-size:22px;font-weight:720}
+      .step-detail{fill:#adbdce;font-size:16px;font-weight:500}
+      .ownership-title{fill:#fff;font-size:22px;font-weight:740}
+      .ownership-detail{fill:#b7c6d5;font-size:16px;font-weight:500}
+      .traveller{animation:travel 10s ease-in-out infinite;transform-box:view-box;transform-origin:0 0}
+      .ring-form{animation:ring-morph 10s linear infinite;transform-box:fill-box;transform-origin:center}
+      .flow-core{opacity:0;animation:flow-core 10s linear infinite}
+      .ring-pulse{animation:ring-pulse 1.7s ease-in-out infinite;transform-box:fill-box;transform-origin:center}
+      .ring-sweep{animation:ring-sweep 1.9s linear infinite;transform-box:fill-box;transform-origin:center}
+      @keyframes travel{
+        0%,8%{transform:translateY(0)}
+        20%,28%{transform:translateY(128px)}
+        40%,48%{transform:translateY(256px)}
+        60%,68%{transform:translateY(384px)}
+        80%,100%{transform:translateY(512px)}
+      }
+      @keyframes ring-morph{
+        0%,8%,20%,28%,40%,48%,60%,68%,80%,100%{opacity:1;transform:scale(1)}
+        11%,17%,31%,37%,51%,57%,71%,77%{opacity:.2;transform:scale(.18,.42)}
+      }
+      @keyframes flow-core{
+        0%,8%,20%,28%,40%,48%,60%,68%,80%,100%{opacity:0}
+        11%,17%,31%,37%,51%,57%,71%,77%{opacity:1}
+      }
+      @keyframes ring-pulse{0%,100%{opacity:.28;transform:scale(.94)}50%{opacity:.72;transform:scale(1.08)}}
+      @keyframes ring-sweep{to{transform:rotate(360deg)}}
+      @media (prefers-reduced-motion:reduce){
+        .traveller{animation:none;transform:translateY(512px)}
+        .ring-form,.ring-pulse,.ring-sweep{animation:none}
+        .flow-core{display:none}
+      }
+    </style>
+  </defs>
+
+  <rect width="800" height="940" rx="26" fill="url(#background)"/>
+  <rect width="800" height="940" rx="26" fill="url(#blueGlow)"/>
+  <rect width="800" height="940" rx="26" fill="url(#grid)"/>
+
+  <g transform="translate(56 58)">
+    <path d="M0 7H26" stroke="#31a8eb" stroke-width="4" stroke-linecap="round"/>
+    <path d="M29 7H43" stroke="#ef756c" stroke-width="4" stroke-linecap="round"/>
+    <text class="eyebrow" x="59" y="13">ENGAGEMENT LIFECYCLE</text>
+    <text class="title" x="0" y="67">A good engagement leaves you stronger</text>
+    <text class="intro" x="0" y="104">Ownership moves towards your team from day one.</text>
+  </g>
+
+  <path d="M104 220V732" stroke="#fff" stroke-opacity=".1" stroke-width="12" stroke-linecap="round"/>
+  <path d="M104 220V732" stroke="url(#route)" stroke-width="3" stroke-linecap="round"/>
+
+  <g transform="translate(0 196)">
+    <circle cx="104" cy="24" r="26" fill="#0b1c30" stroke="#31a8eb" stroke-width="2"/>
+    <text class="step-number" x="104" y="30">01</text>
+    <rect class="card" x="160" width="584" height="96" rx="17"/>
+    <text class="step-title" x="188" y="39">Understand</text>
+    <text class="step-detail" x="188" y="68">Map the delivery path, risks and constraints.</text>
+  </g>
+  <g transform="translate(0 324)">
+    <circle cx="104" cy="24" r="26" fill="#0b1c30" stroke="#4e9fde" stroke-width="2"/>
+    <text class="step-number" x="104" y="30">02</text>
+    <rect class="card" x="160" width="584" height="96" rx="17"/>
+    <text class="step-title" x="188" y="39">Prioritise</text>
+    <text class="step-detail" x="188" y="68">Choose the smallest valuable improvements.</text>
+  </g>
+  <g transform="translate(0 452)">
+    <circle cx="104" cy="24" r="26" fill="#0b1c30" stroke="#718bc5" stroke-width="2"/>
+    <text class="step-number" x="104" y="30">03</text>
+    <rect class="card" x="160" width="584" height="96" rx="17"/>
+    <text class="step-title" x="188" y="39">Implement together</text>
+    <text class="step-detail" x="188" y="68">Build, test and document working changes.</text>
+  </g>
+  <g transform="translate(0 580)">
+    <circle cx="104" cy="24" r="26" fill="#0b1c30" stroke="#ae7e9a" stroke-width="2"/>
+    <text class="step-number" x="104" y="30">04</text>
+    <rect class="card" x="160" width="584" height="96" rx="17"/>
+    <text class="step-title" x="188" y="39">Secure</text>
+    <text class="step-detail" x="188" y="68">Protect code, credentials and production.</text>
+  </g>
+  <g transform="translate(0 708)">
+    <circle cx="104" cy="24" r="26" fill="#0b1c30" stroke="#ef756c" stroke-width="2"/>
+    <text class="step-number" x="104" y="30">05</text>
+    <rect class="card" x="160" width="584" height="96" rx="17"/>
+    <text class="step-title" x="188" y="39">Handover</text>
+    <text class="step-detail" x="188" y="68">Transfer knowledge, runbooks and control.</text>
+  </g>
+
+  <g class="traveller">
+    <g class="ring-form" filter="url(#ringGlow)">
+      <circle class="ring-pulse" cx="104" cy="220" r="33" fill="none" stroke="#73c9f2" stroke-width="3"/>
+      <circle cx="104" cy="220" r="30" fill="none" stroke="#73c9f2" stroke-opacity=".42" stroke-width="5"/>
+      <circle class="ring-sweep" cx="104" cy="220" r="30" fill="none" stroke="#fff" stroke-width="4" stroke-linecap="round" stroke-dasharray="52 137"/>
+    </g>
+    <g class="flow-core" filter="url(#ringGlow)">
+      <rect x="99" y="206" width="10" height="28" rx="5" fill="#73c9f2" fill-opacity=".62"/>
+      <rect x="102" y="208" width="4" height="24" rx="2" fill="#fff"/>
+    </g>
+  </g>
+
+  <g transform="translate(56 838)">
+    <rect width="688" height="66" rx="18" fill="url(#ownership)" stroke="#fff" stroke-opacity=".12"/>
+    <path d="M28 33l9 9 19-22" fill="none" stroke="#73c9f2" stroke-width="4" stroke-linecap="round" stroke-linejoin="round"/>
+    <text class="ownership-title" x="78" y="30">The destination: team ownership</text>
+    <text class="ownership-detail" x="78" y="52">Your people can operate and improve the result independently.</text>
+  </g>
+</svg>

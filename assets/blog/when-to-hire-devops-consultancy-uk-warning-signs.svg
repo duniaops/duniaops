@@ -1,0 +1,119 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="800" height="920" viewBox="0 0 800 920" role="img" aria-labelledby="title desc">
+  <title id="title">Six signs that DevOps consultancy support may be useful</title>
+  <desc id="desc">Six cards show knowledge concentration, release friction, environment drift, slow diagnosis, cost ambiguity and platform drag.</desc>
+  <defs>
+    <linearGradient id="background" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#07182b"/>
+      <stop offset="0.55" stop-color="#0a2038"/>
+      <stop offset="1" stop-color="#101b31"/>
+    </linearGradient>
+    <linearGradient id="blue" x1="0" y1="0" x2="1" y2="1">
+      <stop stop-color="#31a8eb"/>
+      <stop offset="1" stop-color="#1173c9"/>
+    </linearGradient>
+    <linearGradient id="coral" x1="0" y1="0" x2="1" y2="1">
+      <stop stop-color="#ef756c"/>
+      <stop offset="1" stop-color="#7b6bb0"/>
+    </linearGradient>
+    <radialGradient id="glowBlue" cx="0" cy="0" r="1" gradientTransform="translate(52 32) rotate(42) scale(510 390)" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#2b9de0" stop-opacity="0.24"/>
+      <stop offset="1" stop-color="#2b9de0" stop-opacity="0"/>
+    </radialGradient>
+    <radialGradient id="glowCoral" cx="0" cy="0" r="1" gradientTransform="translate(770 890) rotate(-135) scale(370 300)" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#e2645c" stop-opacity="0.18"/>
+      <stop offset="1" stop-color="#e2645c" stop-opacity="0"/>
+    </radialGradient>
+    <pattern id="grid" width="34" height="34" patternUnits="userSpaceOnUse">
+      <path d="M34 0H0V34" fill="none" stroke="#ffffff" stroke-opacity="0.035"/>
+    </pattern>
+    <filter id="shadow" x="-20%" y="-20%" width="140%" height="150%">
+      <feDropShadow dx="0" dy="10" stdDeviation="14" flood-color="#000814" flood-opacity="0.35"/>
+    </filter>
+    <style>
+      text{font-family:Inter,ui-sans-serif,system-ui,-apple-system,BlinkMacSystemFont,"Segoe UI",sans-serif}
+      .eyebrow{fill:#73c9f2;font-size:16px;font-weight:750;letter-spacing:2.4px}
+      .title{fill:#ffffff;font-size:35px;font-weight:760;letter-spacing:-1px}
+      .intro{fill:#aebdcd;font-size:18px;font-weight:500}
+      .card{fill:#ffffff;fill-opacity:.055;stroke:#ffffff;stroke-opacity:.11}
+      .number{fill:#ffffff;font-size:17px;font-weight:780;letter-spacing:1px;text-anchor:middle}
+      .label{fill:#ffffff;font-size:21px;font-weight:720}
+      .detail{fill:#adbdce;font-size:16px;font-weight:500}
+      .footer{fill:#dbe7f3;font-size:17px;font-weight:650}
+      .footer-soft{fill:#92a7ba;font-size:15px;font-weight:500}
+    </style>
+  </defs>
+
+  <rect width="800" height="920" rx="26" fill="url(#background)"/>
+  <rect width="800" height="920" rx="26" fill="url(#glowBlue)"/>
+  <rect width="800" height="920" rx="26" fill="url(#glowCoral)"/>
+  <rect width="800" height="920" rx="26" fill="url(#grid)"/>
+
+  <g transform="translate(56 58)">
+    <path d="M0 7H26" stroke="#31a8eb" stroke-width="4" stroke-linecap="round"/>
+    <path d="M29 7H43" stroke="#ef756c" stroke-width="4" stroke-linecap="round"/>
+    <text class="eyebrow" x="59" y="13">DECISION SIGNALS</text>
+    <text class="title" x="0" y="67">Look for a pattern, not one symptom</text>
+    <text class="intro" x="0" y="104">Connected delivery problems usually point to a system issue.</text>
+  </g>
+
+  <g filter="url(#shadow)">
+    <g transform="translate(56 202)">
+      <rect class="card" width="332" height="176" rx="18"/>
+      <rect x="20" y="22" width="58" height="58" rx="17" fill="url(#blue)"/>
+      <text class="number" x="49" y="58">01</text>
+      <text class="label" x="96" y="47">Knowledge</text>
+      <text class="label" x="96" y="73">concentration</text>
+      <text class="detail" x="20" y="119">Releases depend on a few</text>
+      <text class="detail" x="20" y="145">people being available.</text>
+    </g>
+    <g transform="translate(412 202)">
+      <rect class="card" width="332" height="176" rx="18"/>
+      <rect x="20" y="22" width="58" height="58" rx="17" fill="url(#coral)"/>
+      <text class="number" x="49" y="58">02</text>
+      <text class="label" x="96" y="60">Release friction</text>
+      <text class="detail" x="20" y="119">Changes feel stressful,</text>
+      <text class="detail" x="20" y="145">manual and hard to repeat.</text>
+    </g>
+
+    <g transform="translate(56 400)">
+      <rect class="card" width="332" height="176" rx="18"/>
+      <rect x="20" y="22" width="58" height="58" rx="17" fill="url(#blue)"/>
+      <text class="number" x="49" y="58">03</text>
+      <text class="label" x="96" y="60">Environment drift</text>
+      <text class="detail" x="20" y="119">Testing and production</text>
+      <text class="detail" x="20" y="145">behave differently.</text>
+    </g>
+    <g transform="translate(412 400)">
+      <rect class="card" width="332" height="176" rx="18"/>
+      <rect x="20" y="22" width="58" height="58" rx="17" fill="url(#coral)"/>
+      <text class="number" x="49" y="58">04</text>
+      <text class="label" x="96" y="60">Slow diagnosis</text>
+      <text class="detail" x="20" y="119">Incidents take too long</text>
+      <text class="detail" x="20" y="145">to understand and resolve.</text>
+    </g>
+
+    <g transform="translate(56 598)">
+      <rect class="card" width="332" height="176" rx="18"/>
+      <rect x="20" y="22" width="58" height="58" rx="17" fill="url(#blue)"/>
+      <text class="number" x="49" y="58">05</text>
+      <text class="label" x="96" y="60">Cost ambiguity</text>
+      <text class="detail" x="20" y="119">Cloud spending has no</text>
+      <text class="detail" x="20" y="145">clear owner or explanation.</text>
+    </g>
+    <g transform="translate(412 598)">
+      <rect class="card" width="332" height="176" rx="18"/>
+      <rect x="20" y="22" width="58" height="58" rx="17" fill="url(#coral)"/>
+      <text class="number" x="49" y="58">06</text>
+      <text class="label" x="96" y="60">Platform drag</text>
+      <text class="detail" x="20" y="119">Product work waits on</text>
+      <text class="detail" x="20" y="145">infrastructure decisions.</text>
+    </g>
+  </g>
+
+  <g transform="translate(56 828)">
+    <circle cx="10" cy="10" r="10" fill="#31a8eb" fill-opacity=".22"/>
+    <circle cx="10" cy="10" r="4" fill="#73c9f2"/>
+    <text class="footer" x="31" y="8">One signal invites investigation.</text>
+    <text class="footer-soft" x="31" y="35">A connected pattern creates a case for focused support.</text>
+  </g>
+</svg>
