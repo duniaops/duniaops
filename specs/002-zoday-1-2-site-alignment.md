@@ -1,6 +1,6 @@
 # Zoday 1.2 ürün, gizlilik ve destek sayfalarını güncel ürün sözleşmesiyle hizala
 
-**Status:** In progress — local implementation and verification complete; deploy verification pending
+**Status:** Implemented (commit `44fcb87`; production verified 2026-08-28)
 **Type:** Improvement
 **Priority:** P1 — App Store incelemesine gönderilen 1.2.0 sürümünün Marketing URL'si hâlâ reddedilen burç/fal merkezli konumlandırmayı anlatıyor.
 **Risk:** High — yanlış veya birbiriyle çelişen ürün, abonelik ve veri işleme iddiaları App Review sonucunu, kullanıcı güvenini ve gizlilik beyanlarının doğruluğunu etkileyebilir.
@@ -199,5 +199,9 @@ En az aşağıdaki içerikler eklenecek veya düzeltilecek:
   --omit=dev`, `xmllint --noout sitemap.xml` and `git diff --check` passed;
   local checks at 320 px and desktop found no horizontal overflow or browser
   console errors.
-- No Netlify preview, production deploy, commit or public-store link was
-  created. Those require their own verified URLs and explicit release authority.
+- Commit `44fcb87` was pushed to `main` and production was checked while logged
+  out: `/products`, `/products/zoday`, `/zoday/privacy-policy` and
+  `/zoday/support` returned HTTP 200. The live product page contained the new
+  hero, canonical and Open Graph URL, and five screenshot assets; privacy
+  policy v1.5 and the updated support date were present. Browser-console checks
+  reported no errors. No public-store link was created.
