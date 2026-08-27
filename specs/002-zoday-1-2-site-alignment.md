@@ -1,6 +1,6 @@
 # Zoday 1.2 ürün, gizlilik ve destek sayfalarını güncel ürün sözleşmesiyle hizala
 
-**Status:** Not started
+**Status:** In progress — local implementation and verification complete; deploy verification pending
 **Type:** Improvement
 **Priority:** P1 — App Store incelemesine gönderilen 1.2.0 sürümünün Marketing URL'si hâlâ reddedilen burç/fal merkezli konumlandırmayı anlatıyor.
 **Risk:** High — yanlış veya birbiriyle çelişen ürün, abonelik ve veri işleme iddiaları App Review sonucunu, kullanıcı güvenini ve gizlilik beyanlarının doğruluğunu etkileyebilir.
@@ -184,3 +184,20 @@ En az aşağıdaki içerikler eklenecek veya düzeltilecek:
 4. Netlify deploy preview üzerinde release owner içerik onayı al.
 5. Privacy, support, ürün kartı ve ürün sayfasını aynı production deploy ile yayımla; canlı logged-out kontrolünü kaydet.
 6. Tamamlandığında bu spec'in `Status:` alanını `Implemented` yap ve doğrulama/deploy commit kimliğini kısa bir completion record ile ekle.
+
+## Implementation record — 28 August 2026
+
+- Rewrote the Zoday product page and catalogue card around the personal celestial
+  calendar, private journal and descriptive-pattern contract.
+- Added five optimized English build 40 screenshots from the submitted 1.2.0
+  App Store asset set, with responsive layout, dimensions, lazy loading and
+  descriptive alternative text.
+- Updated the bilingual privacy policy to version 1.5 and the bilingual support
+  page for Apple/iPhone and Google/Android account, subscription, restoration,
+  notification and deletion guidance.
+- Updated Zoday SEO/structured data and sitemap dates. `npm test`, `npm audit
+  --omit=dev`, `xmllint --noout sitemap.xml` and `git diff --check` passed;
+  local checks at 320 px and desktop found no horizontal overflow or browser
+  console errors.
+- No Netlify preview, production deploy, commit or public-store link was
+  created. Those require their own verified URLs and explicit release authority.

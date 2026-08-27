@@ -508,6 +508,10 @@ footer{background:var(--navy);color:var(--text-dark-muted);padding:64px 0 34px;b
 .product-facts dt{color:var(--muted);font:600 11px 'Inter',sans-serif;text-transform:uppercase;letter-spacing:.06em}
 .product-facts dd{color:var(--ink);font:550 13px/1.5 'Inter',sans-serif}
 .product-pillars{display:grid;grid-template-columns:repeat(4,1fr);gap:18px;margin-top:40px}
+.zoday-screenshot-grid{display:grid;grid-template-columns:repeat(5,minmax(0,1fr));gap:14px;margin-top:38px}
+.zoday-screenshot-grid figure{min-width:0;overflow:hidden;margin:0;border:1px solid var(--line);border-radius:var(--radius-sm);background:#0e0e1c;box-shadow:var(--shadow)}
+.zoday-screenshot-grid img{display:block;width:100%;height:auto;background:#0e0e1c}
+.zoday-screenshot-grid figcaption{padding:11px 12px;color:#dfe6ef;font:600 11.5px/1.3 'Inter',sans-serif;letter-spacing:.04em;text-align:center}
 .product-pillar{
   min-width:0;padding:26px 24px;background:#fff;border:1px solid var(--line);border-radius:var(--radius-sm);
   transition:transform .25s,box-shadow .25s;
@@ -773,6 +777,7 @@ footer{background:var(--navy);color:var(--text-dark-muted);padding:64px 0 34px;b
   .product-overview{grid-template-columns:1fr;gap:36px}
   .product-facts{max-width:620px}
   .product-pillars{grid-template-columns:1fr 1fr}
+  .zoday-screenshot-grid{grid-template-columns:repeat(3,minmax(0,1fr))}
   .product-game-grid{grid-template-columns:1fr 1fr}
   .product-faq-layout{grid-template-columns:1fr;gap:36px}
   .product-side-note{max-width:620px}
@@ -823,6 +828,7 @@ footer{background:var(--navy);color:var(--text-dark-muted);padding:64px 0 34px;b
   .store-actions{flex-direction:column}
   .store-badge{width:100%}
   .product-pillars,.product-steps,.product-detail-grid,.product-dark-grid,.product-game-grid{grid-template-columns:1fr}
+  .zoday-screenshot-grid{grid-template-columns:repeat(2,minmax(0,1fr));gap:10px}
   .product-facts div{grid-template-columns:84px 1fr}
   .product-dark-band{padding:68px 0}
   .product-callout{padding:23px 22px}
