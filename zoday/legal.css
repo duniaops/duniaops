@@ -1,0 +1,175 @@
+:root {
+  --rockimals-night: #0e0e1c;
+  --rockimals-accent: #8d70ff;
+  --rockimals-accent-dark: #5b3fc0;
+  --rockimals-accent-soft: #f1edff;
+  --rockimals-paper: #fffdfb;
+  --rockimals-ink: #201d30;
+  --rockimals-muted: #6e687b;
+  --rockimals-rule: #e1ddea;
+}
+
+body.zoday-legal-page {
+  background: #f5f3f8;
+}
+
+body.zoday-legal-page::before { display: none; }
+
+body.zoday-legal-page > header {
+  margin: 0;
+  padding: 0;
+  border: 0;
+}
+
+body.zoday-legal-page > header::after { display: none; }
+
+.zoday-legal-page .foot {
+  margin-top: 0;
+  border-top: 0;
+  font-size: 14px;
+}
+
+.zoday-legal-hero {
+  background:
+    radial-gradient(42rem 28rem at 8% 44%, rgba(125, 89, 224, .44), transparent 66%),
+    radial-gradient(28rem 20rem at 28% 105%, rgba(215, 168, 77, .13), transparent 68%),
+    linear-gradient(90deg, #201735 0%, #151222 53%, #0e0e1c 100%);
+}
+
+.zoday-legal-hero h1,
+.zoday-legal-page .legal-document h2,
+.zoday-legal-page .legal-document h3,
+.zoday-legal-page .legal-document h4 {
+  font-family: Inter, -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
+}
+
+.zoday-legal-hero::before {
+  content: "";
+  position: absolute;
+  inset: -58% 0 -64% -4%;
+  pointer-events: none;
+  opacity: .34;
+  background: url("/assets/products/zoday-nebula.png") left center / 66% auto no-repeat;
+  -webkit-mask-image: linear-gradient(90deg, #000 0%, #000 28%, rgba(0,0,0,.72) 48%, transparent 76%);
+  mask-image: linear-gradient(90deg, #000 0%, #000 28%, rgba(0,0,0,.72) 48%, transparent 76%);
+  mix-blend-mode: screen;
+}
+
+.zoday-legal-page .legal-product-mark img {
+  padding: 6px;
+  object-fit: contain;
+  background: rgba(12, 10, 24, .48);
+  filter: brightness(1.24) contrast(1.08) saturate(1.12);
+  box-shadow: 0 12px 30px rgba(0,0,0,.32), 0 0 24px rgba(141,112,255,.22);
+}
+
+.zoday-legal-page .legal-language-tabs button[aria-selected="true"] {
+  color: #171326;
+}
+
+.zoday-legal-page .legal-language-tabs button[aria-selected="true"]:hover,
+.zoday-legal-page .legal-language-tabs button[aria-selected="true"]:focus-visible {
+  color: #171326;
+}
+
+.zoday-legal-page .legal-document h2:not(.legal-language-heading) {
+  margin: 38px 0 12px;
+  color: var(--rockimals-ink);
+  font-size: clamp(24px, 3.4vw, 32px);
+  line-height: 1.22;
+  letter-spacing: -.03em;
+}
+
+.zoday-legal-page .table-scroll {
+  overflow-x: auto;
+  margin: 18px 0 26px;
+  border: 1px solid var(--rockimals-rule);
+  border-radius: 14px;
+  background: #fff;
+  -webkit-overflow-scrolling: touch;
+}
+
+.zoday-legal-page .table-scroll table {
+  width: 100%;
+  min-width: 640px;
+  border-collapse: collapse;
+  font-size: 14px;
+}
+
+.zoday-legal-page .table-scroll th,
+.zoday-legal-page .table-scroll td {
+  padding: 14px 16px;
+  text-align: left;
+  vertical-align: top;
+  border-bottom: 1px solid var(--rockimals-rule);
+}
+
+.zoday-legal-page .table-scroll tr:last-child td { border-bottom: 0; }
+
+.zoday-legal-page .table-scroll th {
+  background: #f5f3f8;
+  color: var(--rockimals-muted);
+  font-size: 11px;
+  font-weight: 800;
+  letter-spacing: .08em;
+  text-transform: uppercase;
+}
+
+.zoday-legal-page .note {
+  margin: 24px 0 30px;
+  padding: 19px 22px;
+  border: 1px solid #d9cffc;
+  border-left: 4px solid var(--rockimals-accent);
+  border-radius: 6px 14px 14px 6px;
+  background: var(--rockimals-accent-soft);
+  color: #50495d;
+}
+
+.zoday-legal-page .note strong { color: var(--rockimals-ink); }
+
+.zoday-legal-page .mail {
+  display: grid;
+  gap: 8px;
+  margin: 14px 0 34px;
+  padding: 24px;
+  border: 1px solid #d9cffc;
+  border-radius: 16px;
+  background: var(--rockimals-accent-soft);
+}
+
+.zoday-legal-page .mail a {
+  width: fit-content;
+  font-size: clamp(20px, 3vw, 27px);
+  font-weight: 800;
+  line-height: 1.2;
+}
+
+.zoday-legal-page .legal-faq-flow > h3 {
+  margin: 0;
+  padding-top: 22px;
+  font-size: 17px;
+  line-height: 1.4;
+  letter-spacing: 0;
+}
+
+.zoday-legal-page .legal-faq-flow > p {
+  max-width: none;
+  margin: 0;
+  padding: 8px 0 22px;
+  border-bottom: 1px solid var(--rockimals-rule);
+  color: var(--rockimals-muted);
+}
+
+@media (max-width: 520px) {
+  .zoday-legal-page .note,
+  .zoday-legal-page .mail { padding: 18px; }
+  .zoday-legal-page .mail a { overflow-wrap: anywhere; }
+  .zoday-legal-page .table-scroll { margin-inline: -4px; }
+}
+
+@media print {
+  .zoday-legal-page .table-scroll { overflow: visible; }
+  .zoday-legal-page .table-scroll table { min-width: 0; }
+  .zoday-legal-page .note,
+  .zoday-legal-page .mail { break-inside: avoid; }
+}
