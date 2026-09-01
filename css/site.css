@@ -319,9 +319,55 @@ section{padding:104px 0}
   width:100%;border:1px solid #cfd5dd;border-radius:9px;background:#fff;color:var(--ink);
   font:400 15px/1.5 'Inter',sans-serif;padding:11px 12px;
 }
+.field select{
+  appearance:none;-webkit-appearance:none;padding-right:42px;
+  background-image:url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='18' height='18' viewBox='0 0 24 24' fill='none' stroke='%233d4757' stroke-width='2' stroke-linecap='round' stroke-linejoin='round'%3E%3Cpath d='m6 9 6 6 6-6'/%3E%3C/svg%3E");
+  background-position:right 12px center;background-repeat:no-repeat;background-size:18px;
+}
 .field textarea{min-height:126px;resize:vertical}
 .field input:hover,.field select:hover,.field textarea:hover{border-color:#aab4c1}
 .field input:focus,.field select:focus,.field textarea:focus{border-color:var(--blue);box-shadow:0 0 0 3px rgba(17,115,201,.12);outline:none}
+.service-select{position:relative;min-width:0}
+.service-select-trigger{
+  position:relative;width:100%;min-height:46.5px;padding:11px 42px 11px 13px;
+  overflow:hidden;text-align:left;white-space:nowrap;text-overflow:ellipsis;
+  color:var(--ink);background:#fff;border:1px solid #cfd5dd;border-radius:9px;
+  font:400 15px/1.5 'Inter',sans-serif;cursor:pointer;
+  transition:border-color .16s ease,box-shadow .16s ease,background-color .16s ease;
+}
+.service-select-trigger::after{
+  content:"";position:absolute;right:15px;top:50%;width:8px;height:8px;
+  border-right:2px solid var(--body);border-bottom:2px solid var(--body);
+  transform:translateY(-70%) rotate(45deg);transition:transform .18s ease;
+}
+.service-select-trigger:hover{border-color:#aab4c1;background:var(--cloud)}
+.service-select-trigger:focus-visible,.service-select.is-open .service-select-trigger{
+  border-color:var(--blue);box-shadow:0 0 0 3px rgba(17,115,201,.12);outline:none;
+}
+.service-select.is-open .service-select-trigger::after{transform:translateY(-25%) rotate(225deg)}
+.service-select-trigger.is-placeholder{color:var(--soft)}
+.service-select-trigger[aria-invalid="true"]{border-color:var(--red);box-shadow:0 0 0 3px rgba(197,61,61,.12)}
+.service-select-menu{
+  position:absolute;z-index:20;top:calc(100% + 8px);right:0;width:min(320px,calc(100vw - 40px));min-width:100%;
+  padding:7px;background:#fff;border:1px solid var(--line);border-radius:12px;
+  box-shadow:var(--shadow-lg);
+}
+.service-select-menu[hidden]{display:none}
+.service-select.open-up .service-select-menu{top:auto;bottom:calc(100% + 8px)}
+.service-select-option{
+  display:block;width:100%;padding:10px 12px;text-align:left;
+  color:var(--body);background:transparent;border:0;border-radius:8px;
+  font:500 14px/1.4 'Inter',sans-serif;cursor:pointer;
+  transition:background-color .14s ease,color .14s ease;
+}
+.service-select-option:hover,.service-select-option:focus-visible{color:var(--ink);background:var(--cloud);outline:none}
+.service-select-option[aria-selected="true"]{color:var(--deep);background:var(--tint);font-weight:650}
+.service-select-option[aria-selected="true"]::before{
+  content:"";display:inline-block;width:6px;height:6px;margin:0 9px 2px 0;
+  background:var(--blue);border-radius:50%;
+}
+.service-select-option[value=""]{color:var(--soft)}
+.service-select-option[value=""][aria-selected="true"]::before{background:var(--muted)}
 .form-actions{display:flex;align-items:center;gap:16px;flex-wrap:wrap;margin-top:22px}
 .form-note{color:var(--soft);font-size:12px;line-height:1.5;max-width:360px}
 .form-note a{text-decoration:underline;text-underline-offset:2px}
@@ -740,7 +786,7 @@ footer{background:var(--navy);color:var(--text-dark-muted);padding:64px 0 34px;b
 
 @media (prefers-reduced-motion:reduce){
   html{scroll-behavior:auto}
-  .btn,.tile,.step,.deliver,.benefit{transition:none}
+  .btn,.tile,.step,.deliver,.benefit,.service-select-trigger,.service-select-trigger::after,.service-select-option{transition:none}
 }
 
 /* ---------- responsive ---------- */
@@ -851,6 +897,7 @@ footer{background:var(--navy);color:var(--text-dark-muted);padding:64px 0 34px;b
   .form-card{padding:24px 20px}
   .form-grid{grid-template-columns:1fr}
   .field.full{grid-column:auto}
+  .service-select-menu{width:100%;min-width:100%}
   .form-actions{align-items:stretch;flex-direction:column}
   .form-actions .btn{width:100%}
   .cookie-banner{left:12px;right:12px;bottom:12px;align-items:stretch;flex-direction:column;gap:16px;padding:20px}
