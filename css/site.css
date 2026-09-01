@@ -488,13 +488,22 @@ footer{background:var(--navy);color:var(--text-dark-muted);padding:64px 0 34px;b
 .lumo-product .product-hero{background:radial-gradient(48rem 28rem at 84% 15%,rgba(36,119,232,.27),transparent 60%),radial-gradient(42rem 24rem at 12% -20%,rgba(43,157,224,.18),transparent 60%),#090d13}
 .rockimals-product .product-hero{background:radial-gradient(48rem 30rem at 84% 15%,rgba(242,139,82,.24),transparent 60%),radial-gradient(42rem 24rem at 10% -20%,rgba(43,157,224,.16),transparent 60%),#07101d}
 .store-actions{display:flex;gap:12px;flex-wrap:wrap;margin-top:30px}
+.app-store-badge-link{display:inline-flex;align-items:center;min-height:48px;text-decoration:none}
+.app-store-badge-link img{display:block;width:auto;height:48px}
+.app-store-badge-link:focus-visible{outline:3px solid var(--product-accent);outline-offset:4px;border-radius:8px}
 .store-badge{
   display:inline-flex;align-items:center;justify-content:center;min-height:48px;padding:11px 18px;
   color:#fff;border:1px solid rgba(255,255,255,.22);border-radius:12px;background:rgba(255,255,255,.07);
   font:650 13px/1.25 'Inter',sans-serif;
 }
 .store-badge[aria-disabled="true"]{cursor:not-allowed;opacity:.72}
+.store-badge-live{
+  color:#07101d;border-color:#fff;background:#fff;text-decoration:none;
+  box-shadow:0 12px 28px rgba(0,0,0,.2);transition:transform .2s ease,box-shadow .2s ease;
+}
+.store-badge-live:hover,.store-badge-live:focus-visible{transform:translateY(-2px);box-shadow:0 16px 34px rgba(0,0,0,.28)}
 .store-actions-light .store-badge{color:var(--body);border-color:var(--line);background:#fff}
+.store-actions-light .store-badge-live{color:#fff;border-color:var(--product-surface);background:var(--product-surface)}
 .product-brand-plate img{border-radius:14px}
 .flush-top{margin-top:0}
 .product-trust-strip{display:flex;gap:9px;flex-wrap:wrap;margin-top:28px}
