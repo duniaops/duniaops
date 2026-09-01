@@ -6,7 +6,20 @@
     <description>Practical articles about software development, AI, DevOps, cloud engineering, booking platforms and mobile products.</description>
     <language>en-gb</language>
     <atom:link href="https://www.duniaops.com/feed.xml" rel="self" type="application/rss+xml"/>
-    <lastBuildDate>Tue, 25 Aug 2026 00:00:00 GMT</lastBuildDate>
+    <lastBuildDate>Tue, 01 Sep 2026 00:00:00 GMT</lastBuildDate>
+    <item>
+      <title>Software Project Rescue UK: Can a New Team Take Over?</title>
+      <link>https://www.duniaops.com/blog/software-project-rescue-uk</link>
+      <guid isPermaLink="true">https://www.duniaops.com/blog/software-project-rescue-uk</guid>
+      <pubDate>Tue, 01 Sep 2026 00:00:00 GMT</pubDate>
+      <description>Learn how a new team can safely take over stalled software, what to secure first, and how DuniaOps approaches software project rescue in the UK.</description>
+      <author>info@duniaops.com (DuniaOps Team)</author>
+      <category>Software Consultancy</category>
+      <category>Software Project Rescue</category>
+      <category>Codebase Assessment</category>
+      <category>Software Consultancy</category>
+      <category>Project Handover</category>
+    </item>
     <item>
       <title>When Should a UK Software Team Hire a DevOps Consultancy?</title>
       <link>https://www.duniaops.com/blog/when-to-hire-devops-consultancy-uk</link>
