@@ -6,7 +6,20 @@
     <description>Practical articles about software development, AI, DevOps, cloud engineering, booking platforms and mobile products.</description>
     <language>en-gb</language>
     <atom:link href="https://www.duniaops.com/feed.xml" rel="self" type="application/rss+xml"/>
-    <lastBuildDate>Tue, 01 Sep 2026 00:00:00 GMT</lastBuildDate>
+    <lastBuildDate>Fri, 04 Sep 2026 00:00:00 GMT</lastBuildDate>
+    <item>
+      <title>GPT-6 Astra Explained: What Changes and When to Use It</title>
+      <link>https://www.duniaops.com/blog/gpt-6-astra-explained</link>
+      <guid isPermaLink="true">https://www.duniaops.com/blog/gpt-6-astra-explained</guid>
+      <pubDate>Fri, 04 Sep 2026 00:00:00 GMT</pubDate>
+      <description>A plain-English guide to GPT-6 Astra, how it differs from GPT-5.6, where its deeper reasoning helps, and when a cheaper model is the better choice.</description>
+      <author>info@duniaops.com (DuniaOps Team)</author>
+      <category>AI-Accelerated Development</category>
+      <category>GPT-6 Astra</category>
+      <category>Artificial Intelligence</category>
+      <category>AI Model Selection</category>
+      <category>AI Software Development</category>
+    </item>
     <item>
       <title>Software Project Rescue UK: Can a New Team Take Over?</title>
       <link>https://www.duniaops.com/blog/software-project-rescue-uk</link>

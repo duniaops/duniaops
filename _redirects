@@ -17,6 +17,7 @@ https://duniaops.com/* https://www.duniaops.com/:splat 301!
 /thank-you.html /thank-you 301!
 # blog:start
 /blog.html /blog 301!
+/blog/gpt-6-astra-explained.html /blog/gpt-6-astra-explained 301!
 /blog/software-project-rescue-uk.html /blog/software-project-rescue-uk 301!
 /blog/when-to-hire-devops-consultancy-uk.html /blog/when-to-hire-devops-consultancy-uk 301!
 /blog/from-ai-prototype-to-production.html /blog/from-ai-prototype-to-production 301!
