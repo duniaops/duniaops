@@ -24,9 +24,9 @@
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&amp;display=swap" rel="stylesheet">
-<link rel="stylesheet" href="css/site.css?v=20260908-rescue-panel">
+<link rel="stylesheet" href="css/site.css?v=20260908-inline-validation">
 <script src="js/analytics.js?v=20260907-lead-taxonomy" defer></script>
-<script src="js/site.js?v=20260908-form-layout" defer></script>
+<script src="js/site.js?v=20260908-inline-validation" defer></script>
 <script type="application/ld+json">
 {
   "@context": "https://schema.org",
@@ -397,12 +397,19 @@
       <p class="hp-field"><label>Leave this field empty <input type="text" name="website" tabindex="-1" autocomplete="off"></label></p>
       <h3>Start the conversation</h3>
       <p class="form-intro">A few details are enough. We’ll respond with practical questions and a sensible next step.</p>
+      <div class="form-error-summary" id="form-error-summary" role="alert" aria-atomic="true" hidden>
+        <span class="form-error-summary-icon" aria-hidden="true">!</span>
+        <div>
+          <strong>We need a little more information.</strong>
+          <p data-error-count>Please review the highlighted fields and try again.</p>
+        </div>
+      </div>
       <div class="form-grid">
-        <div class="field"><label for="name">Name</label><input id="name" name="name" type="text" autocomplete="name" required></div>
-        <div class="field"><label for="email">Work email</label><input id="email" name="email" type="email" autocomplete="email" required></div>
+        <div class="field"><label for="name">Name</label><input id="name" name="name" type="text" autocomplete="name" aria-describedby="name-error" required><p class="field-error" id="name-error"></p></div>
+        <div class="field"><label for="email">Work email</label><input id="email" name="email" type="email" autocomplete="email" aria-describedby="email-error" required><p class="field-error" id="email-error"></p></div>
         <div class="field"><label for="company">Company <span aria-hidden="true">(optional)</span></label><input id="company" name="company" type="text" autocomplete="organization"></div>
-        <div class="field"><label id="service-label" for="service">What do you need?</label><select id="service" name="service_category" required><option value="">Choose a service</option><option value="ai">AI-enabled software or workflow development</option><option value="support">Application support and maintenance</option><option value="booking">Booking or allocation platform</option><option value="custom_software">Custom software development</option><option value="devops_cloud">DevOps or cloud consultancy</option><option value="mobile">Mobile app development</option><option value="rescue">Rescue or take over an existing software project</option><option value="consultancy">Software consultancy or team support</option><option value="unknown">Not sure yet</option></select></div>
-        <div class="field full"><label for="brief">What are you trying to achieve?</label><textarea id="brief" name="brief" placeholder="The problem, the people it affects, and what a useful first version should do." required></textarea></div>
+        <div class="field"><label id="service-label" for="service">What do you need?</label><select id="service" name="service_category" aria-describedby="service-error" required><option value="">Choose a service</option><option value="ai">AI-enabled software or workflow development</option><option value="support">Application support and maintenance</option><option value="booking">Booking or allocation platform</option><option value="custom_software">Custom software development</option><option value="devops_cloud">DevOps or cloud consultancy</option><option value="mobile">Mobile app development</option><option value="rescue">Rescue or take over an existing software project</option><option value="consultancy">Software consultancy or team support</option><option value="unknown">Not sure yet</option></select><p class="field-error" id="service-error"></p></div>
+        <div class="field full"><label for="brief">What are you trying to achieve?</label><textarea id="brief" name="brief" placeholder="The problem, the people it affects, and what a useful first version should do." aria-describedby="brief-error" required></textarea><p class="field-error" id="brief-error"></p></div>
       </div>
       <div class="form-actions">
         <button class="btn btn-red" type="submit">Send project enquiry</button>

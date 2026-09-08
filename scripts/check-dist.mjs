@@ -28,6 +28,7 @@ const REQUIRED_PATHS = [
   'feed.xml',
   'index.html',
   'js/analytics.js',
+  'js/site.js',
   'privacy.html',
   'products.html',
   'robots.txt',
@@ -202,6 +203,7 @@ async function validateLeadMeasurement() {
   const errors = [];
   const homepage = await readFile(insideDist('index.html'), 'utf8');
   const analytics = await readFile(insideDist('js/analytics.js'), 'utf8');
+  const siteScript = await readFile(insideDist('js/site.js'), 'utf8');
 
   const requiredFormFragments = [
     'name="form_version" value="project_enquiry_v2"',
@@ -210,7 +212,12 @@ async function validateLeadMeasurement() {
     'name="service_category"',
     '<option value="rescue">',
     '<option value="support">',
-    '<option value="custom_software">'
+    '<option value="custom_software">',
+    'id="form-error-summary" role="alert"',
+    'id="name-error"',
+    'id="email-error"',
+    'id="service-error"',
+    'id="brief-error"'
   ];
   for (const fragment of requiredFormFragments) {
     if (!homepage.includes(fragment)) errors.push(`index.html: missing lead taxonomy fragment ${fragment}`);
@@ -236,6 +243,12 @@ async function validateLeadMeasurement() {
     errors.push('index.html: service choices must be alphabetical after the placeholder, with Not sure yet last');
   }
 
+  const formTag = homepage.match(/<form class="form-card"[^>]*>/)?.[0] || '';
+  if (!formTag) errors.push('index.html: project enquiry form tag is missing');
+  if (/\bnovalidate\b/.test(formTag)) {
+    errors.push('index.html: static form must retain native no-JavaScript validation fallback');
+  }
+
   const requiredAnalyticsFragments = [
     "window.gtag('event', 'generate_lead'",
     'form_version: context.form_version',
@@ -245,6 +258,17 @@ async function validateLeadMeasurement() {
   ];
   for (const fragment of requiredAnalyticsFragments) {
     if (!analytics.includes(fragment)) errors.push(`js/analytics.js: missing privacy-safe lead field ${fragment}`);
+  }
+
+  const requiredValidationFragments = [
+    'enquiryForm.noValidate = true',
+    "event.stopImmediatePropagation()",
+    "target.setAttribute('aria-invalid', 'true')",
+    "validationTarget(firstInvalid).focus()",
+    "enquiryForm.addEventListener('input', refreshChangedField)"
+  ];
+  for (const fragment of requiredValidationFragments) {
+    if (!siteScript.includes(fragment)) errors.push(`js/site.js: missing inline validation behaviour ${fragment}`);
   }
 
   return errors;

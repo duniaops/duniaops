@@ -72,6 +72,7 @@
 
   // preselect the service passed from a detail-page CTA
   var serviceSelect = document.getElementById('service');
+  var serviceSelectTrigger = null;
   if (serviceSelect) {
     var selectedService = new URLSearchParams(window.location.search).get('service');
     if (selectedService && serviceSelect.querySelector('option[value="' + selectedService + '"]')) {
@@ -89,6 +90,8 @@
     selectTrigger.setAttribute('aria-haspopup', 'listbox');
     selectTrigger.setAttribute('aria-expanded', 'false');
     selectTrigger.setAttribute('aria-labelledby', 'service-label service-select-value');
+    selectTrigger.setAttribute('aria-describedby', 'service-error');
+    serviceSelectTrigger = selectTrigger;
 
     var selectValue = document.createElement('span');
     selectValue.id = 'service-select-value';
@@ -102,7 +105,6 @@
     selectMenu.hidden = true;
     selectTrigger.setAttribute('aria-controls', selectMenu.id);
 
-    var nativeRequired = serviceSelect.required;
     serviceSelect.required = false;
     serviceSelect.hidden = true;
     serviceSelect.parentNode.insertBefore(selectWrapper, serviceSelect);
@@ -218,18 +220,116 @@
       if (!selectMenu.hidden) closeServiceSelect(false);
     });
 
-    var enquiryForm = serviceSelect.form;
-    if (enquiryForm && nativeRequired) {
-      enquiryForm.addEventListener('submit', function (event) {
-        if (serviceSelect.value) return;
-        event.preventDefault();
-        selectTrigger.setAttribute('aria-invalid', 'true');
-        openServiceSelect();
-      });
-    }
-
     serviceSelect.addEventListener('change', syncServiceSelect);
     syncServiceSelect();
+  }
+
+  // Use calm, contextual validation instead of browser-native popovers.
+  // Native required fields remain the no-JavaScript fallback because novalidate is applied at runtime.
+  var enquiryForm = document.querySelector('form[name="project-enquiry"]');
+  if (enquiryForm) {
+    var formErrorSummary = document.getElementById('form-error-summary');
+    var formErrorCount = formErrorSummary ? formErrorSummary.querySelector('[data-error-count]') : null;
+    var validationAttempted = false;
+    var validationItems = [
+      {
+        control: document.getElementById('name'),
+        errorId: 'name-error',
+        requiredMessage: 'Enter your name.'
+      },
+      {
+        control: document.getElementById('email'),
+        errorId: 'email-error',
+        requiredMessage: 'Enter your work email.',
+        invalidMessage: 'Enter a valid email address.'
+      },
+      {
+        control: serviceSelect,
+        errorId: 'service-error',
+        requiredMessage: 'Choose the service you need.'
+      },
+      {
+        control: document.getElementById('brief'),
+        errorId: 'brief-error',
+        requiredMessage: 'Tell us briefly what you are trying to achieve.'
+      }
+    ].filter(function (item) { return item.control; });
+
+    enquiryForm.noValidate = true;
+
+    var validationTarget = function (item) {
+      if (item.control === serviceSelect && serviceSelectTrigger) return serviceSelectTrigger;
+      return item.control;
+    };
+
+    var validationMessage = function (item) {
+      if (!String(item.control.value || '').trim()) return item.requiredMessage;
+      if (item.invalidMessage && item.control.validity && item.control.validity.typeMismatch) {
+        return item.invalidMessage;
+      }
+      return '';
+    };
+
+    var renderFieldValidation = function (item) {
+      var message = validationMessage(item);
+      var error = document.getElementById(item.errorId);
+      var field = item.control.closest('.field');
+      var target = validationTarget(item);
+
+      if (error) error.textContent = message;
+      if (field) field.classList.toggle('has-error', Boolean(message));
+      if (message) target.setAttribute('aria-invalid', 'true');
+      else target.removeAttribute('aria-invalid');
+      return message;
+    };
+
+    var updateErrorSummary = function (count) {
+      if (!formErrorSummary) return;
+      formErrorSummary.hidden = count === 0;
+      if (!formErrorCount || count === 0) return;
+      formErrorCount.textContent = count === 1
+        ? '1 field needs your attention.'
+        : count + ' fields need your attention.';
+    };
+
+    var validateEnquiryForm = function () {
+      var firstInvalid = null;
+      var errorCount = 0;
+      validationItems.forEach(function (item) {
+        if (!renderFieldValidation(item)) return;
+        errorCount += 1;
+        if (!firstInvalid) firstInvalid = item;
+      });
+      updateErrorSummary(errorCount);
+      return firstInvalid;
+    };
+
+    // Capture invalid attempts before the analytics submit listener records a confirmed journey.
+    enquiryForm.addEventListener('submit', function (event) {
+      validationAttempted = true;
+      var firstInvalid = validateEnquiryForm();
+      if (!firstInvalid) return;
+
+      event.preventDefault();
+      event.stopImmediatePropagation();
+      validationTarget(firstInvalid).focus();
+    }, true);
+
+    var refreshChangedField = function (event) {
+      if (!validationAttempted) return;
+      var item = validationItems.filter(function (candidate) {
+        return candidate.control === event.target;
+      })[0];
+      if (!item) return;
+      renderFieldValidation(item);
+      var remainingErrors = validationItems.filter(function (candidate) {
+        return Boolean(validationMessage(candidate));
+      }).length;
+      updateErrorSummary(remainingErrors);
+    };
+
+    enquiryForm.addEventListener('input', refreshChangedField);
+    enquiryForm.addEventListener('change', refreshChangedField);
   }
 
   // copy an article's canonical URL without requiring a sharing service
