@@ -1,6 +1,6 @@
 # DuniaOps 90 Günlük Organik Müşteri Kazanım Programı
 
-**Status:** Active — revised 4 September 2026; execution starts 7 September 2026.
+**Status:** Active — Week 01 foundation completed 7 September 2026; the Week 02 release candidate was committed locally on 8 September and is ready for explicit production-deployment approval. Live, GA4 and Search Console verification remain open.
 **Type:** Programme
 **Priority:** P1
 **Period:** 7 September–5 December 2026 (90 execution days); complete-data verification 11 December 2026.
@@ -35,6 +35,11 @@ Publishing core assets by Week 08 gives even the latest asset roughly one month 
 ## Source of Truth and Update Rule
 
 This file is the single programme tracker. Weekly specs are the implementation plan and evidence record.
+
+Operational records:
+
+- [Measurement ledger and KPI contract](018-organic-growth-measurement-ledger.md)
+- [Week 02–08 asset register and briefs](019-organic-growth-asset-register.md)
 
 When a weekly spec closes:
 
@@ -74,6 +79,8 @@ Completed before execution:
 - [x] Primary service/query clusters selected.
 - [x] Existing Project Rescue, DevOps and AI-production articles inventoried.
 
+Week 01 verification on 7 September does not replace the frozen baseline: Search Console had processed through 5 September and showed 520 impressions, 1 click, 0.2% CTR and 54.0 average position. The measurement ledger records the exact source windows, visible-query bands, indexation and GA4/Netlify reconciliation limits. On 7 September, the private lead ledger was created, `generate_lead` was enabled as a GA4 key event and reporting moved prospectively to United Kingdom time.
+
 ## Prioritisation and Capacity Rules
 
 - Maximum planned work in progress is two primary public assets per week.
@@ -98,8 +105,8 @@ If approval or factual evidence is missing, Thursday produces a review-ready dra
 
 | Week | Dates | Spec | Primary publication or outcome | Phase | Status |
 |---|---|---|---|---|---|
-| 01 | 7–13 Sep | [004](004-organic-growth-week-01-measurement-foundation.md) | Measurement system and approved Week 02–08 asset briefs | Foundation | Planned |
-| 02 | 14–20 Sep | [005](005-organic-growth-week-02-trust-and-project-rescue.md) | About/Expertise and Software Project Rescue service pages | Production | Planned |
+| 01 | 7–13 Sep | [004](004-organic-growth-week-01-measurement-foundation.md) | Measurement system and approved Week 02–08 asset briefs | Foundation | Complete |
+| 02 | 14–20 Sep | [005](005-organic-growth-week-02-trust-and-project-rescue.md) | About/Expertise and Software Project Rescue service pages | Production | Ready for authorised deployment |
 | 03 | 21–27 Sep | [006](006-organic-growth-week-03-application-support-cluster.md) | Application Support service page and takeover article | Production | Planned |
 | 04 | 28 Sep–4 Oct | [007](007-organic-growth-week-04-devops-cluster.md) | DevOps service refresh and DevOps/Kubernetes buyer article | Production | Planned |
 | 05 | 5–11 Oct | [008](008-organic-growth-week-05-custom-software-cluster-and-day-30.md) | Custom Software service page, cost/selection article and Day-30 check | Production | Planned |
