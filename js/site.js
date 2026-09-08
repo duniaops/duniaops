@@ -128,6 +128,7 @@
     var syncServiceSelect = function () {
       var selectedOption = serviceSelect.options[serviceSelect.selectedIndex];
       selectValue.textContent = selectedOption ? selectedOption.textContent : '';
+      selectTrigger.title = selectedOption ? selectedOption.textContent : '';
       selectTrigger.classList.toggle('is-placeholder', !serviceSelect.value);
       selectTrigger.removeAttribute('aria-invalid');
       optionButtons.forEach(function (optionButton) {
@@ -143,6 +144,7 @@
     };
 
     var openServiceSelect = function () {
+      selectMenu.style.maxHeight = '';
       selectMenu.hidden = false;
       selectWrapper.classList.add('is-open');
       selectTrigger.setAttribute('aria-expanded', 'true');
@@ -150,9 +152,11 @@
       var menuRect = selectMenu.getBoundingClientRect();
       var triggerRect = selectTrigger.getBoundingClientRect();
       var spaceBelow = window.innerHeight - triggerRect.bottom;
-      if (spaceBelow < menuRect.height + 12 && triggerRect.top > spaceBelow) {
-        selectWrapper.classList.add('open-up');
-      }
+      var spaceAbove = triggerRect.top;
+      var openUp = spaceBelow < menuRect.height + 12 && spaceAbove > spaceBelow;
+      selectWrapper.classList.toggle('open-up', openUp);
+      var availableSpace = openUp ? spaceAbove : spaceBelow;
+      selectMenu.style.maxHeight = Math.max(96, availableSpace - 12) + 'px';
 
       var selectedButton = optionButtons.filter(function (optionButton) {
         return optionButton.getAttribute('aria-selected') === 'true';

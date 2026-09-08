@@ -234,6 +234,6 @@ DuniaOps helps teams turn model announcements into production decisions. Our
 workflow design, model evaluation, routing, integration and the engineering
 controls needed to use AI safely in real products.
 
-[Discuss an AI workflow with DuniaOps](/?service=ai-software-development#contact)
+[Discuss an AI workflow with DuniaOps](/?service=ai&from=blog#contact)
 if you want to assess where Astra could create measurable value and where a
 smaller model would be enough.

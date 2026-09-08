@@ -24,9 +24,9 @@
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&amp;display=swap" rel="stylesheet">
-<link rel="stylesheet" href="css/site.css?v=20260901-service-select">
-<script src="js/analytics.js?v=20260721" defer></script>
-<script src="js/site.js?v=20260901-service-select" defer></script>
+<link rel="stylesheet" href="css/site.css?v=20260908-rescue-panel">
+<script src="js/analytics.js?v=20260907-lead-taxonomy" defer></script>
+<script src="js/site.js?v=20260908-form-layout" defer></script>
 <script type="application/ld+json">
 {
   "@context": "https://schema.org",
@@ -41,13 +41,14 @@
   "identifier": "Company number 11173416",
   "address": {"@type": "PostalAddress", "addressLocality": "London", "addressCountry": "GB"},
   "areaServed": ["GB", "Worldwide"],
-  "description": "London-based software consultancy: AI-accelerated software development, booking and resource allocation platforms, mobile apps, software development and DevOps consultancy.",
+  "description": "London-based software consultancy: AI-accelerated software development, software project rescue and takeover, booking and resource allocation platforms, mobile apps, software development and DevOps consultancy.",
   "makesOffer": [
     {"@type": "Offer", "itemOffered": {"@type": "Service", "name": "AI-Accelerated Software Development", "url": "https://www.duniaops.com/services/ai-software-development"}},
     {"@type": "Offer", "itemOffered": {"@type": "Service", "name": "Booking & Resource Allocation Platforms", "url": "https://www.duniaops.com/services/booking-and-allocation-systems"}},
+    {"@type": "Offer", "itemOffered": {"@type": "Service", "name": "DevOps & Cloud Consultancy", "url": "https://www.duniaops.com/services/devops-and-cloud-consultancy"}},
+    {"@type": "Offer", "itemOffered": {"@type": "Service", "name": "Software Project Rescue & Takeover", "url": "https://www.duniaops.com/services/software-project-rescue"}},
     {"@type": "Offer", "itemOffered": {"@type": "Service", "name": "Mobile App Development", "url": "https://www.duniaops.com/services/mobile-app-development"}},
-    {"@type": "Offer", "itemOffered": {"@type": "Service", "name": "Software Consultancy & Team Augmentation", "url": "https://www.duniaops.com/services/software-consultancy"}},
-    {"@type": "Offer", "itemOffered": {"@type": "Service", "name": "DevOps & Cloud Consultancy", "url": "https://www.duniaops.com/services/devops-and-cloud-consultancy"}}
+    {"@type": "Offer", "itemOffered": {"@type": "Service", "name": "Software Consultancy & Team Augmentation", "url": "https://www.duniaops.com/services/software-consultancy"}}
   ]
 }
 </script>
@@ -66,7 +67,7 @@
     <ul class="nav-links" id="primary-navigation">
       <li><a href="#services">Services</a></li>
       <li><a href="/products">Products</a></li>
-      <li><a href="#why">Why us</a></li>
+      <li><a href="/about">About</a></li>
       <li><a href="#process">Process</a></li>
       <li><a href="/blog">Blog</a></li>
       <li><a href="#contact">Contact</a></li>
@@ -94,7 +95,7 @@
         <a class="btn btn-ghost-dark" href="#services">Explore services</a>
       </div>
       <div class="hero-chips">
-        <span class="chip"><svg viewBox="0 0 24 24" fill="none" stroke-width="2.4" stroke-linecap="round"><path d="M20 6L9 17l-5-5"/></svg>Established 2018</span>
+        <span class="chip"><svg viewBox="0 0 24 24" fill="none" stroke-width="2.4" stroke-linecap="round"><path d="M20 6L9 17l-5-5"/></svg>Incorporated 2018</span>
         <span class="chip"><svg viewBox="0 0 24 24" fill="none" stroke-width="2.4" stroke-linecap="round"><path d="M20 6L9 17l-5-5"/></svg>Full-cycle delivery</span>
         <span class="chip"><svg viewBox="0 0 24 24" fill="none" stroke-width="2.4" stroke-linecap="round"><path d="M20 6L9 17l-5-5"/></svg>AI-accelerated</span>
       </div>
@@ -119,7 +120,7 @@
       <span class="kicker">What we do</span>
       <h2>Services built for how software is made today</h2>
       <p>
-        Five capabilities, one team. Every engagement is led by senior
+        Six capabilities, one team. Every engagement is led by senior
         engineers and accelerated by modern AI tooling — production-quality
         software, sooner.
       </p>
@@ -189,6 +190,46 @@
         <a class="more" href="/services/devops-and-cloud-consultancy">DevOps consultancy in detail</a>
       </div>
 
+      <!-- project rescue -->
+      <article class="tile tile-rescue" id="project-rescue">
+        <div class="t-col">
+          <span class="tag">Project rescue</span>
+          <h3>Software Project Rescue &amp; Takeover</h3>
+          <p>
+            When a software project is stalled, unstable or difficult to take
+            over, we assess the codebase, architecture, delivery process and
+            operational risks before changing it. We then stabilise what
+            matters most and agree a controlled recovery or handover plan —
+            without assuming the answer is a rewrite.
+          </p>
+          <a class="more" href="/services/software-project-rescue">See how a controlled rescue works</a>
+        </div>
+        <div class="rescue-summary" role="group" aria-label="Project Rescue Assessment flow">
+          <div class="rescue-summary-head">
+            <span>Project Rescue Assessment</span>
+            <small>A controlled first step</small>
+          </div>
+          <ol>
+            <li>
+              <span class="rescue-step-number">01</span>
+              <span><strong>Understand</strong><small>Code, infrastructure and delivery reality</small></span>
+            </li>
+            <li>
+              <span class="rescue-step-number">02</span>
+              <span><strong>Stabilise</strong><small>Production risks and urgent delivery blockers</small></span>
+            </li>
+            <li>
+              <span class="rescue-step-number">03</span>
+              <span><strong>Plan the takeover</strong><small>Priorities, boundaries and accountable next steps</small></span>
+            </li>
+          </ol>
+          <div class="rescue-outcome">
+            <span>Outcome</span>
+            <strong>An evidence-led recovery path</strong>
+          </div>
+        </div>
+      </article>
+
       <div class="tile t-span3" id="mobile-apps">
         <div class="icon">
           <svg viewBox="0 0 24 24" fill="none" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><rect x="7" y="2" width="10" height="20" rx="3"/><path d="M11 18.5h2"/></svg>
@@ -232,20 +273,21 @@
 <!-- ============ why / metrics ============ -->
 <div class="metrics" id="why">
   <div class="container">
-    <div class="section-head" style="margin-bottom:48px">
-      <span class="kicker" style="color:var(--sky)">Why DuniaOps</span>
-      <h2 style="color:#fff">Small team. Senior people.<br>Modern methods.</h2>
-      <p style="color:var(--text-dark-muted)">
+    <div class="section-head metrics-head">
+      <span class="kicker">Why DuniaOps</span>
+      <h2>Small team. Senior people.<br>Modern methods.</h2>
+      <p>
         DuniaOps Solution and Consulting Ltd is an independent consultancy
-        based in London, working with clients in the UK and worldwide since
-        2018. You talk directly to the engineers who build your software.
+        incorporated in 2018 and based in London. We work with clients in the
+        UK and worldwide, and you talk directly to the engineers who build
+        your software.
       </p>
     </div>
     <div class="metrics-grid">
       <div class="metric">
-        <div class="m-num"><span data-count="8" data-suffix="+">8+</span></div>
-        <div class="m-label">Years in business</div>
-        <p>Delivering software and DevOps projects since 2018.</p>
+        <div class="m-num"><span data-count="15" data-suffix="+">15+</span></div>
+        <div class="m-label">Years of experience</div>
+        <p>Founder-led software engineering from discovery through production.</p>
       </div>
       <div class="metric">
         <div class="m-num"><span class="grad-text">Weeks</span></div>
@@ -263,7 +305,7 @@
         <p>A direct line to the senior engineer on your project. No layers.</p>
       </div>
     </div>
-    <div class="trust-grid" aria-label="How DuniaOps protects your project">
+    <div class="trust-grid" role="group" aria-label="How DuniaOps protects your project">
       <div class="trust-item"><strong>Established UK company</strong><span>Incorporated in 2018. Company number 11173416.</span></div>
       <div class="trust-item"><strong>Your code and accounts</strong><span>Source code and infrastructure stay in repositories and cloud accounts you control.</span></div>
       <div class="trust-item"><strong>Senior accountability</strong><span>You work directly with the engineer responsible for technical decisions and delivery.</span></div>
@@ -305,7 +347,7 @@
 <article class="blog-card">
   <a class="blog-card-image" href="/blog/software-project-rescue-uk" tabindex="-1" aria-hidden="true"><img src="/assets/blog/software-project-rescue-uk-1200x630.jpg?v=09fc9aa6ccb7" alt="" width="1200" height="630" loading="lazy" decoding="async"></a>
   <div class="blog-card-body">
-    <div class="article-meta"><span>Software Consultancy</span><span aria-hidden="true">·</span><time datetime="2026-09-01">1 September 2026</time><span aria-hidden="true">·</span><span>10 min read</span></div>
+    <div class="article-meta"><span>Project Rescue</span><span aria-hidden="true">·</span><time datetime="2026-09-01">1 September 2026</time><span aria-hidden="true">·</span><span>10 min read</span></div>
     <h3><a href="/blog/software-project-rescue-uk">Software Project Rescue UK: Can a New Team Take Over?</a></h3>
     <p>Learn how a new team can safely take over stalled software, what to secure first, and how DuniaOps approaches software project rescue in the UK.</p>
     <a class="more" href="/blog/software-project-rescue-uk" aria-label="Read Software Project Rescue UK: Can a New Team Take Over?">Read article</a>
@@ -349,14 +391,17 @@
     </div>
     <form class="form-card" name="project-enquiry" method="POST" action="/thank-you" data-netlify="true" netlify-honeypot="website">
       <input type="hidden" name="form-name" value="project-enquiry">
-      <p class="hp-field"><label>Leave this field empty <input name="website" tabindex="-1" autocomplete="off"></label></p>
+      <input type="hidden" name="form_version" value="project_enquiry_v2">
+      <input type="hidden" name="landing_page_group" value="home">
+      <input type="hidden" name="test_submission" value="false">
+      <p class="hp-field"><label>Leave this field empty <input type="text" name="website" tabindex="-1" autocomplete="off"></label></p>
       <h3>Start the conversation</h3>
       <p class="form-intro">A few details are enough. We’ll respond with practical questions and a sensible next step.</p>
       <div class="form-grid">
         <div class="field"><label for="name">Name</label><input id="name" name="name" type="text" autocomplete="name" required></div>
         <div class="field"><label for="email">Work email</label><input id="email" name="email" type="email" autocomplete="email" required></div>
         <div class="field"><label for="company">Company <span aria-hidden="true">(optional)</span></label><input id="company" name="company" type="text" autocomplete="organization"></div>
-        <div class="field"><label id="service-label" for="service">What do you need?</label><select id="service" name="service" required><option value="">Choose a service</option><option value="ai-development">AI-accelerated software development</option><option value="booking-platform">Booking or allocation platform</option><option value="devops-cloud">DevOps or cloud consultancy</option><option value="mobile-app">Mobile app development</option><option value="software-consultancy">Software consultancy or team support</option><option value="not-sure">Not sure yet</option></select></div>
+        <div class="field"><label id="service-label" for="service">What do you need?</label><select id="service" name="service_category" required><option value="">Choose a service</option><option value="ai">AI-enabled software or workflow development</option><option value="support">Application support and maintenance</option><option value="booking">Booking or allocation platform</option><option value="custom_software">Custom software development</option><option value="devops_cloud">DevOps or cloud consultancy</option><option value="mobile">Mobile app development</option><option value="rescue">Rescue or take over an existing software project</option><option value="consultancy">Software consultancy or team support</option><option value="unknown">Not sure yet</option></select></div>
         <div class="field full"><label for="brief">What are you trying to achieve?</label><textarea id="brief" name="brief" placeholder="The problem, the people it affects, and what a useful first version should do." required></textarea></div>
       </div>
       <div class="form-actions">
@@ -384,6 +429,7 @@
           <li><a href="/services/booking-and-allocation-systems">Booking &amp; Allocation Platforms</a></li>
           <li><a href="/services/devops-and-cloud-consultancy">DevOps &amp; Cloud Consultancy</a></li>
           <li><a href="/services/mobile-app-development">Mobile App Development</a></li>
+          <li><a href="/services/software-project-rescue">Project Rescue</a></li>
           <li><a href="/services/software-consultancy">Software Consultancy</a></li>
         </ul>
       </div>
@@ -391,7 +437,7 @@
         <h4>Company</h4>
         <ul>
           <li><a href="/products">Products</a></li>
-          <li><a href="#why">About</a></li>
+          <li><a href="/about">About</a></li>
           <li><a href="#process">How we work</a></li>
           <li><a href="/blog">Blog</a></li>
           <li><a href="#contact">Contact</a></li>

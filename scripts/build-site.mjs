@@ -19,6 +19,7 @@ const PUBLIC_DIRECTORIES = [
 const PUBLIC_ROOT_FILES = [
   '_headers',
   '_redirects',
+  'about.html',
   'blog.html',
   'feed.xml',
   'index.html',

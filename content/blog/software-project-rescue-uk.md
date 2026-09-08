@@ -2,7 +2,8 @@
 title: "Software Project Rescue UK: Can a New Team Take Over?"
 description: "Learn how a new team can safely take over stalled software, what to secure first, and how DuniaOps approaches software project rescue in the UK."
 published: "2026-09-01"
-category: "software-consultancy"
+updated: "2026-09-08"
+category: "project-rescue"
 tags:
   - "Software Project Rescue"
   - "Codebase Assessment"
@@ -208,8 +209,9 @@ software. We do not begin with the assumption that the previous team failed or
 that the product needs to be rewritten. We begin with the evidence available in
 the codebase, delivery environment and live service.
 
-Our [software consultancy service](/services/software-consultancy) can support
-the complete recovery path or a focused assessment before a larger decision.
+Our [Software Project Rescue service](/services/software-project-rescue) can
+support the complete recovery path or begin with a focused assessment before a
+larger decision.
 The engagement is shaped around five outcomes:
 
 1. **Control:** establish the access, ownership information and operational
@@ -266,6 +268,6 @@ DuniaOps helps UK organisations assess, stabilise and take over existing
 software products. We can review the codebase and delivery environment, identify
 the immediate priorities and turn the findings into a practical recovery plan.
 
-[Discuss your existing software project with DuniaOps](/?service=software-consultancy#contact)
+[Request a Project Rescue Assessment](/?service=rescue&from=blog#contact)
 if delivery has stalled, your current supplier is no longer the right fit or
 you need an independent view before committing more budget.

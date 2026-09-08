@@ -44,11 +44,18 @@ const CATEGORIES = {
     serviceUrl: '/services/software-consultancy',
     ctaTitle: 'Get senior engineering help on the right problem',
     ctaText: 'DuniaOps brings practical technical leadership to architecture, delivery, modernisation, and complex software decisions.'
+  },
+  'project-rescue': {
+    label: 'Project Rescue',
+    serviceUrl: '/services/software-project-rescue',
+    ctaTitle: 'Take control of a troubled software project',
+    ctaText: 'DuniaOps assesses the evidence, protects continuity, and creates a staged route to stabilise, repair, or take over inherited software.'
   }
 };
 
 const STATIC_ROUTES = new Set([
   '/',
+  '/about',
   '/blog',
   '/feed.xml',
   '/privacy',
@@ -61,6 +68,7 @@ const STATIC_ROUTES = new Set([
   '/services/booking-and-allocation-systems',
   '/services/devops-and-cloud-consultancy',
   '/services/mobile-app-development',
+  '/services/software-project-rescue',
   '/services/software-consultancy'
 ]);
 
@@ -308,7 +316,7 @@ function header(active = '') {
     <ul class="nav-links" id="primary-navigation">
       <li><a href="/#services">Services</a></li>
       <li><a href="/products">Products</a></li>
-      <li><a href="/#why">Why us</a></li>
+      <li><a href="/about">About</a></li>
       <li><a href="/#process">Process</a></li>
       <li><a href="/blog"${active === 'blog' ? ' class="active" aria-current="page"' : ''}>Blog</a></li>
       <li><a href="/#contact">Contact</a></li>
@@ -323,8 +331,8 @@ function footer() {
   <div class="container">
     <div class="foot-grid">
       <div><span class="plate"><img class="mark" src="/assets/logo-mark.png" alt=""><img class="word" src="/assets/logo-wordmark.png" alt="DuniaOps" width="69" height="15"></span><p>Software development consultancy, delivered worldwide from London, United Kingdom.</p></div>
-      <div><h4>Services</h4><ul><li><a href="/services/ai-software-development">AI-Accelerated Development</a></li><li><a href="/services/booking-and-allocation-systems">Booking &amp; Allocation Platforms</a></li><li><a href="/services/devops-and-cloud-consultancy">DevOps &amp; Cloud Consultancy</a></li><li><a href="/services/mobile-app-development">Mobile Apps</a></li><li><a href="/services/software-consultancy">Software Consultancy</a></li></ul></div>
-      <div><h4>Company</h4><ul><li><a href="/products">Products</a></li><li><a href="/#why">About</a></li><li><a href="/#process">How we work</a></li><li><a href="/blog">Blog</a></li><li><a href="/#contact">Contact</a></li><li><a href="https://www.linkedin.com/company/duniaops" rel="me">LinkedIn</a></li><li><a href="/privacy">Privacy</a></li></ul></div>
+      <div><h4>Services</h4><ul><li><a href="/services/ai-software-development">AI-Accelerated Development</a></li><li><a href="/services/booking-and-allocation-systems">Booking &amp; Allocation Platforms</a></li><li><a href="/services/devops-and-cloud-consultancy">DevOps &amp; Cloud Consultancy</a></li><li><a href="/services/mobile-app-development">Mobile Apps</a></li><li><a href="/services/software-project-rescue">Project Rescue</a></li><li><a href="/services/software-consultancy">Software Consultancy</a></li></ul></div>
+      <div><h4>Company</h4><ul><li><a href="/products">Products</a></li><li><a href="/about">About</a></li><li><a href="/#process">How we work</a></li><li><a href="/blog">Blog</a></li><li><a href="/#contact">Contact</a></li><li><a href="https://www.linkedin.com/company/duniaops" rel="me">LinkedIn</a></li><li><a href="/privacy">Privacy</a></li></ul></div>
     </div>
     <div class="foot-base"><span>© 2026 DuniaOps Solution and Consulting Ltd · Company no. 11173416.</span><span><a href="/feed.xml">RSS</a> · London, United Kingdom · <a href="mailto:info@duniaops.com">info@duniaops.com</a></span></div>
   </div>
@@ -356,7 +364,7 @@ ${robots ? `<meta name="robots" content="${escapeHtml(robots)}">\n` : ''}<link r
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&amp;display=swap" rel="stylesheet">
 <link rel="stylesheet" href="/css/site.css?v=20260723-blog">
-<script src="/js/analytics.js?v=20260721" defer></script>
+<script src="/js/analytics.js?v=20260907-lead-taxonomy" defer></script>
 <script src="/js/site.js?v=20260723-blog" defer></script>
 ${extra}`;
 }

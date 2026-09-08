@@ -7,7 +7,7 @@
 <meta name="description" content="DevOps consultancy from London: CI/CD pipelines, infrastructure as code with Terraform, Kubernetes and containers, cloud migration to AWS/Azure/GCP, monitoring and cloud cost optimisation.">
 <link rel="canonical" href="https://www.duniaops.com/services/devops-and-cloud-consultancy">
 <meta property="og:title" content="DevOps &amp; Cloud Consultancy | DuniaOps">
-<meta property="og:description" content="CI/CD, infrastructure as code, Kubernetes, cloud migration and cost optimisation — from a London consultancy working since 2018.">
+<meta property="og:description" content="CI/CD, infrastructure as code, Kubernetes, cloud migration and cost optimisation from a senior-led London consultancy.">
 <meta property="og:type" content="website">
 <meta property="og:url" content="https://www.duniaops.com/services/devops-and-cloud-consultancy">
 <meta property="og:image" content="https://www.duniaops.com/assets/social-card.png?v=20260721">
@@ -24,7 +24,7 @@
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&amp;display=swap" rel="stylesheet">
 <link rel="stylesheet" href="../css/site.css?v=20260723-blog">
-<script src="../js/analytics.js?v=20260721" defer></script>
+<script src="../js/analytics.js?v=20260907-lead-taxonomy" defer></script>
 <script src="../js/site.js?v=20260723-blog" defer></script>
 <script type="application/ld+json">
 {
@@ -52,7 +52,7 @@
       "mainEntity": [
         {"@type": "Question", "name": "What does a DevOps engagement with DuniaOps look like?", "acceptedAnswer": {"@type": "Answer", "text": "We start with a short assessment of your current delivery process — how code gets from a developer's laptop to production, and what breaks along the way. You get a prioritised, costed improvement plan, and we then implement it hands-on: pipelines, infrastructure as code, environments, monitoring and team handover."}},
         {"@type": "Question", "name": "Which cloud platforms do you work with?", "acceptedAnswer": {"@type": "Answer", "text": "AWS, Microsoft Azure and Google Cloud. We also work with container platforms (Docker, Kubernetes), GitHub Actions, GitLab CI and Azure DevOps pipelines, and Terraform for infrastructure as code."}},
-        {"@type": "Question", "name": "Can you reduce our cloud bill?", "acceptedAnswer": {"@type": "Answer", "text": "Usually, yes. Right-sizing, reserved capacity, storage lifecycle policies and removing orphaned resources commonly cut 20–40% from an unoptimised cloud bill — we review before we change anything, and every change is explained."}},
+        {"@type": "Question", "name": "Can you reduce our cloud bill?", "acceptedAnswer": {"@type": "Answer", "text": "We can identify avoidable cloud spend through usage evidence, right-sizing, commitment options, storage lifecycle policies and orphaned-resource reviews. We model the trade-offs before making changes and measure the result rather than promising a fixed saving."}},
         {"@type": "Question", "name": "Do you offer ongoing support after the setup?", "acceptedAnswer": {"@type": "Answer", "text": "Yes — we can operate what we build: monitoring, patching, incident response and continuous improvement on a monthly arrangement, or hand everything over to your team with documentation and training."}}
       ]
     }
@@ -74,11 +74,11 @@
     <ul class="nav-links" id="primary-navigation">
       <li><a href="/#services" class="active">Services</a></li>
       <li><a href="/products">Products</a></li>
-      <li><a href="/#why">Why us</a></li>
+      <li><a href="/about">About</a></li>
       <li><a href="/#process">Process</a></li>
       <li><a href="/blog">Blog</a></li>
       <li><a href="/#contact">Contact</a></li>
-      <li><a class="btn btn-red" href="/?service=devops-cloud#contact">Discuss your project</a></li>
+      <li><a class="btn btn-red" href="/?service=devops_cloud&amp;from=devops_cloud#contact">Discuss your project</a></li>
     </ul>
   </nav>
 </header>
@@ -92,10 +92,10 @@
     <p class="lead">
       From "deploys are scary" to "we ship every day". We build the pipelines,
       infrastructure and monitoring that make releases boring — on AWS, Azure
-      or Google Cloud — and we've been doing it since 2018.
+      or Google Cloud — with senior engineering ownership throughout.
     </p>
     <div class="hero-cta">
-      <a class="btn btn-red" href="/?service=devops-cloud#contact">Book an assessment</a>
+      <a class="btn btn-red" href="/?service=devops_cloud&amp;from=devops_cloud#contact">Book an assessment</a>
       <a class="btn btn-ghost-dark" href="#faq">Common questions</a>
     </div>
   </div>
@@ -114,8 +114,8 @@
         and deploys become a routine that happens many times a day.
       </p>
       <p>
-        DuniaOps has built delivery pipelines and cloud infrastructure for
-        teams of every size since 2018. We don't sell a one-size-fits-all
+        The engineers behind DuniaOps have built delivery pipelines and cloud
+        infrastructure for teams of different sizes. We don't sell a one-size-fits-all
         "transformation" — we look at how your software actually gets built
         and shipped today, find the constraint, and fix that first.
       </p>
@@ -127,7 +127,7 @@
       <div class="deliver"><h3>Containers &amp; Kubernetes</h3><p>Applications containerised and orchestrated where it makes sense — and kept simpler where it doesn't.</p></div>
       <div class="deliver"><h3>Cloud migration</h3><p>Planned, staged moves to AWS, Azure or GCP — from on-premises servers or from an outgrown hosting setup.</p></div>
       <div class="deliver"><h3>Observability</h3><p>Monitoring, logging, tracing and alerting that tell you about problems before your customers do.</p></div>
-      <div class="deliver"><h3>Cost optimisation</h3><p>Cloud bills reviewed and re-engineered — right-sizing, reservations and cleanup that commonly saves 20–40%.</p></div>
+      <div class="deliver"><h3>Cost optimisation</h3><p>Cloud bills reviewed against usage evidence, with right-sizing, commitment options and cleanup prioritised by measurable value.</p></div>
     </div>
   </div>
 </section>
@@ -164,7 +164,7 @@
       </details>
       <details>
         <summary>Can you reduce our cloud bill?</summary>
-        <p>Usually, yes — right-sizing, reserved capacity, storage lifecycle policies and cleanup commonly cut 20–40% from an unoptimised bill. We review before we change anything.</p>
+        <p>We can identify avoidable spend through usage evidence, right-sizing, commitment options, storage lifecycle policies and orphaned-resource reviews. We model the trade-offs before changing anything and measure the result rather than promising a fixed saving.</p>
       </details>
       <details>
         <summary>Do you offer ongoing support?</summary>
@@ -182,7 +182,7 @@
       <p>If the answer involves a checklist and crossed fingers, let's talk.</p>
     </div>
     <div class="cta-actions">
-      <a class="btn btn-red" href="/?service=devops-cloud#contact">Book an assessment</a>
+      <a class="btn btn-red" href="/?service=devops_cloud&amp;from=devops_cloud#contact">Book an assessment</a>
       <span class="email-line"><a href="mailto:info@duniaops.com">info@duniaops.com</a></span>
     </div>
   </div>
@@ -204,6 +204,7 @@
           <li><a href="/services/booking-and-allocation-systems">Booking &amp; Allocation Platforms</a></li>
           <li><a href="/services/devops-and-cloud-consultancy">DevOps &amp; Cloud Consultancy</a></li>
           <li><a href="/services/mobile-app-development">Mobile Apps</a></li>
+          <li><a href="/services/software-project-rescue">Project Rescue</a></li>
           <li><a href="/services/software-consultancy">Software Consultancy</a></li>
         </ul>
       </div>
@@ -211,7 +212,7 @@
         <h4>Company</h4>
         <ul>
           <li><a href="/products">Products</a></li>
-          <li><a href="/#why">About</a></li>
+          <li><a href="/about">About</a></li>
           <li><a href="/#process">How we work</a></li>
           <li><a href="/blog">Blog</a></li>
           <li><a href="/#contact">Contact</a></li>

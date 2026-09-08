@@ -64,6 +64,7 @@ The allowed category values are:
 - `booking-allocation-platforms`
 - `devops-cloud-consultancy`
 - `mobile-app-development`
+- `project-rescue`
 - `software-consultancy`
 
 Generate and validate the public files:

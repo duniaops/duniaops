@@ -1,9 +1,11 @@
 https://duniaops.com/* https://www.duniaops.com/:splat 301!
 /index.html / 301!
+/about.html /about 301!
 /services/ai-software-development.html /services/ai-software-development 301!
 /services/booking-and-allocation-systems.html /services/booking-and-allocation-systems 301!
 /services/devops-and-cloud-consultancy.html /services/devops-and-cloud-consultancy 301!
 /services/mobile-app-development.html /services/mobile-app-development 301!
+/services/software-project-rescue.html /services/software-project-rescue 301!
 /services/software-consultancy.html /services/software-consultancy 301!
 /products.html /products 301!
 /products/rockimals.html /products/rockimals 301!
