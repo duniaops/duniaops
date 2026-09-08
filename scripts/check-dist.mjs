@@ -274,6 +274,35 @@ async function validateLeadMeasurement() {
   return errors;
 }
 
+async function validateThankYouPage() {
+  const errors = [];
+  const thankYou = await readFile(insideDist('thank-you.html'), 'utf8');
+  const siteStyles = await readFile(insideDist('css/site.css'), 'utf8');
+  const requiredPageFragments = [
+    '<body class="thank-you-page">',
+    'class="container thank-you-hero-grid"',
+    'aria-label="Response expectation"',
+    'We normally reply within two working days.',
+    '<ol class="thank-you-steps">',
+    'class="thank-you-actions"'
+  ];
+
+  for (const fragment of requiredPageFragments) {
+    if (!thankYou.includes(fragment)) errors.push(`thank-you.html: missing confirmation layout fragment ${fragment}`);
+  }
+
+  const requiredStyleFragments = [
+    '.thank-you-page{min-height:100vh;min-height:100dvh;display:flex',
+    '.thank-you-page main{display:flex;flex:1;flex-direction:column}',
+    '.thank-you-next{display:flex;flex:1;align-items:center'
+  ];
+  for (const fragment of requiredStyleFragments) {
+    if (!siteStyles.includes(fragment)) errors.push(`css/site.css: missing full-height confirmation layout ${fragment}`);
+  }
+
+  return errors;
+}
+
 async function main() {
   const details = await stat(DIST_DIR);
   if (!details.isDirectory()) throw new Error('dist is not a directory; run npm run build:site first.');
@@ -300,6 +329,7 @@ async function main() {
   errors.push(...await validateHtmlQuality(files));
   errors.push(...await validateReleasePages());
   errors.push(...await validateLeadMeasurement());
+  errors.push(...await validateThankYouPage());
 
   if (errors.length) throw new Error(`Public output validation failed:\n- ${errors.join('\n- ')}`);
   console.log(`Validated ${files.length} public files, release routes, JSON-LD and navigation with no broken internal links.`);
