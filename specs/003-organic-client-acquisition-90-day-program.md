@@ -1,6 +1,6 @@
 # DuniaOps 90 Günlük Organik Müşteri Kazanım Programı
 
-**Status:** Active — Week 01 foundation completed 7 September 2026; the Week 02 release candidate was committed locally on 8 September and is ready for explicit production-deployment approval. Live, GA4 and Search Console verification remain open.
+**Status:** Active — Week 01 foundation completed 7 September 2026; the Week 02 trust and Project Rescue assets were deployed early on 8 September. Initial live, GA4 and Search Console verification is complete; the labelled form test and 7/14/28-day observations remain open.
 **Type:** Programme
 **Priority:** P1
 **Period:** 7 September–5 December 2026 (90 execution days); complete-data verification 11 December 2026.
@@ -106,7 +106,7 @@ If approval or factual evidence is missing, Thursday produces a review-ready dra
 | Week | Dates | Spec | Primary publication or outcome | Phase | Status |
 |---|---|---|---|---|---|
 | 01 | 7–13 Sep | [004](004-organic-growth-week-01-measurement-foundation.md) | Measurement system and approved Week 02–08 asset briefs | Foundation | Complete |
-| 02 | 14–20 Sep | [005](005-organic-growth-week-02-trust-and-project-rescue.md) | About/Expertise and Software Project Rescue service pages | Production | Ready for authorised deployment |
+| 02 | 14–20 Sep | [005](005-organic-growth-week-02-trust-and-project-rescue.md) | About/Expertise and Software Project Rescue service pages | Production | Live early — monitoring |
 | 03 | 21–27 Sep | [006](006-organic-growth-week-03-application-support-cluster.md) | Application Support service page and takeover article | Production | Planned |
 | 04 | 28 Sep–4 Oct | [007](007-organic-growth-week-04-devops-cluster.md) | DevOps service refresh and DevOps/Kubernetes buyer article | Production | Planned |
 | 05 | 5–11 Oct | [008](008-organic-growth-week-05-custom-software-cluster-and-day-30.md) | Custom Software service page, cost/selection article and Day-30 check | Production | Planned |
@@ -243,3 +243,10 @@ The active weekly heartbeat runs Monday and Friday at 09:00 Europe/London throug
 ## Completion Record
 
 Complete by 11 December 2026 with delivered assets, live URLs, validation, baseline-to-Day-90 comparison, asset-age caveats, qualified pipeline result, lessons, unfinished work and the approved next programme.
+
+### Week 02 early publication — 8 September 2026
+
+- Published `/about`, `/services/software-project-rescue` and the connected homepage/article/form changes through production deploy `6aa00c8e8bd2f90008cc6c6a` at commit `2f18a39` on `main`; Netlify reported `ready` at 14:24 BST.
+- Verified live 200 responses, canonical/indexing directives, navigation, CTA routing, sitemap membership, permanent `.html` redirects, responsive layout and absence of review safeguards.
+- Registered the four approved event-scoped GA4 custom dimensions and completed initial Search Console inspections. Both new URLs are available to Google and indexable in live tests; the supporting Project Rescue article is indexed.
+- Set the Week 02 cohort observations to 15 September, 22 September and 6 October. One explicitly labelled, privacy-safe form test remains gated on approval of its exact procedure and retention/deletion evidence.

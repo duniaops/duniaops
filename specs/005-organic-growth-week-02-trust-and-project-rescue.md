@@ -1,6 +1,6 @@
 # Organic Growth Week 02 — Trust and Project Rescue Launch
 
-**Status:** Release-ready locally — the publication candidate was committed on 8 September; explicit production-deployment approval and post-deploy live, GA4 and Search Console evidence remain open.
+**Status:** Live — published early on 8 September 2026. Production, live-route, GA4-definition and initial Search Console verification are complete; one labelled form test and the 7/14/28-day observations remain open.
 **Type:** Trust Page / Commercial Service Page
 **Priority:** P1
 **Scheduled:** 14–20 September 2026
@@ -17,7 +17,8 @@ Give an urgent UK buyer both a credible reason to trust DuniaOps and a low-risk 
 - [x] Write and implement the Software Project Rescue & Takeover service page.
 - [x] Define a truthful Project Rescue Assessment: inputs, security boundaries, outputs and exclusions. The approved commercial position and response wording are integrated locally.
 - [x] Add service-specific CTA/form routing locally with the approved normal two-working-day response wording.
-- [ ] Register the approved event-scoped GA4 custom definitions and verify one labelled, privacy-safe test after deployment.
+- [x] Register the approved event-scoped GA4 custom definitions after deployment.
+- [ ] Verify one labelled, privacy-safe end-to-end form test after its exact procedure and retention/deletion evidence are approved.
 - [x] Update `software-project-rescue-uk.md` locally with the new service link, rescue category and specific CTA.
 - [x] Select two anonymised prior-experience proof candidates and record the evidence owner and publication posture.
 
@@ -102,7 +103,7 @@ Use the disclosure `Selected experience brought to DuniaOps from earlier partner
 - [x] No customer, metric, certification, guarantee, price or timeline in the approved release candidate lacks evidence/approval.
 - [x] Rescue article, service page, trust page and form routes are correctly linked in the local build.
 - [x] `npm test`, schema/link/mobile/desktop/accessibility and `git diff --check` pass.
-- [ ] Live, conversion and indexing evidence is recorded after authorised deployment.
+- [x] Live routes, conversion routing and initial indexing/crawlability evidence are recorded after authorised deployment.
 
 ## Completion Record
 
@@ -116,7 +117,7 @@ Record final paths/URLs, owners, evidence and offer decisions, article/form chan
 - Dedicated `rescue`, `support` and `custom_software` choices plus privacy-safe event context are prepared locally but not deployed.
 - Companies House was checked on 7 September: the company is active, number 11173416, and incorporated on 29 January 2018. `Operating since 2018` still needs owner confirmation before it is used as a continuous-trading claim.
 - Two anonymised prior-experience proof candidates and their qualitative outcomes are confirmed. They may support Week 02 copy but must not be presented as direct DuniaOps client case studies or endorsements. No numerical metric will be used without a publishable value and evidence source.
-- Still required before publication: production navigation/footer, sitemap and redirect work; removal of local-review/noindex safeguards in the authorised release; full-page mobile, keyboard/accessibility and schema validation; final release review; and explicit deploy/publication approval. After deployment, register the four event-scoped GA4 custom definitions, run one labelled test and record live/indexing evidence.
+- At this pre-work point, publication still required production navigation/footer, sitemap and redirect work; removal of local-review/noindex safeguards in the authorised release; full-page mobile, keyboard/accessibility and schema validation; final release review; and explicit deploy/publication approval.
 
 ### Local implementation and release preparation — 8 September 2026
 
@@ -133,5 +134,15 @@ Record final paths/URLs, owners, evidence and offer decisions, article/form chan
 - Full-page desktop, 653 px and true 390 px viewport checks passed for the homepage, About and Project Rescue, with no horizontal overflow. Skip-link, mobile-navigation and custom service-selector keyboard behaviour were exercised successfully.
 - Ibrahim Uylas approved the final local design/copy direction on 8 September, including the homepage service hierarchy, light Project Rescue surface, dark Project Rescue badge, dark Assessment panel and refined enquiry form. The subsequent request to complete the remaining work authorised local publication preparation and commit, but not production deployment.
 - The public founder identity, supplied portrait, LinkedIn-derived positioning, normal two-working-day response wording and free-call-to-paid-assessment model are integrated into the release candidate.
-- Commit `11a5ac0` (`feat(seo): add trust and project rescue pages`) is the reviewed runtime release candidate on `main`. It has not been pushed or deployed.
-- After deployment, verify both live URLs, canonical/redirect/sitemap behaviour and the enquiry route; register the four event-scoped GA4 custom definitions; run one labelled privacy-safe test; inspect both URLs in Search Console; and recalculate the 7/14/28-day dates from the actual live date.
+- Commit `11a5ac0` (`feat(seo): add trust and project rescue pages`) is the reviewed runtime release candidate on `main`. At the end of local preparation it had not yet been pushed or deployed.
+
+### Production deployment and initial verification — 8 September 2026
+
+- Ibrahim Uylas explicitly authorised production deployment. `main` advanced on `origin` from `f278b9c` to `2f18a39` without a force push.
+- Netlify production deploy `6aa00c8e8bd2f90008cc6c6a`, built from commit `2f18a39bb15e24dbf2a299687303514b13ecc2de`, reached `ready` at 14:24 BST on `https://www.duniaops.com`.
+- `/`, `/about`, `/services/software-project-rescue`, `/blog/software-project-rescue-uk` and `/sitemap.xml` returned 200. The legacy `.html` About and Project Rescue routes returned permanent 301 redirects to their clean URLs.
+- Both new pages exposed the intended canonical URL, remained indexable, loaded without horizontal overflow and contained no review banner. The founder portrait, homepage Project Rescue card, article↔service links and rescue enquiry preselection were present in production.
+- GA4 property `DuniaOps - GA4` now has event-scoped custom dimensions for `service_category`, `landing_page_group`, `form_version` and `test_submission`. Definitions are prospective and do not repair historical classification gaps.
+- Search Console initially reported both new URLs as unknown to Google. Live tests completed at 14:31 BST reported `URL is available to Google` and `Page can be indexed`, with one valid Breadcrumbs item on each. `/blog/software-project-rescue-uk` was already on Google and indexed, also with a valid Breadcrumbs item.
+- The submitted sitemap remained successful, last read 6 September with 23 discovered pages. No duplicate sitemap submission or `Request indexing` action was taken.
+- Cohort observations are due 15 September, 22 September and 6 October. The only immediate measurement carry-over is one labelled, privacy-safe form submission after approval of its exact test and retention/deletion procedure; no submission was generated during deployment verification.

@@ -1,6 +1,6 @@
 # Organic Growth Asset Register — Weeks 02–08
 
-**Status:** In production — the Week 02 assets and homepage integration are release-ready in local commit `11a5ac0`; explicit production deployment and post-deploy verification remain open.
+**Status:** In production — the Week 02 assets and homepage integration went live early on 8 September through production deploy `6aa00c8e8bd2f90008cc6c6a`. Initial live, GA4 and Search Console verification is complete; cohort monitoring and the labelled form test remain open.
 **Programme owner:** ibrahim uylas
 **Default asset owner:** ibrahim uylas
 **Default factual/copy/deploy approver:** ibrahim uylas
@@ -25,8 +25,8 @@ Observation dates assume the planned Thursday publication. Replace them from the
 
 | ID | Week | Primary asset | Proposed public URL | Primary intent / buyer stage | Offer or CTA | Owner / approver | Target live | 7 / 14 / 28-day checks | State |
 |---|---:|---|---|---|---|---|---|---|---|
-| W02-A | 02 | About / Expertise page | `/about` | Validate DuniaOps and its accountable expertise / trust | Discuss the project with a senior engineer | ibrahim uylas / ibrahim uylas | 17 Sep | 24 Sep / 1 Oct / 15 Oct | Release-ready locally in `11a5ac0`; deployment/live verification pending |
-| W02-B | 02 | Software Project Rescue & Takeover service | `/services/software-project-rescue` | Hire a UK team to assess or take over a troubled project / decision | Request a Project Rescue Assessment | ibrahim uylas / ibrahim uylas | 17 Sep | 24 Sep / 1 Oct / 15 Oct | Release-ready locally in `11a5ac0`; deployment/live verification pending |
+| W02-A | 02 | About / Expertise page | `/about` | Validate DuniaOps and its accountable expertise / trust | Discuss the project with a senior engineer | ibrahim uylas / ibrahim uylas | 8 Sep | 15 Sep / 22 Sep / 6 Oct | Live; initial GSC state unknown, live test indexable; observe cohort |
+| W02-B | 02 | Software Project Rescue & Takeover service | `/services/software-project-rescue` | Hire a UK team to assess or take over a troubled project / decision | Request a Project Rescue Assessment | ibrahim uylas / ibrahim uylas | 8 Sep | 15 Sep / 22 Sep / 6 Oct | Live; initial GSC state unknown, live test indexable; rescue preselection verified |
 | W03-A | 03 | Application Support & Maintenance service | `/services/application-support-maintenance` | Find a team to maintain software built by someone else / decision | Request a Support Takeover Review | ibrahim uylas / ibrahim uylas | 24 Sep | 1 Oct / 8 Oct / 22 Oct | Brief ready; operating boundaries needed |
 | W03-B | 03 | Support takeover buyer article | `/blog/can-a-new-company-maintain-software-it-did-not-build` | Decide whether and how another company can maintain inherited software / consideration | Read the support service; request takeover review | ibrahim uylas / ibrahim uylas | 24 Sep | 1 Oct / 8 Oct / 22 Oct | Brief ready; draft not started |
 | W04-A | 04 | DevOps & Cloud Consultancy refresh | `/services/devops-and-cloud-consultancy` | Hire help for unreliable delivery/cloud operations / decision | Book a DevOps Health Check | ibrahim uylas / ibrahim uylas | 1 Oct | 8 Oct / 15 Oct / 29 Oct | Brief ready; claim evidence needed |
@@ -258,12 +258,13 @@ The following answers are required before Week 02 copy can move from evidence-sa
 - [x] Verify the legal facts against [Companies House](https://find-and-update.company-information.service.gov.uk/company/11173416): DuniaOps Solution and Consulting Ltd is active, company number 11173416, and was incorporated on 29 January 2018. Use `incorporated in 2018`; any claim of continuous operation since then still needs owner confirmation.
 - [x] Approve the Project Rescue Assessment name, inputs, outputs and exclusions, including the free qualification call → scoped paid assessment model and normal two-working-day response wording.
 - [x] Select two proof candidates and identify the evidence/permission owner for each. Two anonymised prior partner-led engagements were selected on 8 September; ibrahim uylas owns the factual account. Both were confirmed as completed, released to production and handed over, with improvements accepted by the customers and demonstrated through performance metrics. Names, logos, quotes, numerical metric values and the direct-client implication remain excluded.
-- [x] Approve adding `rescue`, `support` and `custom_software` choices to the enquiry form and the privacy-safe attribution taxonomy. The change is release-ready locally and not deployed.
+- [x] Approve adding `rescue`, `support` and `custom_software` choices to the enquiry form and the privacy-safe attribution taxonomy. The change was deployed on 8 September.
 - [x] Approve the two Week 02 briefs for drafting; copy and local release preparation are complete, while deployment/publication retains a separate gate.
 - [x] Approve the current local About and Project Rescue design/copy. Approved by ibrahim uylas on 8 September; no deploy or publication authority is implied.
 - [x] Approve the final updated local pages after founder-profile and rescue-offer integration. Approved by ibrahim uylas on 8 September after the homepage hierarchy, light rescue surface, dark badge/dark assessment panel and enquiry-form refinements; this does not authorise deployment/publication.
 - [x] Complete release preparation: remove review safeguards, add public routes/redirects/sitemap/navigation, run the release-readiness checks and create local runtime commit `11a5ac0`. Requested and completed on 8 September without pushing or deploying.
-- [ ] Explicitly authorise production deployment/publication after the release-readiness review.
+- [x] Explicitly authorise production deployment/publication after the release-readiness review. Ibrahim Uylas authorised it on 8 September; deploy `6aa00c8e8bd2f90008cc6c6a` reached `ready` at 14:24 BST.
+- [x] Complete initial live-route, redirect, sitemap, canonical, conversion-routing, GA4-definition and Search Console verification. One labelled form submission remains separately gated; cohort observations are due 15 September, 22 September and 6 October.
 
 ## Anonymised Prior-Experience Proof Candidates — 8 September 2026
 

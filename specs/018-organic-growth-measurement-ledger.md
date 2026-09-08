@@ -1,6 +1,6 @@
 # Organic Growth Measurement Ledger
 
-**Status:** Active — Week 01 foundation completed 7 September 2026; the Week 02 measurement taxonomy is in local release candidate `11a5ac0` and awaits authorised deployment. The next formal checkpoint is Day 30.
+**Status:** Active — Week 01 foundation completed 7 September 2026; the Week 02 measurement taxonomy was deployed and its four GA4 custom definitions were registered on 8 September. A labelled form test and the publication cohorts remain open; the next formal checkpoint is Day 30.
 **Programme owner:** ibrahim uylas
 **Measurement owner:** ibrahim uylas
 **Depends on:** `003-organic-client-acquisition-90-day-program.md`
@@ -168,14 +168,14 @@ No submission content or direct identifier is reproduced here.
 
 | Severity | Finding | Consequence | Remediation / decision owner |
 |---|---|---|---|
-| High | Privacy-safe test and classification parameters were absent from the live form/event path at baseline. | Historical `generate_lead` events cannot be treated as business outcomes. | Release candidate `11a5ac0` carries allow-listed `service_category`, `landing_page_group`, `form_version` and `test_submission`; at deploy time register matching event-scoped GA4 custom definitions, then run a labelled test before relying on the fields. Historical events remain unresolved. |
+| High | Privacy-safe test and classification parameters were absent from the live form/event path at baseline. | Historical `generate_lead` events cannot be treated as business outcomes. | Production now carries allow-listed `service_category`, `landing_page_group`, `form_version` and `test_submission`, and matching event-scoped GA4 custom definitions were registered on 8 September. Run one approved labelled test before relying on the fields. Historical events remain unresolved. |
 | Resolved | The private lead ledger did not exist at baseline. | Qualification and channel truth could be reconstructed from memory. | The private Google Sheet was created and verified on 7 September; keep access restricted and never copy customer content into Git. |
 | Resolved | `generate_lead` was not configured as a GA4 key event. | GA4 key-event reports omitted the intended outcome. | Enabled and verified on 7 September. Do not backfill or reclassify historical events as qualified leads. |
 | Residual | GA4 used Turkey time before the programme moved to United Kingdom time on 7 September. | A single report can cross two reporting boundaries; the setting affects only future data. | Label every GA4 window and avoid date-only joins across the change. Use the latest complete prior day for formal comparisons. |
 | Medium | Analytics depends on optional-cookie consent. | GA4 undercounts sessions and leads relative to Netlify by design. | Keep GA4 directional; never estimate missing leads without evidence. |
 | Medium | Search Console exposes only 397 of 520 impressions in query rows. | Query-band and cluster totals are incomplete. | Label query analyses `visible rows only`; use page totals and stable filters alongside them. |
 | Medium | 12 non-redirect URLs are not indexed, including priority buyer content. | Published assets may not earn visibility despite being live. | Check each priority URL at 7/14/28 days, strengthen usefulness/internal links, and investigate before requesting validation or producing extra pages. |
-| Medium | The live form still has no dedicated rescue, support or custom-software choices until the approved local change is deployed. | New pages would collapse into generic `software-consultancy`, weakening private attribution. | Deploy the validated local taxonomy with the Week 02 conversion work, then run one labelled end-to-end test. |
+| Resolved | The baseline live form had no dedicated rescue, support or custom-software choices. | New pages would have collapsed into generic `software-consultancy`, weakening private attribution. | Dedicated choices and the privacy-safe taxonomy were deployed on 8 September. One labelled end-to-end verification remains open. |
 | Low | Netlify's summary timestamp does not match the exposed verified/spam lists. | A dashboard headline can be mistaken for a retained lead record. | Count the verified list; recheck on Friday and escalate only if the mismatch affects an actual enquiry. |
 | Low | GA4 still classifies the business as `Jobs & Education` and displays USD while the programme operates as a UK software consultancy. | Benchmarking/suggested reports can be less relevant, and future non-zero value reporting could be confusing. | Owner to confirm a software/technology industry and GBP display currency before either is changed; current zero-value lead counts are unaffected. |
 
@@ -194,7 +194,9 @@ No submission content or direct identifier is reproduced here.
 
 | Asset / URL | Change type | Live date | 7-day | 14-day | 28-day | GSC index state | CTA/form verified | Commit/deploy | Decision |
 |---|---|---|---|---|---|---|---|---|---|
-| _Add on publication_ | _new / material revision_ | _YYYY-MM-DD_ | _date/result_ | _date/result_ | _date/result_ | _state/date_ | _yes/no/evidence_ | _reference_ | _protect/revise/hold_ |
+| `/about` | New trust page | 8 Sep 2026 | 15 Sep | 22 Sep | 6 Oct | Unknown to Google; live test available/indexable at 14:31 BST on 8 Sep | Yes — live CTA route and public-build validation | `11a5ac0`; production deploy `6aa00c8e8bd2f90008cc6c6a` at `2f18a39` | Hold and observe |
+| `/services/software-project-rescue` | New commercial service page | 8 Sep 2026 | 15 Sep | 22 Sep | 6 Oct | Unknown to Google; live test available/indexable at 14:31 BST on 8 Sep | Yes — `service=rescue&from=rescue` preselection verified live | `11a5ac0`; production deploy `6aa00c8e8bd2f90008cc6c6a` at `2f18a39` | Hold and observe |
+| `/blog/software-project-rescue-uk` | Supporting category/link/CTA revision | 8 Sep 2026 | 15 Sep | 22 Sep | 6 Oct | On Google and indexed on 8 Sep | Yes — rescue service and assessment CTA verified | `11a5ac0`; production deploy `6aa00c8e8bd2f90008cc6c6a` at `2f18a39` | Protect indexed URL; observe revision |
 
 ## Material Change Log
 
@@ -205,6 +207,8 @@ No submission content or direct identifier is reproduced here.
 | 7 Sep 2026 21:54 BST | GA4 property and key event | Changed reporting prospectively to United Kingdom time and enabled `generate_lead` as a key event. GA4 required business size and goal, recorded as `Small — 1–10 employees` and `Generate leads`; industry/currency were unchanged. | Align future reporting and expose the approved lead event | ibrahim uylas | GA4 Admin | Use latest complete prior day; review at Day 30 |
 | 7 Sep 2026 BST | Enquiry measurement | Prepared privacy-safe form/event taxonomy and dedicated rescue, support and custom-software choices locally; no deploy. | Make future tests and service attribution distinguishable without PII | ibrahim uylas | Local release candidate `11a5ac0`; no deployment | Register GA4 definitions and validate after authorised Week 02 deploy |
 | 8 Sep 2026 BST | Week 02 trust and rescue assets | Prepared `/about`, `/services/software-project-rescue`, homepage/navigation/sitemap integration and the rescue-article CTA as a validated publication candidate. | Create a credible trust path and a distinct commercial rescue destination | ibrahim uylas | Local release candidate `11a5ac0`; no deployment | Record actual live date, then schedule 7/14/28-day observations |
+| 8 Sep 2026 14:24 BST | Week 02 trust and rescue assets | Published the About page, Project Rescue service, homepage/navigation/sitemap integration, rescue-article links and production enquiry taxonomy. | Explicit production approval after release-readiness PASS | ibrahim uylas | Netlify production deploy `6aa00c8e8bd2f90008cc6c6a`; commit `2f18a39` | 15 Sep / 22 Sep / 6 Oct |
+| 8 Sep 2026 14:31 BST | GA4 taxonomy and Week 02 indexability | Registered four event-scoped GA4 custom dimensions; inspected the two new URLs and the revised rescue article in Search Console. New URLs passed live indexability tests; the article was indexed. No request-indexing action or form submission was made. | Establish prospective classification and capture the first post-publication state without manufacturing a lead | ibrahim uylas | GA4 Admin and Search Console; no repository deployment | Approved labelled test, then 15 Sep cohort check |
 
 ## Open Decisions
 
@@ -212,8 +216,8 @@ No submission content or direct identifier is reproduced here.
 - [ ] Privately confirm whether the in-window retained submission is a test.
 - [x] Change GA4 reporting timezone from Turkey time to United Kingdom time after approval.
 - [x] Configure `generate_lead` as a GA4 key event after approval.
-- [x] Approve and prepare the privacy-safe event/form taxonomy locally; production deployment remains a separate gate.
-- [ ] At the authorised taxonomy deployment, register event-scoped GA4 custom definitions for `service_category`, `landing_page_group`, `form_version` and `test_submission` before the labelled test.
+- [x] Approve, deploy and verify the privacy-safe event/form taxonomy; production deployment completed 8 September.
+- [x] Register event-scoped GA4 custom definitions for `service_category`, `landing_page_group`, `form_version` and `test_submission`; completed 8 September before any labelled test.
 - [ ] If a labelled end-to-end form test is still wanted, approve the exact test procedure and retention/deletion evidence first.
 - [ ] Confirm whether GA4 industry should move from `Jobs & Education` to an appropriate software/technology category and display currency from USD to GBP; neither was changed in Week 01.
 
