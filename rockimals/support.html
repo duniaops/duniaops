@@ -2,8 +2,8 @@
 <html lang="en">
 <head>
 <meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
-<title>Rockimals — Destek / Support</title>
-<meta name="description" content="Rockimals için Türkçe ve İngilizce destek, Earth Shield satın alma ve geri yükleme yardımı.">
+<title>Rockimals — Support</title>
+<meta name="description" content="Rockimals support and frequently asked questions in English, Turkish, Japanese, Korean, Simplified Chinese, French, German and Spanish.">
 <link rel="canonical" href="https://www.duniaops.com/rockimals/support">
 <meta property="og:title" content="Rockimals — Destek / Support"><meta property="og:type" content="website"><meta property="og:url" content="https://www.duniaops.com/rockimals/support">
 <meta property="og:image" content="https://www.duniaops.com/assets/products/rockimals-icon.png?v=20260901-new"><meta property="og:image:alt" content="Rockimals fox resting on an asteroid in space">
@@ -11,10 +11,15 @@
 <link rel="icon" type="image/png" href="/assets/products/rockimals-icon.png?v=20260901-new">
 <link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&amp;display=swap" rel="stylesheet">
-<link rel="stylesheet" href="/css/site.css?v=20260901-rockimals"><link rel="stylesheet" href="/rockimals/legal.css?v=20260901-spacing">
-<script src="/js/analytics.js?v=20260907-lead-taxonomy" defer></script><script src="/js/site.js?v=20260723-blog" defer></script><script src="/rockimals/legal.js?v=20260901-default-en" defer></script>
+<link rel="stylesheet" href="/css/site.css?v=20260901-rockimals"><link rel="stylesheet" href="/rockimals/legal.css?v=20260909-languages">
+<script src="/js/analytics.js?v=20260907-lead-taxonomy" defer></script><script src="/js/site.js?v=20260723-blog" defer></script><script src="/js/legal-language.js?v=20260909" defer></script>
+<link rel="stylesheet" href="/css/legal-language.css?v=20260909">
+<noscript><style>
+  .legal-language-picker > label, .legal-language-picker > select { display: none; }
+  .rockimals-legal-page .legal-language-section[hidden] { display: block !important; }
+</style></noscript>
 </head>
-<body class="rockimals-legal-page" data-title-tr="Rockimals — Destek" data-title-en="Rockimals — Support">
+<body class="rockimals-legal-page" data-legal-root="/rockimals" data-legal-routing="query" data-legal-page="support" data-title-tr="Rockimals — Destek" data-title-en="Rockimals — Support" data-title-ja="Rockimals — サポート" data-title-ko="Rockimals — 지원" data-title-zh-Hans="Rockimals — 支持" data-title-fr="Rockimals — Assistance" data-title-de="Rockimals — Hilfe" data-title-es="Rockimals — Ayuda">
 <a class="skip-link" href="#main-content">İçeriğe geç / Skip to content</a>
 <header>
   <nav class="container nav" aria-label="Primary navigation">
@@ -26,40 +31,177 @@
 <main id="main-content">
   <section class="rockimals-legal-hero">
     <div class="container legal-hero-inner">
-      <div><a class="legal-product-mark" href="/products/rockimals"><img src="/assets/products/rockimals-icon.png?v=20260901-new" alt="" width="44" height="44"><span>Rockimals</span></a><h1><span data-legal-copy="tr" hidden>Destek</span><span data-legal-copy="en">Support</span></h1><p class="legal-updated"><span data-legal-copy="tr" hidden>Yardım ve sık sorulan sorular</span><span data-legal-copy="en">Help and frequently asked questions</span></p></div>
-      <div class="legal-hero-controls"><div class="legal-language-tabs" role="tablist" aria-label="Dil / Language"><button id="support-tab-tr" type="button" role="tab" aria-selected="false" aria-controls="tr" data-legal-language="tr" tabindex="-1">Türkçe</button><button id="support-tab-en" type="button" role="tab" aria-selected="true" aria-controls="en" data-legal-language="en">English</button></div><a class="legal-related-page" href="/rockimals/privacy-policy"><span data-legal-copy="tr" hidden>Gizlilik politikası</span><span data-legal-copy="en">Privacy policy</span></a></div>
+      <div><a class="legal-product-mark" href="/products/rockimals"><img src="/assets/products/rockimals-icon.png?v=20260901-new" alt="" width="44" height="44"><span>Rockimals</span></a><h1><span data-legal-copy="tr" hidden>Destek</span><span data-legal-copy="en">Support</span><span data-legal-copy="ja" hidden>サポート</span><span data-legal-copy="ko" hidden>지원</span><span data-legal-copy="zh-Hans" hidden>支持</span><span data-legal-copy="fr" hidden>Assistance</span><span data-legal-copy="de" hidden>Hilfe</span><span data-legal-copy="es" hidden>Ayuda</span></h1><p class="legal-updated"><span data-legal-copy="tr" hidden>Yardım ve sık sorulan sorular</span><span data-legal-copy="en">Help and frequently asked questions</span><span data-legal-copy="ja" hidden>ヘルプとよくある質問</span><span data-legal-copy="ko" hidden>도움말 및 자주 묻는 질문</span><span data-legal-copy="zh-Hans" hidden>帮助与常见问题</span><span data-legal-copy="fr" hidden>Aide et questions fréquentes</span><span data-legal-copy="de" hidden>Hilfe und häufige Fragen</span><span data-legal-copy="es" hidden>Ayuda y preguntas frecuentes</span></p></div>
+      <div class="legal-hero-controls"><div class="legal-language-picker">
+          <label for="legal-language" data-language-label>Language</label>
+          <select id="legal-language" data-legal-language-select>
+            <option value="tr" lang="tr">Türkçe</option>
+            <option value="en" lang="en" selected>English</option>
+            <option value="ja" lang="ja">日本語</option>
+            <option value="ko" lang="ko">한국어</option>
+            <option value="zh-Hans" lang="zh-Hans">简体中文</option>
+            <option value="fr" lang="fr">Français</option>
+            <option value="de" lang="de">Deutsch</option>
+            <option value="es" lang="es">Español</option>
+          </select>
+          <noscript><nav class="legal-language-fallback" aria-label="Language"><a href="/rockimals/support?lang=tr#tr" lang="tr" hreflang="tr">Türkçe</a> <a href="/rockimals/support?lang=en#en" lang="en" hreflang="en">English</a> <a href="/rockimals/support?lang=ja#ja" lang="ja" hreflang="ja">日本語</a> <a href="/rockimals/support?lang=ko#ko" lang="ko" hreflang="ko">한국어</a> <a href="/rockimals/support?lang=zh-Hans#zh-Hans" lang="zh-Hans" hreflang="zh-Hans">简体中文</a> <a href="/rockimals/support?lang=fr#fr" lang="fr" hreflang="fr">Français</a> <a href="/rockimals/support?lang=de#de" lang="de" hreflang="de">Deutsch</a> <a href="/rockimals/support?lang=es#es" lang="es" hreflang="es">Español</a></nav></noscript>
+        </div><a class="legal-related-page" href="/rockimals/privacy-policy?lang=en"><span data-legal-copy="tr" hidden>Gizlilik Politikası</span><span data-legal-copy="en">Privacy Policy</span><span data-legal-copy="ja" hidden>プライバシーポリシー</span><span data-legal-copy="ko" hidden>개인정보 처리방침</span><span data-legal-copy="zh-Hans" hidden>隐私政策</span><span data-legal-copy="fr" hidden>Politique de confidentialité</span><span data-legal-copy="de" hidden>Datenschutzerklärung</span><span data-legal-copy="es" hidden>Política de privacidad</span></a></div>
     </div>
   </section>
   <div class="legal-main"><div class="container"><article class="legal-document">
-<section class="legal-language-section" id="tr" lang="tr" role="tabpanel" aria-labelledby="support-tab-tr" data-legal-panel="tr" hidden>
+<section class="legal-language-section" id="tr" lang="tr" aria-labelledby="tr-title" data-legal-panel="tr" hidden>
 <h2 class="legal-language-heading" id="tr-title">Türkçe</h2>
-<h3>Bize ulaş</h3><div class="legal-contact"><a href="mailto:info@duniaops.com?subject=Rockimals%20Destek">info@duniaops.com</a><p>Genellikle iki iş günü içinde yanıt veririz. Cihaz modeli, işletim sistemi, uygulama sürümü ve sorunun gerçekleştiği ekranı eklemek çözümü hızlandırır. Çocuk adı, fotoğrafı, mağaza parolası veya ödeme bilgisi göndermeyin.</p></div>
-<h3>Sık sorulanlar</h3>
+<div class="legal-contact"><a href="mailto:info@duniaops.com?subject=Rockimals%20Support">info@duniaops.com</a><p><strong>Yanıt hedefi:</strong> Genellikle iki iş günü içinde yanıt veririz.</p></div>
+<p>Rockimals'ta satın alma, dış bağlantılar, bildirimler ve gizlilik taleplerinde çocuğa ebeveyn veya vasinin yardım etmesi gerekir.</p>
+<h3>Yardım alma</h3>
+<p><a href="mailto:info@duniaops.com">info@duniaops.com</a> adresine sorunun kısa açıklamasını, cihaz modelini, işletim sistemi sürümünü, Rockimals sürümünü, seçili uygulama dilini ve sorunu gösteren adımları gönderin. Çocuğun adı veya adresi, Apple ya da Google hesap bilgileri, tam ödeme bilgileri, parolalar veya kişisel bilgi içeren düzenlenmemiş ekran görüntüleri göndermeyin.</p>
+<h3>Sık konular</h3>
 <div class="legal-faq-list">
-<div class="legal-faq-item"><h4>Hesap gerekiyor mu?</h4><p>Hayır. Rockimals e-posta, parola veya sosyal giriş istemez. Oyun ilerlemesi ve ayarlar cihazda saklanır.</p></div>
-<div class="legal-faq-item"><h4>Bugünün uzay ziyaretçileri görünmüyor</h4><p>İnternet bağlantısını kontrol edip yeniden deneyin. NASA verisi alınamazsa Rockimals paketlenmiş örnek veriyle çalışmaya devam eder.</p></div>
-<div class="legal-faq-item"><h4>Earth Shield için ne satın alıyorum?</h4><p><strong>Earth Shield Forever</strong>, Earth Shield için tek seferlik, tüketilemeyen kalıcı erişimdir. Gösterilen fiyat Apple App Store veya Google Play tarafından yerel para biriminizde sağlanır. Satın alma çocuk ekranında değil, yetişkin kapısından sonra açılan ebeveyn ekranında başlatılır.</p></div>
-<div class="legal-faq-item"><h4>Satın aldım ama Earth Shield açılmadı</h4><p>Earth Shield günlük özetinde <strong>Bir büyüğe sor</strong> seçeneğini açın, ebeveyn kontrolünü tamamlayın ve <strong>Satın alımları geri yükle</strong> seçeneğini kullanın. Aynı mağaza hesabıyla giriş yaptığınızdan emin olun. Parolanızı veya makbuzun tamamını bize göndermeyin.</p></div>
-<div class="legal-faq-item"><h4>Satın alımı iptal veya iade etmek istiyorum</h4><p>Ödeme ve iadeler kullandığınız mağaza tarafından yönetilir. Apple için <a href="https://support.apple.com/billing">Apple faturalandırma desteğini</a>, Google Play için <a href="https://support.google.com/googleplay/workflow/9813244">Google Play iade yardımını</a> kullanın.</p></div>
-<div class="legal-faq-item"><h4>İlerlemeyi sıfırlayabilir miyim?</h4><p>Rockimals hesabı veya bulut profili yoktur. Uygulamayı silmek cihazdaki puanları, rozetleri, ayarları ve çevrimdışı erişim önbelleğini kaldırır. Kalıcı Earth Shield satın alımı mağaza hesabınızdan daha sonra geri yüklenebilir.</p></div>
+<div class="legal-faq-item"><h4>Rockimals Plus:</h4><p>Plus ekranındaki <strong>Satın Alımları Geri Yükle</strong> seçeneğini, satın alma yapılan aynı Apple App Store veya Google Play hesabıyla kullanın. Abonelikler, iadeler ve ödeme yöntemleri ilgili mağaza tarafından yönetilir.</p></div>
+<div class="legal-faq-item"><h4>Hikâyeler:</h4><p>Hikâyeler cihazın seçili dili, saat dilimi ve yerel gününe göre çalışır. Bağlantıyı kontrol edip hikâyeyi yeniden açın. Sorun sürerse ziyaretçi adını, uygulamadaki tarihi ve uygulama dilini desteğe gönderin.</p></div>
+<div class="legal-faq-item"><h4>Hatırlatmalar:</h4><p>Ebeveyn günlük hikâye hatırlatmalarını uygulamadan açıp kapatabilir; bildirim iznini cihaz ayarlarından değiştirebilir. Hatırlatma gelmezse cihaz bildirimleri, Odak/Rahatsız Etme ve ağ erişimini kontrol edin.</p></div>
+<div class="legal-faq-item"><h4>Gizlilik veya silme:</h4><p>Ebeveyn <a href="mailto:info@duniaops.com">info@duniaops.com</a> adresine “Rockimals gizlilik talebi” konusuyla yazabilir. İlk mesajda çocuğun kişisel bilgilerini göndermeyin; destek ekibi hesapsız kurulumu belirlemek için gereken en az bilgiyi açıklayacaktır.</p></div>
+<div class="legal-faq-item"><h4>Erişilebilirlik ve dil:</h4><p>Rockimals İngilizce, Türkçe, Japonca, Korece, Basitleştirilmiş Çince, Fransızca, Almanca ve İspanyolcayı destekler. Bir çeviri veya yerleşim sorunu için dili, metin boyutu ayarını ve cihaz modelini belirtin.</p></div>
 </div>
-<p class="legal-note">Rockimals reklam göstermez. NASA ve JPL bağlantıları ile satın alma/legal bağlantıları yetişkin bağlamında sunulur.</p>
-<p class="legal-related"><a href="/rockimals/privacy-policy">Gizlilik Politikası</a><a href="https://www.apple.com/legal/internet-services/itunes/dev/stdeula/">Apple Standart EULA</a></p>
+
+<p class="legal-related"><a href="/rockimals/privacy-policy?lang=tr">Gizlilik Politikası</a></p>
 </section>
-<section class="legal-language-section" id="en" lang="en" role="tabpanel" aria-labelledby="support-tab-en" data-legal-panel="en">
+<section class="legal-language-section" id="en" lang="en" aria-labelledby="en-title" data-legal-panel="en">
 <h2 class="legal-language-heading" id="en-title">English</h2>
-<h3>Contact us</h3><div class="legal-contact"><a href="mailto:info@duniaops.com?subject=Rockimals%20Support">info@duniaops.com</a><p>We usually reply within two business days. Include the device model, operating system, app version and affected screen. Do not send a child's name or photo, a store password, or payment details.</p></div>
-<h3>Frequently asked</h3>
+<div class="legal-contact"><a href="mailto:info@duniaops.com?subject=Rockimals%20Support">info@duniaops.com</a><p><strong>Response target:</strong> We usually reply within two business days.</p></div>
+<p>Rockimals is designed for children with a parent or guardian helping with
+purchases, external links, notifications, and privacy requests.</p>
+<h3>Getting help</h3>
+<p>Email <a href="mailto:info@duniaops.com">info@duniaops.com</a> with a short description of the problem, your device
+model, operating-system version, Rockimals app version, chosen app language,
+and the steps that show the issue. Do not send a child's name, address, Apple
+or Google account details, full payment details, passwords, or an unredacted
+screenshot containing personal information.</p>
+<h3>Common help topics</h3>
 <div class="legal-faq-list">
-<div class="legal-faq-item"><h4>Do I need an account?</h4><p>No. Rockimals does not ask for an email address, password or social sign-in. Game progress and preferences stay on the device.</p></div>
-<div class="legal-faq-item"><h4>Today's space visitors are missing</h4><p>Check the internet connection and try again. When NASA data is unavailable, Rockimals continues with bundled sample data.</p></div>
-<div class="legal-faq-item"><h4>What does the Earth Shield purchase include?</h4><p><strong>Earth Shield Forever</strong> is a one-time, non-consumable purchase for permanent Earth Shield access. Apple App Store or Google Play supplies the displayed local price. Purchasing starts only on the parent screen after the grown-up check.</p></div>
-<div class="legal-faq-item"><h4>I paid but Earth Shield did not unlock</h4><p>From the Earth Shield daily summary, choose <strong>Ask a grown-up</strong>, complete the grown-up check, then choose <strong>Restore purchases</strong>. Confirm that the device uses the same store account. Do not email us a password or full receipt.</p></div>
-<div class="legal-faq-item"><h4>How do I request a cancellation or refund?</h4><p>The store handles payment and refund decisions. Use <a href="https://support.apple.com/billing">Apple billing support</a> or the <a href="https://support.google.com/googleplay/workflow/9813244">Google Play refund flow</a>.</p></div>
-<div class="legal-faq-item"><h4>Can I reset progress?</h4><p>Rockimals has no account or cloud profile. Deleting the app removes local points, badges, settings and the offline entitlement cache. A permanent Earth Shield purchase can later be restored from the store account.</p></div>
+<div class="legal-faq-item"><h4>Rockimals Plus:</h4><p>Use <strong>Restore Purchases</strong> on the Plus screen while signed
+in to the same Apple App Store or Google Play account that made the purchase.
+Subscriptions, refunds, and payment methods are managed by the relevant app
+store.</p></div>
+<div class="legal-faq-item"><h4>Stories:</h4><p>Stories use the device's selected language, time zone, and local
+day. Check the connection, then reopen the story. If it still is not available,
+send support the visitor name, the date shown in the app, and your app language.</p></div>
+<div class="legal-faq-item"><h4>Reminders:</h4><p>A parent can turn daily-story reminders on or off in the app and
+can change notification permission in device settings. If a reminder does not
+arrive, check device notification settings, Focus/Do Not Disturb, and network
+access.</p></div>
+<div class="legal-faq-item"><h4>Privacy or deletion:</h4><p>A parent may email <a href="mailto:info@duniaops.com">info@duniaops.com</a> with the subject
+“Rockimals privacy request.” Do not include a child's personal details in the
+first message; support will explain the minimum information needed to identify
+the account-free installation.</p></div>
+<div class="legal-faq-item"><h4>Accessibility and language:</h4><p>Rockimals supports English, Turkish, Japanese,
+Korean, Simplified Chinese, French, German, and Spanish. Tell us the language,
+text-size setting, and device model if a layout or translation needs attention.</p></div>
 </div>
-<p class="legal-note">Rockimals contains no advertising. NASA/JPL links and purchase/legal links appear only in a grown-up context.</p>
-<p class="legal-related"><a href="/rockimals/privacy-policy">Privacy Policy</a><a href="https://www.apple.com/legal/internet-services/itunes/dev/stdeula/">Apple Standard EULA</a></p>
+
+<p class="legal-related"><a href="/rockimals/privacy-policy?lang=en">Privacy Policy</a></p>
+</section>
+<section class="legal-language-section" id="ja" lang="ja" aria-labelledby="ja-title" data-legal-panel="ja" hidden>
+<h2 class="legal-language-heading" id="ja-title">日本語</h2>
+<div class="legal-contact"><a href="mailto:info@duniaops.com?subject=Rockimals%20Support">info@duniaops.com</a><p><strong>目標返信時間：</strong> 通常、2営業日以内に返信します。</p></div>
+<p>Rockimals では、購入、外部リンク、通知、プライバシーに関する依頼に保護者の方の支援が必要です。</p>
+<h3>お問い合わせ</h3>
+<p><a href="mailto:info@duniaops.com">info@duniaops.com</a> に、問題の概要、端末モデル、OS バージョン、Rockimals のバージョン、選択言語、再現手順をお送りください。お子さまの氏名・住所、Apple または Google のアカウント情報、完全な支払い情報、パスワード、個人情報を隠していない画面写真は送らないでください。</p>
+<h3>よくある内容</h3>
+<div class="legal-faq-list">
+<div class="legal-faq-item"><h4>Rockimals Plus：</h4><p>購入した同じ Apple App Store または Google Play アカウントで、Plus 画面の <strong>購入を復元</strong> を使ってください。購読、返金、支払い方法は各ストアで管理されます。</p></div>
+<div class="legal-faq-item"><h4>物語：</h4><p>端末の選択言語、タイムゾーン、現地日を使います。接続を確認して物語を開き直してください。続く場合は、訪問者名、表示日、アプリ言語をお知らせください。</p></div>
+<div class="legal-faq-item"><h4>リマインダー：</h4><p>保護者はアプリでオン・オフにでき、端末設定で通知許可を変更できます。届かない場合は通知設定、集中モード／おやすみモード、ネットワークを確認してください。</p></div>
+<div class="legal-faq-item"><h4>プライバシー：</h4><p>件名を「Rockimals プライバシー請求」として <a href="mailto:info@duniaops.com">info@duniaops.com</a> にご連絡ください。最初の連絡でお子さまの個人情報は送らないでください。アカウントのないインストールを特定する最小限の情報を案内します。</p></div>
+<div class="legal-faq-item"><h4>アクセシビリティと言語：</h4><p>Rockimals は英語、トルコ語、日本語、韓国語、簡体字中国語、フランス語、ドイツ語、スペイン語に対応します。翻訳や表示の問題は、言語、文字サイズ、端末モデルをお知らせください。</p></div>
+</div>
+
+<p class="legal-related"><a href="/rockimals/privacy-policy?lang=ja">プライバシーポリシー</a></p>
+</section>
+<section class="legal-language-section" id="ko" lang="ko" aria-labelledby="ko-title" data-legal-panel="ko" hidden>
+<h2 class="legal-language-heading" id="ko-title">한국어</h2>
+<div class="legal-contact"><a href="mailto:info@duniaops.com?subject=Rockimals%20Support">info@duniaops.com</a><p><strong>답변 목표:</strong> 보통 영업일 기준 2일 이내에 답변합니다.</p></div>
+<p>Rockimals에서는 구매, 외부 링크, 알림, 개인정보 요청에 부모 또는 보호자의 도움이 필요합니다.</p>
+<h3>도움 받기</h3>
+<p><a href="mailto:info@duniaops.com">info@duniaops.com</a>로 문제 설명, 기기 모델, 운영체제 버전, Rockimals 버전, 선택 언어, 문제 재현 단계를 보내 주세요. 어린이의 이름이나 주소, Apple 또는 Google 계정 정보, 전체 결제 정보, 비밀번호, 개인정보가 가려지지 않은 화면 캡처는 보내지 마세요.</p>
+<h3>자주 묻는 내용</h3>
+<div class="legal-faq-list">
+<div class="legal-faq-item"><h4>Rockimals Plus:</h4><p>구매에 사용한 동일한 Apple App Store 또는 Google Play 계정으로 Plus 화면의 <strong>구매 복원</strong>을 사용하세요. 구독, 환불, 결제 수단은 해당 스토어가 관리합니다.</p></div>
+<div class="legal-faq-item"><h4>이야기:</h4><p>기기의 선택 언어, 시간대, 현지 날짜를 사용합니다. 연결을 확인한 뒤 이야기를 다시 여세요. 계속되면 방문자 이름, 표시된 날짜, 앱 언어를 알려 주세요.</p></div>
+<div class="legal-faq-item"><h4>알림:</h4><p>부모 또는 보호자는 앱에서 매일 이야기 알림을 켜거나 끌 수 있고 기기 설정에서 알림 권한을 바꿀 수 있습니다. 오지 않으면 알림 설정, 집중 모드/방해 금지, 네트워크를 확인하세요.</p></div>
+<div class="legal-faq-item"><h4>개인정보:</h4><p>제목을 “Rockimals 개인정보 요청”으로 하여 <a href="mailto:info@duniaops.com">info@duniaops.com</a>에 보내 주세요. 처음에는 어린이의 개인정보를 보내지 마세요. 계정 없는 설치를 찾는 데 필요한 최소 정보를 안내합니다.</p></div>
+<div class="legal-faq-item"><h4>접근성과 언어:</h4><p>Rockimals는 영어, 터키어, 일본어, 한국어, 중국어 간체, 프랑스어, 독일어, 스페인어를 지원합니다. 번역이나 화면 배치 문제가 있으면 언어, 글자 크기, 기기 모델을 알려 주세요.</p></div>
+</div>
+
+<p class="legal-related"><a href="/rockimals/privacy-policy?lang=ko">개인정보 처리방침</a></p>
+</section>
+<section class="legal-language-section" id="zh-Hans" lang="zh-Hans" aria-labelledby="zh-Hans-title" data-legal-panel="zh-Hans" hidden>
+<h2 class="legal-language-heading" id="zh-Hans-title">简体中文</h2>
+<div class="legal-contact"><a href="mailto:info@duniaops.com?subject=Rockimals%20Support">info@duniaops.com</a><p><strong>目标回复时间：</strong> 我们通常会在两个工作日内回复。</p></div>
+<p>Rockimals 面向儿童；购买、外部链接、通知和隐私请求需要父母或监护人的帮助。</p>
+<h3>获取帮助</h3>
+<p>请将问题简介、设备型号、操作系统版本、Rockimals 版本、所选语言和复现步骤发送至 <a href="mailto:info@duniaops.com">info@duniaops.com</a>。请不要发送儿童姓名或地址、Apple 或 Google 账户详情、完整付款信息、密码，或含有未遮盖个人信息的截图。</p>
+<h3>常见问题</h3>
+<div class="legal-faq-list">
+<div class="legal-faq-item"><h4>Rockimals Plus：</h4><p>请使用购买时所用的同一 Apple App Store 或 Google Play 账户，在 Plus 页面选择 <strong>恢复购买</strong>。订阅、退款和付款方式由相应应用商店管理。</p></div>
+<div class="legal-faq-item"><h4>故事：</h4><p>故事使用设备的所选语言、时区和当地日期。请检查网络连接后重新打开故事。若问题仍然存在，请提供访客名称、应用显示的日期和应用语言。</p></div>
+<div class="legal-faq-item"><h4>提醒：</h4><p>父母或监护人可在应用中开启或关闭每日故事提醒，并在设备设置中更改通知许可。未收到提醒时，请检查通知设置、专注模式/勿扰模式和网络。</p></div>
+<div class="legal-faq-item"><h4>隐私：</h4><p>请将主题写为“Rockimals 隐私请求”并发送至 <a href="mailto:info@duniaops.com">info@duniaops.com</a>。首次联系时不要发送儿童个人信息；我们会说明识别无账户安装所需的最少信息。</p></div>
+<div class="legal-faq-item"><h4>无障碍与语言：</h4><p>Rockimals 支持英语、土耳其语、日语、韩语、简体中文、法语、德语和西班牙语。如有翻译或布局问题，请告知语言、文字大小和设备型号。</p></div>
+</div>
+
+<p class="legal-related"><a href="/rockimals/privacy-policy?lang=zh-Hans">隐私政策</a></p>
+</section>
+<section class="legal-language-section" id="fr" lang="fr" aria-labelledby="fr-title" data-legal-panel="fr" hidden>
+<h2 class="legal-language-heading" id="fr-title">Français</h2>
+<div class="legal-contact"><a href="mailto:info@duniaops.com?subject=Rockimals%20Support">info@duniaops.com</a><p><strong>Délai de réponse :</strong> Nous répondons généralement sous deux jours ouvrés.</p></div>
+<p>Rockimals est conçu pour les enfants avec l'aide d'un parent ou tuteur pour les achats, liens externes, notifications et demandes de confidentialité.</p>
+<h3>Obtenir de l'aide</h3>
+<p>Écrivez à <a href="mailto:info@duniaops.com">info@duniaops.com</a> avec une brève description, le modèle de l'appareil, la version du système, la version de Rockimals, la langue choisie et les étapes du problème. N'envoyez pas le nom ou l'adresse d'un enfant, les détails de compte Apple ou Google, les données de paiement, mots de passe ou captures non masquées contenant des informations personnelles.</p>
+<h3>Sujets fréquents</h3>
+<div class="legal-faq-list">
+<div class="legal-faq-item"><h4>Rockimals Plus :</h4><p>utilisez <strong>Restaurer les achats</strong> dans l'écran Plus avec le même compte Apple App Store ou Google Play. Les abonnements, remboursements et paiements sont gérés par la boutique.</p></div>
+<div class="legal-faq-item"><h4>Histoires :</h4><p>elles utilisent la langue, le fuseau horaire et le jour local de l'appareil. Vérifiez la connexion puis rouvrez l'histoire. Si le problème continue, envoyez le nom du visiteur, la date affichée et la langue de l'app.</p></div>
+<div class="legal-faq-item"><h4>Rappels :</h4><p>un parent peut les activer ou désactiver dans l'app et modifier l'autorisation dans les réglages. Vérifiez les notifications, Concentration/Ne pas déranger et le réseau.</p></div>
+<div class="legal-faq-item"><h4>Confidentialité :</h4><p>écrivez à <a href="mailto:info@duniaops.com">info@duniaops.com</a> avec l'objet « demande de confidentialité Rockimals ». Ne communiquez pas d'abord les données personnelles d'un enfant ; nous expliquerons le minimum nécessaire pour retrouver l'installation sans compte.</p></div>
+<div class="legal-faq-item"><h4>Accessibilité et langues :</h4><p>Rockimals prend en charge l'anglais, le turc, le japonais, le coréen, le chinois simplifié, le français, l'allemand et l'espagnol. Indiquez la langue, la taille du texte et le modèle de l'appareil pour tout problème de traduction ou de mise en page.</p></div>
+</div>
+
+<p class="legal-related"><a href="/rockimals/privacy-policy?lang=fr">Politique de confidentialité</a></p>
+</section>
+<section class="legal-language-section" id="de" lang="de" aria-labelledby="de-title" data-legal-panel="de" hidden>
+<h2 class="legal-language-heading" id="de-title">Deutsch</h2>
+<div class="legal-contact"><a href="mailto:info@duniaops.com?subject=Rockimals%20Support">info@duniaops.com</a><p><strong>Antwortziel:</strong> Wir antworten in der Regel innerhalb von zwei Werktagen.</p></div>
+<p>Rockimals ist für Kinder konzipiert; bei Käufen, externen Links, Benachrichtigungen und Datenschutzanfragen sollen Eltern oder Erziehungsberechtigte helfen.</p>
+<h3>Hilfe erhalten</h3>
+<p>Schreiben Sie an <a href="mailto:info@duniaops.com">info@duniaops.com</a> mit kurzer Fehlerbeschreibung, Gerätemodell, Betriebssystemversion, Rockimals-Version, gewählter Sprache und den Schritten zum Problem. Senden Sie keinen Namen oder keine Adresse eines Kindes, keine Apple- oder Google-Kontodaten, vollständigen Zahlungsdaten, Passwörter oder ungeschwärzten Screenshots mit persönlichen Daten.</p>
+<h3>Häufige Themen</h3>
+<div class="legal-faq-list">
+<div class="legal-faq-item"><h4>Rockimals Plus:</h4><p>Nutzen Sie <strong>Käufe wiederherstellen</strong> auf dem Plus-Bildschirm mit demselben Apple-App-Store- oder Google-Play-Konto. Abonnements, Rückerstattungen und Zahlungen verwaltet der jeweilige Store.</p></div>
+<div class="legal-faq-item"><h4>Geschichten:</h4><p>Sie verwenden Gerätesprache, Zeitzone und lokalen Tag. Prüfen Sie die Verbindung und öffnen Sie die Geschichte erneut. Besteht das Problem weiter, senden Sie Besuchername, angezeigtes Datum und App-Sprache.</p></div>
+<div class="legal-faq-item"><h4>Erinnerungen:</h4><p>Eltern können tägliche Erinnerungen in der App ein- oder ausschalten und die Berechtigung in den Geräteeinstellungen ändern. Prüfen Sie Benachrichtigungen, Fokus/Nicht stören und Netzwerkzugang.</p></div>
+<div class="legal-faq-item"><h4>Datenschutz:</h4><p>Schreiben Sie an <a href="mailto:info@duniaops.com">info@duniaops.com</a> mit dem Betreff „Rockimals-Datenschutzanfrage“. Senden Sie zunächst keine persönlichen Daten eines Kindes; wir erklären die minimale Information zur Zuordnung der kontolosen Installation.</p></div>
+<div class="legal-faq-item"><h4>Barrierefreiheit und Sprachen:</h4><p>Rockimals unterstützt Englisch, Türkisch, Japanisch, Koreanisch, vereinfachtes Chinesisch, Französisch, Deutsch und Spanisch. Nennen Sie Sprache, Textgröße und Gerätemodell bei Übersetzungs- oder Layoutproblemen.</p></div>
+</div>
+
+<p class="legal-related"><a href="/rockimals/privacy-policy?lang=de">Datenschutzerklärung</a></p>
+</section>
+<section class="legal-language-section" id="es" lang="es" aria-labelledby="es-title" data-legal-panel="es" hidden>
+<h2 class="legal-language-heading" id="es-title">Español</h2>
+<div class="legal-contact"><a href="mailto:info@duniaops.com?subject=Rockimals%20Support">info@duniaops.com</a><p><strong>Plazo de respuesta:</strong> Normalmente respondemos en un plazo de dos días laborables.</p></div>
+<p>Rockimals está diseñado para niños con ayuda de una persona adulta en compras, enlaces externos, notificaciones y solicitudes de privacidad.</p>
+<h3>Obtener ayuda</h3>
+<p>Escriba a <a href="mailto:info@duniaops.com">info@duniaops.com</a> con una descripción breve, modelo de dispositivo, versión del sistema operativo, versión de Rockimals, idioma elegido y pasos para reproducir el problema. No envíe el nombre o dirección de un niño, datos de cuenta de Apple o Google, datos completos de pago, contraseñas ni capturas sin ocultar información personal.</p>
+<h3>Temas habituales</h3>
+<div class="legal-faq-list">
+<div class="legal-faq-item"><h4>Rockimals Plus:</h4><p>use <strong>Restaurar compras</strong> en la pantalla Plus con la misma cuenta de Apple App Store o Google Play. Las suscripciones, reembolsos y pagos se gestionan en la tienda correspondiente.</p></div>
+<div class="legal-faq-item"><h4>Historias:</h4><p>usan el idioma, la zona horaria y el día local del dispositivo. Compruebe la conexión y vuelva a abrir la historia. Si continúa el problema, envíe el nombre del visitante, la fecha mostrada y el idioma de la app.</p></div>
+<div class="legal-faq-item"><h4>Recordatorios:</h4><p>una persona adulta puede activarlos o desactivarlos en la app y cambiar el permiso en los ajustes. Compruebe las notificaciones, Concentración/No molestar y la red.</p></div>
+<div class="legal-faq-item"><h4>Privacidad:</h4><p>escriba a <a href="mailto:info@duniaops.com">info@duniaops.com</a> con el asunto «solicitud de privacidad de Rockimals». No envíe primero datos personales de un niño; explicaremos la información mínima para identificar la instalación sin cuenta.</p></div>
+<div class="legal-faq-item"><h4>Accesibilidad e idiomas:</h4><p>Rockimals admite inglés, turco, japonés, coreano, chino simplificado, francés, alemán y español. Indique idioma, tamaño de texto y modelo del dispositivo ante problemas de traducción o diseño.</p></div>
+</div>
+
+<p class="legal-related"><a href="/rockimals/privacy-policy?lang=es">Política de privacidad</a></p>
 </section>
   </article></div></div>
 </main>

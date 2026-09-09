@@ -1,5 +1,5 @@
 (() => {
-  const page = document.querySelector('.zoday-legal-page');
+  const page = document.querySelector('[data-legal-page]');
   const select = document.querySelector('[data-legal-language-select]');
   const label = document.querySelector('[data-language-label]');
   const panels = Array.from(document.querySelectorAll('[data-legal-panel]'));
@@ -10,7 +10,8 @@
 
   const supported = new Set(Array.from(select.options, (option) => option.value));
   const defaultLanguage = document.documentElement.lang;
-  const labels = { tr: 'Dil', en: 'Language', es: 'Idioma', 'pt-BR': 'Idioma', de: 'Sprache' };
+  const labels = { tr: 'Dil', en: 'Language', es: 'Idioma', 'pt-BR': 'Idioma', de: 'Sprache', fr: 'Langue', ja: '言語', ko: '언어', 'zh-Hans': '语言' };
+  const root = page.dataset.legalRoot;
   const languageFromUrl = () => {
     const queryLanguage = new URL(window.location.href).searchParams.get('lang');
     if (supported.has(queryLanguage)) return queryLanguage;
@@ -18,7 +19,8 @@
     return supported.has(hashLanguage) ? hashLanguage : defaultLanguage;
   };
   const languageUrl = (pageName, language) => {
-    const base = `/zoday/${pageName}`;
+    const base = `${root}/${pageName}`;
+    if (page.dataset.legalRouting === 'query') return `${base}?lang=${language}`;
     return language === 'tr' || language === 'en'
       ? `${base}?lang=${language}`
       : `${base}/${language}`;
@@ -147,7 +149,8 @@
 
     relatedPages.forEach((link) => {
       const relatedUrl = new URL(link.href, window.location.href);
-      const match = relatedUrl.pathname.match(/^\/zoday\/(support|privacy-policy)(?:\/|$)/);
+      const match = relatedUrl.pathname.startsWith(`${root}/`)
+        ? relatedUrl.pathname.slice(root.length).match(/^\/(support|privacy-policy)(?:\/|$)/) : null;
       if (relatedUrl.origin === window.location.origin && match) {
         link.href = languageUrl(match[1], selectedLanguage);
       }

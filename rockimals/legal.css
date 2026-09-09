@@ -348,3 +348,10 @@ body.rockimals-legal-page {
   .legal-table { overflow: visible; }
   .legal-table table { min-width: 0; }
 }
+
+/* Long translated titles and CJK text stay inside the shared document shell. */
+.rockimals-legal-hero h1 { overflow-wrap: anywhere; }
+.legal-document a, .legal-document code { overflow-wrap: anywhere; }
+.legal-language-section[lang="ko"] { word-break: keep-all; overflow-wrap: anywhere; }
+
+.rockimals-legal-hero [data-legal-copy="ja"] { word-break: keep-all; }
