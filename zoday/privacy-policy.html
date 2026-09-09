@@ -13,255 +13,21 @@
 <meta name="twitter:card" content="summary">
 <meta name="theme-color" content="#17102d">
 <link rel="icon" type="image/png" href="/assets/favicon.png?v=20260721">
-<style>
-  :root {
-    color-scheme: light;
-    --night: #17102d;
-    --night-soft: #251a46;
-    --paper: #fbf9f4;
-    --paper-raised: #ffffff;
-    --ink: #25202f;
-    --muted: #6e6876;
-    --rule: #ded8e5;
-    --accent: #7257cc;
-    --accent-dark: #4d369e;
-    --accent-soft: #eee9ff;
-    --gold: #d7a84d;
-  }
-  * { box-sizing: border-box; }
-  html { scroll-behavior: smooth; }
-  body {
-    margin: 0;
-    background:
-      radial-gradient(circle at 12% 5%, rgba(126, 94, 214, .38), transparent 29rem),
-      radial-gradient(circle at 86% 23%, rgba(215, 168, 77, .14), transparent 24rem),
-      var(--night);
-    color: var(--ink);
-    font: 16px/1.72 -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
-    -webkit-font-smoothing: antialiased;
-  }
-  body::before {
-    content: "";
-    position: fixed;
-    inset: 0;
-    pointer-events: none;
-    opacity: .45;
-    background-image:
-      radial-gradient(circle, rgba(255,255,255,.85) 0 1px, transparent 1.5px),
-      radial-gradient(circle, rgba(255,255,255,.55) 0 1px, transparent 1.5px);
-    background-position: 24px 18px, 11px 8px;
-    background-size: 92px 92px, 143px 143px;
-    mask-image: linear-gradient(to bottom, #000 0, transparent 38rem);
-  }
-  a { color: var(--accent-dark); text-underline-offset: .18em; }
-  a:hover { text-decoration-thickness: 2px; }
-  .skip-link {
-    position: fixed;
-    z-index: 10;
-    top: .75rem;
-    left: .75rem;
-    transform: translateY(-200%);
-    padding: .7rem 1rem;
-    border-radius: .5rem;
-    background: #fff;
-    color: var(--night);
-  }
-  .skip-link:focus { transform: none; }
-  .site-mark {
-    position: relative;
-    z-index: 1;
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-    width: min(100% - 2rem, 72rem);
-    margin: 0 auto;
-    padding: 1.25rem 0;
-  }
-  .zoday-mark {
-    display: inline-flex;
-    align-items: center;
-    gap: .65rem;
-    color: #fff;
-    font-size: .82rem;
-    font-weight: 700;
-    letter-spacing: .22em;
-    text-decoration: none;
-  }
-  .zoday-orbit {
-    position: relative;
-    width: 2.15rem;
-    height: 2.15rem;
-    border: 1px solid rgba(255,255,255,.5);
-    border-radius: 50%;
-  }
-  .zoday-orbit::before {
-    content: "";
-    position: absolute;
-    inset: .55rem;
-    border-radius: 50%;
-    background: linear-gradient(135deg, #fff3b5, var(--gold));
-    box-shadow: 0 0 20px rgba(215,168,77,.6);
-  }
-  .zoday-orbit::after {
-    content: "";
-    position: absolute;
-    width: .34rem;
-    height: .34rem;
-    top: -.13rem;
-    left: .85rem;
-    border-radius: 50%;
-    background: #fff;
-  }
-  .duniaops-link { color: rgba(255,255,255,.7); font-size: .8rem; text-decoration: none; }
-  .duniaops-link:hover { color: #fff; }
-  .wrap {
-    position: relative;
-    z-index: 1;
-    width: min(100% - 2rem, 64rem);
-    margin: 1rem auto 4rem;
-    padding: clamp(2rem, 6vw, 5rem) clamp(1.15rem, 6vw, 6rem) 3rem;
-    border: 1px solid rgba(255,255,255,.16);
-    border-radius: 1.5rem;
-    background: var(--paper);
-    box-shadow: 0 30px 80px rgba(5, 2, 16, .38);
-  }
-  header {
-    position: relative;
-    padding: 0 0 2rem;
-    margin-bottom: 2.75rem;
-    border-bottom: 1px solid var(--rule);
-  }
-  header::after {
-    content: "✦";
-    position: absolute;
-    right: 0;
-    bottom: 1.5rem;
-    color: var(--gold);
-    font-size: 1.5rem;
-  }
-  h1, h2, h3 { color: var(--ink); }
-  h1 {
-    max-width: 36rem;
-    margin: 0 0 .55rem;
-    font-family: Georgia, "Times New Roman", serif;
-    font-size: clamp(2.15rem, 6vw, 4.1rem);
-    font-weight: 500;
-    line-height: 1.05;
-    letter-spacing: -.045em;
-  }
-  .sub { margin: 0; color: var(--muted); font-size: .92rem; }
-  .langnav { display: flex; gap: .5rem; margin: 1.5rem 0 0; font-size: .88rem; }
-  .langnav a {
-    padding: .48rem .8rem;
-    border: 1px solid var(--rule);
-    border-radius: 999px;
-    background: var(--paper-raised);
-    color: var(--accent-dark);
-    font-weight: 650;
-    text-decoration: none;
-  }
-  .langnav a:hover, .langnav a:focus-visible { border-color: var(--accent); background: var(--accent-soft); }
-  section { scroll-margin-top: 1.5rem; }
-  section > p:first-child { font-size: 1.06rem; }
-  h2 {
-    margin: 3.4rem 0 1rem;
-    padding-top: .2rem;
-    font-family: Georgia, "Times New Roman", serif;
-    font-size: clamp(1.55rem, 4vw, 2rem);
-    font-weight: 500;
-    line-height: 1.25;
-    letter-spacing: -.025em;
-  }
-  h3 { margin: 2.1rem 0 .65rem; font-size: 1.03rem; line-height: 1.4; }
-  p { margin: .85rem 0; }
-  code { font-family: ui-monospace, SFMono-Regular, Menlo, monospace; font-size: .9em; }
-  ul { padding-left: 1.35rem; }
-  li { margin: .48rem 0; padding-left: .15rem; }
-  li::marker { color: var(--accent); }
-  .table-scroll {
-    overflow-x: auto;
-    margin: 1.1rem 0 1.75rem;
-    border: 1px solid var(--rule);
-    border-radius: .8rem;
-    background: var(--paper-raised);
-    -webkit-overflow-scrolling: touch;
-  }
-  table { width: 100%; min-width: 34rem; border-collapse: collapse; font-size: .92rem; }
-  th, td { padding: .78rem .85rem; text-align: left; vertical-align: top; border-bottom: 1px solid var(--rule); }
-  tr:last-child td { border-bottom: 0; }
-  th {
-    background: #f3f0f6;
-    color: var(--muted);
-    font-size: .73rem;
-    font-weight: 750;
-    letter-spacing: .075em;
-    text-transform: uppercase;
-  }
-  tbody tr:hover { background: #faf8fd; }
-  .note {
-    position: relative;
-    margin: 1.8rem 0;
-    padding: 1.15rem 1.25rem 1.15rem 1.45rem;
-    border: 1px solid #dcd3fa;
-    border-left: 4px solid var(--accent);
-    border-radius: .25rem .8rem .8rem .25rem;
-    background: var(--accent-soft);
-    color: #484052;
-  }
-  .divider { margin: 5rem 0 0; border: 0; border-top: 1px solid var(--rule); }
-  #en { padding-top: .1rem; }
-  #en > h1 { margin-top: 4rem !important; }
-  footer { margin-top: 4rem; padding-top: 1.75rem; border-top: 1px solid var(--rule); color: var(--muted); font-size: .85rem; }
-  footer a { color: inherit; }
-  @media (max-width: 640px) {
-    .site-mark { padding: 1rem 0; }
-    .duniaops-link { max-width: 8rem; text-align: right; }
-    .wrap { width: min(100% - 1rem, 64rem); margin-top: .25rem; padding-inline: 1rem; border-radius: 1rem; }
-    header::after { display: none; }
-    h1 { font-size: clamp(2.2rem, 12vw, 3.3rem); }
-    .table-scroll { margin-inline: -.25rem; }
-  }
-  @media (prefers-color-scheme: dark) {
-    :root {
-      color-scheme: dark;
-      --night: #0d081b;
-      --night-soft: #19112f;
-      --paper: #17131f;
-      --paper-raised: #211b2b;
-      --ink: #f1ecf4;
-      --muted: #b5adba;
-      --rule: #3c3445;
-      --accent: #a991ff;
-      --accent-dark: #c0afff;
-      --accent-soft: #2b2341;
-      --gold: #e5bc68;
-    }
-    th { background: #251f2e; }
-    tbody tr:hover { background: #1e1926; }
-    .note { border-color: #4a3b74; border-left-color: var(--accent); color: #ded7e5; }
-    .skip-link { background: var(--paper-raised); color: var(--ink); }
-  }
-  @media (prefers-reduced-motion: reduce) { html { scroll-behavior: auto; } }
-  @media print {
-    body { background: #fff; }
-    body::before, .site-mark, .skip-link { display: none; }
-    .wrap { width: 100%; margin: 0; padding: 0; border: 0; box-shadow: none; }
-    .table-scroll { overflow: visible; }
-    table { min-width: 0; }
-    .note { break-inside: avoid; }
-  }
-</style>
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&amp;display=swap" rel="stylesheet">
 <link rel="stylesheet" href="/css/site.css?v=20260901-rockimals">
 <link rel="stylesheet" href="/rockimals/legal.css?v=20260901-spacing">
-<link rel="stylesheet" href="/zoday/legal.css?v=20260901">
+<link rel="stylesheet" href="/zoday/legal.css?v=20260909-language-menu">
 <script src="/js/analytics.js?v=20260907-lead-taxonomy" defer></script>
 <script src="/js/site.js?v=20260723-blog" defer></script>
-<script src="/zoday/legal.js?v=20260901-default-en" defer></script>
+<script src="/zoday/legal.js?v=20260909-language-menu" defer></script>
+<noscript><style>
+  .legal-language-picker > label, .legal-language-picker > select { display: none; }
+  .zoday-legal-page .legal-language-section[hidden] { display: block !important; }
+</style></noscript>
 </head>
-<body class="rockimals-legal-page zoday-legal-page" data-title-tr="Zoday — Gizlilik Politikası" data-title-en="Zoday — Privacy Policy">
+<body class="rockimals-legal-page zoday-legal-page" data-legal-page="privacy-policy" data-title-tr="Zoday — Gizlilik Politikası" data-title-en="Zoday — Privacy Policy">
 <a class="skip-link" href="#main-content">İçeriğe geç / Skip to content</a>
 <header>
   <nav class="container nav" aria-label="Primary navigation">
@@ -274,13 +40,23 @@
   <section class="rockimals-legal-hero zoday-legal-hero">
     <div class="container legal-hero-inner">
       <div><a class="legal-product-mark" href="/products/zoday"><img src="/assets/products/zoday-mark.png?v=20260901-symbol" alt="" width="44" height="44"><span>Zoday</span></a><h1><span data-legal-copy="tr" hidden>Gizlilik Politikası</span><span data-legal-copy="en">Privacy Policy</span></h1><p class="legal-updated"><span data-legal-copy="tr" hidden>Yürürlük tarihi: 28 Ağustos 2026 · Sürüm 1.5</span><span data-legal-copy="en">Effective: 28 August 2026 · Version 1.5</span></p></div>
-      <div class="legal-hero-controls"><div class="legal-language-tabs" role="tablist" aria-label="Dil / Language"><button id="privacy-tab-tr" type="button" role="tab" aria-selected="false" aria-controls="tr" data-legal-language="tr" tabindex="-1">Türkçe</button><button id="privacy-tab-en" type="button" role="tab" aria-selected="true" aria-controls="en" data-legal-language="en">English</button></div><a class="legal-related-page" href="/zoday/support"><span data-legal-copy="tr" hidden>Destek sayfası</span><span data-legal-copy="en">Support page</span></a><nav class="language-nav" aria-label="Additional languages" style="display:flex;flex-wrap:wrap;gap:10px 20px;margin-top:16px"><a lang="es" href="/zoday/privacy-policy/es">Español</a><a lang="pt-BR" href="/zoday/privacy-policy/pt-BR">Português (Brasil)</a><a lang="de" href="/zoday/privacy-policy/de">Deutsch</a></nav></div>
+      <div class="legal-hero-controls"><div class="legal-language-picker">
+          <label for="legal-language" data-language-label>Language</label>
+          <select id="legal-language" data-legal-language-select>
+            <option value="tr" lang="tr">Türkçe</option>
+            <option value="en" lang="en" selected>English</option>
+            <option value="es" lang="es">Español</option>
+            <option value="pt-BR" lang="pt-BR">Português (Brasil)</option>
+            <option value="de" lang="de">Deutsch</option>
+          </select>
+          <noscript><nav class="legal-language-fallback" aria-label="Language"><a href="/zoday/privacy-policy?lang=tr#tr" lang="tr" hreflang="tr">Türkçe</a> <a href="/zoday/privacy-policy?lang=en#en" lang="en" hreflang="en">English</a> <a href="/zoday/privacy-policy/es" lang="es" hreflang="es">Español</a> <a href="/zoday/privacy-policy/pt-BR" lang="pt-BR" hreflang="pt-BR">Português (Brasil)</a> <a href="/zoday/privacy-policy/de" lang="de" hreflang="de">Deutsch</a></nav></noscript>
+        </div><a class="legal-related-page" href="/zoday/support?lang=en"><span data-legal-copy="tr" hidden>Destek sayfası</span><span data-legal-copy="en">Support page</span></a></div>
     </div>
   </section>
   <div class="legal-main"><div class="container"><article class="legal-document">
 
 <!-- ===================== TÜRKÇE ===================== -->
-<section class="legal-language-section" id="tr" lang="tr" role="tabpanel" aria-labelledby="privacy-tab-tr" data-legal-panel="tr" hidden>
+<section class="legal-language-section" id="tr" lang="tr" aria-labelledby="tr-title" data-legal-panel="tr" hidden>
 
 <h2 class="legal-language-heading" id="tr-title">Türkçe</h2>
 
@@ -518,12 +294,12 @@ finansal tavsiye niteliği taşımaz ve bu alanlarda uzman görüşünün yerine
 <p>Politikayı güncellersek bu sayfadaki yürürlük tarihini değiştiririz. Veri işleme
 biçimimizde esaslı bir değişiklik olursa uygulama içinden bilgilendiririz.</p>
 
-<p class="legal-related"><a href="/zoday/support">Destek</a><a href="https://www.apple.com/legal/privacy/">Apple Gizlilik Politikası</a></p>
+<p class="legal-related"><a href="/zoday/support?lang=tr">Destek</a><a href="https://www.apple.com/legal/privacy/">Apple Gizlilik Politikası</a></p>
 
 </section>
 
 <!-- ===================== ENGLISH ===================== -->
-<section class="legal-language-section" id="en" lang="en" role="tabpanel" aria-labelledby="privacy-tab-en" data-legal-panel="en">
+<section class="legal-language-section" id="en" lang="en" aria-labelledby="en-title" data-legal-panel="en">
 
 <h2 class="legal-language-heading" id="en-title">English</h2>
 
@@ -760,7 +536,7 @@ psychological, legal or financial advice and are not a substitute for a professi
 <p>If we update this policy we will change the effective date on this page. If we change
 something material about how we handle data, we will tell you inside the app.</p>
 
-<p class="legal-related"><a href="/zoday/support">Support</a><a href="https://www.apple.com/legal/privacy/">Apple Privacy Policy</a></p>
+<p class="legal-related"><a href="/zoday/support?lang=en">Support</a><a href="https://www.apple.com/legal/privacy/">Apple Privacy Policy</a></p>
 
 </section>
   </article></div></div>
