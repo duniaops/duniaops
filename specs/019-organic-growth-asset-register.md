@@ -1,6 +1,6 @@
 # Organic Growth Asset Register — Weeks 02–08
 
-**Status:** In production — the Week 02 assets and homepage integration went live early on 8 September through production deploy `6aa00c8e8bd2f90008cc6c6a`. Initial live, GA4 and Search Console verification is complete; cohort monitoring and the labelled form test remain open.
+**Status:** In production — the Week 02 assets and homepage integration went live early on 8 September through production deploy `6aa00c8e8bd2f90008cc6c6a`. Initial live, GA4, Search Console and labelled form-path verification are complete; cohort monitoring remains open.
 **Programme owner:** ibrahim uylas
 **Default asset owner:** ibrahim uylas
 **Default factual/copy/deploy approver:** ibrahim uylas
@@ -16,7 +16,7 @@ The named owner/approver is the programme default inferred from the accepted pla
 - The DevOps service page has the strongest existing commercial visibility: 278 impressions at average position 59.32 in the 20 July–5 September Search Console view.
 - The AI service page follows with 149 impressions at position 66.17, but its current message mixes AI product delivery with AI-assisted engineering method.
 - The existing rescue article has one impression at position 9, while the latest coverage snapshot says it was crawled but not indexed. It needs a commercial destination and stronger cluster links, not another near-duplicate rescue article.
-- There is no dedicated application-support or custom-software commercial destination, and the homepage form has no rescue, support or custom-software options.
+- At baseline there was no dedicated application-support or custom-software commercial destination, and the homepage form had no rescue, support or custom-software options. The dedicated form choices were deployed on 8 September; the two commercial pages remain in the production queue.
 - The current blog voice is practical British English, evidence-led and direct. New articles must answer a buyer decision, link naturally to a service and use one unique approved 1200×630 image.
 
 ## Production Register
@@ -264,7 +264,7 @@ The following answers are required before Week 02 copy can move from evidence-sa
 - [x] Approve the final updated local pages after founder-profile and rescue-offer integration. Approved by ibrahim uylas on 8 September after the homepage hierarchy, light rescue surface, dark badge/dark assessment panel and enquiry-form refinements; this does not authorise deployment/publication.
 - [x] Complete release preparation: remove review safeguards, add public routes/redirects/sitemap/navigation, run the release-readiness checks and create local runtime commit `11a5ac0`. Requested and completed on 8 September without pushing or deploying.
 - [x] Explicitly authorise production deployment/publication after the release-readiness review. Ibrahim Uylas authorised it on 8 September; deploy `6aa00c8e8bd2f90008cc6c6a` reached `ready` at 14:24 BST.
-- [x] Complete initial live-route, redirect, sitemap, canonical, conversion-routing, GA4-definition and Search Console verification. One labelled form submission remains separately gated; cohort observations are due 15 September, 22 September and 6 October.
+- [x] Complete initial live-route, redirect, sitemap, canonical, conversion-routing, GA4-definition and Search Console verification. The separately authorised labelled form test passed on 11 September; cohort observations are due 15 September, 22 September and 6 October.
 
 ## Anonymised Prior-Experience Proof Candidates — 8 September 2026
 
@@ -283,6 +283,15 @@ Publication rules:
 - The existence of performance evidence permits a qualitative `demonstrated through performance measurement` statement; it does not permit an invented number, percentage, benchmark or time period.
 - Remove or generalise any combination of industry, geography, scale, dates, architecture and workflow detail that could identify an organisation.
 - A final owner review of the composed copy is required before it enters a public build; no additional project detail is required for the supporting proof modules.
+
+## Week 02 Friday Evidence Update — 11 September 2026
+
+- The Week 02 About and Project Rescue assets remain live with their first cohort check due 15 September; the 14- and 28-day checks remain 22 September and 6 October.
+- The retained 1 September submission is now confirmed as an intentional test in the private, PII-free lead ledger. The programme still has zero verified qualified organic enquiries.
+- The former Netlify timestamp mismatch is resolved: three verified records existed before the labelled test, while the 10 September overview timestamp was explained by spam-filter activity. The authorised test became the fourth verified record and remains excluded from lead KPIs.
+- Production GA4 taxonomy collection was first observed on a `false/home/ai` event. A separately authorised synthetic Project Rescue test then verified `project_enquiry_v2 / rescue / rescue / true` in both Netlify and GA4 Realtime; the private ledger records it as a test, never a business lead.
+- Retain the controlled test evidence through 9 October 2026 and review it before any deletion.
+- Conversion-path refinements published after the main Week 02 release are recorded at `bd83f6d` (accessible form validation) and `3a9c663` (expanded, full-height thank-you experience).
 
 ## Weekly Update Rule
 

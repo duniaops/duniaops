@@ -1,6 +1,6 @@
 # Organic Growth Measurement Ledger
 
-**Status:** Active — Week 01 foundation completed 7 September 2026; the Week 02 measurement taxonomy was deployed and its four GA4 custom definitions were registered on 8 September. A labelled form test and the publication cohorts remain open; the next formal checkpoint is Day 30.
+**Status:** Active — Week 01 foundation and Friday evidence recheck are complete. The retained 1 September submission is confirmed as a test, and the production taxonomy was verified end to end with a labelled Netlify/GA4 test on 11 September. Publication cohort monitoring remains open.
 **Programme owner:** ibrahim uylas
 **Measurement owner:** ibrahim uylas
 **Depends on:** `003-organic-client-acquisition-90-day-program.md`
@@ -12,7 +12,7 @@ This is the durable measurement contract for the organic client-acquisition prog
 
 | Question | Source of truth | Grain | Use | Important limitation |
 |---|---|---|---|---|
-| Did a form submission reach DuniaOps? | Netlify Forms, verified submissions | One submission | Submission count and private follow-up | Dashboard totals can include historical state not visible in the current verified list. |
+| Did a form submission reach DuniaOps? | Netlify Forms, verified submissions | One submission | Submission count and private follow-up | Overview timestamps can include spam activity; count the verified-submission list. |
 | Is the enquiry genuine, qualified and organic? | Access-restricted `DuniaOps Organic Lead Ledger` Google Sheet reconciled to Netlify | One deduplicated enquiry | Primary business outcome | The sheet is private in the owner's `ChatGPT` Drive folder; no prospect PII is copied into it. |
 | Which searches and pages receive Google visibility? | Google Search Console | Day × query/page/country/device | Impressions, clicks, CTR, position and index state | Query rows are partially anonymised; data is delayed and reported on Search Console's own date boundary. |
 | What did consented visitors do? | GA4 property `DuniaOps - GA4` | Event/session/user | Directional behaviour and acquisition analysis | Optional-cookie rejection means legitimate visits and leads can be absent. |
@@ -148,35 +148,59 @@ Performance and indexing reports can reflect different processing moments. The r
 
 - One active form: `project-enquiry`.
 - Three verified submissions were visible in total and zero spam submissions were visible.
-- One verified submission fell inside the GA4 10 August–6 September window and appears test-like from the private dashboard view; it remains `test — provisional` until the owner confirms it privately.
+- One verified submission fell inside the GA4 10 August–6 September window and appeared test-like from the private dashboard view. It was privately confirmed as an intentional test on 11 September.
 - Two older verified submissions were dated 21 July and sit outside that GA4 window. They are not classified in this public document.
-- A separate Netlify summary label reported a later last-submission time than the verified/spam lists exposed. Use the verified list for counts and keep the mismatch unresolved.
+- A separate Netlify summary label reported a later last-submission time than the verified list exposed. The 11 September recheck resolved this as spam-filter activity rather than another verified enquiry.
 - `001-public-repository-transfer.md` records at least one clearly labelled browser test that was verified and then deleted. Deleted test records cannot be joined retrospectively to GA4.
 
 No submission content or direct identifier is reproduced here.
+
+## Friday Data-Quality Recheck — 11 September 2026
+
+### Netlify Forms
+
+- **Capture/filter:** `project-enquiry`, verified submissions, checked 11 September 2026.
+- **Result:** three retained verified submissions; the newest was received 1 September 2026 at 17:09 UTC. The current billing-period view also showed one verified submission.
+- **Reconciliation:** the overview label `Last submission on Sep 10` includes form traffic later classified as spam; the spam filter showed activity on 10 September, including a latest visible item at 21:26. The verified count remains three, so the former timestamp mismatch is resolved.
+- **Private classification:** the retained 1 September record was confirmed as an intentional test and recorded in the access-restricted lead ledger as `test / measurement_test`, with `service_category=mobile`, `landing_page_group=home` and unknown acquisition. The workbook summary shows one measurement test and zero qualified or unresolved enquiries. No prospect PII or enquiry text was copied.
+
+### GA4 `generate_lead`
+
+- **Capture/filter:** event detail report for 14 August–10 September 2026, the latest complete prior day in the United Kingdom reporting timezone.
+- **Result:** five events from two users, all with event value 0.
+- **Taxonomy:** four events report `(not set)` for the new dimensions. One event reports `form_version=project_enquiry_v2`, `test_submission=false`, `landing_page_group=home` and `service_category=ai`.
+- **Pre-test decision:** no `test_submission=true` event was visible in this complete-prior-day report. The single v2 event cannot be privacy-safely joined to a retained verified Netlify record, so it remains unresolved and is not counted as a lead. The separately authorised realtime test below subsequently closed the end-to-end verification gap.
+
+### Labelled end-to-end test — 11 September 2026
+
+- **Authority and procedure:** after action-time approval, one synthetic enquiry was submitted through the Project Rescue contact route with `measurement_test=1` and optional analytics consent enabled. The test contained no real prospect identity or project information.
+- **Netlify evidence:** a new verified record was received at 10:10:36 UTC with `form_version=project_enquiry_v2`, `service_category=rescue`, `landing_page_group=rescue` and `test_submission=true`. The retained verified total became four, of which the two known tests remain excluded from lead KPIs.
+- **GA4 evidence:** Realtime showed one active user, both the homepage and thank-you page, one `generate_lead` event and one key event. Drilling into that event showed `form_version=project_enquiry_v2`, `service_category=rescue`, `landing_page_group=rescue` and `test_submission=true`.
+- **Private ledger:** a second controlled `test / measurement_test` row was added and visually verified. The summary now reports two measurement tests, zero unresolved enquiries, zero qualified enquiries and zero verified qualified organic enquiries.
+- **Decision:** the privacy-safe form → Netlify → thank-you → consented GA4 path is verified end to end. Retain the controlled test evidence through 9 October 2026; review before any deletion, because deletion is a separate approved action. Historical unmatched events remain unresolved and do not become leads.
 
 ## Lead-Event Reconciliation
 
 | Reconciliation item | Classification | Confidence | Evidence-safe conclusion |
 |---|---|---|---|
-| One in-window Netlify verified submission | Test — provisional | Medium | Dashboard presentation appears test-like; owner must confirm without copying its content here. |
+| One in-window Netlify verified submission | Test — confirmed | High | Privately confirmed 11 September and recorded in the restricted ledger using controlled fields only; no prospect content appears here. |
 | One or more deleted browser tests documented in Spec 001 | Test, but no one-to-one event join | High that testing occurred; low on exact GA4 match | The documented test falls inside the GA4 window, but deletion and lack of a shared identifier prevent exact matching. |
-| Remaining difference between 4 GA4 events and retained verified submissions | Unresolved | High | There is no privacy-safe event marker or retained cross-system join key. Do not report these as leads. |
+| Historical and unmatched GA4 events | Unresolved | High | There is no privacy-safe cross-system join key for the four legacy events or the single v2 `false` event. Do not report them as leads. |
 | Verified qualified organic enquiry baseline | 0 verified | High for the measured KPI, not for unknown real-world demand | No retained submission currently has both private qualification and reliable organic attribution. |
 
 ## Data-Quality Risks and Remediation
 
 | Severity | Finding | Consequence | Remediation / decision owner |
 |---|---|---|---|
-| High | Privacy-safe test and classification parameters were absent from the live form/event path at baseline. | Historical `generate_lead` events cannot be treated as business outcomes. | Production now carries allow-listed `service_category`, `landing_page_group`, `form_version` and `test_submission`, and matching event-scoped GA4 custom definitions were registered on 8 September. Run one approved labelled test before relying on the fields. Historical events remain unresolved. |
+| Resolved | Privacy-safe test and classification parameters were absent from the live form/event path at baseline. | Historical `generate_lead` events cannot be treated as business outcomes. | Production carries allow-listed `service_category`, `landing_page_group`, `form_version` and `test_submission`; matching GA4 definitions were registered 8 September, and a labelled `true/rescue/rescue/project_enquiry_v2` test passed across Netlify and GA4 Realtime on 11 September. Historical events remain unresolved. |
 | Resolved | The private lead ledger did not exist at baseline. | Qualification and channel truth could be reconstructed from memory. | The private Google Sheet was created and verified on 7 September; keep access restricted and never copy customer content into Git. |
 | Resolved | `generate_lead` was not configured as a GA4 key event. | GA4 key-event reports omitted the intended outcome. | Enabled and verified on 7 September. Do not backfill or reclassify historical events as qualified leads. |
 | Residual | GA4 used Turkey time before the programme moved to United Kingdom time on 7 September. | A single report can cross two reporting boundaries; the setting affects only future data. | Label every GA4 window and avoid date-only joins across the change. Use the latest complete prior day for formal comparisons. |
 | Medium | Analytics depends on optional-cookie consent. | GA4 undercounts sessions and leads relative to Netlify by design. | Keep GA4 directional; never estimate missing leads without evidence. |
 | Medium | Search Console exposes only 397 of 520 impressions in query rows. | Query-band and cluster totals are incomplete. | Label query analyses `visible rows only`; use page totals and stable filters alongside them. |
 | Medium | 12 non-redirect URLs are not indexed, including priority buyer content. | Published assets may not earn visibility despite being live. | Check each priority URL at 7/14/28 days, strengthen usefulness/internal links, and investigate before requesting validation or producing extra pages. |
-| Resolved | The baseline live form had no dedicated rescue, support or custom-software choices. | New pages would have collapsed into generic `software-consultancy`, weakening private attribution. | Dedicated choices and the privacy-safe taxonomy were deployed on 8 September. One labelled end-to-end verification remains open. |
-| Low | Netlify's summary timestamp does not match the exposed verified/spam lists. | A dashboard headline can be mistaken for a retained lead record. | Count the verified list; recheck on Friday and escalate only if the mismatch affects an actual enquiry. |
+| Resolved | The baseline live form had no dedicated rescue, support or custom-software choices. | New pages would have collapsed into generic `software-consultancy`, weakening private attribution. | Dedicated choices and the privacy-safe taxonomy were deployed on 8 September; labelled Project Rescue end-to-end verification passed on 11 September. |
+| Resolved | Netlify's summary timestamp appeared later than the newest verified record. | A dashboard headline could be mistaken for a retained lead record. | The 11 September recheck showed that the 10 September timestamp is explained by spam-filter activity. Continue to count the verified list as the submission source of truth. |
 | Low | GA4 still classifies the business as `Jobs & Education` and displays USD while the programme operates as a UK software consultancy. | Benchmarking/suggested reports can be less relevant, and future non-zero value reporting could be confusing. | Owner to confirm a software/technology industry and GBP display currency before either is changed; current zero-value lead counts are unaffected. |
 
 ## Approved Comparison Method
@@ -195,7 +219,7 @@ No submission content or direct identifier is reproduced here.
 | Asset / URL | Change type | Live date | 7-day | 14-day | 28-day | GSC index state | CTA/form verified | Commit/deploy | Decision |
 |---|---|---|---|---|---|---|---|---|---|
 | `/about` | New trust page | 8 Sep 2026 | 15 Sep | 22 Sep | 6 Oct | Unknown to Google; live test available/indexable at 14:31 BST on 8 Sep | Yes — live CTA route and public-build validation | `11a5ac0`; production deploy `6aa00c8e8bd2f90008cc6c6a` at `2f18a39` | Hold and observe |
-| `/services/software-project-rescue` | New commercial service page | 8 Sep 2026 | 15 Sep | 22 Sep | 6 Oct | Unknown to Google; live test available/indexable at 14:31 BST on 8 Sep | Yes — `service=rescue&from=rescue` preselection verified live | `11a5ac0`; production deploy `6aa00c8e8bd2f90008cc6c6a` at `2f18a39` | Hold and observe |
+| `/services/software-project-rescue` | New commercial service page | 8 Sep 2026 | 15 Sep | 22 Sep | 6 Oct | Unknown to Google; live test available/indexable at 14:31 BST on 8 Sep | Yes — preselection plus labelled Netlify/GA4 end-to-end test verified 11 Sep | `11a5ac0`; production deploy `6aa00c8e8bd2f90008cc6c6a` at `2f18a39` | Hold and observe |
 | `/blog/software-project-rescue-uk` | Supporting category/link/CTA revision | 8 Sep 2026 | 15 Sep | 22 Sep | 6 Oct | On Google and indexed on 8 Sep | Yes — rescue service and assessment CTA verified | `11a5ac0`; production deploy `6aa00c8e8bd2f90008cc6c6a` at `2f18a39` | Protect indexed URL; observe revision |
 
 ## Material Change Log
@@ -210,16 +234,19 @@ No submission content or direct identifier is reproduced here.
 | 8 Sep 2026 14:24 BST | Week 02 trust and rescue assets | Published the About page, Project Rescue service, homepage/navigation/sitemap integration, rescue-article links and production enquiry taxonomy. | Explicit production approval after release-readiness PASS | ibrahim uylas | Netlify production deploy `6aa00c8e8bd2f90008cc6c6a`; commit `2f18a39` | 15 Sep / 22 Sep / 6 Oct |
 | 8 Sep 2026 14:31 BST | GA4 taxonomy and Week 02 indexability | Registered four event-scoped GA4 custom dimensions; inspected the two new URLs and the revised rescue article in Search Console. New URLs passed live indexability tests; the article was indexed. No request-indexing action or form submission was made. | Establish prospective classification and capture the first post-publication state without manufacturing a lead | ibrahim uylas | GA4 Admin and Search Console; no repository deployment | Approved labelled test, then 15 Sep cohort check |
 | 8 Sep 2026 15:14 BST | Project enquiry validation UX | Replaced browser-native validation popovers with an accessible in-card summary, contextual field errors, first-error focus and correction-aware clearing. Invalid attempts are stopped before lead analytics; native validation remains the no-JavaScript fallback. Live empty-form and invalid-email checks passed without submitting or queuing a lead. | Improve conversion clarity and consistency without changing the approved taxonomy or creating synthetic outcome data | ibrahim uylas | Commit `bd83f6d`; Netlify production deploy `6aa0183ec62a1400082c46fc` | 15 Sep cohort and conversion-path check |
+| 8 Sep 2026 15:37 BST | Thank-you conversion page | Expanded the confirmation layout with a clearer response expectation, three-step next-action path and contact alternatives; corrected the page shell so the footer remains at the viewport bottom on tall screens. | Reduce post-submit uncertainty and remove the visually empty page state | ibrahim uylas | Commit `3a9c663`; production deploy identifier not recorded in this ledger | 15 Sep cohort and conversion-path check |
+| 11 Sep 2026 BST | Friday measurement recheck | Confirmed the retained 1 September submission as a test, added one privacy-safe controlled row to the private ledger, resolved the Netlify summary timestamp as spam activity and rechecked GA4 taxonomy coverage. GA4 showed five `generate_lead` events from two users for 14 Aug–10 Sep: four legacy `(not set)` events and one v2 `false/home/ai` event; no labelled `true` event. | Close Week 01 data-quality carry-over without inflating lead counts | ibrahim uylas | Netlify Forms, GA4 and private Google Sheet; local documentation update | Labelled test after action-time approval; first cohort 15 Sep |
+| 11 Sep 2026 11:10 BST | Labelled form measurement test | Submitted one synthetic Project Rescue enquiry after action-time approval. Netlify verified `project_enquiry_v2 / rescue / rescue / true`; GA4 Realtime showed one `generate_lead` and the same parameter values; the private ledger was updated and visually checked. | Prove the privacy-safe conversion taxonomy end to end without manufacturing a business lead | ibrahim uylas | Netlify Forms, GA4 Realtime and private Google Sheet; no repository deployment | Retention review 9 Oct; first cohort 15 Sep |
 
 ## Open Decisions
 
 - [x] Approve the access-restricted Google Sheet as the private lead-ledger location and create it outside this repository.
-- [ ] Privately confirm whether the in-window retained submission is a test.
+- [x] Privately confirm whether the in-window retained submission is a test. Confirmed 11 September and recorded in the restricted ledger without prospect PII.
 - [x] Change GA4 reporting timezone from Turkey time to United Kingdom time after approval.
 - [x] Configure `generate_lead` as a GA4 key event after approval.
 - [x] Approve, deploy and verify the privacy-safe event/form taxonomy; production deployment completed 8 September.
 - [x] Register event-scoped GA4 custom definitions for `service_category`, `landing_page_group`, `form_version` and `test_submission`; completed 8 September before any labelled test.
-- [ ] If a labelled end-to-end form test is still wanted, approve the exact test procedure and retention/deletion evidence first.
+- [x] Authorise and run the prepared labelled end-to-end form test using synthetic details, the Project Rescue route and `measurement_test=1`. Completed 11 September; retain the controlled evidence through 9 October 2026 and review before any deletion.
 - [ ] Confirm whether GA4 industry should move from `Jobs & Education` to an appropriate software/technology category and display currency from USD to GBP; neither was changed in Week 01.
 
 ## Update Rule

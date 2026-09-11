@@ -1,6 +1,6 @@
 # Organic Growth Week 02 — Trust and Project Rescue Launch
 
-**Status:** Live — published early on 8 September 2026. Production, live-route, GA4-definition and initial Search Console verification are complete; one labelled form test and the 7/14/28-day observations remain open.
+**Status:** Live — published early on 8 September 2026. Production, live-route, GA4-definition, initial Search Console verification and the labelled end-to-end form test are complete; the 7/14/28-day observations remain open.
 **Type:** Trust Page / Commercial Service Page
 **Priority:** P1
 **Scheduled:** 14–20 September 2026
@@ -18,7 +18,7 @@ Give an urgent UK buyer both a credible reason to trust DuniaOps and a low-risk 
 - [x] Define a truthful Project Rescue Assessment: inputs, security boundaries, outputs and exclusions. The approved commercial position and response wording are integrated locally.
 - [x] Add service-specific CTA/form routing locally with the approved normal two-working-day response wording.
 - [x] Register the approved event-scoped GA4 custom definitions after deployment.
-- [ ] Verify one labelled, privacy-safe end-to-end form test after its exact procedure and retention/deletion evidence are approved.
+- [x] Verify one labelled, privacy-safe end-to-end form test after its exact procedure and retention/deletion evidence are approved. Completed 11 September across Netlify, GA4 Realtime and the private ledger.
 - [x] Update `software-project-rescue-uk.md` locally with the new service link, rescue category and specific CTA.
 - [x] Select two anonymised prior-experience proof candidates and record the evidence owner and publication posture.
 
@@ -145,5 +145,14 @@ Record final paths/URLs, owners, evidence and offer decisions, article/form chan
 - GA4 property `DuniaOps - GA4` now has event-scoped custom dimensions for `service_category`, `landing_page_group`, `form_version` and `test_submission`. Definitions are prospective and do not repair historical classification gaps.
 - Search Console initially reported both new URLs as unknown to Google. Live tests completed at 14:31 BST reported `URL is available to Google` and `Page can be indexed`, with one valid Breadcrumbs item on each. `/blog/software-project-rescue-uk` was already on Google and indexed, also with a valid Breadcrumbs item.
 - The submitted sitemap remained successful, last read 6 September with 23 discovered pages. No duplicate sitemap submission or `Request indexing` action was taken.
-- Cohort observations are due 15 September, 22 September and 6 October. The only immediate measurement carry-over is one labelled, privacy-safe form submission after approval of its exact test and retention/deletion procedure; no submission was generated during deployment verification.
+- Cohort observations are due 15 September, 22 September and 6 October. At deployment verification time, the only immediate measurement carry-over was one labelled, privacy-safe form submission after approval of its exact test and retention/deletion procedure; no submission was generated during deployment verification. That carry-over was completed on 11 September.
 - Post-release form-validation refinement `bd83f6d` replaced browser-native validation popovers with an accessible in-card summary and contextual field messages. It focuses the first invalid control, clears errors as fields are corrected, retains native validation as the no-JavaScript fallback and stops invalid attempts before lead analytics. Netlify production deploy `6aa0183ec62a1400082c46fc` reached `ready` at 15:14 BST. Live empty-form and invalid-email checks passed without a form submission or queued lead context.
+- Post-release thank-you refinement `3a9c663` added a clearer response expectation, a three-step next-action path and contact alternatives, while making the page shell fill tall viewports so the footer remains at the bottom. The change was published after explicit approval; its production deploy identifier was not recorded in this spec.
+
+### Week 01 Friday carry-over review — 11 September 2026
+
+- The retained 1 September Netlify submission was privately confirmed as an intentional test and added to the restricted lead ledger using controlled values only. It does not count as a qualified organic enquiry.
+- Before the labelled test, the Netlify verified list contained three records; the overview's 10 September last-submission label was explained by spam activity and is no longer an unresolved lead discrepancy. The authorised test became the fourth verified record and is explicitly excluded from lead KPIs.
+- The complete-prior-day GA4 report showed five `generate_lead` events from two users for 14 August–10 September: one v2 `false` event and four historical `(not set)` events. The separately authorised realtime test then supplied the missing labelled `true` evidence.
+- After action-time approval, one synthetic Project Rescue submission completed the live form → Netlify → thank-you → consented GA4 path. Netlify and GA4 Realtime both showed `project_enquiry_v2 / rescue / rescue / true`; the private ledger summary now contains two measurement tests and zero qualified enquiries.
+- Retain the controlled test evidence through 9 October 2026 and review before any deletion. The 7/14/28-day asset checks remain 15 September, 22 September and 6 October.

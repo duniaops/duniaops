@@ -19,6 +19,7 @@ Create a commercial home for UK bespoke software demand, answer its strongest pu
 - [ ] Write one cost or company-selection article with assumptions and no fake precision.
 - [ ] Add service/proof links, service-specific CTA/form routing and one approved unique 1200x630 article image.
 - [ ] Record protect/unblock/resequence decisions without judging SEO success prematurely.
+- [ ] On 9 October, review the retained 11 September labelled-test evidence and record whether it should be kept or proposed for deletion; never delete it without separate explicit approval.
 
 ## Working Schedule
 
@@ -46,6 +47,7 @@ Create a commercial home for UK bespoke software demand, answer its strongest pu
 
 - Verify live service/article surfaces, generated outputs, form/CTA, links and Search Console state.
 - Enter Day-30 values/decision and 7/14/28-day observation dates.
+- Review the labelled-test retention decision. If deletion is preferred, request action-time approval before changing Netlify or the private ledger.
 - Update Completion Record and master tracker.
 
 ## Acceptance Criteria
@@ -57,7 +59,8 @@ Create a commercial home for UK bespoke software demand, answer its strongest pu
 - [ ] Unique image, metadata, sources and contextual links meet the blog workflow.
 - [ ] `npm test`, blog/site/XML/schema/link/mobile/desktop and `git diff --check` pass.
 - [ ] Live, conversion and indexing evidence is recorded.
+- [ ] The labelled-test retention decision is recorded, with any deletion left pending until explicitly approved.
 
 ## Completion Record
 
-Record Day-30 values/decision, selected article intent, service/article paths and URLs, assumptions/sources, image state, validation, commit/deploy, live/index state and cohort dates.
+Record Day-30 values/decision, selected article intent, service/article paths and URLs, assumptions/sources, image state, validation, commit/deploy, live/index state, cohort dates and the 9 October labelled-test retention decision.

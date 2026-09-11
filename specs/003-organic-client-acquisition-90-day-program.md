@@ -1,6 +1,6 @@
 # DuniaOps 90 Günlük Organik Müşteri Kazanım Programı
 
-**Status:** Active — Week 01 foundation completed 7 September 2026; the Week 02 trust and Project Rescue assets were deployed early on 8 September. Initial live, GA4 and Search Console verification is complete; the labelled form test and 7/14/28-day observations remain open.
+**Status:** Active — Week 01 foundation and the 11 September Friday evidence recheck are complete; the Week 02 trust and Project Rescue assets were deployed early on 8 September. The retained and labelled tests are reconciled; the 7/14/28-day observations remain open.
 **Type:** Programme
 **Priority:** P1
 **Period:** 7 September–5 December 2026 (90 execution days); complete-data verification 11 December 2026.
@@ -105,7 +105,7 @@ If approval or factual evidence is missing, Thursday produces a review-ready dra
 
 | Week | Dates | Spec | Primary publication or outcome | Phase | Status |
 |---|---|---|---|---|---|
-| 01 | 7–13 Sep | [004](004-organic-growth-week-01-measurement-foundation.md) | Measurement system and approved Week 02–08 asset briefs | Foundation | Complete |
+| 01 | 7–13 Sep | [004](004-organic-growth-week-01-measurement-foundation.md) | Measurement system and approved Week 02–08 asset briefs | Foundation | Complete — Friday evidence reconciled 11 Sep |
 | 02 | 14–20 Sep | [005](005-organic-growth-week-02-trust-and-project-rescue.md) | About/Expertise and Software Project Rescue service pages | Production | Live early — monitoring |
 | 03 | 21–27 Sep | [006](006-organic-growth-week-03-application-support-cluster.md) | Application Support service page and takeover article | Production | Planned |
 | 04 | 28 Sep–4 Oct | [007](007-organic-growth-week-04-devops-cluster.md) | DevOps service refresh and DevOps/Kubernetes buyer article | Production | Planned |
@@ -244,9 +244,18 @@ The active weekly heartbeat runs Monday and Friday at 09:00 Europe/London throug
 
 Complete by 11 December 2026 with delivered assets, live URLs, validation, baseline-to-Day-90 comparison, asset-age caveats, qualified pipeline result, lessons, unfinished work and the approved next programme.
 
+### Week 01 Friday close — 11 September 2026
+
+- Confirmed the retained 1 September Netlify submission as an intentional test and added a controlled, PII-free row to the private lead ledger. The programme outcome remains zero verified qualified organic enquiries.
+- Resolved Netlify's `Last submission on Sep 10` headline as spam-filter activity. Three verified records existed before the labelled test; the new controlled test became the fourth and is excluded from lead KPIs.
+- Before the realtime test, rechecked GA4 `generate_lead` for 14 August–10 September: five events from two users, including one production-taxonomy event (`project_enquiry_v2`, `false`, `home`, `ai`) and four historical unclassified events. Unmatched events remain unresolved rather than counted as leads.
+- Completed the action-time-approved labelled Project Rescue test. Netlify and GA4 Realtime both exposed `project_enquiry_v2 / rescue / rescue / true`; the private ledger now contains two controlled test rows and still reports zero qualified organic enquiries.
+- Aligned the weekly spec, measurement ledger and asset register. The first Week 02 cohort review remains scheduled for 15 September, and the labelled test evidence has a retention review on 9 October.
+
 ### Week 02 early publication — 8 September 2026
 
 - Published `/about`, `/services/software-project-rescue` and the connected homepage/article/form changes through production deploy `6aa00c8e8bd2f90008cc6c6a` at commit `2f18a39` on `main`; Netlify reported `ready` at 14:24 BST.
 - Verified live 200 responses, canonical/indexing directives, navigation, CTA routing, sitemap membership, permanent `.html` redirects, responsive layout and absence of review safeguards.
 - Registered the four approved event-scoped GA4 custom dimensions and completed initial Search Console inspections. Both new URLs are available to Google and indexable in live tests; the supporting Project Rescue article is indexed.
-- Set the Week 02 cohort observations to 15 September, 22 September and 6 October. One explicitly labelled, privacy-safe form test remains gated on approval of its exact procedure and retention/deletion evidence.
+- Set the Week 02 cohort observations to 15 September, 22 September and 6 October. The explicitly labelled, privacy-safe form test was completed and reconciled on 11 September after action-time approval.
+- Recorded the post-release conversion refinements: accessible in-card validation at `bd83f6d` and the expanded, full-height thank-you experience at `3a9c663`.
