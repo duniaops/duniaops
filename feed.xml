@@ -6,7 +6,20 @@
     <description>Practical articles about software development, AI, DevOps, cloud engineering, booking platforms and mobile products.</description>
     <language>en-gb</language>
     <atom:link href="https://www.duniaops.com/feed.xml" rel="self" type="application/rss+xml"/>
-    <lastBuildDate>Fri, 04 Sep 2026 00:00:00 GMT</lastBuildDate>
+    <lastBuildDate>Fri, 11 Sep 2026 00:00:00 GMT</lastBuildDate>
+    <item>
+      <title>Can a New Company Maintain Software It Did Not Build?</title>
+      <link>https://www.duniaops.com/blog/can-a-new-company-maintain-software-it-did-not-build</link>
+      <guid isPermaLink="true">https://www.duniaops.com/blog/can-a-new-company-maintain-software-it-did-not-build</guid>
+      <pubDate>Fri, 11 Sep 2026 00:00:00 GMT</pubDate>
+      <description>Yes—a new company can maintain inherited software. See what a safe UK support takeover needs, what happens first and when project rescue is required.</description>
+      <author>info@duniaops.com (DuniaOps Team)</author>
+      <category>Software Consultancy</category>
+      <category>Application Support</category>
+      <category>Software Maintenance</category>
+      <category>Project Handover</category>
+      <category>Inherited Software</category>
+    </item>
     <item>
       <title>GPT-6 Astra Explained: What Changes and When to Use It</title>
       <link>https://www.duniaops.com/blog/gpt-6-astra-explained</link>
