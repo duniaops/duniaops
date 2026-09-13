@@ -5,6 +5,13 @@
 [build.environment]
   NODE_VERSION = "24"
 
+# Lumo's coming-soon product page on its canonical subdomain.
+[[redirects]]
+  from = "https://lumo.duniaops.com/"
+  to = "/products/lumo.html"
+  status = 200
+  force = true
+
 # Return localized HTML metadata before any browser JavaScript runs.
 
 [[redirects]]

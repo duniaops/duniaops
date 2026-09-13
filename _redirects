@@ -1,3 +1,11 @@
+# Lumo canonical subdomain (keep legacy links and query parameters).
+https://www.duniaops.com/products/lumo https://lumo.duniaops.com/ 301!
+https://www.duniaops.com/products/lumo.html https://lumo.duniaops.com/ 301!
+https://duniaops.com/products/lumo https://lumo.duniaops.com/ 301!
+https://duniaops.com/products/lumo.html https://lumo.duniaops.com/ 301!
+https://lumo.duniaops.com/products/lumo https://lumo.duniaops.com/ 301!
+https://lumo.duniaops.com/products/lumo.html https://lumo.duniaops.com/ 301!
+
 # Zoday canonical subdomain (keep legacy links and query parameters).
 https://zoday.duniaops.com/support /zoday/support.html 200!
 https://zoday.duniaops.com/support/:lang /zoday/support/:lang.html 200!

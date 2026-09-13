@@ -59,3 +59,44 @@ Change only the TOP-RIGHT region: create a quiet dark navy #172B3A to #0b1c28 re
 The reserved area must look like a natural calm part of the original dark background, with no visible frame, rectangle, badge, spotlight or artificial patch. Keep the chart's overall composition and fine glass material details elsewhere as unchanged as possible.
 Output: a wide 2.4:1 edge-to-edge background image, same aspect ratio as input. No words, numbers, ticker names, logos, labels, borders or watermark. Do not add new objects.
 ```
+
+## Lumo
+
+- Asset: `assets/products/lumo-card-hero.jpg` (1440 × 600 JPEG).
+- Generated on 2026-09-13 with the built-in `image_gen` tool.
+- Original: `exec-dd233350-e183-4038-9492-18665d264a5b.png` in the task's Codex generated-images directory.
+- Used in the catalogue and Lumo's product-page hero. The original logo and product name remain HTML overlays. The image is concept artwork, not a screenshot of the unreleased application.
+
+### Final prompt
+
+```text
+Create a premium cinematic website product banner BACKGROUND for Lumo, a private on-device photo culling and search app for photographers. Wide landscape composition, aspect ratio 2.4:1, intended final display 1440 x 600.
+
+Concept: a photographer's luminous digital light table. Five or six elegant photographic prints / contact-sheet frames float in a shallow, orderly horizontal fan across the central band of a dark graphite and midnight-blue studio surface. The photographs show related moments of a dramatic Icelandic mountain ridge and glacial lake at dawn: misty mountains, subtle warm amber sunlight, blue water, beautiful fine-grain professional landscape photography. Some smaller neighboring frames are slightly soft or subdued as if awaiting selection, while one larger tack-sharp chosen photograph at center is beautifully lit and subtly emphasized with a fine cool-blue edge glow and tiny restrained blue crop-corner accents. Communicate calm visual curation and finding the best frame among similar shots. Physical photographic detail, realistic materials, minimal, sophisticated, spacious. Soft directional studio light, gentle depth, restrained blue illumination reflecting on the tabletop, just a few fine contact-sheet alignment lines. No device mockups, no hands, no faces, no camera bodies, no buttons, no numbers, no text, no letters, no icons, no logos, no watermarks, no invented app UI.
+
+Composition must accommodate separately overlaid HTML branding: keep the entire upper-right quadrant especially the upper-right 30% width and upper 38% height calm, nearly black charcoal with very subtle blue falloff. NO photographs, bright lights, stars, corners or busy details in this top-right logo-safe area. Keep a quiet dark lower-left band for a large white product name to be added in HTML. Keep the main selected photograph in the central horizontal area, visible when cropped to a narrower 1.65:1 banner. The upper-right should blend naturally with an original dark black-square app icon placed over it, with no drawn badge or placeholder. Photographic editorial art direction, elegant and understated. Full bleed image; no external border or rounded canvas corners.
+```
+
+### Lumo subdomain
+
+The canonical address is `https://lumo.duniaops.com/`. `netlify.toml` rewrites that host's root to the existing `products/lumo.html` document. Host-specific legacy redirects in `_redirects` preserve old company-site links. Assets use root-relative paths on the Lumo origin; company navigation points back to `https://www.duniaops.com/`.
+
+The custom subdomain must also be assigned to the existing DuniaOps Netlify project and have its DNS configured. These repository routing rules do not create DNS records. At the local implementation check on 2026-09-13, `lumo.duniaops.com` did not resolve. See [Netlify domain redirect requirements](https://docs.netlify.com/manage/routing/redirects/redirect-options/#domain-level-redirects) and [rule processing order](https://docs.netlify.com/manage/routing/redirects/overview/#rule-processing-order).
+
+### Varied photography revision
+
+The central landscape is retained. Surrounding main prints now show street, portrait, wedding and wildlife photography, with four smaller pet, food, travel and macro-flower prints scattered around the edges. Final edited original: `exec-7b3596ad-d949-4881-b4bf-fb9607c1f14a.png`. The final JPEG replaces `assets/products/lumo-card-hero.jpg`; consumers use `?v=20260913-varied-photography` for cache refresh.
+
+#### Final edit prompt
+
+```text
+Use case: precise-object-edit. Edit this existing Lumo photography light-table banner. Keep its overall 2.4:1 wide composition, premium realistic photographic style, dark graphite / midnight blue studio tabletop, elegant photographic print frames, cool blue accent lighting and refined dimensional perspective.
+
+PRESERVE the largest central chosen photograph: the glacial lake, dramatic mountain ridge, mist and warm dawn sunlight, with its thin cool-blue illuminated selection edge. Keep that central print as the dominant, largest subject, in essentially the same position and perspective. This central landscape is the only mountain landscape in the banner.
+
+CHANGE the content of EVERY OTHER main photographic print to a DISTINCT popular photographic genre. Immediately left of the central photograph: a beautiful candid portrait of an adult woman in soft warm golden-hour light, a recognisable human face. Farther left main print: atmospheric urban street photography with a person walking through a rain-washed city street, reflections and interesting architecture, realistic editorial photography. Immediately right of the central photograph: an elegant candid wedding photograph of an adult couple sharing a joyful moment in a garden, warm natural light. Farther right main print: a striking wildlife photograph of a fox in natural woodland, rich natural texture. None of these should be mountain or lake photographs. Each print should have a clearly different subject, photographic treatment and palette, while fitting the same calm table lighting.
+
+ADD exactly FOUR small photographic prints, casually scattered and slightly overlapping around the outer edges of the light-table arrangement: a candid dog photo, a food photography still life with coffee and a pastry, a warm adult family / friends travel moment at a seaside town, and a vivid macro flower photograph. These small prints should feel like secondary physical contact-sheet samples, about one-third the width of the main side photos, various subtle angles, with at most part of a couple of these small prints cropped by the canvas edges. Place them around upper-left / upper-middle and far lower-right / far left outer edges. Make the composition richer and varied but tidy and art-directed, not a pile or chaotic collage.
+
+Maintain the quiet dark TOP-RIGHT region (last 30% of width, upper 36% of height) for a separate original HTML logo overlay. Do not place any photo, face, bright corner or detail there. Maintain the quiet dark LOWER-LEFT region (first 30% of width, bottom 22% of height) for the separate white Lumo name. Preserve the empty dark corners naturally, no visible boxes or badge placeholders. Main portrait, central landscape and wedding subjects should remain identifiable at small scale and in the central crop of the image. All faces must look natural and anatomically plausible. No words, letters, labels, numbers, UI text, logo, watermarks or screenshots. Full-bleed final banner artwork only.
+```
