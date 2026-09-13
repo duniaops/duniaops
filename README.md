@@ -18,7 +18,7 @@ services/     Individual service pages
 products/     Individual product detail pages
 dist/         Generated Netlify publish output (ignored by Git)
 index.html    Homepage and project enquiry form
-products.html Product catalogue for Rockimals, Zoday and Lumo
+products.html Product catalogue for Rockimals, Zoday, Lumo and Otto
 blog.html     Generated blog index
 feed.xml      Generated RSS feed
 privacy.html  Privacy and cookie notice
