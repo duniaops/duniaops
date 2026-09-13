@@ -3,7 +3,6 @@
 .zl-wrap{width:min(1180px,calc(100% - 64px));margin-inline:auto}
 .zoday-landing a{color:inherit}
 .zoday-landing a:focus-visible,.zoday-landing summary:focus-visible,.zl-gallery:focus-visible{outline:3px solid #cfbaff;outline-offset:5px}
-.draft-notice{padding:9px 20px;background:#302739;color:#dfd0e9;text-align:center;font-size:11px;line-height:1.6}
 .zl-header{position:relative;background:#0e0d1c;border-bottom:1px solid #ffffff0d;box-shadow:none}
 .zl-header nav{display:flex;align-items:center;justify-content:space-between;gap:20px;min-height:86px}
 .zl-brand{display:flex;align-items:center;gap:13px;text-decoration:none;font-size:23px;letter-spacing:.04em}

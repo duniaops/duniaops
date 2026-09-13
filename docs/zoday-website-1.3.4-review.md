@@ -90,3 +90,10 @@ Existing live assets were not overwritten.
   screenshot gallery and comparison table scroll within their own containers.
 - Shared consent dialog translated into all five languages.
 - Shared consent dialog contrast corrected for the dark landing-page styling.
+
+## Publication follow-up
+
+On 2026-09-13, the user requested publication and then removal of the visible
+website draft banner. The banner was removed from all five generated languages.
+Asset provenance and the original verification limitations remain recorded here;
+removing the banner does not constitute new signed-release screenshot evidence.
