@@ -50,6 +50,38 @@
 
 # Zoday homepage: localized initial HTML and screenshots.
 
+# Stable localized paths, in addition to existing language-query links.
+[[redirects]]
+  from = "https://zoday.duniaops.com/en"
+  to = "/products/zoday-locales/en.html"
+  status = 200
+  force = true
+
+[[redirects]]
+  from = "https://zoday.duniaops.com/tr"
+  to = "/products/zoday-locales/tr.html"
+  status = 200
+  force = true
+
+[[redirects]]
+  from = "https://zoday.duniaops.com/de"
+  to = "/products/zoday-locales/de.html"
+  status = 200
+  force = true
+
+[[redirects]]
+  from = "https://zoday.duniaops.com/es"
+  to = "/products/zoday-locales/es.html"
+  status = 200
+  force = true
+
+[[redirects]]
+  from = "https://zoday.duniaops.com/pt-BR"
+  to = "/products/zoday-locales/pt-BR.html"
+  status = 200
+  force = true
+
+
 [[redirects]]
   from = "https://zoday.duniaops.com/"
   to = "/products/zoday-locales/en.html"

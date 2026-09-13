@@ -20,6 +20,9 @@
   };
   const languageUrl = (pageName, language) => {
     if (page.hasAttribute('data-zoday-landing')) {
+      if (window.location.hostname === 'zoday.duniaops.com' || /^\/(en|tr|de|es|pt-BR)\/?$/.test(window.location.pathname)) {
+        return `/${language}/`;
+      }
       const base = window.location.hostname === 'zoday.duniaops.com' ? '/' : '/products/zoday';
       return `${base}?lang=${language}`;
     }

@@ -2,6 +2,7 @@ import { readFile, writeFile, mkdir } from 'node:fs/promises';
 import assert from 'node:assert/strict';
 const base = new URL('../', import.meta.url);
 const original = JSON.parse(await readFile(new URL('content/zoday-landing/en.json', base), 'utf8'));
+const availability = JSON.parse(await readFile(new URL('content/zoday-landing/availability.json', base), 'utf8'));
 const template = await readFile(new URL('products/zoday.html', base), 'utf8');
 const unchanged = new Set([2,13,40,43,46,49,52,74,88,100,101,102,103,104,134]);
 const labels = { en:'Language',tr:'Dil',es:'Idioma','pt-BR':'Idioma',de:'Sprache' };
@@ -17,6 +18,7 @@ for (const lang of Object.keys(labels)) {
     assert.equal(map.size, entries.length, `${lang}: duplicate translation keys`);
     original.forEach((text,index)=>{if(!unchanged.has(index))assert.ok(map.get(index),`${lang}: missing ${index}: ${text}`); translated[index]=map.get(index)??text;});
   }
+  [translated[108], translated[110], translated[111]] = availability[lang];
   const dictionary = new Map(original.map((text,i)=>[text,translated[i]]));
   const split = template.indexOf('<body');
   let body = template.slice(split).replace(/>([^<>]+)</g,(match,value)=>{
@@ -34,12 +36,18 @@ for (const lang of Object.keys(labels)) {
   body=body.replace(/aria-label="(?:View[^\"]*screenshot[^\"]*|App screenshot walkthrough)"/g,`aria-label="${attr(translated[3])}"`)
     .replace('aria-label="Zoday navigation"','aria-label="Zoday"')
     .replaceAll('aria-label="Get Zoday on Google Play — Google Play\'den indir"',`aria-label="${attr(translated[14])}"`);
+  body = body.replace(/(<a class="zl-store"[^>]*>)[\s\S]*?<\/a>/g,
+    `$1<img src="/assets/products/google-play/${lang}.png" alt="${attr(translated[14])}" width="180" style="display:block;width:180px;height:auto" /></a>`);
   const title = 'Zoday — '+translated[8]+' '+translated[9]+' '+translated[10];
   let head=template.slice(0,split).replace('<html lang="en">',`<html lang="${lang}">`)
     .replace(/<title>.*?<\/title>/,`<title>${title}</title>`)
     .replace(/(<meta (?:name="description"|property="og:description"|name="twitter:description") content=")[^"]*"/g,`$1${attr(translated[11])}"`)
     .replace(/(<meta (?:property="og:title"|name="twitter:title") content=")[^"]*"/g,`$1${attr(title)}"`)
     .replace('</head>',`<meta property="og:locale" content="${ogLocales[lang]}">\n</head>`);
+  head = head.replace('</head>', '<style>a.zl-store:has(img){padding:14px;background:transparent;border:0;box-shadow:none}a.zl-store:has(img):focus-visible{outline:2px solid #c9b8ff;outline-offset:2px}</style></head>');
   await writeFile(new URL(`${lang}.html`,out),head+body);
+  const route = new URL(`dist/${lang}/`,base);
+  await mkdir(route,{recursive:true});
+  await writeFile(new URL('index.html',route),head+body);
 }
 console.log('Built and checked five complete Zoday landing translations with matching screenshot locales.');
