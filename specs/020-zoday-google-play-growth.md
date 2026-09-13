@@ -1,6 +1,6 @@
 # Zoday Google Play product and invitation paths
 
-**Status:** Source ready; production deployment and installed-app verification pending
+**Status:** Deployed; installed-app verification pending
 
 **Prepared:** 2026-09-12
 
@@ -28,7 +28,20 @@
   SHA-256 fingerprint copied from Play Console's generated Digital Asset Links
   JSON on 2026-09-12. The upload-key fingerprint was explicitly excluded.
 
-## Deployment gate
+## Production deployment
+
+DuniaOps PR #2 was merged on 2026-09-13 as production commit `d087945`.
+Anonymous checks confirmed:
+
+- `/products/zoday`, `/products/zoday/invite/TEST12` and
+  `/.well-known/assetlinks.json` return HTTP 200;
+- the invitation route uses `no-store` and `noindex, noarchive` controls;
+- the rendered page normalises and displays `TEST12` and constructs the
+  versioned Google Play referrer for `com.duniaops.zoday`; and
+- Google's Digital Asset Links API resolves `https://www.duniaops.com` to the
+  expected package and Play App Signing SHA-256 fingerprint.
+
+## Remaining deployment gate
 
 The source association is:
 
@@ -45,10 +58,9 @@ The source association is:
 ]
 ```
 
-After an authorized deployment, verify the public URL returns HTTP 200 as `application/json`, with no
-authentication or redirect. Run Android Digital Asset Links verification and
-test cold, warm and installed-from-Play invitation flows. Confirm host access
-and error logging can scrub invitation path segments before traffic is sent.
+Test cold, warm and installed-from-Play invitation flows on a physical Android
+device. Confirm host access and error logging can scrub invitation path segments
+before invitation traffic is promoted.
 
 ## Validation evidence
 
@@ -62,5 +74,5 @@ and error logging can scrub invitation path segments before traffic is sent.
   extra `/AB12KD/extra` segment; and build the encoded payload
   `v=1&utm_source=website&utm_medium=website&utm_campaign=website_product&invite=AB12KD`.
 
-No production deploy, analytics change, external message or store mutation was
-performed. The branch can be reviewed independently from the production branch.
+No analytics integration was added to the invitation page. Physical-device
+Play installation and recipient-share verification remain open.
