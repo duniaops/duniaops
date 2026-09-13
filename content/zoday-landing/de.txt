@@ -35,7 +35,7 @@
 36|Ein Tag mit Zoday
 37|Von einer kleinen Perspektive
 38|zu einem Moment der Reflexion.
-39|Entdecke die App-Ansichten unten. Scrolle seitlich durch die Galerie oder öffne ein Bild für mehr Details.
+39|Entdecke die App-Bildschirme. Bewege am Computer den Mauszeiger über ein Bild, um es zu vergrößern, oder öffne es für einen genaueren Blick.
 41|Beginne mit Heute
 42|Mondphase, persönliche Mondwiederkehr und Zugang zur täglichen Deutung.
 44|Lies dein Tageshoroskop

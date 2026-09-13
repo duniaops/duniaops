@@ -35,7 +35,7 @@
 36|Zoday ile bir gün
 37|Küçük bir bakış açısından
 38|kendine ayırdığın bir ana.
-39|Aşağıdaki uygulama ekranlarını keşfet. Galeriyi yana kaydır veya yakından bakmak için bir ekranı aç.
+39|Uygulama ekranlarını keşfet. Bilgisayarda büyütmek için imleci görselin üzerine getir veya yakından incelemek için bir görseli aç.
 41|Bugün ile başla
 42|Ay evresi, kişisel Ay dönüşü ve günlük yoruma erişim.
 44|Günlük burç yorumunu oku

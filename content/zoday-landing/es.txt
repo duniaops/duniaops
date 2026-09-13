@@ -35,7 +35,7 @@
 36|Un día con Zoday
 37|De una pequeña perspectiva
 38|a un momento de reflexión.
-39|Explora las pantallas de la app. Desplaza la galería horizontalmente o abre una pantalla para verla mejor.
+39|Explora las pantallas de la app. En el ordenador, pasa el cursor sobre una pantalla para ampliarla o abre cualquier imagen para verla de cerca.
 41|Empieza en Hoy
 42|Fase lunar, retorno lunar personal y acceso a la lectura diaria.
 44|Lee tu horóscopo diario
