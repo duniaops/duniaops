@@ -10,6 +10,7 @@ https://duniaops.com/* https://www.duniaops.com/:splat 301!
 /products.html /products 301!
 /products/rockimals.html /products/rockimals 301!
 /products/zoday.html /products/zoday 301!
+/products/zoday/invite/* /products/zoday/invite.html 200!
 /products/lumo.html /products/lumo 301!
 /privacy.html /privacy 301!
 /rockimals/privacy-policy.html /rockimals/privacy-policy 301!

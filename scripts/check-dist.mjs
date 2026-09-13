@@ -19,6 +19,7 @@ const RELEASE_PAGES = [
 ];
 
 const REQUIRED_PATHS = [
+  '.well-known/assetlinks.json',
   '_headers',
   '_redirects',
   'about.html',
@@ -29,8 +30,10 @@ const REQUIRED_PATHS = [
   'index.html',
   'js/analytics.js',
   'js/site.js',
+  'js/zoday-invite.js',
   'privacy.html',
   'products.html',
+  'products/zoday/invite.html',
   'robots.txt',
   'services/software-project-rescue.html',
   'sitemap.xml',
@@ -303,6 +306,72 @@ async function validateThankYouPage() {
   return errors;
 }
 
+async function validateZodayPlayGrowth() {
+  const errors = [];
+  const catalogue = await readFile(insideDist('products.html'), 'utf8');
+  const product = await readFile(insideDist('products/zoday.html'), 'utf8');
+  const invite = await readFile(insideDist('products/zoday/invite.html'), 'utf8');
+  const inviteScript = await readFile(insideDist('js/zoday-invite.js'), 'utf8');
+  const redirects = await readFile(insideDist('_redirects'), 'utf8');
+  const headers = await readFile(insideDist('_headers'), 'utf8');
+  const assetLinks = JSON.parse(await readFile(insideDist('.well-known/assetlinks.json'), 'utf8'));
+
+  const productFragments = [
+    'id=com.duniaops.zoday&amp;referrer=v%3D1%26utm_source%3Dwebsite%26utm_medium%3Dwebsite%26utm_campaign%3Dwebsite_product',
+    'Get it on Google Play',
+    "Google Play'den indir",
+    '<dd>Public on Google Play</dd>'
+  ];
+  for (const fragment of productFragments) {
+    if (!product.includes(fragment)) errors.push(`products/zoday.html: missing Play growth fragment ${fragment}`);
+  }
+  if (!catalogue.includes('<span>Android</span><span>Available now</span>')) {
+    errors.push('products.html: Zoday must be marked available on Android');
+  }
+  if (/Android[^<]{0,40}(?:internal testing|coming soon)/i.test(product)) {
+    errors.push('products/zoday.html: stale Android availability remains');
+  }
+
+  const inviteFragments = [
+    '<meta name="robots" content="noindex, noarchive, nofollow">',
+    '<meta name="referrer" content="no-referrer">',
+    'data-invite-code',
+    'data-play-link',
+    'This page runs no analytics and does not validate the code.'
+  ];
+  for (const fragment of inviteFragments) {
+    if (!invite.includes(fragment)) errors.push(`products/zoday/invite.html: missing privacy/fallback fragment ${fragment}`);
+  }
+  if (invite.includes('analytics.js') || invite.includes('googletagmanager')) {
+    errors.push('products/zoday/invite.html: invite paths must not load analytics');
+  }
+  for (const fragment of [
+    "const alphabet = '0123456789ABCDEFGHJKMNPQRSTVWXYZ'",
+    "if (!/^[0-9A-Za-z]{6}$/.test(raw)) return null",
+    "if (/%[0-9a-f]{2}/i.test(decoded)) return null",
+    "destination.searchParams.set('referrer', payload)"
+  ]) {
+    if (!inviteScript.includes(fragment)) errors.push(`js/zoday-invite.js: missing bounded parser fragment ${fragment}`);
+  }
+  if (!redirects.split('\n').includes('/products/zoday/invite/* /products/zoday/invite.html 200!')) {
+    errors.push('_redirects: missing Zoday invitation fallback rewrite');
+  }
+  for (const fragment of ['/products/zoday/invite/*', 'Referrer-Policy: no-referrer', 'X-Robots-Tag: noindex, noarchive']) {
+    if (!headers.includes(fragment)) errors.push(`_headers: missing invite privacy fragment ${fragment}`);
+  }
+
+  const statement = assetLinks[0];
+  const fingerprints = statement?.target?.sha256_cert_fingerprints;
+  if (assetLinks.length !== 1 || statement?.target?.namespace !== 'android_app'
+    || statement?.target?.package_name !== 'com.duniaops.zoday'
+    || statement?.relation?.join(',') !== 'delegate_permission/common.handle_all_urls'
+    || fingerprints?.join(',') !== 'C7:13:27:D6:0C:51:D1:31:23:76:DE:44:9D:08:E7:2B:D9:41:8F:6F:56:C3:FC:79:E3:34:B5:86:BA:F3:42:26') {
+    errors.push('.well-known/assetlinks.json: Play App Signing association does not match Zoday');
+  }
+
+  return errors;
+}
+
 async function main() {
   const details = await stat(DIST_DIR);
   if (!details.isDirectory()) throw new Error('dist is not a directory; run npm run build:site first.');
@@ -330,6 +399,7 @@ async function main() {
   errors.push(...await validateReleasePages());
   errors.push(...await validateLeadMeasurement());
   errors.push(...await validateThankYouPage());
+  errors.push(...await validateZodayPlayGrowth());
 
   if (errors.length) throw new Error(`Public output validation failed:\n- ${errors.join('\n- ')}`);
   console.log(`Validated ${files.length} public files, release routes, JSON-LD and navigation with no broken internal links.`);

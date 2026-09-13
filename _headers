@@ -14,3 +14,12 @@
 
 /js/*
   Cache-Control: public, max-age=31536000, immutable
+
+/products/zoday/invite/*
+  Cache-Control: no-store
+  Referrer-Policy: no-referrer
+  X-Robots-Tag: noindex, noarchive
+
+/.well-known/assetlinks.json
+  Cache-Control: public, max-age=300
+  Content-Type: application/json; charset=utf-8

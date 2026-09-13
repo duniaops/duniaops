@@ -1,0 +1,12 @@
+[
+  {
+    "relation": ["delegate_permission/common.handle_all_urls"],
+    "target": {
+      "namespace": "android_app",
+      "package_name": "com.duniaops.zoday",
+      "sha256_cert_fingerprints": [
+        "C7:13:27:D6:0C:51:D1:31:23:76:DE:44:9D:08:E7:2B:D9:41:8F:6F:56:C3:FC:79:E3:34:B5:86:BA:F3:42:26"
+      ]
+    }
+  }
+]

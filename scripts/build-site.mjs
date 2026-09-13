@@ -6,6 +6,7 @@ const ROOT = path.resolve(path.dirname(fileURLToPath(import.meta.url)), '..');
 const DIST_DIR = path.join(ROOT, 'dist');
 
 const PUBLIC_DIRECTORIES = [
+  '.well-known',
   'assets',
   'blog',
   'css',

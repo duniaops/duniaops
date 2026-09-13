@@ -30,6 +30,10 @@ class CleanUrlRequestHandler(SimpleHTTPRequestHandler):
         if not relative_path or Path(relative_path).suffix:
             return False
 
+        if relative_path.startswith("products/zoday/invite/"):
+            self.path = urlunsplit(("", "", "/products/zoday/invite.html", parsed.query, ""))
+            return False
+
         html_candidate = self.site_root / f"{relative_path}.html"
         if not html_candidate.is_file():
             return False
