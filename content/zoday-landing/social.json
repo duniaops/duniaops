@@ -1,0 +1,27 @@
+{
+  "en": {
+    "title": "Zoday — Daily horoscope, Moon calendar & private journal",
+    "description": "Explore your daily horoscope, follow Moon phases and personal lunar dates, and make time for yourself with a private journal.",
+    "imageAlt": "Five Moon phases with the Zoday logo and the words: Your daily horoscope, Moon calendar and private journal."
+  },
+  "tr": {
+    "title": "Zoday — Günlük burç yorumu, Ay takvimi ve özel günlük",
+    "description": "Günlük burç yorumunu keşfet, Ay evrelerini ve kişisel Ay tarihlerini takip et; kendine ayırdığın anları özel günlüğüne kaydet.",
+    "imageAlt": "Beş Ay evresi, Zoday logosu ve Günlük burç yorumun, Ay takvimin ve özel günlüğün yazısı."
+  },
+  "de": {
+    "title": "Zoday — Tageshoroskop, Mondkalender und privates Tagebuch",
+    "description": "Entdecke dein Tageshoroskop, verfolge Mondphasen und persönliche Monddaten und halte deine Gedanken in einem privaten Tagebuch fest.",
+    "imageAlt": "Fünf Mondphasen, das Zoday-Logo und der Text: Dein Tageshoroskop, Mondkalender und privates Tagebuch."
+  },
+  "es": {
+    "title": "Zoday — Horóscopo diario, calendario lunar y diario privado",
+    "description": "Descubre tu horóscopo diario, sigue las fases lunares y tus fechas personales, y dedica un momento a reflexionar en tu diario privado.",
+    "imageAlt": "Cinco fases lunares, el logotipo de Zoday y el texto: Tu horóscopo diario, calendario lunar y diario privado."
+  },
+  "pt-BR": {
+    "title": "Zoday — Horóscopo diário, calendário lunar e diário privado",
+    "description": "Descubra seu horóscopo diário, acompanhe as fases da Lua e suas datas pessoais e reserve um momento para refletir em seu diário privado.",
+    "imageAlt": "Cinco fases da Lua, o logotipo do Zoday e o texto: Seu horóscopo diário, calendário lunar e diário privado."
+  }
+}

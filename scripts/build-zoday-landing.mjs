@@ -3,6 +3,7 @@ import assert from 'node:assert/strict';
 const base = new URL('../', import.meta.url);
 const original = JSON.parse(await readFile(new URL('content/zoday-landing/en.json', base), 'utf8'));
 const availability = JSON.parse(await readFile(new URL('content/zoday-landing/availability.json', base), 'utf8'));
+const social = JSON.parse(await readFile(new URL('content/zoday-landing/social.json', base), 'utf8'));
 const template = await readFile(new URL('products/zoday.html', base), 'utf8');
 const unchanged = new Set([2,13,40,43,46,49,52,74,88,100,101,102,103,104,134]);
 const labels = { en:'Language',tr:'Dil',es:'Idioma','pt-BR':'Idioma',de:'Sprache' };
@@ -39,10 +40,19 @@ for (const lang of Object.keys(labels)) {
   body = body.replace(/(<a class="zl-store"[^>]*>)[\s\S]*?<\/a>/g,
     `$1<img src="/assets/products/google-play/${lang}.png" alt="${attr(translated[14])}" width="180" style="display:block;width:180px;height:auto" /></a>`);
   const title = 'Zoday — '+translated[8]+' '+translated[9]+' '+translated[10];
+  const share = social[lang];
+  assert.ok(share?.title && share.description && share.imageAlt, `${lang}: missing sharing copy`);
+  const shareImage = `https://zoday.duniaops.com/assets/products/zoday-share-${lang}.jpg?v=20260913-moon`;
+  const shareUrl = `https://zoday.duniaops.com/${lang === 'en' ? '' : lang}`;
+  const socialAttr = text => attr(text.replaceAll('&', '&amp;'));
   let head=template.slice(0,split).replace('<html lang="en">',`<html lang="${lang}">`)
     .replace(/<title>.*?<\/title>/,`<title>${title}</title>`)
-    .replace(/(<meta (?:name="description"|property="og:description"|name="twitter:description") content=")[^"]*"/g,`$1${attr(translated[11])}"`)
-    .replace(/(<meta (?:property="og:title"|name="twitter:title") content=")[^"]*"/g,`$1${attr(title)}"`)
+    .replace(/(<meta name="description" content=")[^"]*"/,`$1${attr(translated[11])}"`)
+    .replace(/(<meta (?:property="og:description"|name="twitter:description") content=")[^"]*"/g,`$1${socialAttr(share.description)}"`)
+    .replace(/(<meta (?:property="og:title"|name="twitter:title") content=")[^"]*"/g,`$1${socialAttr(share.title)}"`)
+    .replace(/(<meta (?:property="og:image"|name="twitter:image") content=")[^"]*"/g,`$1${shareImage}"`)
+    .replace(/(<meta (?:property="og:image:alt"|name="twitter:image:alt") content=")[^"]*"/g,`$1${socialAttr(share.imageAlt)}"`)
+    .replace(/(<meta property="og:url" content=")[^"]*"/,`$1${shareUrl}"`)
     .replace('</head>',`<meta property="og:locale" content="${ogLocales[lang]}">\n</head>`);
   head = head.replace('</head>', '<style>a.zl-store:has(img){padding:14px;background:transparent;border:0;box-shadow:none}a.zl-store:has(img):focus-visible{outline:2px solid #c9b8ff;outline-offset:2px}</style></head>');
   await writeFile(new URL(`${lang}.html`,out),head+body);
