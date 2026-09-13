@@ -1,0 +1,297 @@
+{
+  "sourceCommit": "53b8bbfe2f7b7209ec3530cb8ffccc193a44a29f",
+  "reviewOnly": true,
+  "assets": [
+    {
+      "source": "/Users/uylas/Documents/DuniaOps/Projects/zoday/store/play/1.3.3/growth-2026-09-12/preflight-captures/en/01-today.png",
+      "sha256": "32d83ea501a883425b426f792646b9193ba6947b2402c55b5ae304c8351110c6",
+      "original": "source-assets/zoday/2026-09-13/01-today.png",
+      "web": "assets/products/zoday-preview/01-today.jpg",
+      "width": 810,
+      "height": 1440,
+      "status": "review-only; signed-release validation required"
+    },
+    {
+      "source": "/Users/uylas/Documents/DuniaOps/Projects/zoday/store/play/1.3.3/growth-2026-09-12/preflight-captures/en/02-daily-horoscope.png",
+      "sha256": "005ed4bf93103c052cbdd964a3552ffb32bd4e428d94fdb881c42092e495200b",
+      "original": "source-assets/zoday/2026-09-13/02-daily-horoscope.png",
+      "web": "assets/products/zoday-preview/02-daily-horoscope.jpg",
+      "width": 810,
+      "height": 1440,
+      "status": "review-only; signed-release validation required"
+    },
+    {
+      "source": "/Users/uylas/Documents/DuniaOps/Projects/zoday/store/play/1.3.3/growth-2026-09-12/preflight-captures/en/04-personal-reading.png",
+      "sha256": "e7235ed1346fa1e780cfbdef9c8f04a81a9d63ba8dde2679805c0b98297d092d",
+      "original": "source-assets/zoday/2026-09-13/04-personal-reading.png",
+      "web": "assets/products/zoday-preview/04-personal-reading.jpg",
+      "width": 810,
+      "height": 1440,
+      "status": "review-only; signed-release validation required"
+    },
+    {
+      "source": "/Users/uylas/Documents/DuniaOps/Projects/zoday/store/play/1.3.3/growth-2026-09-12/preflight-captures/en/05-moon-calendar.png",
+      "sha256": "d4031eb1918b1541333f5d883c9d83e14243b62e98f67756f79b59a227d3fb3a",
+      "original": "source-assets/zoday/2026-09-13/05-moon-calendar.png",
+      "web": "assets/products/zoday-preview/05-moon-calendar.jpg",
+      "width": 810,
+      "height": 1440,
+      "status": "review-only; signed-release validation required"
+    },
+    {
+      "source": "/Users/uylas/Documents/DuniaOps/Projects/zoday/store/play/1.3.3/growth-2026-09-12/preflight-captures/en/06-new-check-in.png",
+      "sha256": "2d61b33af38d94a432be89eb31e7871fde12afaad8a3e5f081f696db6ad90d91",
+      "original": "source-assets/zoday/2026-09-13/06-new-check-in.png",
+      "web": "assets/products/zoday-preview/06-new-check-in.jpg",
+      "width": 810,
+      "height": 1440,
+      "status": "review-only; signed-release validation required"
+    },
+    {
+      "source": "/Users/uylas/Documents/DuniaOps/Projects/zoday/store/play/1.3.3/growth-2026-09-12/preflight-captures/en/07-journal-history.png",
+      "sha256": "75e9d8cdd94e5f7aa09f70be11a1531f7fb30d01dfeffb0d65a0fa681e6e2fbc",
+      "original": "source-assets/zoday/2026-09-13/07-journal-history.png",
+      "web": "assets/products/zoday-preview/07-journal-history.jpg",
+      "width": 810,
+      "height": 1440,
+      "status": "review-only; signed-release validation required"
+    },
+    {
+      "source": "/Users/uylas/Documents/DuniaOps/Projects/zoday/docs/design/assets/zoday-logo-full-transparent.png",
+      "sha256": "f08ab167613faac9257ec054b0833681be4d8c650bf5f04d7b85b212f73a70f1",
+      "original": "source-assets/zoday/2026-09-13/logo-full.png",
+      "web": "assets/products/zoday-preview/logo-full.png",
+      "status": "brand asset"
+    },
+    {
+      "source": "/Users/uylas/Documents/DuniaOps/Projects/zoday/docs/design/assets/zoday-mark-transparent.png",
+      "sha256": "133d953429766e3cf7268994110dc172f302ccacea3539506a328eec12bde8b5",
+      "original": "source-assets/zoday/2026-09-13/mark.png",
+      "web": "assets/products/zoday-preview/mark.png",
+      "status": "brand asset"
+    },
+    {
+      "source": "/Users/uylas/Documents/DuniaOps/Projects/zoday/app/assets/images/icon.png",
+      "sha256": "1479b56a5fc4322c2d2962a78e648e436a24b52d1f3a73695592192748310cf5",
+      "original": "source-assets/zoday/2026-09-13/app-icon.png",
+      "web": "assets/products/zoday-preview/app-icon.png",
+      "status": "brand asset"
+    },
+    {
+      "source": "/Users/uylas/Documents/DuniaOps/Projects/zoday/store/play/1.3.3/growth-2026-09-12/preflight-captures/tr/01-today.png",
+      "sha256": "f608b785d1944182bf9de269a421b9b231f80c3413dc0e10a54eba7449d4b677",
+      "original": "source-assets/zoday/2026-09-13/tr/01-today.png",
+      "web": "assets/products/zoday-preview/tr/01-today.jpg",
+      "width": 810,
+      "height": 1440,
+      "status": "review-only; signed-release validation required"
+    },
+    {
+      "source": "/Users/uylas/Documents/DuniaOps/Projects/zoday/store/play/1.3.3/growth-2026-09-12/preflight-captures/tr/02-daily-horoscope.png",
+      "sha256": "73dd211b60d69ced4a283ff442f1b55198beda1fa039a1685717f5b066fb1620",
+      "original": "source-assets/zoday/2026-09-13/tr/02-daily-horoscope.png",
+      "web": "assets/products/zoday-preview/tr/02-daily-horoscope.jpg",
+      "width": 810,
+      "height": 1440,
+      "status": "review-only; signed-release validation required"
+    },
+    {
+      "source": "/Users/uylas/Documents/DuniaOps/Projects/zoday/store/play/1.3.3/growth-2026-09-12/preflight-captures/tr/04-personal-reading.png",
+      "sha256": "c90f6816f718e279230c7007a5b089626725a7acad7a125d348fc0fb79b9d567",
+      "original": "source-assets/zoday/2026-09-13/tr/04-personal-reading.png",
+      "web": "assets/products/zoday-preview/tr/04-personal-reading.jpg",
+      "width": 810,
+      "height": 1440,
+      "status": "review-only; signed-release validation required"
+    },
+    {
+      "source": "/Users/uylas/Documents/DuniaOps/Projects/zoday/store/play/1.3.3/growth-2026-09-12/preflight-captures/tr/05-moon-calendar.png",
+      "sha256": "76d3fbd4cddbe60785953e729e13db48444ce7891deb7e350fadf324bd14ba52",
+      "original": "source-assets/zoday/2026-09-13/tr/05-moon-calendar.png",
+      "web": "assets/products/zoday-preview/tr/05-moon-calendar.jpg",
+      "width": 810,
+      "height": 1440,
+      "status": "review-only; signed-release validation required"
+    },
+    {
+      "source": "/Users/uylas/Documents/DuniaOps/Projects/zoday/store/play/1.3.3/growth-2026-09-12/preflight-captures/tr/06-new-check-in.png",
+      "sha256": "f9dfb1d36a98028af0c23bfdd902ecf555a1361c1d47baf3dd1110acaba8e476",
+      "original": "source-assets/zoday/2026-09-13/tr/06-new-check-in.png",
+      "web": "assets/products/zoday-preview/tr/06-new-check-in.jpg",
+      "width": 810,
+      "height": 1440,
+      "status": "review-only; signed-release validation required"
+    },
+    {
+      "source": "/Users/uylas/Documents/DuniaOps/Projects/zoday/store/play/1.3.3/growth-2026-09-12/preflight-captures/tr/07-journal-history.png",
+      "sha256": "1aa3f619f33b6dc20a42b682395a6eba03a81b7e2631b88876172862594c0e30",
+      "original": "source-assets/zoday/2026-09-13/tr/07-journal-history.png",
+      "web": "assets/products/zoday-preview/tr/07-journal-history.jpg",
+      "width": 810,
+      "height": 1440,
+      "status": "review-only; signed-release validation required"
+    },
+    {
+      "source": "/Users/uylas/Documents/DuniaOps/Projects/zoday/store/play/1.3.3/growth-2026-09-12/preflight-captures/es/01-today.png",
+      "sha256": "82d8d11c1cd7901d5071910c1afb938ff6a44b77cb1e926a48105ee00dde404e",
+      "original": "source-assets/zoday/2026-09-13/es/01-today.png",
+      "web": "assets/products/zoday-preview/es/01-today.jpg",
+      "width": 810,
+      "height": 1440,
+      "status": "review-only; signed-release validation required"
+    },
+    {
+      "source": "/Users/uylas/Documents/DuniaOps/Projects/zoday/store/play/1.3.3/growth-2026-09-12/preflight-captures/es/02-daily-horoscope.png",
+      "sha256": "fcef89903f57f11ebcfeefb9e3c98368a6103769dbd5bd43c0b2ff8c06b5bde9",
+      "original": "source-assets/zoday/2026-09-13/es/02-daily-horoscope.png",
+      "web": "assets/products/zoday-preview/es/02-daily-horoscope.jpg",
+      "width": 810,
+      "height": 1440,
+      "status": "review-only; signed-release validation required"
+    },
+    {
+      "source": "/Users/uylas/Documents/DuniaOps/Projects/zoday/store/play/1.3.3/growth-2026-09-12/preflight-captures/es/04-personal-reading.png",
+      "sha256": "0705b0df3ffa5c6dd1dbac8ab9592c758ea2d4f62b4ceeb46f571073e7f20422",
+      "original": "source-assets/zoday/2026-09-13/es/04-personal-reading.png",
+      "web": "assets/products/zoday-preview/es/04-personal-reading.jpg",
+      "width": 810,
+      "height": 1440,
+      "status": "review-only; signed-release validation required"
+    },
+    {
+      "source": "/Users/uylas/Documents/DuniaOps/Projects/zoday/store/play/1.3.3/growth-2026-09-12/preflight-captures/es/05-moon-calendar.png",
+      "sha256": "19657eb8d4d7f4c88ee168b7a6b976e06b6fb201e46af78312f4314a55878fe4",
+      "original": "source-assets/zoday/2026-09-13/es/05-moon-calendar.png",
+      "web": "assets/products/zoday-preview/es/05-moon-calendar.jpg",
+      "width": 810,
+      "height": 1440,
+      "status": "review-only; signed-release validation required"
+    },
+    {
+      "source": "/Users/uylas/Documents/DuniaOps/Projects/zoday/store/play/1.3.3/growth-2026-09-12/preflight-captures/es/06-new-check-in.png",
+      "sha256": "911bcbfa72319c3fd5331f01b3e912bb27ca1e215975cfd8b432ab091c166153",
+      "original": "source-assets/zoday/2026-09-13/es/06-new-check-in.png",
+      "web": "assets/products/zoday-preview/es/06-new-check-in.jpg",
+      "width": 810,
+      "height": 1440,
+      "status": "review-only; signed-release validation required"
+    },
+    {
+      "source": "/Users/uylas/Documents/DuniaOps/Projects/zoday/store/play/1.3.3/growth-2026-09-12/preflight-captures/es/07-journal-history.png",
+      "sha256": "0d8eae2849976feb6eb63e42b10d31792bc588c6ca7d671f6cab87493f811c0c",
+      "original": "source-assets/zoday/2026-09-13/es/07-journal-history.png",
+      "web": "assets/products/zoday-preview/es/07-journal-history.jpg",
+      "width": 810,
+      "height": 1440,
+      "status": "review-only; signed-release validation required"
+    },
+    {
+      "source": "/Users/uylas/Documents/DuniaOps/Projects/zoday/store/play/1.3.3/growth-2026-09-12/preflight-captures/pt-BR/01-today.png",
+      "sha256": "95abf29295af8dcd5a409845bd18504889f6d53882b7704f6c959789617a4323",
+      "original": "source-assets/zoday/2026-09-13/pt-BR/01-today.png",
+      "web": "assets/products/zoday-preview/pt-BR/01-today.jpg",
+      "width": 810,
+      "height": 1440,
+      "status": "review-only; signed-release validation required"
+    },
+    {
+      "source": "/Users/uylas/Documents/DuniaOps/Projects/zoday/store/play/1.3.3/growth-2026-09-12/preflight-captures/pt-BR/02-daily-horoscope.png",
+      "sha256": "9b56ec0df93a2606eaed95aa9d147e4f882bb4347fa11a2f51b06e8a2accfbbc",
+      "original": "source-assets/zoday/2026-09-13/pt-BR/02-daily-horoscope.png",
+      "web": "assets/products/zoday-preview/pt-BR/02-daily-horoscope.jpg",
+      "width": 810,
+      "height": 1440,
+      "status": "review-only; signed-release validation required"
+    },
+    {
+      "source": "/Users/uylas/Documents/DuniaOps/Projects/zoday/store/play/1.3.3/growth-2026-09-12/preflight-captures/pt-BR/04-personal-reading.png",
+      "sha256": "350ca3fd594e7eff2988d7cd62fdf2a5c5d26437c669ade06fcd6d21f2e6820b",
+      "original": "source-assets/zoday/2026-09-13/pt-BR/04-personal-reading.png",
+      "web": "assets/products/zoday-preview/pt-BR/04-personal-reading.jpg",
+      "width": 810,
+      "height": 1440,
+      "status": "review-only; signed-release validation required"
+    },
+    {
+      "source": "/Users/uylas/Documents/DuniaOps/Projects/zoday/store/play/1.3.3/growth-2026-09-12/preflight-captures/pt-BR/05-moon-calendar.png",
+      "sha256": "bf54b705b0aacd2d8e7fc935498ba8e54db7b0dae43a819eb92cd46e09c36543",
+      "original": "source-assets/zoday/2026-09-13/pt-BR/05-moon-calendar.png",
+      "web": "assets/products/zoday-preview/pt-BR/05-moon-calendar.jpg",
+      "width": 810,
+      "height": 1440,
+      "status": "review-only; signed-release validation required"
+    },
+    {
+      "source": "/Users/uylas/Documents/DuniaOps/Projects/zoday/store/play/1.3.3/growth-2026-09-12/preflight-captures/pt-BR/06-new-check-in.png",
+      "sha256": "d4788f30e1f99ab708b4f275d9b24e2182ded4727c8930e92e4a8dcb48558fd0",
+      "original": "source-assets/zoday/2026-09-13/pt-BR/06-new-check-in.png",
+      "web": "assets/products/zoday-preview/pt-BR/06-new-check-in.jpg",
+      "width": 810,
+      "height": 1440,
+      "status": "review-only; signed-release validation required"
+    },
+    {
+      "source": "/Users/uylas/Documents/DuniaOps/Projects/zoday/store/play/1.3.3/growth-2026-09-12/preflight-captures/pt-BR/07-journal-history.png",
+      "sha256": "416133385ba865ce93626fa23e2eec1118704b810dd9a1169a11628837f44b78",
+      "original": "source-assets/zoday/2026-09-13/pt-BR/07-journal-history.png",
+      "web": "assets/products/zoday-preview/pt-BR/07-journal-history.jpg",
+      "width": 810,
+      "height": 1440,
+      "status": "review-only; signed-release validation required"
+    },
+    {
+      "source": "/Users/uylas/Documents/DuniaOps/Projects/zoday/store/play/1.3.3/growth-2026-09-12/preflight-captures/de/01-today.png",
+      "sha256": "cfe54039d81012f35d1ea79b40d360c26c13e54f0bec3ee7364cbe6b0ad05f44",
+      "original": "source-assets/zoday/2026-09-13/de/01-today.png",
+      "web": "assets/products/zoday-preview/de/01-today.jpg",
+      "width": 810,
+      "height": 1440,
+      "status": "review-only; signed-release validation required"
+    },
+    {
+      "source": "/Users/uylas/Documents/DuniaOps/Projects/zoday/store/play/1.3.3/growth-2026-09-12/preflight-captures/de/02-daily-horoscope.png",
+      "sha256": "496899ad71b5d921be62f017f6552029816067523e85c556674e6377574bc09c",
+      "original": "source-assets/zoday/2026-09-13/de/02-daily-horoscope.png",
+      "web": "assets/products/zoday-preview/de/02-daily-horoscope.jpg",
+      "width": 810,
+      "height": 1440,
+      "status": "review-only; signed-release validation required"
+    },
+    {
+      "source": "/Users/uylas/Documents/DuniaOps/Projects/zoday/store/play/1.3.3/growth-2026-09-12/preflight-captures/de/04-personal-reading.png",
+      "sha256": "3e1cda08fac1fd23111f3c8fc16b26bfd9f0f7bd619fee7cec1f50a9971d6cdb",
+      "original": "source-assets/zoday/2026-09-13/de/04-personal-reading.png",
+      "web": "assets/products/zoday-preview/de/04-personal-reading.jpg",
+      "width": 810,
+      "height": 1440,
+      "status": "review-only; signed-release validation required"
+    },
+    {
+      "source": "/Users/uylas/Documents/DuniaOps/Projects/zoday/store/play/1.3.3/growth-2026-09-12/preflight-captures/de/05-moon-calendar.png",
+      "sha256": "ec17d8fb6a05622f807118d577a92d85aae36453495c3cc2b6cb475e1281854e",
+      "original": "source-assets/zoday/2026-09-13/de/05-moon-calendar.png",
+      "web": "assets/products/zoday-preview/de/05-moon-calendar.jpg",
+      "width": 810,
+      "height": 1440,
+      "status": "review-only; signed-release validation required"
+    },
+    {
+      "source": "/Users/uylas/Documents/DuniaOps/Projects/zoday/store/play/1.3.3/growth-2026-09-12/preflight-captures/de/06-new-check-in.png",
+      "sha256": "c3bf6042a18f6ddbad9c4577e528da515e93d512d4088173931e5da825f4e0d5",
+      "original": "source-assets/zoday/2026-09-13/de/06-new-check-in.png",
+      "web": "assets/products/zoday-preview/de/06-new-check-in.jpg",
+      "width": 810,
+      "height": 1440,
+      "status": "review-only; signed-release validation required"
+    },
+    {
+      "source": "/Users/uylas/Documents/DuniaOps/Projects/zoday/store/play/1.3.3/growth-2026-09-12/preflight-captures/de/07-journal-history.png",
+      "sha256": "10977402ca4b93921211d04692de00fde32f6a2ccc29a7ce40eb04540daf6854",
+      "original": "source-assets/zoday/2026-09-13/de/07-journal-history.png",
+      "web": "assets/products/zoday-preview/de/07-journal-history.jpg",
+      "width": 810,
+      "height": 1440,
+      "status": "review-only; signed-release validation required"
+    }
+  ]
+}
