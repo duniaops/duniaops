@@ -1,0 +1,75 @@
+:root{color-scheme:dark;font-family:Inter,ui-sans-serif,system-ui,-apple-system,BlinkMacSystemFont,"Segoe UI",sans-serif;color:#f7f2ff;background:#100d1b;font-synthesis:none}*{box-sizing:border-box}body{margin:0;min-width:320px;background:radial-gradient(ellipse at 15% 12%,#704f9d24,transparent 48%),radial-gradient(ellipse at 90% 65%,#ae774e14,transparent 45%)}body:before{content:"";position:fixed;inset:0;pointer-events:none;background-image:radial-gradient(1px 1px at 12% 18%,#c5b2de 70%,transparent),radial-gradient(1px 1px at 86% 26%,#c5b2de 70%,transparent),radial-gradient(1px 1px at 23% 76%,#c5b2de 70%,transparent),radial-gradient(1px 1px at 92% 88%,#c5b2de 70%,transparent);z-index:-1}a{color:inherit}button,select{font:inherit}button,a,select{-webkit-tap-highlight-color:transparent}a:focus-visible,button:focus-visible,select:focus-visible{outline:3px solid #d5b4ff;outline-offset:5px}[hidden]{display:none!important}.invite-shell{max-width:620px;margin:auto;padding:24px 24px 30px}.language-bar{display:flex;align-items:center;justify-content:flex-end;gap:10px;color:#bcb0cd;font-size:13px}.language-bar select{min-height:44px;padding:0 32px 0 13px;border:1px solid #4b3d60;border-radius:10px;background:#1c1629;color:#f5efff}.intro{text-align:center;padding:6px 0 25px}.zoday-logo{display:block;width:140px;height:140px;object-fit:contain;margin:0 auto 4px}.eyebrow{font-size:11px;font-weight:650;letter-spacing:.13em;text-transform:uppercase;color:#d6b58d;margin:0 0 13px;line-height:1.7}h1{font-size:clamp(29px,5.7vw,40px);letter-spacing:-.035em;line-height:1.16;font-weight:650;margin:0 auto 16px;max-width:490px}.lead{color:#bcb0cd;font-size:15px;line-height:1.7;max-width:450px;margin:auto}.invitation-card{padding:23px 26px 12px;border:1px solid #71588d80;border-radius:20px;background:linear-gradient(125deg,#30213e,#201a2d);box-shadow:0 15px 50px #0002}.invitation-card .eyebrow{color:#c9b6e1}.code-row{display:flex;justify-content:space-between;align-items:center;gap:14px}.invite-code{font-size:clamp(25px,5.5vw,36px);letter-spacing:.14em;font-weight:650;overflow-wrap:anywhere}.code-row button{border:1px solid #d1b0f3;background:#d6bbf3;color:#21112f;border-radius:10px;padding:12px 17px;min-height:44px;cursor:pointer;font-size:13px;font-weight:650;flex-shrink:0}.code-row button:hover{background:#e4cef9}.code-row button:disabled{opacity:.5;cursor:default}.code-hint,.invitation-card>p:not(.eyebrow){font-size:13px;line-height:1.6;color:#c8bcd6;margin:13px 0 0}.invitation-card .copy-status{min-height:20px;margin:4px 0 0;color:#ead5ff}.next-steps{padding:27px 8px 6px}h2{font-size:18px;font-weight:600;margin:0 0 20px}ol{padding:0;margin:0;list-style:none;counter-reset:steps}li{counter-increment:steps;display:flex;gap:15px;margin:0 0 20px}li:before{content:counter(steps);display:grid;place-items:center;flex:0 0 30px;height:30px;background:#251d34;border:1px solid #4a3a5e;border-radius:50%;font-size:12px;color:#d7b8f1}h3{font-size:14px;font-weight:600;margin:3px 0 5px}li p{font-size:13px;line-height:1.65;margin:0;color:#bcb0cd}.stores{display:flex;justify-content:center;gap:12px;flex-wrap:wrap}.store-badge{height:56px;min-width:174px;padding:8px 14px;display:flex;align-items:center;justify-content:center;gap:10px;background:#060608;border:1px solid #918a9c;border-radius:9px;text-decoration:none}.store-badge small{display:block;font-size:9px;line-height:1.4;letter-spacing:.055em}.store-badge strong{display:block;font-size:21px;font-weight:500;line-height:1.2;letter-spacing:-.5px}.unavailable{opacity:.55}.availability{font-size:12px;color:#aa9dbb;text-align:center;line-height:1.6;margin:14px 0 0}footer{margin:32px 0 0;padding-top:20px;border-top:1px solid #33283e;color:#aa9dbb;text-align:center;font-size:12px}footer div{display:flex;align-items:center;justify-content:center;gap:15px}footer a{display:inline-flex;align-items:center;min-height:44px;text-decoration:none}footer a:hover{text-decoration:underline}footer p{font-size:10px;line-height:1.6;margin:7px 0 0}.skip-link{position:absolute;top:-100px;left:16px;padding:12px;background:#30213e;z-index:1}.skip-link:focus{top:16px}.noscript{font-size:13px;line-height:1.7;padding:20px;border:1px solid #71588d;border-radius:12px}@media(max-width:420px){.invite-shell{padding:16px 18px 24px}.intro{padding-top:0}.zoday-logo{width:120px;height:120px}.invitation-card{padding:20px 18px 10px}.code-row{flex-wrap:wrap}.store-badge{min-width:156px;padding:8px 10px;gap:8px}.store-badge strong{font-size:19px}.stores{gap:8px}.next-steps{padding-left:1px;padding-right:1px}}
+
+/* Keep the download action directly after the code on every screen. */
+.language-bar .legal-language-trigger,.language-bar select{width:220px;max-width:100%}
+.language-bar label{margin:0}
+.stores{margin-top:20px}
+.stores>a{border-color:#c8a6ee;box-shadow:0 0 0 3px #b38cdb18}
+.next-steps{padding-top:24px}
+
+@media(max-width:600px){
+  .invite-shell{position:relative;padding:12px 16px 16px}
+  .language-bar{min-height:52px;margin-bottom:14px}
+  .language-bar label{position:absolute;width:1px;height:1px;overflow:hidden;clip-path:inset(50%)}
+  .language-bar .legal-language-trigger,.language-bar select{width:196px;min-height:44px;padding:10px 12px;font-size:13px}
+  .intro{padding:8px 0 16px}
+  .intro>a{position:absolute;top:2px;left:12px}
+  .zoday-logo{width:76px;height:76px;margin:0}
+  .intro>.eyebrow{display:none}
+  h1{font-size:26px;line-height:1.16;max-width:350px;margin-bottom:9px}
+  .lead{font-size:13px;line-height:1.45;max-width:350px}
+  .invitation-card{padding:14px 16px 12px;border-radius:16px}
+  .invitation-card .eyebrow{font-size:10px;margin-bottom:7px}
+  .invite-code{font-size:27px;letter-spacing:.12em}
+  .code-row{gap:8px;flex-wrap:nowrap}
+  .code-row button{font-size:12px;padding:10px 12px}
+  .invitation-card .code-hint{display:none}
+  .invitation-card .copy-status{min-height:0;margin:0;font-size:12px}
+  .invitation-card .copy-status:not(:empty){margin-top:7px}
+  .stores{margin-top:16px;gap:10px;flex-wrap:nowrap}
+  .stores>a,.apple-store{flex:1;min-width:0}
+  .store-badge{min-width:0;height:54px;padding:8px 10px;gap:8px}
+  .store-badge strong{font-size:19px}
+  .store-badge small{font-size:8px}
+  .store-badge svg{width:25px;flex-shrink:0}
+  .availability{font-size:11px;margin-top:9px}
+  .next-steps{padding:19px 0 0}
+  .next-steps h2{font-size:14px;margin-bottom:12px}
+  li{gap:10px;margin-bottom:10px}
+  li:before{height:24px;flex-basis:24px;font-size:11px}
+  h3{font-size:13px;margin:3px 0 0}
+  li p{font-size:12px;line-height:1.45;margin-top:4px}
+  li:first-child p,li:nth-child(2) p{display:none}
+  footer{margin-top:14px;padding-top:4px}
+  footer p{margin-top:0}
+}
+@media(max-width:360px){
+  .invite-code{font-size:23px}
+  .code-row button{padding:10px 8px}
+  .store-badge{gap:6px;padding:8px}
+  .store-badge strong{font-size:17px}
+  .store-badge svg{width:22px}
+}
+
+/* A compact heading and picker leave the invitation as the main action. */
+.language-bar label{position:absolute;width:1px;height:1px;overflow:hidden;clip-path:inset(50%)}
+.language-bar .legal-language-trigger,.language-bar select{width:auto;min-width:132px;max-width:230px;min-height:44px;padding:10px 12px;gap:9px}
+.intro .invite-heading{font-size:18px;line-height:1.45;font-weight:600;letter-spacing:.01em;color:#d6b58d;margin:12px auto 0;max-width:100%}
+.invite-info{margin:22px 0 0;padding:20px 16px 0;border-top:1px solid #33283e;text-align:center}
+.invite-info p{font-size:13px;line-height:1.65;color:#bcb0cd;max-width:450px;margin:8px auto 0}
+.invite-info .info-title{color:#f0eaf8;font-size:14px;font-weight:500;margin-top:0}
+@media(max-width:600px){
+  .intro .invite-heading{font-size:17px;margin:0 auto;max-width:100%}
+  .invite-info{margin-top:16px;padding:16px 4px 0}
+  .invite-info p{font-size:12px;line-height:1.5}
+  .invite-info .info-title{font-size:13px}
+}
+
+/* Align the brand and language control in one compact top row. */
+.invite-shell{position:relative}
+.language-bar{min-height:52px;margin-bottom:14px}
+.intro>a{position:absolute;top:14px;left:20px}
+.intro .zoday-logo{width:76px;height:76px;margin:0}
+@media(max-width:600px){
+  .intro>a{top:2px;left:12px}
+}

@@ -4,3 +4,89 @@
 
 [build.environment]
   NODE_VERSION = "24"
+
+# Return localized HTML metadata before any browser JavaScript runs.
+
+[[redirects]]
+  from = "/invite/*"
+  to = "/products/zoday/invite-locales/en.html"
+  status = 200
+  force = true
+  query = { lang = "en" }
+
+[[redirects]]
+  from = "/invite/*"
+  to = "/products/zoday/invite-locales/tr.html"
+  status = 200
+  force = true
+  query = { lang = "tr" }
+
+[[redirects]]
+  from = "/invite/*"
+  to = "/products/zoday/invite-locales/es.html"
+  status = 200
+  force = true
+  query = { lang = "es" }
+
+[[redirects]]
+  from = "/invite/*"
+  to = "/products/zoday/invite-locales/pt-BR.html"
+  status = 200
+  force = true
+  query = { lang = "pt-BR" }
+
+[[redirects]]
+  from = "/invite/*"
+  to = "/products/zoday/invite-locales/de.html"
+  status = 200
+  force = true
+  query = { lang = "de" }
+
+[[redirects]]
+  from = "/invite/*"
+  to = "/products/zoday/invite.html"
+  status = 200
+  force = true
+
+# Zoday homepage: localized initial HTML and screenshots.
+
+[[redirects]]
+  from = "https://zoday.duniaops.com/"
+  to = "/products/zoday-locales/en.html"
+  status = 200
+  force = true
+  query = { lang = "en" }
+
+[[redirects]]
+  from = "https://zoday.duniaops.com/"
+  to = "/products/zoday-locales/tr.html"
+  status = 200
+  force = true
+  query = { lang = "tr" }
+
+[[redirects]]
+  from = "https://zoday.duniaops.com/"
+  to = "/products/zoday-locales/es.html"
+  status = 200
+  force = true
+  query = { lang = "es" }
+
+[[redirects]]
+  from = "https://zoday.duniaops.com/"
+  to = "/products/zoday-locales/pt-BR.html"
+  status = 200
+  force = true
+  query = { lang = "pt-BR" }
+
+[[redirects]]
+  from = "https://zoday.duniaops.com/"
+  to = "/products/zoday-locales/de.html"
+  status = 200
+  force = true
+  query = { lang = "de" }
+
+[[redirects]]
+  from = "https://zoday.duniaops.com/"
+  to = "/products/zoday-locales/en.html"
+  status = 200
+  force = true

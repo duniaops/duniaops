@@ -7,7 +7,7 @@ import argparse
 from functools import partial
 from http.server import SimpleHTTPRequestHandler, ThreadingHTTPServer
 from pathlib import Path
-from urllib.parse import unquote, urlsplit, urlunsplit
+from urllib.parse import unquote, urlsplit, urlunsplit, parse_qs
 
 
 PROJECT_ROOT = Path(__file__).resolve().parent.parent
@@ -26,6 +26,20 @@ class CleanUrlRequestHandler(SimpleHTTPRequestHandler):
     def _rewrite_clean_url(self) -> bool:
         parsed = urlsplit(self.path)
         relative_path = unquote(parsed.path).strip("/")
+
+        if relative_path in ("products/zoday", "products/zoday.html"):
+            language = parse_qs(parsed.query).get("lang", ["en"])[0]
+            if language not in ("en", "tr", "es", "pt-BR", "de"):
+                language = "en"
+            self.path = urlunsplit(("", "", f"/products/zoday-locales/{language}.html", parsed.query, ""))
+            return False
+
+        if relative_path.startswith("invite/"):
+            language = parse_qs(parsed.query).get("lang", ["en"])[0]
+            if language not in ("en", "tr", "es", "pt-BR", "de"):
+                language = "en"
+            self.path = urlunsplit(("", "", f"/products/zoday/invite-locales/{language}.html", parsed.query, ""))
+            return False
 
         if not relative_path or Path(relative_path).suffix:
             return False

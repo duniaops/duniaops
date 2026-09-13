@@ -1,0 +1,122 @@
+0|Zum Hauptinhalt
+1|Website-Entwurf · Die App-Vorschauen müssen noch mit der signierten Version geprüft werden.
+3|Entdecken
+4|Kostenlos &amp; Plus
+5|Hilfe
+6|Zoday herunterladen
+7|Ein wenig Raum für jeden Tag
+8|Dein Tageshoroskop.
+9|Dein Mondkalender.
+10|Dein Raum zum Nachdenken.
+11|Entdecke die heutige Deutung für dein Sternzeichen, verfolge Mondphasen und deine persönliche Mondwiederkehr und halte deinen Alltag in einem privaten Tagebuch fest.
+12|Jetzt bei
+14|Bei Google Play herunterladen
+15|iOS · Demnächst
+16|Starte ohne Anmeldung. Dein Basiskalender und dein Tagebuch sind kostenlos.
+17|Tägliche Deutungen pro Zeichen
+18|Persönliche Monddaten
+19|Private Gedanken
+20|Ein Blick auf Heute
+21|Oberflächenvorschau
+22|Drei Wege zu deinem eigenen Erlebnis
+23|Eine Deutung für heute.
+24|Ein Rückblick für die kommenden Tage.
+25|01 / LESEN
+26|Dein Tageshoroskop
+27|Finde die aktuelle Deutung für dein Sternzeichen mit Zeichen und Datum. Der tägliche Inhalt wird pro Zeichen geteilt, nicht für jede Person einzeln erstellt.
+28|02 / VERFOLGEN
+29|Dein Mondkalender
+30|Entdecke aktuelle und kommende Mondphasen im Kalender und Zeitverlauf. Sieh die aus deinen Geburtsdaten berechneten persönlichen Mondwiederkehr-Termine.
+31|Mondphasen sind gemeinsame Himmelsereignisse. Die persönliche Mondwiederkehr ist eine eigene Berechnung; Geburtszeit und -ort können ihre Genauigkeit verbessern.
+32|03 / REFLEKTIEREN
+33|Dein privates Tagebuch
+34|Halte Stimmung, Energie, Fokus und auf Wunsch eine Notiz fest. Erstelle, prüfe und bearbeite Einträge und sieh sie später in deinem Zeitverlauf wieder.
+35|Vergleiche brauchen genügend echte Einträge. Ein neues Konto beginnt nicht mit persönlichen Erkenntnissen.
+36|Ein Tag mit Zoday
+37|Von einer kleinen Perspektive
+38|zu einem Moment der Reflexion.
+39|Entdecke die App-Ansichten unten. Scrolle seitlich durch die Galerie oder öffne ein Bild für mehr Details.
+41|Beginne mit Heute
+42|Mondphase, persönliche Mondwiederkehr und Zugang zur täglichen Deutung.
+44|Lies dein Tageshoroskop
+45|Eine gemeinsame Deutung für dein Sternzeichen.
+47|Entdecke deinen Kalender
+48|Mondphasen und persönliche Termine im Zusammenhang.
+50|Erstelle einen Tageseintrag
+51|Erfasse Stimmung, Energie und Fokus; füge auf Wunsch eine Notiz hinzu.
+53|Schau in dein Tagebuch zurück
+54|Deine Gedanken in einem persönlichen Zeitverlauf.
+55|Entwicklungsvorschauen mit fiktiven Tagebuchdaten. Keine verifizierten Screenshots der Version 1.3.4.
+56|Wenn du etwas mehr entdecken möchtest
+57|Optionale Deutungen.
+58|Eine andere Perspektive.
+59|Entdecke optionale KI-Interpretationen und traditionelle Deutungen, getrennt von Kalender und Tagebuch.
+60|Persönliche Deutungen &amp; Mondgeschichten
+61|Deutungen auf Basis des Kontexts, den du bewusst angibst.
+62|Vier Säulen / Saju &amp; Schicksalsmatrix
+63|Traditionelle Deutungen zur Reflexion und Unterhaltung.
+64|Nahestehende Menschen
+65|Optionale Deutungen mit den Personen und Angaben, die du bewusst speicherst.
+66|Zugriff und Häufigkeit hängen von Deutung und Mitgliedschaft ab. Deutungen sind nicht unbegrenzt und nicht alle kostenlos.
+67|Optionale Deutungen · Oberflächenvorschau
+68|Die Basis ist kostenlos. Plus, wenn du mehr möchtest.
+69|Dein Tagebuch bleibt deins.
+70|Nutze die täglichen Grundlagen ohne Abo. Zoday Plus erweitert das optionale Erlebnis.
+71|Was Zoday Free und Zoday Plus enthalten
+72|Funktion
+73|Kostenlos
+75|Tageshoroskop für dein Sternzeichen
+76|Enthalten
+77|Basis-Mondkalender &amp; persönliche Mondwiederkehr
+78|Tageseinträge &amp; privates Tagebuch
+79|Bestehende Tagebucheinträge
+80|Immer zugänglich
+81|Optionale Deutungen
+82|Ausgewählter Zugriff
+83|Erweiterter Zugriff
+84|Längere &amp; zyklusübergreifende Vergleiche
+85|Basiserlebnis
+86|Erweiterte Vergleiche
+87|Zusätzliche Erinnerung an die Mondwiederkehr
+89|Plus ist ein optionales Monats- oder Jahresabo mit automatischer Verlängerung. Preise, Voraussetzungen und Bedingungen erscheinen vor dem Kauf im Store. Die Verfügbarkeit der Deutungen variiert; Vergleiche brauchen genügend Einträge. Bestehende Tagebucheinträge bleiben ohne Bezahlschranke zugänglich.
+90|Nach deinen Vorstellungen
+91|Ein persönlicher Raum.
+92|Die Entscheidungen bleiben bei dir.
+93|Ohne Anmeldung starten
+94|Beginne mit einem anonymen App-Konto. Du kannst dein Konto später auf Wunsch absichern.
+95|Behalte die Kontrolle über deine Daten
+96|Bearbeite Einträge, exportiere deine Daten als JSON oder lösche dein Konto dauerhaft in der App.
+97|Wähle deine Erinnerungen
+98|Wähle in den Einstellungen optionale Erinnerungen für Reflexion, Tageseinträge und persönliche Mondwiederkehr.
+99|Fünf Sprachen. Ein persönlicher Raum.
+105|Privates Tagebuch bedeutet weder ausschließlich lokale Speicherung noch Ende-zu-Ende-Verschlüsselung. Lies die
+106|Datenschutzerklärung
+107|für Informationen zu Speicherung, Verarbeitung und Datenkontrolle.
+108|Demnächst · 1.3.4
+109|Ein reibungsloserer Alltag.
+110|Das kommende Update bietet schnelleren Zugang zur täglichen Deutung über Heute, einfacheres Teilen sowie Verbesserungen bei Erinnerungen und Zuverlässigkeit.
+111|1.3.4 ist im internen Android-Test und im internen TestFlight für iOS. Hier wird es nicht als öffentliche Version angekündigt.
+112|Was du vielleicht wissen möchtest
+113|Bevor du beginnst.
+114|Android-Verfügbarkeit
+115|Bei Google Play veröffentlicht
+116|iOS-Verfügbarkeit
+117|Demnächst
+118|Mehr Hilfe zu Zoday →
+119|Muss ich mich anmelden?
+120|Zum Start ist keine Anmeldung nötig. Zoday erstellt ein anonymes App-Konto, das du später absichern kannst.
+121|Was kann ich ohne Plus nutzen?
+122|Tägliche Deutungen pro Zeichen, Basiskalender, persönliche Mondwiederkehr-Termine, Tageseinträge und privates Tagebuch benötigen kein Abo. Bestehende Einträge bleiben zugänglich.
+123|Ist mein Tageshoroskop nur für mich erstellt?
+124|Das Tageshoroskop wird pro Sternzeichen geteilt. Deine persönlichen Mondwiederkehr-Termine werden getrennt aus deinen angegebenen Geburtsdaten berechnet.
+125|Sehe ich sofort Muster?
+126|Nein. Vergleiche brauchen genügend echte Tagebucheinträge. Sie beschreiben deine gespeicherten Gedanken und belegen nicht, dass der Mond ein Gefühl oder Ergebnis verursacht hat.
+127|Kann ich meine Daten exportieren oder löschen?
+128|Ja. Zoday bietet JSON-Datenexport und dauerhafte Kontolöschung in der App. Du kannst Tagebucheinträge auch prüfen und bearbeiten.
+129|Sind Deutungen Vorhersagen oder professionelle Beratung?
+130|Nein. Horoskope und traditionelle Deutungen dienen der Unterhaltung. Sie sind keine Vorhersagen und keine medizinische, finanzielle oder rechtliche Beratung. Astronomische Daten bestätigen Astrologie nicht wissenschaftlich.
+131|Ein wenig Perspektive.
+132|Ein Moment für dich.
+133|Deine tägliche Deutung, dein Mondkalender und dein privates Tagebuch — vereint in Zoday.
+135|Von DuniaOps
+136|Datenschutz

@@ -1,0 +1,28 @@
+/* Shared Zoday brand, navigation and legal reading surfaces. */
+.zl-header{background:#0e0d1c!important;border-bottom:1px solid #ffffff0d!important;box-shadow:none;position:relative}
+.zl-wrap{width:min(1180px,calc(100% - 64px));margin-inline:auto}
+.zl-header nav{display:flex;align-items:center;justify-content:space-between;gap:20px;min-height:86px}
+.zl-brand{display:flex;align-items:center;gap:13px;text-decoration:none;font-size:23px;letter-spacing:.04em;color:#eeeaf9!important}
+.zl-brand img{object-fit:contain}
+.zl-header .legal-language-picker{margin-left:auto;flex-shrink:0}
+.zl-header .legal-language-picker label{position:absolute;width:1px;height:1px;overflow:hidden;clip-path:inset(50%)}
+.zl-header .legal-language-picker select,.zl-header .legal-language-trigger{width:auto;min-width:132px;max-width:230px;min-height:44px;padding:10px 12px;gap:9px}
+.zl-footer{display:flex;justify-content:space-between;gap:20px;padding-block:28px;color:#a89dbb;font-size:12px;background:#0e0d1c}
+.zl-footer div{display:flex;gap:24px}
+.zl-footer a{display:inline-block;padding-block:12px;color:inherit}
+.zl-footer>span{align-self:center}
+body.zoday-legal-page{background:#0e0d1c;color:#b4adc6;--rockimals-paper:#191423;--rockimals-ink:#eeeaf9;--rockimals-muted:#b4adc6;--rockimals-rule:#383047;--rockimals-accent-dark:#ccb9f3;--rockimals-accent-soft:#2b2139}
+.zoday-legal-page .zoday-legal-hero{background:radial-gradient(ellipse at 20% 30%,#372644,#0e0d1c 75%)}
+.zoday-legal-page .zoday-legal-hero:before{display:none}
+.zoday-legal-page .legal-product-mark{display:none}
+.zoday-legal-page .legal-document{border:1px solid #383047;border-radius:20px;box-shadow:none}
+.zoday-legal-page .note,.zoday-legal-page .legal-note,.zoday-legal-page .legal-contact p{color:#b4adc6}
+.zoday-legal-page .table-scroll,.zoday-legal-page .legal-table-wrap{background:#191423;border-color:#383047}
+.zoday-legal-page .table-scroll th,.zoday-legal-page .legal-table th{background:#2b2139}
+.zoday-legal-page .legal-note,.zoday-legal-page .legal-contact,.zoday-legal-page .mail,.zoday-legal-page .note{border-color:#514162}
+.zoday-legal-page .legal-hero-controls{width:auto}
+.zoday-legal-page .cookie-banner h2{color:#181527}
+.zoday-legal-page .cookie-banner a{color:#564186}
+@media(max-width:900px){.zl-header .zl-nav{display:none}}
+@media(max-width:600px){.zl-wrap{width:calc(100% - 36px)}.zl-header nav{min-height:72px;gap:12px;flex-wrap:wrap;padding-block:12px}.zl-brand{font-size:20px}.zl-brand img{width:38px;height:34px}.zl-header .zl-button{display:none}.zl-footer{flex-wrap:wrap;gap:0}.zl-header .legal-language-trigger{max-width:205px}.zoday-legal-page .legal-document{padding:24px 20px}}
+@media print{body.zoday-legal-page{background:white;color:black;--rockimals-paper:white;--rockimals-ink:black;--rockimals-muted:#333}.zl-header,.zl-footer{display:none}}

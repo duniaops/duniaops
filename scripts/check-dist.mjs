@@ -152,7 +152,16 @@ async function validateHtmlQuality(files) {
       }
     }
 
-    if (html.includes('id="primary-navigation"') && !html.includes('href="/about"')) {
+    // The Zoday subdomain permits styles from its own origin, not the company origin.
+    if (relativePath === 'products/zoday.html') {
+      for (const link of html.matchAll(/<link\b[^>]*rel="stylesheet"[^>]*href="([^"]+)"/g)) {
+        if (link[1].startsWith('https://www.duniaops.com/')) {
+          errors.push(`${relativePath}: stylesheet violates the Zoday same-origin CSP: ${link[1]}`);
+        }
+      }
+    }
+
+    if (html.includes('id="primary-navigation"') && !html.includes('href="/about"') && !html.includes('href="https://www.duniaops.com/about"')) {
       errors.push(`${relativePath}: primary navigation does not link to /about`);
     }
     if (html.includes('<h4>Services</h4>') && !html.includes('href="/services/software-project-rescue"')) {

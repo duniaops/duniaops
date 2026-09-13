@@ -1,0 +1,122 @@
+0|Ir para o conteúdo principal
+1|Rascunho do site · As telas são prévias que aguardam verificação na versão assinada.
+3|Explorar
+4|Grátis &amp; Plus
+5|Ajuda
+6|Baixar Zoday
+7|Um pequeno espaço para cada dia
+8|Seu horóscopo diário.
+9|Seu calendário lunar.
+10|Seu espaço para refletir.
+11|Explore a leitura de hoje para seu signo, acompanhe as fases da Lua e seu retorno lunar pessoal e registre como seus dias se desenrolam em um diário privado.
+12|Disponível no
+14|Baixe no Google Play
+15|iOS · Em breve
+16|Comece sem fazer login. Seu calendário básico e seu diário são gratuitos.
+17|Leituras diárias por signo
+18|Datas lunares pessoais
+19|Reflexões privadas
+20|Uma olhada na tela Hoje
+21|Prévia da interface
+22|Três maneiras de deixar com a sua cara
+23|Uma leitura para hoje.
+24|Um registro para os próximos dias.
+25|01 / LER
+26|Seu horóscopo diário
+27|Encontre a leitura atual do seu signo com a data e o contexto. O conteúdo diário é compartilhado por signo; não é gerado exclusivamente para cada pessoa.
+28|02 / ACOMPANHAR
+29|Seu calendário lunar
+30|Explore as fases lunares atuais e futuras no calendário e na linha do tempo. Veja os retornos lunares pessoais calculados a partir dos seus dados de nascimento.
+31|As fases lunares são eventos celestes comuns. O retorno lunar pessoal é um cálculo separado; a hora e o local de nascimento podem melhorar a precisão.
+32|03 / REFLETIR
+33|Seu diário privado
+34|Registre humor, energia, foco e uma nota opcional. Crie, revise e edite registros e depois revisite sua linha do tempo.
+35|As comparações precisam de registros reais suficientes. Uma conta nova não começa com insights pessoais.
+36|Um dia com o Zoday
+37|De uma pequena perspectiva
+38|a um momento de reflexão.
+39|Explore as telas do app abaixo. Deslize pela galeria ou abra uma tela para ver os detalhes.
+41|Comece pela tela Hoje
+42|Fase lunar, retorno lunar pessoal e acesso à leitura diária.
+44|Leia seu horóscopo diário
+45|Uma leitura compartilhada para seu signo.
+47|Explore seu calendário
+48|Fases lunares e suas datas pessoais em contexto.
+50|Faça um registro diário
+51|Registre humor, energia e foco; adicione uma nota se quiser.
+53|Revisite seu diário
+54|Suas reflexões reunidas em uma linha do tempo pessoal.
+55|Prévias de desenvolvimento com dados fictícios de diário. Não são capturas verificadas da versão 1.3.4.
+56|Quando quiser explorar um pouco mais
+57|Leituras opcionais.
+58|Um jeito diferente de ver.
+59|Explore interpretações opcionais com IA e coleções tradicionais, separadas do seu calendário e diário.
+60|Interpretações pessoais &amp; histórias lunares
+61|Leituras moldadas pelo contexto que você escolhe fornecer.
+62|Quatro Pilares / Saju &amp; Matriz do Destino
+63|Interpretações tradicionais para reflexão e entretenimento.
+64|Pessoas queridas
+65|Leituras opcionais com as pessoas e o contexto que você salva deliberadamente.
+66|O acesso e a frequência variam conforme a leitura e a assinatura. As leituras não são ilimitadas, nem todas são gratuitas.
+67|Coleção de leituras opcionais · Prévia da interface
+68|O essencial é grátis. Plus se quiser mais.
+69|Seu diário continua sendo seu.
+70|Use o essencial do dia a dia sem assinatura. O Zoday Plus amplia a experiência opcional.
+71|O que está incluído no Zoday Free e no Zoday Plus
+72|Recurso
+73|Grátis
+75|Horóscopo diário do seu signo
+76|Incluído
+77|Calendário lunar básico &amp; retornos lunares pessoais
+78|Registros diários &amp; diário privado
+79|Registros existentes do diário
+80|Sempre acessíveis
+81|Leituras opcionais
+82|Acesso selecionado
+83|Acesso ampliado
+84|Comparações mais longas &amp; entre ciclos
+85|Experiência básica
+86|Comparações ampliadas
+87|Lembrete adicional de retorno lunar
+89|Plus é uma assinatura opcional mensal ou anual com renovação automática. Preços, elegibilidade e condições aparecem na loja antes da compra. A disponibilidade de leituras varia; comparações exigem registros suficientes. Registros existentes do diário não ficam bloqueados por pagamento.
+90|Do seu jeito
+91|Um espaço pessoal.
+92|As escolhas continuam suas.
+93|Comece sem fazer login
+94|Comece com uma conta anônima no app. Você pode protegê-la depois, se quiser.
+95|Mantenha o controle dos seus dados
+96|Edite seus registros, exporte seus dados em JSON ou exclua permanentemente sua conta pelo app.
+97|Escolha seus lembretes
+98|Configure lembretes opcionais de reflexão, registro diário e retorno lunar pessoal.
+99|Cinco idiomas. Um espaço pessoal.
+105|Diário privado não significa armazenamento apenas no dispositivo ou criptografia de ponta a ponta. Leia a
+106|política de privacidade
+107|para saber sobre armazenamento, processamento e controles de dados.
+108|Em breve · 1.3.4
+109|Um dia a dia mais fluido.
+110|A próxima atualização traz acesso mais rápido à leitura diária pela tela Hoje, compartilhamento mais fácil e melhorias nos lembretes e na confiabilidade.
+111|A versão 1.3.4 está em testes internos no Android e no TestFlight interno no iOS. Não é anunciada aqui como uma versão pública.
+112|Algumas dúvidas comuns
+113|Antes de começar.
+114|Disponibilidade no Android
+115|Publicado no Google Play
+116|Disponibilidade no iOS
+117|Em breve
+118|Mais ajuda com o Zoday →
+119|Preciso fazer login?
+120|Não é necessário fazer login para começar. O Zoday cria uma conta anônima que você pode proteger depois.
+121|O que posso usar sem Plus?
+122|Leituras diárias por signo, calendário lunar básico, retornos lunares pessoais, registros diários e diário privado não exigem assinatura. Seus registros existentes continuam acessíveis.
+123|Meu horóscopo diário é exclusivo para mim?
+124|O horóscopo diário é compartilhado por signo. Seus retornos lunares pessoais são calculados separadamente com os dados de nascimento fornecidos.
+125|Vou ver padrões imediatamente?
+126|Não. As comparações dependem de registros reais suficientes. Elas descrevem suas reflexões salvas; não demonstram que a Lua causou uma emoção ou um resultado.
+127|Posso exportar ou excluir meus dados?
+128|Sim. O Zoday oferece exportação de dados em JSON e exclusão permanente da conta no app. Você também pode revisar e editar registros do diário.
+129|As leituras são previsões ou orientação profissional?
+130|Não. Horóscopos e interpretações tradicionais são entretenimento. Não são previsões nem orientações médicas, financeiras ou jurídicas. Dados astronômicos não validam cientificamente a astrologia.
+131|Um pouco de perspectiva.
+132|Um momento para você.
+133|Sua leitura diária, calendário lunar e diário privado — juntos no Zoday.
+135|Por DuniaOps
+136|Privacidade

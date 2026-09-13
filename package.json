@@ -4,10 +4,11 @@
   "type": "module",
   "scripts": {
     "build:blog": "node scripts/build-blog.mjs",
-    "build:site": "npm run build:blog && node scripts/build-site.mjs",
+    "build:site": "npm run build:blog && node scripts/build-site.mjs && node scripts/build-zoday-invite.mjs && node scripts/build-zoday-landing.mjs",
     "check:analytics": "node scripts/check-analytics.mjs",
     "check:site": "node scripts/check-dist.mjs",
-    "test": "npm run check:analytics && npm run build:site && npm run check:site"
+    "test": "npm run check:analytics && npm run check:invite && npm run build:site && npm run check:site",
+    "check:invite": "node scripts/check-zoday-invite.mjs"
   },
   "devDependencies": {
     "gray-matter": "4.0.3",

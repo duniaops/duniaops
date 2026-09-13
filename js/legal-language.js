@@ -11,7 +11,7 @@
   const supported = new Set(Array.from(select.options, (option) => option.value));
   const defaultLanguage = document.documentElement.lang;
   const labels = { tr: 'Dil', en: 'Language', es: 'Idioma', 'pt-BR': 'Idioma', de: 'Sprache', fr: 'Langue', ja: '言語', ko: '언어', 'zh-Hans': '语言' };
-  const root = page.dataset.legalRoot;
+  const root = page.classList.contains('zoday-legal-page') && window.location.hostname !== 'zoday.duniaops.com' ? '/zoday' : page.dataset.legalRoot;
   const languageFromUrl = () => {
     const queryLanguage = new URL(window.location.href).searchParams.get('lang');
     if (supported.has(queryLanguage)) return queryLanguage;
@@ -19,6 +19,10 @@
     return supported.has(hashLanguage) ? hashLanguage : defaultLanguage;
   };
   const languageUrl = (pageName, language) => {
+    if (page.hasAttribute('data-zoday-landing')) {
+      const base = window.location.hostname === 'zoday.duniaops.com' ? '/' : '/products/zoday';
+      return `${base}?lang=${language}`;
+    }
     const base = `${root}/${pageName}`;
     if (page.dataset.legalRouting === 'query') return `${base}?lang=${language}`;
     return language === 'tr' || language === 'en'
@@ -79,7 +83,7 @@
     const positionMenu = () => {
       const rect = trigger.getBoundingClientRect();
       const gutter = 12;
-      menu.style.width = `${Math.min(rect.width, window.innerWidth - gutter * 2)}px`;
+      menu.style.width = `${Math.min(Math.max(rect.width, 230), window.innerWidth - gutter * 2)}px`;
       menu.style.maxHeight = `${window.innerHeight - gutter * 2}px`;
       const height = menu.getBoundingClientRect().height;
       const top = rect.bottom + 8 + height <= window.innerHeight - gutter

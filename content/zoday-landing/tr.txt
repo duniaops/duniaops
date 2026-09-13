@@ -1,0 +1,122 @@
+0|Ana içeriğe geç
+1|Web sitesi taslağı · Uygulama ekranları imzalı sürüm doğrulamasını bekleyen önizlemelerdir.
+3|Keşfet
+4|Ücretsiz &amp; Plus
+5|Destek
+6|Zoday’ı indir
+7|Her gün kendine küçük bir alan
+8|Günlük burç yorumun.
+9|Ay takvimin.
+10|Kendine ayırdığın alan.
+11|Burcunun bugünkü yorumunu keşfet, Ay evrelerini ve kişisel Ay dönüşünü takip et; günlerinin nasıl geçtiğini özel günlüğüne kaydet.
+12|Şuradan indir
+14|Google Play’den indir
+15|iOS · Yakında
+16|Giriş yapmadan başla. Temel takvimin ve günlüğün ücretsiz.
+17|Günlük burç yorumları
+18|Kişisel Ay tarihleri
+19|Özel düşüncelerin
+20|Bugün ekranına bir bakış
+21|Arayüz önizlemesi
+22|Kendine uyarlamanın üç yolu
+23|Bugün için bir yorum.
+24|Gelecek günler için bir kayıt.
+25|01 / OKU
+26|Günlük burç yorumun
+27|Burcunun güncel yorumunu burç ve tarih bilgisiyle birlikte bul. Günlük içerik burca göre ortaktır; her kişi için ayrı üretilmez.
+28|02 / TAKİP ET
+29|Ay takvimin
+30|Güncel ve yaklaşan Ay evrelerini takvim ve zaman çizelgesinde keşfet. Doğum bilgilerinle hesaplanan kişisel Ay dönüşü tarihlerini gör.
+31|Ay evreleri herkes için ortak göksel olaylardır. Kişisel Ay dönüşü ayrı bir hesaplamadır; doğum saati ve yeri hassasiyeti artırabilir.
+32|03 / DÜŞÜN
+33|Özel günlüğün
+34|Ruh halini, enerjini, odağını ve istersen bir notu kaydet. Kayıt oluştur, incele ve düzenle; sonra zaman çizelgende yeniden bak.
+35|Karşılaştırmalar için yeterli gerçek kayıt gerekir. Yeni bir hesap kişisel içgörülerle başlamaz.
+36|Zoday ile bir gün
+37|Küçük bir bakış açısından
+38|kendine ayırdığın bir ana.
+39|Aşağıdaki uygulama ekranlarını keşfet. Galeriyi yana kaydır veya yakından bakmak için bir ekranı aç.
+41|Bugün ile başla
+42|Ay evresi, kişisel Ay dönüşü ve günlük yoruma erişim.
+44|Günlük burç yorumunu oku
+45|Burcun için ortak günlük yorum.
+47|Takvimini keşfet
+48|Ay evreleri ve kişisel tarihlerin bir arada.
+50|Günlük kayıt oluştur
+51|Ruh halini, enerjini ve odağını kaydet; istersen not ekle.
+53|Günlüğüne yeniden bak
+54|Kişisel zaman çizelgende biriken düşüncelerin.
+55|Kurgusal günlük verileri içeren geliştirme önizlemeleri. Bunlar 1.3.4 sürümünün doğrulanmış ekran görüntüleri değildir.
+56|Biraz daha keşfetmek istediğinde
+57|İsteğe bağlı yorumlar.
+58|Farklı bir bakış açısı.
+59|Takviminden ve günlüğünden ayrı tutulan isteğe bağlı yapay zekâ yorumlarını ve geleneksel yorum koleksiyonlarını keşfet.
+60|Kişisel yorumlar &amp; Ay hikâyeleri
+61|Paylaşmayı seçtiğin bağlama göre şekillenen yorumlar.
+62|Dört Sütun / Saju &amp; Kader Matrisi
+63|Düşünmek ve eğlenmek için geleneksel yorumlar.
+64|Sevdiklerin
+65|Bilerek kaydettiğin kişiler ve bilgiler kullanılarak sunulan isteğe bağlı yorumlar.
+66|Erişim ve sıklık yorum türüne ve üyeliğe göre değişir. Yorumlar sınırsız değildir; her yorum ücretsiz değildir.
+67|İsteğe bağlı yorum koleksiyonu · Arayüz önizlemesi
+68|Temel özellikler ücretsiz. Daha fazlası için Plus.
+69|Günlüğün sana ait kalır.
+70|Günlük temel özellikleri abonelik olmadan kullan. Zoday Plus isteğe bağlı deneyimi genişletir.
+71|Zoday Free ve Zoday Plus kapsamı
+72|Özellik
+73|Ücretsiz
+75|Burcun için günlük yorum
+76|Dahil
+77|Temel Ay takvimi &amp; kişisel Ay dönüşü tarihleri
+78|Günlük kayıtlar &amp; özel günlük
+79|Mevcut günlük kayıtları
+80|Her zaman erişilebilir
+81|İsteğe bağlı yorumlar
+82|Seçili erişim
+83|Genişletilmiş erişim
+84|Daha uzun &amp; döngüler arası karşılaştırmalar
+85|Temel deneyim
+86|Genişletilmiş karşılaştırmalar
+87|Ek kişisel Ay dönüşü hatırlatıcısı
+89|Plus, isteğe bağlı, aylık veya yıllık otomatik yenilenen bir aboneliktir. Güncel fiyatlar, uygunluk ve koşullar satın almadan önce mağazada gösterilir. Yorumların erişimi değişir; karşılaştırmalar yeterli kayıt gerektirir. Mevcut günlük kayıtları ödeme duvarı arkasına alınmaz.
+90|Senin koşullarında
+91|Kişisel bir alan.
+92|Seçimler sende kalır.
+93|Giriş yapmadan başla
+94|Anonim bir uygulama hesabıyla başla. İstersen hesabını daha sonra koruma altına alabilirsin.
+95|Verilerinin kontrolü sende
+96|Kayıtlarını düzenle, verilerini JSON olarak dışa aktar veya hesabını uygulamadan kalıcı olarak sil.
+97|Hatırlatıcılarını kendin seç
+98|Ayarlardan isteğe bağlı düşünme/günlük kayıt ve kişisel Ay dönüşü hatırlatıcılarını seç.
+99|Beş dil. Tek bir kişisel alan.
+105|Özel günlük, yalnızca cihazda saklama veya uçtan uca şifreleme anlamına gelmez. Saklama, işleme ve veri kontrolleri için
+106|gizlilik politikasını
+107|incele.
+108|Sırada · 1.3.4
+109|Daha akıcı bir günlük deneyim.
+110|Yaklaşan güncelleme, Bugün ekranından günlük yoruma daha hızlı erişim, daha kolay paylaşım ve hatırlatıcılarla güvenilirlikte iyileştirmeler getiriyor.
+111|1.3.4, Android’de iç testte ve iOS’ta dahili TestFlight’tadır. Burada herkese açık bir sürüm olarak duyurulmamaktadır.
+112|Merak edebileceklerin
+113|Başlamadan önce.
+114|Android erişimi
+115|Google Play’de yayında
+116|iOS erişimi
+117|Yakında
+118|Zoday hakkında daha fazla yardım →
+119|Giriş yapmam gerekiyor mu?
+120|Başlamak için giriş gerekmez. Zoday anonim bir uygulama hesabı oluşturur; istersen daha sonra koruma altına alabilirsin.
+121|Plus olmadan neleri kullanabilirim?
+122|Günlük burç yorumları, temel Ay takvimi, kişisel Ay dönüşü tarihleri, günlük kayıtlar ve özel günlüğün abonelik gerektirmez. Mevcut günlük kayıtların erişilebilir kalır.
+123|Günlük burç yorumum bana özel mi?
+124|Günlük yorum burca göre ortaktır. Kişisel Ay dönüşü tarihlerin, verdiğin doğum bilgilerinden ayrı olarak hesaplanır.
+125|Hemen örüntüler görecek miyim?
+126|Hayır. Karşılaştırmalar için yeterli gerçek günlük kaydı gerekir. Kaydettiğin düşünceleri betimler; bir duyguya veya sonuca Ay’ın neden olduğunu göstermez.
+127|Verilerimi dışa aktarabilir veya silebilir miyim?
+128|Evet. Zoday, uygulama içinden JSON veri dışa aktarımı ve kalıcı hesap silme sunar. Günlük kayıtlarını inceleyip düzenleyebilirsin.
+129|Yorumlar kehanet veya profesyonel tavsiye mi?
+130|Hayır. Burç yorumları ve geleneksel yorumlar eğlence içeriğidir. Kehanet veya tıbbi, finansal ya da hukuki tavsiye değildir. Astronomik veriler astrolojiyi bilimsel olarak doğrulamaz.
+131|Küçük bir bakış açısı.
+132|Kendine ayırdığın bir an.
+133|Günlük yorumun, Ay takvimin ve özel günlüğün — Zoday’da bir arada.
+135|DuniaOps tarafından
+136|Gizlilik

@@ -61,7 +61,7 @@
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://www.duniaops.com/products/zoday</loc>
+    <loc>https://zoday.duniaops.com/</loc>
     <lastmod>2026-08-28</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
@@ -91,13 +91,13 @@
     <priority>0.3</priority>
   </url>
   <url>
-    <loc>https://www.duniaops.com/zoday/privacy-policy</loc>
+    <loc>https://zoday.duniaops.com/privacy-policy</loc>
     <lastmod>2026-08-28</lastmod>
     <changefreq>yearly</changefreq>
     <priority>0.3</priority>
   </url>
   <url>
-    <loc>https://www.duniaops.com/zoday/support</loc>
+    <loc>https://zoday.duniaops.com/support</loc>
     <lastmod>2026-08-28</lastmod>
     <changefreq>yearly</changefreq>
     <priority>0.3</priority>
