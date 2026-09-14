@@ -147,7 +147,7 @@ Record final paths/URLs, owners, evidence and offer decisions, article/form chan
 - The submitted sitemap remained successful, last read 6 September with 23 discovered pages. No duplicate sitemap submission or `Request indexing` action was taken.
 - Cohort observations are due 15 September, 22 September and 6 October. At deployment verification time, the only immediate measurement carry-over was one labelled, privacy-safe form submission after approval of its exact test and retention/deletion procedure; no submission was generated during deployment verification. That carry-over was completed on 11 September.
 - Post-release form-validation refinement `bd83f6d` replaced browser-native validation popovers with an accessible in-card summary and contextual field messages. It focuses the first invalid control, clears errors as fields are corrected, retains native validation as the no-JavaScript fallback and stops invalid attempts before lead analytics. Netlify production deploy `6aa0183ec62a1400082c46fc` reached `ready` at 15:14 BST. Live empty-form and invalid-email checks passed without a form submission or queued lead context.
-- Post-release thank-you refinement `3a9c663` added a clearer response expectation, a three-step next-action path and contact alternatives, while making the page shell fill tall viewports so the footer remains at the bottom. The change was published after explicit approval; its production deploy identifier was not recorded in this spec.
+- Post-release thank-you refinement `3a9c663` added a clearer response expectation, a three-step next-action path and contact alternatives, while making the page shell fill tall viewports so the footer remains at the bottom. The change was published after explicit approval through Netlify production deploy `6aa01da4a0aa140008047269`, which reached `ready` at 15:37 BST on 8 September.
 
 ### Week 01 Friday carry-over review — 11 September 2026
 
@@ -156,3 +156,20 @@ Record final paths/URLs, owners, evidence and offer decisions, article/form chan
 - The complete-prior-day GA4 report showed five `generate_lead` events from two users for 14 August–10 September: one v2 `false` event and four historical `(not set)` events. The separately authorised realtime test then supplied the missing labelled `true` evidence.
 - After action-time approval, one synthetic Project Rescue submission completed the live form → Netlify → thank-you → consented GA4 path. Netlify and GA4 Realtime both showed `project_enquiry_v2 / rescue / rescue / true`; the private ledger summary now contains two measurement tests and zero qualified enquiries.
 - Retain the controlled test evidence through 9 October 2026 and review before any deletion. The 7/14/28-day asset checks remain 15 September, 22 September and 6 October.
+
+### Monday operating check — 14 September 2026
+
+- Week 02 has no unfinished publication, factual-input, owner or approval dependency. All eight Weekly Deliverables and all Acceptance Criteria remain complete.
+- `/about`, `/services/software-project-rescue` and `/blog/software-project-rescue-uk` returned HTTP 200. The repository was clean and aligned with `origin/main`.
+- The 7-day cohort observation remains scheduled for 15 September so Search Console and GA4 use the latest complete source-specific day rather than a partial Monday window.
+- Tuesday's observation must record the exact Search Console and GA4 ranges, URL/query filters, index state, CTA/form state, Netlify/private-ledger outcome, decision and the unchanged 22 September / 6 October follow-ups.
+
+#### Prepared evidence checklist for 15 September
+
+- [ ] Record capture time, reporting timezone and the latest complete date exposed by each source; label any Search Console lag rather than treating it as a full seven-day window.
+- [ ] Inspect `/about`, `/services/software-project-rescue` and `/blog/software-project-rescue-uk` in Search Console and record the reported index state. Do not request indexing or validation as part of the observation.
+- [ ] Capture Search Console page performance from the 8 September live date through its latest complete date, plus the visible rescue query rows; retain zero/low-volume results honestly.
+- [ ] Capture GA4 landing-page and organic-session evidence through the latest complete prior day in the United Kingdom timezone; keep consent-driven undercounting explicit.
+- [ ] Reconcile only aggregate Netlify verified-submission counts and the private ledger's controlled classifications; do not copy prospect PII or enquiry text into Git.
+- [ ] Recheck HTTP status, canonical, sitemap membership and the About/rescue/article CTA paths without creating a form submission.
+- [ ] Record the evidence-backed decision (`hold`, `fix conversion/indexing blocker`, or `investigate`) and retain the 22 September / 6 October follow-ups with an owner.

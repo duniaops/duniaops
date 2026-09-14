@@ -1,6 +1,6 @@
 # Organic Growth Asset Register — Weeks 02–08
 
-**Status:** In production — the Week 02 assets and homepage integration went live early on 8 September through production deploy `6aa00c8e8bd2f90008cc6c6a`. Initial live, GA4, Search Console and labelled form-path verification are complete; cohort monitoring remains open.
+**Status:** In production — the Week 02 assets and homepage integration went live early on 8 September through production deploy `6aa00c8e8bd2f90008cc6c6a`. The Week 03 support-takeover article went live early on 11 September; its approved commercial parent is a local release candidate awaiting visual approval and deployment. Initial live, GA4, Search Console and labelled form-path verification are complete; cohort monitoring remains open.
 **Programme owner:** ibrahim uylas
 **Default asset owner:** ibrahim uylas
 **Default factual/copy/deploy approver:** ibrahim uylas
@@ -27,8 +27,8 @@ Observation dates assume the planned Thursday publication. Replace them from the
 |---|---:|---|---|---|---|---|---|---|---|
 | W02-A | 02 | About / Expertise page | `/about` | Validate DuniaOps and its accountable expertise / trust | Discuss the project with a senior engineer | ibrahim uylas / ibrahim uylas | 8 Sep | 15 Sep / 22 Sep / 6 Oct | Live; initial GSC state unknown, live test indexable; observe cohort |
 | W02-B | 02 | Software Project Rescue & Takeover service | `/services/software-project-rescue` | Hire a UK team to assess or take over a troubled project / decision | Request a Project Rescue Assessment | ibrahim uylas / ibrahim uylas | 8 Sep | 15 Sep / 22 Sep / 6 Oct | Live; initial GSC state unknown, live test indexable; rescue preselection verified |
-| W03-A | 03 | Application Support & Maintenance service | `/services/application-support-maintenance` | Find a team to maintain software built by someone else / decision | Request a Support Takeover Review | ibrahim uylas / ibrahim uylas | 24 Sep | 1 Oct / 8 Oct / 22 Oct | Brief ready; operating boundaries needed |
-| W03-B | 03 | Support takeover buyer article | `/blog/can-a-new-company-maintain-software-it-did-not-build` | Decide whether and how another company can maintain inherited software / consideration | Read the support service; request takeover review | ibrahim uylas / ibrahim uylas | 24 Sep | 1 Oct / 8 Oct / 22 Oct | Brief ready; draft not started |
+| W03-A | 03 | Application Support & Maintenance service | `/services/application-support-maintenance` | Find a team to maintain software built by someone else / decision | Request a Support Takeover Review | ibrahim uylas / ibrahim uylas | 24 Sep | Set from actual live date | Local release candidate 14 Sep; visual approval, commit and deploy pending |
+| W03-B | 03 | Support takeover buyer article | `/blog/can-a-new-company-maintain-software-it-did-not-build` | Decide whether and how another company can maintain inherited software / consideration | Read the support service; request takeover review | ibrahim uylas / ibrahim uylas | 11 Sep actual | 18 Sep / 25 Sep / 9 Oct | Live at `596bd6a` / `6aa3ded37934dd0008b0273d`; GSC unknown/not indexed 14 Sep; parent link prepared locally |
 | W04-A | 04 | DevOps & Cloud Consultancy refresh | `/services/devops-and-cloud-consultancy` | Hire help for unreliable delivery/cloud operations / decision | Book a DevOps Health Check | ibrahim uylas / ibrahim uylas | 1 Oct | 8 Oct / 15 Oct / 29 Oct | Brief ready; claim evidence needed |
 | W04-B | 04 | Kubernetes buying-decision article | `/blog/kubernetes-consultant-or-permanent-hire-uk` | Compare a consultant/consultancy with a permanent platform hire / consideration | Read DevOps service; book health check | ibrahim uylas / ibrahim uylas | 1 Oct | 8 Oct / 15 Oct / 29 Oct | Brief ready; final title follows Monday GSC check |
 | W05-A | 05 | Custom Software Development service | `/services/custom-software-development` | Hire a UK team to design and build bespoke software / decision | Book a Software Discovery Session | ibrahim uylas / ibrahim uylas | 8 Oct | 15 Oct / 22 Oct / 5 Nov | Brief ready; proposition evidence needed |
@@ -109,6 +109,8 @@ These names make the CTA concrete without inventing price, duration or outcome g
 - **Image:** one unique 1200×630 JPG/PNG showing a controlled engineering handover; image approval required.
 - **Avoid:** duplicating the rescue article's keep/repair/rebuild analysis or the service page's commercial detail.
 - **Measurement:** article query set, service click-through, index state and 7/14/28-day cohort.
+
+**Early publication state — 11 September 2026:** The article is live with its approved unique image and a support-preselected contact CTA. Its intended commercial parent link was prepared locally with W03-A on 14 September and remains absent from production until that release is deployed. Actual observation dates replace the planned dates: 18 September, 25 September and 9 October.
 
 ## Brief W04-A — DevOps & Cloud Consultancy Refresh
 
@@ -292,6 +294,14 @@ Publication rules:
 - Production GA4 taxonomy collection was first observed on a `false/home/ai` event. A separately authorised synthetic Project Rescue test then verified `project_enquiry_v2 / rescue / rescue / true` in both Netlify and GA4 Realtime; the private ledger records it as a test, never a business lead.
 - Retain the controlled test evidence through 9 October 2026 and review it before any deletion.
 - Conversion-path refinements published after the main Week 02 release are recorded at `bd83f6d` (accessible form validation) and `3a9c663` (expanded, full-height thank-you experience).
+
+## Monday Queue Reconciliation — 14 September 2026
+
+- Recovered the thank-you production deploy as `6aa01da4a0aa140008047269` at commit `3a9c663`.
+- Reconciled W03-B with its actual source, live URL, 11 September publication, owner, commit/deploy and 18 September / 25 September / 9 October cohort dates.
+- Recorded its 14 September Search Console state as unknown to Google/not indexed, with no crawl or referring sitemap reported. The live sitemap contains the URL; no indexing request was sent.
+- W03-A boundaries were approved and the service page plus reciprocal cluster integration were implemented as a local release candidate. Visual approval, commit and production deployment remain open; do not start another optional article before those gates are resolved.
+- The Week 02 first cohort observation remains due 15 September; no partial 14 September metric has been recorded as a substitute.
 
 ## Weekly Update Rule
 

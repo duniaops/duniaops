@@ -12,6 +12,11 @@ const RELEASE_PAGES = [
     redirect: '/about.html /about 301!'
   },
   {
+    file: 'services/application-support-maintenance.html',
+    canonical: `${SITE_ORIGIN}/services/application-support-maintenance`,
+    redirect: '/services/application-support-maintenance.html /services/application-support-maintenance 301!'
+  },
+  {
     file: 'services/software-project-rescue.html',
     canonical: `${SITE_ORIGIN}/services/software-project-rescue`,
     redirect: '/services/software-project-rescue.html /services/software-project-rescue 301!'
@@ -35,6 +40,7 @@ const REQUIRED_PATHS = [
   'products.html',
   'products/zoday/invite.html',
   'robots.txt',
+  'services/application-support-maintenance.html',
   'services/software-project-rescue.html',
   'sitemap.xml',
   'thank-you.html'
@@ -167,6 +173,9 @@ async function validateHtmlQuality(files) {
     if (html.includes('<h4>Services</h4>') && !html.includes('href="/services/software-project-rescue"')) {
       errors.push(`${relativePath}: services footer does not link to Project Rescue`);
     }
+    if (html.includes('<h4>Services</h4>') && !html.includes('href="/services/application-support-maintenance"')) {
+      errors.push(`${relativePath}: services footer does not link to Application Support`);
+    }
     if (html.includes('href="/#why">About</a>') || html.includes('href="#why">About</a>')) {
       errors.push(`${relativePath}: About still points to the legacy homepage anchor`);
     }
@@ -202,10 +211,26 @@ async function validateReleasePages() {
     }
   }
 
-  for (const requiredHomepageLink of ['/about', '/services/software-project-rescue']) {
+  for (const requiredHomepageLink of ['/about', '/services/application-support-maintenance', '/services/software-project-rescue']) {
     if (!homepage.includes(`href="${requiredHomepageLink}"`)) {
       errors.push(`index.html: missing release link ${requiredHomepageLink}`);
     }
+  }
+
+  const supportPage = await readFile(insideDist('services/application-support-maintenance.html'), 'utf8');
+  const supportArticle = await readFile(insideDist('blog/can-a-new-company-maintain-software-it-did-not-build.html'), 'utf8');
+  const requiredSupportPageFragments = [
+    'href="/?service=support&amp;from=support#contact"',
+    'href="/blog/can-a-new-company-maintain-software-it-did-not-build"',
+    'href="/services/software-project-rescue"',
+    'href="/services/devops-and-cloud-consultancy"',
+    'No 24/7 service is implied by default'
+  ];
+  for (const fragment of requiredSupportPageFragments) {
+    if (!supportPage.includes(fragment)) errors.push(`services/application-support-maintenance.html: missing cluster fragment ${fragment}`);
+  }
+  if (!supportArticle.includes('href="/services/application-support-maintenance"')) {
+    errors.push('support-takeover article does not link to its Application Support parent service');
   }
 
   return errors;

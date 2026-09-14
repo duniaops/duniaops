@@ -161,6 +161,7 @@ APIs, internal systems and cloud-hosted applications. We begin with the current
 evidence, define achievable support boundaries and recommend the smallest safe
 next step.
 
-[Request a Support Takeover Review](/?service=support&from=blog#contact) to
+Read about our [Application Support & Software Maintenance service](/services/application-support-maintenance)
+or [request a Support Takeover Review](/?service=support&from=blog#contact) to
 discuss the software, its current support position and what a controlled
 handover would need.
