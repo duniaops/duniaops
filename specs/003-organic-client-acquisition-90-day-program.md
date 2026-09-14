@@ -1,6 +1,6 @@
 # DuniaOps 90 Günlük Organik Müşteri Kazanım Programı
 
-**Status:** Active — Week 01 foundation and the 11 September Friday evidence recheck are complete; the Week 02 trust and Project Rescue assets were deployed early on 8 September. The Week 03 support-takeover article was published early on 11 September and its approved commercial parent is now a local release candidate awaiting visual approval and deployment. The retained and labelled tests are reconciled; the 7/14/28-day observations remain open.
+**Status:** Active — Week 01 foundation and the 11 September Friday evidence recheck are complete; the Week 02 trust and Project Rescue assets were deployed early on 8 September. The Week 03 support-takeover article was published early on 11 September and its approved commercial parent was deployed on 14 September. The retained and labelled tests are reconciled; the 7/14/28-day observations remain open.
 **Type:** Programme
 **Priority:** P1
 **Period:** 7 September–5 December 2026 (90 execution days); complete-data verification 11 December 2026.
@@ -107,7 +107,7 @@ If approval or factual evidence is missing, Thursday produces a review-ready dra
 |---|---|---|---|---|---|
 | 01 | 7–13 Sep | [004](004-organic-growth-week-01-measurement-foundation.md) | Measurement system and approved Week 02–08 asset briefs | Foundation | Complete — Friday evidence reconciled 11 Sep |
 | 02 | 14–20 Sep | [005](005-organic-growth-week-02-trust-and-project-rescue.md) | About/Expertise and Software Project Rescue service pages | Production | Live early — monitoring |
-| 03 | 21–27 Sep | [006](006-organic-growth-week-03-application-support-cluster.md) | Application Support service page and takeover article | Production | Article live early 11 Sep; service local release candidate 14 Sep |
+| 03 | 21–27 Sep | [006](006-organic-growth-week-03-application-support-cluster.md) | Application Support service page and takeover article | Production | Article live early 11 Sep; service live early 14 Sep; cohort monitoring |
 | 04 | 28 Sep–4 Oct | [007](007-organic-growth-week-04-devops-cluster.md) | DevOps service refresh and DevOps/Kubernetes buyer article | Production | Planned |
 | 05 | 5–11 Oct | [008](008-organic-growth-week-05-custom-software-cluster-and-day-30.md) | Custom Software service page, cost/selection article and Day-30 check | Production | Planned |
 | 06 | 12–18 Oct | [009](009-organic-growth-week-06-ai-cluster.md) | AI service refresh and AI consultant/company article | Production | Planned |
@@ -267,4 +267,4 @@ Complete by 11 December 2026 with delivered assets, live URLs, validation, basel
 - Recorded the early publication of `content/blog/can-a-new-company-maintain-software-it-did-not-build.md` at `https://www.duniaops.com/blog/can-a-new-company-maintain-software-it-did-not-build`. It went live on 11 September through commit `596bd6a` and production deploy `6aa3ded37934dd0008b0273d`; its actual 7/14/28-day observations are 18 September, 25 September and 9 October.
 - Captured its first Search Console URL Inspection state on 14 September: `URL is unknown to Google` and not indexed, with no crawl or referring sitemap yet reported. The live sitemap does contain the canonical URL, no indexing request was sent, and the evidence remains scheduled for recheck on 18 September.
 - Kept the Week 02 7-day cohort check due on 15 September. No partial-day metric is substituted for that observation.
-- Approved the Application Support commercial boundaries and implemented its service page, homepage placement, support-preselected CTA, schema, reciprocal cluster links, sitemap/redirect integration and release checks as a local candidate. Visual approval, commit and production deployment remain separate gates; no optional article should displace them.
+- Approved, committed and deployed the Application Support commercial parent at `391212f` / Netlify deploy `6aa7c66397876156ed30ef9f`. Live service/home/article/sitemap checks passed; its 7/14/28-day cohort dates are 21 September, 28 September and 12 October. No optional article should displace the first cohort observation.

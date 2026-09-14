@@ -1,6 +1,6 @@
 # Organic Growth Week 03 — Application Support Cluster
 
-**Status:** In progress — the companion article was published early on 11 September 2026. The operating boundaries were approved on 14 September and the Application Support & Software Maintenance service page is now a validated local release candidate; visual approval, commit and deployment remain open.
+**Status:** Live — the companion article was published early on 11 September 2026. The operating boundaries were approved and the Application Support & Software Maintenance commercial parent was deployed on 14 September; index and cohort monitoring remain open.
 **Type:** Commercial Service Page / Blog Article
 **Priority:** P1
 **Scheduled:** 21–27 September 2026
@@ -77,10 +77,10 @@ Record service/article paths and URLs, draft/publication/image state, operationa
 - **Publication/owner:** 11 September 2026; ibrahim uylas is owner and factual/copy/deploy approver.
 - **Change evidence:** commit `596bd6a` (`feat(blog): publish inherited software support guide`); Netlify production deploy `6aa3ded37934dd0008b0273d` reached `ready` at 11:58 BST.
 - **Editorial/image state:** published with valid front matter, original British English, primary NCSC/ICO sources and the approved unique `assets/blog/can-a-new-company-maintain-software-it-did-not-build-1200x630.jpg` image.
-- **Conversion state:** the live article CTA routes to `/?service=support&from=blog#contact`, where support preselection is available. The local source now also links to the new commercial parent; that reciprocal link is not live until the service release is deployed.
+- **Conversion state:** the live article CTA routes to `/?service=support&from=blog#contact`, where support preselection is available. Its reciprocal commercial-parent link went live with the Application Support service release on 14 September.
 - **Live/index state:** live HTTP 200 and present in generated blog/home/RSS/sitemap/redirect outputs. Search Console URL Inspection on 14 September reported `URL is unknown to Google` and not indexed, with no crawl or referring sitemap yet detected; the canonical URL is present in the live sitemap and no indexing request was sent.
 - **Cohort dates:** 18 September / 25 September / 9 October, recalculated from the actual live date.
-- **Remaining cluster work:** complete local visual review, obtain explicit commit/deploy approval, verify both sides of the cluster live and set service-page cohort dates from the actual publication date.
+- **Remaining cluster work:** observe the article on 18 September and the new commercial-parent service on 21 September; record Search Console discovery/index state without submitting an indexing request unless separately authorised.
 
 ### Application Support service local release candidate — 14 September 2026
 
@@ -92,3 +92,10 @@ Record service/article paths and URLs, draft/publication/image state, operationa
 - **Technical state:** canonical metadata, Service/Breadcrumb/FAQ schema, clean URL redirect, sitemap entry and release checks are implemented. The existing approved article image supplies the service's social preview.
 - **Validation:** `npm test` validated 151 public files with no broken internal links; JavaScript syntax, sitemap/feed XML and `git diff --check` passed. Desktop and 390×844 mobile visual checks passed, the support CTA preselected `Application support and maintenance`, and the browser console reported no warnings or errors.
 - **Publication state:** local only; no commit, push, production deployment, live verification or Search Console action has been made for this service page.
+
+### Application Support service production release — 14 September 2026
+
+- **Commit/deploy:** commit `391212f` (`feat(services): add application support takeover page`) pushed to `origin/main`; Netlify production deploy `6aa7c66397876156ed30ef9f` is live.
+- **Live verification:** the service, homepage, companion article and sitemap each returned HTTP 200. Canonical metadata, the support-preselected CTA, homepage placement, the article-parent link and the sitemap entry were verified against `https://www.duniaops.com`.
+- **Cohort dates:** 21 September / 28 September / 12 October, calculated from the actual 14 September publication date.
+- **Index state:** no new Search Console inspection, live test or indexing request was made for the service at publication; capture the first state at the 21 September cohort check.
