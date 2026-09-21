@@ -664,6 +664,10 @@ footer{background:var(--navy);color:var(--text-dark-muted);padding:64px 0 34px;b
 .product-card-top{position:relative;z-index:1;display:flex;align-items:flex-start;justify-content:flex-end}
 .product-card-visual--illustrated .product-card-top{position:absolute;right:24px;top:22px}
 .product-card-visual--illustrated .product-card-name{margin-top:auto}
+.product-card-visual--rockimals{background:#160d10}
+.product-card-visual--rockimals .product-card-art{object-position:center}
+.product-card-visual--rockimals::after{background:linear-gradient(0deg,rgba(3,8,16,.78),rgba(3,8,16,.16) 42%,transparent 68%)}
+.product-card-visual--rockimals .product-card-name{font-family:Fredoka,Inter,sans-serif;letter-spacing:-.03em}
 .product-card-icon{width:58px;height:58px;object-fit:contain;border-radius:14px;box-shadow:0 12px 28px rgba(0,0,0,.24)}
 .product-card-visual--illustrated .product-card-icon{box-shadow:none}
 .product-card-icon.zoday{border-radius:0}

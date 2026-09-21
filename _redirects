@@ -1,3 +1,29 @@
+# Rockimals canonical subdomain, localized landing and legal pages.
+https://rockimals.duniaops.com/support /rockimals/support.html 200!
+https://rockimals.duniaops.com/privacy-policy /rockimals/privacy-policy.html 200!
+https://rockimals.duniaops.com/rockimals/support https://rockimals.duniaops.com/support 301!
+https://rockimals.duniaops.com/rockimals/privacy-policy https://rockimals.duniaops.com/privacy-policy 301!
+https://rockimals.duniaops.com/en /products/rockimals-locales/en.html 200!
+https://rockimals.duniaops.com/tr /products/rockimals-locales/tr.html 200!
+https://rockimals.duniaops.com/ja /products/rockimals-locales/ja.html 200!
+https://rockimals.duniaops.com/ko /products/rockimals-locales/ko.html 200!
+https://rockimals.duniaops.com/zh-Hans /products/rockimals-locales/zh-Hans.html 200!
+https://rockimals.duniaops.com/fr /products/rockimals-locales/fr.html 200!
+https://rockimals.duniaops.com/de /products/rockimals-locales/de.html 200!
+https://rockimals.duniaops.com/es /products/rockimals-locales/es.html 200!
+https://www.duniaops.com/products/rockimals https://rockimals.duniaops.com/ 301!
+https://www.duniaops.com/products/rockimals.html https://rockimals.duniaops.com/ 301!
+https://www.duniaops.com/rockimals/support https://rockimals.duniaops.com/support 301!
+https://www.duniaops.com/rockimals/support.html https://rockimals.duniaops.com/support 301!
+https://www.duniaops.com/rockimals/privacy-policy https://rockimals.duniaops.com/privacy-policy 301!
+https://www.duniaops.com/rockimals/privacy-policy.html https://rockimals.duniaops.com/privacy-policy 301!
+https://duniaops.com/products/rockimals https://rockimals.duniaops.com/ 301!
+https://duniaops.com/products/rockimals.html https://rockimals.duniaops.com/ 301!
+https://duniaops.com/rockimals/support https://rockimals.duniaops.com/support 301!
+https://duniaops.com/rockimals/privacy-policy https://rockimals.duniaops.com/privacy-policy 301!
+https://rockimals.duniaops.com/products/rockimals https://rockimals.duniaops.com/ 301!
+https://rockimals.duniaops.com/products/rockimals.html https://rockimals.duniaops.com/ 301!
+
 # Lumo canonical subdomain (keep legacy links and query parameters).
 https://www.duniaops.com/products/lumo https://lumo.duniaops.com/ 301!
 https://www.duniaops.com/products/lumo.html https://lumo.duniaops.com/ 301!
@@ -49,7 +75,7 @@ https://duniaops.com/* https://www.duniaops.com/:splat 301!
 /services/software-project-rescue.html /services/software-project-rescue 301!
 /services/software-consultancy.html /services/software-consultancy 301!
 /products.html /products 301!
-/products/rockimals.html /products/rockimals 301!
+/products/rockimals.html https://rockimals.duniaops.com/ 301!
 /products/zoday.html /products/zoday 301!
 /products/zoday/invite/* /products/zoday/invite.html 200!
 /products/lumo.html /products/lumo 301!

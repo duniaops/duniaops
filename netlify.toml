@@ -5,6 +5,117 @@
 [build.environment]
   NODE_VERSION = "24"
 
+# Rockimals homepage: localized initial HTML and matching app screenshots.
+[[redirects]]
+  from = "https://rockimals.duniaops.com/en"
+  to = "/products/rockimals-locales/en.html"
+  status = 200
+  force = true
+
+[[redirects]]
+  from = "https://rockimals.duniaops.com/tr"
+  to = "/products/rockimals-locales/tr.html"
+  status = 200
+  force = true
+
+[[redirects]]
+  from = "https://rockimals.duniaops.com/ja"
+  to = "/products/rockimals-locales/ja.html"
+  status = 200
+  force = true
+
+[[redirects]]
+  from = "https://rockimals.duniaops.com/ko"
+  to = "/products/rockimals-locales/ko.html"
+  status = 200
+  force = true
+
+[[redirects]]
+  from = "https://rockimals.duniaops.com/zh-Hans"
+  to = "/products/rockimals-locales/zh-Hans.html"
+  status = 200
+  force = true
+
+[[redirects]]
+  from = "https://rockimals.duniaops.com/fr"
+  to = "/products/rockimals-locales/fr.html"
+  status = 200
+  force = true
+
+[[redirects]]
+  from = "https://rockimals.duniaops.com/de"
+  to = "/products/rockimals-locales/de.html"
+  status = 200
+  force = true
+
+[[redirects]]
+  from = "https://rockimals.duniaops.com/es"
+  to = "/products/rockimals-locales/es.html"
+  status = 200
+  force = true
+
+[[redirects]]
+  from = "https://rockimals.duniaops.com/"
+  to = "/products/rockimals-locales/en.html"
+  status = 200
+  force = true
+  query = { lang = "en" }
+
+[[redirects]]
+  from = "https://rockimals.duniaops.com/"
+  to = "/products/rockimals-locales/tr.html"
+  status = 200
+  force = true
+  query = { lang = "tr" }
+
+[[redirects]]
+  from = "https://rockimals.duniaops.com/"
+  to = "/products/rockimals-locales/ja.html"
+  status = 200
+  force = true
+  query = { lang = "ja" }
+
+[[redirects]]
+  from = "https://rockimals.duniaops.com/"
+  to = "/products/rockimals-locales/ko.html"
+  status = 200
+  force = true
+  query = { lang = "ko" }
+
+[[redirects]]
+  from = "https://rockimals.duniaops.com/"
+  to = "/products/rockimals-locales/zh-Hans.html"
+  status = 200
+  force = true
+  query = { lang = "zh-Hans" }
+
+[[redirects]]
+  from = "https://rockimals.duniaops.com/"
+  to = "/products/rockimals-locales/fr.html"
+  status = 200
+  force = true
+  query = { lang = "fr" }
+
+[[redirects]]
+  from = "https://rockimals.duniaops.com/"
+  to = "/products/rockimals-locales/de.html"
+  status = 200
+  force = true
+  query = { lang = "de" }
+
+[[redirects]]
+  from = "https://rockimals.duniaops.com/"
+  to = "/products/rockimals-locales/es.html"
+  status = 200
+  force = true
+  query = { lang = "es" }
+
+[[redirects]]
+  from = "https://rockimals.duniaops.com/"
+  to = "/products/rockimals-locales/en.html"
+  status = 200
+  force = true
+
 # Lumo's coming-soon product page on its canonical subdomain.
 [[redirects]]
   from = "https://lumo.duniaops.com/"
