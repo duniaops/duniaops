@@ -8,7 +8,7 @@ window.ZodayInviteTranslations = {
       stepsTitle: 'Three steps to your Zoday', step1Title: 'Copy your code', step1Text: 'Keep your six-character invitation code handy.',
       step2Title: 'Get Zoday', step2Text: 'Download it from Google Play. Already installed? Open the app.',
       step3Title: 'Make yourself at home', step3Text: 'Complete setup, then enter your code when asked if it hasn’t been filled in automatically.',
-      getOn: 'GET IT ON', comingSoon: 'COMING SOON', availability: 'Available on Android. iOS is coming soon.',
+      getOn: 'GET IT ON', availability: 'Available on Android from Google Play.',
       support: 'Need help?', privacy: 'Privacy', privacyNote: 'This page runs no analytics and does not validate the code.', pageTitle: 'Your Zoday invitation'
     },
     tr: {
@@ -20,7 +20,7 @@ window.ZodayInviteTranslations = {
       stepsTitle: 'Üç adımda Zoday’a katıl', step1Title: 'Kodunu kopyala', step1Text: 'Altı karakterli davet kodunu hazır tut.',
       step2Title: 'Zoday’ı indir', step2Text: 'Google Play’den indir. Zaten yüklüyse uygulamayı aç.',
       step3Title: 'Keşfetmeye başla', step3Text: 'Kurulumu tamamla. Davet kodun sorulduğunda otomatik doldurulmamışsa kodunu gir.',
-      getOn: 'GOOGLE PLAY’DEN', comingSoon: 'YAKINDA', availability: 'Android’de kullanıma açık. Çok yakında iOS’ta.',
+      getOn: 'GOOGLE PLAY’DEN', availability: 'Android için Google Play’de yayında.',
       support: 'Yardım mı lazım?', privacy: 'Gizlilik', privacyNote: 'Bu sayfada analiz araçları kullanılmaz ve kod doğrulanmaz.', pageTitle: 'Zoday davetin'
     },
     es: {
@@ -32,7 +32,7 @@ window.ZodayInviteTranslations = {
       stepsTitle: 'Únete a Zoday en tres pasos', step1Title: 'Copia tu código', step1Text: 'Ten a mano tu código de invitación de seis caracteres.',
       step2Title: 'Descarga Zoday', step2Text: 'Descárgalo de Google Play. ¿Ya lo tienes? Abre la app.',
       step3Title: 'Empieza a explorar', step3Text: 'Completa la configuración e introduce tu código cuando se te pida si no se ha rellenado automáticamente.',
-      getOn: 'DISPONIBLE EN', comingSoon: 'PRÓXIMAMENTE', availability: 'Disponible en Android. Próximamente en iOS.',
+      getOn: 'DISPONIBLE EN', availability: 'Disponible para Android en Google Play.',
       support: '¿Necesitas ayuda?', privacy: 'Privacidad', privacyNote: 'Esta página no utiliza herramientas de análisis ni valida el código.', pageTitle: 'Tu invitación a Zoday'
     },
     'pt-BR': {
@@ -44,7 +44,7 @@ window.ZodayInviteTranslations = {
       stepsTitle: 'Entre no Zoday em três passos', step1Title: 'Copie seu código', step1Text: 'Tenha seu código de convite de seis caracteres em mãos.',
       step2Title: 'Baixe o Zoday', step2Text: 'Baixe pelo Google Play. Já instalou? Abra o app.',
       step3Title: 'Comece a explorar', step3Text: 'Conclua a configuração e, quando solicitado, insira seu código se ele não tiver sido preenchido automaticamente.',
-      getOn: 'DISPONÍVEL NO', comingSoon: 'EM BREVE', availability: 'Disponível no Android. Em breve no iOS.',
+      getOn: 'DISPONÍVEL NO', availability: 'Disponível para Android no Google Play.',
       support: 'Precisa de ajuda?', privacy: 'Privacidade', privacyNote: 'Esta página não usa ferramentas de análise nem valida o código.', pageTitle: 'Seu convite para o Zoday'
     },
     de: {
@@ -56,7 +56,7 @@ window.ZodayInviteTranslations = {
       stepsTitle: 'In drei Schritten zu Zoday', step1Title: 'Kopiere deinen Code', step1Text: 'Halte deinen sechsstelligen Einladungscode bereit.',
       step2Title: 'Lade Zoday herunter', step2Text: 'Lade Zoday bei Google Play herunter. Schon installiert? Öffne die App.',
       step3Title: 'Beginne zu entdecken', step3Text: 'Schließe die Einrichtung ab und gib deinen Code ein, wenn du danach gefragt wirst und er nicht automatisch ausgefüllt wurde.',
-      getOn: 'JETZT BEI', comingSoon: 'DEMNÄCHST', availability: 'Für Android verfügbar. Bald auch für iOS.',
+      getOn: 'JETZT BEI', availability: 'Für Android bei Google Play verfügbar.',
       support: 'Brauchst du Hilfe?', privacy: 'Datenschutz', privacyNote: 'Diese Seite nutzt keine Analysetools und überprüft den Code nicht.', pageTitle: 'Deine Zoday-Einladung'
     }
   };

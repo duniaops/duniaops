@@ -2,6 +2,10 @@
 
 Updated: 2026-09-13. Status: implemented and locally reviewed; **not deployed**.
 
+> Platform note (2026-09-21): Zoday is now an Android-only product. The iOS,
+> TestFlight, App Store, and “Coming soon” references below are retained only as
+> historical release-review evidence and must not be reused as current product copy.
+
 ## Content and routing
 
 Source: `/Users/uylas/Documents/DuniaOps/Projects/zoday/docs/WEBSITE-UPDATE-HANDOFF-1.3.4.md`.

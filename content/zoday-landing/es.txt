@@ -11,7 +11,7 @@
 11|Explora la lectura de hoy para tu signo, sigue las fases lunares y tu retorno lunar personal, y guarda en un diario privado cómo transcurren tus días.
 12|Disponible en
 14|Consíguelo en Google Play
-15|iOS · Próximamente
+15|Solo Android
 16|Empieza sin iniciar sesión. Tu calendario básico y tu diario son gratuitos.
 17|Lecturas diarias por signo
 18|Fechas lunares personales
@@ -95,13 +95,13 @@
 108|Próximamente · 1.3.4
 109|Un día a día más fluido.
 110|La próxima actualización ofrece acceso más rápido a la lectura diaria desde Hoy, opciones para compartir más fácilmente y mejoras en recordatorios y fiabilidad.
-111|La versión 1.3.4 está en pruebas internas en Android y TestFlight interno en iOS. Aquí no se anuncia como versión pública.
+111|La versión 1.3.4 está en pruebas internas en Android. Aquí no se anuncia como versión pública.
 112|Algunas dudas habituales
 113|Antes de empezar.
 114|Disponibilidad en Android
 115|Publicado en Google Play
-116|Disponibilidad en iOS
-117|Próximamente
+116|Plataforma compatible
+117|Solo Android
 118|Más ayuda con Zoday →
 119|¿Necesito iniciar sesión?
 120|No necesitas iniciar sesión para empezar. Zoday crea una cuenta anónima que puedes proteger más adelante.

@@ -371,13 +371,38 @@ async function validateZodayPlayGrowth() {
     '<meta name="referrer" content="no-referrer">',
     'data-invite-code',
     'data-play-link',
-    'This page runs no analytics and does not validate the code.'
+    'This page runs no analytics and does not validate the code.',
+    'Available on Android from Google Play.'
   ];
   for (const fragment of inviteFragments) {
     if (!invite.includes(fragment)) errors.push(`products/zoday/invite.html: missing privacy/fallback fragment ${fragment}`);
   }
   if (invite.includes('analytics.js') || invite.includes('googletagmanager')) {
     errors.push('products/zoday/invite.html: invite paths must not load analytics');
+  }
+
+  const zodayHtmlPaths = [
+    'products/zoday.html',
+    'products/zoday/invite.html',
+    ...['en', 'tr', 'es', 'pt-BR', 'de'].flatMap((language) => [
+      `products/zoday-locales/${language}.html`,
+      `products/zoday/invite-locales/${language}.html`
+    ]),
+    'zoday/support.html',
+    'zoday/support/de.html',
+    'zoday/support/es.html',
+    'zoday/support/pt-BR.html',
+    'zoday/privacy-policy.html',
+    'zoday/privacy-policy/de.html',
+    'zoday/privacy-policy/es.html',
+    'zoday/privacy-policy/pt-BR.html'
+  ];
+  const retiredPlatformCopy = /\b(?:iOS|iPhone|iPad|App Store|TestFlight|Apple)\b/i;
+  for (const relativePath of zodayHtmlPaths) {
+    const html = await readFile(insideDist(relativePath), 'utf8');
+    if (retiredPlatformCopy.test(html)) {
+      errors.push(`${relativePath}: retired iOS or Apple product copy remains`);
+    }
   }
   for (const fragment of [
     "const alphabet = '0123456789ABCDEFGHJKMNPQRSTVWXYZ'",

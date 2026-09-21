@@ -4,6 +4,7 @@ import vm from 'node:vm';
 
 const source = await readFile(new URL('../js/zoday-invite-translations.js', import.meta.url), 'utf8') + await readFile(new URL('../js/zoday-invite.js', import.meta.url), 'utf8');
 const html = await readFile(new URL('../products/zoday/invite.html', import.meta.url), 'utf8');
+assert.doesNotMatch(source + html, /\b(?:iOS|iPhone|iPad|App Store|TestFlight|Apple)\b/i);
 function load(path, clipboardFails = false) {
   const elements = new Map();
   function element(key) {
