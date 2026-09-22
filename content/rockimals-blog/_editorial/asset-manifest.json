@@ -1,0 +1,164 @@
+{
+  "schemaVersion": 1,
+  "snapshotDate": "2026-09-22",
+  "sourceRepositories": {
+    "site": {
+      "name": "DuniaOps",
+      "screenshotCommit": "410a28626c4425d33f85f3989f2b94f269775d32",
+      "screenshotProductVersion": "1.3.0"
+    },
+    "game": {
+      "name": "rockimals",
+      "commit": "04a455d878dee4851e4e1857181ceabd9ea2f21b",
+      "appVersion": "1.4.0+39",
+      "status": "development-not-live"
+    }
+  },
+  "covers": [
+    {
+      "topicId": "01",
+      "translationKey": "rockimals-getting-started",
+      "scene": "Textless editorial composition of Niko and Enoli around Radar rings; not an app screenshot.",
+      "language": "textless-shared",
+      "sources": [
+        {
+          "repository": "rockimals",
+          "path": "assets/animals/transparent/mouse.webp",
+          "commit": "04a455d878dee4851e4e1857181ceabd9ea2f21b",
+          "sha256": "6b03964fcff9980aa3b2501018eb6afd183375d5e5dd8fd058681160dc35ad99"
+        },
+        {
+          "repository": "rockimals",
+          "path": "assets/animals/transparent/whale.webp",
+          "commit": "04a455d878dee4851e4e1857181ceabd9ea2f21b",
+          "sha256": "e6e2a147b8229d8baf1c42b7d64e3c2d8776227fbc78793d10fb0505457f9a5c"
+        }
+      ],
+      "webOutput": "assets/rockimals-blog/rockimals-getting-started/cover.jpg",
+      "width": 1200,
+      "height": 630,
+      "bytes": 132837,
+      "sha256": "5c711f515292e860ba9baa7ff077a45c2401e28b26cdf5e4ea72c4ecf34b8050",
+      "renderSource": "scripts/render-rockimals-blog-editorial-assets.swift"
+    },
+    {
+      "topicId": "15",
+      "translationKey": "what-is-an-asteroid-for-kids",
+      "scene": "Textless editorial size comparison using the approved Niko and Enoli transparent character renders; not a literal asteroid scale or app screenshot.",
+      "language": "textless-shared",
+      "sources": [
+        {
+          "repository": "rockimals",
+          "path": "assets/animals/transparent/mouse.webp",
+          "commit": "04a455d878dee4851e4e1857181ceabd9ea2f21b",
+          "sha256": "6b03964fcff9980aa3b2501018eb6afd183375d5e5dd8fd058681160dc35ad99"
+        },
+        {
+          "repository": "rockimals",
+          "path": "assets/animals/transparent/whale.webp",
+          "commit": "04a455d878dee4851e4e1857181ceabd9ea2f21b",
+          "sha256": "e6e2a147b8229d8baf1c42b7d64e3c2d8776227fbc78793d10fb0505457f9a5c"
+        }
+      ],
+      "webOutput": "assets/rockimals-blog/what-is-an-asteroid-for-kids/cover.jpg",
+      "width": 1200,
+      "height": 630,
+      "bytes": 117698,
+      "sha256": "fd2061b5af8237469143487522535ad21569ef03ec97492fdcd7cf51714ee57f",
+      "renderSource": "scripts/render-rockimals-blog-editorial-assets.swift"
+    },
+    {
+      "topicId": "28",
+      "translationKey": "rockimals-parent-controls",
+      "scene": "Textless editorial composition of Barney and Pofi around a generic shield-and-lock motif; not an app settings or parent-gate screenshot.",
+      "language": "textless-shared",
+      "sources": [
+        {
+          "repository": "rockimals",
+          "path": "assets/animals/transparent/fox.webp",
+          "commit": "04a455d878dee4851e4e1857181ceabd9ea2f21b",
+          "sha256": "fe8f9a8aea3114836056597ee8c3b0f82494a5a70e55d51568c423109f8d047d"
+        },
+        {
+          "repository": "rockimals",
+          "path": "assets/animals/transparent/bear.webp",
+          "commit": "04a455d878dee4851e4e1857181ceabd9ea2f21b",
+          "sha256": "a05aa5403b7162275fa09240affd2c579587199c817fd5903cb57a08367000ad"
+        }
+      ],
+      "webOutput": "assets/rockimals-blog/rockimals-parent-controls/cover.jpg",
+      "width": 1200,
+      "height": 630,
+      "bytes": 115097,
+      "sha256": "c446b6aecba18cfadfffedbaa683306e811530c7b414707f3feda0984a0a3697",
+      "renderSource": "scripts/render-rockimals-blog-editorial-assets.swift"
+    }
+  ],
+  "localizedScreens": [
+    {
+      "topics": ["01"],
+      "scene": "Radar home with visitors; use only with the matching locale.",
+      "sourceVersion": "1.3.0",
+      "sourceCommit": "410a28626c4425d33f85f3989f2b94f269775d32",
+      "width": 828,
+      "height": 1800,
+      "outputs": {
+        "en": { "path": "assets/products/rockimals-preview/en/01-radar-home.jpg", "sha256": "2f5e3f1b9d08453329d90d0b68dd550624b8eded4b49fa0981fbad1538873628" },
+        "tr": { "path": "assets/products/rockimals-preview/tr/01-radar-home.jpg", "sha256": "8d4e325283e136c1f6ae22ba09330ea38a7bae776f1813a98448b5ab46b18d5d" },
+        "ja": { "path": "assets/products/rockimals-preview/ja/01-radar-home.jpg", "sha256": "98834b908399b629452316ec76ee5d6dd202036d10d72be52596dc31827854c9" },
+        "ko": { "path": "assets/products/rockimals-preview/ko/01-radar-home.jpg", "sha256": "47ba7c0682e739d1623b780e733b5a9136e941bba69ee98ca29557847d6666fc" },
+        "zh-Hans": { "path": "assets/products/rockimals-preview/zh-Hans/01-radar-home.jpg", "sha256": "984aeaff640c6ba1c58f964839a5b10bafc4d83766bd569be52308ae15d2bc9e" },
+        "fr": { "path": "assets/products/rockimals-preview/fr/01-radar-home.jpg", "sha256": "71bab01bf1b21ffcce4f5205170bbc03f18e6cd6416bccec4baae05b4e49cc73" },
+        "de": { "path": "assets/products/rockimals-preview/de/01-radar-home.jpg", "sha256": "411f0ddaaf9833911f2a5b093ae0ce871c9adbe4e6ae6b3fc32aead6e303444e" },
+        "es": { "path": "assets/products/rockimals-preview/es/01-radar-home.jpg", "sha256": "5009b9f22d5ef77c545af61506b3d6533fb86fe6645525ed5da2627a974e7045" }
+      }
+    },
+    {
+      "topics": ["01", "15"],
+      "scene": "Visitor meet card with size, distance, speed and fiction copy; use only with the matching locale and label the character layer as fiction.",
+      "sourceVersion": "1.3.0",
+      "sourceCommit": "410a28626c4425d33f85f3989f2b94f269775d32",
+      "width": 828,
+      "height": 1800,
+      "outputs": {
+        "en": { "path": "assets/products/rockimals-preview/en/04-meet-card.jpg", "sha256": "4da0ea8ec5ead71fff627d88933821d5b5513b058844f323b5f9779f908a6550" },
+        "tr": { "path": "assets/products/rockimals-preview/tr/04-meet-card.jpg", "sha256": "345e496087ebecbe9c943fe81a42f70021bd6d36cec70ea9e6595967d766d9df" },
+        "ja": { "path": "assets/products/rockimals-preview/ja/04-meet-card.jpg", "sha256": "74dc626e2952011d292d0ef700420e1e1a317606ea03aeea8ee04af6776985a6" },
+        "ko": { "path": "assets/products/rockimals-preview/ko/04-meet-card.jpg", "sha256": "84d6205b1b79c9064628858a16d95bf1f5bcaaf0609986ef4f1f1ae025ddbc17" },
+        "zh-Hans": { "path": "assets/products/rockimals-preview/zh-Hans/04-meet-card.jpg", "sha256": "fadacf4d02f80babd44ea1b71aeaf8bb72073f181c3b1ddf40f17d20454a9020" },
+        "fr": { "path": "assets/products/rockimals-preview/fr/04-meet-card.jpg", "sha256": "6dc0e0af7804253e4539b7a4c3ed9d3d7cdcf4975badb34436c22501b0823f8d" },
+        "de": { "path": "assets/products/rockimals-preview/de/04-meet-card.jpg", "sha256": "7b01d9cc0eeb326b2abffa652c8a0453e31bb7d7f39edfbd4f1bab6c28429da6" },
+        "es": { "path": "assets/products/rockimals-preview/es/04-meet-card.jpg", "sha256": "143047e1a5333b26abebd8b598c7d5afe388a7b3a5078216711c34c150aee6bb" }
+      }
+    }
+  ],
+  "catalogEvidence": {
+    "source": "assets/testflight_catalog/catalog.json",
+    "repository": "rockimals",
+    "commit": "04a455d878dee4851e4e1857181ceabd9ea2f21b",
+    "status": "development-not-live",
+    "selectionRule": "Use catalog mappings rather than choosing hashed files directly. Internal season/fixture identifiers are provenance, not user-facing hero names.",
+    "chapterOneCoverThumbnails": {
+      "mouse": { "path": "assets/testflight_catalog/covers/aa6d681fcad2d100d8a913dfdee59ef595fd7841308e25bcae3ea962147acf0e.webp", "sha256": "aa6d681fcad2d100d8a913dfdee59ef595fd7841308e25bcae3ea962147acf0e" },
+      "rabbit": { "path": "assets/testflight_catalog/covers/e9fed4a65abe89cf351ccbd9864b1a12811329b234220c24fbc34ae6ed05d724.webp", "sha256": "e9fed4a65abe89cf351ccbd9864b1a12811329b234220c24fbc34ae6ed05d724" },
+      "fox": { "path": "assets/testflight_catalog/covers/7dcc6fa9d8cf18e8e88b4728eae960e074d713323c8d59926f9e11f951faa031.webp", "sha256": "7dcc6fa9d8cf18e8e88b4728eae960e074d713323c8d59926f9e11f951faa031" },
+      "tiger": { "path": "assets/testflight_catalog/covers/34e986c882daa48f452911e821f58459e064b820ab6ecebc7a16bc49901233ae.webp", "sha256": "34e986c882daa48f452911e821f58459e064b820ab6ecebc7a16bc49901233ae" },
+      "bear": { "path": "assets/testflight_catalog/covers/538a47ea1225822e562df2a6118bcf1932905731611274e8e1c1a3889330b610.webp", "sha256": "538a47ea1225822e562df2a6118bcf1932905731611274e8e1c1a3889330b610" },
+      "elephant": { "path": "assets/testflight_catalog/covers/8a65942b529a4d94aac5a9361ba88006b16d611896d2e568b78afbdffd11effa.webp", "sha256": "8a65942b529a4d94aac5a9361ba88006b16d611896d2e568b78afbdffd11effa" },
+      "dino": { "path": "assets/testflight_catalog/covers/df67483d4cedeac582bed325bbd943d32b1600c8e058bdb7e8f2cbc041819b95.webp", "sha256": "df67483d4cedeac582bed325bbd943d32b1600c8e058bdb7e8f2cbc041819b95" },
+      "whale": { "path": "assets/testflight_catalog/covers/eedd8cdc58cb59079a5a8dd42e05e696f15f60390d902868cf1308010d338aea.webp", "sha256": "eedd8cdc58cb59079a5a8dd42e05e696f15f60390d902868cf1308010d338aea" }
+    }
+  },
+  "openEvidenceIssues": [
+    {
+      "topicId": "28",
+      "status": "missing-current-localized-screen",
+      "detail": "The website preview set has no current parent-gate or settings screenshot. Use the textless cover; do not fabricate an interface."
+    },
+    {
+      "topicId": "all",
+      "status": "android-public-listing-unverified",
+      "detail": "Do not create a Google Play CTA until a public listing is verified."
+    }
+  ]
+}

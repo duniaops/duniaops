@@ -1,0 +1,245 @@
+{
+  "schemaVersion": 1,
+  "snapshotDate": "2026-09-22",
+  "editorialRule": "Treat liveStore as public product truth. Treat repositorySnapshot as development evidence only; never promote repository-only behavior to a live claim.",
+  "liveStore": {
+    "platform": "iOS",
+    "country": "GB",
+    "appId": "6792505608",
+    "bundleId": "com.iuylas.rockimals",
+    "version": "1.3.0",
+    "releasedAt": "2026-09-19T05:23:09Z",
+    "minimumOperatingSystem": "iOS 15.0",
+    "contentRating": "4+",
+    "primaryGenre": "Education",
+    "price": 0,
+    "currency": "GBP",
+    "supportedLanguages": [
+      "en",
+      "tr",
+      "ja",
+      "ko",
+      "zh-Hans",
+      "fr",
+      "de",
+      "es"
+    ],
+    "source": "https://itunes.apple.com/lookup?id=6792505608&country=gb"
+  },
+  "platformStatus": {
+    "ios": "Public GB App Store listing verified on 2026-09-22.",
+    "android": "Public Google Play listing was not verified on 2026-09-22. The privacy/support pages mention Android and Google Play, and the game repository records internal testing, but these do not prove public availability. Do not publish an Android store CTA until a live listing is verified."
+  },
+  "audience": {
+    "storeRating": "4+",
+    "editorialTarget": "Parents, carers and teachers of children aged 6–8",
+    "usageRule": "The 4+ store rating is not a recommended-age claim. Keep it separate from the editorial audience of ages 6–8."
+  },
+  "access": {
+    "download": "Free to download on the verified iOS listing.",
+    "alwaysFree": [
+      "Radar",
+      "visitor facts",
+      "following visitors"
+    ],
+    "freeDailyEntitlements": [
+      "one new story per day",
+      "one minute of Earth Shield per day",
+      "one rotating discovery mission per theme"
+    ],
+    "plusEntitlements": [
+      "every new hero story available that day",
+      "unlimited Earth Shield",
+      "all 12 discovery missions",
+      "four additional games",
+      "journal album and decorations"
+    ],
+    "usageRule": "Describe Plus as an optional in-app entitlement. Do not imply that free users lose previously unlocked stories or that new stories are generated daily."
+  },
+  "stories": {
+    "liveCatalog": "The public listing describes eight recurring storybook heroes with five chapters each.",
+    "liveProgression": "A Radar tap unlocks a chapter; unlocked chapters remain in the Story Library. Free access provides one new story per day, while Plus makes every new hero story for that day available.",
+    "fixedVsDaily": "The hero/chapter catalog is fixed. Daily access is an unlock cadence, not a claim that the story catalog or fiction is generated each day.",
+    "repositoryDevelopmentDifference": "Development version 1.4.0+39 bundles each hero's first chapter and defines later chapter packages as downloadable immutable objects. This delivery model is not a verified 1.3.0 live-store claim."
+  },
+  "offline": {
+    "liveClaim": "The store description says the app works offline with bundled stories and sample sky data.",
+    "limit": "Do not claim that every story or fresh live-sky result is available offline. The 1.4.0 repository's later-chapter download model is development-only evidence."
+  },
+  "dataAndParentControls": {
+    "publicClaims": [
+      "no ads",
+      "no child accounts",
+      "no behavioural analytics",
+      "no cross-app tracking",
+      "purchases, external links and reminder controls are behind a parent gate",
+      "reminders are optional"
+    ],
+    "processedDataSummary": [
+      "pseudonymous installation credential and digest",
+      "app-integrity evidence",
+      "platform, language and time zone",
+      "purchase entitlement and transaction metadata via Apple or Google and RevenueCat",
+      "notification token, reminder time and permission state when reminders are enabled",
+      "network IP may be processed by infrastructure providers; Rockimals stores a rate-limit digest rather than the raw IP"
+    ],
+    "usageRule": "Never say that Rockimals processes no data. Describe concrete product behavior, link the current privacy policy, and avoid legal-compliance or absolute-safety guarantees.",
+    "privacySource": "https://rockimals.duniaops.com/privacy-policy",
+    "supportSource": "https://rockimals.duniaops.com/support",
+    "policyEffectiveDate": "2026-09-19"
+  },
+  "nasaBoundary": {
+    "allowed": "The product uses NASA near-Earth asteroid data for visitor facts.",
+    "requiredDisclosure": "Rockimals is an independent product and is not affiliated with or endorsed by NASA.",
+    "fictionBoundary": "Animal visitors, names and stories are imaginative fiction; asteroid designations and selected measurements are science data."
+  },
+  "repositorySnapshot": {
+    "repository": "rockimals",
+    "commit": "04a455d878dee4851e4e1857181ceabd9ea2f21b",
+    "commitDate": "2026-09-22T16:03:47+01:00",
+    "appVersion": "1.4.0+39",
+    "status": "development-not-live",
+    "catalog": "assets/testflight_catalog/catalog.json",
+    "catalogSchemaVersion": 2,
+    "localizationSources": {
+      "en": "lib/l10n/app_en.arb",
+      "tr": "lib/l10n/app_tr.arb",
+      "ja": "lib/l10n/app_ja.arb",
+      "ko": "lib/l10n/app_ko.arb",
+      "zh-Hans": "lib/l10n/app_zh.arb",
+      "fr": "lib/l10n/app_fr.arb",
+      "de": "lib/l10n/app_de.arb",
+      "es": "lib/l10n/app_es.arb"
+    }
+  },
+  "heroes": [
+    { "id": "mouse", "displayName": "Niko" },
+    { "id": "rabbit", "displayName": "Tavi" },
+    { "id": "fox", "displayName": "Barney" },
+    { "id": "tiger", "displayName": "Kito" },
+    { "id": "bear", "displayName": "Pofi" },
+    { "id": "elephant", "displayName": "Bobo" },
+    { "id": "dino", "displayName": "Ciko" },
+    { "id": "whale", "displayName": "Enoli" }
+  ],
+  "localizedTerms": {
+    "en": {
+      "species": ["Mouse", "Rabbit", "Fox", "Tiger", "Bear", "Elephant", "Dino", "Whale"],
+      "radar": "Radar",
+      "storyLibrary": "Story library",
+      "earthShield": "Earth Shield",
+      "spaceDistanceMap": "Space Distance Map",
+      "flybySnap": "Flyby Snap",
+      "spaceMemory": "Space Memory",
+      "sizeStack": "Size Stack",
+      "journal": "Space Visitor Journal",
+      "missions": "Discovery missions",
+      "parentGate": "Ask a grown-up 🔭",
+      "plus": "Rockimals Plus"
+    },
+    "tr": {
+      "species": ["Fare", "Tavşan", "Tilki", "Kaplan", "Ayı", "Fil", "Dinozor", "Balina"],
+      "radar": "Radar",
+      "storyLibrary": "Hikâye kitaplığı",
+      "earthShield": "Dünya Kalkanı",
+      "spaceDistanceMap": "Uzay Mesafe Haritası",
+      "flybySnap": "Uçuş Fotoğrafı",
+      "spaceMemory": "Uzay Hafızası",
+      "sizeStack": "Boyut Kulesi",
+      "journal": "Uzay Ziyaretçisi Günlüğü",
+      "missions": "Keşif görevleri",
+      "parentGate": "Bir büyüğe sor 🔭",
+      "plus": "Rockimals Plus"
+    },
+    "ja": {
+      "species": ["ネズミ", "ウサギ", "キツネ", "トラ", "クマ", "ゾウ", "きょうりゅう", "クジラ"],
+      "radar": "レーダー",
+      "storyLibrary": "おはなしライブラリー",
+      "earthShield": "地球シールド",
+      "spaceDistanceMap": "宇宙の距離マップ",
+      "flybySnap": "フライバイ写真",
+      "spaceMemory": "宇宙メモリー",
+      "sizeStack": "サイズタワー",
+      "journal": "宇宙の訪問者ノート",
+      "missions": "探検ミッション",
+      "parentGate": "大人の人に聞いてね 🔭",
+      "plus": "Rockimals Plus"
+    },
+    "ko": {
+      "species": ["생쥐", "토끼", "여우", "호랑이", "곰", "코끼리", "공룡", "고래"],
+      "radar": "레이더",
+      "storyLibrary": "이야기 도서관",
+      "earthShield": "지구 방패",
+      "spaceDistanceMap": "우주 거리 지도",
+      "flybySnap": "스쳐가는 순간 포착",
+      "spaceMemory": "우주 기억 놀이",
+      "sizeStack": "크기 탑 쌓기",
+      "journal": "우주 방문자 일지",
+      "missions": "탐험 미션",
+      "parentGate": "어른에게 부탁해요 🔭",
+      "plus": "Rockimals Plus"
+    },
+    "zh-Hans": {
+      "species": ["老鼠", "兔子", "狐狸", "老虎", "熊", "大象", "恐龙", "鲸鱼"],
+      "radar": "雷达",
+      "storyLibrary": "故事书库",
+      "earthShield": "地球护盾",
+      "spaceDistanceMap": "宇宙距离地图",
+      "flybySnap": "飞越快拍",
+      "spaceMemory": "宇宙记忆",
+      "sizeStack": "大小叠叠乐",
+      "journal": "宇宙访客日记",
+      "missions": "探索任务",
+      "parentGate": "请大人帮忙 🔭",
+      "plus": "Rockimals Plus"
+    },
+    "fr": {
+      "species": ["Souris", "Lapin", "Renard", "Tigre", "Ours", "Éléphant", "Dino", "Baleine"],
+      "radar": "Radar",
+      "storyLibrary": "Bibliothèque d’histoires",
+      "earthShield": "Bouclier terrestre",
+      "spaceDistanceMap": "Carte des distances spatiales",
+      "flybySnap": "Photo au vol",
+      "spaceMemory": "Mémoire de l’espace",
+      "sizeStack": "Tour des tailles",
+      "journal": "Carnet des visiteurs de l’espace",
+      "missions": "Missions de découverte",
+      "parentGate": "Demande à un adulte 🔭",
+      "plus": "Rockimals Plus"
+    },
+    "de": {
+      "species": ["Maus", "Kaninchen", "Fuchs", "Tiger", "Bär", "Elefant", "Dino", "Wal"],
+      "radar": "Radar",
+      "storyLibrary": "Geschichtenbibliothek",
+      "earthShield": "Erdschild",
+      "spaceDistanceMap": "Weltraumkarte",
+      "flybySnap": "Vorbeiflug-Foto",
+      "spaceMemory": "Weltraum-Merkspiel",
+      "sizeStack": "Größenturm",
+      "journal": "Weltraum-Gästebuch",
+      "missions": "Entdeckungsmissionen",
+      "parentGate": "Frag einen Erwachsenen 🔭",
+      "plus": "Rockimals Plus"
+    },
+    "es": {
+      "species": ["Ratón", "Conejo", "Zorro", "Tigre", "Oso", "Elefante", "Dino", "Ballena"],
+      "radar": "Radar",
+      "storyLibrary": "Biblioteca de historias",
+      "earthShield": "Escudo terrestre",
+      "spaceDistanceMap": "Mapa de distancias espaciales",
+      "flybySnap": "Foto al vuelo",
+      "spaceMemory": "Memoria espacial",
+      "sizeStack": "Torre de tamaños",
+      "journal": "Diario de visitantes espaciales",
+      "missions": "Misiones de descubrimiento",
+      "parentGate": "Pide ayuda a un adulto 🔭",
+      "plus": "Rockimals Plus"
+    }
+  },
+  "knownGaps": [
+    "The public Android store listing was not verified.",
+    "The live product landing structured data says iOS 13.0 or later, while the verified App Store listing requires iOS 15.0.",
+    "No current localized parent-gate/settings screenshot exists in the website preview set; topic 28 therefore uses a textless editorial cover and must not fabricate a settings screen.",
+    "Repository catalog season and fixture identifiers include legacy or technical names. They are provenance only and must not replace the approved hero display names."
+  ]
+}
