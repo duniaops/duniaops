@@ -1,6 +1,7 @@
 import { lstat, readdir, readFile, stat } from 'node:fs/promises';
 import path from 'node:path';
 import { fileURLToPath } from 'node:url';
+import { createRockimalsBlogManifest, loadRockimalsBlogSources } from './rockimals-blog-content.mjs';
 
 const ROOT = path.resolve(path.dirname(fileURLToPath(import.meta.url)), '..');
 const DIST_DIR = path.join(ROOT, 'dist');
@@ -201,6 +202,9 @@ async function validateHtmlLinks(files) {
 
 async function validateRockimalsBlog() {
   const errors = [];
+  const manifest = createRockimalsBlogManifest(await loadRockimalsBlogSources({
+    contentDir: path.join(ROOT, 'content', 'rockimals-blog')
+  }));
   const sitemap = await readFile(insideDist('products/rockimals-blog/sitemap.xml'), 'utf8');
   const robots = await readFile(insideDist('products/rockimals-blog/robots.txt'), 'utf8');
   const redirects = await readFile(insideDist('_redirects'), 'utf8');
@@ -226,6 +230,19 @@ async function validateRockimalsBlog() {
       errors.push(`${relativePath}: missing English x-default`);
     }
     if (!sitemap.includes(`<loc>${canonical}</loc>`)) errors.push(`Rockimals sitemap is missing ${canonical}`);
+  }
+
+  for (const post of manifest.posts.filter(({ translationKey }) => translationKey === 'rockimals-getting-started')) {
+    const landingPath = `products/rockimals-locales/${post.locale}.html`;
+    const articlePath = `products/rockimals-blog/${post.locale}/${post.slug}/index.html`;
+    const landing = await readFile(insideDist(landingPath), 'utf8');
+    const article = await readFile(insideDist(articlePath), 'utf8');
+    if (!landing.includes(`class="rk-blog-feature" href="${post.canonicalPath}"`)) {
+      errors.push(`${landingPath}: missing localized first-guide feature card`);
+    }
+    if (!article.includes('data-rockimals-cta="app-store"') || !article.includes('download-on-the-app-store.svg')) {
+      errors.push(`${articlePath}: missing published App Store badge`);
+    }
   }
 
   for (const match of sitemap.matchAll(/<loc>([^<]+)<\/loc>/g)) {
