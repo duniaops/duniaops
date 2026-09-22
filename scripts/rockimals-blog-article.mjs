@@ -5,6 +5,7 @@ import {
   rockimalsProductPath,
   renderRockimalsLanguageMenu
 } from './rockimals-blog-navigation.mjs';
+import { renderRockimalsSeo } from './rockimals-blog-seo.mjs';
 
 export const ROCKIMALS_ARTICLE_UI = Object.freeze({
   en: Object.freeze({
@@ -243,15 +244,32 @@ export function renderRockimalsBlogArticle({
   const primaryAction = ctaHref
     ? `<a class="rkb-primary-action" href="${escapeHtml(ctaHref)}" rel="noopener" data-rockimals-cta="${escapeHtml(post.cta?.id ?? '')}">${escapeHtml(post.cta?.label ?? '')}</a>`
     : '';
+  const documentTitle = `${post.title} · Rockimals`;
+  const seo = preview ? '' : `${renderRockimalsSeo({
+    locale: post.locale,
+    title: documentTitle,
+    schemaTitle: post.title,
+    description: post.description,
+    canonicalPath: post.canonicalPath,
+    alternatePaths: post.alternatePaths,
+    image: post.image,
+    imageAlt: post.imageAlt,
+    kind: 'article',
+    published: post.published,
+    updated: post.updated,
+    authorName: post.author.name,
+    indexPath: rockimalsBlogIndexPath(post.locale),
+    indexName: ui.blog
+  })}\n`;
 
   return `<!doctype html>
 <html lang="${escapeHtml(post.locale)}">
 <head>
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width,initial-scale=1">
-<title>${escapeHtml(post.title)} · Rockimals</title>
+<title>${escapeHtml(documentTitle)}</title>
 <meta name="description" content="${escapeHtml(post.description)}">
-${preview ? '<meta name="robots" content="noindex,nofollow">\n' : ''}<meta name="theme-color" content="#07101d">
+${preview ? '<meta name="robots" content="noindex,nofollow">\n' : seo}<meta name="theme-color" content="#07101d">
 <link rel="icon" type="image/png" href="/assets/products/rockimals-icon.png?v=20260919">
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>

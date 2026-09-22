@@ -35,6 +35,11 @@ Read the story.
 
 - [NASA](https://www.nasa.gov/)
 `,
+    canonicalPath: '/blog/meet-your-first-visitor',
+    alternatePaths: Object.fromEntries(ROCKIMALS_BLOG_LOCALES.map((locale) => [
+      locale,
+      locale === 'en' ? '/blog/meet-your-first-visitor' : `/${locale}/blog/meet-your-first-visitor`
+    ])),
     source: 'fixture/en.md',
     ...overrides
   };

@@ -1,9 +1,11 @@
 import { ROCKIMALS_BLOG_CATEGORIES, ROCKIMALS_BLOG_LOCALES } from './rockimals-blog-content.mjs';
 import {
   rockimalsBlogIndexPaths,
+  rockimalsBlogIndexPath,
   rockimalsProductPath,
   renderRockimalsLanguageMenu
 } from './rockimals-blog-navigation.mjs';
+import { renderRockimalsSeo } from './rockimals-blog-seo.mjs';
 
 export const ROCKIMALS_INDEX_UI = Object.freeze({
   en: Object.freeze({
@@ -182,15 +184,28 @@ export function renderRockimalsBlogIndex({
   const categoryItems = CATEGORY_ORDER.map((category) => (
     `<li>${escapeHtml(ROCKIMALS_BLOG_CATEGORIES[category][locale])}</li>`
   )).join('');
+  const documentTitle = `${ui.eyebrow} · Rockimals`;
+  const seo = preview ? '' : `${renderRockimalsSeo({
+    locale,
+    title: documentTitle,
+    description: ui.intro,
+    canonicalPath: rockimalsBlogIndexPath(locale),
+    alternatePaths: indexPaths,
+    image: '/assets/products/rockimals-card-hero.png?v=20260919',
+    imageAlt: 'Rockimals characters exploring space',
+    kind: 'index',
+    indexPath: rockimalsBlogIndexPath(locale),
+    indexName: ui.eyebrow
+  })}\n`;
 
   return `<!doctype html>
 <html lang="${locale}">
 <head>
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width,initial-scale=1">
-<title>${escapeHtml(ui.eyebrow)} · Rockimals</title>
+<title>${escapeHtml(documentTitle)}</title>
 <meta name="description" content="${escapeHtml(ui.intro)}">
-${preview ? '<meta name="robots" content="noindex,nofollow">\n' : ''}<meta name="theme-color" content="#07101d">
+${preview ? '<meta name="robots" content="noindex,nofollow">\n' : seo}<meta name="theme-color" content="#07101d">
 <link rel="icon" type="image/png" href="/assets/products/rockimals-icon.png?v=20260919">
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>

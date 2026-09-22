@@ -5,6 +5,8 @@ import { fileURLToPath } from 'node:url';
 const ROOT = path.resolve(path.dirname(fileURLToPath(import.meta.url)), '..');
 const DIST_DIR = path.join(ROOT, 'dist');
 const SITE_ORIGIN = 'https://www.duniaops.com';
+const ROCKIMALS_ORIGIN = 'https://rockimals.duniaops.com';
+const ROCKIMALS_LOCALES = ['en', 'tr', 'ja', 'ko', 'zh-Hans', 'fr', 'de', 'es'];
 const RELEASE_PAGES = [
   {
     file: 'about.html',
@@ -37,6 +39,16 @@ const REQUIRED_PATHS = [
   'js/site.js',
   'js/zoday-invite.js',
   'privacy.html',
+  'products/rockimals-blog/de/index.html',
+  'products/rockimals-blog/en/index.html',
+  'products/rockimals-blog/es/index.html',
+  'products/rockimals-blog/fr/index.html',
+  'products/rockimals-blog/ja/index.html',
+  'products/rockimals-blog/ko/index.html',
+  'products/rockimals-blog/robots.txt',
+  'products/rockimals-blog/sitemap.xml',
+  'products/rockimals-blog/tr/index.html',
+  'products/rockimals-blog/zh-Hans/index.html',
   'products.html',
   'products/zoday/invite.html',
   'robots.txt',
@@ -112,22 +124,146 @@ async function routeExists(pathname) {
   return false;
 }
 
+async function rockimalsRouteExists(pathname) {
+  if (/^\/(?:assets|css|js)\//.test(pathname)) return routeExists(pathname);
+  if (pathname === '/rockimals/legal.css') return routeExists(pathname);
+  if (pathname === '/') return routeExists('/products/rockimals-locales/en.html');
+  if (pathname === '/support' || /^\/rockimals\/support(?:\.html)?$/.test(pathname)) {
+    return routeExists('/rockimals/support.html');
+  }
+  if (pathname === '/privacy-policy' || /^\/rockimals\/privacy-policy(?:\.html)?$/.test(pathname)) {
+    return routeExists('/rockimals/privacy-policy.html');
+  }
+  if (pathname === '/robots.txt') return routeExists('/products/rockimals-blog/robots.txt');
+  if (pathname === '/sitemap.xml') return routeExists('/products/rockimals-blog/sitemap.xml');
+  if (pathname === '/blog.html') return routeExists('/products/rockimals-blog/en/index.html');
+
+  const englishCanonicalVariant = pathname.match(/^\/en\/blog(?:\/([^/]+))?$/);
+  if (englishCanonicalVariant) {
+    const relative = englishCanonicalVariant[1]
+      ? `/products/rockimals-blog/en/${englishCanonicalVariant[1]}/index.html`
+      : '/products/rockimals-blog/en/index.html';
+    return routeExists(relative);
+  }
+
+  const localeLanding = pathname.match(/^\/([^/]+)$/);
+  if (localeLanding && ROCKIMALS_LOCALES.includes(localeLanding[1])) {
+    return routeExists(`/products/rockimals-locales/${localeLanding[1]}.html`);
+  }
+
+  const englishBlog = pathname.match(/^\/blog(?:\/([^/]+))?$/);
+  if (englishBlog) {
+    const relative = englishBlog[1]
+      ? `/products/rockimals-blog/en/${englishBlog[1]}/index.html`
+      : '/products/rockimals-blog/en/index.html';
+    return routeExists(relative);
+  }
+
+  const localizedBlog = pathname.match(/^\/([^/]+)\/blog(?:\/([^/]+))?$/);
+  if (localizedBlog && ROCKIMALS_LOCALES.includes(localizedBlog[1]) && localizedBlog[1] !== 'en') {
+    const relative = localizedBlog[2]
+      ? `/products/rockimals-blog/${localizedBlog[1]}/${localizedBlog[2]}/index.html`
+      : `/products/rockimals-blog/${localizedBlog[1]}/index.html`;
+    return routeExists(relative);
+  }
+
+  return false;
+}
+
 async function validateHtmlLinks(files) {
   const errors = [];
   const htmlFiles = files.filter((file) => file.endsWith('.html'));
 
   for (const relativePath of htmlFiles) {
     const html = await readFile(insideDist(relativePath), 'utf8');
+    const canonical = html.match(/<link rel="canonical" href="([^"]+)">/)?.[1];
+    const documentUrl = canonical && /^https?:\/\//.test(canonical)
+      ? new URL(canonical)
+      : new URL(relativePath, `${SITE_ORIGIN}/`);
     for (const match of html.matchAll(/\b(?:href|src|action)="([^"]+)"/g)) {
       const value = match[1].replaceAll('&amp;', '&');
       if (/^(?:data:|mailto:|tel:|javascript:|#)/i.test(value)) continue;
 
-      const resolved = new URL(value, new URL(relativePath, `${SITE_ORIGIN}/`));
-      if (resolved.origin !== SITE_ORIGIN) continue;
-      if (!await routeExists(resolved.pathname)) {
+      const resolved = new URL(value, documentUrl);
+      const exists = resolved.origin === SITE_ORIGIN
+        ? await routeExists(resolved.pathname)
+        : resolved.origin === ROCKIMALS_ORIGIN
+          ? await rockimalsRouteExists(resolved.pathname)
+          : true;
+      if (!exists) {
         errors.push(`${relativePath}: missing internal target ${resolved.pathname}`);
       }
     }
+  }
+
+  return errors;
+}
+
+async function validateRockimalsBlog() {
+  const errors = [];
+  const sitemap = await readFile(insideDist('products/rockimals-blog/sitemap.xml'), 'utf8');
+  const robots = await readFile(insideDist('products/rockimals-blog/robots.txt'), 'utf8');
+  const redirects = await readFile(insideDist('_redirects'), 'utf8');
+  const netlify = await readFile(path.join(ROOT, 'netlify.toml'), 'utf8');
+
+  for (const locale of ROCKIMALS_LOCALES) {
+    const relativePath = `products/rockimals-blog/${locale}/index.html`;
+    const html = await readFile(insideDist(relativePath), 'utf8');
+    const canonicalPath = locale === 'en' ? '/blog' : `/${locale}/blog`;
+    const canonical = `${ROCKIMALS_ORIGIN}${canonicalPath}`;
+    if (!html.includes(`<html lang="${locale}">`)) errors.push(`${relativePath}: incorrect document language`);
+    if (!html.includes(`<link rel="canonical" href="${canonical}">`)) errors.push(`${relativePath}: missing canonical ${canonical}`);
+    if (!html.includes(`<meta property="og:url" content="${canonical}">`)) errors.push(`${relativePath}: missing matching Open Graph URL`);
+    if (!html.includes('"@type":"Blog"') || !html.includes('"@type":"BreadcrumbList"')) {
+      errors.push(`${relativePath}: missing Blog or BreadcrumbList structured data`);
+    }
+    for (const alternateLocale of ROCKIMALS_LOCALES) {
+      const alternatePath = alternateLocale === 'en' ? '/blog' : `/${alternateLocale}/blog`;
+      const link = `<link rel="alternate" hreflang="${alternateLocale}" href="${ROCKIMALS_ORIGIN}${alternatePath}">`;
+      if (!html.includes(link)) errors.push(`${relativePath}: missing ${alternateLocale} hreflang`);
+    }
+    if (!html.includes(`<link rel="alternate" hreflang="x-default" href="${ROCKIMALS_ORIGIN}/blog">`)) {
+      errors.push(`${relativePath}: missing English x-default`);
+    }
+    if (!sitemap.includes(`<loc>${canonical}</loc>`)) errors.push(`Rockimals sitemap is missing ${canonical}`);
+  }
+
+  for (const match of sitemap.matchAll(/<loc>([^<]+)<\/loc>/g)) {
+    const url = new URL(match[1]);
+    if (url.origin !== ROCKIMALS_ORIGIN || !await rockimalsRouteExists(url.pathname)) {
+      errors.push(`Rockimals sitemap contains a non-public URL: ${match[1]}`);
+    }
+  }
+  if (!robots.includes(`Sitemap: ${ROCKIMALS_ORIGIN}/sitemap.xml`)) {
+    errors.push('Rockimals robots.txt does not name the Rockimals sitemap');
+  }
+
+  const requiredRouteFragments = [
+    'https://rockimals.duniaops.com/en/blog https://rockimals.duniaops.com/blog 301!',
+    'https://rockimals.duniaops.com/en/blog/:slug https://rockimals.duniaops.com/blog/:slug 301!',
+    'https://rockimals.duniaops.com/blog /products/rockimals-blog/en/index.html 200!',
+    'https://rockimals.duniaops.com/blog/:slug /products/rockimals-blog/en/:slug/index.html 200!',
+    'https://rockimals.duniaops.com/:locale/blog /products/rockimals-blog/:locale/index.html 200!',
+    'https://rockimals.duniaops.com/:locale/blog/:slug /products/rockimals-blog/:locale/:slug/index.html 200!'
+  ];
+  for (const fragment of requiredRouteFragments) {
+    if (!redirects.includes(fragment)) errors.push(`_redirects: missing Rockimals route ${fragment}`);
+  }
+  for (const fragment of [
+    'from = "https://rockimals.duniaops.com/blog"',
+    'from = "https://rockimals.duniaops.com/blog/:slug"',
+    'from = "https://rockimals.duniaops.com/:locale/blog"',
+    'from = "https://rockimals.duniaops.com/:locale/blog/:slug"'
+  ]) {
+    if (!netlify.includes(fragment)) errors.push(`netlify.toml: missing Rockimals route ${fragment}`);
+  }
+  if (await rockimalsRouteExists('/xx/blog') || await rockimalsRouteExists('/blog/not-published')) {
+    errors.push('Rockimals host route model serves an invalid locale or unpublished slug');
+  }
+
+  const companyBlog = await readFile(insideDist('blog.html'), 'utf8');
+  if (!companyBlog.includes(`<link rel="canonical" href="${SITE_ORIGIN}/blog">`)) {
+    errors.push('The corporate DuniaOps blog canonical changed');
   }
 
   return errors;
@@ -459,6 +595,7 @@ async function main() {
   errors.push(...await validateLeadMeasurement());
   errors.push(...await validateThankYouPage());
   errors.push(...await validateZodayPlayGrowth());
+  errors.push(...await validateRockimalsBlog());
 
   if (errors.length) throw new Error(`Public output validation failed:\n- ${errors.join('\n- ')}`);
   console.log(`Validated ${files.length} public files, release routes, JSON-LD and navigation with no broken internal links.`);

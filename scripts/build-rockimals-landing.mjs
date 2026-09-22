@@ -18,7 +18,7 @@ function languageOptions(active) {
 function render(code) {
   const l = locales[code];
   const canonical = `https://rockimals.duniaops.com/${code === 'en' ? '' : code}`;
-  const blogPath = code === 'en' ? '/blog' : `/${code}/blog`;
+  const blogPath = `https://rockimals.duniaops.com${code === 'en' ? '/blog' : `/${code}/blog`}`;
   const screenshot = (name) => `/assets/products/rockimals-preview/${code}/${name}.jpg?v=20260919`;
   const shots = [1, 2, 3, 4, 5, 6].map((number) => {
     const file = ['01-radar-home', '02-hero-chapter-reader', '03-story-library', '04-meet-card', '05-earth-shield', '06-my-space-zoo'][number - 1];

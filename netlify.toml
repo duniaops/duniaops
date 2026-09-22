@@ -5,6 +5,61 @@
 [build.environment]
   NODE_VERSION = "24"
 
+# Rockimals blog: host-scoped canonical routes and host-owned discovery files.
+[[redirects]]
+  from = "https://rockimals.duniaops.com/en/blog"
+  to = "https://rockimals.duniaops.com/blog"
+  status = 301
+  force = true
+
+[[redirects]]
+  from = "https://rockimals.duniaops.com/en/blog/:slug"
+  to = "https://rockimals.duniaops.com/blog/:slug"
+  status = 301
+  force = true
+
+[[redirects]]
+  from = "https://rockimals.duniaops.com/blog.html"
+  to = "https://rockimals.duniaops.com/blog"
+  status = 301
+  force = true
+
+[[redirects]]
+  from = "https://rockimals.duniaops.com/blog"
+  to = "/products/rockimals-blog/en/index.html"
+  status = 200
+  force = true
+
+[[redirects]]
+  from = "https://rockimals.duniaops.com/blog/:slug"
+  to = "/products/rockimals-blog/en/:slug/index.html"
+  status = 200
+  force = true
+
+[[redirects]]
+  from = "https://rockimals.duniaops.com/:locale/blog"
+  to = "/products/rockimals-blog/:locale/index.html"
+  status = 200
+  force = true
+
+[[redirects]]
+  from = "https://rockimals.duniaops.com/:locale/blog/:slug"
+  to = "/products/rockimals-blog/:locale/:slug/index.html"
+  status = 200
+  force = true
+
+[[redirects]]
+  from = "https://rockimals.duniaops.com/robots.txt"
+  to = "/products/rockimals-blog/robots.txt"
+  status = 200
+  force = true
+
+[[redirects]]
+  from = "https://rockimals.duniaops.com/sitemap.xml"
+  to = "/products/rockimals-blog/sitemap.xml"
+  status = 200
+  force = true
+
 # Rockimals homepage: localized initial HTML and matching app screenshots.
 [[redirects]]
   from = "https://rockimals.duniaops.com/en"

@@ -1,4 +1,13 @@
 # Rockimals canonical subdomain, localized landing and legal pages.
+https://rockimals.duniaops.com/en/blog https://rockimals.duniaops.com/blog 301!
+https://rockimals.duniaops.com/en/blog/:slug https://rockimals.duniaops.com/blog/:slug 301!
+https://rockimals.duniaops.com/blog.html https://rockimals.duniaops.com/blog 301!
+https://rockimals.duniaops.com/blog /products/rockimals-blog/en/index.html 200!
+https://rockimals.duniaops.com/blog/:slug /products/rockimals-blog/en/:slug/index.html 200!
+https://rockimals.duniaops.com/:locale/blog /products/rockimals-blog/:locale/index.html 200!
+https://rockimals.duniaops.com/:locale/blog/:slug /products/rockimals-blog/:locale/:slug/index.html 200!
+https://rockimals.duniaops.com/robots.txt /products/rockimals-blog/robots.txt 200!
+https://rockimals.duniaops.com/sitemap.xml /products/rockimals-blog/sitemap.xml 200!
 https://rockimals.duniaops.com/support /rockimals/support.html 200!
 https://rockimals.duniaops.com/privacy-policy /rockimals/privacy-policy.html 200!
 https://rockimals.duniaops.com/rockimals/support https://rockimals.duniaops.com/support 301!

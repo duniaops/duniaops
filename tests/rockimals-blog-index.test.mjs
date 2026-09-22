@@ -37,7 +37,7 @@ test('each index renders only the publishable posts supplied for its locale', ()
     for (const otherLocale of ROCKIMALS_BLOG_LOCALES.filter((candidate) => candidate !== locale)) {
       assert.doesNotMatch(html, new RegExp(`Published ${otherLocale}`));
     }
-    assert.doesNotMatch(html, /<script/);
+    assert.doesNotMatch(html, /<script(?! type="application\/ld\+json")/);
   }
 });
 
@@ -74,7 +74,7 @@ test('the product landing source provides a localized blog navigation label for 
   const generator = await readFile(new URL('../scripts/build-rockimals-landing.mjs', import.meta.url), 'utf8');
 
   for (const locale of ROCKIMALS_BLOG_LOCALES) assert.ok(locales[locale].navBlog, `${locale} is missing navBlog`);
-  assert.match(generator, /const blogPath = code === 'en'/);
+  assert.match(generator, /const blogPath = `https:\/\/rockimals\.duniaops\.com\$\{code === 'en'/);
   assert.match(generator, /href="\$\{blogPath\}"/);
 });
 
