@@ -24,6 +24,42 @@ const EXPERIENCE_COPY = Object.freeze({
     text: 'Bir ziyaretçiye dokunun; açılabilen hikâyeye geçmeden önce boyutunu, Ay uzaklığını ve hızını karşılaştırın.',
     label: 'Rockimals ürün sayfasına dönün',
     imageAlt: 'Dünya çevresindeki ziyaretçileri gösteren Rockimals Radar ekranı'
+  }),
+  ja: Object.freeze({
+    title: 'レーダーで訪問者に会おう',
+    text: '訪問者をタップし、読めるお話へ進む前に、大きさ、月までの距離を基準にした値、速さを比べてみましょう。',
+    label: 'Rockimalsの製品ページに戻る',
+    imageAlt: '地球のまわりの訪問者を表示するRockimalsのレーダー画面'
+  }),
+  ko: Object.freeze({
+    title: '레이더에서 방문자를 만나 보세요',
+    text: '방문자를 누르고, 열 수 있는 이야기로 이동하기 전에 크기와 달 거리 기준 값, 속도를 비교해 보세요.',
+    label: 'Rockimals 제품 페이지로 돌아가기',
+    imageAlt: '지구 주변의 방문자를 보여 주는 Rockimals 레이더 화면'
+  }),
+  'zh-Hans': Object.freeze({
+    title: '在雷达中认识一位访客',
+    text: '点选访客，在进入可开启的故事前，比较它的大小、以月球距离为参照的数值和速度。',
+    label: '返回Rockimals产品页面',
+    imageAlt: '显示地球周围访客的Rockimals雷达画面'
+  }),
+  fr: Object.freeze({
+    title: 'Rencontrez un visiteur sur le Radar',
+    text: 'Touchez un visiteur, puis comparez sa taille, sa distance exprimée par rapport à la Lune et sa vitesse avant d’ouvrir l’histoire disponible.',
+    label: 'Revenir à la page produit de Rockimals',
+    imageAlt: 'Radar de Rockimals montrant des visiteurs autour de la Terre'
+  }),
+  de: Object.freeze({
+    title: 'Triff einen Besucher auf dem Radar',
+    text: 'Tippe auf einen Besucher und vergleiche Größe, Mondentfernung und Geschwindigkeit, bevor du die verfügbare Geschichte öffnest.',
+    label: 'Zurück zur Rockimals-Produktseite',
+    imageAlt: 'Rockimals-Radar mit Besuchern rund um die Erde'
+  }),
+  es: Object.freeze({
+    title: 'Conoce a un visitante en el Radar',
+    text: 'Toca un visitante y compara su tamaño, su distancia respecto a la Luna y su velocidad antes de abrir la historia disponible.',
+    label: 'Volver a la página de producto de Rockimals',
+    imageAlt: 'Radar de Rockimals con visitantes alrededor de la Tierra'
   })
 });
 

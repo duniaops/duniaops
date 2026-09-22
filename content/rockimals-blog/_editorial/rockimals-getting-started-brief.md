@@ -66,3 +66,31 @@
 - **Açık yayın maddesi:** Bağımsız editoryal onay ve kalan altı dil tamamlanmadı. Bu nedenle iki kaynak `draft: true`, yayın tarihi placeholder ve kamu paketi kapalıdır.
 
 Çözülmemiş olgusal veya EN/TR terim sorunu yoktur. Canlı ürün ya da arama sonuçları değişirse sürüm/tarih ve niyet incelemesi yayın öncesi yenilenmelidir.
+
+## Spec 028 — kalan altı dilin arama ve yerelleştirme kaydı
+
+22 Eylül 2026'da marka adı ile yerel “nasıl oynanır”/Radar ifadelerini birleştiren sorgular örneklendi. Altı dilde de Rockimals'a ait indekslenmiş bir başlangıç rehberi bulunmadı; sonuçlar başka oyunların Radar özelliklerine, oyuncak kılavuzlarına veya ilgisiz marka benzerliklerine kaydı. Bu gözlem yalnızca niyet ve kelime seçimine yön verir; arama hacmi, zorluk ya da sıralama ölçümü değildir.
+
+| Locale / pazar varsayımı | Örneklenen yerel ifade | Başlık / slug kararı | Uygulama terimleri | İnceleme durumu |
+| --- | --- | --- | --- | --- |
+| `ja` / Japonya | `Rockimals 遊び方 レーダー` | `Rockimalsの遊び方：はじめての宇宙の訪問者に会おう` / `rockimals-no-asobikata` | `レーダー`, `おはなしライブラリー`, `地球シールド`, `大人の人に聞いてね 🔭` | Anlam/ARB/karakter kontrolü tamam; bağımsız ana dili editörü bekleniyor. |
+| `ko` / Güney Kore | `Rockimals 플레이 방법 레이더` | `Rockimals 플레이 방법: 첫 우주 방문자를 만나 보세요` / `rockimals-play-guide` | `레이더`, `이야기 도서관`, `지구 방패`, `어른에게 부탁해요 🔭` | Anlam/ARB/karakter kontrolü tamam; bağımsız ana dili editörü bekleniyor. |
+| `zh-Hans` / Basitleştirilmiş Çince okuru | `Rockimals 怎么玩 雷达` | `Rockimals怎么玩：认识你的第一位太空访客` / `rockimals-zenme-wan` | `雷达`, `故事书库`, `地球护盾`, `请大人帮忙 🔭` | Anlam/ARB/karakter kontrolü tamam; bağımsız ana dili editörü bekleniyor. Ana kara Çin trafik/mağaza erişimi varsayılmıyor. |
+| `fr` / Fransa | `comment jouer à Rockimals radar` | `Comment jouer à Rockimals : rencontrez votre premier visiteur spatial` / `comment-jouer-a-rockimals` | `Radar`, `Bibliothèque d’histoires`, `Bouclier terrestre`, `Demande à un adulte 🔭` | Anlam/ARB ve uzun başlık/CTA kontrolü tamam; bağımsız ana dili editörü bekleniyor. |
+| `de` / Almanya | `wie spielt man Rockimals Radar` | `So spielst du Rockimals: Triff deinen ersten Weltraumbesucher` / `rockimals-spielen-erster-weltraumbesucher` | `Radar`, `Geschichtenbibliothek`, `Erdschild`, `Frag einen Erwachsenen 🔭` | Anlam/ARB ve birleşik sözcük/satır kırılımı kontrolü tamam; bağımsız ana dili editörü bekleniyor. |
+| `es` / İspanya | `cómo jugar a Rockimals radar` | `Cómo jugar a Rockimals: conoce a tu primer visitante espacial` / `como-jugar-a-rockimals` | `Radar`, `Biblioteca de historias`, `Escudo terrestre`, `Pide ayuda a un adulto 🔭` | Anlam/ARB ve başlık/CTA kontrolü tamam; bağımsız ana dili editörü bekleniyor. |
+
+### Yerelleştirme kararları
+
+- İngilizce kaynakta yer alan dört adımlı ilk oturum, bilim/kurgu ayrımı, ücretsiz/Plus sınırı, teknik veri notu, yaş ayrımı ve 1.3.0 sürüm notu altı dilde korundu; yeni ürün veya öğrenme iddiası eklenmedi.
+- Kahraman adı `Niko` çevrilmedi. Tür adı yalnızca açıklama cümlesinde yerel dilde kullanıldı.
+- Japonca, Korece ve Basitleştirilmiş Çince metinlerde yerel noktalama kullanıldı; bozuk/değiştirme karakteri taraması yapıldı. Başlıklar ile Radar deneyim kutuları gerçek şablonda incelendi.
+- Fransızca, Almanca ve İspanyolca uzun başlık/CTA metinleri masaüstü şablonda incelendi; dar ekran taşma korumaları depo testleriyle doğrulandı.
+- Her kaynak aynı metinsiz kapağı kullanır. Taslak önizleme, `assets/products/rockimals-preview/{locale}/01-radar-home.jpg` yolundaki aynı dil 1.3.0 ekranını kullanır; İngilizce ekran fallback'i yoktur.
+- Altı yeni kaynağın `relatedPosts` alanı boştur. Konu 15/28 aynı dilde yayımlanmadan bağlantı eklenmez.
+
+### Sekizli envanter ve yayın durumu
+
+`en`, `tr`, `ja`, `ko`, `zh-Hans`, `fr`, `de`, `es` kaynaklarının tamamı `rockimals-getting-started` altında mevcuttur. Sekiz dosyanın da `draft: true`, placeholder yayın tarihi, `reviewedAppVersion: "1.3.0"`, ortak kategori/görsel ve yerelleştirilmiş slug/metadata/CTA değerleri vardır.
+
+Olgusal veya uygulama terminolojisi açısından açık bir çelişki bulunmuyor. Ancak altı yeni dil için bağımsız ana dili editörü onayı yapılmadı; bu durum yayın engelidir ve tamamlanmış native review olarak sunulmaz. Nihai sekizli render, link ve metadata kontrolü Spec 034 kapsamındadır.
