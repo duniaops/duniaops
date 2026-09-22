@@ -3,6 +3,7 @@ _to_delete/
 node_modules/
 dist/
 coverage/
+.rockimals-blog-preview/
 
 # Local editor and tool output
 .idea/
