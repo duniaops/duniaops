@@ -73,11 +73,39 @@ test('renders a complete semantic article without client-side JavaScript', () =>
   assert.doesNotMatch(html, /<script/);
 });
 
+test('shows the App Store badge near the title and marks Google Play as unavailable', () => {
+  const html = renderRockimalsBlogArticle({
+    post: post({ locale: 'tr', cta: { id: 'app-store', label: 'Rockimals’ı App Store’dan indirin' } }),
+    ctaHref: 'https://apps.apple.com/gb/app/rockimals/id6792505608',
+    preview: true
+  });
+
+  const hero = html.match(/<header class="rkb-hero">([\s\S]*?)<\/header>/)?.[1] ?? '';
+  assert.match(hero, /class="rkb-app-store" href="https:\/\/apps\.apple\.com\/gb\/app\/rockimals\/id6792505608"/);
+  assert.match(hero, /download-on-the-app-store\.svg" alt="Rockimals’ı App Store’dan indirin"/);
+  assert.match(hero, /Google Play · İncelemede/);
+  assert.ok(hero.indexOf('rkb-store-actions') < hero.indexOf('rkb-cover'));
+  assert.doesNotMatch(hero, /DuniaOps Team|DuniaOps Ekibi|Yayınlandı/);
+  assert.match(html, /class="rkb-footer-credit">© 2026 Rockimals[\s\S]*DuniaOps Team[\s\S]*Yayınlandı/);
+  assert.equal((html.match(/data-rockimals-cta=/g) ?? []).length, 1);
+  assert.doesNotMatch(hero, /href="https:\/\/play\.google\.com/);
+});
+
 test('renders fixed cover dimensions and a lazy portrait experience image', () => {
   const html = renderRockimalsBlogArticle({ post: post(), experience });
 
   assert.match(html, /class="rkb-cover"><img[^>]+width="1200" height="630"/);
   assert.match(html, /class="rkb-experience-visual"><img[^>]+width="828" height="1800" loading="lazy" decoding="async"/);
+});
+
+test('does not label a different resolved CTA as an App Store download', () => {
+  const html = renderRockimalsBlogArticle({
+    post: post({ cta: { id: 'learn-more', label: 'Learn more' } }),
+    ctaHref: 'https://example.com/guide'
+  });
+
+  assert.match(html, /data-rockimals-cta="learn-more">Learn more<\/a>/);
+  assert.doesNotMatch(html, /download-on-the-app-store\.svg|Google Play · In review/);
 });
 
 test('omits related UI when the publication manifest provides no related posts', () => {
@@ -134,5 +162,5 @@ test('article CSS includes narrow-screen, table overflow, focus, and reduced-mot
   assert.match(css, /"Noto Sans JP"/);
   assert.match(css, /"Noto Sans KR"/);
   assert.match(css, /"Noto Sans SC"/);
-  assert.match(css, /\.rkb-primary-action \{[^}]+color: var\(--rkb-night\)/);
+  assert.match(css, /\.rkb-store-actions \{[^}]+flex-wrap: wrap/);
 });
