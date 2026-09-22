@@ -5,9 +5,9 @@ slug: "how-to-play-rockimals"
 title: "How to Play Rockimals: Meet Your First Space Visitor"
 description: "Open Radar, meet a real near-Earth visitor, read its facts and unlock a story in Rockimals with this simple first-session guide for families."
 category: "discover-game"
-published: "2099-01-01T10:00:00Z"
-updated: "2099-01-01T10:00:00Z"
-draft: true
+published: "2026-09-22T19:39:00Z"
+updated: "2026-09-22T19:39:00Z"
+draft: false
 image: "/assets/rockimals-blog/rockimals-getting-started/cover.jpg"
 imageAlt: "Niko and Enoli orbiting a simple Radar graphic in a Rockimals space scene"
 author:

@@ -5,9 +5,9 @@ slug: "rockimals-no-asobikata"
 title: "Rockimalsの遊び方：はじめての宇宙の訪問者に会おう"
 description: "レーダーを開き、地球に近づく本物の天体を見つけ、情報を確かめてRockimalsではじめてのお話へ進む方法を紹介します。"
 category: "discover-game"
-published: "2099-01-01T10:00:00Z"
-updated: "2099-01-01T10:00:00Z"
-draft: true
+published: "2026-09-22T19:39:00Z"
+updated: "2026-09-22T19:39:00Z"
+draft: false
 image: "/assets/rockimals-blog/rockimals-getting-started/cover.jpg"
 imageAlt: "Rockimalsの宇宙でシンプルなレーダーの輪を回るNikoとEnoli"
 author:

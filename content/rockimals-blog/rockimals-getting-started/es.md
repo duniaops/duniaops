@@ -5,9 +5,9 @@ slug: "como-jugar-a-rockimals"
 title: "Cómo jugar a Rockimals: conoce a tu primer visitante espacial"
 description: "Abre el Radar, conoce un objeto real que pasa cerca de la Tierra, consulta sus datos y empieza tu primera historia en Rockimals."
 category: "discover-game"
-published: "2099-01-01T10:00:00Z"
-updated: "2099-01-01T10:00:00Z"
-draft: true
+published: "2026-09-22T19:39:00Z"
+updated: "2026-09-22T19:39:00Z"
+draft: false
 image: "/assets/rockimals-blog/rockimals-getting-started/cover.jpg"
 imageAlt: "Niko y Enoli alrededor de unos sencillos círculos de Radar en el espacio de Rockimals"
 author:

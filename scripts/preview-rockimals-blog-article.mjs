@@ -3,10 +3,10 @@ import path from 'node:path';
 import { fileURLToPath } from 'node:url';
 import { ROCKIMALS_BLOG_CATEGORIES, ROCKIMALS_BLOG_LOCALES } from './rockimals-blog-content.mjs';
 import { ROCKIMALS_ARTICLE_UI, renderRockimalsBlogArticle } from './rockimals-blog-article.mjs';
+import { ROCKIMALS_APP_STORE_URL } from './rockimals-blog-cta.mjs';
 
 const ROOT = path.resolve(path.dirname(fileURLToPath(import.meta.url)), '..');
 const OUTPUT_DIR = path.join(ROOT, '.rockimals-blog-preview', 'articles');
-const APP_STORE_URL = 'https://apps.apple.com/gb/app/rockimals/id6792505608';
 
 const TITLES = {
   en: 'How does Rockimals work? Meet your first visitor and begin exploring',
@@ -77,7 +77,7 @@ async function main() {
     const home = locale === 'en' ? '/' : `/${locale}`;
     const html = renderRockimalsBlogArticle({
       post: previewPost(locale, landing),
-      ctaHref: APP_STORE_URL,
+      ctaHref: ROCKIMALS_APP_STORE_URL,
       experience: {
         title: landing.insideTitle,
         text: landing.shot1Text,

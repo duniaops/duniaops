@@ -5,9 +5,9 @@ slug: "rockimals-play-guide"
 title: "Rockimals 플레이 방법: 첫 우주 방문자를 만나 보세요"
 description: "레이더를 열고 지구에 가까이 오는 실제 천체를 만나 정보를 살펴본 뒤, Rockimals의 첫 이야기로 이어지는 방법을 안내합니다."
 category: "discover-game"
-published: "2099-01-01T10:00:00Z"
-updated: "2099-01-01T10:00:00Z"
-draft: true
+published: "2026-09-22T19:39:00Z"
+updated: "2026-09-22T19:39:00Z"
+draft: false
 image: "/assets/rockimals-blog/rockimals-getting-started/cover.jpg"
 imageAlt: "Rockimals 우주에서 단순한 레이더 원을 돌고 있는 Niko와 Enoli"
 author:

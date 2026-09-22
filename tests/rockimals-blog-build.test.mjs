@@ -95,6 +95,9 @@ test('article metadata and structured data match the visible localized article',
   assert.equal(breadcrumbs.itemListElement.at(-1).name, 'Published title tr');
   assert.match(html, /<meta property="og:type" content="article">/);
   assert.match(html, /<link rel="alternate" hreflang="en" href="https:\/\/rockimals\.duniaops\.com\/blog\/published-en">/);
+  assert.match(html, /data-rockimals-cta="app-store"/);
+  assert.match(html, /href="https:\/\/apps\.apple\.com\/gb\/app\/rockimals\/id6792505608"/);
+  assert.match(html, /download-on-the-app-store\.svg/);
 });
 
 test('rebuild removes only owned stale output and never invents withdrawn article URLs', async () => {

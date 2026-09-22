@@ -5,9 +5,9 @@ slug: "rockimals-spielen-erster-weltraumbesucher"
 title: "So spielst du Rockimals: Triff deinen ersten Weltraumbesucher"
 description: "Öffne den Radar, triff ein echtes erdnahes Objekt, sieh dir seine Daten an und beginne deine erste Geschichte in Rockimals."
 category: "discover-game"
-published: "2099-01-01T10:00:00Z"
-updated: "2099-01-01T10:00:00Z"
-draft: true
+published: "2026-09-22T19:39:00Z"
+updated: "2026-09-22T19:39:00Z"
+draft: false
 image: "/assets/rockimals-blog/rockimals-getting-started/cover.jpg"
 imageAlt: "Niko und Enoli kreisen in einer Rockimals-Weltraumszene um schlichte Radar-Ringe"
 author:

@@ -1,6 +1,6 @@
 # Konu 01 brief — Rockimals nasıl oynanır?
 
-- **Durum:** İngilizce ve Türkçe kaynak taslakları tamamlandı; altı dil ve yayın incelemesi bekleniyor.
+- **Durum:** Sekiz yerelleştirilmiş rehber 2026-09-22'de ürün sahibi onayıyla yayına alındı; altı dil için bağımsız ana dili editörü incelemesi takip işi olarak açık.
 - **İnceleme tarihi:** 2026-09-22
 - **Canlı uygulama sürümü:** iOS 1.3.0, 2026-09-19 mağaza sürümü
 - **Translation key:** `rockimals-getting-started`
@@ -63,7 +63,7 @@
 - **Bilim/kurgu sınırı:** tamamlandı; NASA/JPL verisi ile karakter/hikâye kurgusu açıkça ayrıldı.
 - **English anlam/terim incelemesi:** tamamlandı; `Radar`, `Story library`, `Earth Shield`, `Rockimals Plus` uygulama kaynaklarıyla eşleşiyor.
 - **Türkçe anlam/terim incelemesi:** tamamlandı; `Radar`, `Hikâye kitaplığı`, `Dünya Kalkanı`, `Rockimals Plus` uygulama kaynaklarıyla eşleşiyor; metin doğrudan uyarlama olarak yazıldı.
-- **Açık yayın maddesi:** Bağımsız editoryal onay ve kalan altı dil tamamlanmadı. Bu nedenle iki kaynak `draft: true`, yayın tarihi placeholder ve kamu paketi kapalıdır.
+- **Yayın kararı:** Ürün sahibi 2026-09-22'de mevcut önizlemeyi onaylayıp yayını açıkça istedi. Sekiz dil aynı anda `draft: false` ve `2026-09-22T19:39:00Z` yayın tarihiyle açıldı. Altı dilde bağımsız ana dili editörü incelemesi yapılmış gibi gösterilmiyor; bu eksik, ürün sahibi onayıyla kabul edilen yayın istisnası ve takip işidir.
 
 Çözülmemiş olgusal veya EN/TR terim sorunu yoktur. Canlı ürün ya da arama sonuçları değişirse sürüm/tarih ve niyet incelemesi yayın öncesi yenilenmelidir.
 
@@ -91,6 +91,6 @@
 
 ### Sekizli envanter ve yayın durumu
 
-`en`, `tr`, `ja`, `ko`, `zh-Hans`, `fr`, `de`, `es` kaynaklarının tamamı `rockimals-getting-started` altında mevcuttur. Sekiz dosyanın da `draft: true`, placeholder yayın tarihi, `reviewedAppVersion: "1.3.0"`, ortak kategori/görsel ve yerelleştirilmiş slug/metadata/CTA değerleri vardır.
+`en`, `tr`, `ja`, `ko`, `zh-Hans`, `fr`, `de`, `es` kaynaklarının tamamı `rockimals-getting-started` altında mevcuttur. Sekiz dosyanın da `draft: false`, ortak 2026-09-22 yayın tarihi, `reviewedAppVersion: "1.3.0"`, ortak kategori/görsel ve yerelleştirilmiş slug/metadata/CTA değerleri vardır.
 
-Olgusal veya uygulama terminolojisi açısından açık bir çelişki bulunmuyor. Ancak altı yeni dil için bağımsız ana dili editörü onayı yapılmadı; bu durum yayın engelidir ve tamamlanmış native review olarak sunulmaz. Nihai sekizli render, link ve metadata kontrolü Spec 034 kapsamındadır.
+Olgusal veya uygulama terminolojisi açısından açık bir çelişki bulunmuyor. Altı yeni dil için bağımsız ana dili editörü onayı yapılmadı; 2026-09-22'deki ürün sahibi yayın onayıyla bu engel istisna olarak kabul edildi, fakat native review tamamlanmış sayılmaz. Bu inceleme ve düzeltme ihtimali sonraki editoryal kontrolde açık kalır. Nihai sekizli render, link ve metadata kontrolü Spec 034 kapsamındadır.

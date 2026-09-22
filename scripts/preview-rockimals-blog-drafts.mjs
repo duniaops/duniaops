@@ -6,11 +6,11 @@ import {
   ROCKIMALS_BLOG_CATEGORIES
 } from './rockimals-blog-content.mjs';
 import { renderRockimalsBlogArticle } from './rockimals-blog-article.mjs';
+import { ROCKIMALS_APP_STORE_URL } from './rockimals-blog-cta.mjs';
 
 const ROOT = path.resolve(path.dirname(fileURLToPath(import.meta.url)), '..');
 const CONTENT_DIR = path.join(ROOT, 'content', 'rockimals-blog');
 const OUTPUT_DIR = path.join(ROOT, '.rockimals-blog-preview', 'drafts');
-const APP_STORE_URL = 'https://apps.apple.com/gb/app/rockimals/id6792505608';
 
 const EXPERIENCE_COPY = Object.freeze({
   en: Object.freeze({
@@ -108,7 +108,7 @@ async function main() {
       };
       const html = renderRockimalsBlogArticle({
         post: previewPost,
-        ctaHref: APP_STORE_URL,
+        ctaHref: ROCKIMALS_APP_STORE_URL,
         experience: copy ? {
           title: copy.title,
           text: copy.text,

@@ -5,9 +5,9 @@ slug: "rockimals-nasil-oynanir"
 title: "Rockimals Nasıl Oynanır? İlk Uzay Ziyaretçinle Tanış"
 description: "Radar'ı açın, Dünya'ya yaklaşan gerçek bir ziyaretçiyle tanışın, bilgilerini inceleyin ve Rockimals'taki ilk hikâyenize geçin."
 category: "discover-game"
-published: "2099-01-01T10:00:00Z"
-updated: "2099-01-01T10:00:00Z"
-draft: true
+published: "2026-09-22T19:39:00Z"
+updated: "2026-09-22T19:39:00Z"
+draft: false
 image: "/assets/rockimals-blog/rockimals-getting-started/cover.jpg"
 imageAlt: "Rockimals uzay sahnesinde sade Radar halkalarının çevresindeki Niko ve Enoli"
 author:

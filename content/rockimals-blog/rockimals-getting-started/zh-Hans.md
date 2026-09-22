@@ -5,9 +5,9 @@ slug: "rockimals-zenme-wan"
 title: "Rockimals怎么玩：认识你的第一位太空访客"
 description: "打开雷达，认识一颗正在接近地球的真实天体，查看它的信息，然后在Rockimals中开启你的第一个故事。"
 category: "discover-game"
-published: "2099-01-01T10:00:00Z"
-updated: "2099-01-01T10:00:00Z"
-draft: true
+published: "2026-09-22T19:39:00Z"
+updated: "2026-09-22T19:39:00Z"
+draft: false
 image: "/assets/rockimals-blog/rockimals-getting-started/cover.jpg"
 imageAlt: "Rockimals太空场景中，Niko和Enoli环绕着简洁的雷达圆环"
 author:
