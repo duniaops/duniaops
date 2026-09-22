@@ -108,6 +108,20 @@ test('does not label a different resolved CTA as an App Store download', () => {
   assert.doesNotMatch(html, /download-on-the-app-store\.svg|Google Play · In review/);
 });
 
+test('table of contents does not add a second number to numbered headings', async () => {
+  const html = renderRockimalsBlogArticle({
+    post: post({
+      bodyMarkdown: '## 1. Open the Radar\n\nStart here.\n\n## 2. Meet a visitor\n\nKeep going.\n\n## Sources\n\nRead more.'
+    })
+  });
+  const toc = html.match(/<nav class="rkb-toc"[\s\S]*?<\/nav>/)?.[0] ?? '';
+  const css = await readFile(new URL('../css/rockimals-blog.css', import.meta.url), 'utf8');
+
+  assert.match(toc, /<ul><li><a[^>]*>1\. Open the Radar<\/a><\/li>/);
+  assert.match(toc, /<li><a[^>]*>Sources<\/a><\/li><\/ul>/);
+  assert.match(css, /\.rkb-toc ul \{[^}]*list-style: none/);
+});
+
 test('omits related UI when the publication manifest provides no related posts', () => {
   const html = renderRockimalsBlogArticle({ post: post() });
   assert.doesNotMatch(html, /class="rkb-related"/);

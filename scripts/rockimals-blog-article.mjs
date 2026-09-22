@@ -247,7 +247,7 @@ export function renderRockimalsBlogArticle({
   const home = rockimalsProductPath(post.locale);
   const showUpdated = post.updated !== post.published;
   const toc = rendered.toc.length >= 2
-    ? `<nav class="rkb-toc" aria-labelledby="toc-title"><h2 id="toc-title">${escapeHtml(ui.contents)}</h2><ol>${rendered.toc.map((item) => `<li><a href="#${escapeHtml(item.id)}">${escapeHtml(item.label)}</a></li>`).join('')}</ol></nav>`
+    ? `<nav class="rkb-toc" aria-labelledby="toc-title"><h2 id="toc-title">${escapeHtml(ui.contents)}</h2><ul>${rendered.toc.map((item) => `<li><a href="#${escapeHtml(item.id)}">${escapeHtml(item.label)}</a></li>`).join('')}</ul></nav>`
     : '';
   const storeActions = ctaHref && post.cta.id === 'app-store'
     ? `<div class="rkb-store-actions"><a class="rkb-app-store" href="${escapeHtml(ctaHref)}" rel="noopener" data-rockimals-cta="${escapeHtml(post.cta.id)}"><img src="/assets/products/download-on-the-app-store.svg" alt="${escapeHtml(post.cta.label)}" width="180" height="60"></a><span class="rkb-google-status"><svg width="27" height="30" viewBox="0 0 29 32" aria-hidden="true" focusable="false"><path fill="#00d0ff" d="M1 1 17 16 1 31Z"/><path fill="#00ef77" d="m1 1 20 11-4 4Z"/><path fill="#ffce00" d="m21 12 7 4-7 4-4-4Z"/><path fill="#ff405b" d="m1 31 16-15 4 4Z"/></svg><span>${escapeHtml(ui.googleReview)}</span></span></div>`
@@ -285,7 +285,7 @@ ${preview ? '<meta name="robots" content="noindex,nofollow">\n' : seo}<meta name
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Fredoka:wght@500;600;700&amp;family=Inter:wght@400;500;600;700;800&amp;family=Noto+Sans+JP:wght@400;600;700&amp;family=Noto+Sans+KR:wght@400;600;700&amp;family=Noto+Sans+SC:wght@400;600;700&amp;display=swap" rel="stylesheet">
-<link rel="stylesheet" href="/css/rockimals-blog.css?v=20260922-store-actions">
+<link rel="stylesheet" href="/css/rockimals-blog.css?v=20260922-toc">
 </head>
 <body class="rkb-page">
 <a class="rkb-skip" href="#article-content">${escapeHtml(ui.skip)}</a>
