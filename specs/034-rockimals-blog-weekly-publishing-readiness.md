@@ -19,7 +19,7 @@
 - Haftalık kayıt için konu, sekiz dilin hazırlığı, hedef hafta/tarih, sorumlu editör/dil incelemesi, kaynak/URL, yayın/deploy, CTA ve sonraki değerlendirme alanlarını oluştur.
 - Üç konu × sekiz dil = 24 kaynak ile üç görsel paketini gerçek şablon ve yerel önizlemeye bağla. İlk konu yayın adayı olurken sonraki ikisinin taslak kalabildiğini doğrula; kamuya sızmayan önizleme kullan.
 - Build/yayın işletim adımlarını, sekizli paketin tamamlanma koşulunu, bir sorun olduğunda yayını hazır saymama ve sonraki haftayı taşıma davranışını belgeleyerek devret.
-- Başlangıç tarihi ve önerilen salı 10.00 Europe/London saatinin karar durumunu; editoryal/dil sorumluluklarını; dış veri erişimini görünür kaydet. Eksik kararları uydurma, altyapı işlerinin durumundan ayrı tut.
+- İlk konunun 22 Eylül 2026'daki gerçek yayını ile hafta 2'den itibaren kararlaştırılan pazartesi 10.00 Europe/London hedefini ayrı kaydet; editoryal/dil sorumluluklarını ve dış veri erişimini görünür tut. Eksik kararları uydurma, altyapı işlerinin durumundan ayrı tut.
 - 033'ün başlangıç ve 4/8/13. hafta kayıtlarını yayın tarihine göre bağla. Gelecek performans sonucunu veya kalan 49 konunun üretimini bugünkü teslimat koşulu yapma.
 - Deploy/yayın yalnızca ilgili oturumdaki mevcut kullanıcı yetkisi kapsamında gerçekleşirse canlı URL/tarih/sürümü kaydet. Hazırlanmış dosya, başarılı yerel build veya sekiz çeviri tamamlanması canlı yayın değildir.
 

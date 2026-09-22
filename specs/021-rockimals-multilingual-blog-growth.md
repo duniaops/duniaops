@@ -88,7 +88,7 @@ Bilim, kurgusal kahramanlardan ayrılır; olgusal iddialar ilgili NASA/JPL gibi 
 - Trafik yokluğu, veri erişimi yokluğu ve platformun az veri nedeniyle raporu göstermemesi ayrı durumlar olarak kaydedilir. Mağaza tıklaması indirme, indirme de aktif kullanım sayılmaz.
 - Başlangıç kaydı ve 4., 8., 13. hafta inceleme şablonları hazırlanır. Erişilemeyen dış veri için eksik alan, sorumlu ve sonraki takip adımı kaydedilir; tahminle doldurulmaz.
 - Haftalık kayıt; konu kimliği, sekiz dilin hazırlık durumu, hedef hafta, kaynak dosyalar, canlı URL'ler, yayın sürümü/tarihi, CTA, ölçüm durumu ve sonraki değerlendirme tarihini tutar. Bir konu ancak sekiz sürümü canlı ve kullanılabilir olduğunda tam yayın paketi sayılır.
-- Yayın ritmi haftada bir konudur. Önerilen salı 10.00 Europe/London saati ve başlangıç tarihi henüz kullanıcı kararı değildir. Takvim başlamadan netleştirilir; açık tarih kararı altyapı veya taslak üretimini engellemez.
+- Yayın ritmi haftada bir konudur. İlk konu 22 Eylül 2026'da yayımlandı; kullanıcı 22 Eylül'de sonraki konular için pazartesi 10.00 Europe/London hedefini ve otomatik yayın/hatırlatma akışını kesinleştirdi. Hazır olmayan sekizli paket yayımlanmaz; sıra sonraki haftaya taşınır. Ayrıntı [haftalık yayın runbook'unda](../docs/rockimals-blog-weekly-publishing.md) tutulur.
 
 ### Nice-to-haves — ilk teslimattan sonra
 
@@ -116,7 +116,7 @@ Bilim, kurgusal kahramanlardan ayrılır; olgusal iddialar ilgili NASA/JPL gibi 
 - [ ] **AC4 — İlk üç konu tamam:** 01, 15 ve 28 kimlikli konular için üç kaynak brief, toplam 24 tamamlanmış dil sürümü ve konuya uygun üç kapak/görsel paketi hazırlanmıştır. Her sürümün başlığı, açıklaması, alt metni, CTA'sı ve terimleri yereldir; içerik bağımsız olarak soruyu cevaplar. Kaynaklar ve dil inceleme durumu kaydedilir; çözülmemiş olgusal/çeviri sorunu varsa paket yayına hazır diye işaretlenmez. İlk hafta yalnızca bir sekizli grubun yayımlanması, diğer iki grubun taslak kalması desteklenir.
 - [ ] **AC5 — Kaynak ve ürün doğruluğu:** Başlangıç paketindeki her oyun görseli mevcut repo kaynağına/sürümüne eşlenir; orijinaller değişmez. Ürün iddiaları doğrulanan mağaza sürümü ve tarihini taşır. Bilimsel iddialar birincil kaynaklara bağlanır; kurgu, NASA ilişkisi, ücretsiz/Plus, yaş ve veri işleme ifadeleri yanlış beklenti yaratmaz. Ekran görüntülerinin dili ilgili yazıyla eşleşir.
 - [ ] **AC6 — Çalışan dönüşüm ve dürüst ölçüm:** Her yazıdan doğrulanmış mağaza hedefine gidilebilir; kullanılamayan platform için indirme vaadi bulunmaz. Kampanya bilgisi varsa doğrulanmış bağlantı, yoksa çalışan normal bağlantı kullanılır. Ölçüm kaydı organik tıklama, mağaza ilgisi, indirme ve kullanımı ayırır; erişilemeyen/az veri nedeniyle gizlenen değerleri sıfır saymaz. Bu teslimat uygulamaya çocuk davranışı takibi veya yeni tarayıcı analitik servisi eklemez.
-- [ ] **AC7 — Sürdürülebilir yayın devri:** 52 aday konu ve ilk 13 hafta kaynak plana bağlıdır; haftada bir konu × sekiz dil kuralı, üç konuluk başlangıç tamponu, sekiz dilin hazırlık/yayın kaydı ve 4/8/13. hafta değerlendirme şablonları belgelenmiştir. Henüz verilmemiş başlangıç tarihi, editoryal sorumluluk ve dış veri erişimi açık kayıttadır. Gelecekteki 49 konunun yazılması veya 13 haftalık trafik sonucunun oluşması ilk teslimatın kapanış koşulu değildir; canlı yayın/deploy ayrıca gerçekten gerçekleştiğinde kaydedilir.
+- [ ] **AC7 — Sürdürülebilir yayın devri:** 52 aday konu ve ilk 13 hafta kaynak plana bağlıdır; haftada bir konu × sekiz dil kuralı, üç konuluk başlangıç tamponu, sekiz dilin hazırlık/yayın kaydı ve 4/8/13. hafta değerlendirme şablonları belgelenmiştir. Pazartesi yayın hedefi kararlaştırılmıştır; editoryal sorumluluk ve dış veri erişimi açık kayıttadır. Gelecekteki 49 konunun yazılması veya 13 haftalık trafik sonucunun oluşması ilk teslimatın kapanış koşulu değildir; canlı yayın/deploy ayrıca gerçekten gerçekleştiğinde kaydedilir.
 
 ## Out of Scope
 
@@ -132,11 +132,11 @@ Bilim, kurgusal kahramanlardan ayrılır; olgusal iddialar ilgili NASA/JPL gibi 
 
 | Soru | Öneri / mevcut durum | Ne zaman gerekli? |
 | --- | --- | --- |
-| İlk yayın tarihi ve sabit gün/saat nedir? | Plan önerisi salı 10.00 Europe/London; karar verilmedi | Haftalık yayının başlangıcında |
+| İlk yayın tarihi ve sabit gün/saat nedir? | İlk konu 22 Eylül 2026'da yayımlandı; hafta 2'den itibaren pazartesi 10.00 Europe/London hedefi 22 Eylül'de kararlaştırıldı | Karar verildi; takvim ve gerçekleşen yayın ayrı izlenir |
 | Editoryal ve sekiz dilin anlam/terim incelemesini kim üstlenecek? | Sorumlu editör ve dil inceleme sorumlulukları kaydedilmeli; isim atanmadı | Başlangıç paketine “yayına hazır” denmeden önce |
 | Search Console ve App Store Connect verilerine erişim var mı? | Bu çalışma için erişim doğrulanmadı; yoksa alanlar bilinmiyor kalır | Canlı başlangıç ölçümü ve kampanya atfında |
 | Her dilde öncelikli ülke/pazar hangisi? | Sekiz dil kesin; ülke dağılımı kesin değil. İlk brief'lerde seçilen pazar varsayımı kaydedilir | Dil bazlı anahtar kelime araştırmasında |
-| İleride yayın elle mi, zamanlanmış süreçle mi işletilecek? | MVP belgelenmiş build/deploy akışı; otomasyon bu spec'in ilk teslimatına dahil değil | Yinelenen yayın işi oluşturulurken |
+| İleride yayın elle mi, zamanlanmış süreçle mi işletilecek? | Kullanıcı zamanlanmış yayın ve hatırlatma istedi; hazır olma, deploy ve canlı doğrulama kapıları ayrı runbook'ta. Yerel zamanlayıcı bilgisayar ve Codex uygulaması açıkken çalışır. | Otomasyonun ilk birkaç çalışmasında gözden geçirilmeli |
 
 Bu sorular spec'i yazmayı veya ortak altyapıyı hazırlamayı engellemez. Kullanıcının kesinleştirdiği sekiz dil ve haftada bir konu kararları tekrar sorulmaz.
 

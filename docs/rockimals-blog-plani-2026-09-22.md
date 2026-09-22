@@ -1,8 +1,8 @@
 # Rockimals: sekiz dilde haftalık blog ve organik büyüme planı
 
-Hazırlanma tarihi: 22 Eylül 2026. Durum: uygulanabilir yayın planı; henüz blog altyapısı kurulmadı veya yazı yayımlanmadı.
+Hazırlanma tarihi: 22 Eylül 2026. Durum: blog altyapısı ve ilk sekiz dilli konu yayında; sonraki konular haftalık sırayla hazırlanır ve yayımlanır.
 
-Kullanıcı kararı: haftada bir özgün konu, sitenin sekiz dilinde yayın — English, Türkçe, 日本語, 한국어, 简体中文, Français, Deutsch, Español.
+Kullanıcı kararı: haftada bir özgün konu, sitenin sekiz dilinde yayın — English, Türkçe, 日本語, 한국어, 简体中文, Français, Deutsch, Español. 22 Eylül 2026'da pazartesi yayın ritmi ve otomatik yayın/hatırlatma isteği kesinleşti.
 
 ## 1. Karar ve içerik kapasitesi
 
@@ -150,7 +150,7 @@ Bu grubun ana amacı bağlılık ve ürün tanıtımıdır. Her yazı farklı bi
 
 ## 5. İlk 13 haftanın yayın sırası
 
-Öneri: altyapı ve ilk içerik tamponu hazır olduktan sonra her salı 10.00 Europe/London. Bu saat bir operasyon tercihi; SEO avantajı iddiası değildir. Henüz başlangıç tarihi veya çalışan zamanlanmış görev oluşturulmadı. İlk yayından önce üç konu × sekiz dil = 24 sayfalık taslak tampon hazırlanması önerilir.
+Konu 01, 22 Eylül 2026 Salı günü kullanıcı onayıyla sekiz dilde yayımlandı. **Hafta 2'den itibaren hedef her pazartesi 10.00 Europe/London:** 28 Eylül'de konu 15, 5 Ekim'de konu 28, 12 Ekim'de konu 04. Bu saat bir operasyon tercihidir; SEO avantajı iddiası değildir. Cuma 10.00 Europe/London hazırlık hatırlatması, pazartesi 10.00 yayın çalıştırması için hedeflenir. İki ayrı konu aynı hafta yayımlanmaz; tamamlanmamış sekizli paket atlanıp sıradaki konuya geçilmez. Taslaklar önceden hazırlanabilir, fakat topluca yayımlanmaz. İşletim ve güvenlik kapıları [haftalık yayın runbook'unda](rockimals-blog-weekly-publishing.md) tutulur.
 
 | Hafta | ID | Konu | Öncelik nedeni | Ana görsel |
 | ---: | --- | --- | --- | --- |
