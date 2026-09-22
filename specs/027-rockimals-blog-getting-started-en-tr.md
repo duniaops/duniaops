@@ -3,7 +3,7 @@
 **Type:** Task
 **Priority:** P2 — ana epic'in planlı çalışma önceliği; acil teslim tarihi yok.
 **Risk:** Medium
-**Status:** Planned — implementation not started
+**Status:** Implemented — İngilizce/Türkçe kaynaklar ve özel taslak önizlemesi doğrulandı (2026-09-22)
 **Depends on:** [022 — içerik sözleşmesi](022-rockimals-blog-content-contract.md), [026 — ürün ve görsel referansı](026-rockimals-blog-editorial-assets.md).
 **Parent:** [021 — Rockimals çok dilli blog epic'i](021-rockimals-multilingual-blog-growth.md)
 **Plan:** [52 konu ve ilk 13 hafta](../docs/rockimals-blog-plani-2026-09-22.md)
@@ -25,12 +25,12 @@
 
 ## Acceptance Criteria
 
-- [ ] **AC1:** Konu 01 için bir tamamlanmış brief, İngilizce ve Türkçe iki Markdown kaynağı vardır; aynı translationKey, doğru dil/slug ve draft durumu kullanılır.
-- [ ] **AC2:** İki dil için anahtar kelime/pazar varsayımı ve incelenen arama niyeti kayıtlıdır; hacim, trafik veya sıralama sayısı uydurulmaz.
-- [ ] **AC3:** Her metin soruya doğrudan cevap verir; özgün ürün/bilim örneği ve konuya uygun sonraki adım içerir. Türkçe metin kelimesi kelimesine çeviri veya yarım İngilizce sayfa değildir.
-- [ ] **AC4:** Kaynaklar, uygulama sürüm/tarih gereksinimi ve 026 ürün sınırları uygulanır; bilim/kurgu, ücretsiz/Plus ve veri işleme konusunda desteklenmeyen iddia bulunmaz.
-- [ ] **AC5:** İki dilin title/description/imageAlt/CTA/terimleri tamamdır; ilgili dilde ekran veya metinsiz görsel kullanılır. Desteklenmeyen deep link, yayınlanmamış ilgili URL veya sahte yazar onayı yoktur.
-- [ ] **AC6:** Anlam/terim inceleme durumu ve kalan sorunlar kayıtlıdır; çözülmemiş olgusal/çeviri sorunuyla kaynak 'hazır' sayılmaz. Bu iki dil tek başına kamuya açık paket olarak yayımlanmaz.
+- [x] **AC1:** Konu 01 için bir tamamlanmış brief, İngilizce ve Türkçe iki Markdown kaynağı vardır; aynı translationKey, doğru dil/slug ve draft durumu kullanılır.
+- [x] **AC2:** İki dil için anahtar kelime/pazar varsayımı ve incelenen arama niyeti kayıtlıdır; hacim, trafik veya sıralama sayısı uydurulmaz.
+- [x] **AC3:** Her metin soruya doğrudan cevap verir; özgün ürün/bilim örneği ve konuya uygun sonraki adım içerir. Türkçe metin kelimesi kelimesine çeviri veya yarım İngilizce sayfa değildir.
+- [x] **AC4:** Kaynaklar, uygulama sürüm/tarih gereksinimi ve 026 ürün sınırları uygulanır; bilim/kurgu, ücretsiz/Plus ve veri işleme konusunda desteklenmeyen iddia bulunmaz.
+- [x] **AC5:** İki dilin title/description/imageAlt/CTA/terimleri tamamdır; ilgili dilde ekran veya metinsiz görsel kullanılır. Desteklenmeyen deep link, yayınlanmamış ilgili URL veya sahte yazar onayı yoktur.
+- [x] **AC6:** Anlam/terim inceleme durumu ve kalan sorunlar kayıtlıdır; çözülmemiş olgusal/çeviri sorunuyla kaynak 'hazır' sayılmaz. Bu iki dil tek başına kamuya açık paket olarak yayımlanmaz.
 
 ## Validation
 
@@ -42,6 +42,16 @@ Diğer altı dil, ortak görsel/terim altyapısı, şablon kodu, kampanya yapıl
 
 ## Completion Record
 
-İki kaynak dosyası, ortak brief, incelenen kaynak/pazar kaydı, konuya özgü çeviri notları ve çözülmüş/açık inceleme maddeleri.
+**Tamamlandı:** 2026-09-22
 
-Kapanışta değişen dosyaları, kanıtları ve açık maddeleri kaydet. Uygulama tamamlanmadıysa kabul kutularını işaretleme. Bu spec'i yazmak commit, push veya yayın işleminin gerçekleştiği anlamına gelmez.
+- Kaynaklar: `content/rockimals-blog/rockimals-getting-started/en.md` ve `tr.md`, ortak `rockimals-getting-started` translation key'iyle, yerel ASCII slug'larla, `draft: true`, `productGuide: true` ve `reviewedAppVersion: "1.3.0"` olarak hazırlandı. Yayın tarihi bilerek uzak gelecek placeholder'ıdır.
+- Brief: `content/rockimals-blog/_editorial/rockimals-getting-started-brief.md`, okuyucu/tek soru/özgün açı, EN-GB ve TR-TR pazar varsayımı, sorgu örneklemesi, kaynaklar, görsel, CTA, inceleme ve yayın blokajını kaydeder.
+- Arama niyeti: 22 Eylül 2026 örneklemesinde İngilizce veya Türkçe adım adım Rockimals rehberi bulunmadı; benzer adlı uygulamalar ve ilgisiz genel oyun kuralları baskındı. İçerik bu nedenle markalı ilk kullanım/navigasyon niyetine göre yazıldı; hacim, zorluk, trafik veya sıralama sayısı eklenmedi.
+- İçerik akışı: Radar'da ziyaretçi seçme, bilgi kartındaki boyut/mesafe/hız karşılaştırması, resmî kodun ebeveyn kapılı gerçekler alanındaki yeri, hikâyeye geçiş, Hikâye kitaplığı ve tek bir sonraki Dünya Kalkanı/karşılaştırma adımı anlatıldı.
+- Ürün sınırları: Gerçek NASA/JPL ölçüleri hayvan/karakter/hikâye kurgusundan; sabit sekiz kahraman×beş bölüm kataloğu günlük erişim hakkından; ücretsiz kullanım Plus'tan; reklamsız/hesapsız davranış sınırlı teknik veri işlemeden ayrıldı. NASA bağlantısı/onayı, Android yayını veya deep link iddiası eklenmedi.
+- Yerelleştirme: English `Radar`, `Story library`, `Earth Shield`, `Rockimals Plus`; Türkçe `Radar`, `Hikâye kitaplığı`, `Dünya Kalkanı`, `Rockimals Plus` terimleri 026 kaydıyla eşleştirildi. Türkçe metin cümle cümle çeviri yerine yerel anlatım akışıyla yazıldı.
+- Görsel/CTA: İki kaynak ortak metinsiz 1200×630 konu kapağını ve yerel alt metni kullanır. Özel taslak önizlemesi aynı dilde 1.3.0 Radar ekranını gösterir. CTA yalnızca doğrulanmış App Store hedefli `app-store` kimliğidir; `relatedPosts` henüz boştur.
+- Önizleme: `scripts/preview-rockimals-blog-drafts.mjs` ve `npm run preview:rockimals-blog-drafts`, iki gerçek kaynağı `.rockimals-blog-preview/drafts/rockimals-getting-started/{en,tr}.html` altında `noindex,nofollow` olarak üretir. EN/TR masaüstü başlık, kapak, içerik, dil menüsü, yerel Radar ekranı ve CTA görünümü tarayıcıda incelendi.
+- Doğrulama: `npm run check:rockimals-blog` iki geçerli taslak kaynak ve sıfır yayımlanabilir paket bildirdi. Tam site/test doğrulaması bu değişikliklerle yeniden çalıştırıldı. Mobil oyun testi veya deploy yapılmadı.
+
+**Açık yayın maddesi:** Bağımsız editoryal onay ve 028 kapsamındaki diğer altı dil tamamlanmadı. Bu iki dosya tek başına public manifest veya canlı sayfa üretmez; çözülmemiş EN/TR olgusal ya da terim sorunu yoktur.

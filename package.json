@@ -15,6 +15,7 @@
     "check:invite": "node scripts/check-zoday-invite.mjs",
     "preview:rockimals-blog-article": "node scripts/preview-rockimals-blog-article.mjs",
     "preview:rockimals-blog-content": "node scripts/check-rockimals-blog-content.mjs --output .rockimals-blog-preview/manifest.json",
+    "preview:rockimals-blog-drafts": "node scripts/preview-rockimals-blog-drafts.mjs",
     "preview:rockimals-blog-index": "node scripts/preview-rockimals-blog-index.mjs",
     "render:rockimals-blog-editorial-assets": "swift scripts/render-rockimals-blog-editorial-assets.swift",
     "test": "npm run check:analytics && npm run check:invite && npm run check:rockimals-blog && npm run check:rockimals-blog-editorial-assets && npm run check:rockimals-blog-article && npm run check:rockimals-blog-index && npm run check:rockimals-blog-build && npm run build:site && npm run check:site"
