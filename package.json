@@ -7,12 +7,14 @@
     "build:site": "npm run build:blog && node scripts/build-site.mjs && node scripts/build-zoday-invite.mjs && node scripts/build-zoday-landing.mjs && node scripts/build-rockimals-landing.mjs",
     "check:analytics": "node scripts/check-analytics.mjs",
     "check:rockimals-blog-article": "node --test tests/rockimals-blog-article.test.mjs && node scripts/preview-rockimals-blog-article.mjs",
+    "check:rockimals-blog-index": "node --test tests/rockimals-blog-index.test.mjs && node scripts/preview-rockimals-blog-index.mjs",
     "check:rockimals-blog": "node --test tests/rockimals-blog-content.test.mjs && node scripts/check-rockimals-blog-content.mjs",
     "check:site": "node scripts/check-dist.mjs",
     "check:invite": "node scripts/check-zoday-invite.mjs",
     "preview:rockimals-blog-article": "node scripts/preview-rockimals-blog-article.mjs",
     "preview:rockimals-blog-content": "node scripts/check-rockimals-blog-content.mjs --output .rockimals-blog-preview/manifest.json",
-    "test": "npm run check:analytics && npm run check:invite && npm run check:rockimals-blog && npm run check:rockimals-blog-article && npm run build:site && npm run check:site"
+    "preview:rockimals-blog-index": "node scripts/preview-rockimals-blog-index.mjs",
+    "test": "npm run check:analytics && npm run check:invite && npm run check:rockimals-blog && npm run check:rockimals-blog-article && npm run check:rockimals-blog-index && npm run build:site && npm run check:site"
   },
   "devDependencies": {
     "gray-matter": "4.0.3",

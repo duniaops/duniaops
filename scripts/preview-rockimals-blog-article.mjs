@@ -39,6 +39,9 @@ function previewPost(locale, landing) {
     author: { id: 'duniaops-team', name: 'DuniaOps Team' },
     cta: { id: 'app-store', label: landing.appStore },
     relatedPosts: [],
+    alternatePaths: Object.fromEntries(ROCKIMALS_BLOG_LOCALES.map((targetLocale) => (
+      [targetLocale, `./${targetLocale}.html`]
+    ))),
     source: `preview/${locale}.md`,
     bodyMarkdown: `${landing.heroLead}
 

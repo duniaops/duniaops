@@ -1,10 +1,16 @@
 import MarkdownIt from 'markdown-it';
 import { ROCKIMALS_BLOG_LOCALES } from './rockimals-blog-content.mjs';
+import {
+  rockimalsBlogIndexPath,
+  rockimalsProductPath,
+  renderRockimalsLanguageMenu
+} from './rockimals-blog-navigation.mjs';
 
 export const ROCKIMALS_ARTICLE_UI = Object.freeze({
   en: Object.freeze({
     skip: 'Skip to article',
-    back: 'Back to Rockimals',
+    blog: 'Blog',
+    language: 'Article language',
     quickAnswer: 'Quick answer',
     contents: 'On this page',
     published: 'Published',
@@ -16,7 +22,8 @@ export const ROCKIMALS_ARTICLE_UI = Object.freeze({
   }),
   tr: Object.freeze({
     skip: 'Makaleye geç',
-    back: 'Rockimals’a dön',
+    blog: 'Blog',
+    language: 'Yazı dili',
     quickAnswer: 'Kısa cevap',
     contents: 'Bu sayfada',
     published: 'Yayınlandı',
@@ -28,7 +35,8 @@ export const ROCKIMALS_ARTICLE_UI = Object.freeze({
   }),
   ja: Object.freeze({
     skip: '記事へ移動',
-    back: 'Rockimalsに戻る',
+    blog: 'ブログ',
+    language: '記事の言語',
     quickAnswer: 'かんたんな答え',
     contents: 'このページの内容',
     published: '公開日',
@@ -40,7 +48,8 @@ export const ROCKIMALS_ARTICLE_UI = Object.freeze({
   }),
   ko: Object.freeze({
     skip: '본문으로 이동',
-    back: 'Rockimals로 돌아가기',
+    blog: '블로그',
+    language: '문서 언어',
     quickAnswer: '짧은 답변',
     contents: '이 페이지의 내용',
     published: '게시일',
@@ -52,7 +61,8 @@ export const ROCKIMALS_ARTICLE_UI = Object.freeze({
   }),
   'zh-Hans': Object.freeze({
     skip: '跳到正文',
-    back: '返回 Rockimals',
+    blog: '博客',
+    language: '文章语言',
     quickAnswer: '简短回答',
     contents: '本页内容',
     published: '发布日期',
@@ -64,7 +74,8 @@ export const ROCKIMALS_ARTICLE_UI = Object.freeze({
   }),
   fr: Object.freeze({
     skip: 'Aller à l’article',
-    back: 'Retour à Rockimals',
+    blog: 'Blog',
+    language: 'Langue de l’article',
     quickAnswer: 'Réponse courte',
     contents: 'Dans cet article',
     published: 'Publié le',
@@ -76,7 +87,8 @@ export const ROCKIMALS_ARTICLE_UI = Object.freeze({
   }),
   de: Object.freeze({
     skip: 'Zum Artikel springen',
-    back: 'Zurück zu Rockimals',
+    blog: 'Blog',
+    language: 'Artikelsprache',
     quickAnswer: 'Kurz erklärt',
     contents: 'Auf dieser Seite',
     published: 'Veröffentlicht',
@@ -88,7 +100,8 @@ export const ROCKIMALS_ARTICLE_UI = Object.freeze({
   }),
   es: Object.freeze({
     skip: 'Ir al artículo',
-    back: 'Volver a Rockimals',
+    blog: 'Blog',
+    language: 'Idioma del artículo',
     quickAnswer: 'Respuesta breve',
     contents: 'En esta página',
     published: 'Publicado',
@@ -162,10 +175,6 @@ function formatDate(value, locale) {
   }).format(new Date(value));
 }
 
-function localeHome(locale) {
-  return locale === 'en' ? '/' : `/${locale}`;
-}
-
 function renderRelated(post, ui) {
   if (!post.relatedPosts?.length) return '';
   return `<section class="rkb-related" aria-labelledby="related-title">
@@ -226,7 +235,7 @@ export function renderRockimalsBlogArticle({
   validateRenderInput(post, experience, ctaHref);
   const ui = ROCKIMALS_ARTICLE_UI[post.locale];
   const rendered = renderMarkdown(post.bodyMarkdown, post.source ?? post.translationKey);
-  const home = localeHome(post.locale);
+  const home = rockimalsProductPath(post.locale);
   const showUpdated = post.updated !== post.published;
   const toc = rendered.toc.length >= 2
     ? `<nav class="rkb-toc" aria-labelledby="toc-title"><h2 id="toc-title">${escapeHtml(ui.contents)}</h2><ol>${rendered.toc.map((item) => `<li><a href="#${escapeHtml(item.id)}">${escapeHtml(item.label)}</a></li>`).join('')}</ol></nav>`
@@ -254,7 +263,7 @@ ${preview ? '<meta name="robots" content="noindex,nofollow">\n' : ''}<meta name=
 <header class="rkb-header">
   <div class="rkb-wrap rkb-nav">
     <a class="rkb-brand" href="${home}"><img src="/assets/products/rockimals-icon.png?v=20260919" alt="" width="42" height="42"><span>Rockimals</span></a>
-    <a class="rkb-back" href="${home}">${escapeHtml(ui.back)}</a>
+    <div class="rkb-nav-actions"><a class="rkb-back" href="${rockimalsBlogIndexPath(post.locale)}">${escapeHtml(ui.blog)}</a>${renderRockimalsLanguageMenu({ activeLocale: post.locale, paths: post.alternatePaths, ariaLabel: ui.language })}</div>
   </div>
 </header>
 <main id="article-content">
