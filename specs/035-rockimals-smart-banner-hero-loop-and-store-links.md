@@ -138,3 +138,11 @@ de görünür kalmasını istedi ve bu eki onayladı.
 - Tarayıcı paneli gizli olduğundan `IntersectionObserver` ve kaydırma olayları
   çalışmadı. Mantık, gözlemci konumdan hesaplanarak doğrulandı; gerçek iPhone
   Safari kontrolü AC4'e eklenir.
+
+**Yayın.** `8af9594` 2026-09-23'te `origin/main`'e gönderildi; Netlify yaklaşık
+20 saniyede yayınladı. Canlıda (`curl`):
+
+- `/`, `/tr/` ve `/ja/` çubuğu, stil dosyasını ve betiği taşıyor.
+- `/tr/blog/rockimals-nasil-oynanir/` ve `/blog/how-to-play-rockimals/`
+  çubuğu ve stil dosyasını taşıyor, betik taşımıyor.
+- `css/rockimals-sticky-cta.css` ve `js/rockimals-sticky-cta.js` 200 döndürüyor.
