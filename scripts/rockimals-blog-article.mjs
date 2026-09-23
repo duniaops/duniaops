@@ -6,7 +6,11 @@ import {
   renderRockimalsLanguageMenu
 } from './rockimals-blog-navigation.mjs';
 import { renderRockimalsSeo } from './rockimals-blog-seo.mjs';
-import { ROCKIMALS_SMART_APP_BANNER } from './rockimals-blog-cta.mjs';
+import {
+  ROCKIMALS_SMART_APP_BANNER,
+  ROCKIMALS_STICKY_CTA_STYLE,
+  renderRockimalsStickyCta
+} from './rockimals-blog-cta.mjs';
 
 export const ROCKIMALS_ARTICLE_UI = Object.freeze({
   en: Object.freeze({
@@ -21,7 +25,9 @@ export const ROCKIMALS_ARTICLE_UI = Object.freeze({
     related: 'Keep exploring',
     sources: 'Sources',
     googleReview: 'Google Play · In review',
-    footer: 'A calmer way to explore space.'
+    footer: 'A calmer way to explore space.',
+    stickyText: 'Real asteroids, friendly space animals',
+    stickyClose: 'Close'
   }),
   tr: Object.freeze({
     skip: 'Makaleye geç',
@@ -35,7 +41,9 @@ export const ROCKIMALS_ARTICLE_UI = Object.freeze({
     related: 'Keşfetmeye devam et',
     sources: 'Kaynaklar',
     googleReview: 'Google Play · İncelemede',
-    footer: 'Uzayı keşfetmenin daha sakin bir yolu.'
+    footer: 'Uzayı keşfetmenin daha sakin bir yolu.',
+    stickyText: 'Gerçek asteroitler, sevimli uzay hayvanları',
+    stickyClose: 'Kapat'
   }),
   ja: Object.freeze({
     skip: '記事へ移動',
@@ -49,7 +57,9 @@ export const ROCKIMALS_ARTICLE_UI = Object.freeze({
     related: 'もっと探検する',
     sources: '参考資料',
     googleReview: 'Google Play · 審査中',
-    footer: '宇宙をゆっくり楽しむ方法。'
+    footer: '宇宙をゆっくり楽しむ方法。',
+    stickyText: '本物の小惑星が、かわいい宇宙どうぶつに',
+    stickyClose: '閉じる'
   }),
   ko: Object.freeze({
     skip: '본문으로 이동',
@@ -63,7 +73,9 @@ export const ROCKIMALS_ARTICLE_UI = Object.freeze({
     related: '계속 탐험하기',
     sources: '출처',
     googleReview: 'Google Play · 검토 중',
-    footer: '우주를 차분하게 탐험하는 방법.'
+    footer: '우주를 차분하게 탐험하는 방법.',
+    stickyText: '진짜 소행성이 귀여운 우주 동물로',
+    stickyClose: '닫기'
   }),
   'zh-Hans': Object.freeze({
     skip: '跳到正文',
@@ -77,7 +89,9 @@ export const ROCKIMALS_ARTICLE_UI = Object.freeze({
     related: '继续探索',
     sources: '资料来源',
     googleReview: 'Google Play · 审核中',
-    footer: '用更从容的方式探索太空。'
+    footer: '用更从容的方式探索太空。',
+    stickyText: '真实的小行星，变成可爱的太空动物',
+    stickyClose: '关闭'
   }),
   fr: Object.freeze({
     skip: 'Aller à l’article',
@@ -91,7 +105,9 @@ export const ROCKIMALS_ARTICLE_UI = Object.freeze({
     related: 'Continuer l’exploration',
     sources: 'Sources',
     googleReview: 'Google Play · En cours d’examen',
-    footer: 'Une façon plus calme d’explorer l’espace.'
+    footer: 'Une façon plus calme d’explorer l’espace.',
+    stickyText: 'De vrais astéroïdes, d’adorables animaux spatiaux',
+    stickyClose: 'Fermer'
   }),
   de: Object.freeze({
     skip: 'Zum Artikel springen',
@@ -105,7 +121,9 @@ export const ROCKIMALS_ARTICLE_UI = Object.freeze({
     related: 'Weiter entdecken',
     sources: 'Quellen',
     googleReview: 'Google Play · In Prüfung',
-    footer: 'Eine ruhigere Art, den Weltraum zu entdecken.'
+    footer: 'Eine ruhigere Art, den Weltraum zu entdecken.',
+    stickyText: 'Echte Asteroiden, süße Weltraumtiere',
+    stickyClose: 'Schließen'
   }),
   es: Object.freeze({
     skip: 'Ir al artículo',
@@ -119,7 +137,9 @@ export const ROCKIMALS_ARTICLE_UI = Object.freeze({
     related: 'Seguir explorando',
     sources: 'Fuentes',
     googleReview: 'Google Play · En revisión',
-    footer: 'Una forma más tranquila de explorar el espacio.'
+    footer: 'Una forma más tranquila de explorar el espacio.',
+    stickyText: 'Asteroides reales, adorables animales espaciales',
+    stickyClose: 'Cerrar'
   })
 });
 
@@ -256,6 +276,9 @@ export function renderRockimalsBlogArticle({
       ? `<div class="rkb-store-actions"><a class="rkb-primary-action" href="${escapeHtml(ctaHref)}" rel="noopener" data-rockimals-cta="${escapeHtml(post.cta.id)}">${escapeHtml(post.cta.label)}</a></div>`
       : '';
   const articleMeta = `<span>${escapeHtml(post.author.name)}</span><span aria-hidden="true">·</span><span>${escapeHtml(ui.published)} <time datetime="${escapeHtml(post.published)}">${escapeHtml(formatDate(post.published, post.locale))}</time></span>${showUpdated ? `<span aria-hidden="true">·</span><span>${escapeHtml(ui.updated)} <time datetime="${escapeHtml(post.updated)}">${escapeHtml(formatDate(post.updated, post.locale))}</time></span>` : ''}`;
+  const sticky = ctaHref && post.cta.id === 'app-store'
+    ? renderRockimalsStickyCta({ href: ctaHref, text: ui.stickyText, storeLabel: post.cta.label, closeLabel: ui.stickyClose, inline: true })
+    : '';
   const documentTitle = `${post.title} · Rockimals`;
   const seo = preview ? '' : `${renderRockimalsSeo({
     locale: post.locale,
@@ -287,7 +310,7 @@ ${preview ? '<meta name="robots" content="noindex,nofollow">\n' : seo}<meta name
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Fredoka:wght@500;600;700&amp;family=Inter:wght@400;500;600;700;800&amp;family=Noto+Sans+JP:wght@400;600;700&amp;family=Noto+Sans+KR:wght@400;600;700&amp;family=Noto+Sans+SC:wght@400;600;700&amp;display=swap" rel="stylesheet">
-<link rel="stylesheet" href="/css/rockimals-blog.css?v=20260922-toc">
+<link rel="stylesheet" href="/css/rockimals-blog.css?v=20260922-toc">${sticky ? `\n${ROCKIMALS_STICKY_CTA_STYLE}` : ''}
 </head>
 <body class="rkb-page">
 <a class="rkb-skip" href="#article-content">${escapeHtml(ui.skip)}</a>
@@ -316,6 +339,7 @@ ${preview ? '<meta name="robots" content="noindex,nofollow">\n' : seo}<meta name
         <div class="rkb-prose">${rendered.html}</div>
         ${renderExperience(experience, ui)}
         ${renderRelated(post, ui)}
+        ${sticky}
       </div>
     </div>
   </article>

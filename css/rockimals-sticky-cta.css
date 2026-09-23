@@ -1,0 +1,17 @@
+/* Rockimals mobile sticky App Store bar (website spec 035, addendum).
+   Shown by js/rockimals-sticky-cta.js only on narrow screens, after the
+   page's own App Store badge has scrolled away and before its closing call
+   to action; dismissible for the visit. */
+.rk-sticky-cta{position:fixed;z-index:50;left:12px;right:12px;bottom:calc(12px + env(safe-area-inset-bottom));display:flex;align-items:center;gap:10px;padding:10px 8px 10px 12px;border:1px solid rgba(255,255,255,.16);border-radius:18px;color:#eef3fa;background:rgba(7,16,29,.94);box-shadow:0 18px 44px rgba(0,0,0,.45);-webkit-backdrop-filter:blur(10px);backdrop-filter:blur(10px);font:600 13px/1.3 Inter,system-ui,sans-serif}
+.rk-sticky-cta[hidden]{display:none}
+.rk-sticky-cta--inline{position:sticky;left:auto;right:auto;margin:32px 0 0}
+.rk-sticky-icon{flex:none;width:36px;height:36px;border-radius:9px}
+.rk-sticky-text{flex:1;min-width:0;display:-webkit-box;overflow:hidden;-webkit-line-clamp:2;-webkit-box-orient:vertical}
+.rk-sticky-store{flex:none;display:inline-flex}
+.rk-sticky-store img{display:block;width:120px;height:40px}
+.rk-sticky-close{flex:none;display:grid;place-items:center;width:40px;height:40px;padding:0;border:0;border-radius:50%;color:#c9d4e3;background:transparent;font:400 22px/1 Inter,system-ui,sans-serif;cursor:pointer}
+.rk-sticky-close:focus-visible{outline:2px solid #ffb36b;outline-offset:2px}
+@media(max-width:359px){.rk-sticky-text{display:none}.rk-sticky-store{margin-left:auto}}
+@media(min-width:681px){.rk-sticky-cta{display:none}}
+@media(prefers-reduced-motion:no-preference){.rk-sticky-cta:not([hidden]){animation:rk-sticky-in .25s ease-out}}
+@keyframes rk-sticky-in{from{opacity:0;transform:translateY(12px)}to{opacity:1;transform:none}}

@@ -83,3 +83,58 @@ Bu iş, sahibin onayladığı sekiz kahraman döngüsünü sayfaya getirir. Mağ
     - Açılış ve makale CTA'ları `https://apps.apple.com/app/rockimals/id6792505608` bağlantısına gidiyor.
     - `lineup.webm` ve `lineup.mp4` 200 döndürüyor.
 - **Cihaz kontrolü.** iPhone Safari'de band, video ve hareket azaltma kontrolü (AC4) hâlâ açık.
+
+## Ek — Mobil sabit App Store çubuğu (2026-09-23)
+
+**Neden.** Smart App Banner, Safari'nin kendi arayüzüdür: yalnızca sayfanın
+tepesinde görünür ve sabitlenemez. Sahip, mobilde mağaza çağrısının kaydırırken
+de görünür kalmasını istedi ve bu eki onayladı.
+
+**Kapsam**
+
+- **Açılış sayfaları (sekiz dil).**
+  - Alttaki çubuk sayfanın kendi App Store rozeti (`.rk-download`,
+    `data-rockimals-sticky-after`) görüş alanının üstünden çıkınca belirir.
+  - Kapanış çağrısı (`.rk-closing`, `data-rockimals-sticky-before`) ekrandayken
+    gizlenir; iki App Store çağrısı aynı anda görünmez.
+  - Kapatma düğmesi çubuğu ziyaret boyunca kapatır (`sessionStorage`,
+    `try/catch` içinde). İzleme yoktur.
+  - Yalnızca 680 px ve altındaki ekranlarda çalışır; masaüstünde CSS de gizler.
+  - `js/rockimals-sticky-cta.js` görünürlüğü `IntersectionObserver` ile yönetir.
+- **Blog makaleleri.** Sitenin makale kuralı istemci tarafı JavaScript'e izin
+  vermez. Bu yüzden CTA'sı `app-store` olan makalelerde (sekiz "nasıl oynanır"
+  makalesi) çubuk yalnızca CSS ile çalışır:
+  - Okuma sütununun sonunda, `position: sticky` ile alta yapışır.
+  - Okuma sütunu başlayınca belirir, ilgili yazılardan sonra yerine oturur.
+  - Kapatma düğmesi ve betik yoktur.
+- **Görünüm.** Uygulama simgesi, iki satırlık kısa metin, resmi App Store rozeti
+  ve kapatma düğmesi. Alt güvenli alan payı vardır. Kaydırarak giriş animasyonu
+  yalnızca `prefers-reduced-motion: no-preference` iken oynar. 360 px'ten dar
+  ekranlarda metin gizlenir.
+- **Metin.** `stickyText` ve `stickyClose` sekiz dilde:
+  - açılış için `content/rockimals-landing/locales.json`;
+  - makaleler için `ROCKIMALS_ARTICLE_UI`.
+- **Bağlantı.** Aynı ülkeden bağımsız mağaza bağlantısı (`rockimalsAppStoreUrl`).
+
+**Değişen dosyalar:**
+
+- `css/rockimals-sticky-cta.css` ve `js/rockimals-sticky-cta.js` (yeni);
+- `scripts/rockimals-blog-cta.mjs` (`renderRockimalsStickyCta` ve varlık
+  etiketleri);
+- `scripts/build-rockimals-landing.mjs`, `scripts/rockimals-blog-article.mjs`;
+- `content/rockimals-landing/locales.json`;
+- `products/rockimals.html` (yeniden üretildi).
+
+**Kanıt (2026-09-23)**
+
+- `npm test` başarılı (242 yayın dosyası doğrulandı).
+- Yerel sunucuda 375 px'te:
+  - açılışta çubuk tepede gizli, sayfa ortasında altta (62 px), kapanış
+    çağrısında gizli;
+  - kapatınca aynı ziyarette geri gelmiyor.
+- 320 px'te metin gizleniyor; rozet ve kapatma düğmesi sığıyor, yatay kaydırma
+  yok.
+- Makalede çubuk yapışkan ve betiksiz.
+- Tarayıcı paneli gizli olduğundan `IntersectionObserver` ve kaydırma olayları
+  çalışmadı. Mantık, gözlemci konumdan hesaplanarak doğrulandı; gerçek iPhone
+  Safari kontrolü AC4'e eklenir.
