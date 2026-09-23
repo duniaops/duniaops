@@ -6,6 +6,7 @@ import {
   renderRockimalsLanguageMenu
 } from './rockimals-blog-navigation.mjs';
 import { renderRockimalsSeo } from './rockimals-blog-seo.mjs';
+import { ROCKIMALS_SMART_APP_BANNER } from './rockimals-blog-cta.mjs';
 
 export const ROCKIMALS_INDEX_UI = Object.freeze({
   en: Object.freeze({
@@ -203,6 +204,7 @@ export function renderRockimalsBlogIndex({
 <head>
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width,initial-scale=1">
+${ROCKIMALS_SMART_APP_BANNER}
 <title>${escapeHtml(documentTitle)}</title>
 <meta name="description" content="${escapeHtml(ui.intro)}">
 ${preview ? '<meta name="robots" content="noindex,nofollow">\n' : seo}<meta name="theme-color" content="#07101d">

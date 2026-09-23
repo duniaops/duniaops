@@ -102,3 +102,29 @@
     details.addEventListener('toggle', () => summary.setAttribute('aria-expanded', String(details.open)));
   });
 })();
+
+// The hero loop (website spec 035): plays muted only while it is on screen,
+// and never when the visitor asks for reduced motion — then the poster stays.
+(() => {
+  const video = document.querySelector('[data-rockimals-loop]');
+  if (!video) return;
+  const reduced = window.matchMedia('(prefers-reduced-motion: reduce)');
+  let visible = false;
+  const sync = () => {
+    if (visible && !reduced.matches) {
+      video.play().catch(() => {});
+    } else {
+      video.pause();
+    }
+  };
+  if ('IntersectionObserver' in window) {
+    new IntersectionObserver((entries) => {
+      visible = entries.some((entry) => entry.isIntersecting);
+      sync();
+    }, { rootMargin: '200px 0px' }).observe(video);
+  } else {
+    visible = true;
+    sync();
+  }
+  reduced.addEventListener?.('change', sync);
+})();

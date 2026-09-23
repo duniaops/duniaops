@@ -7,7 +7,7 @@ import {
   ROCKIMALS_BLOG_LOCALES
 } from './rockimals-blog-content.mjs';
 import { renderRockimalsBlogArticle } from './rockimals-blog-article.mjs';
-import { ROCKIMALS_APP_STORE_URL } from './rockimals-blog-cta.mjs';
+import { rockimalsAppStoreUrl } from './rockimals-blog-cta.mjs';
 import { renderRockimalsBlogIndex } from './rockimals-blog-index.mjs';
 import { rockimalsBlogIndexPath, rockimalsBlogIndexPaths } from './rockimals-blog-navigation.mjs';
 import { ROCKIMALS_ORIGIN } from './rockimals-blog-seo.mjs';
@@ -85,7 +85,10 @@ export async function writeRockimalsBlog({ outputDir, manifest }) {
     await writeOwnedFile(
       ownedOutputDir,
       path.join(post.locale, post.slug, 'index.html'),
-      renderRockimalsBlogArticle({ post, ctaHref: post.cta.id === 'app-store' ? ROCKIMALS_APP_STORE_URL : '' })
+      renderRockimalsBlogArticle({
+        post,
+        ctaHref: post.cta.id === 'app-store' ? rockimalsAppStoreUrl(`blog_${post.locale}`) : ''
+      })
     );
   }
   await writeOwnedFile(ownedOutputDir, 'sitemap.xml', renderSitemap(manifest));

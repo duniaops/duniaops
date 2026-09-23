@@ -96,7 +96,8 @@ test('article metadata and structured data match the visible localized article',
   assert.match(html, /<meta property="og:type" content="article">/);
   assert.match(html, /<link rel="alternate" hreflang="en" href="https:\/\/rockimals\.duniaops\.com\/blog\/published-en">/);
   assert.match(html, /data-rockimals-cta="app-store"/);
-  assert.match(html, /href="https:\/\/apps\.apple\.com\/gb\/app\/rockimals\/id6792505608"/);
+  assert.match(html, /href="https:\/\/apps\.apple\.com\/app\/rockimals\/id6792505608"/);
+  assert.match(html, /<meta name="apple-itunes-app" content="app-id=6792505608">/);
   assert.match(html, /download-on-the-app-store\.svg/);
 });
 
