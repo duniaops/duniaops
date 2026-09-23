@@ -3,7 +3,7 @@
 **Type:** Feature
 **Priority:** P1 — Rockimals 1.4.0 büyüme işinin (Rockimals spec 108) parçası.
 **Risk:** Medium
-**Status:** Implemented on 2026-09-23 — yayına alma sahibinin işlemi (aşağıdaki Completion Record)
+**Status:** Implemented and deployed on 2026-09-23 (aşağıdaki Completion Record)
 **Depends on:** [025 — host/SEO/build](025-rockimals-blog-host-seo-build.md), [033 — CTA/ölçüm](033-rockimals-blog-conversion-measurement.md).
 **Parent:** [021 — Rockimals çok dilli blog epic'i](021-rockimals-multilingual-blog-growth.md)
 **Kaynak:** Rockimals deposu [spec 119](../../rockimals/specs/119-web-hero-loops-smart-banner-and-creative-assets.md) ve onaylı kahraman döngüleri ([spec 116](../../rockimals/specs/116-produce-ai-hero-loops.md)).
@@ -76,4 +76,10 @@ Bu iş, sahibin onayladığı sekiz kahraman döngüsünü sayfaya getirir. Mağ
 
 - **Kampanya.** Kampanya sağlayıcı kimliği (`pt`) henüz yok. Bağlantılar kampanyasız; `ROCKIMALS_CAMPAIGN_PROVIDER` doldurulunca kampanya adları devreye girer.
 - **Çeviri incelemesi.** AC5.
-- **Yayın.** Yayına alma sahibindir. Bu kayıt commit, push veya yayın yapıldığı anlamına gelmez.
+- **Yayın.** Sahibin talebiyle yapıldı:
+  - 2026-09-23'te `a639cad` ve `c7d2762` `origin/main`'e gönderildi ve Netlify otomatik yayınladı.
+  - Canlıda kontrol edildi (`curl`):
+    - `/`, `/ja`, `/de`, `/blog`, `/tr/blog` ve bir Türkçe makale Smart App Banner etiketini taşıyor.
+    - Açılış ve makale CTA'ları `https://apps.apple.com/app/rockimals/id6792505608` bağlantısına gidiyor.
+    - `lineup.webm` ve `lineup.mp4` 200 döndürüyor.
+- **Cihaz kontrolü.** iPhone Safari'de band, video ve hareket azaltma kontrolü (AC4) hâlâ açık.
