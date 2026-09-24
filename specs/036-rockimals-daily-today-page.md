@@ -3,7 +3,7 @@
 **Type:** Feature
 **Priority:** P1 — Rockimals 1.4.0 büyüme işinin (Rockimals spec 108) parçası.
 **Risk:** Medium
-**Status:** Uygulandı ve 2026-09-24'te yayına alındı. Günlük tetikleme ve NASA anahtarı sahibin adımlarını bekliyor (aşağıda).
+**Status:** Uygulandı ve 2026-09-24'te yayına alındı; günlük yenileme ve NASA anahtarı aynı gün devreye girdi. Açık kalan tek madde çevirilerin gözden geçirilmesi (AC6).
 **Depends on:** [035 — Smart App Banner, döngü, mağaza bağlantısı](035-rockimals-smart-banner-hero-loop-and-store-links.md).
 **Kaynak:** Rockimals deposu [spec 120](../../rockimals/specs/120-daily-todays-rockimals-web-page.md). Sahip 2026-09-24'te "boyuna göre kahraman" seçeneğini onayladı.
 
@@ -74,7 +74,7 @@
 - [x] **AC2:** Tür, boyut karşılaştırması, Ay etiketi ve geçiş etiketi uygulamanın boyut basamağı ve dizeleriyle aynı.
 - [x] **AC3:** Banner, tek CTA, `hreflang`, `canonical` ve site haritası kaydı var.
 - [x] **AC4:** Veri alınamazsa önceki liste bir uyarıyla gösterilir; boş sayfa yayınlanmaz.
-- [ ] **AC5:** Sayfa her gün yeniden derleniyor. Bunun için sahibin adımları gerekiyor.
+- [x] **AC5:** Sayfa her gün yeniden derleniyor. 2026-09-24'te doğrulandı; ayrıntılar aşağıda, "Günlük yenileme doğrulaması" başlığında.
 - [ ] **AC6:** tr, ja, ko, zh-Hans, fr, de ve es sayfa metinleri ana dili konuşan biri tarafından gözden geçirildi.
 
 ## Owner steps
@@ -103,6 +103,13 @@ Hepsi duniaops.com'un Netlify sitesinde; GitHub'da bir şey gerekmez.
 - `/en/today`, `/today` adresine 301 ile yönleniyor. `/xx/today` 404 döndürüyor.
 - `data.json`, 2026-09-24 için 4 ziyaretçi içeriyor. `generatedAt` alanı Netlify derlemesine ait; yani derleme NeoWs'tan `DEMO_KEY` ile canlı okudu.
 - Site haritasında sekiz `today` adresi var, açılış sayfasında "Today" bağlantısı görünüyor.
+
+## Günlük yenileme doğrulaması (2026-09-24)
+
+- Sahip `NASA_API_KEY`, "Rockimals today" build hook'unu ve `ROCKIMALS_TODAY_BUILD_HOOK` değişkenini ekleyip siteyi yeniden yayınladı.
+- Functions sayfasında `rockimals-today-rebuild` "Scheduled" durumunda. Bir sonraki çalışma 2026-09-25 00:20 UTC.
+- "Run now" ile elle çalıştırıldı; fonksiyon günlüğü: `Rockimals today rebuild requested: HTTP 200`.
+- Tetiklenen `rockimals-today` derlemesi yayınlandı. Derleme günlüğü: `Rockimals today: 4 visitors for 2026-09-24 from NeoWs.` Satırda "DEMO_KEY" yok; yani kayıtlı anahtar kullanılıyor.
 
 ## Out of Scope
 
