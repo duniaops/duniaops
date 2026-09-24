@@ -48,6 +48,25 @@
   status = 200
   force = true
 
+# Rockimals daily "today" page (website spec 036).
+[[redirects]]
+  from = "https://rockimals.duniaops.com/en/today"
+  to = "https://rockimals.duniaops.com/today"
+  status = 301
+  force = true
+
+[[redirects]]
+  from = "https://rockimals.duniaops.com/today"
+  to = "/products/rockimals-today/en/index.html"
+  status = 200
+  force = true
+
+[[redirects]]
+  from = "https://rockimals.duniaops.com/:locale/today"
+  to = "/products/rockimals-today/:locale/index.html"
+  status = 200
+  force = true
+
 [[redirects]]
   from = "https://rockimals.duniaops.com/robots.txt"
   to = "/products/rockimals-blog/robots.txt"

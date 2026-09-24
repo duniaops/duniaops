@@ -6,6 +6,9 @@ https://rockimals.duniaops.com/blog /products/rockimals-blog/en/index.html 200!
 https://rockimals.duniaops.com/blog/:slug /products/rockimals-blog/en/:slug/index.html 200!
 https://rockimals.duniaops.com/:locale/blog /products/rockimals-blog/:locale/index.html 200!
 https://rockimals.duniaops.com/:locale/blog/:slug /products/rockimals-blog/:locale/:slug/index.html 200!
+https://rockimals.duniaops.com/en/today https://rockimals.duniaops.com/today 301!
+https://rockimals.duniaops.com/today /products/rockimals-today/en/index.html 200!
+https://rockimals.duniaops.com/:locale/today /products/rockimals-today/:locale/index.html 200!
 https://rockimals.duniaops.com/robots.txt /products/rockimals-blog/robots.txt 200!
 https://rockimals.duniaops.com/sitemap.xml /products/rockimals-blog/sitemap.xml 200!
 https://rockimals.duniaops.com/support /rockimals/support.html 200!

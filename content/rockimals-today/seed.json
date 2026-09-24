@@ -1,0 +1,51 @@
+{
+  "date": "2026-09-24",
+  "generatedAt": "2026-09-24T06:01:58.560Z",
+  "source": "NASA NeoWs",
+  "visitors": [
+    {
+      "designation": "2015 SY16",
+      "diameterMinM": 128.3970295822,
+      "diameterMaxM": 287.1044862548,
+      "missLunar": 192.0274795896,
+      "missKm": 73848076.93591937,
+      "speedKps": 30.5240294288,
+      "approachAt": "2026-09-24T04:31:00.000Z",
+      "closeFlyby": true,
+      "jplUrl": "https://ssd.jpl.nasa.gov/tools/sbdb_lookup.html#/?sstr=3728857"
+    },
+    {
+      "designation": "2006 TL",
+      "diameterMinM": 44.1118199997,
+      "diameterMaxM": 98.6370281305,
+      "missLunar": 106.0037034493,
+      "missKm": 40765882.38593042,
+      "speedKps": 9.7690526238,
+      "approachAt": "2026-09-24T08:32:00.000Z",
+      "closeFlyby": false,
+      "jplUrl": "https://ssd.jpl.nasa.gov/tools/sbdb_lookup.html#/?sstr=3348144"
+    },
+    {
+      "designation": "2019 VW2",
+      "diameterMinM": 76.6575573531,
+      "diameterMaxM": 171.4115092306,
+      "missLunar": 115.7798476522,
+      "missKm": 44525497.68044633,
+      "speedKps": 14.3571036999,
+      "approachAt": "2026-09-24T12:39:00.000Z",
+      "closeFlyby": false,
+      "jplUrl": "https://ssd.jpl.nasa.gov/tools/sbdb_lookup.html#/?sstr=3892681"
+    },
+    {
+      "designation": "2011 TB4",
+      "diameterMinM": 22.1082810359,
+      "diameterMaxM": 49.435619262,
+      "missLunar": 114.7516812076,
+      "missKm": 44130095.34081231,
+      "speedKps": 21.8746502683,
+      "approachAt": "2026-09-24T21:17:00.000Z",
+      "closeFlyby": false,
+      "jplUrl": "https://ssd.jpl.nasa.gov/tools/sbdb_lookup.html#/?sstr=3581506"
+    }
+  ]
+}

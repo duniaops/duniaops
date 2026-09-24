@@ -4,13 +4,14 @@
   "type": "module",
   "scripts": {
     "build:blog": "node scripts/build-blog.mjs",
-    "build:site": "npm run build:blog && node scripts/build-site.mjs && node scripts/build-zoday-invite.mjs && node scripts/build-zoday-landing.mjs && node scripts/build-rockimals-landing.mjs && node scripts/build-rockimals-blog.mjs",
+    "build:site": "npm run build:blog && node scripts/build-site.mjs && node scripts/build-zoday-invite.mjs && node scripts/build-zoday-landing.mjs && node scripts/build-rockimals-landing.mjs && node scripts/build-rockimals-blog.mjs && node scripts/build-rockimals-today.mjs",
     "check:analytics": "node scripts/check-analytics.mjs",
     "check:rockimals-blog-article": "node --test tests/rockimals-blog-article.test.mjs && node scripts/preview-rockimals-blog-article.mjs",
     "check:rockimals-blog-index": "node --test tests/rockimals-blog-index.test.mjs && node scripts/preview-rockimals-blog-index.mjs",
     "check:rockimals-blog-build": "node --test tests/rockimals-blog-build.test.mjs",
     "check:rockimals-blog-card": "node --test tests/rockimals-landing-blog-card.test.mjs",
     "check:rockimals-gallery": "node --test tests/rockimals-landing-gallery.test.mjs",
+    "check:rockimals-today": "node --test tests/rockimals-today.test.mjs",
     "check:rockimals-blog-editorial-assets": "node scripts/check-rockimals-blog-editorial-assets.mjs",
     "check:rockimals-blog": "node --test tests/rockimals-blog-content.test.mjs && node scripts/check-rockimals-blog-content.mjs",
     "check:site": "node scripts/check-dist.mjs",
@@ -19,8 +20,9 @@
     "preview:rockimals-blog-content": "node scripts/check-rockimals-blog-content.mjs --output .rockimals-blog-preview/manifest.json",
     "preview:rockimals-blog-drafts": "node scripts/preview-rockimals-blog-drafts.mjs",
     "preview:rockimals-blog-index": "node scripts/preview-rockimals-blog-index.mjs",
+    "sync:rockimals-today-strings": "node scripts/sync-rockimals-today-strings.mjs",
     "render:rockimals-blog-editorial-assets": "swift scripts/render-rockimals-blog-editorial-assets.swift",
-    "test": "npm run check:analytics && npm run check:invite && npm run check:rockimals-blog && npm run check:rockimals-blog-editorial-assets && npm run check:rockimals-blog-article && npm run check:rockimals-blog-index && npm run check:rockimals-blog-build && npm run check:rockimals-blog-card && npm run check:rockimals-gallery && npm run build:site && npm run check:site"
+    "test": "npm run check:analytics && npm run check:invite && npm run check:rockimals-blog && npm run check:rockimals-blog-editorial-assets && npm run check:rockimals-blog-article && npm run check:rockimals-blog-index && npm run check:rockimals-blog-build && npm run check:rockimals-blog-card && npm run check:rockimals-gallery && npm run check:rockimals-today && npm run build:site && npm run check:site"
   },
   "devDependencies": {
     "gray-matter": "4.0.3",

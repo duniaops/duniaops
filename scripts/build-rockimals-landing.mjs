@@ -48,6 +48,7 @@ function render(code) {
     : '';
   const canonical = `https://rockimals.duniaops.com/${code === 'en' ? '' : code}`;
   const blogPath = `https://rockimals.duniaops.com${code === 'en' ? '/blog' : `/${code}/blog`}`;
+  const todayPath = `https://rockimals.duniaops.com${code === 'en' ? '/today' : `/${code}/today`}`;
   const screenshot = (name) => `/assets/products/rockimals-preview/${code}/${name}.jpg?v=20260919`;
   const shots = [1, 2, 3, 4, 5, 6].map((number) => {
     const file = ['01-radar-home', '02-hero-chapter-reader', '03-story-library', '04-meet-card', '05-earth-shield', '06-my-space-zoo'][number - 1];
@@ -74,7 +75,7 @@ ${alternateLinks}
 </head>
 <body class="rk-page" data-rockimals-page data-locale="${code}">
 <a class="rk-skip" href="#main-content">Skip to content</a>
-<header class="rk-header"><nav class="rk-wrap rk-nav" aria-label="Rockimals"><a class="rk-brand" href="#main-content"><img src="/assets/products/rockimals-icon.png?v=20260919" alt="" width="46" height="46"><span>Rockimals</span></a><div class="rk-nav-links"><a href="#explore">${text(l.navExplore)}</a><a href="#stories">${text(l.navStories)}</a><a href="${blogPath}">${text(l.navBlog)}</a><a href="#plus">${text(l.navPlus)}</a><a href="https://rockimals.duniaops.com/support?lang=${code}">${text(l.navSupport)}</a></div><label class="rk-language"><span class="rk-sr-only" data-rockimals-language-label>Language</span><select data-rockimals-language aria-label="Language">${languageOptions(code)}</select></label></nav></header>
+<header class="rk-header"><nav class="rk-wrap rk-nav" aria-label="Rockimals"><a class="rk-brand" href="#main-content"><img src="/assets/products/rockimals-icon.png?v=20260919" alt="" width="46" height="46"><span>Rockimals</span></a><div class="rk-nav-links"><a href="#explore">${text(l.navExplore)}</a><a href="#stories">${text(l.navStories)}</a><a href="${todayPath}">${text(l.navToday)}</a><a href="${blogPath}">${text(l.navBlog)}</a><a href="#plus">${text(l.navPlus)}</a><a href="https://rockimals.duniaops.com/support?lang=${code}">${text(l.navSupport)}</a></div><label class="rk-language"><span class="rk-sr-only" data-rockimals-language-label>Language</span><select data-rockimals-language aria-label="Language">${languageOptions(code)}</select></label></nav></header>
 <main id="main-content">
 <section class="rk-hero"><div class="rk-stars" aria-hidden="true"></div><div class="rk-wrap rk-hero-grid"><div class="rk-hero-copy"><p class="rk-kicker">${text(l.eyebrow)}</p><h1>${text(l.heroTitle)}</h1><p class="rk-lead">${text(l.heroLead)}</p><div class="rk-download" data-rockimals-sticky-after><a class="rk-app-store" href="${appStoreUrl}" rel="noopener"><img src="/assets/products/download-on-the-app-store.svg" alt="${text(l.appStore)}" width="170" height="57"></a><span class="rk-google-status">${text(l.googleReview)}</span></div><p class="rk-availability">${text(l.appleLive)}</p><div class="rk-trust"><span>${text(l.trust1)}</span><span>${text(l.trust2)}</span><span>${text(l.trust3)}</span><span>${text(l.trust4)}</span></div></div><figure class="rk-hero-visual"><div class="rk-orbit" aria-hidden="true"></div><img src="${screenshot('01-radar-home')}" alt="Rockimals · ${text(l.shot1)}" width="828" height="1800" fetchpriority="high"><figcaption>${text(l.heroCaption)}</figcaption></figure></div></section>
 ${blogFeature}

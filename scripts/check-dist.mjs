@@ -50,6 +50,15 @@ const REQUIRED_PATHS = [
   'products/rockimals-blog/sitemap.xml',
   'products/rockimals-blog/tr/index.html',
   'products/rockimals-blog/zh-Hans/index.html',
+  'products/rockimals-today/data.json',
+  'products/rockimals-today/de/index.html',
+  'products/rockimals-today/en/index.html',
+  'products/rockimals-today/es/index.html',
+  'products/rockimals-today/fr/index.html',
+  'products/rockimals-today/ja/index.html',
+  'products/rockimals-today/ko/index.html',
+  'products/rockimals-today/tr/index.html',
+  'products/rockimals-today/zh-Hans/index.html',
   'products.html',
   'products/zoday/invite.html',
   'robots.txt',
@@ -145,6 +154,14 @@ async function rockimalsRouteExists(pathname) {
       ? `/products/rockimals-blog/en/${englishCanonicalVariant[1]}/index.html`
       : '/products/rockimals-blog/en/index.html';
     return routeExists(relative);
+  }
+
+  if (pathname === '/today' || pathname === '/en/today') {
+    return routeExists('/products/rockimals-today/en/index.html');
+  }
+  const localizedToday = pathname.match(/^\/([^/]+)\/today$/);
+  if (localizedToday && ROCKIMALS_LOCALES.includes(localizedToday[1])) {
+    return routeExists(`/products/rockimals-today/${localizedToday[1]}/index.html`);
   }
 
   const localeLanding = pathname.match(/^\/([^/]+)$/);
@@ -261,7 +278,10 @@ async function validateRockimalsBlog() {
     'https://rockimals.duniaops.com/blog /products/rockimals-blog/en/index.html 200!',
     'https://rockimals.duniaops.com/blog/:slug /products/rockimals-blog/en/:slug/index.html 200!',
     'https://rockimals.duniaops.com/:locale/blog /products/rockimals-blog/:locale/index.html 200!',
-    'https://rockimals.duniaops.com/:locale/blog/:slug /products/rockimals-blog/:locale/:slug/index.html 200!'
+    'https://rockimals.duniaops.com/:locale/blog/:slug /products/rockimals-blog/:locale/:slug/index.html 200!',
+    'https://rockimals.duniaops.com/en/today https://rockimals.duniaops.com/today 301!',
+    'https://rockimals.duniaops.com/today /products/rockimals-today/en/index.html 200!',
+    'https://rockimals.duniaops.com/:locale/today /products/rockimals-today/:locale/index.html 200!'
   ];
   for (const fragment of requiredRouteFragments) {
     if (!redirects.includes(fragment)) errors.push(`_redirects: missing Rockimals route ${fragment}`);
@@ -270,9 +290,14 @@ async function validateRockimalsBlog() {
     'from = "https://rockimals.duniaops.com/blog"',
     'from = "https://rockimals.duniaops.com/blog/:slug"',
     'from = "https://rockimals.duniaops.com/:locale/blog"',
-    'from = "https://rockimals.duniaops.com/:locale/blog/:slug"'
+    'from = "https://rockimals.duniaops.com/:locale/blog/:slug"',
+    'from = "https://rockimals.duniaops.com/today"',
+    'from = "https://rockimals.duniaops.com/:locale/today"'
   ]) {
     if (!netlify.includes(fragment)) errors.push(`netlify.toml: missing Rockimals route ${fragment}`);
+  }
+  if (await rockimalsRouteExists('/xx/today')) {
+    errors.push('Rockimals host route model serves the today page for an invalid locale');
   }
   if (await rockimalsRouteExists('/xx/blog') || await rockimalsRouteExists('/blog/not-published')) {
     errors.push('Rockimals host route model serves an invalid locale or unpublished slug');
