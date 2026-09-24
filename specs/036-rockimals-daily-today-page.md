@@ -60,7 +60,10 @@
   - Videolar `preload="none"` ile yüklenir. Küçük bir betik (`js/rockimals-today.js`) videoyu yalnızca ekrandayken oynatır; `prefers-reduced-motion: reduce` açıksa hiç oynatmaz. Betik yoksa poster görünür.
   - Geniş ekranda kartlar yan yana dizilir (1280 px'te üç sütun).
   - İlk sürümdeki 240 px sabit küre görselleri kaldırıldı.
-- **Günlük yenileme.** `.github/workflows/rockimals-today.yml` her gün 00:20 UTC'de bir Netlify build hook'unu çağırır. Gizli değer tanımlı değilse hiçbir şey yapmaz.
+- **Günlük yenileme.** Netlify zamanlanmış fonksiyonu `netlify/functions/rockimals-today-rebuild.mjs`, her gün 00:20 UTC'de sitenin kendi build hook'unu çağırır.
+  - Yalnızca yayındaki sürümde çalışır.
+  - `ROCKIMALS_TODAY_BUILD_HOOK` tanımlı değilse ya da Netlify build hook adresi değilse hiçbir şey yapmaz. Adres günlüğe yazılmaz.
+  - İlk sürümde bu iş için bir GitHub Actions iş akışı vardı. Organizasyonda Actions kapalı olduğu için sahibin tercihiyle (2026-09-24) Netlify'a taşındı ve iş akışı kaldırıldı.
 - **Denetimler.**
   - `check-dist.mjs` yeni adresleri, zorunlu dosyaları ve yönlendirme kurallarını tanır.
   - `tests/rockimals-today.test.mjs` şunları sınar: boyut basamakları, Ay ve hız biçimleri, anahtar sızıntısı, en fazla 12 ziyaretçi sınırı, gruplama, sayfada yalnızca döngü betiğinin bulunması, eski liste uyarısı, resmî adın yalnızca büyükler bölümünde olması.
@@ -76,10 +79,12 @@
 
 ## Owner steps
 
-1. **NASA anahtarı.** Netlify → Site configuration → Environment variables: `NASA_API_KEY` = kayıtlı NASA anahtarı, derleme kapsamında. `DEMO_KEY` IP başına saatte 10 istekle sınırlı ve Netlify'ın paylaşılan IP'lerinde tükenebilir. Anahtar depoya hiçbir biçimde girmez.
-2. **Build hook.** Netlify → Build & deploy → Build hooks: `main` için "Rockimals today" adlı bir hook oluştur.
-3. **GitHub gizli değeri.** GitHub → Settings → Secrets and variables → Actions: `NETLIFY_ROCKIMALS_TODAY_BUILD_HOOK` = hook adresi.
-4. **Deneme.** Actions sekmesinden "Rockimals today page" iş akışını bir kez elle çalıştır. Derleme günlüğünde `Rockimals today: N visitors … from NeoWs` satırını gör.
+Hepsi duniaops.com'un Netlify sitesinde; GitHub'da bir şey gerekmez.
+
+1. **NASA anahtarı.** Site configuration → Environment variables → `NASA_API_KEY` = kayıtlı NASA anahtarı, "Builds" kapsamında. `DEMO_KEY` IP başına saatte 10 istekle sınırlı ve Netlify'ın paylaşılan IP'lerinde tükenebilir. Anahtar depoya hiçbir biçimde girmez.
+2. **Build hook.** Site configuration → Build & deploy → Build hooks → `main` için "Rockimals today" adlı bir hook oluştur.
+3. **Hook değişkeni.** Environment variables → `ROCKIMALS_TODAY_BUILD_HOOK` = hook adresi, "Functions" kapsamında. Değişkenler dağıtım anında sabitlendiği için bundan sonra bir kez yeniden yayınla (Deploys → Trigger deploy).
+4. **Deneme.** Functions → `rockimals-today-rebuild` → "Run now". Yeni bir derleme başlamalı ve günlüğünde `Rockimals today: N visitors … from NeoWs` görünmeli.
 
 ## Validation
 
