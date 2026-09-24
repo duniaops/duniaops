@@ -9,7 +9,7 @@
 
 ## Description
 
-`rockimals.duniaops.com/today` ve `/<dil>/today` adresleri, NASA'nın o UTC gününe ait gerçek yakın geçişlerini gösterir. Sayfa sekiz dilde, betik kullanmadan sunucuda üretilir. Her ziyaretçi, gerçek boyutunun karşılık geldiği Rockimals kahramanıyla gösterilir: 60 m'lik bir kaya Kito olur. Sayfa her gün yeniden derlenir ve App Store'a yönlendirir.
+`rockimals.duniaops.com/today` ve `/<dil>/today` adresleri, NASA'nın o UTC gününe ait gerçek yakın geçişlerini gösterir. Sayfa sekiz dilde sunucuda üretilir ve betik olmadan da çalışır; tek betik kahraman döngülerini oynatır. Her ziyaretçi, gerçek boyutunun karşılık geldiği Rockimals kahramanıyla gösterilir: 60 m'lik bir kaya Kito olur. Sayfa her gün yeniden derlenir ve App Store'a yönlendirir.
 
 ## Scope
 
@@ -48,15 +48,20 @@
   - Tarihli `<h1>` ve `WebPage` JSON-LD; `Event` işaretlemesi yoktur.
   - Rockimals site haritasına sekiz adres `changefreq daily` ile eklenir.
 - **Bağlantı.** Açılış sayfası menüsüne sekiz dilde kısa bir "Bugün" bağlantısı eklenir ("Today", "Heute", "今日"…). Uzun etiket 1024 px'te Almanca menüyü iki satıra bölüyordu.
-- **Görseller.** Sekiz kahraman küresi `assets/products/rockimals-heroes/<hayvan>.webp` olarak eklenir: uygulamanın `transparent` sanatından 240 px, her biri 13–21 KB.
+- **Kahraman kartı (sahibin geri bildirimi, 2026-09-24).**
+  - Küre kartın ortasında ve büyük: telefonda 260 px, genişliğin en çok %72'si.
+  - Kürede sabit görsel yerine kahramanın onaylı döngüsü (spec 116) oynar. Döngüler `assets/products/rockimals-heroes/loops/<hayvan>.{webm,mp4,webp}` altındadır: 480 px, WebM 29–152 KB, MP4 42–177 KB, poster döngünün ilk karesi.
+  - Videolar `preload="none"` ile yüklenir. Küçük bir betik (`js/rockimals-today.js`) videoyu yalnızca ekrandayken oynatır; `prefers-reduced-motion: reduce` açıksa hiç oynatmaz. Betik yoksa poster görünür.
+  - Geniş ekranda kartlar yan yana dizilir (1280 px'te üç sütun).
+  - İlk sürümdeki 240 px sabit küre görselleri kaldırıldı.
 - **Günlük yenileme.** `.github/workflows/rockimals-today.yml` her gün 00:20 UTC'de bir Netlify build hook'unu çağırır. Gizli değer tanımlı değilse hiçbir şey yapmaz.
 - **Denetimler.**
   - `check-dist.mjs` yeni adresleri, zorunlu dosyaları ve yönlendirme kurallarını tanır.
-  - `tests/rockimals-today.test.mjs` şunları sınar: boyut basamakları, Ay ve hız biçimleri, anahtar sızıntısı, en fazla 12 ziyaretçi sınırı, gruplama, betiksiz sayfa, eski liste uyarısı, resmî adın yalnızca büyükler bölümünde olması.
+  - `tests/rockimals-today.test.mjs` şunları sınar: boyut basamakları, Ay ve hız biçimleri, anahtar sızıntısı, en fazla 12 ziyaretçi sınırı, gruplama, sayfada yalnızca döngü betiğinin bulunması, eski liste uyarısı, resmî adın yalnızca büyükler bölümünde olması.
 
 ## Acceptance Criteria
 
-- [x] **AC1:** Sekiz dilde sayfa var; betik olmadan çalışıyor ve resmî ad yalnızca büyükler bölümünde.
+- [x] **AC1:** Sekiz dilde sayfa var; betik olmadan çalışıyor (döngüler posterde kalır) ve resmî ad yalnızca büyükler bölümünde.
 - [x] **AC2:** Tür, boyut karşılaştırması, Ay etiketi ve geçiş etiketi uygulamanın boyut basamağı ve dizeleriyle aynı.
 - [x] **AC3:** Banner, tek CTA, `hreflang`, `canonical` ve site haritası kaydı var.
 - [x] **AC4:** Veri alınamazsa önceki liste bir uyarıyla gösterilir; boş sayfa yayınlanmaz.

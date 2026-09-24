@@ -19,6 +19,9 @@ const LANDING = JSON.parse(readFileSync(new URL('../content/rockimals-landing/lo
 
 export const ROCKIMALS_TODAY_LOCALES = ROCKIMALS_BLOG_LOCALES;
 export const ROCKIMALS_TODAY_LIMIT = 12;
+// The approved spec 116 hero loops, encoded for the web: 480 px WebM and MP4,
+// with the loop's first frame as the poster.
+const LOOPS = '/assets/products/rockimals-heroes/loops';
 
 // The app's size ladder (`kAnimals`): upper bounds in metres on the maximum
 // estimated diameter, exclusive, and the hero who stands for each rung.
@@ -409,7 +412,7 @@ function renderGroup(locale, ui, { hero, visitors }) {
   const strings = APP_STRINGS[locale];
   const name = rockimalsHeroName(locale, hero);
   return `<section class="rkt-group" aria-labelledby="rkt-${hero.id}">
-      <img class="rkt-orb" src="/assets/products/rockimals-heroes/${hero.id}.webp" alt="" width="120" height="120" loading="lazy" decoding="async">
+      <div class="rkt-orb"><video data-rockimals-today-loop muted loop playsinline preload="none" poster="${LOOPS}/${hero.id}.webp" width="480" height="480" aria-hidden="true"><source src="${LOOPS}/${hero.id}.webm" type="video/webm"><source src="${LOOPS}/${hero.id}.mp4" type="video/mp4"></video></div>
       <div class="rkt-group-body">
         <h2 id="rkt-${hero.id}">${escapeHtml(name)}</h2>
         <p class="rkt-size">${escapeHtml(strings[hero.size])}</p>
@@ -495,7 +498,8 @@ ${renderSeo({ locale, ui, title, canonical, data })}
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Fredoka:wght@500;600;700&amp;family=Inter:wght@400;500;600;700;800&amp;family=Noto+Sans+JP:wght@400;600;700&amp;family=Noto+Sans+KR:wght@400;600;700&amp;family=Noto+Sans+SC:wght@400;600;700&amp;display=swap" rel="stylesheet">
 <link rel="stylesheet" href="/css/rockimals-blog.css?v=20260922-toc">
-<link rel="stylesheet" href="/css/rockimals-today.css?v=20260924">
+<link rel="stylesheet" href="/css/rockimals-today.css?v=20260924-loops">
+<script src="/js/rockimals-today.js?v=20260924" defer></script>
 </head>
 <body class="rkb-page rkt-page">
 <a class="rkb-skip" href="#today-content">${escapeHtml(ui.skip)}</a>

@@ -91,13 +91,15 @@ test('groups visitors by size-class hero, smallest first', () => {
   assert.deepEqual(groups.map((group) => [group.hero.id, group.visitors.length]), [['rabbit', 2], ['bear', 1]]);
 });
 
-test('every locale renders a script-free page with one h1', () => {
+test('every locale renders a page with one h1 and only the loop script', () => {
   const feed = { near_earth_objects: { [DAY]: [neo({ id: '1', name: '(2006 TL)', max: 98, lunar: 0.4 })] } };
   const payload = data(rockimalsTodayVisitorsFromFeed(feed, DAY));
   for (const locale of ROCKIMALS_TODAY_LOCALES) {
     const html = renderRockimalsToday({ locale, data: payload, today: DAY });
     assert.equal((html.match(/<h1[\s>]/g) ?? []).length, 1, locale);
-    assert.doesNotMatch(html.replace(/<script type="application\/ld\+json">[^<]*<\/script>/, ''), /<script/i, locale);
+    const scripts = html.replace(/<script type="application\/ld\+json">[^<]*<\/script>/, '').match(/<script[^>]*>/gi) ?? [];
+    assert.deepEqual(scripts, ['<script src="/js/rockimals-today.js?v=20260924" defer>'], locale);
+    assert.match(html, /<video data-rockimals-today-loop muted loop playsinline preload="none" poster="[^"]+\.webp"/, locale);
     assert.match(html, /apple-itunes-app/, locale);
     assert.match(html, /hreflang="x-default"/, locale);
     assert.doesNotMatch(html, /hazard|threat|danger/i, locale);
