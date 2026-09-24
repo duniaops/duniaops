@@ -3,7 +3,7 @@
 **Type:** Feature
 **Priority:** P1 — Rockimals 1.4.0 büyüme işinin (Rockimals spec 108) parçası.
 **Risk:** Medium
-**Status:** Uygulandı, yayına alınmadı (2026-09-24). Yayın ve günlük tetikleme sahibin adımlarını bekliyor (aşağıda).
+**Status:** Uygulandı ve 2026-09-24'te yayına alındı. Günlük tetikleme ve NASA anahtarı sahibin adımlarını bekliyor (aşağıda).
 **Depends on:** [035 — Smart App Banner, döngü, mağaza bağlantısı](035-rockimals-smart-banner-hero-loop-and-store-links.md).
 **Kaynak:** Rockimals deposu [spec 120](../../rockimals/specs/120-daily-todays-rockimals-web-page.md). Sahip 2026-09-24'te "boyuna göre kahraman" seçeneğini onayladı.
 
@@ -78,6 +78,15 @@
   - yatay kaydırma yok;
   - büyükler bölümü açılıyor;
   - Türkçe ondalık ve binlik ayırıcılar doğru.
+
+## Yayın
+
+`3077615`, sahibin onayıyla 2026-09-24'te `origin/main`'e gönderildi ve Netlify yaklaşık 20 saniyede yayınladı. Canlıda `curl` ile kontrol edildi:
+
+- `/today`, `/tr/today`, `/ja/today` ve `/zh-Hans/today` 200 döndürüyor; sayfalarda 3 kahraman grubu ve Smart App Banner var, anahtar izi yok.
+- `/en/today`, `/today` adresine 301 ile yönleniyor. `/xx/today` 404 döndürüyor.
+- `data.json`, 2026-09-24 için 4 ziyaretçi içeriyor. `generatedAt` alanı Netlify derlemesine ait; yani derleme NeoWs'tan `DEMO_KEY` ile canlı okudu.
+- Site haritasında sekiz `today` adresi var, açılış sayfasında "Today" bağlantısı görünüyor.
 
 ## Out of Scope
 
