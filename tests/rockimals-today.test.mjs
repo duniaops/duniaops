@@ -2,7 +2,9 @@ import assert from 'node:assert/strict';
 import test from 'node:test';
 import {
   ROCKIMALS_TODAY_LOCALES,
+  injectRockimalsTodayCount,
   renderRockimalsToday,
+  rockimalsTodayLandingCount,
   rockimalsMoonLabel,
   rockimalsSpeedLabels,
   rockimalsTodayGroups,
@@ -119,4 +121,15 @@ test('the designation stays inside the grown-up section', () => {
   const outside = html.replace(/<details class="rkt-grownups">[\s\S]*?<\/details>/g, '');
   assert.doesNotMatch(outside, /2006 TL/);
   assert.match(html, /2006 TL/);
+});
+
+test('the landing card gets today\'s count only for a current list', () => {
+  const feed = { near_earth_objects: { [DAY]: [neo({ id: '1', name: '(A)', max: 30, lunar: 3 }), neo({ id: '2', name: '(B)', max: 40, lunar: 5 })] } };
+  const payload = data(rockimalsTodayVisitorsFromFeed(feed, DAY));
+  assert.equal(rockimalsTodayLandingCount({ locale: 'en', data: payload, today: DAY }), 'Today 2 real asteroids pass Earth.');
+  assert.equal(rockimalsTodayLandingCount({ locale: 'en', data: payload, today: '2026-09-25' }), '');
+  const card = '<span class="rk-today-lead"><span data-rockimals-today-count></span>Meet them.</span>';
+  assert.equal(injectRockimalsTodayCount(card, 'Today 2 real asteroids pass Earth.'),
+    '<span class="rk-today-lead"><span data-rockimals-today-count>Today 2 real asteroids pass Earth. </span>Meet them.</span>');
+  assert.equal(injectRockimalsTodayCount(card, ''), card);
 });

@@ -2,6 +2,7 @@ import { readFile, writeFile, mkdir } from 'node:fs/promises';
 import assert from 'node:assert/strict';
 import { fileURLToPath } from 'node:url';
 import { createRockimalsBlogManifest, loadRockimalsBlogSources } from './rockimals-blog-content.mjs';
+import { ROCKIMALS_TODAY_UI } from './rockimals-today.mjs';
 import {
   ROCKIMALS_SMART_APP_BANNER,
   ROCKIMALS_STICKY_CTA_ASSETS,
@@ -43,12 +44,19 @@ function render(code) {
   const l = locales[code];
   const appStoreUrl = rockimalsAppStoreUrl(`landing_${code}`);
   const featuredPost = featuredTopic?.posts.find((post) => post.locale === code);
-  const blogFeature = featuredPost
-    ? `<section class="rk-blog-highlight" aria-label="${text(l.navBlog)}"><div class="rk-wrap"><a class="rk-blog-feature" href="${esc(featuredPost.canonicalPath)}"><img src="${esc(featuredPost.image)}" alt="" width="1200" height="630" loading="lazy" decoding="async"><span class="rk-blog-feature-copy"><span class="rk-blog-feature-eyebrow">${text(l.navBlog)}</span><strong>${text(featuredPost.title)}</strong><span class="rk-blog-feature-description">${text(featuredPost.description)}</span><span class="rk-blog-feature-cta">${text(blogReadLabel[code])} <span aria-hidden="true">→</span></span></span></a></div></section>`
+  const blogCard = featuredPost
+    ? `<section aria-label="${text(l.navBlog)}"><a class="rk-blog-feature" href="${esc(featuredPost.canonicalPath)}"><img src="${esc(featuredPost.image)}" alt="" width="1200" height="630" loading="lazy" decoding="async"><span class="rk-blog-feature-copy"><span class="rk-blog-feature-eyebrow">${text(l.navBlog)}</span><strong>${text(featuredPost.title)}</strong><span class="rk-blog-feature-description">${text(featuredPost.description)}</span><span class="rk-blog-feature-cta">${text(blogReadLabel[code])} <span aria-hidden="true">→</span></span></span></a></section>`
     : '';
+  const todayPath = `https://rockimals.duniaops.com${code === 'en' ? '/today' : `/${code}/today`}`;
+  // The daily page's entry card. scripts/build-rockimals-today.mjs fills the
+  // empty count span in dist once it has the day's list.
+  const todayOrbs = ['mouse', 'tiger', 'whale']
+    .map((hero) => `<img src="/assets/products/rockimals-heroes/loops/${hero}.webp" alt="" width="72" height="72" loading="lazy" decoding="async">`).join('');
+  const todayCard = `<section aria-labelledby="rk-today-title"><a class="rk-today-card" href="${todayPath}"><span class="rk-today-orbs" aria-hidden="true">${todayOrbs}</span><span class="rk-today-copy"><span class="rk-today-eyebrow">${text(ROCKIMALS_TODAY_UI[code].kicker)}</span><strong id="rk-today-title">${text(ROCKIMALS_TODAY_UI[code].title)}</strong><span class="rk-today-lead"><span data-rockimals-today-count></span>${text(l.todayCardText)}</span></span><span class="rk-today-cta">${text(l.todayCardCta)} <span aria-hidden="true">→</span></span></a></section>`;
+  // Both cards share the band that overlaps the hero's lower edge.
+  const highlights = `<div class="rk-blog-highlight"><div class="rk-wrap rk-highlight-stack">${todayCard}${blogCard}</div></div>`;
   const canonical = `https://rockimals.duniaops.com/${code === 'en' ? '' : code}`;
   const blogPath = `https://rockimals.duniaops.com${code === 'en' ? '/blog' : `/${code}/blog`}`;
-  const todayPath = `https://rockimals.duniaops.com${code === 'en' ? '/today' : `/${code}/today`}`;
   const screenshot = (name) => `/assets/products/rockimals-preview/${code}/${name}.jpg?v=20260919`;
   const shots = [1, 2, 3, 4, 5, 6].map((number) => {
     const file = ['01-radar-home', '02-hero-chapter-reader', '03-story-library', '04-meet-card', '05-earth-shield', '06-my-space-zoo'][number - 1];
@@ -70,7 +78,7 @@ ${alternateLinks}
 <meta name="twitter:card" content="summary_large_image"><meta name="twitter:title" content="${text(l.title)}"><meta name="twitter:description" content="${text(l.description)}"><meta name="twitter:image" content="https://rockimals.duniaops.com/assets/products/rockimals-card-hero.png?v=20260919">
 <meta name="theme-color" content="#07101d"><link rel="icon" type="image/png" href="/assets/products/rockimals-icon.png?v=20260919">
 <link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin><link href="https://fonts.googleapis.com/css2?family=Fredoka:wght@500;600;700&amp;family=Inter:wght@400;500;600;700;800&amp;display=swap" rel="stylesheet">
-<link rel="stylesheet" href="/css/rockimals-landing.css?v=20260923-hero-loop"><script src="/js/rockimals-landing.js?v=20260923-hero-loop" defer></script>${ROCKIMALS_STICKY_CTA_ASSETS}
+<link rel="stylesheet" href="/css/rockimals-landing.css?v=20260924-today"><script src="/js/rockimals-landing.js?v=20260923-hero-loop" defer></script>${ROCKIMALS_STICKY_CTA_ASSETS}
 <script type="application/ld+json">${JSON.stringify({ '@context': 'https://schema.org', '@type': 'SoftwareApplication', name: 'Rockimals', applicationCategory: 'EducationalApplication', operatingSystem: 'iOS 13.0 or later; Android', description: l.description, url: canonical, downloadUrl: appStoreUrl, publisher: { '@type': 'Organization', name: 'DuniaOps', url: 'https://www.duniaops.com/' }, audience: { '@type': 'PeopleAudience', suggestedMinAge: 6, suggestedMaxAge: 12 }, offers: { '@type': 'Offer', price: '0', priceCurrency: 'GBP', availability: 'https://schema.org/InStock', description: 'Free download with an optional Rockimals Plus subscription.' } })}</script>
 </head>
 <body class="rk-page" data-rockimals-page data-locale="${code}">
@@ -78,7 +86,7 @@ ${alternateLinks}
 <header class="rk-header"><nav class="rk-wrap rk-nav" aria-label="Rockimals"><a class="rk-brand" href="#main-content"><img src="/assets/products/rockimals-icon.png?v=20260919" alt="" width="46" height="46"><span>Rockimals</span></a><div class="rk-nav-links"><a href="#explore">${text(l.navExplore)}</a><a href="#stories">${text(l.navStories)}</a><a href="${todayPath}">${text(l.navToday)}</a><a href="${blogPath}">${text(l.navBlog)}</a><a href="#plus">${text(l.navPlus)}</a><a href="https://rockimals.duniaops.com/support?lang=${code}">${text(l.navSupport)}</a></div><label class="rk-language"><span class="rk-sr-only" data-rockimals-language-label>Language</span><select data-rockimals-language aria-label="Language">${languageOptions(code)}</select></label></nav></header>
 <main id="main-content">
 <section class="rk-hero"><div class="rk-stars" aria-hidden="true"></div><div class="rk-wrap rk-hero-grid"><div class="rk-hero-copy"><p class="rk-kicker">${text(l.eyebrow)}</p><h1>${text(l.heroTitle)}</h1><p class="rk-lead">${text(l.heroLead)}</p><div class="rk-download" data-rockimals-sticky-after><a class="rk-app-store" href="${appStoreUrl}" rel="noopener"><img src="/assets/products/download-on-the-app-store.svg" alt="${text(l.appStore)}" width="170" height="57"></a><span class="rk-google-status">${text(l.googleReview)}</span></div><p class="rk-availability">${text(l.appleLive)}</p><div class="rk-trust"><span>${text(l.trust1)}</span><span>${text(l.trust2)}</span><span>${text(l.trust3)}</span><span>${text(l.trust4)}</span></div></div><figure class="rk-hero-visual"><div class="rk-orbit" aria-hidden="true"></div><img src="${screenshot('01-radar-home')}" alt="Rockimals · ${text(l.shot1)}" width="828" height="1800" fetchpriority="high"><figcaption>${text(l.heroCaption)}</figcaption></figure></div></section>
-${blogFeature}
+${highlights}
 <section class="rk-heroes" aria-labelledby="rk-heroes-title"><div class="rk-wrap"><div class="rk-heading"><p class="rk-kicker">${text(l.heroesEyebrow)}</p><h2 id="rk-heroes-title">${text(l.heroesTitle)}</h2><p>${text(l.heroesText)}</p></div><div class="rk-heroes-video"><video data-rockimals-loop muted loop playsinline preload="none" poster="${heroLoop}.jpg?${heroLoopVersion}" width="1280" height="720" aria-hidden="true"><source src="${heroLoop}.webm?${heroLoopVersion}" type="video/webm"><source src="${heroLoop}.mp4?${heroLoopVersion}" type="video/mp4"></video></div></div></section>
 <section class="rk-story" id="stories"><div class="rk-wrap"><div class="rk-heading"><p class="rk-kicker">${text(l.storyEyebrow)}</p><h2>${text(l.storyTitle)}</h2><p>${text(l.storyLead)}</p></div><div class="rk-story-layout"><figure class="rk-story-screen"><img src="${screenshot('02-hero-chapter-reader')}" alt="Rockimals · ${text(l.shot2)}" width="828" height="1800" loading="lazy"></figure><div class="rk-story-cards"><article><span>01</span><h3>${text(l.storyCard1Title)}</h3><p>${text(l.storyCard1Text)}</p></article><article><span>02</span><h3>${text(l.storyCard2Title)}</h3><p>${text(l.storyCard2Text)}</p></article><article><span>03</span><h3>${text(l.storyCard3Title)}</h3><p>${text(l.storyCard3Text)}</p></article></div><figure class="rk-library-screen"><img src="${screenshot('03-story-library')}" alt="Rockimals · ${text(l.shot3)}" width="828" height="1800" loading="lazy"></figure></div></div></section>
 <section class="rk-explore" id="explore"><div class="rk-wrap"><div class="rk-heading"><p class="rk-kicker">${text(l.insideEyebrow)}</p><h2>${text(l.insideTitle)}</h2></div></div><div class="rk-shot-row">${shots}</div></section>

@@ -18,7 +18,9 @@ import path from 'node:path';
 import { fileURLToPath } from 'node:url';
 import {
   ROCKIMALS_TODAY_LOCALES,
+  injectRockimalsTodayCount,
   renderRockimalsToday,
+  rockimalsTodayLandingCount,
   rockimalsTodayPath,
   rockimalsTodayVisitorsFromFeed,
   validateRockimalsTodayData
@@ -28,6 +30,7 @@ import { ROCKIMALS_ORIGIN } from './rockimals-blog-seo.mjs';
 const ROOT = path.resolve(path.dirname(fileURLToPath(import.meta.url)), '..');
 const OUTPUT_DIR = path.join(ROOT, 'dist', 'products', 'rockimals-today');
 const SITEMAP = path.join(ROOT, 'dist', 'products', 'rockimals-blog', 'sitemap.xml');
+const DIST = path.join(ROOT, 'dist');
 const SEED = path.join(ROOT, 'content', 'rockimals-today', 'seed.json');
 const PUBLISHED_DATA = `${ROCKIMALS_ORIGIN}/products/rockimals-today/data.json`;
 const NEOWS_FEED = 'https://api.nasa.gov/neo/rest/v1/feed';
@@ -79,6 +82,19 @@ async function writeOwned(relativePath, content, apiKey) {
   await writeFile(destination, content);
 }
 
+// The landing pages are built first; give their today card the day's count.
+async function fillLandingCards(data, today) {
+  for (const locale of ROCKIMALS_TODAY_LOCALES) {
+    const sentence = rockimalsTodayLandingCount({ locale, data, today });
+    for (const file of [path.join(DIST, 'products', 'rockimals-locales', `${locale}.html`), path.join(DIST, locale, 'index.html')]) {
+      let html;
+      try { html = await readFile(file, 'utf8'); } catch { continue; }
+      if (!html.includes('data-rockimals-today-count')) continue;
+      await writeFile(file, injectRockimalsTodayCount(html, sentence));
+    }
+  }
+}
+
 async function addToSitemap(date) {
   const sitemap = await readFile(SITEMAP, 'utf8');
   const entries = ROCKIMALS_TODAY_LOCALES
@@ -120,6 +136,7 @@ export async function buildRockimalsToday({
   const json = `${JSON.stringify(data, null, 2)}\n`;
   await writeOwned('data.json', json, apiKey);
   await addToSitemap(data.date);
+  await fillLandingCards(data, today);
   if (writeSeed && origin.startsWith('NeoWs')) {
     assertNoKey(json, apiKey, 'seed');
     await writeFile(SEED, json);

@@ -48,6 +48,12 @@
   - Tarihli `<h1>` ve `WebPage` JSON-LD; `Event` işaretlemesi yoktur.
   - Rockimals site haritasına sekiz adres `changefreq daily` ile eklenir.
 - **Bağlantı.** Açılış sayfası menüsüne sekiz dilde kısa bir "Bugün" bağlantısı eklenir ("Today", "Heute", "今日"…). Uzun etiket 1024 px'te Almanca menüyü iki satıra bölüyordu.
+- **Açılış sayfası kartı (sahibin isteği, 2026-09-24).**
+  - Neden: menü bağlantıları 960 px'ten dar ekranlarda gizli olduğu için telefonda ana sayfadan bu sayfaya gidilemiyordu.
+  - Kart ilk bölümün hemen altında, blog kartının üstünde ve aynı bantta; her ekranda görünür. Telefonda ilk bölüm biter bitmez çıkar.
+  - İçerik: üç kahraman küresi (fare, kaplan, balina), sayfanın başlığı ve "Bugünün ziyaretçilerini gör" bağlantısı.
+  - Günün sayısı: `build-rockimals-today.mjs`, açılış sayfaları derlendikten sonra karttaki boş alana "Bugün 4 gerçek asteroit…" cümlesini yazar. Liste bugüne ait değilse kart yalnızca genel metni gösterir.
+  - Kaynak `products/rockimals.html`'de bu alan boş kalır, böylece açılış derleyicisinin eşitlik denetimi bozulmaz.
 - **Kahraman kartı (sahibin geri bildirimi, 2026-09-24).**
   - Küre kartın ortasında ve büyük: telefonda 260 px, genişliğin en çok %72'si.
   - Kürede sabit görsel yerine kahramanın onaylı döngüsü (spec 116) oynar. Döngüler `assets/products/rockimals-heroes/loops/<hayvan>.{webm,mp4,webp}` altındadır: 480 px, WebM 29–152 KB, MP4 42–177 KB, poster döngünün ilk karesi.

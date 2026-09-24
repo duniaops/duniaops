@@ -372,6 +372,24 @@ export function rockimalsHeroName(locale, hero) {
   return fill(strings.critterName, { first: hero.name, species: strings[hero.species] });
 }
 
+// --- Landing card -----------------------------------------------------------
+
+/**
+ * The count sentence for the landing page's today card, or '' when the list
+ * is not today's (the card then keeps its evergreen text).
+ */
+export function rockimalsTodayLandingCount({ locale, data, today }) {
+  const ui = ROCKIMALS_TODAY_UI[locale];
+  if (!ui || data.date !== today || data.visitors.length === 0) return '';
+  return fill(plural(locale, ui.leadToday, data.visitors.length), { count: data.visitors.length });
+}
+
+/** Fills the card's empty count span; returns the HTML unchanged without it. */
+export function injectRockimalsTodayCount(html, sentence) {
+  if (!sentence) return html;
+  return html.replace('<span data-rockimals-today-count></span>', `<span data-rockimals-today-count>${escapeHtml(sentence)} </span>`);
+}
+
 // --- Page -------------------------------------------------------------------
 
 function formatDay(locale, date) {
