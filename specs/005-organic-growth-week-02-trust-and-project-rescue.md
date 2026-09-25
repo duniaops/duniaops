@@ -1,6 +1,6 @@
 # Organic Growth Week 02 — Trust and Project Rescue Launch
 
-**Status:** Live — published early on 8 September 2026. Production, live-route, GA4-definition, initial Search Console verification and the labelled end-to-end form test are complete; the 7/14/28-day observations remain open.
+**Status:** Live — published early on 8 September 2026. Production and initial conversion verification are complete. The 14-day Search Console observation was captured on 25 September with data through 22 September; the 7-day record remains NOT VERIFIED and the 28-day observation is due 6 October.
 **Type:** Trust Page / Commercial Service Page
 **Priority:** P1
 **Scheduled:** 14–20 September 2026
@@ -161,15 +161,22 @@ Record final paths/URLs, owners, evidence and offer decisions, article/form chan
 
 - Week 02 has no unfinished publication, factual-input, owner or approval dependency. All eight Weekly Deliverables and all Acceptance Criteria remain complete.
 - `/about`, `/services/software-project-rescue` and `/blog/software-project-rescue-uk` returned HTTP 200. The repository was clean and aligned with `origin/main`.
-- The 7-day cohort observation remains scheduled for 15 September so Search Console and GA4 use the latest complete source-specific day rather than a partial Monday window.
-- Tuesday's observation must record the exact Search Console and GA4 ranges, URL/query filters, index state, CTA/form state, Netlify/private-ledger outcome, decision and the unchanged 22 September / 6 October follow-ups.
+- The 7-day cohort observation was scheduled for 15 September so Search Console and GA4 would use the latest complete source-specific day rather than a partial Monday window; no contemporaneous completion evidence was found during the 25 September reconciliation, so it remains NOT VERIFIED.
+- The overdue observation was reconciled on 25 September below, with exact source windows, URL filters, index state, aggregate lead outcomes and the unchanged 6 October follow-up. Live route/canonical/CTA checks were not repeated in this observation.
 
-#### Prepared evidence checklist for 15 September
+#### Prepared evidence checklist for 15 September — reconciled 25 September
 
-- [ ] Record capture time, reporting timezone and the latest complete date exposed by each source; label any Search Console lag rather than treating it as a full seven-day window.
-- [ ] Inspect `/about`, `/services/software-project-rescue` and `/blog/software-project-rescue-uk` in Search Console and record the reported index state. Do not request indexing or validation as part of the observation.
-- [ ] Capture Search Console page performance from the 8 September live date through its latest complete date, plus the visible rescue query rows; retain zero/low-volume results honestly.
-- [ ] Capture GA4 landing-page and organic-session evidence through the latest complete prior day in the United Kingdom timezone; keep consent-driven undercounting explicit.
-- [ ] Reconcile only aggregate Netlify verified-submission counts and the private ledger's controlled classifications; do not copy prospect PII or enquiry text into Git.
-- [ ] Recheck HTTP status, canonical, sitemap membership and the About/rescue/article CTA paths without creating a form submission.
-- [ ] Record the evidence-backed decision (`hold`, `fix conversion/indexing blocker`, or `investigate`) and retain the 22 September / 6 October follow-ups with an owner.
+- [x] Capture time, reporting timezone and source freshness: Search Console read 25 September, performance through 22 September; GA4 through 24 September, Europe/London. The planned 15 September check was not documented contemporaneously and is not backfilled.
+- [x] Inspect `/about`, `/services/software-project-rescue` and `/blog/software-project-rescue-uk` in Search Console. The two new pages are indexed; the revised article remains indexed. No indexing request or validation was submitted.
+- [x] Capture Search Console page performance for 8–22 September: About 6 impressions/0 clicks/position 4.0; Rescue service 2/0/42.0; Rescue article 34/0/26.3. Visible query rows are partial; low volume does not support a snippet change.
+- [x] Capture GA4 source/medium acquisition for 8–24 September: 49 sessions total and no `google / organic` row. This confirms no recorded organic session in the report, not absence of all consented/unconsented user activity; landing-page organic attribution is therefore zero in the source/medium view.
+- [x] Reconcile aggregate sources only: private ledger shows 0 qualified organic, 0 unresolved and 2 measurement tests; Netlify overview reports 4 submissions, not treated as verified or qualified leads. No prospect PII or enquiry text was copied.
+- [ ] Recheck live HTTP, canonical, sitemap membership and CTA paths in this observation. Prior production verification remains recorded above; this specific follow-up was not performed.
+- [x] Record decision and next cohort: hold; no conversion/indexing blocker evidenced for these Week 02 pages. The 28-day follow-up remains 6 October, owner ibrahim uylas.
+
+### 14-day Search Console and acquisition observation — 25 September 2026
+
+- **Source windows:** Search Console performance is available through 22 September; GA4 is available through 24 September in Europe/London. Do not treat the Search Console window as a complete 14 elapsed days.
+- **Page results:** `/about` — 6 impressions, 0 clicks, position 4.0; `/services/software-project-rescue` — 2 impressions, 0 clicks, position 42.0; `/blog/software-project-rescue-uk` — 34 impressions, 0 clicks, position 26.3 (8–22 September). Each URL is indexed in URL Inspection and has one valid Breadcrumbs item. Visible query rows for the rescue article are partial/anonymised (16 visible impressions of 34 page impressions).
+- **Acquisition and leads:** GA4 Traffic Acquisition (8–24 September) shows 49 sessions, 35 engaged, 71.43% engagement, 1m35s average engagement time and no `google / organic` source/medium row. Its 2 generic key events are not treated as leads. The restricted lead-ledger Overview remains at 0 qualified organic enquiries, 0 unresolved and 2 tests.
+- **Decision:** Hold. The 14-day volumes are too small to justify title/snippet changes. Keep the 6 October 28-day check. Ibrahim Uylas owns deciding by 28 September whether the missing 7-day data can be reconstructed retrospectively; otherwise close it as NOT VERIFIED, not inferred.

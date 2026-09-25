@@ -1,6 +1,6 @@
 # Organic Growth Week 03 — Application Support Cluster
 
-**Status:** Live — the companion article was published early on 11 September 2026. The operating boundaries were approved and the Application Support & Software Maintenance commercial parent was deployed on 14 September; index and cohort monitoring remain open.
+**Status:** Live — the companion article was published on 11 September and the Application Support & Software Maintenance commercial parent on 14 September. The article's 14-day and service's 7-day Search Console observations were captured on 25 September using performance data through 22 September; the service is indexed and the article remains discovered but not indexed. Service 14-day and article 28-day checks remain open.
 **Type:** Commercial Service Page / Blog Article
 **Priority:** P1
 **Scheduled:** 21–27 September 2026
@@ -63,7 +63,7 @@ Own the explicit need for ongoing support of inherited software with a commercia
 - [x] Support/SLA promises are approved and achievable.
 - [x] Article has valid front matter, original copy, current sources where needed, natural links and a unique verified 1200x630 image.
 - [x] `npm test`, blog/site/XML/link/mobile/desktop and `git diff --check` checks pass.
-- [ ] Live, conversion and indexing evidence is recorded.
+- [x] Live, conversion and indexing evidence is recorded; follow-up cohort observations remain open.
 
 ## Completion Record
 
@@ -78,9 +78,9 @@ Record service/article paths and URLs, draft/publication/image state, operationa
 - **Change evidence:** commit `596bd6a` (`feat(blog): publish inherited software support guide`); Netlify production deploy `6aa3ded37934dd0008b0273d` reached `ready` at 11:58 BST.
 - **Editorial/image state:** published with valid front matter, original British English, primary NCSC/ICO sources and the approved unique `assets/blog/can-a-new-company-maintain-software-it-did-not-build-1200x630.jpg` image.
 - **Conversion state:** the live article CTA routes to `/?service=support&from=blog#contact`, where support preselection is available. Its reciprocal commercial-parent link went live with the Application Support service release on 14 September.
-- **Live/index state:** live HTTP 200 and present in generated blog/home/RSS/sitemap/redirect outputs. Search Console URL Inspection on 14 September reported `URL is unknown to Google` and not indexed, with no crawl or referring sitemap yet detected; the canonical URL is present in the live sitemap and no indexing request was sent.
+- **Live/index state at publication:** live HTTP 200 and present in generated blog/home/RSS/sitemap/redirect outputs. Search Console URL Inspection on 14 September reported `URL is unknown to Google` and not indexed; the canonical URL was present in the live sitemap and no indexing request was sent.
 - **Cohort dates:** 18 September / 25 September / 9 October, recalculated from the actual live date.
-- **Remaining cluster work:** observe the article on 18 September and the new commercial-parent service on 21 September; record Search Console discovery/index state without submitting an indexing request unless separately authorised.
+- **Remaining cluster work:** record the service's 14-day observation on 28 September, the article's 28-day observation on 9 October, and service 28-day observation on 12 October; track Search Console state without submitting an indexing request unless separately authorised.
 
 ### Application Support service local release candidate — 14 September 2026
 
@@ -98,4 +98,12 @@ Record service/article paths and URLs, draft/publication/image state, operationa
 - **Commit/deploy:** commit `391212f` (`feat(services): add application support takeover page`) pushed to `origin/main`; Netlify production deploy `6aa7c66397876156ed30ef9f` is live.
 - **Live verification:** the service, homepage, companion article and sitemap each returned HTTP 200. Canonical metadata, the support-preselected CTA, homepage placement, the article-parent link and the sitemap entry were verified against `https://www.duniaops.com`.
 - **Cohort dates:** 21 September / 28 September / 12 October, calculated from the actual 14 September publication date.
-- **Index state:** no new Search Console inspection, live test or indexing request was made for the service at publication; capture the first state at the 21 September cohort check.
+- **Index state at publication:** no new Search Console inspection, live test or indexing request was made for the service at publication; first inspection was captured on 25 September below.
+
+### Search Console and acquisition observation — 25 September 2026
+
+- **Capture/source freshness:** Search Console was read on 25 September in Europe/London. Performance data was complete through 22 September; the article has 12 calendar dates of available post-publication data (11–22 September), not a complete 14 elapsed days. GA4 source/medium was checked through 24 September.
+- **Companion article:** `/blog/can-a-new-company-maintain-software-it-did-not-build` recorded 0 clicks, 0 impressions and no average position in Search Console for 11–22 September. URL Inspection reports `Discovered – currently not indexed`, sitemap `https://www.duniaops.com/sitemap.xml`, no crawl date, and a Rockimals subdomain referring URL. That referring URL returned HTTP 404 on 25 September; treat it as stale referral evidence, not a reason to alter the canonical article. No indexing request was made.
+- **Commercial service:** `/services/application-support-maintenance` is on Google and indexed; URL Inspection shows one valid Breadcrumbs item. The 14–22 September page filter reports 1 impression, 0 clicks, average position 2.0. Search Console indicates page-filter totals can be partial; this is a low-volume directional observation.
+- **GA4 and enquiry outcome:** 8–24 September Traffic Acquisition contained 49 sessions and no `google / organic` source/medium row. The private ledger Overview reports 0 qualified organic enquiries, 0 unresolved enquiries and 2 measurement tests. No PII was accessed or copied; generic key events and Netlify's aggregate submission count are not classified as leads.
+- **Decision and next dates:** hold both assets; do not request indexing or make a quota-driven content change. Ibrahim Uylas owns follow-up. Check the service at 14 days on 28 September, the article at 28 days on 9 October and the service at 28 days on 12 October. Update this Completion Record and master tracker after each check.
