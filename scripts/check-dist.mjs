@@ -524,6 +524,7 @@ async function validateZodayPlayGrowth() {
   const product = await readFile(insideDist('products/zoday.html'), 'utf8');
   const invite = await readFile(insideDist('products/zoday/invite.html'), 'utf8');
   const inviteScript = await readFile(insideDist('js/zoday-invite.js'), 'utf8');
+  const landingScript = await readFile(insideDist('js/zoday-landing.js'), 'utf8');
   const redirects = await readFile(insideDist('_redirects'), 'utf8');
   const headers = await readFile(insideDist('_headers'), 'utf8');
   const assetLinks = JSON.parse(await readFile(insideDist('.well-known/assetlinks.json'), 'utf8'));
@@ -536,6 +537,10 @@ async function validateZodayPlayGrowth() {
   ];
   for (const fragment of productFragments) {
     if (!product.includes(fragment)) errors.push(`products/zoday.html: missing Play growth fragment ${fragment}`);
+  }
+  // Registered campaigns must survive the product-page Play CTA (Zoday Spec 044 S6).
+  for (const fragment of ["CAMPAIGNS = ['tr_daily_v1', 'tr_moon_v1', 'en_daily_v1', 'en_moon_v1']", "destination.searchParams.set('referrer', payload)"]) {
+    if (!landingScript.includes(fragment)) errors.push(`js/zoday-landing.js: missing campaign forwarding fragment ${fragment}`);
   }
   if (!catalogue.includes('<span>Android</span><span>Available now</span>')) {
     errors.push('products.html: Zoday must be marked available on Android');
