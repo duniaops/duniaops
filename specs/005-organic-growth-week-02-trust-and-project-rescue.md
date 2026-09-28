@@ -1,6 +1,6 @@
 # Organic Growth Week 02 — Trust and Project Rescue Launch
 
-**Status:** Live — published early on 8 September 2026. Production and initial conversion verification are complete. The 14-day Search Console observation was captured on 25 September with data through 22 September; the 7-day record remains NOT VERIFIED and the 28-day observation is due 6 October.
+**Status:** Live — published early on 8 September 2026. Production and initial conversion verification are complete. The 14-day Search Console observation was captured on 25 September with data through 22 September; on 28 September the 7-day Search Console performance was reconstructed retrospectively for 8–15 September, but the complete historical checkpoint remains NOT VERIFIED because contemporaneous GA4, lead, URL-state and conversion evidence is unavailable. The 28-day observation is due 6 October.
 **Type:** Trust Page / Commercial Service Page
 **Priority:** P1
 **Scheduled:** 14–20 September 2026
@@ -180,3 +180,10 @@ Record final paths/URLs, owners, evidence and offer decisions, article/form chan
 - **Page results:** `/about` — 6 impressions, 0 clicks, position 4.0; `/services/software-project-rescue` — 2 impressions, 0 clicks, position 42.0; `/blog/software-project-rescue-uk` — 34 impressions, 0 clicks, position 26.3 (8–22 September). Each URL is indexed in URL Inspection and has one valid Breadcrumbs item. Visible query rows for the rescue article are partial/anonymised (16 visible impressions of 34 page impressions).
 - **Acquisition and leads:** GA4 Traffic Acquisition (8–24 September) shows 49 sessions, 35 engaged, 71.43% engagement, 1m35s average engagement time and no `google / organic` source/medium row. Its 2 generic key events are not treated as leads. The restricted lead-ledger Overview remains at 0 qualified organic enquiries, 0 unresolved and 2 tests.
 - **Decision:** Hold. The 14-day volumes are too small to justify title/snippet changes. Keep the 6 October 28-day check. Ibrahim Uylas owns deciding by 28 September whether the missing 7-day data can be reconstructed retrospectively; otherwise close it as NOT VERIFIED, not inferred.
+
+### Retrospective 7-day Search Console performance reconstruction — 28 September 2026
+
+- **Source and window:** Search Console property `sc-domain:duniaops.com`, read-only, retrieved 28 September 2026; exact performance range 8–15 September 2026. Search Console reported its latest update 3.5 hours before inspection and data through 25 September. This reconstructs historical performance only; it was not captured contemporaneously on 15 September.
+- **Results:** `/about` — 0 impressions, 0 clicks; `/services/software-project-rescue` — 0 impressions, 0 clicks; `/blog/software-project-rescue-uk` — 16 impressions, 0 clicks, 0% CTR and average position 24.3. The article's visible query rows are partial (6 visible impressions across four queries); page totals are the reported values.
+- **Indexing/conversion caveat:** Current URL Inspection on 25 September had shown the three URLs indexed, but that does not reconstruct their index state on 15 September. No contemporaneous GA4, private lead-ledger, CTA/form or live-route capture for the 7-day checkpoint was found. Do not backfill those states or call the composite checkpoint complete.
+- **Classification and decision:** GSC performance values are retrospectively reconstructed; the overall Week 02 7-day cohort checkpoint remains **NOT VERIFIED**. Hold all assets; the low sample does not justify a snippet or content change. Ibrahim Uylas owns the 6 October 28-day check.

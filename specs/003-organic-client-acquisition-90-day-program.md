@@ -1,6 +1,6 @@
 # DuniaOps 90 Günlük Organik Müşteri Kazanım Programı
 
-**Status:** Active — Week 02's 14-day Search Console observation and Week 03's support-article 14-day/service 7-day observations were captured on 25 September using Search Console data through 22 September. Search Console now reports the Application Support service as indexed; its companion article remains discovered but not indexed. The private lead-ledger summary remains at zero qualified organic enquiries. The Week 02 7-day evidence is not recorded; later cohort checks remain open.
+**Status:** Active — on 28 September, the Week 02 7-day Search Console performance was reconstructed for 8–15 September, while the complete historical checkpoint remains NOT VERIFIED because contemporaneous GA4/lead/URL-state/conversion evidence is unavailable. The Application Support 14-day checkpoint was captured using Search Console data through 25 September (12 calendar dates including publication day: 4 impressions, 0 clicks); the service is indexed and its companion article remains discovered but not indexed. The private lead-ledger summary remains at zero qualified organic enquiries. Week 04 Core Production is in progress; later cohort checks remain open.
 **Type:** Programme
 **Priority:** P1
 **Period:** 7 September–5 December 2026 (90 execution days); complete-data verification 11 December 2026.
@@ -106,9 +106,9 @@ If approval or factual evidence is missing, Thursday produces a review-ready dra
 | Week | Dates | Spec | Primary publication or outcome | Phase | Status |
 |---|---|---|---|---|---|
 | 01 | 7–13 Sep | [004](004-organic-growth-week-01-measurement-foundation.md) | Measurement system and approved Week 02–08 asset briefs | Foundation | Complete — Friday evidence reconciled 11 Sep |
-| 02 | 14–20 Sep | [005](005-organic-growth-week-02-trust-and-project-rescue.md) | About/Expertise and Software Project Rescue service pages | Production | Live; 14-day GSC observation captured 25 Sep (data through 22 Sep); 7-day evidence not recorded; 28-day check 6 Oct |
-| 03 | 21–27 Sep | [006](006-organic-growth-week-03-application-support-cluster.md) | Application Support service page and takeover article | Production | Both live; article 14-day and service 7-day observations captured 25 Sep (data through 22 Sep); service 14-day check 28 Sep; article 28-day check 9 Oct |
-| 04 | 28 Sep–4 Oct | [007](007-organic-growth-week-04-devops-cluster.md) | DevOps service refresh and DevOps/Kubernetes buyer article | Production | Planned |
+| 02 | 14–20 Sep | [005](005-organic-growth-week-02-trust-and-project-rescue.md) | About/Expertise and Software Project Rescue service pages | Production | Live; 14-day GSC observation captured 25 Sep (data through 22 Sep); 8–15 Sep GSC metrics reconstructed 28 Sep but composite 7-day checkpoint remains NOT VERIFIED; 28-day check 6 Oct |
+| 03 | 21–27 Sep | [006](006-organic-growth-week-03-application-support-cluster.md) | Application Support service page and takeover article | Production | Both live; article 14-day and service 7-day observations captured 25 Sep (data through 22 Sep); service 14-day checkpoint captured 28 Sep (data through 25 Sep; 4 impressions, 0 clicks; indexed); article 28-day check 9 Oct; service 28-day check 12 Oct |
+| 04 | 28 Sep–4 Oct | [007](007-organic-growth-week-04-devops-cluster.md) | DevOps service refresh and DevOps/Kubernetes buyer article | Core production | In progress; Monday GSC gate complete 28 Sep; Kubernetes consultant vs permanent hire intent frozen; owner/capability evidence still due before drafting |
 | 05 | 5–11 Oct | [008](008-organic-growth-week-05-custom-software-cluster-and-day-30.md) | Custom Software service page, cost/selection article and Day-30 check | Production | Planned |
 | 06 | 12–18 Oct | [009](009-organic-growth-week-06-ai-cluster.md) | AI service refresh and AI consultant/company article | Production | Planned |
 | 07 | 19–25 Oct | [010](010-organic-growth-week-07-existing-content-and-internal-links.md) | Existing rescue/DevOps article upgrades and full cluster-link pass | Production | Planned |
