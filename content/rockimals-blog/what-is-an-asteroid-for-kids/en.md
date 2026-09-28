@@ -5,9 +5,9 @@ slug: "what-is-an-asteroid-for-kids"
 title: "What Is an Asteroid? A Simple Guide for Kids"
 description: "What is an asteroid? Learn where these space rocks travel, how their sizes differ, and why a near-Earth orbit is not the same as an impact warning."
 category: "learn-space"
-published: "2099-01-01T10:00:00Z"
-updated: "2099-01-01T10:00:00Z"
-draft: true
+published: "2026-09-28T10:43:02Z"
+updated: "2026-09-28T10:43:02Z"
+draft: false
 image: "/assets/rockimals-blog/what-is-an-asteroid-for-kids/cover.jpg"
 imageAlt: "Niko the mouse and Enoli the whale on illustrated space rocks; the scene is not a scale diagram"
 author:

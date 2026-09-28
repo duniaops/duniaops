@@ -5,9 +5,9 @@ slug: "shouwakusei-to-wa-kodomo"
 title: "小惑星とは？子どもと学ぶやさしい宇宙の話"
 description: "小惑星とは何でしょう？どこを回り、どれくらい大きいのか。「地球に近い」と衝突の違いも、親子で落ち着いて学べます。"
 category: "learn-space"
-published: "2099-01-01T10:00:00Z"
-updated: "2099-01-01T10:00:00Z"
-draft: true
+published: "2026-09-28T10:43:02Z"
+updated: "2026-09-28T10:43:02Z"
+draft: false
 image: "/assets/rockimals-blog/what-is-an-asteroid-for-kids/cover.jpg"
 imageAlt: "宇宙の岩に乗るネズミのNikoとクジラのEnoliを描いたイラスト。実際の大きさの比率ではありません"
 author:

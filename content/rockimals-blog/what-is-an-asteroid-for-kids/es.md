@@ -5,9 +5,9 @@ slug: "que-es-un-asteroide-para-ninos"
 title: "¿Qué es un asteroide? Una explicación sencilla para niños"
 description: "Descubre qué es un asteroide, dónde viaja y cuánto puede medir. Aprende a distinguir su tamaño de la distancia a la Tierra sin confundir un paso cercano con un impacto."
 category: "learn-space"
-published: "2099-01-01T10:00:00Z"
-updated: "2099-01-01T10:00:00Z"
-draft: true
+published: "2026-09-28T10:43:02Z"
+updated: "2026-09-28T10:43:02Z"
+draft: false
 image: "/assets/rockimals-blog/what-is-an-asteroid-for-kids/cover.jpg"
 imageAlt: "Niko, el ratón, y Enoli, la ballena, sobre rocas espaciales ilustradas; la escena no está dibujada a escala"
 author:

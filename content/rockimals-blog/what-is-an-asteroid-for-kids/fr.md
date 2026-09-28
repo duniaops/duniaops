@@ -5,9 +5,9 @@ slug: "asteroide-explique-aux-enfants"
 title: "Qu'est-ce qu'un astéroïde ? Une explication pour les enfants"
 description: "Où voyagent les astéroïdes et quelle taille ont-ils ? Une explication simple pour distinguer leur taille de leur distance à la Terre, sans confondre passage proche et collision."
 category: "learn-space"
-published: "2099-01-01T10:00:00Z"
-updated: "2099-01-01T10:00:00Z"
-draft: true
+published: "2026-09-28T10:43:02Z"
+updated: "2026-09-28T10:43:02Z"
+draft: false
 image: "/assets/rockimals-blog/what-is-an-asteroid-for-kids/cover.jpg"
 imageAlt: "Niko la souris et Enoli la baleine sur des rochers spatiaux illustrés ; les tailles ne sont pas représentées à l’échelle"
 author:

@@ -5,9 +5,9 @@ slug: "asteroit-nedir-cocuklar-icin"
 title: "Asteroit Nedir? Çocuklar İçin Basit Bir Rehber"
 description: "Asteroit nedir, nerede dolaşır ve ne kadar büyük olabilir? Çocuklarla boyut ve Dünya'ya yaklaşma mesafesi arasındaki farkı keşfedin."
 category: "learn-space"
-published: "2099-01-01T10:00:00Z"
-updated: "2099-01-01T10:00:00Z"
-draft: true
+published: "2026-09-28T10:43:02Z"
+updated: "2026-09-28T10:43:02Z"
+draft: false
 image: "/assets/rockimals-blog/what-is-an-asteroid-for-kids/cover.jpg"
 imageAlt: "Uzay taşları üzerinde fare Niko ve balina Enoli; çizim gerçek boyut ölçeğini göstermiyor"
 author:

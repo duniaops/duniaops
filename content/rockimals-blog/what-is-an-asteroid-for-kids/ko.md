@@ -5,9 +5,9 @@ slug: "sohaengseong-iran-eorini"
 title: "소행성이란? 어린이와 함께 알아보는 쉬운 우주 이야기"
 description: "소행성은 어디를 돌고 얼마나 클까요? 지구 근처를 지난다는 말과 충돌의 차이를 어린이 눈높이에서 차분히 알아봅니다."
 category: "learn-space"
-published: "2099-01-01T10:00:00Z"
-updated: "2099-01-01T10:00:00Z"
-draft: true
+published: "2026-09-28T10:43:02Z"
+updated: "2026-09-28T10:43:02Z"
+draft: false
 image: "/assets/rockimals-blog/what-is-an-asteroid-for-kids/cover.jpg"
 imageAlt: "우주 바위 위의 생쥐 Niko와 고래 Enoli를 그린 그림. 실제 크기 비율을 나타내지 않음"
 author:

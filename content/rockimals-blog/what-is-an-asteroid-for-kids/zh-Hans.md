@@ -5,9 +5,9 @@ slug: "xiaoxingxing-shi-shenme-ertong"
 title: "小行星是什么？和孩子一起读懂这些太空岩石"
 description: "小行星在哪里运行、有多大？用简单的例子分清小行星大小与接近地球的距离，也了解“近地”不等于即将撞击。"
 category: "learn-space"
-published: "2099-01-01T10:00:00Z"
-updated: "2099-01-01T10:00:00Z"
-draft: true
+published: "2026-09-28T10:43:02Z"
+updated: "2026-09-28T10:43:02Z"
+draft: false
 image: "/assets/rockimals-blog/what-is-an-asteroid-for-kids/cover.jpg"
 imageAlt: "插画中的老鼠Niko和鲸鱼Enoli站在太空岩石上；画面并非真实比例示意图"
 author:
