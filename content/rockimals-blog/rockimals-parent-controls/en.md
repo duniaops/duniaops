@@ -5,9 +5,9 @@ slug: "rockimals-ads-accounts-parent-controls"
 title: "Rockimals: Ads, Accounts and Parent Controls Explained"
 description: "Does Rockimals have ads or child accounts? See what sits behind its parent gate, how optional Plus works and what the privacy policy says about data."
 category: "family-guide"
-published: "2099-01-01T10:00:00Z"
-updated: "2099-01-01T10:00:00Z"
-draft: true
+published: "2026-10-05T13:58:49Z"
+updated: "2026-10-05T13:58:49Z"
+draft: false
 image: "/assets/rockimals-blog/rockimals-parent-controls/cover.jpg"
 imageAlt: "Barney the fox and Pofi the bear beside an illustrated shield and lock; not an app settings screenshot"
 author:

@@ -5,9 +5,9 @@ slug: "rockimals-gwanggo-gyejeong-bumo"
 title: "Rockimals에 광고나 어린이 계정이 있나요? 보호자를 위한 안내"
 description: "Rockimals의 광고와 계정 여부, 보호자 확인 단계, 선택형 Plus와 개인정보 처리 내용을 다운로드 전에 살펴보세요."
 category: "family-guide"
-published: "2099-01-01T10:00:00Z"
-updated: "2099-01-01T10:00:00Z"
-draft: true
+published: "2026-10-05T13:58:49Z"
+updated: "2026-10-05T13:58:49Z"
+draft: false
 image: "/assets/rockimals-blog/rockimals-parent-controls/cover.jpg"
 imageAlt: "여우 Barney와 곰 Pofi 옆의 그림 방패와 자물쇠. 실제 앱 설정 화면은 아님"
 author:

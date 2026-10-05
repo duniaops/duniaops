@@ -5,9 +5,9 @@ slug: "rockimals-anuncios-cuentas-control-parental"
 title: "Rockimals: anuncios, cuentas infantiles y control parental"
 description: "¿Rockimals tiene anuncios o cuentas infantiles? Conoce qué acciones requieren a un adulto, cómo funciona Plus y qué datos explica su política de privacidad."
 category: "family-guide"
-published: "2099-01-01T10:00:00Z"
-updated: "2099-01-01T10:00:00Z"
-draft: true
+published: "2026-10-05T13:58:49Z"
+updated: "2026-10-05T13:58:49Z"
+draft: false
 image: "/assets/rockimals-blog/rockimals-parent-controls/cover.jpg"
 imageAlt: "Barney el zorro y Pofi el oso junto a un escudo y un candado ilustrados; no es una captura de los ajustes"
 author:

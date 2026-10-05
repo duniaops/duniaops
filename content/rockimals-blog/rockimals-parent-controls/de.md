@@ -5,9 +5,9 @@ slug: "rockimals-werbung-konten-elternkontrolle"
 title: "Rockimals: Werbung, Kinderkonten und Elternkontrolle"
 description: "Gibt es in Rockimals Werbung oder Kinderkonten? Erfahren Sie, welche Schritte Erwachsene bestätigen, wie Plus funktioniert und welche Daten verarbeitet werden."
 category: "family-guide"
-published: "2099-01-01T10:00:00Z"
-updated: "2099-01-01T10:00:00Z"
-draft: true
+published: "2026-10-05T13:58:49Z"
+updated: "2026-10-05T13:58:49Z"
+draft: false
 image: "/assets/rockimals-blog/rockimals-parent-controls/cover.jpg"
 imageAlt: "Fuchs Barney und Bär Pofi neben einem gezeichneten Schild und Schloss; kein Screenshot der App-Einstellungen"
 author:

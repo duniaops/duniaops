@@ -5,9 +5,9 @@ slug: "rockimals-koukoku-akounto-hogosha"
 title: "Rockimalsに広告や子ども用アカウントはある？保護者向けガイド"
 description: "Rockimalsの広告、アカウント、保護者向けの確認画面を説明。無料で使える範囲、Plus、プライバシー情報も確認できます。"
 category: "family-guide"
-published: "2099-01-01T10:00:00Z"
-updated: "2099-01-01T10:00:00Z"
-draft: true
+published: "2026-10-05T13:58:49Z"
+updated: "2026-10-05T13:58:49Z"
+draft: false
 image: "/assets/rockimals-blog/rockimals-parent-controls/cover.jpg"
 imageAlt: "キツネのBarneyとクマのPofi、イラストの盾と鍵。実際のアプリ設定画面ではありません"
 author:

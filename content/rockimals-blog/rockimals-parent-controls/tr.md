@@ -5,9 +5,9 @@ slug: "rockimals-reklam-hesap-ebeveyn-kontrolu"
 title: "Rockimals'ta Reklam, Hesap ve Ebeveyn Kontrolü"
 description: "Rockimals'ta reklam veya çocuk hesabı var mı? Ebeveyn kapısı, isteğe bağlı Plus ve işlenen teknik veriler hakkında indirmeden önce bilgi edinin."
 category: "family-guide"
-published: "2099-01-01T10:00:00Z"
-updated: "2099-01-01T10:00:00Z"
-draft: true
+published: "2026-10-05T13:58:49Z"
+updated: "2026-10-05T13:58:49Z"
+draft: false
 image: "/assets/rockimals-blog/rockimals-parent-controls/cover.jpg"
 imageAlt: "Çizim kalkan ve kilidin yanında tilki Barney ile ayı Pofi; gerçek uygulama ayar ekranı değil"
 author:

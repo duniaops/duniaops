@@ -5,9 +5,9 @@ slug: "rockimals-guanggao-zhanghu-jiazhang"
 title: "Rockimals 有广告或儿童账户吗？家长使用指南"
 description: "了解 Rockimals 是否有广告或儿童账户、哪些操作需要家长确认，以及可选 Plus 和隐私政策说明的数据处理。"
 category: "family-guide"
-published: "2099-01-01T10:00:00Z"
-updated: "2099-01-01T10:00:00Z"
-draft: true
+published: "2026-10-05T13:58:49Z"
+updated: "2026-10-05T13:58:49Z"
+draft: false
 image: "/assets/rockimals-blog/rockimals-parent-controls/cover.jpg"
 imageAlt: "狐狸 Barney 和熊 Pofi 站在绘制的盾牌与锁旁；这不是应用设置页面截图"
 author:

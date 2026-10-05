@@ -5,9 +5,9 @@ slug: "rockimals-publicites-comptes-controle-parental"
 title: "Rockimals : publicité, compte enfant et contrôle parental"
 description: "Rockimals affiche-t-il des publicités ? Découvrez les actions réservées aux adultes, l'abonnement Plus facultatif et les données décrites dans sa politique."
 category: "family-guide"
-published: "2099-01-01T10:00:00Z"
-updated: "2099-01-01T10:00:00Z"
-draft: true
+published: "2026-10-05T13:58:49Z"
+updated: "2026-10-05T13:58:49Z"
+draft: false
 image: "/assets/rockimals-blog/rockimals-parent-controls/cover.jpg"
 imageAlt: "Barney le renard et Pofi l’ours près d’un bouclier et d’un cadenas dessinés ; ce n’est pas une capture des réglages"
 author:
