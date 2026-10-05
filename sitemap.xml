@@ -111,9 +111,15 @@
   <!-- blog:start -->
   <url>
     <loc>https://www.duniaops.com/blog</loc>
-    <lastmod>2026-09-11</lastmod>
+    <lastmod>2026-10-05</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://www.duniaops.com/blog/kubernetes-consultant-or-permanent-hire-uk</loc>
+    <lastmod>2026-10-05</lastmod>
+    <changefreq>yearly</changefreq>
+    <priority>0.7</priority>
   </url>
   <url>
     <loc>https://www.duniaops.com/blog/can-a-new-company-maintain-software-it-did-not-build</loc>

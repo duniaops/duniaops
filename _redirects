@@ -82,6 +82,7 @@ https://duniaops.com/* https://www.duniaops.com/:splat 301!
 /services/ai-software-development.html /services/ai-software-development 301!
 /services/application-support-maintenance.html /services/application-support-maintenance 301!
 /services/booking-and-allocation-systems.html /services/booking-and-allocation-systems 301!
+/services/custom-software-development.html /services/custom-software-development 301!
 /services/devops-and-cloud-consultancy.html /services/devops-and-cloud-consultancy 301!
 /services/mobile-app-development.html /services/mobile-app-development 301!
 /services/software-project-rescue.html /services/software-project-rescue 301!
@@ -99,6 +100,7 @@ https://duniaops.com/* https://www.duniaops.com/:splat 301!
 /thank-you.html /thank-you 301!
 # blog:start
 /blog.html /blog 301!
+/blog/kubernetes-consultant-or-permanent-hire-uk.html /blog/kubernetes-consultant-or-permanent-hire-uk 301!
 /blog/can-a-new-company-maintain-software-it-did-not-build.html /blog/can-a-new-company-maintain-software-it-did-not-build 301!
 /blog/gpt-6-astra-explained.html /blog/gpt-6-astra-explained 301!
 /blog/software-project-rescue-uk.html /blog/software-project-rescue-uk 301!

@@ -6,7 +6,20 @@
     <description>Practical articles about software development, AI, DevOps, cloud engineering, booking platforms and mobile products.</description>
     <language>en-gb</language>
     <atom:link href="https://www.duniaops.com/feed.xml" rel="self" type="application/rss+xml"/>
-    <lastBuildDate>Fri, 11 Sep 2026 00:00:00 GMT</lastBuildDate>
+    <lastBuildDate>Mon, 05 Oct 2026 00:00:00 GMT</lastBuildDate>
+    <item>
+      <title>Kubernetes Consultant or Permanent Hire? A UK Team&#39;s Decision Guide</title>
+      <link>https://www.duniaops.com/blog/kubernetes-consultant-or-permanent-hire-uk</link>
+      <guid isPermaLink="true">https://www.duniaops.com/blog/kubernetes-consultant-or-permanent-hire-uk</guid>
+      <pubDate>Mon, 05 Oct 2026 00:00:00 GMT</pubDate>
+      <description>Choose between a Kubernetes consultant and a permanent platform hire using ongoing workload, operational ownership, team capacity and a practical handover plan.</description>
+      <author>info@duniaops.com (DuniaOps Team)</author>
+      <category>DevOps &amp; Cloud Consultancy</category>
+      <category>Kubernetes Consultancy</category>
+      <category>Platform Engineering</category>
+      <category>DevOps Hiring</category>
+      <category>UK Software Teams</category>
+    </item>
     <item>
       <title>Can a New Company Maintain Software It Did Not Build?</title>
       <link>https://www.duniaops.com/blog/can-a-new-company-maintain-software-it-did-not-build</link>

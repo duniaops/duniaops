@@ -200,6 +200,7 @@ section{padding:104px 0}
 .t-span2{grid-column:span 2}
 .t-span4{grid-column:span 4}
 .t-span6{grid-column:span 6}
+.bento>.tile.t-span3{width:100%;min-width:0;min-height:430px}
 
 /* flagship tile (dark) */
 .tile-dark{
