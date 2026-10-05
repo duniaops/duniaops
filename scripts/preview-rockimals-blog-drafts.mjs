@@ -2,6 +2,7 @@ import { mkdir, rm, writeFile } from 'node:fs/promises';
 import path from 'node:path';
 import { fileURLToPath } from 'node:url';
 import {
+  createRockimalsBlogManifest,
   loadRockimalsBlogSources,
   ROCKIMALS_BLOG_CATEGORIES
 } from './rockimals-blog-content.mjs';
@@ -81,8 +82,12 @@ async function main() {
     throw new Error(`Refusing to clean unexpected preview directory: ${OUTPUT_DIR}`);
   }
 
-  const sources = (await loadRockimalsBlogSources({ contentDir: CONTENT_DIR }))
-    .filter(({ draft }) => draft);
+  const allSources = await loadRockimalsBlogSources({ contentDir: CONTENT_DIR });
+  const sources = allSources.filter(({ draft }) => draft);
+  const published = createRockimalsBlogManifest(allSources, { asOf: new Date() }).posts;
+  const publishedByKey = new Map(
+    published.map((post) => [post.translationKey + ':' + post.locale, post])
+  );
   const groups = new Map();
   for (const post of sources) {
     const group = groups.get(post.translationKey) ?? [];
@@ -104,12 +109,16 @@ async function main() {
       const previewPost = {
         ...post,
         categoryLabel: ROCKIMALS_BLOG_CATEGORIES[post.category][post.locale],
-        alternatePaths
+        alternatePaths,
+        relatedPosts: post.relatedPosts
+          .map((key) => publishedByKey.get(key + ':' + post.locale))
+          .filter(Boolean)
+          .map(({ canonicalPath, title }) => ({ path: canonicalPath, title }))
       };
       const html = renderRockimalsBlogArticle({
         post: previewPost,
         ctaHref: ROCKIMALS_APP_STORE_URL,
-        experience: copy ? {
+        experience: post.category !== 'family-guide' && copy ? {
           title: copy.title,
           text: copy.text,
           href: productPath(post.locale),

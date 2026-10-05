@@ -3,7 +3,7 @@
 **Type:** Task
 **Priority:** P2 — ana epic'in planlı çalışma önceliği; acil teslim tarihi yok.
 **Risk:** Medium
-**Status:** Planned — implementation not started
+**Status:** Six locale drafts prepared 2026-10-05 — independent language review pending
 **Depends on:** [31 — konu 28 İngilizce/Türkçe kaynak](031-rockimals-blog-parent-guide-en-tr.md).
 **Parent:** [021 — Rockimals çok dilli blog epic'i](021-rockimals-multilingual-blog-growth.md)
 **Plan:** [52 konu ve ilk 13 hafta](../docs/rockimals-blog-plani-2026-09-22.md)
@@ -24,12 +24,12 @@ Konu 28 için doğrulanmış kaynak brief ve İngilizce metinden Japonca, Korece
 
 ## Acceptance Criteria
 
-- [ ] **AC1:** Altı tamamlanmış yeni dil kaynağı vardır; önceki en/tr ile birlikte tek konuya ait sekiz ayrı ve doğru locale/slug oluşur, eksik dil için İngilizce fallback yoktur.
-- [ ] **AC2:** Her dil için yerel arama ifadesi, niyet/pazar kaydı, başlık, açıklama, imageAlt, CTA ve oyun terimleri tamamlanmıştır.
-- [ ] **AC3:** Kaynak yazının anlamı ve olgusal sınırları korunur; çeviri yeni ürün özelliği, kesinlik, sağlık/öğrenme kazanımı veya NASA onayı üretmez.
-- [ ] **AC4:** Metin içeren ekranlar doğru dildedir; ortak kapak konuya uygundur. Aynı dilde yalnızca yayımlanabilir ilgili yazılar bağlantı olabilir.
+- [x] **AC1:** Altı tamamlanmış yeni dil kaynağı vardır; önceki en/tr ile birlikte tek konuya ait sekiz ayrı ve doğru locale/slug oluşur, eksik dil için İngilizce fallback yoktur.
+- [x] **AC2:** Her dil için yerel arama ifadesi, niyet/pazar kaydı, başlık, açıklama, imageAlt, CTA ve oyun terimleri tamamlanmıştır.
+- [x] **AC3:** Kaynak yazının anlamı ve olgusal sınırları korunur; çeviri yeni ürün özelliği, kesinlik, sağlık/öğrenme kazanımı veya NASA onayı üretmez.
+- [x] **AC4:** Metin içeren ekranlar doğru dildedir; ortak kapak konuya uygundur. Aynı dilde yalnızca yayımlanabilir ilgili yazılar bağlantı olabilir.
 - [ ] **AC5:** Altı dilin anlam/terminoloji inceleme durumu kaydedilmiştir; CJK metinde eksik/bozuk karakter bulunmaz ve çözülmemiş içerik sorunu hazır diye işaretlenmez.
-- [ ] **AC6:** Bu işin sonunda sekizli kaynak envanteri tamamdır; tüm kaynaklar taslak olarak korunur, çeviri tamamlanması canlı yayın diye raporlanmaz. Nihai render kontrolü için yollar 034'e verilir.
+- [x] **AC6:** Bu işin sonunda sekizli kaynak envanteri tamamdır; tüm kaynaklar taslak olarak korunur, çeviri tamamlanması canlı yayın diye raporlanmaz. Nihai render kontrolü için yollar 034'e verilir.
 
 ## Validation
 
@@ -43,4 +43,4 @@ Kaynak yazının amacını yeniden belirleme, ortak görsel üretimi, başka kon
 
 Altı kaynak dosyası, sekizli envanter, her dilin arama/inceleme kaydı ve varsa çözülmemiş konuya özgü maddeler.
 
-Kapanışta değişen dosyaları, kanıtları ve açık maddeleri kaydet. Uygulama tamamlanmadıysa kabul kutularını işaretleme. Bu spec'i yazmak commit, push veya yayın işleminin gerçekleştiği anlamına gelmez.
+**5 Ekim 2026 taslak teslimi:** `content/rockimals-blog/rockimals-parent-controls/{ja,ko,zh-Hans,fr,de,es}.md` oluşturuldu; ortak brief'te pazar/terim kararları ve kaynaklar kayıtlıdır. Sekiz dosya draft durumundadır ve özel önizlemeleri üretildi. CJK dosyalarında bozuk karakter/placeholder taraması geçti. AC5, bağımsız yerel dil/anlam incelemesi yapılmadığı için açık bırakıldı; bu onay verilmiş gibi gösterilmez. Gerçek sekiz dilli ebeveyn kapısı ekranı 026 görsel paketinde yoktur, metinsiz kapak kullanıldı. Commit, push veya yayın yapılmadı.

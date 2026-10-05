@@ -1,11 +1,11 @@
 # Rockimals blog: 01, 15 ve 28 için ortak editoryal brief
 
-Bu belge 027–032 arasındaki içerik işlerinin ortak başlangıç noktasıdır. Ürün ve terim ayrıntılarında [`product-reference.json`](./product-reference.json), görsel seçiminde [`asset-manifest.json`](./asset-manifest.json) esas alınır. Anlık ürün kaydı 22 Eylül 2026 tarihlidir.
+Bu belge 027–032 arasındaki içerik işlerinin ortak başlangıç noktasıdır. Ürün ve terim ayrıntılarında [`product-reference.json`](./product-reference.json), görsel seçiminde [`asset-manifest.json`](./asset-manifest.json) esas alınır. Konu 28'in güncel kaynak ve sürüm kararı [konuya özel brief'tedir](./rockimals-parent-controls-brief.md); konu 01/15'in 1.3.0 kaynak notları tarihsel yayın kayıtlarıdır.
 
 ## Kanıt sırası ve yayın kuralları
 
-1. Canlı ürün iddialarında 22 Eylül 2026'da doğrulanan GB App Store 1.3.0 kaydı, canlı gizlilik politikası ve destek sayfası kullanılır.
-2. Oyun deposunun `04a455d878dee4851e4e1857181ceabd9ea2f21b` commit'indeki 1.4.0+39 durumu yalnızca geliştirme kanıtıdır. Canlı sürümde doğrulanmayan bir davranış bu kaynaktan yayın iddiasına dönüştürülmez.
+1. Canlı ürün iddialarında yazının kendi inceleme tarihindeki GB App Store kaydı, canlı gizlilik politikası ve destek sayfası kullanılır. Konu 28 için 5 Ekim 2026'da 1.4.0 doğrulandı.
+2. Oyun deposunun `04a455d878dee4851e4e1857181ceabd9ea2f21b` commit'indeki 1.4.0+39 durumu tarihli geliştirme kanıtıdır. Canlı sürümde ayrıca doğrulanmayan bir davranış bu kaynaktan yayın iddiasına dönüştürülmez.
 3. Kullanıcıya görünen kahraman adları Niko, Tavi, Barney, Kito, Pofi, Bobo, Ciko ve Enoli'dir. Katalogtaki eski/teknik sezon, fixture veya seri kimlikleri yazıya taşınmaz.
 4. Uygulama içi oyun ve ekran adları her dilde ARB kaynağındaki karşılığıyla yazılır. Özel kahraman adları değişmez; tür adları yerelleştirilir.
 5. NASA verisi ile hayvan karakter/hikâye kurgusu ayrılır. Rockimals'ın NASA ile bağlantılı veya NASA tarafından onaylanmış olduğu söylenmez.
@@ -24,7 +24,7 @@ Her dil paketi aşağıdaki alanları tamamlamalıdır:
 - kullanılacak ürün/bilim kaynakları ve inceleme tarihleri
 - ortak kapak, gerekli yerelleştirilmiş ekranlar ve yerel alt metin
 - tek somut CTA ve yalnızca yayımlanmış ilgili içerikler
-- `reviewedAppVersion: "1.3.0"`, anlam/terim inceleme durumu ve açık maddeler
+- İnceleme tarihinde doğrulanan `reviewedAppVersion`, anlam/terim inceleme durumu ve açık maddeler
 
 ## Konu 01 — Rockimals nasıl oynanır?
 
@@ -53,6 +53,7 @@ Her dil paketi aşağıdaki alanları tamamlamalıdır:
 ## Konu 28 — Reklam, hesap ve ebeveyn kontrolü
 
 - **Sıra / kimlik:** hafta 3, `28`, önerilen `translationKey`: `rockimals-parent-controls`.
+- **Güncel karar:** 5 Ekim 2026'da doğrulanan iOS 1.4.0 ve 25 Eylül yürürlüklü gizlilik politikası için [konuya özel brief](./rockimals-parent-controls-brief.md) kullanılır.
 - **Kategori:** `family-guide`.
 - **Başlangıç niyeti:** `Rockimals ads parental controls`; indirme kararını veren ebeveyn.
 - **Tek soru:** Rockimals'ta reklam/hesap var mı, hangi eylemler ebeveyn kapısında ve hangi teknik veriler işleniyor?
@@ -67,6 +68,6 @@ Her dil paketi aşağıdaki alanları tamamlamalıdır:
 - Kamuya açık Google Play kaydı doğrulanmadı.
 - Canlı landing'in structured data alanında iOS 13.0 yazarken App Store 1.3.0 kaydı iOS 15.0 gerektiriyor; yazılarda mağaza değeri kullanılmalı.
 - Konu 28 için güncel ve sekiz dilde parent-gate/settings ekranı yok. Mevcut kapak gerçek karakter varlıklarıyla hazırlanmış editoryal kompozisyondur, uygulama ekranı değildir.
-- 1.4.0 geliştirme kataloğundaki daha sonraki bölümlerin indirilebilir olması canlı 1.3.0 özelliği olarak anlatılamaz.
+- Konu 01/15'in 1.3.0 kaynak notları sonraki sürümlere otomatik kanıt sayılmaz; konu 28'in 1.4.0 olguları kendi tarihli kaynaklarıyla doğrulanır.
 
 Bu maddeler çözülmeden ilgili iddialar “incelendi/tamamlandı” sayılmaz; brief içinde açık tutulur.

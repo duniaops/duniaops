@@ -3,7 +3,7 @@
 **Type:** Task
 **Priority:** P2 — ana epic'in planlı çalışma önceliği; acil teslim tarihi yok.
 **Risk:** Medium
-**Status:** Planned — implementation not started
+**Status:** Draft package prepared 2026-10-05 — publication remains separate
 **Depends on:** [022 — içerik sözleşmesi](022-rockimals-blog-content-contract.md), [026 — ürün ve görsel referansı](026-rockimals-blog-editorial-assets.md).
 **Parent:** [021 — Rockimals çok dilli blog epic'i](021-rockimals-multilingual-blog-growth.md)
 **Plan:** [52 konu ve ilk 13 hafta](../docs/rockimals-blog-plani-2026-09-22.md)
@@ -25,12 +25,12 @@
 
 ## Acceptance Criteria
 
-- [ ] **AC1:** Konu 28 için bir tamamlanmış brief, İngilizce ve Türkçe iki Markdown kaynağı vardır; aynı translationKey, doğru dil/slug ve draft durumu kullanılır.
-- [ ] **AC2:** İki dil için anahtar kelime/pazar varsayımı ve incelenen arama niyeti kayıtlıdır; hacim, trafik veya sıralama sayısı uydurulmaz.
-- [ ] **AC3:** Her metin soruya doğrudan cevap verir; özgün ürün/bilim örneği ve konuya uygun sonraki adım içerir. Türkçe metin kelimesi kelimesine çeviri veya yarım İngilizce sayfa değildir.
-- [ ] **AC4:** Kaynaklar, uygulama sürüm/tarih gereksinimi ve 026 ürün sınırları uygulanır; bilim/kurgu, ücretsiz/Plus ve veri işleme konusunda desteklenmeyen iddia bulunmaz.
-- [ ] **AC5:** İki dilin title/description/imageAlt/CTA/terimleri tamamdır; ilgili dilde ekran veya metinsiz görsel kullanılır. Desteklenmeyen deep link, yayınlanmamış ilgili URL veya sahte yazar onayı yoktur.
-- [ ] **AC6:** Anlam/terim inceleme durumu ve kalan sorunlar kayıtlıdır; çözülmemiş olgusal/çeviri sorunuyla kaynak 'hazır' sayılmaz. Bu iki dil tek başına kamuya açık paket olarak yayımlanmaz.
+- [x] **AC1:** Konu 28 için bir tamamlanmış brief, İngilizce ve Türkçe iki Markdown kaynağı vardır; aynı translationKey, doğru dil/slug ve draft durumu kullanılır.
+- [x] **AC2:** İki dil için anahtar kelime/pazar varsayımı ve incelenen arama niyeti kayıtlıdır; hacim, trafik veya sıralama sayısı uydurulmaz.
+- [x] **AC3:** Her metin soruya doğrudan cevap verir; özgün ürün/bilim örneği ve konuya uygun sonraki adım içerir. Türkçe metin kelimesi kelimesine çeviri veya yarım İngilizce sayfa değildir.
+- [x] **AC4:** Kaynaklar, uygulama sürüm/tarih gereksinimi ve 026 ürün sınırları uygulanır; bilim/kurgu, ücretsiz/Plus ve veri işleme konusunda desteklenmeyen iddia bulunmaz.
+- [x] **AC5:** İki dilin title/description/imageAlt/CTA/terimleri tamamdır; ilgili dilde ekran veya metinsiz görsel kullanılır. Desteklenmeyen deep link, yayınlanmamış ilgili URL veya sahte yazar onayı yoktur.
+- [x] **AC6:** Anlam/terim inceleme durumu ve kalan sorunlar kayıtlıdır; çözülmemiş olgusal/çeviri sorunuyla kaynak 'hazır' sayılmaz. Bu iki dil tek başına kamuya açık paket olarak yayımlanmaz.
 
 ## Validation
 
@@ -44,4 +44,4 @@ Diğer altı dil, ortak görsel/terim altyapısı, şablon kodu, kampanya yapıl
 
 İki kaynak dosyası, ortak brief, incelenen kaynak/pazar kaydı, konuya özgü çeviri notları ve çözülmüş/açık inceleme maddeleri.
 
-Kapanışta değişen dosyaları, kanıtları ve açık maddeleri kaydet. Uygulama tamamlanmadıysa kabul kutularını işaretleme. Bu spec'i yazmak commit, push veya yayın işleminin gerçekleştiği anlamına gelmez.
+**5 Ekim 2026 taslak teslimi:** `content/rockimals-blog/_editorial/rockimals-parent-controls-brief.md`, `content/rockimals-blog/rockimals-parent-controls/en.md` ve `tr.md` oluşturuldu. Canlı GB App Store 1.4.0/Apple lookup, 25 Eylül yürürlüklü gizlilik politikası ve destek sayfası yeniden incelendi; güncel kanıt konu brief'inde kayıtlıdır. 026'nın ortak ürün referansı 22 Eylül tarihli tarihsel kayıttır ve değiştirilmedi. Metinsiz 026 kapağı kullanıldı, gerçek ekran varmış gibi gösterilmedi. Kaynaklar draft durumunda; commit, push veya yayın yapılmadı. Bağımsız dil editörü onayı ve gerçek ebeveyn kapısı ekranı hâlâ açık takip maddeleridir.
