@@ -21,6 +21,11 @@ const RELEASE_PAGES = [
     redirect: '/services/application-support-maintenance.html /services/application-support-maintenance 301!'
   },
   {
+    file: 'services/custom-software-development.html',
+    canonical: `${SITE_ORIGIN}/services/custom-software-development`,
+    redirect: '/services/custom-software-development.html /services/custom-software-development 301!'
+  },
+  {
     file: 'services/software-project-rescue.html',
     canonical: `${SITE_ORIGIN}/services/software-project-rescue`,
     redirect: '/services/software-project-rescue.html /services/software-project-rescue 301!'
@@ -64,6 +69,7 @@ const REQUIRED_PATHS = [
   'products/zoday/invite.html',
   'robots.txt',
   'services/application-support-maintenance.html',
+  'services/custom-software-development.html',
   'services/software-project-rescue.html',
   'sitemap.xml',
   'thank-you.html'
@@ -400,7 +406,7 @@ async function validateReleasePages() {
     }
   }
 
-  for (const requiredHomepageLink of ['/about', '/services/application-support-maintenance', '/services/software-project-rescue']) {
+  for (const requiredHomepageLink of ['/about', '/services/application-support-maintenance', '/services/custom-software-development', '/services/software-project-rescue']) {
     if (!homepage.includes(`href="${requiredHomepageLink}"`)) {
       errors.push(`index.html: missing release link ${requiredHomepageLink}`);
     }

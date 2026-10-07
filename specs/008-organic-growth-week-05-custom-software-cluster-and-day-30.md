@@ -1,11 +1,12 @@
 # Organic Growth Week 05 — Custom Software Cluster and Day-30 Check
 
-**Status:** Planned
+**Status:** In progress — Monday measurement snapshot captured; service and article sources started locally on 5 October.
 **Type:** Commercial Service Page / Blog Article / Measurement
 **Priority:** P1
 **Scheduled:** 5–11 October 2026
 **Primary publications:** `/services/custom-software-development` and `How Much Does Bespoke Software Development Cost in the UK?`; use a company-selection angle only if evidence is stronger.
 **Depends on:** Weeks 01–02 and comparable Day-30 data
+**Owner / approver:** Ibrahim Uylas / Ibrahim Uylas
 
 ## Outcome
 
@@ -64,3 +65,18 @@ Create a commercial home for UK bespoke software demand, answer its strongest pu
 ## Completion Record
 
 Record Day-30 values/decision, selected article intent, service/article paths and URLs, assumptions/sources, image state, validation, commit/deploy, live/index state, cohort dates and the 9 October labelled-test retention decision.
+
+### Monday measurement and local draft start — 5 October 2026
+
+- **Owner/approval:** Ibrahim Uylas owns both assets and final factual/copy/deploy approval. He confirmed the W05 service delivery, client ownership and handover scope in chat on 5 October; he authorised commit, push and publication on 5 October.
+- **GSC source/freshness:** `sc-domain:duniaops.com`, Web search; read 5 October, last update about 3 hours earlier; complete through 2 October. Current 5 Sep–2 Oct: 364 impressions, 3 clicks, 0.8% CTR, average position 37.1. Previous 8 Aug–4 Sep: 386 impressions, 1 click, 0.3% CTR, position 52.5. This is a small-volume leading signal, not a success claim. Exact `custom software` and `bespoke software` query filters returned no rows.
+- **GA4 source/freshness:** Traffic Acquisition, Europe/London, 7 Sep–4 Oct: 61 sessions, 40 engaged sessions, 65.57% engagement, 1m17s average engagement time, 485 events and 3 key events. `google / organic`: 3 sessions, 1 engaged, 0 key events. Previous 10 Aug–6 Sep returned no values for an unverified reason. Property timezone changed from Turkey to London on 7 Sep, so the comparison windows cross a reporting boundary; no comparable change is claimed.
+- **Lead ledger:** private Overview last updated 11 Sep; its last-known summary is 0 verified qualified organic enquiries, 0 unresolved enquiries and 2 measurement tests. This is stale for Day 30, not an Oct 5 outcome. Ibrahim owns ledger reconciliation by 6 Oct; no PII was read.
+- **Intent and pricing:** retain the cost article because the Search Console query filters provide no evidence favouring a company-selection angle. Draft planning bands are £15k–£50k for a focused first release, £50k–£150k for a connected business application and £150k+ for a complex platform. They are broad sourced planning guidance, not DuniaOps prices or quotes. The article names assumptions and exclusions and links to public estimate/rate sources plus UK Government cost-estimating principles (whose guide is for infrastructure, not software).
+- **Publication/live state:** `services/custom-software-development.html` published at `https://www.duniaops.com/services/custom-software-development` on 5 Oct in commit `d89566f`; HTTP 200, expected canonical/title and discovery-session CTA verified. The article `content/blog/bespoke-software-development-cost-uk.md` remains `draft: true`; no unique approved image file is present in the repo, so its intended live URL is not live.
+- **Current decision:** protect existing live pages; unblock the service-first W05 route and current lead measurement; keep W04 DevOps/Kubernetes carry-over from exceeding this week's two-primary-asset limit. The W05 service must be reviewed and validated before any companion article publication.
+- **Observation dates:** target live 8 Oct; 7/14/28-day checks 15 Oct / 22 Oct / 5 Nov are conditional on the actual live date. Week 02 28-day observation remains due 6 Oct. Day-30 ledger and GA4 lead interpretation remain incomplete.
+- **Local validation — 5 Oct:** `npm test` passes, including generated output, JSON-LD, navigation and internal-link checks across 296 public files. The selected W04 article has its own JPEG image verified at 1200×630. W05 article front matter remains `draft: true` with a 151-character description and no image file. Homepage half-width service cards share a 430px minimum height; visual browser inspection remains NOT VERIFIED.
+- **Publication sequence/result:** published the W05 commercial service page first and the approved W04 Kubernetes article as this week's second primary public asset. Kept the W05 cost article `draft: true` until its unique image file is available; kept the W04 DevOps service refresh out of this release.
+- **Observation dates:** for assets live on 5 Oct, record 7/14/28-day checks on 12 Oct / 19 Oct / 2 Nov. If the live timestamp differs, recalculate from actual publication time.
+- **Change annotation:** `d89566f` pushed to `origin/main` and production pages verified HTTP 200 on 5 Oct. Full `npm test` passes locally, including 296 public files. The service sitemap entry is being corrected after a post-deploy check; Search Console URL state remains NOT VERIFIED and no indexing request was made.
