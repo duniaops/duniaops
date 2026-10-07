@@ -166,10 +166,11 @@ function renderListings(posts, ui) {
     posts: posts.filter((post) => post.category === category)
   })).filter((section) => section.posts.length > 0);
 
-  return `<div class="rkb-index-sections">${sections.map((section) => `<section aria-labelledby="category-${section.category}">
-  <div class="rkb-index-section-heading"><p class="rkb-kicker">${escapeHtml(ui.latest)}</p><h2 id="category-${section.category}">${escapeHtml(ROCKIMALS_BLOG_CATEGORIES[section.category][posts[0].locale])}</h2></div>
+  return `<div class="rkb-index-listings"><p class="rkb-kicker rkb-index-listings-label">${escapeHtml(ui.latest)}</p>
+<div class="rkb-index-sections">${sections.map((section) => `<section aria-labelledby="category-${section.category}">
+  <div class="rkb-index-section-heading"><h2 id="category-${section.category}">${escapeHtml(ROCKIMALS_BLOG_CATEGORIES[section.category][posts[0].locale])}</h2></div>
   <div class="rkb-index-grid">${section.posts.map((post) => renderCard(post, ui)).join('\n')}</div>
-</section>`).join('\n')}</div>`;
+</section>`).join('\n')}</div></div>`;
 }
 
 export function renderRockimalsBlogIndex({
@@ -212,7 +213,7 @@ ${preview ? '<meta name="robots" content="noindex,nofollow">\n' : seo}<meta name
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Fredoka:wght@500;600;700&amp;family=Inter:wght@400;500;600;700;800&amp;family=Noto+Sans+JP:wght@400;600;700&amp;family=Noto+Sans+KR:wght@400;600;700&amp;family=Noto+Sans+SC:wght@400;600;700&amp;display=swap" rel="stylesheet">
-<link rel="stylesheet" href="/css/rockimals-blog.css?v=20260922-index">
+<link rel="stylesheet" href="/css/rockimals-blog.css?v=20261005-card-grid-5">
 </head>
 <body class="rkb-page rkb-index-page">
 <a class="rkb-skip" href="#blog-content">${escapeHtml(ui.skip)}</a>

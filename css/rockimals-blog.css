@@ -140,30 +140,32 @@ a:focus-visible { outline: 3px solid var(--rkb-gold); outline-offset: 4px; borde
 .rkb-footer .rkb-wrap { display: flex; justify-content: space-between; gap: 24px; padding-block: 28px; }
 .rkb-footer-credit { display: inline-flex; flex-wrap: wrap; gap: 3px 7px; }
 
-.rkb-index-hero { position: relative; overflow: hidden; padding: 100px 0 78px; background: radial-gradient(circle at 82% 12%, rgba(255, 106, 42, 0.24), transparent 28%), radial-gradient(circle at 12% 72%, rgba(45, 102, 178, 0.2), transparent 30%), linear-gradient(150deg, #050a13 4%, #0a1528 58%, #24130f 100%); }
+.rkb-index-hero { position: relative; overflow: hidden; padding: 80px 0 62px; background: radial-gradient(circle at 82% 12%, rgba(255, 106, 42, 0.24), transparent 28%), radial-gradient(circle at 12% 72%, rgba(45, 102, 178, 0.2), transparent 30%), linear-gradient(150deg, #050a13 4%, #0a1528 58%, #24130f 100%); }
 .rkb-index-hero-inner { position: relative; }
 .rkb-index-hero h1 { max-width: 900px; margin: 0; font: 700 clamp(46px, 6.4vw, 82px)/0.98 Fredoka, Inter, sans-serif; letter-spacing: -0.04em; text-wrap: balance; }
 .rkb-index-hero-inner > p:not(.rkb-kicker) { max-width: 750px; margin: 26px 0 0; color: #d4deeb; font-size: clamp(18px, 2vw, 21px); }
-.rkb-category-guide { margin-top: 48px; }
+.rkb-category-guide { margin-top: 36px; }
 .rkb-category-guide h2 { margin: 0 0 14px; color: var(--rkb-gold); font-size: 12px; letter-spacing: 0.13em; text-transform: uppercase; }
 .rkb-category-guide ul { display: flex; flex-wrap: wrap; gap: 9px; margin: 0; padding: 0; list-style: none; }
 .rkb-category-guide li { padding: 8px 12px; border: 1px solid var(--rkb-line); border-radius: 999px; background: rgba(255, 255, 255, 0.05); color: #dce5f2; font-size: 13px; font-weight: 700; }
-.rkb-index-content { padding-block: 90px 110px; }
-.rkb-index-sections { display: grid; gap: 86px; }
-.rkb-index-section-heading { margin-bottom: 30px; }
-.rkb-index-section-heading h2, .rkb-index-empty h2 { margin: 0; font: 600 clamp(34px, 4.2vw, 50px)/1.05 Fredoka, Inter, sans-serif; }
-.rkb-index-grid { display: grid; grid-template-columns: repeat(2, minmax(0, 1fr)); gap: 24px; }
-.rkb-index-card { min-width: 0; overflow: hidden; border: 1px solid var(--rkb-line); border-radius: 25px; background: linear-gradient(145deg, rgba(17, 37, 67, 0.96), rgba(9, 24, 43, 0.96)); box-shadow: 0 20px 50px rgba(0, 0, 0, 0.22); }
-.rkb-index-card:only-child { grid-column: 1 / -1; width: min(100%, 720px); }
+.rkb-index-content { padding-block: 72px 96px; }
+.rkb-index-listings-label { margin: 0 0 16px; }
+.rkb-index-sections { display: grid; grid-template-columns: repeat(3, minmax(0, 1fr)); grid-auto-rows: 1fr; align-items: stretch; gap: 24px; }
+.rkb-index-sections > section { display: flex; flex-direction: column; min-width: 0; }
+.rkb-index-section-heading { min-height: 52px; margin-bottom: 18px; }
+.rkb-index-section-heading h2, .rkb-index-empty h2 { margin: 0; font: 600 clamp(27px, 2.6vw, 36px)/1.08 Fredoka, Inter, sans-serif; }
+.rkb-index-grid { display: grid; flex: 1; grid-template-columns: minmax(0, 1fr); grid-auto-rows: 1fr; gap: 18px; }
+.rkb-index-card { display: flex; flex-direction: column; min-width: 0; overflow: hidden; border: 1px solid var(--rkb-line); border-radius: 22px; background: linear-gradient(145deg, rgba(17, 37, 67, 0.96), rgba(9, 24, 43, 0.96)); box-shadow: 0 20px 50px rgba(0, 0, 0, 0.22); }
 .rkb-index-card-image { display: block; aspect-ratio: 1200 / 630; overflow: hidden; background: var(--rkb-panel); }
 .rkb-index-card-image img { display: block; width: 100%; height: 100%; object-fit: cover; transition: transform 0.25s ease; }
 .rkb-index-card:hover .rkb-index-card-image img { transform: scale(1.02); }
-.rkb-index-card-body { display: flex; flex-direction: column; min-height: 330px; padding: 28px; }
-.rkb-index-card h3 { margin: 0; font: 600 clamp(26px, 3vw, 34px)/1.08 Fredoka, Inter, sans-serif; text-wrap: balance; }
+.rkb-index-card-body { display: flex; flex: 1; flex-direction: column; min-height: 340px; padding: 22px; }
+.rkb-index-card h3 { margin: 0; font: 600 clamp(22px, 2.3vw, 28px)/1.1 Fredoka, Inter, sans-serif; text-wrap: balance; }
 .rkb-index-card h3 a { text-decoration: none; }
-.rkb-index-card-body > p:not(.rkb-kicker) { margin: 18px 0 22px; color: var(--rkb-mist); font-size: 15px; }
+.rkb-index-card-body > p:not(.rkb-kicker) { margin: 14px 0 20px; color: var(--rkb-mist); font-size: 14px; line-height: 1.6; }
 .rkb-index-card-meta { display: flex; flex-wrap: wrap; gap: 8px 16px; margin-top: auto; color: #9fb0c6; font-size: 12px; }
-.rkb-index-read { display: inline-flex; align-items: center; gap: 8px; align-self: flex-start; margin-top: 22px; color: #ffc28c; font-weight: 800; }
+.rkb-index-read { display: inline-flex; align-items: center; gap: 8px; align-self: flex-end; margin: 22px 0 0 auto; color: #ffc28c; font-weight: 800; text-decoration: none; }
+.rkb-index-read:hover { color: var(--rkb-cream); }
 .rkb-index-empty { max-width: 680px; margin-inline: auto; padding: 54px 32px; border: 1px solid var(--rkb-line); border-radius: 26px; background: rgba(17, 37, 67, 0.62); text-align: center; }
 .rkb-index-empty img { border-radius: 17px; box-shadow: 0 14px 35px rgba(0, 0, 0, 0.32); }
 .rkb-index-empty h2 { margin-top: 22px; }
@@ -172,6 +174,12 @@ a:focus-visible { outline: 3px solid var(--rkb-gold); outline-offset: 4px; borde
 @media (max-width: 900px) {
   .rkb-article-layout { grid-template-columns: minmax(0, var(--rkb-reading)); gap: 34px; }
   .rkb-toc { position: static; }
+  .rkb-index-sections { grid-template-columns: repeat(2, minmax(0, 1fr)); gap: 42px 20px; }
+  .rkb-index-section-heading { min-height: 0; }
+}
+
+@media (min-width: 681px) and (max-width: 900px) {
+  .rkb-index-sections > section:last-child:nth-child(odd) { grid-column: 1 / -1; justify-self: center; width: calc((100% - 20px) / 2); }
 }
 
 @media (max-width: 680px) {
@@ -202,7 +210,7 @@ a:focus-visible { outline: 3px solid var(--rkb-gold); outline-offset: 4px; borde
   .rkb-index-page .rkb-back { display: none; }
   .rkb-index-hero h1 { font-size: clamp(40px, 11.5vw, 58px); }
   .rkb-index-content { padding-block: 64px 80px; }
-  .rkb-index-grid { grid-template-columns: 1fr; }
+  .rkb-index-sections { grid-template-columns: 1fr; gap: 46px; }
   .rkb-index-card-body { min-height: 0; padding: 24px; }
   .rkb-index-empty { padding: 40px 22px; }
   .rkb-footer .rkb-wrap { flex-direction: column; gap: 5px; }
