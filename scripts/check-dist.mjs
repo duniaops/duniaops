@@ -2,6 +2,7 @@ import { lstat, readdir, readFile, stat } from 'node:fs/promises';
 import path from 'node:path';
 import { fileURLToPath } from 'node:url';
 import { createRockimalsBlogManifest, loadRockimalsBlogSources } from './rockimals-blog-content.mjs';
+import { ROCKIMALS_GOOGLE_PLAY_URL, rockimalsGooglePlayBadge } from './rockimals-blog-cta.mjs';
 
 const ROOT = path.resolve(path.dirname(fileURLToPath(import.meta.url)), '..');
 const DIST_DIR = path.join(ROOT, 'dist');
@@ -247,19 +248,29 @@ async function validateRockimalsBlog() {
       errors.push(`${relativePath}: missing English x-default`);
     }
     if (!sitemap.includes(`<loc>${canonical}</loc>`)) errors.push(`Rockimals sitemap is missing ${canonical}`);
+
+    const badge = rockimalsGooglePlayBadge(locale);
+    for (const storePage of [`products/rockimals-locales/${locale}.html`, `products/rockimals-today/${locale}/index.html`]) {
+      const storeHtml = await readFile(insideDist(storePage), 'utf8');
+      if (!storeHtml.includes(`href="${ROCKIMALS_GOOGLE_PLAY_URL}"`) || !storeHtml.includes(`src="${badge}"`)) {
+        errors.push(`${storePage}: missing public Google Play link or localized badge`);
+      }
+    }
   }
 
   for (const post of manifest.posts.filter(({ translationKey }) => translationKey === 'rockimals-getting-started')) {
     const landingPath = `products/rockimals-locales/${post.locale}.html`;
-    const articlePath = `products/rockimals-blog/${post.locale}/${post.slug}/index.html`;
     const landing = await readFile(insideDist(landingPath), 'utf8');
-    const article = await readFile(insideDist(articlePath), 'utf8');
     if (!landing.includes(`class="rk-blog-feature" href="${post.canonicalPath}"`)) {
       errors.push(`${landingPath}: missing localized first-guide feature card`);
     }
-    if (!article.includes('data-rockimals-cta="app-store"') || !article.includes('download-on-the-app-store.svg')) {
-      errors.push(`${articlePath}: missing published App Store badge`);
-    }
+  }
+
+  for (const post of manifest.posts.filter(({ cta }) => cta.id === 'app-store')) {
+    const articlePath = `products/rockimals-blog/${post.locale}/${post.slug}/index.html`;
+    const article = await readFile(insideDist(articlePath), 'utf8');
+    if (!article.includes('data-rockimals-cta="app-store"') || !article.includes('download-on-the-app-store.svg')) errors.push(`${articlePath}: missing published App Store badge`);
+    if (!article.includes(`href="${ROCKIMALS_GOOGLE_PLAY_URL}"`) || !article.includes(`src="${rockimalsGooglePlayBadge(post.locale)}"`)) errors.push(`${articlePath}: missing published Google Play badge`);
   }
 
   for (const match of sitemap.matchAll(/<loc>([^<]+)<\/loc>/g)) {

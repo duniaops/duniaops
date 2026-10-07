@@ -10,7 +10,7 @@
 import { readFileSync } from 'node:fs';
 import { ROCKIMALS_BLOG_LOCALES } from './rockimals-blog-content.mjs';
 import { ROCKIMALS_ARTICLE_UI } from './rockimals-blog-article.mjs';
-import { ROCKIMALS_SMART_APP_BANNER, rockimalsAppStoreUrl } from './rockimals-blog-cta.mjs';
+import { ROCKIMALS_GOOGLE_PLAY_URL, ROCKIMALS_SMART_APP_BANNER, rockimalsAppStoreUrl, rockimalsGooglePlayBadge } from './rockimals-blog-cta.mjs';
 import { renderRockimalsLanguageMenu, rockimalsBlogIndexPath, rockimalsProductPath } from './rockimals-blog-navigation.mjs';
 import { ROCKIMALS_ORIGIN } from './rockimals-blog-seo.mjs';
 
@@ -515,8 +515,8 @@ ${renderSeo({ locale, ui, title, canonical, data })}
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Fredoka:wght@500;600;700&amp;family=Inter:wght@400;500;600;700;800&amp;family=Noto+Sans+JP:wght@400;600;700&amp;family=Noto+Sans+KR:wght@400;600;700&amp;family=Noto+Sans+SC:wght@400;600;700&amp;display=swap" rel="stylesheet">
-<link rel="stylesheet" href="/css/rockimals-blog.css?v=20260922-toc">
-<link rel="stylesheet" href="/css/rockimals-today.css?v=20260924-loops">
+<link rel="stylesheet" href="/css/rockimals-blog.css?v=20261007-play">
+<link rel="stylesheet" href="/css/rockimals-today.css?v=20261007-play">
 <script src="/js/rockimals-today.js?v=20260924" defer></script>
 </head>
 <body class="rkb-page rkt-page">
@@ -543,7 +543,7 @@ ${renderSeo({ locale, ui, title, canonical, data })}
   <aside class="rkb-wrap rkt-cta" aria-labelledby="rkt-cta-title">
     <h2 id="rkt-cta-title">${escapeHtml(ui.ctaTitle)}</h2>
     <p>${escapeHtml(ui.ctaText)}</p>
-    <a class="rkb-app-store" href="${escapeHtml(storeUrl)}" rel="noopener" data-rockimals-cta="app-store"><img src="/assets/products/download-on-the-app-store.svg" alt="${escapeHtml(landing.appStore)}" width="180" height="60"></a>
+    <div class="rkb-store-actions"><a class="rkb-app-store" href="${escapeHtml(storeUrl)}" rel="noopener" data-rockimals-cta="app-store"><img src="/assets/products/download-on-the-app-store.svg" alt="${escapeHtml(landing.appStore)}" width="180" height="60"></a><a class="rkb-google-play" href="${escapeHtml(ROCKIMALS_GOOGLE_PLAY_URL)}" rel="noopener" data-rockimals-cta="google-play"><img src="${escapeHtml(rockimalsGooglePlayBadge(locale))}" alt="${escapeHtml(landing.googlePlay)}" width="180" height="54"></a></div>
   </aside>
   <p class="rkb-wrap rkt-source">${escapeHtml(ui.source)}</p>
 </main>

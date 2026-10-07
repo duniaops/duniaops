@@ -73,7 +73,7 @@ test('renders a complete semantic article without client-side JavaScript', () =>
   assert.doesNotMatch(html, /<script/);
 });
 
-test('shows the App Store badge near the title and marks Google Play as unavailable', () => {
+test('shows both live store badges near the title', () => {
   const html = renderRockimalsBlogArticle({
     post: post({ locale: 'tr', cta: { id: 'app-store', label: 'Rockimals’ı App Store’dan indirin' } }),
     ctaHref: 'https://apps.apple.com/gb/app/rockimals/id6792505608',
@@ -83,12 +83,13 @@ test('shows the App Store badge near the title and marks Google Play as unavaila
   const hero = html.match(/<header class="rkb-hero">([\s\S]*?)<\/header>/)?.[1] ?? '';
   assert.match(hero, /class="rkb-app-store" href="https:\/\/apps\.apple\.com\/gb\/app\/rockimals\/id6792505608"/);
   assert.match(hero, /download-on-the-app-store\.svg" alt="Rockimals’ı App Store’dan indirin"/);
-  assert.match(hero, /Google Play · İncelemede/);
+  assert.match(hero, /class="rkb-google-play" href="https:\/\/play\.google\.com\/store\/apps\/details\?id=com\.duniaops\.rockimals"/);
+  assert.match(hero, /google-play\/tr\.png" alt="Google Play&#39;den indirin"/);
   assert.ok(hero.indexOf('rkb-store-actions') < hero.indexOf('rkb-cover'));
   assert.doesNotMatch(hero, /DuniaOps Team|DuniaOps Ekibi|Yayınlandı/);
   assert.match(html, /class="rkb-footer-credit">© 2026 Rockimals[\s\S]*DuniaOps Team[\s\S]*Yayınlandı/);
-  assert.equal((html.match(/data-rockimals-cta=/g) ?? []).length, 1);
-  assert.doesNotMatch(hero, /href="https:\/\/play\.google\.com/);
+  assert.equal((html.match(/data-rockimals-cta=/g) ?? []).length, 2);
+  assert.doesNotMatch(html, /Google Play · İncelemede/);
 });
 
 test('renders fixed cover dimensions and a lazy portrait experience image', () => {
@@ -105,7 +106,7 @@ test('does not label a different resolved CTA as an App Store download', () => {
   });
 
   assert.match(html, /data-rockimals-cta="learn-more">Learn more<\/a>/);
-  assert.doesNotMatch(html, /download-on-the-app-store\.svg|Google Play · In review/);
+  assert.doesNotMatch(html, /download-on-the-app-store\.svg|rkb-google-play/);
 });
 
 test('table of contents does not add a second number to numbered headings', async () => {

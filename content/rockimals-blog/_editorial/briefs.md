@@ -61,11 +61,13 @@ Her dil paketi aşağıdaki alanları tamamlamalıdır:
 - **Ürün sınırı:** “hiç veri toplanmaz”, “tamamen güvenli” veya mevzuata uyum garantisi yazma. Gizlilik kaydındaki pseudonymous installation, integrity, platform/language/time-zone, entitlement ve isteğe bağlı bildirim verilerini sade dille açıkla.
 - **Görsel paketi:** metinsiz kalkan/kilit kapağı. Güncel yerelleştirilmiş parent-gate/settings ekranı bulunmadığından sahte arayüz üretme; gerçek ekran gerekirse 031/032'yi açık görsel ihtiyacıyla bırak.
 - **CTA yönü:** ebeveynin güncel mağaza koşullarını görmesi; uygun yerde canlı gizlilik ve destek sayfası.
-- **Kapsam dışı:** hukuk görüşü, mutlak güvenlik iddiası, Android'in kamuya açık olduğu varsayımı.
+- **Kapsam dışı:** hukuk görüşü, mutlak güvenlik iddiası, Android'in tüm ülke ve cihazlarda erişilebilir olduğu varsayımı.
+
+## Güncel mağaza kanıtı
+
+- Kamuya açık Google Play kaydı 7 Ekim 2026'da [resmî paket sayfasında](https://play.google.com/store/apps/details?id=com.duniaops.rockimals) doğrulandı; ülke ve cihaz kapsamı ayrıca varsayılmaz.
 
 ## Açık kanıt maddeleri
-
-- Kamuya açık Google Play kaydı doğrulanmadı.
 - Canlı landing'in structured data alanında iOS 13.0 yazarken App Store 1.3.0 kaydı iOS 15.0 gerektiriyor; yazılarda mağaza değeri kullanılmalı.
 - Konu 28 için güncel ve sekiz dilde parent-gate/settings ekranı yok. Mevcut kapak gerçek karakter varlıklarıyla hazırlanmış editoryal kompozisyondur, uygulama ekranı değildir.
 - Konu 01/15'in 1.3.0 kaynak notları sonraki sürümlere otomatik kanıt sayılmaz; konu 28'in 1.4.0 olguları kendi tarihli kaynaklarıyla doğrulanır.

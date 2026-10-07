@@ -103,6 +103,8 @@ test('every locale renders a page with one h1 and only the loop script', () => {
     assert.deepEqual(scripts, ['<script src="/js/rockimals-today.js?v=20260924" defer>'], locale);
     assert.match(html, /<video data-rockimals-today-loop muted loop playsinline preload="none" poster="[^"]+\.webp"/, locale);
     assert.match(html, /apple-itunes-app/, locale);
+    assert.match(html, /href="https:\/\/play\.google\.com\/store\/apps\/details\?id=com\.duniaops\.rockimals"/, locale);
+    assert.match(html, /data-rockimals-cta="google-play"/, locale);
     assert.match(html, /hreflang="x-default"/, locale);
     assert.doesNotMatch(html, /hazard|threat|danger/i, locale);
     assert.doesNotMatch(html, /rkt-stale/, locale);

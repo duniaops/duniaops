@@ -61,7 +61,10 @@ const assets = await readJson('asset-manifest.json');
 assert(product.snapshotDate === '2026-09-22', 'Product reference must keep its dated evidence snapshot.');
 assert(product.liveStore.version === '1.3.0', 'Live editorial claims must remain pinned to App Store 1.3.0.');
 assert(product.repositorySnapshot.status === 'development-not-live', 'Repository behavior must be labelled development-only.');
-assert(product.platformStatus.android.includes('not verified'), 'Unverified Android availability must remain explicit.');
+assert(product.androidStore.verifiedOn === '2026-10-07', 'Android store evidence needs its verification date.');
+assert(product.androidStore.packageId === 'com.duniaops.rockimals', 'Android store package id must match the public listing.');
+assert(product.androidStore.listingUrl === 'https://play.google.com/store/apps/details?id=com.duniaops.rockimals', 'Android store URL must match the verified public listing.');
+assert(!product.platformStatus.android.includes('not verified'), 'Android platform status still claims the listing is unverified.');
 assert(product.nasaBoundary.requiredDisclosure.includes('not affiliated'), 'NASA non-affiliation disclosure is missing.');
 assert(
   JSON.stringify(product.heroes.map(({ displayName }) => displayName)) === JSON.stringify(expectedHeroes),

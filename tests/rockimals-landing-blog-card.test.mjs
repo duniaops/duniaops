@@ -2,8 +2,50 @@ import assert from 'node:assert/strict';
 import { readFile } from 'node:fs/promises';
 import { test } from 'node:test';
 import { fileURLToPath } from 'node:url';
+import { runInNewContext } from 'node:vm';
 import { createRockimalsBlogManifest, loadRockimalsBlogSources } from '../scripts/rockimals-blog-content.mjs';
 import { renderRockimalsBlogIndex } from '../scripts/rockimals-blog-index.mjs';
+import { ROCKIMALS_GOOGLE_PLAY_URL, rockimalsGooglePlayBadge } from '../scripts/rockimals-blog-cta.mjs';
+
+test('English language switch stays on Rockimals in a local preview', async () => {
+  const script = await readFile(new URL('../js/rockimals-landing.js', import.meta.url), 'utf8');
+  const destinationFor = (hostname) => {
+    let onChange;
+    let destination;
+    const select = {
+      value: 'en',
+      closest: () => null,
+      addEventListener: (event, callback) => { if (event === 'change') onChange = callback; }
+    };
+    runInNewContext(script, {
+      document: {
+        querySelector: (selector) => selector === '[data-rockimals-language]' ? select : selector === '[data-rockimals-page]' ? {} : null,
+        querySelectorAll: () => []
+      },
+      window: { location: { hostname, assign: (url) => { destination = url; } } }
+    });
+    onChange();
+    return destination;
+  };
+
+  assert.equal(destinationFor('127.0.0.1'), '/products/rockimals-locales/en.html');
+  assert.equal(destinationFor('localhost'), '/products/rockimals-locales/en.html');
+  assert.equal(destinationFor('rockimals.duniaops.com'), '/');
+});
+
+test('every landing locale has live Google Play copy and a badge asset', async () => {
+  const locales = JSON.parse(await readFile(new URL('../content/rockimals-landing/locales.json', import.meta.url), 'utf8'));
+  const source = await readFile(new URL('../products/rockimals.html', import.meta.url), 'utf8');
+
+  for (const [locale, copy] of Object.entries(locales)) {
+    assert.ok(copy.googlePlay && copy.availableOn.includes('Android'), `${locale}: missing Android availability copy`);
+    const badge = await readFile(new URL(`..${rockimalsGooglePlayBadge(locale)}`, import.meta.url));
+    assert.ok(badge.length > 0, `${locale}: missing localized Google Play badge`);
+    assert.equal(copy.googleReview, undefined);
+  }
+  assert.ok(source.includes(ROCKIMALS_GOOGLE_PLAY_URL));
+  assert.doesNotMatch(source, /Google Play · In review/);
+});
 
 test('featured Rockimals blog card has a readable, bounded layout', async () => {
   const css = await readFile(new URL('../css/rockimals-landing.css', import.meta.url), 'utf8');

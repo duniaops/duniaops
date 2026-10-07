@@ -154,11 +154,6 @@
       "topicId": "28",
       "status": "missing-current-localized-screen",
       "detail": "The website preview set has no current parent-gate or settings screenshot. Use the textless cover; do not fabricate an interface."
-    },
-    {
-      "topicId": "all",
-      "status": "android-public-listing-unverified",
-      "detail": "Do not create a Google Play CTA until a public listing is verified."
     }
   ]
 }

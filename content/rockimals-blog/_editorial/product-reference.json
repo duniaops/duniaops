@@ -26,9 +26,15 @@
     ],
     "source": "https://itunes.apple.com/lookup?id=6792505608&country=gb"
   },
+  "androidStore": {
+    "packageId": "com.duniaops.rockimals",
+    "listingTitle": "Rockimals: Space Animal Zoo",
+    "listingUrl": "https://play.google.com/store/apps/details?id=com.duniaops.rockimals",
+    "verifiedOn": "2026-10-07"
+  },
   "platformStatus": {
     "ios": "Public GB App Store listing verified on 2026-09-22.",
-    "android": "Public Google Play listing was not verified on 2026-09-22. The privacy/support pages mention Android and Google Play, and the game repository records internal testing, but these do not prove public availability. Do not publish an Android store CTA until a live listing is verified."
+    "android": "Public Rockimals Google Play listing verified on 2026-10-07 at the official package URL. Link to the listing; do not assume availability in every country or device."
   },
   "audience": {
     "storeRating": "4+",

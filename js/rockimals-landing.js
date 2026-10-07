@@ -5,7 +5,12 @@
   const label = document.querySelector('[data-rockimals-language-label]');
   if (!page || !select) return;
 
-  const languageUrl = (language) => language === 'en' ? '/' : `/${language}/`;
+  // Netlify maps / to the English Rockimals page in production. A plain local
+  // preview serves DuniaOps at /, so link directly to the generated page there.
+  const isLocalPreview = ['localhost', '127.0.0.1'].includes(window.location.hostname);
+  const languageUrl = (language) => language === 'en'
+    ? (isLocalPreview ? '/products/rockimals-locales/en.html' : '/')
+    : `/${language}/`;
   const navigate = (language) => window.location.assign(languageUrl(language));
 
   select.addEventListener('change', () => navigate(select.value));

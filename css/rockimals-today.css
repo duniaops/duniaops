@@ -34,6 +34,7 @@
 .rkt-cta h2 { margin: 0; font-family: Fredoka, Inter, system-ui, sans-serif; font-size: clamp(1.5rem, 3.4vw, 2rem); }
 .rkt-cta p { max-width: 560px; margin: 10px auto 18px; color: var(--rkb-mist); }
 .rkt-cta .rkb-app-store { display: inline-block; }
+.rkt-cta .rkb-store-actions { justify-content: center; margin: 0; }
 .rkt-source { margin-top: 22px; margin-bottom: 40px; color: var(--rkb-mist); font-size: .85rem; }
 
 @media (max-width: 560px) {
