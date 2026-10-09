@@ -118,7 +118,9 @@ async function main() {
       const html = renderRockimalsBlogArticle({
         post: previewPost,
         ctaHref: ROCKIMALS_APP_STORE_URL,
-        experience: post.category !== 'family-guide' && copy ? {
+        experience: post.category !== 'family-guide'
+          && post.translationKey !== 'rockimals-unlock-stories'
+          && copy ? {
           title: copy.title,
           text: copy.text,
           href: productPath(post.locale),

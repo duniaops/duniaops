@@ -6,7 +6,7 @@ import { fileURLToPath } from 'node:url';
 const repoRoot = path.resolve(path.dirname(fileURLToPath(import.meta.url)), '..');
 const editorialRoot = path.join(repoRoot, 'content/rockimals-blog/_editorial');
 const expectedLocales = ['en', 'tr', 'ja', 'ko', 'zh-Hans', 'fr', 'de', 'es'];
-const expectedTopics = ['01', '15', '28'];
+const expectedTopics = ['01', '04', '15', '28'];
 const expectedHeroes = ['Niko', 'Tavi', 'Barney', 'Kito', 'Pofi', 'Bobo', 'Ciko', 'Enoli'];
 
 function assert(condition, message) {
@@ -83,7 +83,7 @@ for (const [locale, terms] of Object.entries(product.localizedTerms)) {
 
 assert(
   JSON.stringify(assets.covers.map(({ topicId }) => topicId)) === JSON.stringify(expectedTopics),
-  'Cover order must preserve topics 01, 15 and 28.'
+  'Cover order must preserve topics 01, 04, 15 and 28.'
 );
 for (const cover of assets.covers) {
   assert(cover.language === 'textless-shared', `${cover.topicId}: shared cover must remain textless.`);
@@ -114,4 +114,4 @@ assert(
   'Topic 28 must retain the missing current parent-screen evidence issue.'
 );
 
-console.log('Rockimals editorial assets: PASS (3 covers, 16 localized screens, 8 locales, 8 heroes).');
+console.log('Rockimals editorial assets: PASS (4 covers, 16 localized screens, 8 locales, 8 heroes).');

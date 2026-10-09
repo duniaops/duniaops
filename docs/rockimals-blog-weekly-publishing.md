@@ -17,6 +17,8 @@ Konu sırası için tek kaynak [13 haftalık tablo](rockimals-blog-plani-2026-09
 
 Haftada **en fazla bir özgün konu** yayımlanır. Sekiz dil aynı `translationKey` altında tek paket sayılır; sekiz ayrı konu değildir. Yazılar önceden taslaklanabilir. Planlanan konu hazır değilse yayımlama atlanır, neden bildirilir ve aynı konu en eski açık aday olarak sonraki pazartesiye taşınır; daha sonraki konu öne geçirilmez. Aynı hafta elle bir konu yayımlanmışsa otomatik çalışma ikinci bir konu açmaz. 52 konu kota değildir; yeni konular ancak kaynak ve kalite kapılarından geçince sıraya girer.
 
+**9 Ekim 2026 için kullanıcı onaylı istisna:** Konu 28 aynı haftanın pazartesisinde yayımlanmış olsa da kullanıcı konu 04'ün cuma günü yayımlanmasını açıkça istedi. Bu izin yalnızca konu 04 içindir; genel haftalık sınırı değiştirmez. Sonraki otomatik çalışma yine en eski yayımlanmamış konuyu ve kendi haftasının güvenlik kapılarını kontrol eder.
+
 ## Cuma 10.00 hazırlık hatırlatması
 
 1. Plandaki en eski yayımlanmamış konuyu ve sekiz dilin kaynak dosyalarını say; yeni konu yazma veya yayın durumunu değiştirme.

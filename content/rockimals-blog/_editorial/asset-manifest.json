@@ -42,6 +42,32 @@
       "renderSource": "scripts/render-rockimals-blog-editorial-assets.swift"
     },
     {
+      "topicId": "04",
+      "translationKey": "rockimals-unlock-stories",
+      "scene": "Textless editorial open-book illustration with the approved Niko and Tavi character renders; not an app screenshot.",
+      "language": "textless-shared",
+      "sources": [
+        {
+          "repository": "rockimals",
+          "path": "assets/animals/transparent/mouse.webp",
+          "commit": "04a455d878dee4851e4e1857181ceabd9ea2f21b",
+          "sha256": "6b03964fcff9980aa3b2501018eb6afd183375d5e5dd8fd058681160dc35ad99"
+        },
+        {
+          "repository": "rockimals",
+          "path": "assets/animals/transparent/rabbit.webp",
+          "commit": "b07c9fe57e9d7f79f39ecd1e4ca43356739c3734",
+          "sha256": "d32335361f412b6c3bb95fc4a9b9292db05e0d7dcddb9db7c3d10ed1ad5a9883"
+        }
+      ],
+      "webOutput": "assets/rockimals-blog/rockimals-unlock-stories/cover.jpg",
+      "width": 1200,
+      "height": 630,
+      "bytes": 100438,
+      "sha256": "b9e31e4b87ea35a7447dc15d011f0ee4c191b6a8597be20776e228c031ddd1f4",
+      "renderSource": "scripts/render-rockimals-blog-editorial-assets.swift"
+    },
+    {
       "topicId": "15",
       "translationKey": "what-is-an-asteroid-for-kids",
       "scene": "Textless editorial size comparison using the approved Niko and Enoli transparent character renders; not a literal asteroid scale or app screenshot.",

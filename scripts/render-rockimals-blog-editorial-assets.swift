@@ -124,6 +124,33 @@ func drawShield(in rect: NSRect, color: NSColor) {
     NSBezierPath(ovalIn: NSRect(x: rect.midX - 8, y: rect.midY - 22, width: 16, height: 16)).fill()
 }
 
+func drawOpenBook(center: NSPoint) {
+    let paper = NSColor(calibratedRed: 1, green: 0.91, blue: 0.73, alpha: 1)
+    let outline = NSColor(calibratedRed: 1, green: 0.43, blue: 0.17, alpha: 1)
+    for side: CGFloat in [-1, 1] {
+        let page = NSBezierPath()
+        page.move(to: center)
+        page.curve(to: NSPoint(x: center.x + side * 235, y: center.y + 42),
+                   controlPoint1: NSPoint(x: center.x + side * 65, y: center.y + 105),
+                   controlPoint2: NSPoint(x: center.x + side * 170, y: center.y + 118))
+        page.line(to: NSPoint(x: center.x + side * 235, y: center.y - 140))
+        page.curve(to: NSPoint(x: center.x, y: center.y - 185),
+                   controlPoint1: NSPoint(x: center.x + side * 145, y: center.y - 170),
+                   controlPoint2: NSPoint(x: center.x + side * 70, y: center.y - 150))
+        page.close()
+        paper.setFill()
+        page.fill()
+        outline.setStroke()
+        page.lineWidth = 7
+        page.stroke()
+    }
+    let spine = NSBezierPath()
+    spine.move(to: NSPoint(x: center.x, y: center.y + 4))
+    spine.line(to: NSPoint(x: center.x, y: center.y - 185))
+    spine.lineWidth = 5
+    spine.stroke()
+}
+
 func renderCover(output: URL, draw: () throws -> Void) throws {
     guard let bitmap = NSBitmapImageRep(
         bitmapDataPlanes: nil,
@@ -162,6 +189,7 @@ let mouse = try loadImage(gameRoot.appendingPathComponent("assets/animals/transp
 let whale = try loadImage(gameRoot.appendingPathComponent("assets/animals/transparent/whale.webp"))
 let fox = try loadImage(gameRoot.appendingPathComponent("assets/animals/transparent/fox.webp"))
 let bear = try loadImage(gameRoot.appendingPathComponent("assets/animals/transparent/bear.webp"))
+let rabbit = try loadImage(gameRoot.appendingPathComponent("assets/animals/transparent/rabbit.webp"))
 
 let stars: [(CGFloat, CGFloat, CGFloat)] = [
     (62, 72, 2), (115, 510, 4), (184, 290, 2), (260, 575, 2),
@@ -219,4 +247,17 @@ try renderCover(output: outputRoot.appendingPathComponent("rockimals-parent-cont
     )
 }
 
-print("Rendered three Rockimals editorial covers in \(outputRoot.path)")
+try renderCover(output: outputRoot.appendingPathComponent("rockimals-unlock-stories/cover.jpg")) {
+    drawGradient([
+        NSColor(calibratedRed: 0.025, green: 0.075, blue: 0.16, alpha: 1),
+        NSColor(calibratedRed: 0.1, green: 0.2, blue: 0.36, alpha: 1)
+    ], angle: -12)
+    drawStars(stars)
+    drawImage(mouse, inside: NSRect(x: 20, y: 170, width: 315, height: 315))
+    drawImage(rabbit, inside: NSRect(x: 865, y: 170, width: 315, height: 315))
+    drawOpenBook(center: NSPoint(x: 600, y: 285))
+    drawStars([(505, 445, 5), (570, 510, 5), (640, 510, 5), (705, 445, 5)],
+              color: NSColor(calibratedRed: 1, green: 0.7, blue: 0.38, alpha: 1))
+}
+
+print("Rendered four Rockimals editorial covers in \(outputRoot.path)")
