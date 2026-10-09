@@ -67,6 +67,7 @@ const STATIC_ROUTES = new Set([
   '/services/ai-software-development',
   '/services/application-support-maintenance',
   '/services/booking-and-allocation-systems',
+  '/services/custom-software-development',
   '/services/devops-and-cloud-consultancy',
   '/services/mobile-app-development',
   '/services/software-project-rescue',

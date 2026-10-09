@@ -7,9 +7,9 @@ tags:
   - "Bespoke Software Cost"
   - "Custom Software Development"
   - "UK Software Budgeting"
-image: "/assets/blog/bespoke-software-development-cost-uk-image-required.jpg"
-imageAlt: "Placeholder — a unique approved 1200×630 article image is required before publication"
-draft: true
+image: "/assets/blog/bespoke-software-development-cost-uk-1200x630.jpg"
+imageAlt: "A client and software consultant compare modular options while planning a custom software project"
+draft: false
 ---
 
 “How much does bespoke software cost?” is a sensible question to ask before
