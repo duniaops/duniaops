@@ -71,3 +71,29 @@ The products-card comparison confirms that the generated image itself remains te
 - Findings: the first implementation was wider than the normalized Zoday source (166 × 48 vs approximately 131 × 44 CSS px). It was corrected to an automatic 132–230 px width and 44 px height. The post-fix mobile capture matches the source proportions. No actionable P0/P1/P2 issue remains.
 
 final result: passed
+
+---
+
+# AI Software Development service visual QA
+
+- Source visual truth: selected Image Gen result 3, saved as `assets/ai-software-development-production.jpg` (derived from `/Users/uylas/.codex/generated_images/01a06ce8-5aa2-7652-baf1-48543d152b97/exec-551ef41b-7e66-495d-95e4-e0e61d41ea26.png`). Original source pixels: 1731 x 909; selected project asset: 1200 x 630.
+- Intended implementation: `services/ai-software-development.html`, with layout styles in `css/site.css`.
+- Implementation screenshot: live production page `https://www.duniaops.com/services/ai-software-development`, captured inline in the Codex in-app browser; no persistent screenshot file path is exposed. Desktop viewport 1280 x 720 CSS px (full page 1265 x 4616 px); mobile viewport 390 x 844 CSS px (full page 375 x 6294 px); default browser density, no normalization needed for layout review.
+- State: service page overview, image beside introductory copy on wide layouts and below it on narrow layouts. Desktop screenshot confirms 572 px / 468 px grid columns and a 466 x 245 px rendered image; mobile screenshot confirms single 335 px column and a 333 x 175 px image. No horizontal overflow; image loaded at both sizes.
+- Full-view comparison: the new visual is the only added major image on the page and sits within the existing white content surface between the AI service hero and capability grid. Its navy canvas, blue glass forms and coral accents fit the existing brand palette without competing with the heading or CTA.
+- Focused-region comparison: the selected image is preserved at its 1200 x 630 aspect ratio and focal forms remain visible at desktop and mobile widths. Its left-to-right progression supports the adjacent prototype-to-production copy. Image has descriptive alt text.
+- Static checks: `npm run build:site`, `npm run check:site` (314 public files; no broken internal links), and `git diff --check` passed. Browser console errors: none. Primary enquiry CTA retains its existing AI-prefilled destination.
+
+## Findings
+
+- No actionable P0, P1 or P2 visual issues remain.
+
+## Implementation checklist
+
+- [x] Add the selected image as an optimised 1200 x 630 JPEG (109 KB).
+- [x] Add descriptive alternative text and responsive image sizing.
+- [x] Build the public site and validate generated public files and internal links.
+- [x] Inspect the published page at desktop and mobile widths and confirm image loading, responsive stacking and no horizontal overflow.
+- [x] Fix stale CSS cache by versioning the stylesheet URL, then confirm the live grid uses the intended two-column desktop layout.
+
+final result: passed
