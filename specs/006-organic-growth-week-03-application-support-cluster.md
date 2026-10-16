@@ -1,6 +1,6 @@
 # Organic Growth Week 03 — Application Support Cluster
 
-**Status:** Live — the companion article was published on 11 September and the Application Support & Software Maintenance commercial parent on 14 September. The article's 14-day and service's 7-day Search Console observations were captured on 25 September using performance data through 22 September; on 28 September the service's 14-day checkpoint was read using data through 25 September (12 calendar dates including publication day, not 14 elapsed days). The service is indexed and the article remains discovered but not indexed. Article 28-day and service 28-day checks remain open.
+**Status:** Live — the companion article was published on 11 September and the Application Support & Software Maintenance commercial parent on 14 September. On 16 October, Search Console's rolling 28-day exact-page report (16 September–13 October) showed the service at 51 impressions, 0 clicks, 0% CTR and average position 73.2. This is a current rolling view, not an exact first-28-live-days cohort. The service is indexed; the companion article remains discovered but not indexed. The article's 28-day observation remains NOT VERIFIED because the captured report does not cover its full 28 live days. No change or indexing request was made.
 **Type:** Commercial Service Page / Blog Article
 **Priority:** P1
 **Scheduled:** 21–27 September 2026
@@ -107,6 +107,12 @@ Record service/article paths and URLs, draft/publication/image state, operationa
 - **Commercial service:** `/services/application-support-maintenance` is on Google and indexed; URL Inspection shows one valid Breadcrumbs item. The 14–22 September page filter reports 1 impression, 0 clicks, average position 2.0. Search Console indicates page-filter totals can be partial; this is a low-volume directional observation.
 - **GA4 and enquiry outcome:** 8–24 September Traffic Acquisition contained 49 sessions and no `google / organic` source/medium row. The private ledger Overview reports 0 qualified organic enquiries, 0 unresolved enquiries and 2 measurement tests. No PII was accessed or copied; generic key events and Netlify's aggregate submission count are not classified as leads.
 - **Decision and next dates:** hold both assets; do not request indexing or make a quota-driven content change. Ibrahim Uylas owns follow-up. Check the service at 14 days on 28 September, the article at 28 days on 9 October and the service at 28 days on 12 October. Update this Completion Record and master tracker after each check.
+
+### Application Support rolling 28-day recheck — 16 October 2026
+
+- **Asset/source:** `services/application-support-maintenance.html` → `https://www.duniaops.com/services/application-support-maintenance`; publication date 14 September 2026; owner/approver Ibrahim Uylas. No page revision was made in this observation.
+- **Evidence:** Search Console Web, exact-page filter, rolling 28-day range 16 September–13 October, report read 16 October and refreshed about 5.5 hours before inspection: 51 impressions, 0 clicks, 0% CTR, average position 73.2. This replaces the latest rolling value of 44/0/72 through 10 October, but does not constitute a precisely aligned first-28-live-days cohort. URL Inspection continues to report the service indexed with valid Breadcrumbs.
+- **Interpretation/next action:** record the rolling window as available evidence, but do not present it as an exact-age cohort or infer performance causality. Ibrahim to include this window/source in the next programme review; no copy, indexing or deployment action is justified by this small sample alone. Update the master tracker and measurement ledger; the older article’s crawl/index state remains a separate open item.
 
 ### Application Support service 14-day Search Console checkpoint — 28 September 2026
 
