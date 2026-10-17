@@ -4,7 +4,7 @@
 
 **Aktif Codex görevi:** `Rockimals haftalık hatırlatma ve yayın` (`rockimals-pazartesi-blog-yay-n`); aynı takip görevi cuma salt okunur hatırlatma, pazartesi koşullu yayın çalıştırır. Ayrı bir GitHub/Netlify sunucu zamanlayıcısı kurulmadı.
 
-**1.5.0 ürün güncellemesi:** [Web sitesi uyum işi](../specs/037-rockimals-1-5-web-refresh.md) 17 Ekim 2026’da uygulandı. Güncel ürün referansı 10 ücretsiz okuma bölümü, günde en fazla üç yeni ücretsiz bölüm, üç dakikalık Dünya Kalkanı ve ayrı EN/TR sesli deneme hakkını içerir. Yeni yazıları bu kaynakla karşılaştır; iOS 1.5.0 ile Android yayın durumunu ayır. Eski snapshotlar yalnızca tarihsel kanıttır.
+**1.5.0 ürün güncellemesi:** [Web sitesi uyum işi](../specs/037-rockimals-1-5-web-refresh.md) 17 Ekim 2026’da uygulandı ve canlıda doğrulandı. Güncel ürün referansı 10 ücretsiz okuma bölümü, günde en fazla üç yeni ücretsiz bölüm, üç dakikalık Dünya Kalkanı ve ayrı EN/TR sesli deneme hakkını içerir. Yeni yazıları bu kaynakla karşılaştır; iOS 1.5.0 ile Android yayın durumunu ayır. Eski snapshotlar yalnızca tarihsel kanıttır.
 
 ## Kuyruk ve tempo
 

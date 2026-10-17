@@ -2,7 +2,7 @@
 
 **Type:** Content and visual maintenance
 **Priority:** P1; yanlış erişim ve veri işleme açıklamalarının düzeltilmesi ilk iş.
-**Status:** Web güncellemesi uygulandı ve doğrulandı; üretim yayını bekliyor.
+**Status:** Web güncellemesi tamamlandı ve üretimde doğrulandı. Ayrı backend silme takibi açık.
 **İnceleme tarihi:** 17 Ekim 2026
 **Kapsam:** Rockimals açılış sayfaları, ürün rehberleri, destek, gizlilik ve DuniaOps ürün kartı.
 
@@ -108,7 +108,7 @@ Yayın üreticisi blog makalelerine ekranlı deneyim modülünü şu anda vermiy
 - [x] `npm run check:rockimals-blog`, `npm run check:rockimals-blog-editorial-assets`, galeri/makale kontrolleri ve son değişiklik için `npm test` geçmeli; gerekli kontroller atlanmamalı.
 - [x] Sekiz dilin görüntü/metin eşleşmesini kontrol et. Dar telefon, masaüstü ve iPad genişliklerinde oran, okunabilirlik, taşma, dil değişimi ve mağaza bağlantılarını gözle doğrula.
 - [x] Eski ücretsiz hak anlatımları etkin kaynaklarda kalmamalı. Tarihsel dokümanları topluca değiştirme; bilim yazılarını gereksiz ürün pazarlamasına dönüştürme.
-- [ ] Commit, push ve yayın için o aşamadaki kullanıcı talebine göre ilerle. Yayın sonrası sekiz açılış URL'sini, güncellenen rehberleri, destek/gizlilik panellerini ve yeni görsel URL'lerini canlıdan doğrula.
+- [x] Commit, push ve yayın için o aşamadaki kullanıcı talebine göre ilerle. Yayın sonrası sekiz açılış URL'sini, güncellenen rehberleri, destek/gizlilik panellerini ve yeni görsel URL'lerini canlıdan doğrula.
 
 ## İnceleme sonucu
 
@@ -121,10 +121,18 @@ Kaynak incelemesi, eski/yeni ekranların görsel karşılaştırması, sekiz can
 - Ücretsiz okuma, sesli deneme, Plus, günlük ilerleme, çevrimdışı erişim ve hedef yaş açıklamaları güncellendi. iOS 1.5.0 kanıtı ve Android sürüm ayrımı korundu. Hızın sabit hikâyeyi değiştirdiği yönündeki eski tanıtım kaldırıldı.
 - Üç ürün rehberinin 24 dosyası ve asteroit rehberinin sekiz uygulama notu güncellendi; ilk yayın tarihleri korundu. Destek ve gizlilik sekiz dilde eşleştirildi. Önceki kaynak/asset snapshotları `docs/fixtures/rockimals-1.5.0/` altında saklandı.
 - `npm test` başarılı: içerik, görsel hash/boyut/dil, galeri, blog, günlük ziyaretçi ve site denetimleri; 301 public dosyada bozuk iç bağlantı yok. CUA tarayıcısında 390 px genişlikte sekiz dil taşmasız; 820 px tablet ve 1280 px masaüstünde gerçek okuma/ses ekranları incelendi.
-- Yerel `/today` derlemesi anahtar olmadan eski seed kullanır ve bunu eski olarak etiketler. Yayın Git CD ile, mevcut Netlify üretim ortamında oluşturulacak; canlı tarih ayrıca kontrol edilecek.
+- Yerel `/today` derlemesi anahtar olmadan eski seed kullanır ve bunu eski olarak etiketler. Yayın Git CD ile mevcut Netlify üretim ortamında oluşturuldu; canlı veri tarihi 17 Ekim, kaynak NASA NeoWs ve ziyaretçi sayısı 11 olarak doğrulandı.
 
 ### Ayrı backend takibi: sesli deneme kayıtlarının silinmesi
 
 Canlı veritabanının salt okunur şema denetiminde `rockimals_narration_trials.credential_digest` ilişkisinin `ON DELETE CASCADE` içermediği ve `rockimals_delete_installations(uuid[])` fonksiyonunun bu çocuk kayıtlarını silmediği doğrulandı. Sesli deneme kullanmış kurulumların manuel/otomatik silinmesi yabancı anahtar nedeniyle engellenebilir. Herhangi bir kullanıcı kaydı okunmadı veya silinmedi.
 
 Bu web değişikliği saklama politikasını ve yeni veri kategorilerini açıklar; doğrulanmış otomatik silme garantisi vermez. Mevcut 13 aylık saklama yükümlülüğü devam eder. Backend düzeltmesi için ayrıca kullanıcıya soruldu; yanıt gelmeden uygulama reposu veya üretim veritabanı değiştirilmez. Bu teknik takip, web yayını kapatıldığında da açık kalır; silme işleyişi düzeltilmiş sayılmamalıdır.
+
+
+## Yayın kapanışı
+
+- Uygulama commit'i: `52f6a1a2ce23697ab6d51ac883b312d444a4cf62`; `main` → `origin/main` normal push başarılı.
+- Netlify üretim deploy'u: [`6ad3cd29bae85557f706e112`](https://app.netlify.com/projects/duniaops/deploys/6ad3cd29bae85557f706e112), `ready`, yayın zamanı **17 Ekim 2026 19:32:12 UTC**.
+- Canlıdan **8 açılış sayfası**, **32 makale**, **2 destek/gizlilik sayfası**, ürün kataloğu ve **26 görsel SHA-256 eşleşmesi** doğrulandı. Türkçe okuma/sesli anlatım bölümü tarayıcıda kontrol edildi. Sonuçlar [canlı doğrulama kaydında](../docs/fixtures/rockimals-1.5.0/live-verification.json).
+- Web kapsamı kapandı. Yukarıdaki backend silme ilişkisi ayrı açık bulgudur; uygulama veya veritabanı düzeltmesi bu yayında yapılmadı.

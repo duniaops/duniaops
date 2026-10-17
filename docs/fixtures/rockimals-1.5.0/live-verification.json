@@ -1,0 +1,240 @@
+{
+  "landings": [
+    {
+      "url": "https://rockimals.duniaops.com/",
+      "status": 200,
+      "locale": "en"
+    },
+    {
+      "url": "https://rockimals.duniaops.com/tr",
+      "status": 200,
+      "locale": "tr"
+    },
+    {
+      "url": "https://rockimals.duniaops.com/ja",
+      "status": 200,
+      "locale": "ja"
+    },
+    {
+      "url": "https://rockimals.duniaops.com/ko",
+      "status": 200,
+      "locale": "ko"
+    },
+    {
+      "url": "https://rockimals.duniaops.com/zh-Hans",
+      "status": 200,
+      "locale": "zh-Hans"
+    },
+    {
+      "url": "https://rockimals.duniaops.com/fr",
+      "status": 200,
+      "locale": "fr"
+    },
+    {
+      "url": "https://rockimals.duniaops.com/de",
+      "status": 200,
+      "locale": "de"
+    },
+    {
+      "url": "https://rockimals.duniaops.com/es",
+      "status": 200,
+      "locale": "es"
+    }
+  ],
+  "articles": [
+    {
+      "url": "https://rockimals.duniaops.com/de/blog/rockimals-spielen-erster-weltraumbesucher",
+      "status": 200
+    },
+    {
+      "url": "https://rockimals.duniaops.com/blog/how-to-play-rockimals",
+      "status": 200
+    },
+    {
+      "url": "https://rockimals.duniaops.com/es/blog/como-jugar-a-rockimals",
+      "status": 200
+    },
+    {
+      "url": "https://rockimals.duniaops.com/fr/blog/comment-jouer-a-rockimals",
+      "status": 200
+    },
+    {
+      "url": "https://rockimals.duniaops.com/ja/blog/rockimals-no-asobikata",
+      "status": 200
+    },
+    {
+      "url": "https://rockimals.duniaops.com/ko/blog/rockimals-play-guide",
+      "status": 200
+    },
+    {
+      "url": "https://rockimals.duniaops.com/tr/blog/rockimals-nasil-oynanir",
+      "status": 200
+    },
+    {
+      "url": "https://rockimals.duniaops.com/zh-Hans/blog/rockimals-zenme-wan",
+      "status": 200
+    },
+    {
+      "url": "https://rockimals.duniaops.com/de/blog/rockimals-geschichten-freischalten",
+      "status": 200
+    },
+    {
+      "url": "https://rockimals.duniaops.com/blog/how-to-unlock-rockimals-stories",
+      "status": 200
+    },
+    {
+      "url": "https://rockimals.duniaops.com/es/blog/desbloquear-historias-rockimals",
+      "status": 200
+    },
+    {
+      "url": "https://rockimals.duniaops.com/fr/blog/debloquer-histoires-rockimals",
+      "status": 200
+    },
+    {
+      "url": "https://rockimals.duniaops.com/ja/blog/rockimals-story-unlock-guide",
+      "status": 200
+    },
+    {
+      "url": "https://rockimals.duniaops.com/ko/blog/rockimals-story-unlock-guide",
+      "status": 200
+    },
+    {
+      "url": "https://rockimals.duniaops.com/tr/blog/rockimals-hikayeleri-nasil-acilir",
+      "status": 200
+    },
+    {
+      "url": "https://rockimals.duniaops.com/zh-Hans/blog/rockimals-story-unlock-guide",
+      "status": 200
+    },
+    {
+      "url": "https://rockimals.duniaops.com/de/blog/rockimals-werbung-konten-elternkontrolle",
+      "status": 200
+    },
+    {
+      "url": "https://rockimals.duniaops.com/blog/rockimals-ads-accounts-parent-controls",
+      "status": 200
+    },
+    {
+      "url": "https://rockimals.duniaops.com/es/blog/rockimals-anuncios-cuentas-control-parental",
+      "status": 200
+    },
+    {
+      "url": "https://rockimals.duniaops.com/fr/blog/rockimals-publicites-comptes-controle-parental",
+      "status": 200
+    },
+    {
+      "url": "https://rockimals.duniaops.com/ja/blog/rockimals-koukoku-akounto-hogosha",
+      "status": 200
+    },
+    {
+      "url": "https://rockimals.duniaops.com/ko/blog/rockimals-gwanggo-gyejeong-bumo",
+      "status": 200
+    },
+    {
+      "url": "https://rockimals.duniaops.com/tr/blog/rockimals-reklam-hesap-ebeveyn-kontrolu",
+      "status": 200
+    },
+    {
+      "url": "https://rockimals.duniaops.com/zh-Hans/blog/rockimals-guanggao-zhanghu-jiazhang",
+      "status": 200
+    },
+    {
+      "url": "https://rockimals.duniaops.com/de/blog/was-ist-ein-asteroid-fuer-kinder",
+      "status": 200
+    },
+    {
+      "url": "https://rockimals.duniaops.com/blog/what-is-an-asteroid-for-kids",
+      "status": 200
+    },
+    {
+      "url": "https://rockimals.duniaops.com/es/blog/que-es-un-asteroide-para-ninos",
+      "status": 200
+    },
+    {
+      "url": "https://rockimals.duniaops.com/fr/blog/asteroide-explique-aux-enfants",
+      "status": 200
+    },
+    {
+      "url": "https://rockimals.duniaops.com/ja/blog/shouwakusei-to-wa-kodomo",
+      "status": 200
+    },
+    {
+      "url": "https://rockimals.duniaops.com/ko/blog/sohaengseong-iran-eorini",
+      "status": 200
+    },
+    {
+      "url": "https://rockimals.duniaops.com/tr/blog/asteroit-nedir-cocuklar-icin",
+      "status": 200
+    },
+    {
+      "url": "https://rockimals.duniaops.com/zh-Hans/blog/xiaoxingxing-shi-shenme-ertong",
+      "status": 200
+    }
+  ],
+  "assetHashesVerified": [
+    "assets/products/rockimals-preview/de/01-radar-home.jpg",
+    "assets/products/rockimals-preview/de/02-hero-chapter-reader.jpg",
+    "assets/products/rockimals-preview/de/04-meet-card.jpg",
+    "assets/products/rockimals-preview/en/01-radar-home.jpg",
+    "assets/products/rockimals-preview/en/02-hero-chapter-reader.jpg",
+    "assets/products/rockimals-preview/en/04-meet-card.jpg",
+    "assets/products/rockimals-preview/en/07-audio-reader.jpg",
+    "assets/products/rockimals-preview/es/01-radar-home.jpg",
+    "assets/products/rockimals-preview/es/02-hero-chapter-reader.jpg",
+    "assets/products/rockimals-preview/es/04-meet-card.jpg",
+    "assets/products/rockimals-preview/fr/01-radar-home.jpg",
+    "assets/products/rockimals-preview/fr/02-hero-chapter-reader.jpg",
+    "assets/products/rockimals-preview/fr/04-meet-card.jpg",
+    "assets/products/rockimals-preview/ja/01-radar-home.jpg",
+    "assets/products/rockimals-preview/ja/02-hero-chapter-reader.jpg",
+    "assets/products/rockimals-preview/ja/04-meet-card.jpg",
+    "assets/products/rockimals-preview/ko/01-radar-home.jpg",
+    "assets/products/rockimals-preview/ko/02-hero-chapter-reader.jpg",
+    "assets/products/rockimals-preview/ko/04-meet-card.jpg",
+    "assets/products/rockimals-preview/tr/01-radar-home.jpg",
+    "assets/products/rockimals-preview/tr/02-hero-chapter-reader.jpg",
+    "assets/products/rockimals-preview/tr/04-meet-card.jpg",
+    "assets/products/rockimals-preview/tr/07-audio-reader.jpg",
+    "assets/products/rockimals-preview/zh-Hans/01-radar-home.jpg",
+    "assets/products/rockimals-preview/zh-Hans/02-hero-chapter-reader.jpg",
+    "assets/products/rockimals-preview/zh-Hans/04-meet-card.jpg"
+  ],
+  "legal": [
+    {
+      "url": "https://rockimals.duniaops.com/support",
+      "status": 200
+    },
+    {
+      "url": "https://rockimals.duniaops.com/privacy-policy",
+      "status": 200
+    }
+  ],
+  "catalog": {
+    "url": "https://www.duniaops.com/products",
+    "status": 200
+  },
+  "verifiedAt": "2026-10-17T19:34:06.486707+00:00",
+  "commit": "52f6a1a2ce23697ab6d51ac883b312d444a4cf62",
+  "deploy": {
+    "id": "6ad3cd29bae85557f706e112",
+    "state": "ready",
+    "publishedAt": "2026-10-17T19:32:12.192Z",
+    "url": "https://app.netlify.com/projects/duniaops/deploys/6ad3cd29bae85557f706e112"
+  },
+  "todayData": {
+    "date": "2026-10-17",
+    "generatedAt": "2026-10-17T19:32:07.435Z",
+    "source": "NASA NeoWs",
+    "visitorCount": 11
+  },
+  "localValidation": {
+    "npmTest": "PASS",
+    "nodeTests": 45,
+    "publicFiles": 301,
+    "viewportWidths": [
+      390,
+      820,
+      1280
+    ]
+  }
+}
