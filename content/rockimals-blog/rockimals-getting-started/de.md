@@ -6,7 +6,7 @@ title: "So spielst du Rockimals: Triff deinen ersten Weltraumbesucher"
 description: "Öffne den Radar, triff ein echtes erdnahes Objekt, sieh dir seine Daten an und beginne deine erste Geschichte in Rockimals."
 category: "discover-game"
 published: "2026-09-22T19:39:00Z"
-updated: "2026-09-22T19:39:00Z"
+updated: "2026-10-17T19:19:52Z"
 draft: false
 image: "/assets/rockimals-blog/rockimals-getting-started/cover.jpg"
 imageAlt: "Niko und Enoli kreisen in einer Rockimals-Weltraumszene um schlichte Radar-Ringe"
@@ -18,7 +18,7 @@ cta:
   id: "app-store"
   label: "Rockimals kostenlos im App Store laden"
 productGuide: true
-reviewedAppVersion: "1.3.0"
+reviewedAppVersion: "1.5.0"
 ---
 
 Rockimals beginnt auf dem **Radar**. Tippe auf einen der Besucher rund um die Erde, lies seine Infokarte und öffne anschließend die verfügbare Geschichte. Dieser kurze Weg zeigt die Grundidee der App: Echte Daten zu erdnahen Objekten werden zu einer freundlichen Tierbegegnung. Die Figur und ihre Geschichte bleiben dabei fantasievolle Fiktion.
@@ -29,16 +29,11 @@ Der Radar ist der Startbildschirm von Rockimals. Beim Öffnen der App erscheinen
 
 Die Radar-Ringe machen riesige Entfernungen im All leichter vergleichbar. Der Vorbeiflug eines Besuchers kann im Verhältnis zur Entfernung zwischen Erde und Mond angezeigt werden. Was in der Astronomie als „nah“ bezeichnet wird, kann immer noch Millionen Kilometer von der Erde entfernt sein. Der Bildschirm lädt daher zum ruhigen Erkunden ein und ist keine Kollisionswarnung.
 
-Wenn eine Verbindung verfügbar ist, kann Rockimals aktuelle Daten zu erdnahen Objekten verwenden. Offline stehen weiterhin enthaltene Geschichten und Beispieldaten für den Himmel zur Verfügung. Der Beispielhimmel ist eine Demonstration und keine aktuelle Liste der heutigen Vorbeiflüge.
+Das erste Kapitel jedes Helden und heruntergeladene Kapitel lassen sich bei bestehender Berechtigung offline lesen. Neue Kapitel- und Audiodownloads, aktuelle Himmelsdaten und Käufe benötigen eine Verbindung. Offline-Beispielbesucher zeigen nicht den heutigen Himmel.
 
 ## 2. Tippe auf einen Besucher und lies die Karte
 
-Wähle einen Besucher auf dem Radar aus, um seine Infokarte zu öffnen. Die Karte zeigt einige leicht verständliche Anhaltspunkte:
-
-- den Tierfreund für diese Begegnung,
-- einen kindgerechten Größenvergleich,
-- die erwartete Entfernung zur Erde,
-- die Geschwindigkeit relativ zur Erde.
+Triff ein Tier, vergleiche die Größe seines Asteroiden mit einem vertrauten Gegenstand und lies einen kurzen Weltraumfakt. Offizielle Asteroidendaten stehen im Erwachsenenbereich hinter der Elternabfrage.
 
 Erwachsene können hinter **Frag einen Erwachsenen 🔭** die offizielle Bezeichnung und den Link zur Quelle öffnen. Diese Angaben sind bewusst von der kindgerechten Zusammenfassung getrennt.
 
@@ -50,13 +45,17 @@ Stelle vor dem nächsten Schritt nur eine Frage: „Ist dieser Besucher kleiner,
 
 Wenn ein neues Kapitel verfügbar ist, öffne vom Besucher aus die Bilderbuchgeschichte. In Rockimals gibt es acht wiederkehrende Helden, jeweils mit einem Abenteuer in fünf Kapiteln. Ein freigeschaltetes Kapitel bleibt in der **Geschichtenbibliothek**, damit du es später erneut lesen kannst.
 
-Der feste Geschichtenkatalog und die tägliche Zugangsregel sind zwei verschiedene Dinge. Kostenlos lässt sich jeden Tag eine neue Geschichte öffnen. Das optionale **Rockimals Plus** macht alle neuen Heldengeschichten des jeweiligen Tages verfügbar. Das bedeutet nicht, dass täglich eine neue Geschichte erzeugt wird. Es beschreibt den Rhythmus, in dem Kapitel der bereits vorhandenen Abenteuer geöffnet werden.
+Wähle insgesamt 10 kostenlose Kapitel, höchstens 3 neue pro Tag. Diese kostenlosen Kapitel bleiben zum Wiederlesen verfügbar. Für alle Zugänge, auch Plus, gilt höchstens ein neues Kapitel pro Tier und Tag: Lies das aktuelle Kapitel zu Ende und triff den Freund an einem späteren Tag erneut auf dem Radar.
+
+Solange Rockimals Plus aktiv ist, umfasst es die veröffentlichte Geschichtenbibliothek und verfügbare englische/türkische Erzählungen, Erdschild ohne Zeitlimit, alle 12 Entdeckungsmissionen, vier weitere Spiele und Tagebuchdekorationen. Die tägliche Kapitelregel gilt weiterhin.
+
+Höre die Abenteuer auf Englisch oder Türkisch. Jede neue Installation darf ein kostenloses Hörkapitel wählen; das ist unabhängig von den 10 kostenlosen Lesekapiteln. Lade die Erzählung mit Internetverbindung herunter. Gespeicherte Audiodateien lassen sich bei bestehender Berechtigung offline anhören.
 
 Wenn derselbe Held wieder auftaucht, zeigt die Geschichtenbibliothek, welche Kapitel bereits geöffnet wurden. So können Erwachsene und Kinder am einfachsten dort weiterlesen, wo sie aufgehört haben.
 
 ## 4. Wähle einen kleinen nächsten Schritt
 
-Die erste Runde darf kurz bleiben. Öffne nach der Begegnung den **Erdschild** und führe Besucher sicher an der Erde vorbei. Oder kehre zum Radar zurück und vergleiche zwei Infokarten. Kostenlos ist täglich eine Minute Erdschild enthalten. Das reicht, um die Grundbewegung kennenzulernen, ohne gleich alle Funktionen auszuprobieren.
+Halte die erste Runde kurz: Probiere Erdschild mit täglich 3 kostenlosen Minuten oder vergleiche zwei Besucher auf dem Radar. Aktives Plus bietet Erdschild ohne Zeitlimit.
 
 Versuche diesen Vergleich:
 
@@ -77,10 +76,10 @@ Rockimals nutzt NASA/JPL-Daten zu erdnahen Objekten, ist aber eine unabhängige 
 
 ## Wenn dein Bildschirm anders aussieht
 
-Dieser Leitfaden wurde mit Rockimals **1.3.0** geprüft, veröffentlicht am 19. September 2026. Die aktuellen Besucher können sich mit den Himmelsdaten ändern. Spätere App-Versionen können außerdem Bezeichnungen oder Navigation anpassen. Wenn ein Schritt nicht mehr passt, folge den Begriffen in deiner installierten Version und prüfe im App Store, ob ein Update verfügbar ist.
+Am 17. Oktober 2026 mit dem öffentlichen iOS-1.5.0-Storeeintrag und den Veröffentlichungsquellen geprüft. Die Android-Version kann abweichen. Beachte den Storeeintrag und die Bezeichnungen deiner installierten App.
 
 ## Quellen
 
-- [Rockimals im britischen App Store](https://apps.apple.com/gb/app/rockimals/id6792505608) — Produktablauf, Version, kostenloser/Plus-Zugang und Offline-Beschreibung; geprüft am 22. September 2026.
+- [Rockimals im britischen App Store](https://apps.apple.com/gb/app/rockimals/id6792505608) — Produkt und Version am 17. Oktober 2026 geprüft.
 - [NASA/JPL Center for Near-Earth Object Studies: nahe Vorbeiflüge](https://cneos.jpl.nasa.gov/ca/) — Objektbezeichnungen und Messwerte beim Vorbeiflug; geprüft am 22. September 2026.
-- [Rockimals-Datenschutzerklärung](https://rockimals.duniaops.com/privacy-policy) — Grenzen für Konten, Werbung und technische Daten; gültig seit 19. September 2026.
+- [Rockimals-Datenschutzerklärung](https://rockimals.duniaops.com/privacy-policy) — Produkt und Version am 17. Oktober 2026 geprüft.

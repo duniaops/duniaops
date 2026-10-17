@@ -1,5 +1,7 @@
 # Konu 04 brief — Rockimals hikâyeleri nasıl açılır?
 
+**17 Ekim 2026 güncellemesi:** Etkin ürün kaynağı `product-reference.json` içindeki iOS 1.5.0 kaydıdır. Ücretsiz okuma: toplam 10 bölüm, günde en fazla 3 yeni bölüm; her planda hayvan başına günde en fazla 1 yeni bölüm. Dünya Kalkanı günde 3 dakika; sesli anlatım EN/TR. 1.3.0/1.4.0 ve eski günlük haklara ilişkin aşağıdaki inceleme notları tarihsel kayıttır. Güncel görsel kökenleri `asset-manifest.json` ve `../../rockimals-landing/screenshots.json` içindedir.
+
 - **Durum:** Sekiz dilin yayını 9 Ekim 2026'da kullanıcı tarafından onaylandı; içerik dosyalarında aynı yayın zamanı ve draft: false kullanılır. Canlı dağıtım ayrıca doğrulanmalıdır.
 - **Hazırlık ve kaynak inceleme tarihi:** 9 Ekim 2026
 - **Haftalık sıra:** Hafta 4, konu 04; ilk hedef 12 Ekim 2026 Pazartesi idi. Kullanıcı, bu hafta 5 Ekim'de konu 28 yayımlanmış olmasına rağmen, 9 Ekim'de konu 04'ün hemen yayını için açıkça tek seferlik istisna onayı verdi.

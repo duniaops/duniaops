@@ -6,7 +6,7 @@ title: "小惑星とは？子どもと学ぶやさしい宇宙の話"
 description: "小惑星とは何でしょう？どこを回り、どれくらい大きいのか。「地球に近い」と衝突の違いも、親子で落ち着いて学べます。"
 category: "learn-space"
 published: "2026-09-28T10:43:02Z"
-updated: "2026-09-28T10:43:02Z"
+updated: "2026-10-17T19:19:52Z"
 draft: false
 image: "/assets/rockimals-blog/what-is-an-asteroid-for-kids/cover.jpg"
 imageAlt: "宇宙の岩に乗るネズミのNikoとクジラのEnoliを描いたイラスト。実際の大きさの比率ではありません"
@@ -47,7 +47,7 @@ reviewedAppVersion: null
 
 Rockimalsは、地球に近い天体の公式な識別情報と、大きさ・通過距離・速度など一部の数値に実際の宇宙データを使います。アプリの**レーダー**で訪問者をタップすると、情報カードを読めます。一方、動物の姿や親しみやすい名前、お話はゲームのフィクションです。ネズミのNikoは小惑星の正式名称でもNASAの写真でもありません。
 
-小惑星を学ぶためにアプリは必要ありません。試したいなら、カードの「大きさ」と「距離」がそれぞれ何を測っているか、親子で比べてみましょう。この画面の流れはiOS版**1.3.0**で確認しました。将来の版では変わる場合があります。
+小惑星を学ぶのにアプリは必要ありません。次の活動として、Rockimalsの動物の大きさ比較と大人向け情報の接近距離を比べてみましょう。大きさは天体そのもの、距離は地球との隔たりです。このアプリの例は2026年10月17日にiOS 1.5.0で確認しました。
 
 Rockimalsは独立したアプリです。NASA/JPLの宇宙データを利用しますが、NASAとの提携やNASAによる承認はありません。
 
@@ -56,4 +56,4 @@ Rockimalsは独立したアプリです。NASA/JPLの宇宙データを利用し
 - [NASA Space Place：What Is an Asteroid?](https://spaceplace.nasa.gov/asteroid/en/) — 小惑星の基本的な説明と小惑星帯。2026年9月25日確認。
 - [NASA Science：Asteroid Facts](https://science.nasa.gov/solar-system/asteroids/facts/) — 起源、形、大きさ、軌道。2026年9月25日確認。
 - [NASA/JPL CNEOS：NEO Groups](https://cneos.jpl.nasa.gov/about/neo_groups.html) — 「地球に近い」軌道の意味。2026年9月25日確認。
-- [英国App StoreのRockimals](https://apps.apple.com/gb/app/rockimals/id6792505608) — アプリ機能と1.3.0版。2026年9月25日確認。
+- [英国App StoreのRockimals](https://apps.apple.com/gb/app/rockimals/id6792505608) — 製品とバージョン：2026年10月17日確認.

@@ -6,7 +6,7 @@ title: "What Is an Asteroid? A Simple Guide for Kids"
 description: "What is an asteroid? Learn where these space rocks travel, how their sizes differ, and why a near-Earth orbit is not the same as an impact warning."
 category: "learn-space"
 published: "2026-09-28T10:43:02Z"
-updated: "2026-09-28T10:43:02Z"
+updated: "2026-10-17T19:19:52Z"
 draft: false
 image: "/assets/rockimals-blog/what-is-an-asteroid-for-kids/cover.jpg"
 imageAlt: "Niko the mouse and Enoli the whale on illustrated space rocks; the scene is not a scale diagram"
@@ -47,7 +47,7 @@ Try two questions with a child: “How big is the rock?” and “How far away w
 
 Rockimals uses real near-Earth object information for a visitor's official identity and selected measurements, such as size, approach distance and speed. In the app's **Radar**, you can tap a visitor and read its information card. The friendly animal, its name and its story are invented for the game. Niko the mouse is not an official asteroid name or a NASA image.
 
-You do not need Rockimals to learn what an asteroid is. If you want one next step, open a visitor card together and compare the **size** and **distance** labels. Ask which number describes the object and which describes the space between it and Earth. The current app flow was checked against iOS version **1.3.0**; later screens may differ.
+You do not need the app to learn about asteroids. For a follow-up activity in Rockimals, compare an animal’s illustrated size card with the approach distance in the grown-up facts. Size describes the object; distance describes its separation from Earth. This app example was reviewed for iOS 1.5.0 on 17 October 2026.
 
 Rockimals is an independent app. It uses NASA/JPL space data but is not affiliated with or endorsed by NASA.
 
@@ -56,4 +56,4 @@ Rockimals is an independent app. It uses NASA/JPL space data but is not affiliat
 - [NASA Space Place: What Is an Asteroid?](https://spaceplace.nasa.gov/asteroid/en/) — child-friendly definition, composition and the asteroid belt; reviewed 22 September 2026.
 - [NASA Science: Asteroid Facts](https://science.nasa.gov/solar-system/asteroids/facts/) — origins, shapes, sizes and orbits; reviewed 22 September 2026.
 - [NASA/JPL Center for Near-Earth Object Studies: NEO groups](https://cneos.jpl.nasa.gov/about/neo_groups.html) — what “near-Earth” means for an orbit; reviewed 22 September 2026.
-- [Rockimals on the UK App Store](https://apps.apple.com/gb/app/rockimals/id6792505608) — app features and version 1.3.0; reviewed 22 September 2026.
+- [Rockimals on the UK App Store](https://apps.apple.com/gb/app/rockimals/id6792505608) — Product and version checked 17 October 2026.

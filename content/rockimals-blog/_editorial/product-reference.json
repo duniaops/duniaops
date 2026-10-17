@@ -1,14 +1,14 @@
 {
   "schemaVersion": 1,
-  "snapshotDate": "2026-09-22",
-  "editorialRule": "Treat liveStore as public product truth. Treat repositorySnapshot as development evidence only; never promote repository-only behavior to a live claim.",
+  "snapshotDate": "2026-10-17",
+  "editorialRule": "Use verified platform-specific public listings for availability. Release code and captured screens explain iOS 1.5.0 behavior; do not infer Android release availability from iOS.",
   "liveStore": {
     "platform": "iOS",
     "country": "GB",
     "appId": "6792505608",
     "bundleId": "com.iuylas.rockimals",
-    "version": "1.3.0",
-    "releasedAt": "2026-09-19T05:23:09Z",
+    "version": "1.5.0",
+    "releasedAt": "2026-10-17T16:36:00Z",
     "minimumOperatingSystem": "iOS 15.0",
     "contentRating": "4+",
     "primaryGenre": "Education",
@@ -24,17 +24,19 @@
       "de",
       "es"
     ],
-    "source": "https://itunes.apple.com/lookup?id=6792505608&country=gb"
+    "source": "https://itunes.apple.com/lookup?id=6792505608&country=gb",
+    "verifiedOn": "2026-10-17"
   },
   "androidStore": {
     "packageId": "com.duniaops.rockimals",
     "listingTitle": "Rockimals: Space Animal Zoo",
     "listingUrl": "https://play.google.com/store/apps/details?id=com.duniaops.rockimals",
-    "verifiedOn": "2026-10-07"
+    "verifiedOn": "2026-10-17",
+    "versionStatus": "1.5.0 submitted; public GB listing still shows 25 September update at review time"
   },
   "platformStatus": {
-    "ios": "Public GB App Store listing verified on 2026-09-22.",
-    "android": "Public Rockimals Google Play listing verified on 2026-10-07 at the official package URL. Link to the listing; do not assume availability in every country or device."
+    "ios": "Public GB and TR App Store listings verified as 1.5.0 on 2026-10-17.",
+    "android": "Public Google Play listing accessible on 2026-10-17; 1.5.0 rollout not independently verified."
   },
   "audience": {
     "storeRating": "4+",
@@ -49,28 +51,33 @@
       "following visitors"
     ],
     "freeDailyEntitlements": [
-      "one new story per day",
-      "one minute of Earth Shield per day",
-      "one rotating discovery mission per theme"
+      "up to three new free reading chapters per local day, within ten free chapters total",
+      "three minutes of Earth Shield per day",
+      "one discovery mission per theme per day"
     ],
     "plusEntitlements": [
-      "every new hero story available that day",
+      "published story library and available English/Turkish narration while active",
       "unlimited Earth Shield",
       "all 12 discovery missions",
       "four additional games",
       "journal album and decorations"
     ],
-    "usageRule": "Describe Plus as an optional in-app entitlement. Do not imply that free users lose previously unlocked stories or that new stories are generated daily."
+    "usageRule": "Text and narration allowances are separate. Every plan has at most one new chapter per animal per local day after completion and a later eligible Radar opening. Earned free chapters remain available to replay.",
+    "freeReadingChaptersTotal": 10,
+    "freeNarrationPerFreshInstallation": 1
   },
   "stories": {
     "liveCatalog": "The public listing describes eight recurring storybook heroes with five chapters each.",
-    "liveProgression": "A Radar tap unlocks a chapter; unlocked chapters remain in the Story Library. Free access provides one new story per day, while Plus makes every new hero story for that day available.",
-    "fixedVsDaily": "The hero/chapter catalog is fixed. Daily access is an unlock cadence, not a claim that the story catalog or fiction is generated each day.",
-    "repositoryDevelopmentDifference": "Development version 1.4.0+39 bundles each hero's first chapter and defines later chapter packages as downloadable immutable objects. This delivery model is not a verified 1.3.0 live-store claim."
+    "liveProgression": "Choose 10 free story chapters in total, with up to 3 new chapters per day. These free chapters stay yours to replay. Every plan, including Plus, discovers at most one new chapter per animal per day: finish the current chapter, then meet that friend on Radar on a later day.",
+    "fixedVsDaily": "The current published catalog contains eight heroes and forty chapters. Daily discovery is not daily story generation or a promise of future publication cadence.",
+    "narrationLanguages": [
+      "en",
+      "tr"
+    ]
   },
   "offline": {
-    "liveClaim": "The store description says the app works offline with bundled stories and sample sky data.",
-    "limit": "Do not claim that every story or fresh live-sky result is available offline. The 1.4.0 repository's later-chapter download model is development-only evidence."
+    "liveClaim": "Each hero’s first chapter and downloaded chapters can be read offline when you have access. New chapter and narration downloads, live sky data and purchases need a connection. Offline sample visitors are not today’s live sky.",
+    "limit": "Saved paid content still requires applicable access; no permanent ownership promise for subscription-only content."
   },
   "dataAndParentControls": {
     "publicClaims": [
@@ -87,12 +94,20 @@
       "platform, language and time zone",
       "purchase entitlement and transaction metadata via Apple or Google and RevenueCat",
       "notification token, reminder time and permission state when reminders are enabled",
-      "network IP may be processed by infrastructure providers; Rockimals stores a rate-limit digest rather than the raw IP"
+      "network IP may be processed by infrastructure providers; Rockimals stores a rate-limit digest rather than the raw IP",
+      "requested chapter/language and starter chapter selections",
+      "random app-data narration installation scope and selected free audio chapter",
+      "signed Apple purchase proofs sent to protected delivery service for independent Apple verification"
     ],
     "usageRule": "Never say that Rockimals processes no data. Describe concrete product behavior, link the current privacy policy, and avoid legal-compliance or absolute-safety guarantees.",
     "privacySource": "https://rockimals.duniaops.com/privacy-policy",
     "supportSource": "https://rockimals.duniaops.com/support",
-    "policyEffectiveDate": "2026-09-19"
+    "policyEffectiveDate": "2026-10-17",
+    "retentionReview": {
+      "policy": "Maximum 13 months after installation last activity; includes free chapter and narration allowance records. Earlier deletion can be requested.",
+      "verifiedOn": "2026-10-17",
+      "implementationGap": "Live metadata shows narration trials reference installations without ON DELETE CASCADE, while rockimals_delete_installations does not delete narration trials. Affected installations can block deletion. Website copy states the retention policy without claiming verified automatic deletion. Separate backend repair approval requested; not performed in this website release."
+    }
   },
   "nasaBoundary": {
     "allowed": "The product uses NASA near-Earth asteroid data for visitor facts.",
@@ -101,10 +116,10 @@
   },
   "repositorySnapshot": {
     "repository": "rockimals",
-    "commit": "04a455d878dee4851e4e1857181ceabd9ea2f21b",
-    "commitDate": "2026-09-22T16:03:47+01:00",
-    "appVersion": "1.4.0+39",
-    "status": "development-not-live",
+    "commit": "7680a7d2d6f7408852da592f9a63f76dce7a13d4",
+    "commitDate": "2026-10-16T17:38:13+01:00",
+    "appVersion": "1.5.0+79",
+    "status": "release-source-ios-live-android-submitted",
     "catalog": "assets/testflight_catalog/catalog.json",
     "catalogSchemaVersion": 2,
     "localizationSources": {
@@ -119,18 +134,51 @@
     }
   },
   "heroes": [
-    { "id": "mouse", "displayName": "Niko" },
-    { "id": "rabbit", "displayName": "Tavi" },
-    { "id": "fox", "displayName": "Barney" },
-    { "id": "tiger", "displayName": "Kito" },
-    { "id": "bear", "displayName": "Pofi" },
-    { "id": "elephant", "displayName": "Bobo" },
-    { "id": "dino", "displayName": "Ciko" },
-    { "id": "whale", "displayName": "Enoli" }
+    {
+      "id": "mouse",
+      "displayName": "Niko"
+    },
+    {
+      "id": "rabbit",
+      "displayName": "Tavi"
+    },
+    {
+      "id": "fox",
+      "displayName": "Barney"
+    },
+    {
+      "id": "tiger",
+      "displayName": "Kito"
+    },
+    {
+      "id": "bear",
+      "displayName": "Pofi"
+    },
+    {
+      "id": "elephant",
+      "displayName": "Bobo"
+    },
+    {
+      "id": "dino",
+      "displayName": "Ciko"
+    },
+    {
+      "id": "whale",
+      "displayName": "Enoli"
+    }
   ],
   "localizedTerms": {
     "en": {
-      "species": ["Mouse", "Rabbit", "Fox", "Tiger", "Bear", "Elephant", "Dino", "Whale"],
+      "species": [
+        "Mouse",
+        "Rabbit",
+        "Fox",
+        "Tiger",
+        "Bear",
+        "Elephant",
+        "Dino",
+        "Whale"
+      ],
       "radar": "Radar",
       "storyLibrary": "Story library",
       "earthShield": "Earth Shield",
@@ -144,7 +192,16 @@
       "plus": "Rockimals Plus"
     },
     "tr": {
-      "species": ["Fare", "Tavşan", "Tilki", "Kaplan", "Ayı", "Fil", "Dinozor", "Balina"],
+      "species": [
+        "Fare",
+        "Tavşan",
+        "Tilki",
+        "Kaplan",
+        "Ayı",
+        "Fil",
+        "Dinozor",
+        "Balina"
+      ],
       "radar": "Radar",
       "storyLibrary": "Hikâye kitaplığı",
       "earthShield": "Dünya Kalkanı",
@@ -158,7 +215,16 @@
       "plus": "Rockimals Plus"
     },
     "ja": {
-      "species": ["ネズミ", "ウサギ", "キツネ", "トラ", "クマ", "ゾウ", "きょうりゅう", "クジラ"],
+      "species": [
+        "ネズミ",
+        "ウサギ",
+        "キツネ",
+        "トラ",
+        "クマ",
+        "ゾウ",
+        "きょうりゅう",
+        "クジラ"
+      ],
       "radar": "レーダー",
       "storyLibrary": "おはなしライブラリー",
       "earthShield": "地球シールド",
@@ -172,7 +238,16 @@
       "plus": "Rockimals Plus"
     },
     "ko": {
-      "species": ["생쥐", "토끼", "여우", "호랑이", "곰", "코끼리", "공룡", "고래"],
+      "species": [
+        "생쥐",
+        "토끼",
+        "여우",
+        "호랑이",
+        "곰",
+        "코끼리",
+        "공룡",
+        "고래"
+      ],
       "radar": "레이더",
       "storyLibrary": "이야기 도서관",
       "earthShield": "지구 방패",
@@ -186,7 +261,16 @@
       "plus": "Rockimals Plus"
     },
     "zh-Hans": {
-      "species": ["老鼠", "兔子", "狐狸", "老虎", "熊", "大象", "恐龙", "鲸鱼"],
+      "species": [
+        "老鼠",
+        "兔子",
+        "狐狸",
+        "老虎",
+        "熊",
+        "大象",
+        "恐龙",
+        "鲸鱼"
+      ],
       "radar": "雷达",
       "storyLibrary": "故事书库",
       "earthShield": "地球护盾",
@@ -200,7 +284,16 @@
       "plus": "Rockimals Plus"
     },
     "fr": {
-      "species": ["Souris", "Lapin", "Renard", "Tigre", "Ours", "Éléphant", "Dino", "Baleine"],
+      "species": [
+        "Souris",
+        "Lapin",
+        "Renard",
+        "Tigre",
+        "Ours",
+        "Éléphant",
+        "Dino",
+        "Baleine"
+      ],
       "radar": "Radar",
       "storyLibrary": "Bibliothèque d’histoires",
       "earthShield": "Bouclier terrestre",
@@ -214,7 +307,16 @@
       "plus": "Rockimals Plus"
     },
     "de": {
-      "species": ["Maus", "Kaninchen", "Fuchs", "Tiger", "Bär", "Elefant", "Dino", "Wal"],
+      "species": [
+        "Maus",
+        "Kaninchen",
+        "Fuchs",
+        "Tiger",
+        "Bär",
+        "Elefant",
+        "Dino",
+        "Wal"
+      ],
       "radar": "Radar",
       "storyLibrary": "Geschichtenbibliothek",
       "earthShield": "Erdschild",
@@ -228,7 +330,16 @@
       "plus": "Rockimals Plus"
     },
     "es": {
-      "species": ["Ratón", "Conejo", "Zorro", "Tigre", "Oso", "Elefante", "Dino", "Ballena"],
+      "species": [
+        "Ratón",
+        "Conejo",
+        "Zorro",
+        "Tigre",
+        "Oso",
+        "Elefante",
+        "Dino",
+        "Ballena"
+      ],
       "radar": "Radar",
       "storyLibrary": "Biblioteca de historias",
       "earthShield": "Escudo terrestre",
@@ -243,9 +354,9 @@
     }
   },
   "knownGaps": [
-    "The public Android store listing was not verified.",
-    "The live product landing structured data says iOS 13.0 or later, while the verified App Store listing requires iOS 15.0.",
-    "No current localized parent-gate/settings screenshot exists in the website preview set; topic 28 therefore uses a textless editorial cover and must not fabricate a settings screen.",
-    "Repository catalog season and fixture identifiers include legacy or technical names. They are provenance only and must not replace the approved hero display names."
-  ]
+    "Android 1.5.0 public rollout was not independently verified.",
+    "The web gallery uses current localized Radar, reader and Meet screens; older library/game/zoo frames have been retired.",
+    "No current localized parent-gate/settings screenshot is used; topic 28 keeps its editorial cover."
+  ],
+  "previousSnapshot": "docs/fixtures/rockimals-1.5.0/product-reference-previous.json"
 }

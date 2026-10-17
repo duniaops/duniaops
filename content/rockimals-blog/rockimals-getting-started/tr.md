@@ -6,7 +6,7 @@ title: "Rockimals Nasıl Oynanır? İlk Uzay Ziyaretçinle Tanış"
 description: "Radar'ı açın, Dünya'ya yaklaşan gerçek bir ziyaretçiyle tanışın, bilgilerini inceleyin ve Rockimals'taki ilk hikâyenize geçin."
 category: "discover-game"
 published: "2026-09-22T19:39:00Z"
-updated: "2026-09-22T19:39:00Z"
+updated: "2026-10-17T19:19:52Z"
 draft: false
 image: "/assets/rockimals-blog/rockimals-getting-started/cover.jpg"
 imageAlt: "Rockimals uzay sahnesinde sade Radar halkalarının çevresindeki Niko ve Enoli"
@@ -18,7 +18,7 @@ cta:
   id: "app-store"
   label: "Rockimals’ı App Store’dan ücretsiz indirin"
 productGuide: true
-reviewedAppVersion: "1.3.0"
+reviewedAppVersion: "1.5.0"
 ---
 
 Rockimals oynamaya **Radar** ekranından başlayın: Dünya'nın çevresindeki ziyaretçilerden birine dokunun, bilgi kartını inceleyin ve açılabilen hikâyesine geçin. Bu kısa yol, uygulamanın temel fikrini gösterir: Dünya'ya yakın gerçek gökcismi verileri sevimli bir hayvan karşılaşmasına dönüşür; karakter ve hikâye ise hayal ürünüdür.
@@ -29,16 +29,11 @@ Radar, Rockimals'ın ana ekranıdır. Uygulamayı açtığınızda ziyaretçiler
 
 Halkalar, uzaydaki çok büyük mesafeleri daha anlaşılır bir karşılaştırmaya dönüştürür. Bir ziyaretçinin yaklaşma mesafesi, Dünya ile Ay arasındaki uzaklığa göre gösterilebilir. Astronomi dilinde “yakın” bir geçişin hâlâ Dünya'dan milyonlarca kilometre uzakta olabileceğini unutmayın; bu ekran bir çarpışma uyarısı değil, sakin bir keşif alanıdır.
 
-Rockimals, bağlantı olduğunda güncel Dünya'ya yakın gökcismi verilerini kullanabilir. Cihaz çevrimdışıyken paketli hikâyeler ve örnek gökyüzü verileriyle keşfe devam edilebilir. Örnek gökyüzünü, bugünün güncel yaklaşma listesi gibi değerlendirmeyin.
+Her kahramanın ilk bölümü ve indirilmiş bölümler, erişim hakkınız varsa çevrimdışı okunabilir. Yeni bölüm ve ses indirmeleri, canlı gökyüzü verisi ve satın almalar bağlantı gerektirir. Çevrimdışı örnek ziyaretçiler bugünün canlı gökyüzü değildir.
 
 ## 2. Bir ziyaretçiye dokunup bilgi kartını okuyun
 
-Radar'dan bir ziyaretçi seçtiğinizde bilgi kartı açılır. Kart, gökcismini anlamayı kolaylaştıran birkaç bilgi sunar:
-
-- bu karşılaşmada kullanılan hayvan dostu;
-- çocukların anlayabileceği bir boyut karşılaştırması;
-- Dünya'ya ne kadar yaklaşmasının beklendiği;
-- Dünya'ya göre ne kadar hızlı hareket ettiği.
+Bir hayvanla tanışın, asteroidinin boyutunu tanıdık bir nesneyle karşılaştırın ve kısa bir uzay bilgisi okuyun. Resmî asteroit ayrıntıları ebeveyn kapısının arkasındaki yetişkin bölümündedir.
 
 Bir yetişkin, ebeveyn kapısının arkasındaki bilgiler bölümünden resmî gökcismi kodunu görebilir ve kaynak bağlantısını izleyebilir. Bu bölüm, çocuklara yönelik kısa özetten özellikle ayrı tutulur.
 
@@ -50,13 +45,17 @@ Devam etmeden önce tek bir soru sorun: “Bu ziyaretçi beklediğimden daha kü
 
 Yeni bir bölüm erişime açıksa ziyaretçi ekranından resimli hikâyeye devam edin. Rockimals'ta tekrar karşılaşabileceğiniz sekiz kahraman vardır ve her kahramanın beş bölümlük bir macerası bulunur. Açtığınız bölüm **Hikâye kitaplığında** kalır; aynı ekrana hemen dönmeden daha sonra yeniden okuyabilirsiniz.
 
-Sabit hikâye kataloğu ile günlük erişim kuralı aynı şey değildir. Ücretsiz kullanım her gün bir yeni hikâye sunar. İsteğe bağlı **Rockimals Plus**, o günün bütün yeni kahraman hikâyelerini erişime açar. Bu ifade her gün yeni bir hikâye üretildiği anlamına gelmez; mevcut kahraman maceralarındaki bölümlerin açılma düzenini anlatır.
+Toplam 10 ücretsiz hikâye bölümü seçebilirsiniz; günde en fazla 3 yeni bölüm açılır. Bu ücretsiz bölümler tekrar okumak için sizde kalır. Plus dahil bütün planlarda her hayvan için günde en fazla bir yeni bölüm keşfedilir: mevcut bölümü bitirin, ardından o dostla sonraki bir gün Radar’da yeniden tanışın.
+
+Rockimals Plus, etkin olduğu sürece yayımlanmış hikâye kütüphanesini ve hazır Türkçe/İngilizce sesli anlatımları, sınırsız Dünya Kalkanı’nı, 12 keşif görevinin tamamını, dört ek oyunu ve günlük süslemelerini içerir. Günlük bölüm ilerleme kuralı yine geçerlidir.
+
+Maceraları Türkçe veya İngilizce dinleyin. Her yeni kurulum bir sesli bölümü ücretsiz seçebilir; bu hak, 10 ücretsiz okuma bölümünden ayrıdır. Sesli anlatımı bağlantı varken indirin; indirilmiş sesi erişim hakkınız uygunsa çevrimdışı dinleyin.
 
 Aynı kahramanla yeniden karşılaştığınızda daha önce hangi bölümü açtığınızı Hikâye kitaplığından kontrol edin. Bir yetişkinle çocuğun kaldığı yerden devam etmesinin en kolay yolu budur.
 
 ## 4. Küçük bir sonraki adım seçin
 
-İlk oturumu kısa tutun. Ziyaretçiyle tanıştıktan sonra **Dünya Kalkanı**nı açıp ziyaretçilerin Dünya'nın yanından güvenle geçmesine yardım edebilir veya Radar'a dönüp iki bilgi kartını karşılaştırabilirsiniz. Ücretsiz kullanım, Dünya Kalkanı'nda her gün bir dakikalık oyun içerir; bu süre ilk oturumu bütün özelliklerin turuna çevirmeden temel hareketi öğrenmek için yeterlidir.
+İlk oturumu kısa tutun: günde 3 ücretsiz dakika sunan Dünya Kalkanı’nı deneyin veya Radar’a dönüp iki ziyaretçiyi karşılaştırın. Etkin Plus, sınırsız Dünya Kalkanı içerir.
 
 Şu karşılaştırmayı deneyebilirsiniz:
 
@@ -77,10 +76,10 @@ Rockimals, NASA/JPL'nin Dünya'ya yakın gökcismi verilerini kullanır; bağım
 
 ## Ekranınız farklı görünüyorsa
 
-Bu rehber, 19 Eylül 2026'da yayımlanan Rockimals **1.3.0** sürümüne göre kontrol edildi. Gökyüzü verileri güncellendikçe ziyaretçi listesi değişebilir; sonraki uygulama sürümlerinde etiketler veya gezinme düzeni de yenilenebilir. Bir adım uyuşmuyorsa yüklü sürümünüzdeki ekran adlarını izleyin ve App Store'daki güncel sürümü kontrol edin.
+17 Ekim 2026’da herkese açık iOS 1.5.0 mağaza kaydı ve sürüm kaynaklarıyla karşılaştırıldı. Android sürümü farklı olabilir; mağaza kaydını kontrol edin. Kurulu uygulamanızdaki ekran adlarını izleyin.
 
 ## Kaynaklar
 
-- [Birleşik Krallık App Store'da Rockimals](https://apps.apple.com/gb/app/rockimals/id6792505608) — ürün akışı, sürüm, ücretsiz/Plus erişimi ve çevrimdışı kullanım açıklaması; 22 Eylül 2026'da incelendi.
+- [Birleşik Krallık App Store'da Rockimals](https://apps.apple.com/gb/app/rockimals/id6792505608) — Ürün ve sürüm 17 Ekim 2026’da kontrol edildi.
 - [NASA/JPL Dünya'ya Yakın Gökcisimleri Çalışmaları Merkezi: yakın geçişler](https://cneos.jpl.nasa.gov/ca/) — gökcismi kodları ve yakın geçiş ölçümleri; 22 Eylül 2026'da incelendi.
-- [Rockimals gizlilik politikası](https://rockimals.duniaops.com/privacy-policy) — hesap, reklam ve teknik veri sınırları; yürürlük 19 Eylül 2026.
+- [Rockimals gizlilik politikası](https://rockimals.duniaops.com/privacy-policy) — Ürün ve sürüm 17 Ekim 2026’da kontrol edildi.

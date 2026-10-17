@@ -1,5 +1,7 @@
 # Rockimals blog: 01, 15 ve 28 için ortak editoryal brief
 
+**17 Ekim 2026 güncellemesi:** Etkin ürün kaynağı `product-reference.json` içindeki iOS 1.5.0 kaydıdır. Ücretsiz okuma: toplam 10 bölüm, günde en fazla 3 yeni bölüm; her planda hayvan başına günde en fazla 1 yeni bölüm. Dünya Kalkanı günde 3 dakika; sesli anlatım EN/TR. 1.3.0/1.4.0 ve eski günlük haklara ilişkin aşağıdaki inceleme notları tarihsel kayıttır. Güncel görsel kökenleri `asset-manifest.json` ve `../../rockimals-landing/screenshots.json` içindedir.
+
 Bu belge 027–032 arasındaki içerik işlerinin ortak başlangıç noktasıdır. Ürün ve terim ayrıntılarında [`product-reference.json`](./product-reference.json), görsel seçiminde [`asset-manifest.json`](./asset-manifest.json) esas alınır. Konu 28'in güncel kaynak ve sürüm kararı [konuya özel brief'tedir](./rockimals-parent-controls-brief.md); konu 01/15'in 1.3.0 kaynak notları tarihsel yayın kayıtlarıdır.
 
 ## Kanıt sırası ve yayın kuralları

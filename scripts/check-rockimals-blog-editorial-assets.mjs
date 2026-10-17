@@ -58,10 +58,15 @@ async function verifyImage(record, expectedWidth, expectedHeight) {
 const product = await readJson('product-reference.json');
 const assets = await readJson('asset-manifest.json');
 
-assert(product.snapshotDate === '2026-09-22', 'Product reference must keep its dated evidence snapshot.');
-assert(product.liveStore.version === '1.3.0', 'Live editorial claims must remain pinned to App Store 1.3.0.');
-assert(product.repositorySnapshot.status === 'development-not-live', 'Repository behavior must be labelled development-only.');
-assert(product.androidStore.verifiedOn === '2026-10-07', 'Android store evidence needs its verification date.');
+assert(/^\d{4}-\d{2}-\d{2}$/.test(product.snapshotDate), 'Product reference needs a dated evidence snapshot.');
+assert(product.liveStore.verifiedOn === product.snapshotDate, 'Public iOS evidence must match the review date.');
+assert(/^\d+\.\d+\.\d+$/.test(product.liveStore.version), 'Public iOS evidence needs a release version.');
+assert(product.repositorySnapshot.appVersion.startsWith(`${product.liveStore.version}+`), 'Repository evidence must identify the reviewed release build.');
+assert(product.androidStore.verifiedOn === product.snapshotDate, 'Android store evidence needs its own current verification date.');
+assert(product.androidStore.versionStatus, 'Android rollout status must be explicit.');
+assert(product.access.freeReadingChaptersTotal === 10, 'The release includes ten free reading chapters total.');
+assert(product.access.freeNarrationPerFreshInstallation === 1, 'Free narration is separate from reading access.');
+assert(JSON.stringify(product.stories.narrationLanguages) === JSON.stringify(['en', 'tr']), 'Narration must not be advertised in all eight interface languages.');
 assert(product.androidStore.packageId === 'com.duniaops.rockimals', 'Android store package id must match the public listing.');
 assert(product.androidStore.listingUrl === 'https://play.google.com/store/apps/details?id=com.duniaops.rockimals', 'Android store URL must match the verified public listing.');
 assert(!product.platformStatus.android.includes('not verified'), 'Android platform status still claims the listing is unverified.');
@@ -93,16 +98,25 @@ for (const cover of assets.covers) {
   await verifyImage(cover, 1200, 630);
 }
 
-assert(assets.localizedScreens.length === 2, 'Expected the Radar and meet-card localized screenshot sets.');
+assert(assets.snapshotDate === product.snapshotDate, 'Asset and product evidence must share the review date.');
+assert(assets.localizedScreens.length === 3, 'Expected current Radar, reader and Meet screenshot sets.');
 for (const screenSet of assets.localizedScreens) {
-  assert(screenSet.sourceVersion === '1.3.0', `${screenSet.scene}: screenshot set must remain tied to live 1.3.0.`);
+  assert(screenSet.sourceVersion === product.liveStore.version, `${screenSet.name}: screenshot release differs from the verified iOS release.`);
+  assert(/^[0-9a-f]{40}$/.test(screenSet.sourceCommit), 'Screenshot workflow commit is missing.');
   assert(
     JSON.stringify(Object.keys(screenSet.outputs)) === JSON.stringify(expectedLocales),
     `${screenSet.scene}: screenshot locale coverage does not match the content contract.`
   );
-  for (const output of Object.values(screenSet.outputs)) {
+  for (const [locale, output] of Object.entries(screenSet.outputs)) {
+    assert(output.path.includes(`/${locale}/`), 'Screenshot output must match its page language.');
+    assert(output.sourcePath && /^[0-9a-f]{64}$/.test(output.sourceSha256), 'Raw screenshot provenance is missing.');
     await verifyImage(output, screenSet.width, screenSet.height);
   }
+}
+assert(JSON.stringify(assets.audioScreens.map(({ locale }) => locale)) === JSON.stringify(['en', 'tr']), 'Expected English and Turkish audio examples.');
+for (const screen of assets.audioScreens) {
+  assert(screen.sourcePath && /^[0-9a-f]{64}$/.test(screen.sourceSha256), 'Audio screenshot provenance is missing.');
+  await verifyImage(screen, screen.width, screen.height);
 }
 
 assert(
@@ -114,4 +128,4 @@ assert(
   'Topic 28 must retain the missing current parent-screen evidence issue.'
 );
 
-console.log('Rockimals editorial assets: PASS (4 covers, 16 localized screens, 8 locales, 8 heroes).');
+console.log('Rockimals editorial assets: PASS (4 covers, 24 localized screens, 2 audio screens, 8 locales, 8 heroes).');

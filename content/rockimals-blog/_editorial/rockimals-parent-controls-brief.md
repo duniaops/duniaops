@@ -1,5 +1,7 @@
 # Konu 28 brief — Rockimals'ta reklam, hesap ve ebeveyn kontrolü
 
+**17 Ekim 2026 güncellemesi:** Etkin ürün kaynağı `product-reference.json` içindeki iOS 1.5.0 kaydıdır. Ücretsiz okuma: toplam 10 bölüm, günde en fazla 3 yeni bölüm; her planda hayvan başına günde en fazla 1 yeni bölüm. Dünya Kalkanı günde 3 dakika; sesli anlatım EN/TR. 1.3.0/1.4.0 ve eski günlük haklara ilişkin aşağıdaki inceleme notları tarihsel kayıttır. Güncel görsel kökenleri `asset-manifest.json` ve `../../rockimals-landing/screenshots.json` içindedir.
+
 - **Durum:** Sekiz dilde editoryal taslak; hepsi draft. Bu kayıt yayın onayı değildir.
 - **İnceleme tarihi:** 2026-10-05
 - **Konu / sıra:** 28; haftalık plandaki en eski yayımlanmamış konu.

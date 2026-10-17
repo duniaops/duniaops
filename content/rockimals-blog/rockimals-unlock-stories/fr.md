@@ -3,10 +3,10 @@ translationKey: "rockimals-unlock-stories"
 locale: "fr"
 slug: "debloquer-histoires-rockimals"
 title: "Comment débloquer les histoires de Rockimals ? Chapitres et progression"
-description: "Rencontrez un héros sur le Radar, ouvrez un chapitre et retrouvez-le dans la Bibliothèque d’histoires. Comprenez aussi la limite quotidienne gratuite."
+description: "Ouvrez des chapitres sur le Radar, retrouvez-les dans la bibliothèque et découvrez les 10 chapitres gratuits, la progression quotidienne et la narration."
 category: "stories-activities"
 published: "2026-10-09T13:45:42Z"
-updated: "2026-10-09T13:45:42Z"
+updated: "2026-10-17T19:19:52Z"
 draft: false
 image: "/assets/rockimals-blog/rockimals-unlock-stories/cover.jpg"
 imageAlt: "Livre ouvert illustré entre Niko la souris et Tavi le lapin ; il ne s’agit pas d’une capture d’écran"
@@ -18,10 +18,10 @@ cta:
   id: "app-store"
   label: "Découvrir Rockimals dans votre boutique d’applications"
 productGuide: true
-reviewedAppVersion: "1.4.0"
+reviewedAppVersion: "1.5.0"
 ---
 
-Pour débloquer une histoire dans Rockimals, ouvrez le **Radar**, touchez un ami animal en visite et accédez au chapitre proposé. Les chapitres ouverts restent dans la **Bibliothèque d’histoires** : vous pouvez les relire. L’accès gratuit permet d’ouvrir **un nouveau chapitre par jour**. Cette limite ne supprime pas ceux que vous avez déjà découverts.
+Pour débloquer une histoire dans Rockimals, ouvrez le **Radar**, touchez un ami animal en visite et accédez au chapitre proposé. Choisissez 10 chapitres gratuits au total, avec au maximum 3 nouveaux chapitres par jour. Ces chapitres gratuits restent disponibles pour être relus. Tous les accès, y compris Plus, permettent de découvrir au plus un nouveau chapitre par animal et par jour : terminez le chapitre actuel, puis retrouvez cet ami sur le Radar un autre jour.
 
 ## 1. Rencontrer un héros sur le Radar
 
@@ -33,7 +33,7 @@ Rockimals propose huit héros, chacun avec une aventure fixe en cinq chapitres. 
 
 Pour ouvrir le chapitre suivant du **même héros**, terminez celui qui est disponible, puis retrouvez cet ami sur le Radar un autre jour, lorsqu’il revient. Le toucher plusieurs fois aujourd’hui rouvre le même chapitre : cela ne fait pas avancer l’histoire. Aucun héros précis n’est assuré de revenir chaque jour.
 
-Si un chapitre ultérieur demande un téléchargement, connectez-vous à Internet et suivez les indications à l’écran. Selon la fiche App Store de la version 1.4.0, le premier chapitre de chaque héros est inclus ; les suivants se téléchargent au besoin et restent ensuite lisibles hors connexion. Les données récentes du ciel nécessitent toutefois une connexion : les visiteurs d’exemple hors ligne ne sont pas la liste du jour.
+Le premier chapitre de chaque héros et les chapitres téléchargés peuvent être lus hors ligne si vous y avez accès. Les nouveaux téléchargements, le ciel en direct et les achats nécessitent une connexion. Les visiteurs d’exemple hors ligne ne représentent pas le ciel du jour.
 
 ## 3. Relire dans la Bibliothèque d’histoires
 
@@ -43,11 +43,13 @@ En famille, lisez un chapitre, imaginez la suite puis retrouvez-le dans la bibli
 
 ## Accès gratuit et Rockimals Plus
 
-L’accès gratuit comprend une nouvelle histoire par jour. L’option **Rockimals Plus** donne accès à toutes les nouvelles histoires des héros ce jour-là ; elle ne saute pas les étapes des cinq chapitres. Avant de vous abonner, vérifiez le prix et les conditions actuels dans la boutique de votre appareil.
+Pendant sa période de validité, Rockimals Plus comprend la bibliothèque publiée et les narrations disponibles en anglais et en turc, Bouclier terrestre sans limite de temps, les 12 missions de découverte, quatre jeux supplémentaires et les décorations du carnet. La progression quotidienne reste applicable.
 
-Ce guide a été comparé le 9 octobre 2026 à la fiche publique iOS **1.4.0** et aux consignes d’histoire intégrées à la version 1.4.0. Si l’écran diffère, suivez les libellés de votre version installée.
+Écoutez les aventures en anglais ou en turc. Chaque nouvelle installation permet de choisir un chapitre audio gratuit, indépendamment des 10 chapitres gratuits à lire. Téléchargez la narration avec une connexion, puis écoutez les fichiers téléchargés hors ligne lorsque vos droits le permettent.
+
+Vérifié le 17 octobre 2026 avec la fiche publique iOS 1.5.0 et les sources de cette version. La version Android peut différer : consultez sa fiche et les libellés de l’application installée.
 
 ## Sources
 
-- [Rockimals sur l’App Store britannique](https://apps.apple.com/gb/app/rockimals-kids-space-stories/id6792505608) — chapitres, bibliothèque, accès quotidien et lecture hors ligne ; consulté le 9 octobre 2026.
-- Tutoriel Radar et textes français de la Bibliothèque d’histoires issus de la préparation de la version 1.4.0 — fin d’un chapitre et retour un autre jour ; consultés le 9 octobre 2026.
+- [Rockimals sur l’App Store britannique](https://apps.apple.com/gb/app/rockimals-kids-space-stories/id6792505608) — Produit et version vérifiés le 17 octobre 2026.
+- [Assistance](https://rockimals.duniaops.com/support?lang=fr)

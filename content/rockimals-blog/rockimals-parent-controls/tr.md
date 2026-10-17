@@ -6,7 +6,7 @@ title: "Rockimals'ta Reklam, Hesap ve Ebeveyn Kontrolü"
 description: "Rockimals'ta reklam veya çocuk hesabı var mı? Ebeveyn kapısı, isteğe bağlı Plus ve işlenen teknik veriler hakkında indirmeden önce bilgi edinin."
 category: "family-guide"
 published: "2026-10-05T13:58:49Z"
-updated: "2026-10-05T13:58:49Z"
+updated: "2026-10-17T19:19:52Z"
 draft: false
 image: "/assets/rockimals-blog/rockimals-parent-controls/cover.jpg"
 imageAlt: "Çizim kalkan ve kilidin yanında tilki Barney ile ayı Pofi; gerçek uygulama ayar ekranı değil"
@@ -18,14 +18,18 @@ cta:
   id: "app-store"
   label: "Rockimals'ı ve güncel Plus koşullarını App Store'da inceleyin"
 productGuide: true
-reviewedAppVersion: "1.4.0"
+reviewedAppVersion: "1.5.0"
 ---
 
 Rockimals'ta **reklam ve çocuk hesabı yok**. Çocuğunuz bir profil oluşturmadan uzay ziyaretçilerini keşfedebilir. Satın alma, dış bağlantı, hayvan kartpostalı ve hikâye hatırlatıcısı gibi adımlar ebeveyn kapısının arkasındadır. Bu kapı uygulamanın içindeki belirli işlemleri ayırır; cihazın tamamını yöneten bir ebeveyn denetimi değildir. Uygulamayı indirmek ücretsizdir, Rockimals Plus ise isteğe bağlıdır.
 
 ## Hesap olmadan neler yapılabilir?
 
-Radar ve ziyaretçi bilgi kartları ücretsiz deneyimin parçasıdır. Güncel mağaza kaydı ayrıca günde bir yeni hikâye, Dünya Kalkanı'nda günlük bir dakika ve her tema için dönüşümlü bir keşif görevi açıklar. Sohbet veya herkese açık çocuk profili bulunmaz. Ancak “hesap yok” demek bütün özelliklerin ücretsiz olduğu ya da hiçbir teknik verinin işlenmediği anlamına gelmez.
+Radar, hayvan bilgileri ve takip ücretsizdir; her gün 3 dakika Dünya Kalkanı ve her temadan bir keşif görevi de buna dahildir. Toplam 10 ücretsiz hikâye bölümü seçebilirsiniz; günde en fazla 3 yeni bölüm açılır. Bu ücretsiz bölümler tekrar okumak için sizde kalır. Plus dahil bütün planlarda her hayvan için günde en fazla bir yeni bölüm keşfedilir: mevcut bölümü bitirin, ardından o dostla sonraki bir gün Radar’da yeniden tanışın.
+
+Rockimals Plus, etkin olduğu sürece yayımlanmış hikâye kütüphanesini ve hazır Türkçe/İngilizce sesli anlatımları, sınırsız Dünya Kalkanı’nı, 12 keşif görevinin tamamını, dört ek oyunu ve günlük süslemelerini içerir. Günlük bölüm ilerleme kuralı yine geçerlidir.
+
+Maceraları Türkçe veya İngilizce dinleyin. Her yeni kurulum bir sesli bölümü ücretsiz seçebilir; bu hak, 10 ücretsiz okuma bölümünden ayrıdır. Sesli anlatımı bağlantı varken indirin; indirilmiş sesi erişim hakkınız uygunsa çevrimdışı dinleyin.
 
 İlk denemede Plus kararı vermeden önce Radar'da bir ziyaretçi seçip bilgi kartını birlikte okuyabilirsiniz. Ölçümler gerçek uzay verilerine dayanır; hayvan ve hikâye kurgudur. İlk adımlar için [başlangıç rehberimize](/tr/blog/rockimals-nasil-oynanir) bakın.
 
@@ -39,14 +43,14 @@ Rockimals Plus, yetişkinlere sunulan isteğe bağlı ve otomatik yenilenen bir 
 
 Hayır. [Gizlilik politikası](https://rockimals.duniaops.com/privacy-policy?lang=tr), hizmeti sunmak ve korumak için takma adlı kurulum kimliği, cihaz bütünlüğü kanıtı, platform, seçilen dil ve saat dilimi gibi bilgileri açıklar. Altyapı sağlayıcısı ağ bilgisini aktarım sırasında işleyebilir. App Store gizlilik etiketinde de kimlikle ilişkilendirilmediği beyan edilen satın alma, tanımlayıcı ve diğer veri kategorileri vardır; bu etiket geliştirici beyanıdır, Apple'ın bağımsız denetimi değildir.
 
-iOS **1.4.0** sürümünde Plus erişimi cihazda Apple StoreKit ile kontrol edilir; açılan hikâye hatırlatıcıları cihazda yerel bildirim olarak planlanır. Eski iOS sürümleri ve Android için politika farklı veri akışları anlatır. Bir ebeveyn, ilgili kurulum verilerinin silinmesini politikadaki iletişim yoluyla isteyebilir; ilk mesajda çocuğun kişisel bilgilerini göndermemelidir.
+iOS 1.5.0’da StoreKit satın almaları cihazda kontrol eder. Korumalı hikâye ve sesli anlatım indirme akışı, Apple üzerinden ayrıca doğrulanması için satın alma kanıtını hizmetimize de gönderir. Hizmet kurulum kimliklerini, istenen bölüm/dili ve ücretsiz bölüm veya ses seçimlerini işler. iOS hatırlatmaları cihazda kalır. Platform farkları, saklama ve silme için gizlilik politikasına bakın.
 
 ## İndirmeden önce kısa kontrol
 
-Güncel fiyat ve uyumluluk için App Store kaydına, veri ayrıntıları için gizlilik politikasına bakın. Kurduktan sonra ücretsiz Radar'ı deneyip hatırlatıcı veya Plus'ın ailenize gerekli olup olmadığına karar verin. Bu rehber, kamuya açık iOS **1.4.0** kaydı ve 25 Eylül 2026 yürürlük tarihli politikayla 5 Ekim'de karşılaştırıldı; sonraki sürümler değişebilir.
+17 Ekim 2026’da herkese açık iOS 1.5.0 mağaza kaydı ve sürüm kaynaklarıyla karşılaştırıldı. Android sürümü farklı olabilir; mağaza kaydını kontrol edin. Kurulu uygulamanızdaki ekran adlarını izleyin.
 
 ## Kaynaklar
 
-- [Birleşik Krallık App Store'da Rockimals](https://apps.apple.com/gb/app/rockimals-kids-space-stories/id6792505608) — sürüm, ücretsiz/Plus erişimi ve ebeveyn kapısı; 5 Ekim 2026'da incelendi.
-- [Rockimals gizlilik politikası](https://rockimals.duniaops.com/privacy-policy?lang=tr) — veri kategorileri ve iOS 1.4.0 işleyişi; 5 Ekim 2026'da incelendi.
-- [Rockimals destek](https://rockimals.duniaops.com/support?lang=tr) — geri yükleme, iptal, hatırlatıcı ve gizlilik talepleri; 5 Ekim 2026'da incelendi.
+- [Birleşik Krallık App Store'da Rockimals](https://apps.apple.com/gb/app/rockimals-kids-space-stories/id6792505608) — Ürün ve sürüm 17 Ekim 2026’da kontrol edildi.
+- [Rockimals gizlilik politikası](https://rockimals.duniaops.com/privacy-policy?lang=tr) — Ürün ve sürüm 17 Ekim 2026’da kontrol edildi.
+- [Rockimals destek](https://rockimals.duniaops.com/support?lang=tr) — Ürün ve sürüm 17 Ekim 2026’da kontrol edildi.

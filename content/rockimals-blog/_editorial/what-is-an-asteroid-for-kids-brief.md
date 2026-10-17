@@ -1,5 +1,7 @@
 # Konu 15 brief — Asteroit nedir? Çocuklar için başlangıç rehberi
 
+**17 Ekim 2026 güncellemesi:** Etkin ürün kaynağı `product-reference.json` içindeki iOS 1.5.0 kaydıdır. Ücretsiz okuma: toplam 10 bölüm, günde en fazla 3 yeni bölüm; her planda hayvan başına günde en fazla 1 yeni bölüm. Dünya Kalkanı günde 3 dakika; sesli anlatım EN/TR. 1.3.0/1.4.0 ve eski günlük haklara ilişkin aşağıdaki inceleme notları tarihsel kayıttır. Güncel görsel kökenleri `asset-manifest.json` ve `../../rockimals-landing/screenshots.json` içindedir.
+
 - **Durum:** Sekiz dilde kaynak taslağı tamam; tümü `draft: true`. 28 Eylül koşullu haftalık yayın kapısına aday, bugün canlı yayın kararı/işlemi yok.
 - **İnceleme tarihi:** 2026-09-25 (EN/TR ilk inceleme: 2026-09-22)
 - **Konu / sıra:** 15; ilk 13 haftalık planda hafta 2.

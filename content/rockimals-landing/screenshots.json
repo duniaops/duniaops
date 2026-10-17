@@ -1,0 +1,227 @@
+{
+  "version": "1.5.0",
+  "build": 79,
+  "sourceCommit": "a708525ef198d395aca2947754b0ede128ec03e2",
+  "capturedOn": "2026-10-16",
+  "exportedOn": "2026-10-17",
+  "method": "sips JPEG quality 80; 828x1800; no content retouching",
+  "localizedScreens": [
+    {
+      "name": "01-radar-home",
+      "sourceVersion": "1.5.0",
+      "sourceCommit": "726656937aec56d6fe16e5d1da9dc04592e8a8f9",
+      "width": 828,
+      "height": 1800,
+      "outputs": {
+        "en": {
+          "path": "assets/products/rockimals-preview/en/01-radar-home.jpg",
+          "sha256": "2d3be26d2d826f5603a542a0a6042078b69a1c53817012722e5c14905582e2ea",
+          "bytes": 314496,
+          "sourcePath": "artifacts/store-captures/1.5.0/en/iphone-6.9/radar.png",
+          "sourceSha256": "cb34fcf85d01d7446eb4afabc8f10ef72f34cb965f8731b311fd0dafd8ad67f1"
+        },
+        "tr": {
+          "path": "assets/products/rockimals-preview/tr/01-radar-home.jpg",
+          "sha256": "9d7b6399984cf825e056c7662410fad4e7d8c4f2f2bcb1a33f5fccac135fa2bb",
+          "bytes": 323893,
+          "sourcePath": "artifacts/store-captures/1.5.0/tr/iphone-6.9/radar.png",
+          "sourceSha256": "bf0d3c148488af684356e84099add8e930eaff3097d9c4b9cf3c2c49aa908555"
+        },
+        "ja": {
+          "path": "assets/products/rockimals-preview/ja/01-radar-home.jpg",
+          "sha256": "9f54ecf5e585c7b830af8b05f4a878e1a4f172a784542a01172ab6677246335e",
+          "bytes": 326669,
+          "sourcePath": "artifacts/store-captures/1.5.0/ja/iphone-6.9/radar.png",
+          "sourceSha256": "8fd84aa9e6b7075aad7b7e2495589b0cfa57680450c33b6eb0ad227e260e9d29"
+        },
+        "ko": {
+          "path": "assets/products/rockimals-preview/ko/01-radar-home.jpg",
+          "sha256": "b8a2ea59f22fb9c6de55b8c6f0b86c719fca8d170f45ac4186a503fbe63244db",
+          "bytes": 314230,
+          "sourcePath": "artifacts/store-captures/1.5.0/ko/iphone-6.9/radar.png",
+          "sourceSha256": "b89a14828807a234ffea8c743cf200dacd774ab71db48ccbae0613ffc689dc48"
+        },
+        "zh-Hans": {
+          "path": "assets/products/rockimals-preview/zh-Hans/01-radar-home.jpg",
+          "sha256": "4973bfc9cc92761f0de2c10d25d2981aa6c102ec028f147a92ec74d1ea31e6b5",
+          "bytes": 313761,
+          "sourcePath": "artifacts/store-captures/1.5.0/zh/iphone-6.9/radar.png",
+          "sourceSha256": "3d2407c054ce0c2bb3d8eaa3a580da09ea23f998b5895868fd0b2979ac8b69c0"
+        },
+        "fr": {
+          "path": "assets/products/rockimals-preview/fr/01-radar-home.jpg",
+          "sha256": "22cb3fc9e4cb999031651eacf1e0758c0a8bed81cb9eea0d56aff1de1301d63d",
+          "bytes": 315826,
+          "sourcePath": "artifacts/store-captures/1.5.0/fr/iphone-6.9/radar.png",
+          "sourceSha256": "6ad919bc9c346e532eb8218aaffc6b3abde73c7b99ae7819bc01089653a52021"
+        },
+        "de": {
+          "path": "assets/products/rockimals-preview/de/01-radar-home.jpg",
+          "sha256": "5758d6e9bef13bd098508eaef22ef934547130f2c6fa309a056dcda3cd8c0396",
+          "bytes": 315966,
+          "sourcePath": "artifacts/store-captures/1.5.0/de/iphone-6.9/radar.png",
+          "sourceSha256": "8ba60e5417614e7a2085f5e43250d999a965b9688708dcd6fc05048cbc454b7b"
+        },
+        "es": {
+          "path": "assets/products/rockimals-preview/es/01-radar-home.jpg",
+          "sha256": "5acd25b95c093066e034623018d39d6565644242ad440a1eae1832bda51f52b6",
+          "bytes": 318294,
+          "sourcePath": "artifacts/store-captures/1.5.0/es/iphone-6.9/radar.png",
+          "sourceSha256": "d3ed80d5883b64847f1e863ae2f2b52c7432cdc0ee59a9291d86db4f76e50f87"
+        }
+      }
+    },
+    {
+      "name": "02-hero-chapter-reader",
+      "sourceVersion": "1.5.0",
+      "sourceCommit": "726656937aec56d6fe16e5d1da9dc04592e8a8f9",
+      "width": 828,
+      "height": 1800,
+      "outputs": {
+        "en": {
+          "path": "assets/products/rockimals-preview/en/02-hero-chapter-reader.jpg",
+          "sha256": "bb9765111b5ed9d209eacc0098437e05aaab5ad16cb808f69445d3dc0235f329",
+          "bytes": 315576,
+          "sourcePath": "artifacts/store-captures/1.5.0/en/iphone-6.9/reader.png",
+          "sourceSha256": "41b221a2334bd37a1e434ca6972e81bf9a682962aeee593eb7af305d2ef4a1d5"
+        },
+        "tr": {
+          "path": "assets/products/rockimals-preview/tr/02-hero-chapter-reader.jpg",
+          "sha256": "cdbca93fb864f522d527f4841ef31b9a0bbbfb05a15b862118855a262ed813ac",
+          "bytes": 408707,
+          "sourcePath": "artifacts/store-captures/1.5.0/tr/iphone-6.9/reader.png",
+          "sourceSha256": "54e02a29714d904d3ec61cbca9ef33430bc6bda04df8a10343c42619d0724d95"
+        },
+        "ja": {
+          "path": "assets/products/rockimals-preview/ja/02-hero-chapter-reader.jpg",
+          "sha256": "628b745c3f7c1c9fe67238a85f7265428376ed081bcba5f48503f5a00c09d1a1",
+          "bytes": 325940,
+          "sourcePath": "artifacts/store-captures/1.5.0/ja/iphone-6.9/reader.png",
+          "sourceSha256": "4e6ad6be1b4e23c3c43f63b1641f1e96efb26764d6945a2d6b28b18e8f19eeec"
+        },
+        "ko": {
+          "path": "assets/products/rockimals-preview/ko/02-hero-chapter-reader.jpg",
+          "sha256": "cf129096278cb528aff05c80395b8d10adf80afa749b23c3a1b38ed383a23676",
+          "bytes": 312126,
+          "sourcePath": "artifacts/store-captures/1.5.0/ko/iphone-6.9/reader.png",
+          "sourceSha256": "81b383a694dd861eaf1830c8dddf8eea0889f310a859e24bcfef88af36d2dbc6"
+        },
+        "zh-Hans": {
+          "path": "assets/products/rockimals-preview/zh-Hans/02-hero-chapter-reader.jpg",
+          "sha256": "9456164d815d5da55a4e5cb27b4a7c3f9c1f5b5dfea677b14c49341e363c2ce9",
+          "bytes": 302018,
+          "sourcePath": "artifacts/store-captures/1.5.0/zh/iphone-6.9/reader.png",
+          "sourceSha256": "6c8af01ad8417e81ac78617d21d47e07022dbd4a1559670a40891dd097fa288e"
+        },
+        "fr": {
+          "path": "assets/products/rockimals-preview/fr/02-hero-chapter-reader.jpg",
+          "sha256": "efd5c219ec6cd3f68b856213910e71cc8c5e976e21adb971b5a9d8790c801590",
+          "bytes": 316808,
+          "sourcePath": "artifacts/store-captures/1.5.0/fr/iphone-6.9/reader.png",
+          "sourceSha256": "6caeaa94e0e40848f304df6912e8c28de313a1c34727f731625ccbd028992b55"
+        },
+        "de": {
+          "path": "assets/products/rockimals-preview/de/02-hero-chapter-reader.jpg",
+          "sha256": "a772522a8e7bf35d3b310b6bd8006012980c7a58a31f9580d93ce3ad7201632e",
+          "bytes": 414889,
+          "sourcePath": "artifacts/store-captures/1.5.0/de/iphone-6.9/reader.png",
+          "sourceSha256": "af01e1baa2e645df7a63a80db497c145c9b121439cd64b4357a8b10ce5b78af6"
+        },
+        "es": {
+          "path": "assets/products/rockimals-preview/es/02-hero-chapter-reader.jpg",
+          "sha256": "24d13930bda57e9b40c2ac2176b64f78bc2351ebb9404ef9037cb9e992e6042d",
+          "bytes": 310398,
+          "sourcePath": "artifacts/store-captures/1.5.0/es/iphone-6.9/reader.png",
+          "sourceSha256": "67a241e9e7462db716b2cbae9baf1f25815f0473ca2bca17499c545458bfca8d"
+        }
+      }
+    },
+    {
+      "name": "04-meet-card",
+      "sourceVersion": "1.5.0",
+      "sourceCommit": "726656937aec56d6fe16e5d1da9dc04592e8a8f9",
+      "width": 828,
+      "height": 1800,
+      "outputs": {
+        "en": {
+          "path": "assets/products/rockimals-preview/en/04-meet-card.jpg",
+          "sha256": "f602f3c83aaff3251dc18ac226ff791b3f72da4c31c9611552a713e0dc5f7478",
+          "bytes": 191960,
+          "sourcePath": "artifacts/store-captures/1.5.0/en/iphone-6.9/meet-elephant.png",
+          "sourceSha256": "e406cbbad8f74a24e6e18aea29710be474fe9bf5ad9c428e97f2abbcb010b23a"
+        },
+        "tr": {
+          "path": "assets/products/rockimals-preview/tr/04-meet-card.jpg",
+          "sha256": "5b4601b1c759b089b566b4f0f3b8061170c552dc3a053ee45440480842fadbef",
+          "bytes": 196625,
+          "sourcePath": "artifacts/store-captures/1.5.0/tr/iphone-6.9/meet-elephant.png",
+          "sourceSha256": "67ebea4d653527e3f9361ef76178cd0b7897fb9109d32c7429fdaef21c47b631"
+        },
+        "ja": {
+          "path": "assets/products/rockimals-preview/ja/04-meet-card.jpg",
+          "sha256": "a6cb911e6dbdd020aa6a5d64cec19282406664cd7a26805e06741254c05ec9ed",
+          "bytes": 209397,
+          "sourcePath": "artifacts/store-captures/1.5.0/ja/iphone-6.9/meet-elephant.png",
+          "sourceSha256": "f5cdaf6d44cb7ea1f94d05bd2aee16857a636f3fd872415412db7bbc3b646d32"
+        },
+        "ko": {
+          "path": "assets/products/rockimals-preview/ko/04-meet-card.jpg",
+          "sha256": "a3793ae2b3ccd8a06d9f761045b6b95a93889356cce6762242ba83c680d3a917",
+          "bytes": 187756,
+          "sourcePath": "artifacts/store-captures/1.5.0/ko/iphone-6.9/meet-elephant.png",
+          "sourceSha256": "a182012e767b15331532a7b6318e16792b9d895187dd39697cbe66ed8e54e8c5"
+        },
+        "zh-Hans": {
+          "path": "assets/products/rockimals-preview/zh-Hans/04-meet-card.jpg",
+          "sha256": "c17d7198ca7c06b605ddc0a3115ffd2906935608b7a1061653b0b7fc8c201ce7",
+          "bytes": 193008,
+          "sourcePath": "artifacts/store-captures/1.5.0/zh/iphone-6.9/meet-elephant.png",
+          "sourceSha256": "c1ad260b68a9f2096fd359f9174c3e6169177027c5a6bae23ff8f12a0a066a1d"
+        },
+        "fr": {
+          "path": "assets/products/rockimals-preview/fr/04-meet-card.jpg",
+          "sha256": "96535d08a95f45a48ed5685d8184b7f7f7fa45287d82eec04fb7abcebedcf306",
+          "bytes": 210393,
+          "sourcePath": "artifacts/store-captures/1.5.0/fr/iphone-6.9/meet-elephant.png",
+          "sourceSha256": "91dc9efcb36b36d4f4bbdbba950c06b7f696f33168050065d9f36e5ec247c461"
+        },
+        "de": {
+          "path": "assets/products/rockimals-preview/de/04-meet-card.jpg",
+          "sha256": "f55f5ca0e2af244b69a8dd59602cfd0a77a905b41eadc250581c7e2849ee1c60",
+          "bytes": 208774,
+          "sourcePath": "artifacts/store-captures/1.5.0/de/iphone-6.9/meet-elephant.png",
+          "sourceSha256": "14782ac25c431586d576eefb29044f6b75f24fcd5ccade74b13ee2263c8ad2b4"
+        },
+        "es": {
+          "path": "assets/products/rockimals-preview/es/04-meet-card.jpg",
+          "sha256": "ee8db25d384c48e474be508a433cbdc1e87ed49492064ab6ac70dfc07df1d404",
+          "bytes": 205387,
+          "sourcePath": "artifacts/store-captures/1.5.0/es/iphone-6.9/meet-elephant.png",
+          "sourceSha256": "bf46ff3cac11e36c38e5968da5931748638361c9568040bf8b57bf52080545cb"
+        }
+      }
+    }
+  ],
+  "audioScreens": [
+    {
+      "locale": "en",
+      "width": 828,
+      "height": 1800,
+      "path": "assets/products/rockimals-preview/en/07-audio-reader.jpg",
+      "sha256": "6e151c60f04edb85966a72172ee01c2e0d5c5416a91ed87e18df4e0ae881ffea",
+      "bytes": 316843,
+      "sourcePath": "artifacts/store-captures/1.5.0-seven/en/iphone-6.9/audio-reader.png",
+      "sourceSha256": "24ad4c10432a7f72c1c542276ac57441fdba3320479ad9ee933039bfe8e2609a"
+    },
+    {
+      "locale": "tr",
+      "width": 828,
+      "height": 1800,
+      "path": "assets/products/rockimals-preview/tr/07-audio-reader.jpg",
+      "sha256": "cccb7affda521f6ef06d59b0cd18927140ea266686d8bd15b46bd7e3820f5d85",
+      "bytes": 326859,
+      "sourcePath": "artifacts/store-captures/1.5.0-seven/tr/iphone-6.9/audio-reader.png",
+      "sourceSha256": "711f721b970b3ca08c95d3f47f4bb3b528d2bc3866dcf7af6411dcdc2042714f"
+    }
+  ]
+}

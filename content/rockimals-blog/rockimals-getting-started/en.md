@@ -6,7 +6,7 @@ title: "How to Play Rockimals: Meet Your First Space Visitor"
 description: "Open Radar, meet a real near-Earth visitor, read its facts and unlock a story in Rockimals with this simple first-session guide for families."
 category: "discover-game"
 published: "2026-09-22T19:39:00Z"
-updated: "2026-09-22T19:39:00Z"
+updated: "2026-10-17T19:19:52Z"
 draft: false
 image: "/assets/rockimals-blog/rockimals-getting-started/cover.jpg"
 imageAlt: "Niko and Enoli orbiting a simple Radar graphic in a Rockimals space scene"
@@ -18,7 +18,7 @@ cta:
   id: "app-store"
   label: "Download Rockimals free on the App Store"
 productGuide: true
-reviewedAppVersion: "1.3.0"
+reviewedAppVersion: "1.5.0"
 ---
 
 To play Rockimals, start on **Radar**, tap one of the visitors circling Earth, read its information card, then continue to its available story. That short path introduces the central idea of the app: real near-Earth object data becomes a friendly animal encounter, while the character and story remain imaginative fiction.
@@ -29,16 +29,11 @@ Radar is the home of Rockimals. When you open the app, visitors appear around Ea
 
 The rings help turn a very large space distance into something easier to compare: the visitor's approach can be shown in relation to the distance between Earth and the Moon. A closer pass in astronomical terms can still be a very long way from Earth, so the screen is for calm exploration rather than an impact warning.
 
-Rockimals can use current near-Earth object data when it is available. If the device is offline, the app can still offer bundled stories and sample sky data. Treat a sample sky as an example, not as a fresh list of today's approaches.
+Each hero’s first chapter and downloaded chapters can be read offline when you have access. New chapter and narration downloads, live sky data and purchases need a connection. Offline sample visitors are not today’s live sky.
 
 ## 2. Tap a visitor and read the card
 
-Choose a visitor on Radar to open its card. The card gives you a few useful ways to understand the object:
-
-- the animal friend used for this encounter;
-- a child-friendly size comparison;
-- how close it is expected to pass;
-- how fast it is moving relative to Earth.
+Meet an animal, compare its asteroid’s size with a familiar object and read a gentle space fact. Official asteroid details remain in the grown-up area behind the parent gate.
 
 A grown-up can use the parent-gated facts area to see the official designation and follow the source link. It is deliberately separate from the child-friendly summary.
 
@@ -50,13 +45,17 @@ Try asking one simple question before moving on: “Is this visitor smaller, lar
 
 When a new chapter is available, continue from the visitor into its picture-book story. Rockimals has eight recurring heroes, and each hero has a five-chapter adventure. A chapter you unlock stays in your **Story library**, so you can read it again without having to find the same screen immediately.
 
-The fixed story catalog and the daily access rule are different things. Free play includes one new story a day. **Rockimals Plus** is optional and makes every new hero story for that day available. This does not mean that a new story is generated each day; it is the schedule for opening chapters from the existing hero adventures.
+Choose 10 free story chapters in total, with up to 3 new chapters per day. These free chapters stay yours to replay. Every plan, including Plus, discovers at most one new chapter per animal per day: finish the current chapter, then meet that friend on Radar on a later day.
+
+While active, Rockimals Plus includes the published story library and available English/Turkish narration, unlimited Earth Shield, all 12 discovery missions, four more games and journal decorations. Daily chapter progression still applies.
+
+Hear the adventures in English or Turkish. Each fresh installation can choose one narrated chapter free; this is separate from the 10 free reading chapters. Download narration while connected, then listen to downloaded audio when your access allows it.
 
 If you meet the same hero again, check the Story library to see what you have already opened. That is the simplest way for a grown-up and child to pick up where they left off.
 
 ## 4. Choose one small next step
 
-After meeting a visitor, keep the first session short. Open **Earth Shield** and guide visitors safely past Earth, or return to Radar and compare two visitor cards. Free play includes a daily minute of Earth Shield, which is enough to learn the basic movement without turning the first session into a tour of every feature.
+Keep the first session short: try Earth Shield, which includes 3 free minutes per day, or return to Radar and compare two visitors. Unlimited Earth Shield is included with active Plus.
 
 A useful comparison is:
 
@@ -77,10 +76,10 @@ Rockimals uses NASA/JPL near-Earth object data, but it is an independent app and
 
 ## If your screen looks different
 
-This guide was checked against Rockimals **1.3.0**, released on 19 September 2026. The set of current visitors can change as the sky data changes, and later app versions may adjust labels or navigation. Use the screen labels in your installed version and check the App Store when a step no longer matches.
+Reviewed on 17 October 2026 against the public iOS 1.5.0 listing and release sources. Android may have a different version; check its store listing. Follow the labels in your installed app.
 
 ## Sources
 
-- [Rockimals on the UK App Store](https://apps.apple.com/gb/app/rockimals/id6792505608) — product flow, version, free/Plus access and offline description; reviewed 22 September 2026.
+- [Rockimals on the UK App Store](https://apps.apple.com/gb/app/rockimals/id6792505608) — Product and version checked 17 October 2026.
 - [NASA/JPL Center for Near-Earth Object Studies: close approaches](https://cneos.jpl.nasa.gov/ca/) — object designations and close-approach measurements; reviewed 22 September 2026.
-- [Rockimals privacy policy](https://rockimals.duniaops.com/privacy-policy) — account, advertising and technical data boundaries; effective 19 September 2026.
+- [Rockimals privacy policy](https://rockimals.duniaops.com/privacy-policy) — Product and version checked 17 October 2026.

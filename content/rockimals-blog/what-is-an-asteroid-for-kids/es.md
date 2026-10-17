@@ -6,7 +6,7 @@ title: "¿Qué es un asteroide? Una explicación sencilla para niños"
 description: "Descubre qué es un asteroide, dónde viaja y cuánto puede medir. Aprende a distinguir su tamaño de la distancia a la Tierra sin confundir un paso cercano con un impacto."
 category: "learn-space"
 published: "2026-09-28T10:43:02Z"
-updated: "2026-09-28T10:43:02Z"
+updated: "2026-10-17T19:19:52Z"
 draft: false
 image: "/assets/rockimals-blog/what-is-an-asteroid-for-kids/cover.jpg"
 imageAlt: "Niko, el ratón, y Enoli, la ballena, sobre rocas espaciales ilustradas; la escena no está dibujada a escala"
@@ -47,7 +47,7 @@ Puedes preguntar a un niño por separado: «¿Qué tamaño tiene la roca?» y «
 
 Rockimals usa datos reales de objetos cercanos a la Tierra para mostrar la identidad oficial de un visitante y algunas medidas, como su tamaño, distancia de paso y velocidad. En el **Radar** de la aplicación, toca un visitante para leer su ficha. El animal, su nombre amistoso y su historia son ficción del juego. Niko, el ratón, no es el nombre oficial de un asteroide ni una foto de la NASA.
 
-No hace falta tener la aplicación para aprender sobre asteroides. Si queréis seguir explorando, comparad las etiquetas «tamaño» y «distancia» de una ficha: ¿cuál describe el objeto y cuál el espacio que lo separa de la Tierra? Este recorrido se comprobó en iOS **1.3.0**; las pantallas pueden cambiar en versiones posteriores.
+No necesitas la app para aprender sobre asteroides. Como siguiente actividad en Rockimals, compara la tarjeta ilustrada de tamaño con la distancia de paso en la información para adultos. El tamaño describe el objeto; la distancia, su separación de la Tierra. Este ejemplo se revisó para iOS 1.5.0 el 17 de octubre de 2026.
 
 Rockimals es una aplicación independiente. Utiliza datos espaciales de NASA/JPL, pero no está afiliada a la NASA ni cuenta con su respaldo.
 
@@ -56,4 +56,4 @@ Rockimals es una aplicación independiente. Utiliza datos espaciales de NASA/JPL
 - [NASA Space Place: ¿Qué es un asteroide?](https://spaceplace.nasa.gov/asteroid/sp/) — definición infantil y cinturón de asteroides; consultado el 25 de septiembre de 2026.
 - [NASA Science: Asteroid Facts](https://science.nasa.gov/solar-system/asteroids/facts/) — origen, formas, tamaños y órbitas; consultado el 25 de septiembre de 2026.
 - [NASA/JPL CNEOS: NEO Groups](https://cneos.jpl.nasa.gov/about/neo_groups.html) — significado de una órbita cercana a la Tierra; consultado el 25 de septiembre de 2026.
-- [Rockimals en la App Store del Reino Unido](https://apps.apple.com/gb/app/rockimals/id6792505608) — funciones y versión 1.3.0; consultado el 25 de septiembre de 2026.
+- [Rockimals en la App Store del Reino Unido](https://apps.apple.com/gb/app/rockimals/id6792505608) — Producto y versión revisados el 17 de octubre de 2026.

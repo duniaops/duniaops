@@ -6,7 +6,7 @@ title: "Qu'est-ce qu'un astéroïde ? Une explication pour les enfants"
 description: "Où voyagent les astéroïdes et quelle taille ont-ils ? Une explication simple pour distinguer leur taille de leur distance à la Terre, sans confondre passage proche et collision."
 category: "learn-space"
 published: "2026-09-28T10:43:02Z"
-updated: "2026-09-28T10:43:02Z"
+updated: "2026-10-17T19:19:52Z"
 draft: false
 image: "/assets/rockimals-blog/what-is-an-asteroid-for-kids/cover.jpg"
 imageAlt: "Niko la souris et Enoli la baleine sur des rochers spatiaux illustrés ; les tailles ne sont pas représentées à l’échelle"
@@ -47,7 +47,7 @@ Avec un enfant, posez deux questions séparées : « Quelle est la taille du roc
 
 Rockimals utilise de véritables données sur les objets proches de la Terre pour l’identité officielle d’un visiteur et certaines mesures, notamment sa taille, sa distance de passage et sa vitesse. Dans le **Radar** de l’application, touchez un visiteur pour lire sa fiche. L’animal, son prénom et son histoire sont fictifs. Niko la souris n’est ni le nom officiel d’un astéroïde ni une image de la NASA.
 
-Il n’est pas nécessaire d’avoir l’application pour découvrir les astéroïdes. Pour prolonger l’échange, comparez ensemble les indications « taille » et « distance » d’une fiche : laquelle décrit l’objet, laquelle décrit l’espace qui le sépare de la Terre ? Ce parcours a été vérifié sur iOS **1.3.0** ; les écrans pourront changer.
+L’application n’est pas nécessaire pour apprendre ce qu’est un astéroïde. Pour prolonger l’activité dans Rockimals, comparez la fiche illustrée de taille et la distance de passage dans les informations pour adultes. La taille décrit l’objet ; la distance décrit son écart avec la Terre. Cet exemple a été vérifié pour iOS 1.5.0 le 17 octobre 2026.
 
 Rockimals est une application indépendante. Elle utilise des données spatiales de la NASA/JPL, sans être affiliée à la NASA ni approuvée par elle.
 
@@ -56,4 +56,4 @@ Rockimals est une application indépendante. Elle utilise des données spatiales
 - [NASA Space Place : What Is an Asteroid?](https://spaceplace.nasa.gov/asteroid/en/) — définition et ceinture d’astéroïdes ; consulté le 25 septembre 2026.
 - [NASA Science : Asteroid Facts](https://science.nasa.gov/solar-system/asteroids/facts/) — origine, formes, tailles et orbites ; consulté le 25 septembre 2026.
 - [NASA/JPL CNEOS : NEO Groups](https://cneos.jpl.nasa.gov/about/neo_groups.html) — sens de « proche de la Terre » pour une orbite ; consulté le 25 septembre 2026.
-- [Rockimals sur l’App Store britannique](https://apps.apple.com/gb/app/rockimals/id6792505608) — fonctions et version 1.3.0 ; consulté le 25 septembre 2026.
+- [Rockimals sur l’App Store britannique](https://apps.apple.com/gb/app/rockimals/id6792505608) — Produit et version vérifiés le 17 octobre 2026.

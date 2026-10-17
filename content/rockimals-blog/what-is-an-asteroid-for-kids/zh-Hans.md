@@ -6,7 +6,7 @@ title: "小行星是什么？和孩子一起读懂这些太空岩石"
 description: "小行星在哪里运行、有多大？用简单的例子分清小行星大小与接近地球的距离，也了解“近地”不等于即将撞击。"
 category: "learn-space"
 published: "2026-09-28T10:43:02Z"
-updated: "2026-09-28T10:43:02Z"
+updated: "2026-10-17T19:19:52Z"
 draft: false
 image: "/assets/rockimals-blog/what-is-an-asteroid-for-kids/cover.jpg"
 imageAlt: "插画中的老鼠Niko和鲸鱼Enoli站在太空岩石上；画面并非真实比例示意图"
@@ -47,7 +47,7 @@ reviewedAppVersion: null
 
 Rockimals会用真实的近地天体数据展示访客的正式身份，以及大小、接近距离和速度等部分测量值。在应用的**雷达**页面点按访客，可以查看资料卡。动物形象、亲切的名字和故事则是游戏创作。老鼠Niko不是小行星的正式名称，也不是NASA照片。
 
-认识小行星不需要先下载应用。如果想继续探索，不妨一起看资料卡上的“大小”和“距离”：哪一个描述天体，哪一个描述它与地球之间的空间？这一操作流程依据iOS **1.3.0**版本核对，以后界面可能变化。
+学习小行星不需要先下载应用。若想继续探索，可比较Rockimals中动物的大小示意卡与成人信息里的接近距离。大小描述天体本身，距离描述它与地球的间隔。此应用示例于2026年10月17日按iOS 1.5.0核对。
 
 Rockimals是独立应用。它使用NASA/JPL的太空数据，但与NASA没有从属关系，也未获NASA背书。
 
@@ -56,4 +56,4 @@ Rockimals是独立应用。它使用NASA/JPL的太空数据，但与NASA没有�
 - [NASA Space Place：What Is an Asteroid?](https://spaceplace.nasa.gov/asteroid/en/) — 基本定义和小行星带；2026年9月25日核对。
 - [NASA Science：Asteroid Facts](https://science.nasa.gov/solar-system/asteroids/facts/) — 起源、形状、大小和轨道；2026年9月25日核对。
 - [NASA/JPL CNEOS：NEO Groups](https://cneos.jpl.nasa.gov/about/neo_groups.html) — “近地”轨道的含义；2026年9月25日核对。
-- [英国App Store上的Rockimals](https://apps.apple.com/gb/app/rockimals/id6792505608) — 应用功能及1.3.0版本；2026年9月25日核对。
+- [英国App Store上的Rockimals](https://apps.apple.com/gb/app/rockimals/id6792505608) — 产品与版本核对日期：2026年10月17日.

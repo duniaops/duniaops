@@ -3,10 +3,10 @@ translationKey: "rockimals-unlock-stories"
 locale: "de"
 slug: "rockimals-geschichten-freischalten"
 title: "Wie schaltet man Rockimals-Geschichten frei? Kapitel und Fortschritt"
-description: "Triff eine Tierfigur auf dem Radar, öffne ein Kapitel und lies es später in der Geschichtenbibliothek erneut. So funktioniert das tägliche Gratis-Kapitel."
+description: "Öffne Kapitel auf dem Radar und lies sie in der Bibliothek erneut. Erfahre mehr über 10 kostenlose Kapitel, den täglichen Fortschritt und Erzählungen."
 category: "stories-activities"
 published: "2026-10-09T13:45:42Z"
-updated: "2026-10-09T13:45:42Z"
+updated: "2026-10-17T19:19:52Z"
 draft: false
 image: "/assets/rockimals-blog/rockimals-unlock-stories/cover.jpg"
 imageAlt: "Gezeichnetes offenes Buch zwischen Maus Niko und Hase Tavi; kein echter App-Bildschirm"
@@ -18,10 +18,10 @@ cta:
   id: "app-store"
   label: "Rockimals im App-Store ansehen"
 productGuide: true
-reviewedAppVersion: "1.4.0"
+reviewedAppVersion: "1.5.0"
 ---
 
-Um eine Rockimals-Geschichte freizuschalten, öffne den **Radar**, tippe auf einen Tierfreund, der gerade zu Besuch ist, und gehe zu seinem verfügbaren Kapitel. Geöffnete Kapitel bleiben in der **Geschichtenbibliothek** und können erneut gelesen werden. Kostenlos lässt sich **ein neues Kapitel pro Tag** öffnen. Bereits freigeschaltete Geschichten gehen dadurch nicht verloren.
+Um eine Rockimals-Geschichte freizuschalten, öffne den **Radar**, tippe auf einen Tierfreund, der gerade zu Besuch ist, und gehe zu seinem verfügbaren Kapitel. Wähle insgesamt 10 kostenlose Kapitel, höchstens 3 neue pro Tag. Diese kostenlosen Kapitel bleiben zum Wiederlesen verfügbar. Für alle Zugänge, auch Plus, gilt höchstens ein neues Kapitel pro Tier und Tag: Lies das aktuelle Kapitel zu Ende und triff den Freund an einem späteren Tag erneut auf dem Radar.
 
 ## 1. Einen Freund auf dem Radar treffen
 
@@ -33,7 +33,7 @@ Rockimals hat acht Helden mit jeweils einer festen Geschichte aus fünf Kapiteln
 
 Für das nächste Kapitel **desselben Helden** lies das offene Kapitel bis zum Ende. Triff diesen Freund an einem anderen Tag erneut auf dem Radar, wenn er wieder erscheint. Mehrfaches Tippen am selben Tag öffnet dasselbe Kapitel und überspringt keines. Ein bestimmter Held ist nicht garantiert jeden Tag zu Besuch.
 
-Fordert ein späteres Kapitel einen Download an, verbinde das Gerät mit dem Internet und folge den Hinweisen. Laut App-Store-Beschreibung von Version 1.4.0 ist das erste Kapitel jedes Helden enthalten. Spätere Kapitel werden bei Bedarf geladen und bleiben danach offline lesbar. Für aktuelle Himmelsdaten ist weiterhin eine Verbindung nötig; Offline-Beispiele sind nicht die heutigen Live-Besucher.
+Das erste Kapitel jedes Helden und heruntergeladene Kapitel lassen sich bei bestehender Berechtigung offline lesen. Neue Kapitel- und Audiodownloads, aktuelle Himmelsdaten und Käufe benötigen eine Verbindung. Offline-Beispielbesucher zeigen nicht den heutigen Himmel.
 
 ## 3. In der Geschichtenbibliothek weiterlesen
 
@@ -43,11 +43,13 @@ Eine kleine Familienidee: Lest ein Kapitel, überlegt gemeinsam, was als Nächst
 
 ## Kostenloser Zugang und Rockimals Plus
 
-Kostenlos gibt es eine neue Geschichte pro Tag. Das optionale **Rockimals Plus** ermöglicht an diesem Tag den Zugang zu allen neuen Heldengeschichten; die feste Reihenfolge der fünf Kapitel bleibt bestehen. Aktuelle Preise und Bedingungen stehen vor dem Abschluss im App-Store des Geräts.
+Solange Rockimals Plus aktiv ist, umfasst es die veröffentlichte Geschichtenbibliothek und verfügbare englische/türkische Erzählungen, Erdschild ohne Zeitlimit, alle 12 Entdeckungsmissionen, vier weitere Spiele und Tagebuchdekorationen. Die tägliche Kapitelregel gilt weiterhin.
 
-Dieser Leitfaden wurde am 9. Oktober 2026 mit dem öffentlichen iOS-Eintrag für **1.4.0** und den Story-Hinweisen der Version 1.4.0 abgeglichen. Falls dein Bildschirm anders aussieht, beachte die Beschriftungen deiner installierten Version.
+Höre die Abenteuer auf Englisch oder Türkisch. Jede neue Installation darf ein kostenloses Hörkapitel wählen; das ist unabhängig von den 10 kostenlosen Lesekapiteln. Lade die Erzählung mit Internetverbindung herunter. Gespeicherte Audiodateien lassen sich bei bestehender Berechtigung offline anhören.
+
+Am 17. Oktober 2026 mit dem öffentlichen iOS-1.5.0-Storeeintrag und den Veröffentlichungsquellen geprüft. Die Android-Version kann abweichen. Beachte den Storeeintrag und die Bezeichnungen deiner installierten App.
 
 ## Quellen
 
-- [Rockimals im britischen App Store](https://apps.apple.com/gb/app/rockimals-kids-space-stories/id6792505608) — Kapitel, Bibliothek, täglicher Zugang und Offline-Nutzung; geprüft am 9. Oktober 2026.
-- Deutsches Radar-Tutorial und Texte der Geschichtenbibliothek aus der Vorbereitung von Version 1.4.0 — Kapitelabschluss und Wiedersehen an einem anderen Tag; geprüft am 9. Oktober 2026.
+- [Rockimals im britischen App Store](https://apps.apple.com/gb/app/rockimals-kids-space-stories/id6792505608) — Produkt und Version am 17. Oktober 2026 geprüft.
+- [Hilfe](https://rockimals.duniaops.com/support?lang=de)

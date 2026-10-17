@@ -6,7 +6,7 @@ title: "Was ist ein Asteroid? Einfach erklärt für Kinder"
 description: "Was sind Asteroiden, wo kreisen sie und wie groß können sie sein? So unterscheidet ihr Größe und Abstand zur Erde – ohne einen nahen Vorbeiflug mit einem Einschlag zu verwechseln."
 category: "learn-space"
 published: "2026-09-28T10:43:02Z"
-updated: "2026-09-28T10:43:02Z"
+updated: "2026-10-17T19:19:52Z"
 draft: false
 image: "/assets/rockimals-blog/what-is-an-asteroid-for-kids/cover.jpg"
 imageAlt: "Die Maus Niko und der Wal Enoli auf gezeichneten Weltraumfelsen; die Darstellung ist nicht maßstabsgetreu"
@@ -47,7 +47,7 @@ Frage ein Kind getrennt: „Wie groß ist der Felsen?“ und „Wie weit von der
 
 Rockimals nutzt echte Daten zu erdnahen Objekten für die offizielle Kennung eines Besuchers und ausgewählte Messwerte wie Größe, Vorbeiflugdistanz und Geschwindigkeit. Tippe im **Radar** auf einen Besucher, um seine Infokarte zu lesen. Das Tier, sein freundlicher Name und seine Geschichte sind für das Spiel erfunden. Die Maus Niko ist weder der offizielle Name eines Asteroiden noch ein NASA-Foto.
 
-Du brauchst die App nicht, um etwas über Asteroiden zu lernen. Als nächsten Schritt könnt ihr auf einer Infokarte „Größe“ und „Entfernung“ vergleichen: Welche Zahl beschreibt den Körper, welche den Raum zwischen ihm und der Erde? Der Ablauf wurde unter iOS **1.3.0** geprüft; spätere Ansichten können abweichen.
+Du brauchst die App nicht, um Asteroiden kennenzulernen. Als weitere Übung kannst du in Rockimals die bebilderte Größenkarte mit der Vorbeiflugdistanz in den Erwachseneninformationen vergleichen. Größe beschreibt den Körper, Entfernung seinen Abstand zur Erde. Dieses App-Beispiel wurde am 17. Oktober 2026 für iOS 1.5.0 geprüft.
 
 Rockimals ist eine unabhängige App. Sie verwendet Weltraumdaten von NASA/JPL, ist aber weder mit der NASA verbunden noch von ihr empfohlen.
 
@@ -56,4 +56,4 @@ Rockimals ist eine unabhängige App. Sie verwendet Weltraumdaten von NASA/JPL, i
 - [NASA Space Place: What Is an Asteroid?](https://spaceplace.nasa.gov/asteroid/en/) — einfache Definition und Asteroidengürtel; geprüft am 25. September 2026.
 - [NASA Science: Asteroid Facts](https://science.nasa.gov/solar-system/asteroids/facts/) — Entstehung, Formen, Größen und Bahnen; geprüft am 25. September 2026.
 - [NASA/JPL CNEOS: NEO Groups](https://cneos.jpl.nasa.gov/about/neo_groups.html) — Bedeutung einer erdnahen Bahn; geprüft am 25. September 2026.
-- [Rockimals im britischen App Store](https://apps.apple.com/gb/app/rockimals/id6792505608) — Funktionen und Version 1.3.0; geprüft am 25. September 2026.
+- [Rockimals im britischen App Store](https://apps.apple.com/gb/app/rockimals/id6792505608) — Produkt und Version am 17. Oktober 2026 geprüft.

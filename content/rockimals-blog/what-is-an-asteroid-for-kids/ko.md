@@ -6,7 +6,7 @@ title: "소행성이란? 어린이와 함께 알아보는 쉬운 우주 이야�
 description: "소행성은 어디를 돌고 얼마나 클까요? 지구 근처를 지난다는 말과 충돌의 차이를 어린이 눈높이에서 차분히 알아봅니다."
 category: "learn-space"
 published: "2026-09-28T10:43:02Z"
-updated: "2026-09-28T10:43:02Z"
+updated: "2026-10-17T19:19:52Z"
 draft: false
 image: "/assets/rockimals-blog/what-is-an-asteroid-for-kids/cover.jpg"
 imageAlt: "우주 바위 위의 생쥐 Niko와 고래 Enoli를 그린 그림. 실제 크기 비율을 나타내지 않음"
@@ -47,7 +47,7 @@ reviewedAppVersion: null
 
 Rockimals는 방문자의 공식 식별 정보와 크기, 접근 거리, 속도 같은 일부 측정값에 실제 지구 근처 천체 자료를 사용합니다. 앱의 **레이더**에서 방문자를 누르면 정보 카드를 볼 수 있습니다. 동물의 모습, 친근한 이름, 이야기는 게임을 위해 만든 허구입니다. 생쥐 Niko는 소행성의 공식 이름도 NASA 사진도 아닙니다.
 
-소행성을 배우는 데 앱이 꼭 필요한 것은 아닙니다. 한 걸음 더 해 보고 싶다면 카드의 ‘크기’와 ‘거리’가 각각 무엇을 나타내는지 함께 비교해 보세요. 이 앱 흐름은 iOS **1.3.0**에서 확인했으며 이후 화면은 달라질 수 있습니다.
+소행성을 배우는 데 앱이 꼭 필요하지는 않습니다. 다음 활동으로 Rockimals의 동물 크기 비교 그림과 어른용 정보의 접근 거리를 비교해 보세요. 크기는 천체 자체를, 거리는 지구와의 간격을 뜻합니다. 이 앱 예시는 2026년 10월 17일 iOS 1.5.0 기준으로 확인했습니다.
 
 Rockimals는 독립적인 앱입니다. NASA/JPL 우주 자료를 사용하지만 NASA와 제휴하거나 NASA의 승인을 받은 제품은 아닙니다.
 
@@ -56,4 +56,4 @@ Rockimals는 독립적인 앱입니다. NASA/JPL 우주 자료를 사용하지�
 - [NASA Space Place: What Is an Asteroid?](https://spaceplace.nasa.gov/asteroid/en/) — 소행성의 정의와 소행성대. 2026년 9월 25일 확인.
 - [NASA Science: Asteroid Facts](https://science.nasa.gov/solar-system/asteroids/facts/) — 기원, 모양, 크기와 궤도. 2026년 9월 25일 확인.
 - [NASA/JPL CNEOS: NEO Groups](https://cneos.jpl.nasa.gov/about/neo_groups.html) — 지구 근처 궤도의 의미. 2026년 9월 25일 확인.
-- [영국 App Store의 Rockimals](https://apps.apple.com/gb/app/rockimals/id6792505608) — 앱 기능과 1.3.0 버전. 2026년 9월 25일 확인.
+- [영국 App Store의 Rockimals](https://apps.apple.com/gb/app/rockimals/id6792505608) — 제품과 버전 확인: 2026년 10월 17일.

@@ -6,7 +6,7 @@ title: "Asteroit Nedir? Çocuklar İçin Basit Bir Rehber"
 description: "Asteroit nedir, nerede dolaşır ve ne kadar büyük olabilir? Çocuklarla boyut ve Dünya'ya yaklaşma mesafesi arasındaki farkı keşfedin."
 category: "learn-space"
 published: "2026-09-28T10:43:02Z"
-updated: "2026-09-28T10:43:02Z"
+updated: "2026-10-17T19:19:52Z"
 draft: false
 image: "/assets/rockimals-blog/what-is-an-asteroid-for-kids/cover.jpg"
 imageAlt: "Uzay taşları üzerinde fare Niko ve balina Enoli; çizim gerçek boyut ölçeğini göstermiyor"
@@ -47,7 +47,7 @@ Bir çocukla iki ayrı soru sorabilirsiniz: “Bu taş ne kadar büyük?” ve �
 
 Rockimals, ziyaretçinin resmî kimliği ve boyut, yaklaşma mesafesi, hız gibi seçili ölçümler için gerçek Dünya'ya yakın gökcismi verilerini kullanır. Uygulamanın **Radar** ekranında bir ziyaretçiye dokunup bilgi kartını okuyabilirsiniz. Hayvan dostu, sevimli adı ve hikâyesi ise oyun için kurgulanmıştır. Fare Niko, bir asteroidin resmî adı veya NASA fotoğrafı değildir.
 
-Asteroidi öğrenmek için uygulamayı indirmek gerekmez. Bir sonraki adımı denemek isterseniz bir ziyaretçinin kartını birlikte açın: **boyut** ile **uzaklık** etiketlerinden hangisinin gökcismini, hangisinin Dünya'yla arasındaki boşluğu anlattığını konuşun. Bu ürün akışı iOS **1.3.0** sürümünde kontrol edildi; sonraki sürümlerde ekranlar değişebilir.
+Asteroidi öğrenmek için uygulama gerekmez. Rockimals’ta bir sonraki etkinlik olarak hayvanın görselli boyut kartıyla yetişkinler bölümündeki yaklaşma mesafesini karşılaştırabilirsiniz. Boyut gökcismini, mesafe Dünya’yla arasındaki uzaklığı anlatır. Bu uygulama örneği 17 Ekim 2026’da iOS 1.5.0 için incelendi.
 
 Rockimals bağımsız bir uygulamadır. NASA/JPL uzay verilerini kullanır, ancak NASA ile bağlantılı değildir ve NASA tarafından onaylanmamıştır.
 
@@ -57,4 +57,4 @@ Rockimals bağımsız bir uygulamadır. NASA/JPL uzay verilerini kullanır, anca
 - [NASA Science: Asteroid Facts](https://science.nasa.gov/solar-system/asteroids/facts/) — köken, şekil, boyut ve yörüngeler; 22 Eylül 2026'da incelendi.
 - [NASA/JPL Dünya'ya Yakın Gökcisimleri Çalışmaları Merkezi: NEO grupları](https://cneos.jpl.nasa.gov/about/neo_groups.html) — “Dünya'ya yakın” yörüngenin anlamı; 22 Eylül 2026'da incelendi.
 - [TÜBİTAK Bilim Genç: Asteroit, Meteor ve Meteorit Arasındaki Farklar](https://bilimgenc.tubitak.gov.tr/makale/asteroit-meteor-ve-meteorit-arasindaki-farklar-nelerdir) — Türkçe bilim terminolojisi; 22 Eylül 2026'da incelendi.
-- [Birleşik Krallık App Store'da Rockimals](https://apps.apple.com/gb/app/rockimals/id6792505608) — ürün özellikleri ve 1.3.0 sürümü; 22 Eylül 2026'da incelendi.
+- [Birleşik Krallık App Store'da Rockimals](https://apps.apple.com/gb/app/rockimals/id6792505608) — Ürün ve sürüm 17 Ekim 2026’da kontrol edildi.

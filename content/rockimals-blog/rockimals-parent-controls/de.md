@@ -6,7 +6,7 @@ title: "Rockimals: Werbung, Kinderkonten und Elternkontrolle"
 description: "Gibt es in Rockimals Werbung oder Kinderkonten? Erfahren Sie, welche Schritte Erwachsene bestätigen, wie Plus funktioniert und welche Daten verarbeitet werden."
 category: "family-guide"
 published: "2026-10-05T13:58:49Z"
-updated: "2026-10-05T13:58:49Z"
+updated: "2026-10-17T19:19:52Z"
 draft: false
 image: "/assets/rockimals-blog/rockimals-parent-controls/cover.jpg"
 imageAlt: "Fuchs Barney und Bär Pofi neben einem gezeichneten Schild und Schloss; kein Screenshot der App-Einstellungen"
@@ -18,14 +18,18 @@ cta:
   id: "app-store"
   label: "Rockimals und die aktuellen Plus-Bedingungen im App Store ansehen"
 productGuide: true
-reviewedAppVersion: "1.4.0"
+reviewedAppVersion: "1.5.0"
 ---
 
 Rockimals enthält **keine Werbung und keine Kinderkonten**. Kinder können Weltraumbesucher ohne eigenes Profil entdecken. Käufe, externe Links, Tier-Postkarten und Erinnerungen an Geschichten sind durch eine Abfrage für Erwachsene getrennt. Diese Abfrage betrifft bestimmte Aktionen in der App; sie steuert nicht das gesamte Gerät. Der Download ist kostenlos, Rockimals Plus ist optional.
 
 ## Was geht ohne Konto?
 
-Radar und Besucherinformationen gehören zum kostenlosen Angebot. Laut aktuellem App-Store-Eintrag kommen täglich eine neue Geschichte, eine Minute Erdschild und eine wechselnde Entdeckungsmission je Thema hinzu. Es gibt weder Chat noch ein öffentliches Kinderprofil. „Kein Konto“ bedeutet jedoch weder „alle Funktionen kostenlos“ noch „keine Verarbeitung technischer Daten“.
+Radar, Tierinformationen und Folgen sind kostenlos, ebenso täglich 3 Minuten Erdschild und eine Entdeckungsmission pro Thema. Wähle insgesamt 10 kostenlose Kapitel, höchstens 3 neue pro Tag. Diese kostenlosen Kapitel bleiben zum Wiederlesen verfügbar. Für alle Zugänge, auch Plus, gilt höchstens ein neues Kapitel pro Tier und Tag: Lies das aktuelle Kapitel zu Ende und triff den Freund an einem späteren Tag erneut auf dem Radar.
+
+Solange Rockimals Plus aktiv ist, umfasst es die veröffentlichte Geschichtenbibliothek und verfügbare englische/türkische Erzählungen, Erdschild ohne Zeitlimit, alle 12 Entdeckungsmissionen, vier weitere Spiele und Tagebuchdekorationen. Die tägliche Kapitelregel gilt weiterhin.
+
+Höre die Abenteuer auf Englisch oder Türkisch. Jede neue Installation darf ein kostenloses Hörkapitel wählen; das ist unabhängig von den 10 kostenlosen Lesekapiteln. Lade die Erzählung mit Internetverbindung herunter. Gespeicherte Audiodateien lassen sich bei bestehender Berechtigung offline anhören.
 
 Bevor Sie Plus erwägen, wählen Sie mit dem Kind im Radar einen Besucher aus und lesen Sie seine Karte. Die Messwerte beruhen auf Weltraumdaten; Tierfigur und Geschichte sind erfunden. Die ersten Schritte zeigt unser [Einstiegsleitfaden](/de/blog/rockimals-spielen-erster-weltraumbesucher).
 
@@ -37,12 +41,12 @@ Rockimals Plus ist ein optionales, automatisch verlängertes Abonnement. Prüfen
 
 ## Heißt „ohne Konto“ auch „ohne Daten“?
 
-Nein. Die [Datenschutzerklärung](https://rockimals.duniaops.com/privacy-policy?lang=de) beschreibt unter anderem eine pseudonyme Installationskennung, Hinweise zur Geräteintegrität, Plattform, gewählte Sprache und Zeitzone. Ein Dienstleister kann Netzwerkdaten während der Übertragung verarbeiten. Unter iOS **1.4.0** wird Plus mit Apple StoreKit auf dem Gerät geprüft; aktivierte Erinnerungen werden lokal auf dem Gerät geplant. Für ältere iOS-Versionen und Android beschreibt die Erklärung andere Abläufe.
+Unter iOS 1.5.0 prüft StoreKit Käufe auf dem Gerät. Die geschützte Geschichten- und Audioauslieferung sendet Kaufnachweise zusätzlich an unseren Dienst, der sie unabhängig bei Apple prüft. Verarbeitet werden Installationskennungen, angefordertes Kapitel und Sprache sowie kostenlose Kapitel- oder Audioauswahlen. iOS-Erinnerungen bleiben lokal. Plattformunterschiede, Speicherung und Löschung erläutert die Datenschutzerklärung. [Datenschutz](https://rockimals.duniaops.com/privacy-policy?lang=de).
 
-Eltern können die Löschung betroffener Installationsdaten anfragen. In die erste Nachricht gehören keine persönlichen Angaben zum Kind. Prüfen Sie vor dem Download den aktuellen Store-Eintrag und die Datenschutzerklärung. Dieser Text wurde am 5. Oktober 2026 mit der öffentlichen iOS-Version **1.4.0** und der seit 25. September 2026 geltenden Erklärung abgeglichen.
+Am 17. Oktober 2026 mit dem öffentlichen iOS-1.5.0-Storeeintrag und den Veröffentlichungsquellen geprüft. Die Android-Version kann abweichen. Beachte den Storeeintrag und die Bezeichnungen deiner installierten App.
 
 ## Quellen
 
-- [Rockimals im britischen App Store](https://apps.apple.com/gb/app/rockimals-kids-space-stories/id6792505608) — Version, kostenloses Angebot/Plus und Abfrage für Erwachsene; geprüft am 5. Oktober 2026.
-- [Rockimals-Datenschutzerklärung](https://rockimals.duniaops.com/privacy-policy?lang=de) — Daten und iOS 1.4.0; geprüft am 5. Oktober 2026.
-- [Rockimals-Hilfe](https://rockimals.duniaops.com/support?lang=de) — Wiederherstellung, Kündigung, Erinnerungen und Datenanfragen; geprüft am 5. Oktober 2026.
+- [Rockimals im britischen App Store](https://apps.apple.com/gb/app/rockimals-kids-space-stories/id6792505608) — Produkt und Version am 17. Oktober 2026 geprüft.
+- [Rockimals-Datenschutzerklärung](https://rockimals.duniaops.com/privacy-policy?lang=de) — Produkt und Version am 17. Oktober 2026 geprüft.
+- [Rockimals-Hilfe](https://rockimals.duniaops.com/support?lang=de) — Produkt und Version am 17. Oktober 2026 geprüft.

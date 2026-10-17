@@ -8,7 +8,7 @@ test('Rockimals screenshots are laid out without a horizontal-only scroll depend
   const galleryRule = css.match(/\.rk-shot-row\{([^}]+)\}/)?.[1] ?? '';
 
   assert.match(galleryRule, /display:grid/);
-  assert.match(galleryRule, /grid-template-columns:repeat\(6,/);
+  assert.match(galleryRule, /grid-template-columns:repeat\(3,/);
   assert.doesNotMatch(galleryRule, /overflow-x|scroll-snap|scrollbar-color/);
   assert.match(css, /@media\(max-width:1500px\)[^{]*\{[^}]*\.rk-shot-row\{[^}]*grid-template-columns:repeat\(3,/);
   assert.match(css, /@media\(max-width:680px\)[^{]*\{[^}]*\.rk-shot-row\{[^}]*grid-template-columns:repeat\(2,/);
