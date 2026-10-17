@@ -2,7 +2,7 @@
 
 **Type:** Content and visual maintenance
 **Priority:** P1; yanlış erişim ve veri işleme açıklamalarının düzeltilmesi ilk iş.
-**Status:** Web güncellemesi tamamlandı ve üretimde doğrulandı. Ayrı backend silme takibi açık.
+**Status:** Tamamlandı. Web yayını ve onaylanan backend silme düzeltmesi üretimde doğrulandı.
 **İnceleme tarihi:** 17 Ekim 2026
 **Kapsam:** Rockimals açılış sayfaları, ürün rehberleri, destek, gizlilik ve DuniaOps ürün kartı.
 
@@ -123,11 +123,15 @@ Kaynak incelemesi, eski/yeni ekranların görsel karşılaştırması, sekiz can
 - `npm test` başarılı: içerik, görsel hash/boyut/dil, galeri, blog, günlük ziyaretçi ve site denetimleri; 301 public dosyada bozuk iç bağlantı yok. CUA tarayıcısında 390 px genişlikte sekiz dil taşmasız; 820 px tablet ve 1280 px masaüstünde gerçek okuma/ses ekranları incelendi.
 - Yerel `/today` derlemesi anahtar olmadan eski seed kullanır ve bunu eski olarak etiketler. Yayın Git CD ile mevcut Netlify üretim ortamında oluşturuldu; canlı veri tarihi 17 Ekim, kaynak NASA NeoWs ve ziyaretçi sayısı 11 olarak doğrulandı.
 
-### Ayrı backend takibi: sesli deneme kayıtlarının silinmesi
+### Backend takibi kapandı: sesli deneme kayıtlarının silinmesi
 
 Canlı veritabanının salt okunur şema denetiminde `rockimals_narration_trials.credential_digest` ilişkisinin `ON DELETE CASCADE` içermediği ve `rockimals_delete_installations(uuid[])` fonksiyonunun bu çocuk kayıtlarını silmediği doğrulandı. Sesli deneme kullanmış kurulumların manuel/otomatik silinmesi yabancı anahtar nedeniyle engellenebilir. Herhangi bir kullanıcı kaydı okunmadı veya silinmedi.
 
-Bu web değişikliği saklama politikasını ve yeni veri kategorilerini açıklar; doğrulanmış otomatik silme garantisi vermez. Mevcut 13 aylık saklama yükümlülüğü devam eder. Backend düzeltmesi için ayrıca kullanıcıya soruldu; yanıt gelmeden uygulama reposu veya üretim veritabanı değiştirilmez. Bu teknik takip, web yayını kapatıldığında da açık kalır; silme işleyişi düzeltilmiş sayılmamalıdır.
+Kullanıcı 17 Ekim 2026’da backend düzeltmesini ayrıca onayladı. Rockimals üretim veritabanına `20261017204836_rockimals_narration_trial_deletion_cascade` migration’ı uygulandı; doğrulanmış yabancı anahtar artık `ON DELETE CASCADE` kullanıyor. Kaynak ve dağıtım kanıtı [Rockimals commit 3408986](https://github.com/duniaops/rockimals/commit/3408986) içinde, `main` → `origin/main` push tamamlandı.
+
+Önce/sonra kontrolleri yalnızca sentetik kurulumlar ve `ROLLBACK` ile yapıldı. Hedef kurulumun iki sesli deneme kaydı temizlendi; diğer kurulum, ses hakkı ve okuma hakları korundu. Boş/tekrarlı silme güvenli, sahipsiz kayıt engeli etkin. Gerçek kullanıcı kaydı silinmedi; toplu temizlik çalıştırılmadı. RLS ve yetkiler korunuyor; mevcut 03:17 UTC temizleme görevi aktif. Geniş uygulama testleri veya cihaz kabul testi bu veritabanı düzeltmesinin kanıtı olarak sunulmadı.
+
+Mevcut web gizlilik metni saklama politikasını doğru biçimde açıklıyor; yeni bir kullanıcı arayüzü değişikliği gerekmiyor. Bu bulgu kapatıldı.
 
 
 ## Yayın kapanışı
@@ -135,4 +139,4 @@ Bu web değişikliği saklama politikasını ve yeni veri kategorilerini açıkl
 - Uygulama commit'i: `52f6a1a2ce23697ab6d51ac883b312d444a4cf62`; `main` → `origin/main` normal push başarılı.
 - Netlify üretim deploy'u: [`6ad3cd29bae85557f706e112`](https://app.netlify.com/projects/duniaops/deploys/6ad3cd29bae85557f706e112), `ready`, yayın zamanı **17 Ekim 2026 19:32:12 UTC**.
 - Canlıdan **8 açılış sayfası**, **32 makale**, **2 destek/gizlilik sayfası**, ürün kataloğu ve **26 görsel SHA-256 eşleşmesi** doğrulandı. Türkçe okuma/sesli anlatım bölümü tarayıcıda kontrol edildi. Sonuçlar [canlı doğrulama kaydında](../docs/fixtures/rockimals-1.5.0/live-verification.json).
-- Web kapsamı kapandı. Yukarıdaki backend silme ilişkisi ayrı açık bulgudur; uygulama veya veritabanı düzeltmesi bu yayında yapılmadı.
+- Web kapsamı kapandı. İlk web yayınından sonra kullanıcı tarafından ayrıca onaylanan backend düzeltmesi de yukarıdaki kanıtla kapatıldı.

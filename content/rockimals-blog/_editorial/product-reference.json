@@ -106,7 +106,11 @@
     "retentionReview": {
       "policy": "Maximum 13 months after installation last activity; includes free chapter and narration allowance records. Earlier deletion can be requested.",
       "verifiedOn": "2026-10-17",
-      "implementationGap": "Live metadata shows narration trials reference installations without ON DELETE CASCADE, while rockimals_delete_installations does not delete narration trials. Affected installations can block deletion. Website copy states the retention policy without claiming verified automatic deletion. Separate backend repair approval requested; not performed in this website release."
+      "identifiedIssue": "Live metadata shows narration trials reference installations without ON DELETE CASCADE, while rockimals_delete_installations does not delete narration trials. Affected installations can block deletion.",
+      "status": "resolved",
+      "resolution": "Owner-approved migration 20261017204836_rockimals_narration_trial_deletion_cascade applied to production on 2026-10-17. Validated ON DELETE CASCADE now removes narration scopes with their installation. Bounded before/after checks used synthetic rows and ROLLBACK; no existing customer data was deleted. RLS/grants and the 03:17 UTC retention job remain unchanged.",
+      "sourceCommit": "3408986",
+      "evidence": "https://github.com/duniaops/rockimals/blob/3408986/docs/INSTALLATION_RETENTION_REPAIR_2026_10_17.md"
     }
   },
   "nasaBoundary": {

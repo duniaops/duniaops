@@ -236,5 +236,13 @@
       820,
       1280
     ]
+  },
+  "backendFollowup": {
+    "status": "resolved",
+    "verifiedOn": "2026-10-17",
+    "migration": "20261017204836_rockimals_narration_trial_deletion_cascade",
+    "repository": "duniaops/rockimals",
+    "commit": "3408986",
+    "checks": "Before/after synthetic installation transaction probes, fully rolled back; target scopes cascade, unrelated rights remain, orphan protection retained. RLS/grants unchanged. No bulk purge invoked."
   }
 }
