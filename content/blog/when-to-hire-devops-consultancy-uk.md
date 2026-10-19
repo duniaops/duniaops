@@ -2,6 +2,7 @@
 title: "When Should a UK Software Team Hire a DevOps Consultancy?"
 description: "Learn when your UK software team needs DevOps support, what a consultancy should deliver, and how to choose an engagement that leaves you stronger."
 published: "2026-08-25"
+updated: "2026-10-19"
 category: "devops-cloud-consultancy"
 tags:
   - "DevOps Consultancy"
@@ -133,6 +134,10 @@ the wider architecture.
 If you are considering external engineering support more broadly, our guide to
 [software outsourcing in 2026](/blog/why-software-outsourcing-is-good-for-your-business-in-2026)
 explains how to divide responsibilities without losing product ownership.
+
+If the decision is specifically about ongoing Kubernetes platform ownership,
+our [guide to choosing a Kubernetes consultant or permanent hire](/blog/kubernetes-consultant-or-permanent-hire-uk)
+covers that narrower question.
 
 ## What a good DevOps engagement should deliver
 

@@ -2,7 +2,7 @@
 title: "Software Project Rescue UK: Can a New Team Take Over?"
 description: "Learn how a new team can safely take over stalled software, what to secure first, and how DuniaOps approaches software project rescue in the UK."
 published: "2026-09-01"
-updated: "2026-09-08"
+updated: "2026-10-19"
 category: "project-rescue"
 tags:
   - "Software Project Rescue"
@@ -212,6 +212,10 @@ the codebase, delivery environment and live service.
 Our [Software Project Rescue service](/services/software-project-rescue) can
 support the complete recovery path or begin with a focused assessment before a
 larger decision.
+
+If a live application is broadly stable and the need is ongoing maintenance
+rather than recovery, read our guide to [safe application-support takeovers](/blog/can-a-new-company-maintain-software-it-did-not-build)
+or explore [Application Support & Software Maintenance](/services/application-support-maintenance).
 The engagement is shaped around five outcomes:
 
 1. **Control:** establish the access, ownership information and operational
