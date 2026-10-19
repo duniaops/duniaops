@@ -198,6 +198,28 @@ let stars: [(CGFloat, CGFloat, CGFloat)] = [
     (1115, 535, 3), (1160, 115, 2), (965, 70, 2), (585, 305, 2)
 ]
 
+if CommandLine.arguments.contains("--free-plus-cover-only") {
+    let tiger = try loadImage(gameRoot.appendingPathComponent("assets/animals/transparent/tiger.webp"))
+    try renderCover(output: outputRoot.appendingPathComponent("rockimals-free-vs-plus/cover-official.jpg")) {
+        drawGradient([
+            NSColor(calibratedRed: 0.025, green: 0.06, blue: 0.12, alpha: 1),
+            NSColor(calibratedRed: 0.08, green: 0.16, blue: 0.28, alpha: 1)
+        ], angle: -12)
+        drawStars(stars)
+        drawRadarRings(
+            center: NSPoint(x: 600, y: 315),
+            radii: [105, 215, 295],
+            color: NSColor(calibratedRed: 1, green: 0.44, blue: 0.18, alpha: 0.27)
+        )
+        drawImage(tiger, inside: NSRect(x: 45, y: 130, width: 385, height: 385))
+        drawImage(whale, inside: NSRect(x: 770, y: 130, width: 385, height: 385))
+        drawOpenBook(center: NSPoint(x: 600, y: 230))
+        drawStars([(520, 460, 5), (600, 505, 6), (680, 460, 5)],
+                  color: NSColor(calibratedRed: 1, green: 0.7, blue: 0.38, alpha: 1))
+    }
+    exit(0)
+}
+
 try renderCover(output: outputRoot.appendingPathComponent("rockimals-getting-started/cover.jpg")) {
     drawGradient([
         NSColor(calibratedRed: 0.025, green: 0.065, blue: 0.13, alpha: 1),
