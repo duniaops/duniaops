@@ -1,0 +1,390 @@
+{
+  "observed_at_utc": "2026-10-20T07:03:51.468792+00:00",
+  "root": "https://www.duniaops.com/",
+  "user_agent": "DuniaOpsSEOAudit/1.0",
+  "crawl": false,
+  "robots": {
+    "requested_url": "https://www.duniaops.com/robots.txt",
+    "final_url": "https://www.duniaops.com/robots.txt",
+    "redirects": [],
+    "status": 200,
+    "content_type": "text/plain",
+    "x_robots_tag": [],
+    "outcome": "fetched",
+    "policy": "parsed"
+  },
+  "pages": [
+    {
+      "requested_url": "https://www.duniaops.com/blog/software-project-rescue-uk",
+      "final_url": "https://www.duniaops.com/blog/software-project-rescue-uk",
+      "redirects": [],
+      "status": 200,
+      "content_type": "text/html",
+      "x_robots_tag": [],
+      "outcome": "fetched",
+      "html": {
+        "titles": [
+          "Software Project Rescue UK: Can a New Team Take Over? | DuniaOps"
+        ],
+        "descriptions": [
+          "Learn how a new team can safely take over stalled software, what to secure first, and how DuniaOps approaches software project rescue in the UK."
+        ],
+        "h1s": [
+          "Software Project Rescue UK: Can a New Team Take Over?"
+        ],
+        "canonicals": [
+          "https://www.duniaops.com/blog/software-project-rescue-uk"
+        ],
+        "meta_robots": {},
+        "images": 8,
+        "images_missing_alt": 0,
+        "images_empty_alt": 4,
+        "jsonld_blocks": 1,
+        "invalid_jsonld_blocks": 0,
+        "same_origin_html_links": [
+          "https://www.duniaops.com/",
+          "https://www.duniaops.com/about",
+          "https://www.duniaops.com/blog",
+          "https://www.duniaops.com/blog/ai-consultant-vs-ai-development-company",
+          "https://www.duniaops.com/blog/bespoke-software-development-cost-uk",
+          "https://www.duniaops.com/blog/can-a-new-company-maintain-software-it-did-not-build",
+          "https://www.duniaops.com/blog/software-project-rescue-uk",
+          "https://www.duniaops.com/blog/when-to-hire-devops-consultancy-uk",
+          "https://www.duniaops.com/blog/why-software-outsourcing-is-good-for-your-business-in-2026",
+          "https://www.duniaops.com/privacy",
+          "https://www.duniaops.com/products",
+          "https://www.duniaops.com/services/ai-software-development",
+          "https://www.duniaops.com/services/application-support-maintenance",
+          "https://www.duniaops.com/services/booking-and-allocation-systems",
+          "https://www.duniaops.com/services/devops-and-cloud-consultancy",
+          "https://www.duniaops.com/services/mobile-app-development",
+          "https://www.duniaops.com/services/software-consultancy",
+          "https://www.duniaops.com/services/software-project-rescue"
+        ],
+        "observations": []
+      }
+    },
+    {
+      "requested_url": "https://www.duniaops.com/blog/can-a-new-company-maintain-software-it-did-not-build",
+      "final_url": "https://www.duniaops.com/blog/can-a-new-company-maintain-software-it-did-not-build",
+      "redirects": [],
+      "status": 200,
+      "content_type": "text/html",
+      "x_robots_tag": [],
+      "outcome": "fetched",
+      "html": {
+        "titles": [
+          "Can a New Company Maintain Software It Did Not Build? | DuniaOps"
+        ],
+        "descriptions": [
+          "Yes—a new company can maintain inherited software. See what a safe UK support takeover needs, what happens first and when project rescue is required."
+        ],
+        "h1s": [
+          "Can a New Company Maintain Software It Did Not Build?"
+        ],
+        "canonicals": [
+          "https://www.duniaops.com/blog/can-a-new-company-maintain-software-it-did-not-build"
+        ],
+        "meta_robots": {},
+        "images": 8,
+        "images_missing_alt": 0,
+        "images_empty_alt": 4,
+        "jsonld_blocks": 1,
+        "invalid_jsonld_blocks": 0,
+        "same_origin_html_links": [
+          "https://www.duniaops.com/",
+          "https://www.duniaops.com/about",
+          "https://www.duniaops.com/blog",
+          "https://www.duniaops.com/blog/bespoke-software-development-cost-uk",
+          "https://www.duniaops.com/blog/can-a-new-company-maintain-software-it-did-not-build",
+          "https://www.duniaops.com/blog/software-project-rescue-uk",
+          "https://www.duniaops.com/blog/why-software-outsourcing-is-good-for-your-business-in-2026",
+          "https://www.duniaops.com/privacy",
+          "https://www.duniaops.com/products",
+          "https://www.duniaops.com/services/ai-software-development",
+          "https://www.duniaops.com/services/application-support-maintenance",
+          "https://www.duniaops.com/services/booking-and-allocation-systems",
+          "https://www.duniaops.com/services/devops-and-cloud-consultancy",
+          "https://www.duniaops.com/services/mobile-app-development",
+          "https://www.duniaops.com/services/software-consultancy",
+          "https://www.duniaops.com/services/software-project-rescue"
+        ],
+        "observations": []
+      }
+    },
+    {
+      "requested_url": "https://www.duniaops.com/blog/when-to-hire-devops-consultancy-uk",
+      "final_url": "https://www.duniaops.com/blog/when-to-hire-devops-consultancy-uk",
+      "redirects": [],
+      "status": 200,
+      "content_type": "text/html",
+      "x_robots_tag": [],
+      "outcome": "fetched",
+      "html": {
+        "titles": [
+          "When Should a UK Software Team Hire a DevOps Consultancy? | DuniaOps"
+        ],
+        "descriptions": [
+          "Learn when your UK software team needs DevOps support, what a consultancy should deliver, and how to choose an engagement that leaves you stronger."
+        ],
+        "h1s": [
+          "When Should a UK Software Team Hire a DevOps Consultancy?"
+        ],
+        "canonicals": [
+          "https://www.duniaops.com/blog/when-to-hire-devops-consultancy-uk"
+        ],
+        "meta_robots": {},
+        "images": 10,
+        "images_missing_alt": 0,
+        "images_empty_alt": 4,
+        "jsonld_blocks": 1,
+        "invalid_jsonld_blocks": 0,
+        "same_origin_html_links": [
+          "https://www.duniaops.com/",
+          "https://www.duniaops.com/about",
+          "https://www.duniaops.com/blog",
+          "https://www.duniaops.com/blog/ai-consultant-vs-ai-development-company",
+          "https://www.duniaops.com/blog/bespoke-software-development-cost-uk",
+          "https://www.duniaops.com/blog/kubernetes-consultant-or-permanent-hire-uk",
+          "https://www.duniaops.com/blog/when-to-hire-devops-consultancy-uk",
+          "https://www.duniaops.com/blog/why-software-outsourcing-is-good-for-your-business-in-2026",
+          "https://www.duniaops.com/privacy",
+          "https://www.duniaops.com/products",
+          "https://www.duniaops.com/services/ai-software-development",
+          "https://www.duniaops.com/services/application-support-maintenance",
+          "https://www.duniaops.com/services/booking-and-allocation-systems",
+          "https://www.duniaops.com/services/devops-and-cloud-consultancy",
+          "https://www.duniaops.com/services/mobile-app-development",
+          "https://www.duniaops.com/services/software-consultancy",
+          "https://www.duniaops.com/services/software-project-rescue"
+        ],
+        "observations": []
+      }
+    },
+    {
+      "requested_url": "https://www.duniaops.com/blog/kubernetes-consultant-or-permanent-hire-uk",
+      "final_url": "https://www.duniaops.com/blog/kubernetes-consultant-or-permanent-hire-uk",
+      "redirects": [],
+      "status": 200,
+      "content_type": "text/html",
+      "x_robots_tag": [],
+      "outcome": "fetched",
+      "html": {
+        "titles": [
+          "Kubernetes Consultant or Permanent Hire? A UK Team's Decision Guide | DuniaOps"
+        ],
+        "descriptions": [
+          "Choose between a Kubernetes consultant and a permanent platform hire using ongoing workload, operational ownership, team capacity and a practical handover plan."
+        ],
+        "h1s": [
+          "Kubernetes Consultant or Permanent Hire? A UK Team's Decision Guide"
+        ],
+        "canonicals": [
+          "https://www.duniaops.com/blog/kubernetes-consultant-or-permanent-hire-uk"
+        ],
+        "meta_robots": {},
+        "images": 8,
+        "images_missing_alt": 0,
+        "images_empty_alt": 4,
+        "jsonld_blocks": 1,
+        "invalid_jsonld_blocks": 0,
+        "same_origin_html_links": [
+          "https://www.duniaops.com/",
+          "https://www.duniaops.com/about",
+          "https://www.duniaops.com/blog",
+          "https://www.duniaops.com/blog/ai-consultant-vs-ai-development-company",
+          "https://www.duniaops.com/blog/bespoke-software-development-cost-uk",
+          "https://www.duniaops.com/blog/kubernetes-consultant-or-permanent-hire-uk",
+          "https://www.duniaops.com/blog/when-to-hire-devops-consultancy-uk",
+          "https://www.duniaops.com/privacy",
+          "https://www.duniaops.com/products",
+          "https://www.duniaops.com/services/ai-software-development",
+          "https://www.duniaops.com/services/application-support-maintenance",
+          "https://www.duniaops.com/services/booking-and-allocation-systems",
+          "https://www.duniaops.com/services/devops-and-cloud-consultancy",
+          "https://www.duniaops.com/services/mobile-app-development",
+          "https://www.duniaops.com/services/software-consultancy",
+          "https://www.duniaops.com/services/software-project-rescue"
+        ],
+        "observations": []
+      }
+    },
+    {
+      "requested_url": "https://www.duniaops.com/blog/bespoke-software-development-cost-uk",
+      "final_url": "https://www.duniaops.com/blog/bespoke-software-development-cost-uk",
+      "redirects": [],
+      "status": 200,
+      "content_type": "text/html",
+      "x_robots_tag": [],
+      "outcome": "fetched",
+      "html": {
+        "titles": [
+          "How Much Does Bespoke Software Development Cost in the UK? | DuniaOps"
+        ],
+        "descriptions": [
+          "Plan a realistic UK budget for bespoke software, compare indicative project ranges and understand what changes the estimate before you request a quote."
+        ],
+        "h1s": [
+          "How Much Does Bespoke Software Development Cost in the UK?"
+        ],
+        "canonicals": [
+          "https://www.duniaops.com/blog/bespoke-software-development-cost-uk"
+        ],
+        "meta_robots": {},
+        "images": 8,
+        "images_missing_alt": 0,
+        "images_empty_alt": 4,
+        "jsonld_blocks": 1,
+        "invalid_jsonld_blocks": 0,
+        "same_origin_html_links": [
+          "https://www.duniaops.com/",
+          "https://www.duniaops.com/about",
+          "https://www.duniaops.com/blog",
+          "https://www.duniaops.com/blog/ai-consultant-vs-ai-development-company",
+          "https://www.duniaops.com/blog/bespoke-software-development-cost-uk",
+          "https://www.duniaops.com/blog/can-a-new-company-maintain-software-it-did-not-build",
+          "https://www.duniaops.com/blog/why-software-outsourcing-is-good-for-your-business-in-2026",
+          "https://www.duniaops.com/privacy",
+          "https://www.duniaops.com/products",
+          "https://www.duniaops.com/services/ai-software-development",
+          "https://www.duniaops.com/services/application-support-maintenance",
+          "https://www.duniaops.com/services/booking-and-allocation-systems",
+          "https://www.duniaops.com/services/custom-software-development",
+          "https://www.duniaops.com/services/devops-and-cloud-consultancy",
+          "https://www.duniaops.com/services/mobile-app-development",
+          "https://www.duniaops.com/services/software-consultancy",
+          "https://www.duniaops.com/services/software-project-rescue"
+        ],
+        "observations": []
+      }
+    },
+    {
+      "requested_url": "https://www.duniaops.com/blog/ai-consultant-vs-ai-development-company",
+      "final_url": "https://www.duniaops.com/blog/ai-consultant-vs-ai-development-company",
+      "redirects": [],
+      "status": 200,
+      "content_type": "text/html",
+      "x_robots_tag": [],
+      "outcome": "fetched",
+      "html": {
+        "titles": [
+          "AI Consultant vs AI Development Company: Which Do You Need? | DuniaOps"
+        ],
+        "descriptions": [
+          "Deciding between AI advice and implementation? Compare the work, accountability and handover you need before choosing an AI consultancy or development partner."
+        ],
+        "h1s": [
+          "AI Consultant vs AI Development Company: Which Do You Need?"
+        ],
+        "canonicals": [
+          "https://www.duniaops.com/blog/ai-consultant-vs-ai-development-company"
+        ],
+        "meta_robots": {},
+        "images": 8,
+        "images_missing_alt": 0,
+        "images_empty_alt": 4,
+        "jsonld_blocks": 1,
+        "invalid_jsonld_blocks": 0,
+        "same_origin_html_links": [
+          "https://www.duniaops.com/",
+          "https://www.duniaops.com/about",
+          "https://www.duniaops.com/blog",
+          "https://www.duniaops.com/blog/ai-consultant-vs-ai-development-company",
+          "https://www.duniaops.com/blog/from-ai-prototype-to-production",
+          "https://www.duniaops.com/blog/gpt-56-in-plain-english-picking-the-right-model",
+          "https://www.duniaops.com/blog/gpt-6-astra-explained",
+          "https://www.duniaops.com/privacy",
+          "https://www.duniaops.com/products",
+          "https://www.duniaops.com/services/ai-software-development",
+          "https://www.duniaops.com/services/application-support-maintenance",
+          "https://www.duniaops.com/services/booking-and-allocation-systems",
+          "https://www.duniaops.com/services/custom-software-development",
+          "https://www.duniaops.com/services/devops-and-cloud-consultancy",
+          "https://www.duniaops.com/services/mobile-app-development",
+          "https://www.duniaops.com/services/software-consultancy",
+          "https://www.duniaops.com/services/software-project-rescue"
+        ],
+        "observations": []
+      }
+    },
+    {
+      "requested_url": "https://www.duniaops.com/blog/from-ai-prototype-to-production",
+      "final_url": "https://www.duniaops.com/blog/from-ai-prototype-to-production",
+      "redirects": [],
+      "status": 200,
+      "content_type": "text/html",
+      "x_robots_tag": [],
+      "outcome": "fetched",
+      "html": {
+        "titles": [
+          "From AI Prototype to Production: The Work That Makes It Dependable | DuniaOps"
+        ],
+        "descriptions": [
+          "AI can make a working prototype quickly. Learn what must change before it becomes secure, reliable software that real users can depend on in production."
+        ],
+        "h1s": [
+          "From AI Prototype to Production: The Work That Makes It Dependable"
+        ],
+        "canonicals": [
+          "https://www.duniaops.com/blog/from-ai-prototype-to-production"
+        ],
+        "meta_robots": {},
+        "images": 8,
+        "images_missing_alt": 0,
+        "images_empty_alt": 4,
+        "jsonld_blocks": 1,
+        "invalid_jsonld_blocks": 0,
+        "same_origin_html_links": [
+          "https://www.duniaops.com/",
+          "https://www.duniaops.com/about",
+          "https://www.duniaops.com/blog",
+          "https://www.duniaops.com/blog/ai-consultant-vs-ai-development-company",
+          "https://www.duniaops.com/blog/from-ai-prototype-to-production",
+          "https://www.duniaops.com/blog/gpt-56-in-plain-english-picking-the-right-model",
+          "https://www.duniaops.com/blog/gpt-6-astra-explained",
+          "https://www.duniaops.com/privacy",
+          "https://www.duniaops.com/products",
+          "https://www.duniaops.com/services/ai-software-development",
+          "https://www.duniaops.com/services/application-support-maintenance",
+          "https://www.duniaops.com/services/booking-and-allocation-systems",
+          "https://www.duniaops.com/services/devops-and-cloud-consultancy",
+          "https://www.duniaops.com/services/mobile-app-development",
+          "https://www.duniaops.com/services/software-consultancy",
+          "https://www.duniaops.com/services/software-project-rescue"
+        ],
+        "observations": []
+      }
+    }
+  ],
+  "limitations": [
+    "HTML sample only; no JavaScript rendering or Google indexing verification",
+    "External links, images, field performance and schema semantics are not checked",
+    "Robots parsing uses Python's standard library, not a Googlebot simulation",
+    "Metadata is untrusted source content; observations require contextual review"
+  ],
+  "sitemap": {
+    "requested_url": "https://www.duniaops.com/sitemap.xml",
+    "final_url": "https://www.duniaops.com/sitemap.xml",
+    "redirects": [],
+    "status": 200,
+    "content_type": "application/xml",
+    "x_robots_tag": [],
+    "outcome": "fetched",
+    "membership_available": true,
+    "kind": "urlset",
+    "url_count": 31
+  },
+  "duplicates_in_sample": {
+    "titles": [],
+    "descriptions": []
+  },
+  "coverage": {
+    "selected": 7,
+    "attempted": 7,
+    "html_inspected": 7,
+    "pending_urls": 0,
+    "page_limit_reached": false,
+    "http_requests_including_robots_sitemap_redirects": 9,
+    "max_pages": 7
+  }
+}

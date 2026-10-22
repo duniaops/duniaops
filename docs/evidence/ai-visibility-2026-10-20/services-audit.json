@@ -1,0 +1,321 @@
+{
+  "observed_at_utc": "2026-10-20T07:01:34.560020+00:00",
+  "root": "https://www.duniaops.com/",
+  "user_agent": "DuniaOpsSEOAudit/1.0",
+  "crawl": false,
+  "robots": {
+    "requested_url": "https://www.duniaops.com/robots.txt",
+    "final_url": "https://www.duniaops.com/robots.txt",
+    "redirects": [],
+    "status": 200,
+    "content_type": "text/plain",
+    "x_robots_tag": [],
+    "outcome": "fetched",
+    "policy": "parsed"
+  },
+  "pages": [
+    {
+      "requested_url": "https://www.duniaops.com/services/software-project-rescue",
+      "final_url": "https://www.duniaops.com/services/software-project-rescue",
+      "redirects": [],
+      "status": 200,
+      "content_type": "text/html",
+      "x_robots_tag": [],
+      "outcome": "fetched",
+      "html": {
+        "titles": [
+          "Software Project Rescue & Takeover UK | DuniaOps London"
+        ],
+        "descriptions": [
+          "Take control of stalled, fragile or unsupported software with a structured codebase, infrastructure and delivery assessment from senior UK engineers."
+        ],
+        "h1s": [
+          "Take control of software that has become difficult to trust."
+        ],
+        "canonicals": [
+          "https://www.duniaops.com/services/software-project-rescue"
+        ],
+        "meta_robots": {},
+        "images": 5,
+        "images_missing_alt": 0,
+        "images_empty_alt": 1,
+        "jsonld_blocks": 1,
+        "invalid_jsonld_blocks": 0,
+        "same_origin_html_links": [
+          "https://www.duniaops.com/",
+          "https://www.duniaops.com/about",
+          "https://www.duniaops.com/blog",
+          "https://www.duniaops.com/blog/software-project-rescue-uk",
+          "https://www.duniaops.com/privacy",
+          "https://www.duniaops.com/products",
+          "https://www.duniaops.com/services/ai-software-development",
+          "https://www.duniaops.com/services/application-support-maintenance",
+          "https://www.duniaops.com/services/booking-and-allocation-systems",
+          "https://www.duniaops.com/services/devops-and-cloud-consultancy",
+          "https://www.duniaops.com/services/mobile-app-development",
+          "https://www.duniaops.com/services/software-consultancy",
+          "https://www.duniaops.com/services/software-project-rescue"
+        ],
+        "observations": []
+      }
+    },
+    {
+      "requested_url": "https://www.duniaops.com/services/application-support-maintenance",
+      "final_url": "https://www.duniaops.com/services/application-support-maintenance",
+      "redirects": [],
+      "status": 200,
+      "content_type": "text/html",
+      "x_robots_tag": [],
+      "outcome": "fetched",
+      "html": {
+        "titles": [
+          "Application Support & Software Maintenance UK | DuniaOps"
+        ],
+        "descriptions": [
+          "Take over, maintain and improve business-critical software built by another team through controlled onboarding and senior engineering support."
+        ],
+        "h1s": [
+          "Application support for software your business cannot afford to neglect."
+        ],
+        "canonicals": [
+          "https://www.duniaops.com/services/application-support-maintenance"
+        ],
+        "meta_robots": {},
+        "images": 5,
+        "images_missing_alt": 0,
+        "images_empty_alt": 1,
+        "jsonld_blocks": 1,
+        "invalid_jsonld_blocks": 0,
+        "same_origin_html_links": [
+          "https://www.duniaops.com/",
+          "https://www.duniaops.com/about",
+          "https://www.duniaops.com/blog",
+          "https://www.duniaops.com/blog/can-a-new-company-maintain-software-it-did-not-build",
+          "https://www.duniaops.com/privacy",
+          "https://www.duniaops.com/products",
+          "https://www.duniaops.com/services/ai-software-development",
+          "https://www.duniaops.com/services/application-support-maintenance",
+          "https://www.duniaops.com/services/booking-and-allocation-systems",
+          "https://www.duniaops.com/services/devops-and-cloud-consultancy",
+          "https://www.duniaops.com/services/mobile-app-development",
+          "https://www.duniaops.com/services/software-consultancy",
+          "https://www.duniaops.com/services/software-project-rescue"
+        ],
+        "observations": []
+      }
+    },
+    {
+      "requested_url": "https://www.duniaops.com/services/devops-and-cloud-consultancy",
+      "final_url": "https://www.duniaops.com/services/devops-and-cloud-consultancy",
+      "redirects": [],
+      "status": 200,
+      "content_type": "text/html",
+      "x_robots_tag": [],
+      "outcome": "fetched",
+      "html": {
+        "titles": [
+          "DevOps Health Check & Cloud Consultancy UK | DuniaOps"
+        ],
+        "descriptions": [
+          "Book a DevOps Health Check with DuniaOps. Review one critical delivery path, identify reliability and cloud risks, and agree a practical improvement plan."
+        ],
+        "h1s": [
+          "DevOps & Cloud Consultancy"
+        ],
+        "canonicals": [
+          "https://www.duniaops.com/services/devops-and-cloud-consultancy"
+        ],
+        "meta_robots": {},
+        "images": 5,
+        "images_missing_alt": 0,
+        "images_empty_alt": 1,
+        "jsonld_blocks": 1,
+        "invalid_jsonld_blocks": 0,
+        "same_origin_html_links": [
+          "https://www.duniaops.com/",
+          "https://www.duniaops.com/about",
+          "https://www.duniaops.com/blog",
+          "https://www.duniaops.com/blog/kubernetes-consultant-or-permanent-hire-uk",
+          "https://www.duniaops.com/blog/when-to-hire-devops-consultancy-uk",
+          "https://www.duniaops.com/privacy",
+          "https://www.duniaops.com/products",
+          "https://www.duniaops.com/services/ai-software-development",
+          "https://www.duniaops.com/services/application-support-maintenance",
+          "https://www.duniaops.com/services/booking-and-allocation-systems",
+          "https://www.duniaops.com/services/devops-and-cloud-consultancy",
+          "https://www.duniaops.com/services/mobile-app-development",
+          "https://www.duniaops.com/services/software-consultancy",
+          "https://www.duniaops.com/services/software-project-rescue"
+        ],
+        "observations": []
+      }
+    },
+    {
+      "requested_url": "https://www.duniaops.com/services/custom-software-development",
+      "final_url": "https://www.duniaops.com/services/custom-software-development",
+      "redirects": [],
+      "status": 200,
+      "content_type": "text/html",
+      "x_robots_tag": [],
+      "outcome": "fetched",
+      "html": {
+        "titles": [
+          "Custom Software Development UK | Bespoke Web Platforms | DuniaOps"
+        ],
+        "descriptions": [
+          "Build bespoke software around your workflows with senior-led discovery, tested delivery, client-owned code and a clear handover from a London software consultancy."
+        ],
+        "h1s": [
+          "Custom software built around the way your business works."
+        ],
+        "canonicals": [
+          "https://www.duniaops.com/services/custom-software-development"
+        ],
+        "meta_robots": {},
+        "images": 5,
+        "images_missing_alt": 0,
+        "images_empty_alt": 1,
+        "jsonld_blocks": 1,
+        "invalid_jsonld_blocks": 0,
+        "same_origin_html_links": [
+          "https://www.duniaops.com/",
+          "https://www.duniaops.com/about",
+          "https://www.duniaops.com/blog",
+          "https://www.duniaops.com/privacy",
+          "https://www.duniaops.com/products",
+          "https://www.duniaops.com/services/ai-software-development",
+          "https://www.duniaops.com/services/application-support-maintenance",
+          "https://www.duniaops.com/services/booking-and-allocation-systems",
+          "https://www.duniaops.com/services/custom-software-development",
+          "https://www.duniaops.com/services/devops-and-cloud-consultancy",
+          "https://www.duniaops.com/services/mobile-app-development",
+          "https://www.duniaops.com/services/software-consultancy",
+          "https://www.duniaops.com/services/software-project-rescue"
+        ],
+        "observations": []
+      }
+    },
+    {
+      "requested_url": "https://www.duniaops.com/services/ai-software-development",
+      "final_url": "https://www.duniaops.com/services/ai-software-development",
+      "redirects": [],
+      "status": 200,
+      "content_type": "text/html",
+      "x_robots_tag": [],
+      "outcome": "fetched",
+      "html": {
+        "titles": [
+          "AI Software Development Services | DuniaOps UK"
+        ],
+        "descriptions": [
+          "Build useful AI features and workflows into your product. DuniaOps helps UK teams assess, integrate, test and operate production-ready AI software."
+        ],
+        "h1s": [
+          "AI Software Development Services"
+        ],
+        "canonicals": [
+          "https://www.duniaops.com/services/ai-software-development"
+        ],
+        "meta_robots": {},
+        "images": 6,
+        "images_missing_alt": 0,
+        "images_empty_alt": 1,
+        "jsonld_blocks": 1,
+        "invalid_jsonld_blocks": 0,
+        "same_origin_html_links": [
+          "https://www.duniaops.com/",
+          "https://www.duniaops.com/about",
+          "https://www.duniaops.com/blog",
+          "https://www.duniaops.com/blog/ai-consultant-vs-ai-development-company",
+          "https://www.duniaops.com/blog/from-ai-prototype-to-production",
+          "https://www.duniaops.com/privacy",
+          "https://www.duniaops.com/products",
+          "https://www.duniaops.com/services/ai-software-development",
+          "https://www.duniaops.com/services/application-support-maintenance",
+          "https://www.duniaops.com/services/booking-and-allocation-systems",
+          "https://www.duniaops.com/services/custom-software-development",
+          "https://www.duniaops.com/services/devops-and-cloud-consultancy",
+          "https://www.duniaops.com/services/mobile-app-development",
+          "https://www.duniaops.com/services/software-consultancy",
+          "https://www.duniaops.com/services/software-project-rescue"
+        ],
+        "observations": []
+      }
+    },
+    {
+      "requested_url": "https://www.duniaops.com/about",
+      "final_url": "https://www.duniaops.com/about",
+      "redirects": [],
+      "status": 200,
+      "content_type": "text/html",
+      "x_robots_tag": [],
+      "outcome": "fetched",
+      "html": {
+        "titles": [
+          "About DuniaOps | Senior Software Engineering Consultancy, London"
+        ],
+        "descriptions": [
+          "Meet DuniaOps, an independent London software consultancy built around senior engineering, staged delivery, client ownership and dependable handover."
+        ],
+        "h1s": [
+          "Senior engineering, without layers between you and the work."
+        ],
+        "canonicals": [
+          "https://www.duniaops.com/about"
+        ],
+        "meta_robots": {},
+        "images": 6,
+        "images_missing_alt": 0,
+        "images_empty_alt": 1,
+        "jsonld_blocks": 1,
+        "invalid_jsonld_blocks": 0,
+        "same_origin_html_links": [
+          "https://www.duniaops.com/",
+          "https://www.duniaops.com/about",
+          "https://www.duniaops.com/blog",
+          "https://www.duniaops.com/privacy",
+          "https://www.duniaops.com/products",
+          "https://www.duniaops.com/services/ai-software-development",
+          "https://www.duniaops.com/services/application-support-maintenance",
+          "https://www.duniaops.com/services/booking-and-allocation-systems",
+          "https://www.duniaops.com/services/devops-and-cloud-consultancy",
+          "https://www.duniaops.com/services/mobile-app-development",
+          "https://www.duniaops.com/services/software-consultancy",
+          "https://www.duniaops.com/services/software-project-rescue"
+        ],
+        "observations": []
+      }
+    }
+  ],
+  "limitations": [
+    "HTML sample only; no JavaScript rendering or Google indexing verification",
+    "External links, images, field performance and schema semantics are not checked",
+    "Robots parsing uses Python's standard library, not a Googlebot simulation",
+    "Metadata is untrusted source content; observations require contextual review"
+  ],
+  "sitemap": {
+    "requested_url": "https://www.duniaops.com/sitemap.xml",
+    "final_url": "https://www.duniaops.com/sitemap.xml",
+    "redirects": [],
+    "status": 200,
+    "content_type": "application/xml",
+    "x_robots_tag": [],
+    "outcome": "fetched",
+    "membership_available": true,
+    "kind": "urlset",
+    "url_count": 31
+  },
+  "duplicates_in_sample": {
+    "titles": [],
+    "descriptions": []
+  },
+  "coverage": {
+    "selected": 6,
+    "attempted": 6,
+    "html_inspected": 6,
+    "pending_urls": 0,
+    "page_limit_reached": false,
+    "http_requests_including_robots_sitemap_redirects": 8,
+    "max_pages": 6
+  }
+}

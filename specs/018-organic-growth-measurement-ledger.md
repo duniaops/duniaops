@@ -1,6 +1,6 @@
 # Organic Growth Measurement Ledger
 
-**Status:** Active — W06 AI service/article first served in production on 13 October at 07:40:41 UTC; both were indexed on 16 October, while W06 conversion remains NOT VERIFIED (7/14/28-day cohorts due 20 October / 27 October / 10 November). W07's authorised DevOps production form test completed 19 October: Netlify verified `test_submission=true`, GA4 Realtime recorded one `generate_lead` with the test flag, the configured notification arrived and the private ledger is reconciled to 5 measurement tests, 0 qualified organic and 0 unresolved. W05 cost article first production availability is verified as 9 October 2026 16:39 BST; Search Console's complete 7-day read through 16 October is 0 impressions / 0 clicks and URL Inspection remains `Discovered – currently not indexed`; 14/28-day observations due 23 October / 6 November. Custom Software remains URL-unknown despite an indexable live test and successful sitemap; no repeat request. Application Support's 16 October rolling 28-day report is 51 impressions, 0 clicks, position 73.2, not an exact first-live 28-day cohort. Detailed evidence and historical source snapshots follow; no prospect PII is stored here.
+**Status:** Active — W06 AI service/article first served in production on 13 October at 07:40:41 UTC; both were indexed on 16 October. Its first complete seven-date GSC cohort (14–20 October) was captured 22 October; conversion remains NOT VERIFIED, and 14/28-day cohorts are due 27 October / 10 November. W07's authorised DevOps production form test completed 19 October: Netlify verified `test_submission=true`, GA4 Realtime recorded one `generate_lead` with the test flag, the configured notification arrived and the private ledger is reconciled to 5 measurement tests, 0 qualified organic and 0 unresolved. W05 cost article first production availability is verified as 9 October 2026 16:39 BST; Search Console's complete 7-day read through 16 October is 0 impressions / 0 clicks and URL Inspection remains `Discovered – currently not indexed`; 14/28-day observations due 23 October / 6 November. Custom Software remains URL-unknown despite an indexable live test and successful sitemap; no repeat request. Application Support's 16 October rolling 28-day report is 51 impressions, 0 clicks, position 73.2, not an exact first-live 28-day cohort. Detailed evidence and historical source snapshots follow; no prospect PII is stored here.
 **Programme owner:** ibrahim uylas
 **Measurement owner:** ibrahim uylas
 **Depends on:** `003-organic-client-acquisition-90-day-program.md`
@@ -300,3 +300,49 @@ Every Friday and checkpoint update must include the capture date, exact source w
 ## W07 Conversion Verification — 19 October 2026
 
 One explicitly authorised synthetic DevOps enquiry was submitted through `https://www.duniaops.com/?service=devops_cloud&from=devops_cloud&measurement_test=1#contact` at 15:17 BST (14:17 UTC). Netlify's verified `project-enquiry` record showed `project_enquiry_v2`, `landing_page_group=devops_cloud`, `service_category=devops_cloud` and `test_submission=true`; the configured notification was received. GA4 Realtime showed one `generate_lead` and `test_submission=true`. The access-restricted `DuniaOps Organic Lead Ledger` now records one additional test with unknown acquisition channel and no prospect data: total 5 tests, 0 qualified organic enquiries and 0 unresolved. No submission ID, name, email or enquiry text is stored in this repository. The test is explicitly excluded from the customer-lead KPI. Source paths: `index.html` and `services/devops-and-cloud-consultancy.html`; live entry URL: `https://www.duniaops.com/?service=devops_cloud&from=devops_cloud&measurement_test=1#contact`; success URL: `https://www.duniaops.com/thank-you`; event date 19 October 2026; owner Ibrahim Uylas; annotation `W07 production conversion QA`; no site source or deployment changed. W07 7/14/28-day observations remain due 26 October / 2 November / 16 November. W06 conversion remains a separate NOT VERIFIED item due 20 October / 27 October / 10 November.
+
+## W06 First Complete Seven-Date GSC Cohort — 22 October 2026
+
+Read-only Google Search Console Web reports for exact page filters in property
+`sc-domain:duniaops.com`, captured 22 October; each report said “Last update: 4
+hours ago” and covered 14–20 October, the first seven complete calendar dates
+after the partial first-live date on 13 October. AI service source
+`services/ai-software-development.html` →
+`https://www.duniaops.com/services/ai-software-development`: 39 impressions, 0
+clicks, 0% CTR, average position 62.7. AI decision article source
+`content/blog/ai-consultant-vs-ai-development-company.md` →
+`https://www.duniaops.com/blog/ai-consultant-vs-ai-development-company`: 86
+impressions, 0 clicks, 0% CTR, average position 78.5. These are small early
+discovery signals, not evidence of lead or business impact. The service report
+showed five queries; the article report showed 15. Both URLs were already
+recorded as indexed by URL Inspection on 16 October. Owner Ibrahim Uylas;
+annotation `W06 first complete seven-date GSC cohort`; source commit `fb06c88`,
+production deploy `6ad16dbed6ce22019808a29b`. No account or site state changed.
+Conversion remains NOT VERIFIED because no AI-prefilled form test or attributed
+qualified enquiry was recorded. Next Search Console cohorts: 27 October / 10
+November. Reconcile any genuine enquiry only through the existing private ledger.
+
+## AI Visibility Sample — 20 October 2026
+
+Applied `duniaops-seo-opportunities` to five corporate service intents. The
+[assessment and exact ten-question set](../docs/ai-search-visibility-2026-10-20.md)
+record fresh temporary-chat observations with ChatGPT Web search and the visible
+Instant selector, captured 07:00–07:09 UTC (08:00–08:09 BST). Five final answers
+were readable: 0/5 mentioned DuniaOps and 0/5 visibly linked to a DuniaOps URL.
+Five response-loading failures are unavailable and excluded from the denominator;
+other AI answer surfaces were not sampled. This is not a market-wide visibility
+rate or a new qualified-lead observation.
+
+The accompanying public HTML audits cover five service pages, About and seven
+articles: all 13 returned HTTP 200 with matching canonicals and no observed
+noindex directive. Actual AI crawler access and current search-engine indexing
+were not established by those checks. Bing Webmaster Tools reached an account
+selection screen after an initial service error; no site AI Performance report
+was available. No GSC/GA4/private-ledger refresh, form test, indexing submission,
+crawler-policy change or publication was performed.
+
+Decision: retain the W08 proof/checklist plan, prioritise concrete permitted
+evidence, and add a contextual Custom Software service-to-cost-guide link in a
+future implementation. Keep existing indexing and conversion follow-ups open.
+Owner: Ibrahim Uylas. Proposed repeat: 10 November, conditional on actual
+publication/discovery progress; no automation was created.
