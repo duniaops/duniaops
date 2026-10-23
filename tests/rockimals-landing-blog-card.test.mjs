@@ -135,6 +135,13 @@ test('localized YouTube video embeds directly and autoplays muted only in view',
   assert.equal(calls.at(-1), 'pause');
 });
 
+test('production CSP permits the embedded player and its API without removing frame protection', async () => {
+  const headers = await readFile(new URL('../_headers', import.meta.url), 'utf8');
+  assert.match(headers, /script-src [^;]*https:\/\/www\.youtube\.com;/);
+  assert.match(headers, /frame-src https:\/\/www\.youtube-nocookie\.com;/);
+  assert.match(headers, /frame-ancestors 'none';/);
+});
+
 test('parent guide links appear only after all eight locales are published', async () => {
   const sources = await loadRockimalsBlogSources({
     contentDir: fileURLToPath(new URL('../content/rockimals-blog/', import.meta.url))
