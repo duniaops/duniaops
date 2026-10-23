@@ -70,7 +70,7 @@ So bleibt die wissenschaftliche Frage mit etwas verbunden, das direkt in der App
 
 Rockimals kann über den geprüften britischen App-Store-Eintrag kostenlos geladen werden. Das optionale Plus-Angebot erscheint nur hinter der Erwachsenenabfrage. Laut Store-Beschreibung gibt es keine Werbung und keine Kinderkonten. Für die Bereitstellung und den Schutz des Dienstes werden dennoch begrenzte technische Daten verarbeitet. „Kein Konto“ bedeutet deshalb nicht, dass überhaupt keine Daten verarbeitet werden. Die aktuelle [Rockimals-Datenschutzerklärung](https://rockimals.duniaops.com/privacy-policy) beschreibt diese Kategorien.
 
-Im App Store ist Rockimals mit **4+** eingestuft. Dieser Leitfaden richtet sich vor allem an Erwachsene, die gemeinsam mit Kindern zwischen 6 und 8 Jahren entdecken. Diese redaktionelle Zielgruppe ersetzt weder die Store-Einstufung noch verspricht sie, dass jedes Kind die App auf dieselbe Weise nutzt.
+Im App Store ist Rockimals mit **4+** eingestuft. Dieser Leitfaden richtet sich vor allem an Erwachsene, die gemeinsam mit Kindern zwischen 3 und 10 Jahren entdecken. Diese redaktionelle Zielgruppe ersetzt weder die Store-Einstufung noch verspricht sie, dass jedes Kind die App auf dieselbe Weise nutzt. Jüngere Kinder können gemeinsam mit einem Elternteil entdecken.
 
 Rockimals nutzt NASA/JPL-Daten zu erdnahen Objekten, ist aber eine unabhängige App und weder mit der NASA verbunden noch von ihr empfohlen.
 

@@ -70,7 +70,7 @@ Böylece bilim sorusu, uygulamada görülebilen somut bir örnekle bağlantılı
 
 Rockimals, doğrulanan Birleşik Krallık App Store kaydında ücretsiz indirilebilir; isteğe bağlı Plus erişimi yalnızca ebeveyn kapısının arkasında sunulur. Mağaza açıklamasına göre uygulamada reklam ve çocuk hesabı yoktur. Hizmeti sunmak ve korumak için yine de sınırlı teknik veriler işlenir; bu nedenle “hesap yok” ifadesi “hiç veri işlenmez” anlamına gelmez. Güncel kategoriler [Rockimals gizlilik politikasında](https://rockimals.duniaops.com/privacy-policy) açıklanır.
 
-App Store yaş derecelendirmesi **4+**'dır. Bu rehber öncelikle 6–8 yaşındaki çocuklarla birlikte keşfeden yetişkinler için yazılmıştır; editoryal hedef yaş, mağaza derecelendirmesinin yerine geçmez ve her çocuğun uygulamayı aynı biçimde kullanacağını garanti etmez.
+App Store yaş derecelendirmesi **4+**'dır. Bu rehber öncelikle 3–10 yaşındaki çocuklarla birlikte keşfeden yetişkinler için yazılmıştır; editoryal hedef yaş, mağaza derecelendirmesinin yerine geçmez ve her çocuğun uygulamayı aynı biçimde kullanacağını garanti etmez. Küçük çocuklar ebeveynleriyle birlikte keşfedebilir.
 
 Rockimals, NASA/JPL'nin Dünya'ya yakın gökcismi verilerini kullanır; bağımsız bir uygulamadır ve NASA ile bağlantılı değildir veya NASA tarafından onaylanmamıştır.
 

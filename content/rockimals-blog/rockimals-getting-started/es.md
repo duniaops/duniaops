@@ -70,7 +70,7 @@ Así, la pregunta científica queda relacionada con algo visible en la aplicaci�
 
 Rockimals se puede descargar gratis desde la ficha verificada del App Store del Reino Unido. La opción Plus solo aparece tras la comprobación para adultos. La ficha indica que no hay anuncios ni cuentas infantiles. Aun así, se procesan algunos datos técnicos limitados para prestar y proteger el servicio; «sin cuenta» no significa que nunca se procese ningún dato. La [política de privacidad de Rockimals](https://rockimals.duniaops.com/privacy-policy) explica las categorías actuales.
 
-Rockimals tiene una clasificación de edad **4+** en el App Store. Esta guía se dirige principalmente a personas adultas que exploran con niños de 6 a 8 años. Ese público editorial no sustituye la clasificación de la tienda ni promete que todos los niños usarán la aplicación de la misma forma.
+Rockimals tiene una clasificación de edad **4+** en el App Store. Esta guía se dirige principalmente a personas adultas que exploran con niños de 3 a 10 años. Ese público editorial no sustituye la clasificación de la tienda ni promete que todos los niños usarán la aplicación de la misma forma. Los más pequeños pueden explorar con sus padres.
 
 Rockimals utiliza datos de NASA/JPL sobre objetos cercanos a la Tierra, pero es una aplicación independiente y no está afiliada ni respaldada por la NASA.
 

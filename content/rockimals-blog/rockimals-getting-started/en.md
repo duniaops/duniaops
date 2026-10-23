@@ -70,7 +70,7 @@ This keeps the science question connected to something visible in the app.
 
 Rockimals is free to download on the verified UK App Store listing, with optional Plus access offered behind a parent gate. The listing says there are no ads or child accounts. The app still processes limited technical data needed to provide and protect the service, so “no account” should not be read as “no data is ever processed.” The current [Rockimals privacy policy](https://rockimals.duniaops.com/privacy-policy) explains those categories.
 
-The App Store rates Rockimals **4+**. This guide is written primarily for adults exploring with children aged 6–8; that editorial audience is not a replacement for the store rating or a promise that every child will use the app in the same way.
+The App Store rates Rockimals **4+**. This guide is written primarily for adults exploring with children aged 3–10; that editorial audience is not a replacement for the store rating or a promise that every child will use the app in the same way. Younger children can explore with a parent.
 
 Rockimals uses NASA/JPL near-Earth object data, but it is an independent app and is not affiliated with or endorsed by NASA.
 
