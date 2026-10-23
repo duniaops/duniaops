@@ -108,6 +108,70 @@
   });
 })();
 
+// Keep the YouTube player visible; autoplay muted only while it is in view.
+(() => {
+  const feature = document.querySelector('[data-rockimals-video-id]');
+  if (!feature) return;
+  const frameSlot = feature.querySelector('[data-rockimals-video-frame]');
+  const videoId = feature.dataset.rockimalsVideoId;
+  if (!frameSlot || !/^[\w-]{11}$/.test(videoId)) return;
+
+  const frame = document.createElement('iframe');
+  frame.title = feature.querySelector('h2')?.textContent || 'Rockimals video';
+  frame.loading = 'lazy';
+  frame.allow = 'autoplay; encrypted-media; picture-in-picture; fullscreen';
+  frame.allowFullscreen = true;
+  frame.width = '900';
+  frame.height = '506';
+  frame.src = `https://www.youtube-nocookie.com/embed/${videoId}?enablejsapi=1&playsinline=1&rel=0&origin=${encodeURIComponent(window.location.origin)}`;
+  frameSlot.append(frame);
+
+  const reduced = window.matchMedia('(prefers-reduced-motion: reduce)');
+  let player;
+  let ready = false;
+  let visible = false;
+  let apiRequested = false;
+  const sync = () => {
+    if (!ready) return;
+    if (visible && !document.hidden && !reduced.matches) {
+      player.mute();
+      player.playVideo();
+    } else {
+      player.pauseVideo();
+    }
+  };
+  const initPlayer = () => {
+    player = new window.YT.Player(frame, {
+      events: { onReady: () => { ready = true; sync(); } }
+    });
+  };
+  const loadApi = () => {
+    if (apiRequested) return;
+    apiRequested = true;
+    if (window.YT?.Player) {
+      initPlayer();
+      return;
+    }
+    window.onYouTubeIframeAPIReady = initPlayer;
+    const script = document.createElement('script');
+    script.src = 'https://www.youtube.com/iframe_api';
+    script.async = true;
+    document.head.append(script);
+  };
+  if ('IntersectionObserver' in window) {
+    new IntersectionObserver((entries) => {
+      visible = entries.some((entry) => entry.intersectionRatio >= 0.5);
+      if (visible) loadApi();
+      sync();
+    }, { threshold: [0, 0.5, 1] }).observe(frameSlot);
+  } else {
+    visible = true;
+    loadApi();
+  }
+  document.addEventListener('visibilitychange', sync);
+  reduced.addEventListener?.('change', sync);
+})();
+
 // The hero loop (website spec 035): plays muted only while it is on screen,
 // and never when the visitor asks for reduced motion — then the poster stays.
 (() => {

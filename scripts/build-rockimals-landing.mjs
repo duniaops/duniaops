@@ -33,7 +33,13 @@ const blogManifest = createRockimalsBlogManifest(await loadRockimalsBlogSources(
 }));
 const featuredTopic = blogManifest.topics.find((topic) => topic.translationKey === 'rockimals-getting-started');
 
-for (const locale of localeOrder) assert.ok(locales[locale], `Missing Rockimals locale: ${locale}`);
+for (const locale of localeOrder) {
+  assert.ok(locales[locale], `Missing Rockimals locale: ${locale}`);
+  assert.ok(locales[locale].videoTitle, `Missing video title: ${locale}`);
+  const videoUrl = new URL(locales[locale].videoUrl);
+  assert.equal(videoUrl.origin, 'https://www.youtube.com', `Unexpected video host: ${locale}`);
+  assert.match(videoUrl.searchParams.get('v') ?? '', /^[\w-]{11}$/, `Invalid video ID: ${locale}`);
+}
 
 const esc = (value) => String(value).replaceAll('&', '&amp;').replaceAll('"', '&quot;').replaceAll('<', '&lt;').replaceAll('>', '&gt;');
 const text = (value) => esc(value).replaceAll('’', '&rsquo;');
@@ -62,8 +68,10 @@ function render(code) {
   const todayOrbs = ['mouse', 'tiger', 'whale']
     .map((hero) => `<img src="/assets/products/rockimals-heroes/loops/${hero}.webp" alt="" width="72" height="72" loading="lazy" decoding="async">`).join('');
   const todayCard = `<section aria-labelledby="rk-today-title"><a class="rk-today-card" href="${todayPath}"><span class="rk-today-orbs" aria-hidden="true">${todayOrbs}</span><span class="rk-today-copy"><span class="rk-today-eyebrow">${text(ROCKIMALS_TODAY_UI[code].kicker)}</span><strong id="rk-today-title">${text(ROCKIMALS_TODAY_UI[code].title)}</strong><span class="rk-today-lead"><span data-rockimals-today-count></span>${text(l.todayCardText)}</span></span><span class="rk-today-cta">${text(l.todayCardCta)} <span aria-hidden="true">→</span></span></a></section>`;
-  // Both cards share the band that overlaps the hero's lower edge.
-  const highlights = `<div class="rk-blog-highlight"><div class="rk-wrap rk-highlight-stack">${todayCard}${blogCard}</div></div>`;
+  const videoId = new URL(l.videoUrl).searchParams.get('v');
+  const videoCard = `<section class="rk-video-feature" data-rockimals-video-id="${esc(videoId)}" aria-labelledby="rk-video-title"><div class="rk-video-heading"><p class="rk-video-eyebrow">Rockimals · 30s</p><h2 id="rk-video-title">${text(l.videoTitle)}</h2></div><div class="rk-video-frame-wrap" data-rockimals-video-frame></div></section>`;
+  // The embedded video and existing cards share the band below the hero.
+  const highlights = `<div class="rk-blog-highlight"><div class="rk-wrap rk-highlight-stack">${videoCard}${todayCard}${blogCard}</div></div>`;
   const canonical = `https://rockimals.duniaops.com/${code === 'en' ? '' : code}`;
   const blogPath = `https://rockimals.duniaops.com${code === 'en' ? '/blog' : `/${code}/blog`}`;
   const screenshot = (name) => `/assets/products/rockimals-preview/${code}/${name}.jpg?v=20261017-150`;
@@ -87,7 +95,7 @@ ${alternateLinks}
 <meta name="twitter:card" content="summary_large_image"><meta name="twitter:title" content="${text(l.title)}"><meta name="twitter:description" content="${text(l.description)}"><meta name="twitter:image" content="https://rockimals.duniaops.com/assets/products/rockimals-card-hero.png?v=20260919">
 <meta name="theme-color" content="#07101d"><link rel="icon" type="image/png" href="/assets/products/rockimals-icon.png?v=20260919">
 <link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin><link href="https://fonts.googleapis.com/css2?family=Fredoka:wght@500;600;700&amp;family=Inter:wght@400;500;600;700;800&amp;display=swap" rel="stylesheet">
-<link rel="stylesheet" href="/css/rockimals-landing.css?v=20261017-150"><script src="/js/rockimals-landing.js?v=20261007-language-preview" defer></script>${ROCKIMALS_STICKY_CTA_ASSETS}
+<link rel="stylesheet" href="/css/rockimals-landing.css?v=20261023-video-autoplay"><script src="/js/rockimals-landing.js?v=20261023-video-autoplay" defer></script>${ROCKIMALS_STICKY_CTA_ASSETS}
 <script type="application/ld+json">${JSON.stringify({ '@context': 'https://schema.org', '@type': 'SoftwareApplication', name: 'Rockimals', applicationCategory: 'EducationalApplication', operatingSystem: 'iOS 15.0 or later; Android', description: l.description, url: canonical, downloadUrl: [appStoreUrl, ROCKIMALS_GOOGLE_PLAY_URL], publisher: { '@type': 'Organization', name: 'DuniaOps', url: 'https://www.duniaops.com/' }, audience: { '@type': 'PeopleAudience', suggestedMinAge: 6, suggestedMaxAge: 8 }, offers: { '@type': 'Offer', price: '0', priceCurrency: 'GBP', availability: 'https://schema.org/InStock', description: 'Free download with an optional Rockimals Plus subscription.' } })}</script>
 </head>
 <body class="rk-page" data-rockimals-page data-locale="${code}">
