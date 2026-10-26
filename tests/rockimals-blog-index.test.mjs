@@ -84,6 +84,18 @@ test('latest guides put the newest category and its newest card first', () => {
   assert.ok(listings.indexOf('New asteroid guide') < listings.indexOf('Old asteroid guide'));
 });
 
+test('only one-card categories use their natural height', () => {
+  const manifest = { posts: [
+    manifestPost('tr', { category: 'learn-space' }),
+    manifestPost('tr', { translationKey: 'parent-one', category: 'family-guide' }),
+    manifestPost('tr', { translationKey: 'parent-two', category: 'family-guide' })
+  ] };
+  const html = renderRockimalsBlogIndex({ manifest, locale: 'tr' });
+
+  assert.match(html, /<section class="rkb-index-section-single" aria-labelledby="category-learn-space">/);
+  assert.match(html, /<section aria-labelledby="category-family-guide">/);
+});
+
 test('empty indexes show a useful state without cards, filters, or invented links', () => {
   const html = renderRockimalsBlogIndex({ manifest: { posts: [] }, locale: 'en' });
 
@@ -124,13 +136,16 @@ test('the product landing source provides a localized blog navigation label for 
 test('index CSS includes responsive cards and keyboard-visible native language navigation', async () => {
   const css = await readFile(new URL('../css/rockimals-blog.css', import.meta.url), 'utf8');
   assert.match(css, /\.rkb-index-sections \{[^}]+grid-template-columns: repeat\(3/);
-  assert.match(css, /\.rkb-index-sections \{[^}]+grid-auto-rows: 1fr/);
+  assert.match(css, /\.rkb-index-sections \{[^}]+grid-auto-rows: auto/);
   assert.match(css, /\.rkb-index-sections \{[^}]+align-items: stretch/);
+  assert.match(css, /\.rkb-index-sections > \.rkb-index-section-single \{ align-self: start; \}/);
+  assert.match(css, /\.rkb-index-section-heading h2 \{ min-height: 2\.16em; \}/);
   assert.match(css, /\.rkb-index-grid \{[^}]+grid-auto-rows: 1fr/);
   assert.match(css, /\.rkb-index-card \{[^}]+flex-direction: column/);
   assert.match(css, /@media \(max-width: 900px\) \{[\s\S]+?\.rkb-index-sections \{ grid-template-columns: repeat\(2/);
   assert.match(css, /\.rkb-language summary:focus-visible/);
-  assert.match(css, /\.rkb-index-sections \{ grid-template-columns: 1fr; gap: 46px; \}/);
+  assert.match(css, /\.rkb-index-sections \{ grid-template-columns: 1fr; grid-auto-rows: auto; align-items: start; gap: 46px; \}/);
+  assert.match(css, /\.rkb-index-section-heading h2 \{ min-height: 0; \}/);
   assert.doesNotMatch(css, /\.rkb-index-card:only-child/);
   assert.match(css, /\.rkb-index-read \{[^}]+align-self: flex-end;[^}]+text-decoration: none;/);
 });
