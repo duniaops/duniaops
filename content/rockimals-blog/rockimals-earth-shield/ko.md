@@ -8,8 +8,8 @@ category: "discover-game"
 published: "2099-01-01T10:00:00Z"
 updated: "2099-01-01T10:00:00Z"
 draft: true
-image: "/assets/rockimals-blog/rockimals-earth-shield/cover.jpg"
-imageAlt: "빛나는 지구 방패 앞의 우주 바위에 앉은 여우 Barney와 토끼 Tavi의 Rockimals 공식 그림. 실제 게임 화면은 아님"
+image: "/assets/rockimals-blog/rockimals-earth-shield/cover-v2.jpg"
+imageAlt: "Rockimals 게임 속 코끼리 Bobo와 공룡 Ciko가 그림으로 표현한 지구와 빛나는 방패 옆에 있는 장면. 실제 게임 화면은 아님"
 author:
   id: "duniaops-team"
   name: "DuniaOps Team"

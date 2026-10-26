@@ -8,8 +8,8 @@ category: "discover-game"
 published: "2099-01-01T10:00:00Z"
 updated: "2099-01-01T10:00:00Z"
 draft: true
-image: "/assets/rockimals-blog/rockimals-earth-shield/cover.jpg"
-imageAlt: "Rockimals 官方插画：狐狸 Barney 和兔子 Tavi 站在太空岩石上，身后是地球和发光护盾；并非游戏截图"
+image: "/assets/rockimals-blog/rockimals-earth-shield/cover-v2.jpg"
+imageAlt: "Rockimals 游戏角色大象 Bobo 和恐龙 Ciko 出现在绘制的地球及发光护盾旁；并非游戏截图"
 author:
   id: "duniaops-team"
   name: "DuniaOps Team"

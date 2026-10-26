@@ -8,8 +8,8 @@ category: "discover-game"
 published: "2099-01-01T10:00:00Z"
 updated: "2099-01-01T10:00:00Z"
 draft: true
-image: "/assets/rockimals-blog/rockimals-earth-shield/cover.jpg"
-imageAlt: "Offizielle Rockimals-Illustration: Fuchs Barney und Hase Tavi sitzen auf Weltraumfelsen vor der Erde mit ihrem leuchtenden Schild; kein Screenshot des Spiels"
+image: "/assets/rockimals-blog/rockimals-earth-shield/cover-v2.jpg"
+imageAlt: "Die Rockimals-Spielfiguren Bobo der Elefant und Ciko der Dino neben einer illustrierten Erde mit leuchtendem Schild; kein Screenshot des Spiels"
 author:
   id: "duniaops-team"
   name: "DuniaOps Team"

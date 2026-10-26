@@ -8,8 +8,8 @@ category: "discover-game"
 published: "2099-01-01T10:00:00Z"
 updated: "2099-01-01T10:00:00Z"
 draft: true
-image: "/assets/rockimals-blog/rockimals-earth-shield/cover.jpg"
-imageAlt: "Ilustración oficial de Rockimals con Barney el zorro y Tavi el conejo sobre rocas espaciales ante la Tierra y su escudo luminoso; no es una captura del juego"
+image: "/assets/rockimals-blog/rockimals-earth-shield/cover-v2.jpg"
+imageAlt: "Bobo el elefante y Ciko el dinosaurio del juego Rockimals junto a la Tierra ilustrada y su escudo luminoso; no es una captura del juego"
 author:
   id: "duniaops-team"
   name: "DuniaOps Team"

@@ -214,11 +214,22 @@ let stars: [(CGFloat, CGFloat, CGFloat)] = [
 ]
 
 if CommandLine.arguments.contains("--earth-shield-cover-only") {
-    // Use the shipped Earth Shield scene as a continuous landscape crop.
-    // The image is a game illustration, not a screenshot or orbital diagram.
-    let heroes = try loadImage(gameRoot.appendingPathComponent("assets/images/earth_shield_result_hero.webp"))
-    try renderCover(output: outputRoot.appendingPathComponent("rockimals-earth-shield/cover.jpg")) {
-        drawImageCover(heroes, inside: NSRect(origin: .zero, size: canvasSize))
+    // Compose a new scene around exact game sprites: Bobo has not appeared on
+    // a blog cover before, and Ciko appears here as a smaller second visitor.
+    let background = try loadImage(siteRoot.appendingPathComponent("content/rockimals-blog/_editorial/earth-shield-background.png"))
+    let elephant = try loadImage(gameRoot.appendingPathComponent("assets/animals/transparent/elephant.webp"))
+    let dino = try loadImage(gameRoot.appendingPathComponent("assets/animals/transparent/dino.webp"))
+    try renderCover(output: outputRoot.appendingPathComponent("rockimals-earth-shield/cover-v2.jpg")) {
+        drawImageCover(background, inside: NSRect(origin: .zero, size: canvasSize))
+
+        let boboRect = NSRect(x: 55, y: 98, width: 440, height: 440)
+        NSGraphicsContext.saveGraphicsState()
+        NSBezierPath(ovalIn: boboRect).addClip()
+        drawImage(elephant, inside: boboRect)
+        NSGraphicsContext.restoreGraphicsState()
+
+        let cikoRect = NSRect(x: 815, y: 150, width: 340, height: 340)
+        drawImage(dino, inside: cikoRect)
     }
     exit(0)
 }

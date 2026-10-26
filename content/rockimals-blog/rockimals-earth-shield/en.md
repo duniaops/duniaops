@@ -8,8 +8,8 @@ category: "discover-game"
 published: "2099-01-01T10:00:00Z"
 updated: "2099-01-01T10:00:00Z"
 draft: true
-image: "/assets/rockimals-blog/rockimals-earth-shield/cover.jpg"
-imageAlt: "Official Rockimals artwork of Barney the fox and Tavi the rabbit on space rocks beside Earth and its glowing shield; an illustration, not a game screenshot"
+image: "/assets/rockimals-blog/rockimals-earth-shield/cover-v2.jpg"
+imageAlt: "Rockimals game characters Bobo the elephant and Ciko the dinosaur beside an illustrated Earth and glowing shield; not a game screenshot"
 author:
   id: "duniaops-team"
   name: "DuniaOps Team"

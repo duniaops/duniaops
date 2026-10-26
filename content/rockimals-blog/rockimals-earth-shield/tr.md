@@ -8,8 +8,8 @@ category: "discover-game"
 published: "2099-01-01T10:00:00Z"
 updated: "2099-01-01T10:00:00Z"
 draft: true
-image: "/assets/rockimals-blog/rockimals-earth-shield/cover.jpg"
-imageAlt: "Oyunun resmî çiziminde tilki Barney ve tavşan Tavi, Dünya'nın ışıklı kalkanı önünde uzay taşlarının üzerinde; oyun ekranı değil"
+image: "/assets/rockimals-blog/rockimals-earth-shield/cover-v2.jpg"
+imageAlt: "Rockimals oyunundaki fil Bobo ve dinozor Ciko, çizilmiş Dünya ve ışıklı kalkanın yanında; oyun ekranı değil"
 author:
   id: "duniaops-team"
   name: "DuniaOps Team"

@@ -8,8 +8,8 @@ category: "discover-game"
 published: "2099-01-01T10:00:00Z"
 updated: "2099-01-01T10:00:00Z"
 draft: true
-image: "/assets/rockimals-blog/rockimals-earth-shield/cover.jpg"
-imageAlt: "地球の光るシールドのそばで、宇宙の岩に乗ったキツネのBarneyとウサギのTaviを描いたRockimals公式イラスト。ゲーム画面ではありません"
+image: "/assets/rockimals-blog/rockimals-earth-shield/cover-v2.jpg"
+imageAlt: "RockimalsのゾウBoboと恐竜Cikoが、描かれた地球と光るシールドのそばにいるイラスト。ゲーム画面ではありません"
 author:
   id: "duniaops-team"
   name: "DuniaOps Team"

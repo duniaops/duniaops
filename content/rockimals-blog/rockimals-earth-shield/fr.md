@@ -8,8 +8,8 @@ category: "discover-game"
 published: "2099-01-01T10:00:00Z"
 updated: "2099-01-01T10:00:00Z"
 draft: true
-image: "/assets/rockimals-blog/rockimals-earth-shield/cover.jpg"
-imageAlt: "Illustration officielle de Rockimals montrant Barney le renard et Tavi le lapin sur des roches spatiales devant la Terre et son bouclier lumineux ; ce n'est pas une capture du jeu"
+image: "/assets/rockimals-blog/rockimals-earth-shield/cover-v2.jpg"
+imageAlt: "Bobo l'éléphant et Ciko le dinosaure du jeu Rockimals près d'une Terre illustrée et de son bouclier lumineux ; ce n'est pas une capture du jeu"
 author:
   id: "duniaops-team"
   name: "DuniaOps Team"
