@@ -3,7 +3,7 @@
   publish = "dist"
 
 [build.environment]
-  NODE_VERSION = "24"
+  NODE_VERSION = "24.22.1"
 
 # Rockimals blog: host-scoped canonical routes and host-owned discovery files.
 [[redirects]]
