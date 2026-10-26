@@ -5,9 +5,9 @@ slug: "cuanto-miden-los-asteroides-ninos"
 title: "¿Cuánto miden los asteroides? Comparaciones para niños"
 description: "Compara el diámetro de un asteroide con un autobús y un campo de fútbol; aprende qué es una estimación y conoce los ocho grupos de Rockimals."
 category: "learn-space"
-published: "2099-01-01T10:00:00Z"
-updated: "2099-01-01T10:00:00Z"
-draft: true
+published: "2026-10-26T11:26:12Z"
+updated: "2026-10-26T11:26:12Z"
+draft: false
 image: "/assets/rockimals-blog/asteroid-sizes-for-kids/cover-v2.jpg"
 imageAlt: "Niko, Kito, Ciko y Enoli, personajes oficiales de Rockimals, ante la Tierra y el espacio; imagen sin escala real"
 author:

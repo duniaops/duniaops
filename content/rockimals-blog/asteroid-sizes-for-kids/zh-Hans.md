@@ -5,9 +5,9 @@ slug: "xiaoxingxing-you-duoda-haizi"
 title: "小行星有多大？给孩子的尺寸比较"
 description: "把小行星直径与公交车和足球场比较，了解估计值，以及 Rockimals 的八级动物尺寸分组。"
 category: "learn-space"
-published: "2099-01-01T10:00:00Z"
-updated: "2099-01-01T10:00:00Z"
-draft: true
+published: "2026-10-26T11:26:12Z"
+updated: "2026-10-26T11:26:12Z"
+draft: false
 image: "/assets/rockimals-blog/asteroid-sizes-for-kids/cover-v2.jpg"
 imageAlt: "Rockimals 官方角色 Niko、Kito、Ciko 和 Enoli 位于地球与太空背景前；画面并非按真实比例绘制"
 author:

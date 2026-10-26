@@ -5,9 +5,9 @@ slug: "shouwakusei-no-ookisa-kodomo"
 title: "小惑星はどのくらい大きい？ 子どもと比べるサイズ"
 description: "小惑星の直径をバスやサッカー場と比べ、推定値の意味とRockimalsの8段階の動物を学びます。"
 category: "learn-space"
-published: "2099-01-01T10:00:00Z"
-updated: "2099-01-01T10:00:00Z"
-draft: true
+published: "2026-10-26T11:26:12Z"
+updated: "2026-10-26T11:26:12Z"
+draft: false
 image: "/assets/rockimals-blog/asteroid-sizes-for-kids/cover-v2.jpg"
 imageAlt: "地球と宇宙を背景にしたRockimals公式のNiko、Kito、Ciko、Enoli。実際の縮尺ではない"
 author:

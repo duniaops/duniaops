@@ -5,9 +5,9 @@ slug: "asteroitler-ne-kadar-buyuk"
 title: "Asteroitler Ne Kadar Büyük? Çocuklar İçin Boyut Rehberi"
 description: "Asteroit çapını otobüs ve futbol sahasıyla karşılaştırın; tahmini ölçüleri ve Rockimals'ın sekiz hayvanlı boyut eşlemesini öğrenin."
 category: "learn-space"
-published: "2099-01-01T10:00:00Z"
-updated: "2099-01-01T10:00:00Z"
-draft: true
+published: "2026-10-26T11:26:12Z"
+updated: "2026-10-26T11:26:12Z"
+draft: false
 image: "/assets/rockimals-blog/asteroid-sizes-for-kids/cover-v2.jpg"
 imageAlt: "Uzay ve Dünya manzarası önünde Rockimals'ın resmî Niko, Kito, Ciko ve Enoli çizimleri; görsel gerçek ölçekte değil"
 author:

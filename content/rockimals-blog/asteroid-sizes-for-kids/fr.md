@@ -5,9 +5,9 @@ slug: "taille-asteroides-enfants"
 title: "Quelle taille font les astéroïdes ? Comparaisons pour enfants"
 description: "Comparez le diamètre d'un astéroïde à un bus et à un terrain de football, puis découvrez les huit catégories animales de Rockimals."
 category: "learn-space"
-published: "2099-01-01T10:00:00Z"
-updated: "2099-01-01T10:00:00Z"
-draft: true
+published: "2026-10-26T11:26:12Z"
+updated: "2026-10-26T11:26:12Z"
+draft: false
 image: "/assets/rockimals-blog/asteroid-sizes-for-kids/cover-v2.jpg"
 imageAlt: "Niko, Kito, Ciko et Enoli, personnages officiels de Rockimals, devant la Terre et l'espace ; image non à l'échelle"
 author:

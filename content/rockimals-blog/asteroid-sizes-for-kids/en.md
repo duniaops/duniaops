@@ -5,9 +5,9 @@ slug: "how-big-are-asteroids-for-kids"
 title: "How Big Are Asteroids? A Size Guide for Kids"
 description: "Compare asteroid diameters with a bus and football pitch, learn why sizes are estimates, and meet Rockimals' eight size-band animals."
 category: "learn-space"
-published: "2099-01-01T10:00:00Z"
-updated: "2099-01-01T10:00:00Z"
-draft: true
+published: "2026-10-26T11:26:12Z"
+updated: "2026-10-26T11:26:12Z"
+draft: false
 image: "/assets/rockimals-blog/asteroid-sizes-for-kids/cover-v2.jpg"
 imageAlt: "Official Rockimals art of Niko, Kito, Ciko and Enoli against a cosmic Earth scene; not drawn to scale"
 author:

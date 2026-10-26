@@ -5,9 +5,9 @@ slug: "sohaengseong-keugi-eorini"
 title: "소행성은 얼마나 클까요? 어린이를 위한 크기 비교"
 description: "소행성 지름을 버스와 축구장에 비교하고, 추정치와 Rockimals의 여덟 동물 크기 단계를 알아보세요."
 category: "learn-space"
-published: "2099-01-01T10:00:00Z"
-updated: "2099-01-01T10:00:00Z"
-draft: true
+published: "2026-10-26T11:26:12Z"
+updated: "2026-10-26T11:26:12Z"
+draft: false
 image: "/assets/rockimals-blog/asteroid-sizes-for-kids/cover-v2.jpg"
 imageAlt: "지구와 우주를 배경으로 한 Rockimals 공식 캐릭터 Niko, Kito, Ciko, Enoli. 실제 축척이 아님"
 author:
