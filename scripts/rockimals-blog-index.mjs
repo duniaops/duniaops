@@ -161,10 +161,15 @@ function renderListings(posts, ui) {
     return `<section class="rkb-index-empty"><img src="/assets/products/rockimals-icon.png?v=20260919" alt="" width="72" height="72"><h2>${escapeHtml(ui.emptyTitle)}</h2><p>${escapeHtml(ui.emptyText)}</p></section>`;
   }
 
-  const sections = CATEGORY_ORDER.map((category) => ({
+  const sections = CATEGORY_ORDER.map((category, order) => ({
     category,
-    posts: posts.filter((post) => post.category === category)
-  })).filter((section) => section.posts.length > 0);
+    order,
+    posts: posts.filter((post) => post.category === category).sort((a, b) => (
+      b.published.localeCompare(a.published) || a.translationKey.localeCompare(b.translationKey)
+    ))
+  })).filter((section) => section.posts.length > 0).sort((a, b) => (
+    b.posts[0].published.localeCompare(a.posts[0].published) || a.order - b.order
+  ));
 
   return `<div class="rkb-index-listings"><p class="rkb-kicker rkb-index-listings-label">${escapeHtml(ui.latest)}</p>
 <div class="rkb-index-sections">${sections.map((section) => `<section aria-labelledby="category-${section.category}">

@@ -60,6 +60,30 @@ test('the latest-posts label appears once above all category columns', () => {
   assert.equal((html.match(/class="rkb-index-section-heading"/g) ?? []).length, 3);
 });
 
+test('latest guides put the newest category and its newest card first', () => {
+  const manifest = { posts: [
+    manifestPost('tr', { title: 'Old game guide', published: '2026-09-22T10:00:00.000Z' }),
+    manifestPost('tr', {
+      translationKey: 'old-asteroid', category: 'learn-space', title: 'Old asteroid guide',
+      published: '2026-10-16T10:00:00.000Z'
+    }),
+    manifestPost('tr', {
+      translationKey: 'new-asteroid', category: 'learn-space', title: 'New asteroid guide',
+      published: '2026-10-26T10:00:00.000Z'
+    }),
+    manifestPost('tr', {
+      translationKey: 'parent-guide', category: 'family-guide', title: 'Parent guide',
+      published: '2026-10-19T10:00:00.000Z'
+    })
+  ] };
+  const html = renderRockimalsBlogIndex({ manifest, locale: 'tr' });
+  const listings = html.slice(html.indexOf('class="rkb-index-sections"'));
+
+  assert.ok(listings.indexOf('id="category-learn-space"') < listings.indexOf('id="category-family-guide"'));
+  assert.ok(listings.indexOf('id="category-family-guide"') < listings.indexOf('id="category-discover-game"'));
+  assert.ok(listings.indexOf('New asteroid guide') < listings.indexOf('Old asteroid guide'));
+});
+
 test('empty indexes show a useful state without cards, filters, or invented links', () => {
   const html = renderRockimalsBlogIndex({ manifest: { posts: [] }, locale: 'en' });
 
