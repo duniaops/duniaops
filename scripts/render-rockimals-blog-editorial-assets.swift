@@ -55,6 +55,21 @@ func drawImage(_ image: NSImage, inside target: NSRect, opacity: CGFloat = 1) {
     )
 }
 
+func drawImageCover(_ image: NSImage, inside target: NSRect) {
+    let scale = max(target.width / image.size.width, target.height / image.size.height)
+    let rect = NSRect(
+        x: target.midX - image.size.width * scale / 2,
+        y: target.midY - image.size.height * scale / 2,
+        width: image.size.width * scale,
+        height: image.size.height * scale
+    )
+    NSGraphicsContext.saveGraphicsState()
+    NSBezierPath(rect: target).addClip()
+    image.draw(in: rect, from: .zero, operation: .sourceOver, fraction: 1,
+               respectFlipped: true, hints: [.interpolation: NSImageInterpolation.high])
+    NSGraphicsContext.restoreGraphicsState()
+}
+
 func drawGradient(_ colors: [NSColor], angle: CGFloat = 0) {
     NSGradient(colors: colors)?.draw(in: NSRect(origin: .zero, size: canvasSize), angle: angle)
 }
@@ -197,6 +212,45 @@ let stars: [(CGFloat, CGFloat, CGFloat)] = [
     (735, 520, 3), (820, 175, 2), (920, 575, 2), (1010, 390, 4),
     (1115, 535, 3), (1160, 115, 2), (965, 70, 2), (585, 305, 2)
 ]
+
+if CommandLine.arguments.contains("--asteroid-sizes-cover-only") {
+    let tiger = try loadImage(gameRoot.appendingPathComponent("assets/animals/transparent/tiger.webp"))
+    let dino = try loadImage(gameRoot.appendingPathComponent("assets/animals/transparent/dino.webp"))
+    let background = try loadImage(siteRoot.appendingPathComponent("content/rockimals-blog/_editorial/asteroid-sizes-for-kids-cosmic-background.png"))
+    let orange = NSColor(calibratedRed: 1, green: 0.56, blue: 0.25, alpha: 1)
+    try renderCover(output: outputRoot.appendingPathComponent("asteroid-sizes-for-kids/cover-v2.jpg")) {
+        drawImageCover(background, inside: NSRect(origin: .zero, size: canvasSize))
+
+        let orbit = NSBezierPath()
+        orbit.move(to: NSPoint(x: -50, y: 134))
+        orbit.curve(to: NSPoint(x: 1250, y: 197),
+                    controlPoint1: NSPoint(x: 350, y: 355),
+                    controlPoint2: NSPoint(x: 930, y: 318))
+        orange.withAlphaComponent(0.24).setStroke()
+        orbit.lineWidth = 9
+        orbit.stroke()
+        orange.withAlphaComponent(0.85).setStroke()
+        orbit.lineWidth = 2
+        orbit.stroke()
+
+        for (image, rect) in [
+            (mouse, NSRect(x: 45, y: 209, width: 192, height: 192)),
+            (tiger, NSRect(x: 286, y: 193, width: 225, height: 225)),
+            (dino, NSRect(x: 560, y: 162, width: 260, height: 260)),
+            (whale, NSRect(x: 865, y: 127, width: 285, height: 285))
+        ] {
+            NSGraphicsContext.saveGraphicsState()
+            let glow = NSShadow()
+            glow.shadowColor = orange.withAlphaComponent(0.55)
+            glow.shadowBlurRadius = 27
+            glow.shadowOffset = .zero
+            glow.set()
+            drawImage(image, inside: rect)
+            NSGraphicsContext.restoreGraphicsState()
+        }
+    }
+    exit(0)
+}
 
 if CommandLine.arguments.contains("--free-plus-cover-only") {
     let tiger = try loadImage(gameRoot.appendingPathComponent("assets/animals/transparent/tiger.webp"))
