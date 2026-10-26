@@ -214,27 +214,11 @@ let stars: [(CGFloat, CGFloat, CGFloat)] = [
 ]
 
 if CommandLine.arguments.contains("--earth-shield-cover-only") {
-    // Both images are shipped in Rockimals. Keep the complete hero scene in
-    // view so the characters and the Earth ring are never cut by card crops.
-    let field = try loadImage(gameRoot.appendingPathComponent("assets/images/earth_shield_space_backdrop.webp"))
+    // Use the shipped Earth Shield scene as a continuous landscape crop.
+    // The image is a game illustration, not a screenshot or orbital diagram.
     let heroes = try loadImage(gameRoot.appendingPathComponent("assets/images/earth_shield_result_hero.webp"))
     try renderCover(output: outputRoot.appendingPathComponent("rockimals-earth-shield/cover.jpg")) {
-        drawImageCover(field, inside: NSRect(origin: .zero, size: canvasSize))
-        NSColor(calibratedRed: 0.02, green: 0.04, blue: 0.13, alpha: 0.47).setFill()
-        NSBezierPath(rect: NSRect(origin: .zero, size: canvasSize)).fill()
-
-        let heroRect = NSRect(x: 295, y: 10, width: 610, height: 610)
-        NSGraphicsContext.saveGraphicsState()
-        NSBezierPath(roundedRect: heroRect, xRadius: 34, yRadius: 34).addClip()
-        drawImage(heroes, inside: heroRect)
-        NSGraphicsContext.restoreGraphicsState()
-
-        let frame = NSBezierPath(roundedRect: heroRect, xRadius: 34, yRadius: 34)
-        frame.lineWidth = 3
-        NSColor(calibratedRed: 1, green: 0.50, blue: 0.22, alpha: 0.72).setStroke()
-        frame.stroke()
-        drawStars([(101, 489, 5), (182, 199, 3), (1050, 486, 5), (1021, 196, 3)],
-                  color: NSColor(calibratedRed: 1, green: 0.65, blue: 0.39, alpha: 1))
+        drawImageCover(heroes, inside: NSRect(origin: .zero, size: canvasSize))
     }
     exit(0)
 }
