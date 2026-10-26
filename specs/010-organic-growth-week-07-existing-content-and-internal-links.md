@@ -18,7 +18,7 @@ Make existing authority support the new money pages, remove stale generic CTAs a
 - [x] Update the DevOps consultancy article where current evidence, claims or new links warrant it; contextual child-guide link completed locally.
 - [x] Build a parent/child/sibling internal-link map for rescue, support, DevOps, custom software and AI; see Monday inventory below.
 - [x] Add descriptive contextual links from appropriate existing high-relevance pages; Rescue, DevOps guide and DevOps proof-path links added locally.
-- [x] Verify each cluster has one commercial destination, proof path and service-specific CTA; source paths are mapped below and the revised DevOps CTA route/prefill is verified live. A successful form delivery is separate and remains NOT VERIFIED pending approval for a marked production test.
+- [x] Verify each cluster has one commercial destination, proof path and service-specific CTA; source paths are mapped below and the revised DevOps CTA route/prefill is verified live. The authorised marked production form test was subsequently completed and verified on 19 October; the earlier pending-delivery wording is superseded by the Production conversion QA record below.
 
 ## Working Schedule
 
@@ -88,3 +88,15 @@ This is an editorial map based on the current source copy and routes, not a clai
 **W05 observation captured Monday:** source `content/blog/bespoke-software-development-cost-uk.md`; live URL `https://www.duniaops.com/blog/bespoke-software-development-cost-uk`; first production availability 9 October 2026 16:39 BST; owner Ibrahim Uylas; source release `8c678cb` / deploy `6ac90a9431a9180008315a26`. Search Console Web exact-page performance for 9–15 October: 0 impressions, 0 clicks, 0% CTR, average position 0/no data. This is a seven-calendar-date read, not yet a complete seven elapsed days from the 9 October 16:39 BST first-live time. URL Inspection remains `Discovered – currently not indexed`; sitemap and homepage are reported as discovery sources, with no recorded crawl. Live test on 19 October says URL is available to Google and can be indexed. No indexing request was made. This is zero-signal early evidence, not a content-performance conclusion. Recheck the first complete 7-day cohort when GSC includes 16 October; the 14-day comparison is due 23 October and 28-day 6 November. Do not repeat an indexing request; monitor crawl/index state and address internal discovery only if fresh evidence identifies a defect.
 
 **Remaining schedule and owner:** No W07 production or validation work remains. Ibrahim Uylas owns the 7/14/28-day observations due 26 October / 2 November / 16 November. Carry forward the separate W06 conversion observation due 20 October / 27 October / 10 November; the DevOps test does not stand in for W06 AI conversion evidence. Both this W07 Completion Record and the master tracker are reconciled. No additional content or image is in scope.
+
+### First post-revision Search Console observation — 26 October 2026
+
+Search Console property `sc-domain:duniaops.com`, Web search, exact page filters, custom date range 19–25 October. Each page report showed “Last update: 2.5 hours ago.” The first seven-calendar-date observation contains a partial first publication date (release 19 October 12:34 BST); treat this as an early cohort, not an impact comparison.
+
+| Source path → live URL | Impressions | Clicks | CTR | Average position | State / next check |
+|---|---:|---:|---:|---:|---|
+| `content/blog/software-project-rescue-uk.md` → `https://www.duniaops.com/blog/software-project-rescue-uk` | 1 | 0 | 0% | 59 | URL Inspection last confirmed indexed on 19 Oct; next comparisons 2 Nov / 16 Nov |
+| `content/blog/when-to-hire-devops-consultancy-uk.md` → `https://www.duniaops.com/blog/when-to-hire-devops-consultancy-uk` | 5 | 0 | 0% | 29.6 | URL Inspection last confirmed indexed on 19 Oct; next comparisons 2 Nov / 16 Nov |
+| `services/devops-and-cloud-consultancy.html` → `https://www.duniaops.com/services/devops-and-cloud-consultancy` | 39 | 0 | 0% | 63.2 | URL Inspection last confirmed indexed on 19 Oct; next comparisons 2 Nov / 16 Nov |
+
+The visible query rows were `software project rescue` (1 impression); DevOps guide `devops consultancy` (3), `devops consulting uk` (1) and `devops consultant` (1); and DevOps service `devops consulting services in uk` (13), `devops consultancy` (12), `cloud devops services uk` (9), `devops consultancy uk` (1) and `kubernetes consulting uk` (1). Low counts are discovery evidence only; do not infer conversion, rankings impact or causality. Owner Ibrahim Uylas; revision date 19 October; annotation `c145541` / Netlify deploy `6ad600380c53a989007003c6`. GSC read was read-only; no indexing, form or account setting was changed.
