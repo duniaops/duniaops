@@ -1,6 +1,6 @@
 # Organic Growth Week 08 — First Proof and Handover Checklist
 
-**Status:** In progress — Monday evidence/resource briefs frozen 26 October; proof role/confidentiality approval and all writing, implementation, validation and publication remain open.
+**Status:** In progress — both assets are implemented locally as review drafts on 27 October. Public release remains blocked on P01 role/confidentiality and copy approval plus final page review; no production content has been published.
 **Type:** Proof Page / Linkable Resource
 **Priority:** P1
 **Scheduled:** 26 October–1 November 2026
@@ -13,12 +13,12 @@ Complete core production with credible proof and a useful resource that supports
 
 ## Weekly Deliverables
 
-- [ ] Select one case with sufficient evidence and documented publication permission.
-- [ ] Write context, constraints, problem, actions, decisions, business outcome and verified evidence.
-- [ ] Write and implement the handover checklist as a useful ungated web resource or approved downloadable format.
-- [ ] Link proof and checklist from relevant services and buyer articles.
-- [ ] Add a clear commercial next step without turning the checklist into an email gate.
-- [ ] Prepare voluntary, non-incentivised review-request language for Week 12.
+- [ ] Select one case with sufficient evidence and documented publication permission. P01 selected; exact-role, confidentiality and re-identification checks remain open.
+- [x] Write context, constraints, problem, actions, decisions, business outcome and verified evidence as an anonymised local review draft; no metrics or client/partner identifiers included.
+- [x] Write and implement the handover checklist as an ungated local web-resource review draft; no email capture or download gate.
+- [x] Add draft links from Project Rescue and Application Support services and the two relevant buyer articles.
+- [x] Add commercial next steps without turning the checklist into an email gate.
+- [x] Prepare voluntary, non-incentivised review-request language for Week 12 (draft below; not sent).
 
 ## Working Schedule
 
@@ -50,16 +50,29 @@ Complete core production with credible proof and a useful resource that supports
 
 ## Acceptance Criteria
 
-- [ ] Proof type, ownership, facts and permissions are explicit.
-- [ ] No pending client name, logo, quote or sensitive metric goes live.
-- [ ] Proof explains the business problem and outcome, not only technology.
-- [ ] Checklist is specific, useful, ungated and connected to rescue/support services.
-- [ ] `npm test`, link/mobile/desktop/accessibility and `git diff --check` pass.
-- [ ] Live, permission, conversion and indexing evidence is recorded.
+- [ ] Proof type and ownership are explicit; Ibrahim's exact role and confidentiality/re-identification approval are still required.
+- [x] The local draft contains no client/partner name, logo, quote, identifying detail or sensitive metric. Production release remains blocked until the role/confidentiality review.
+- [x] Proof draft explains the business problem, staged decisions, production handover and evidenced qualitative outcome.
+- [x] Checklist draft is specific, useful, ungated and connected to rescue/support services.
+- [x] `npm test` and `git diff --check` pass; the site build validates 324 public files, routes, JSON-LD, navigation and internal links.
+- [x] Responsive visual review: both local pages checked at desktop and 390 px mobile widths on 27 October; no horizontal overflow observed.
+- [ ] Assistive-technology review remains NOT VERIFIED; complete it after factual approval and before release.
+- [ ] Live, permission, conversion and indexing evidence is recorded. Live state is intentionally not applicable until approved release; conversion/indexing remain unverified.
 
 ## Completion Record
 
 Record proof/checklist paths and URLs, permission-evidence location, validation, commit/deploy, live/index state, cohort dates, review-request draft and blockers.
+
+### Tuesday implementation and release-gate record — 27 October 2026
+
+- **W08-A source / proposed route:** `work/fragmented-application-estate-modernisation.html` → `/work/fragmented-application-estate-modernisation`. Review draft only; `noindex,nofollow`, excluded from sitemap. Owner and factual approver: Ibrahim Uylas. Revision date: 27 October 2026. Change annotation: `W08 local proof/resource review draft` (no commit or deployment yet).
+- **Proof treatment:** anonymised account of a prior partner-led engagement; it is not represented as a DuniaOps client case, endorsement or testimonial. The draft describes the fragmented estate, staged portal/module modernisation, service separation, production completion/handover and qualitative acceptance/performance evidence. No numerical result is claimed.
+- **W08-B source / proposed route:** `resources/software-project-handover-checklist.html` → `/resources/software-project-handover-checklist`. Ungated, printable checklist draft; no email capture. Owner/content approver: Ibrahim Uylas. Revision date: 27 October 2026. Change annotation: `W08 local proof/resource review draft` (no commit or deployment yet).
+- **Links prepared:** Project Rescue service → proof and checklist; Application Support service → checklist; Project Rescue and support-takeover buyer articles → checklist. Both new pages link to their relevant commercial next steps. These draft links are not in production.
+- **Sources:** [NCSC cloud platform security guidance](https://www.ncsc.gov.uk/collection/cloud/using-cloud-services-securely/using-a-cloud-platform-securely); [ICO contracts and data-sharing guidance](https://ico.org.uk/for-organisations/advice-and-services/audits/data-protection-audit-framework/toolkits/accountability/contracts-and-data-sharing/). They support general security/data-processing prompts only; the checklist is not legal advice.
+- **Still required before any release:** Ibrahim confirms his exact role in P01, confirms the prior engagement and the anonymised detail combination are safe under applicable confidentiality terms, then approves the composed proof copy and checklist. After that: assistive-technology review, final factual/metadata/internal-link review, production release approval, live HTTP/canonical/sitemap and Search Console checks. Automated repository validation and responsive desktop/390 px visual review have passed. No public URL, publication timestamp, commit/deploy, live state or observation cohort exists yet; set 7/14/28-day dates from the verified first-production timestamp.
+- **Voluntary review-request draft (not sent):** “If you found the work useful and feel comfortable sharing an honest review, you can leave one here. There is no incentive, and feedback—positive or critical—will not affect our work together.”
+- **Owner/date for open factual/release gates:** Ibrahim Uylas, 29 October 2026. If the proof cannot be approved by then, hold it and decide whether to substitute P02 or close the proof item as blocked; do not publish around the gate.
 
 ### Monday evidence and resource brief — 26 October 2026
 
@@ -69,7 +82,7 @@ Record proof/checklist paths and URLs, permission-evidence location, validation,
 
 | Candidate | Evidence already documented | Safe public treatment | Excluded unless separately evidenced and approved | Gate / decision |
 |---|---|---|---|---|
-| P01 — fragmented enterprise application estate | Multiple portals were consolidated behind one user entry point using staged micro-frontend adoption; selected modules were modernised while necessary legacy applications remained; backend capabilities were progressively separated. The production solution was completed and handed over; customer acceptance and performance measurement confirmed improvement. | Select as the first proof candidate. Describe it only as experience from an earlier partner-led engagement, with client and delivery-partner names withheld. Proposed title: “Consolidating a fragmented application estate through staged modernisation”. Proposed route: `/work/fragmented-application-estate-modernisation`. | Client/intermediary names, logos, quotations, exact metric values, dates, scale, industry/geography combinations or technical detail that could identify either organisation. Do not call it a DuniaOps client case, testimonial or endorsement. | Before public build, Ibrahim confirms his exact role, no contract/confidentiality restriction is breached, and the anonymised detail combination cannot identify the client or intermediary. Then approve the composed copy. |
+| P01 — fragmented enterprise application estate | Multiple portals were consolidated behind one user entry point using staged micro-frontend adoption; selected modules were modernised while necessary legacy applications remained; backend capabilities were progressively separated. The production solution was completed and handed over; customer acceptance and performance measurement confirmed improvement. | Selected for the first proof. A local noindex review draft describes it only as experience from an earlier partner-led engagement, with client and delivery-partner names withheld. Proposed title: “Consolidating a fragmented application estate through staged modernisation”. Proposed route: `/work/fragmented-application-estate-modernisation`. | Client/intermediary names, logos, quotations, exact metric values, dates, scale, industry/geography combinations or technical detail that could identify either organisation. Do not call it a DuniaOps client case, testimonial or endorsement. | Before public release, Ibrahim confirms his exact role, no contract/confidentiality restriction is breached, and the anonymised detail combination cannot identify the client or intermediary. Then approve the composed copy. |
 | P02 — booking allocation workflow | A mixed legacy CRM, spreadsheets, email and phone workflow was consolidated into a purpose-built allocation system; completed, released to production and handed over; improvements accepted and demonstrated through performance measurement. | Retain as a later proof candidate; not selected for this week's first proof. | Customer/intermediary identity, KPI definitions or values, operating scale and workflow details that could identify the organisation. | No further action in W08 unless P01 fails the confidentiality check; any substitution needs a recorded decision and owner review. |
 
 The evidence supports qualitative statements only; the existence of performance measurement does not authorise a number, percentage, benchmark or time period. The disclosure must remain “Selected experience brought to DuniaOps from earlier partner-led engagements” or equivalent. Existing About/Project Rescue blocks do not by themselves approve an expanded standalone proof page.
@@ -82,7 +95,7 @@ The evidence supports qualitative statements only; the existence of performance 
 - **Sections:** ownership/IP questions; repositories and history; build/release; cloud accounts and DNS; data/backups; secrets/access rotation; integrations; monitoring/incidents; runbooks/support; people/knowledge; mobile-store/payment/vendor ownership; first-week takeover checks.
 - **Next step:** after the checklist, route stalled/fragile projects to Project Rescue Assessment and broadly stable inherited applications to Support Takeover Review.
 - **Sources:** NCSC secure-development/access guidance; ICO material only for personal-data controller/processor transitions. No legal advice or universal contract wording.
-- **Owner / approver:** Ibrahim Uylas / Ibrahim Uylas. Brief frozen; source content and implementation are not yet complete.
+- **Owner / approver:** Ibrahim Uylas / Ibrahim Uylas. Brief frozen 26 October; content and implementation are now complete as local noindex review drafts. Release remains pending the recorded checks above.
 
 #### Monday carry-over reconciliation
 

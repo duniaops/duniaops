@@ -165,3 +165,7 @@ Read about our [Application Support & Software Maintenance service](/services/ap
 or [request a Support Takeover Review](/?service=support&from=blog#contact) to
 discuss the software, its current support position and what a controlled
 handover would need.
+
+To prepare for a provider change, work through the ungated
+[Software Project Handover Checklist](/resources/software-project-handover-checklist)
+with the people responsible for the code, accounts, data and live service.

@@ -261,6 +261,11 @@ If you are still deciding how external delivery should work, our guide to
 [software outsourcing in 2026](/blog/why-software-outsourcing-is-good-for-your-business-in-2026)
 explains how to keep product ownership while using outside expertise.
 
+For a concrete example of staged modernisation, read this account of
+[consolidating a fragmented application estate](/work/fragmented-application-estate-modernisation).
+It describes earlier partner-led experience and is not a DuniaOps client
+testimonial.
+
 ## Start with an independent software assessment
 
 You do not need to choose between continuing and rebuilding before anyone has
@@ -275,3 +280,7 @@ the immediate priorities and turn the findings into a practical recovery plan.
 [Request a Project Rescue Assessment](/?service=rescue&from=blog#contact)
 if delivery has stalled, your current supplier is no longer the right fit or
 you need an independent view before committing more budget.
+
+If your immediate challenge is changing suppliers and retaining operational
+control, use the [Software Project Handover Checklist](/resources/software-project-handover-checklist)
+to organise ownership, access, data and recovery questions before the assessment.

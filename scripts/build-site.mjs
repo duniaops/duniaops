@@ -13,7 +13,9 @@ const PUBLIC_DIRECTORIES = [
   'js',
   'products',
   'rockimals',
+  'resources',
   'services',
+  'work',
   'zoday'
 ];
 

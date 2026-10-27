@@ -71,7 +71,9 @@ const STATIC_ROUTES = new Set([
   '/services/devops-and-cloud-consultancy',
   '/services/mobile-app-development',
   '/services/software-project-rescue',
-  '/services/software-consultancy'
+  '/services/software-consultancy',
+  '/resources/software-project-handover-checklist',
+  '/work/fragmented-application-estate-modernisation'
 ]);
 
 function escapeHtml(value = '') {
