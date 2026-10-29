@@ -75,6 +75,13 @@ Record proof/checklist paths and URLs, permission-evidence location, validation,
 - **Voluntary review-request draft (not sent):** “If you found the work useful and feel comfortable sharing an honest review, you can leave one here. There is no incentive, and feedback—positive or critical—will not affect our work together.”
 - **Owner/date for remaining verification:** Ibrahim Uylas, 30 October for keyboard/assistive-technology smoke review; 5, 12 and 26 November for each asset's 7/14/28-day evidence. Search Console and conversion observations remain pending; update this Completion Record and Spec 019 after each check.
 
+### Visual revision record — 29 October 2026
+
+- **W08-A image:** added `assets/work/fragmented-application-estate-modernisation-1200x630.jpg` as the unique Open Graph/Twitter card. Kept the existing labelled inline SVG diagram in the page body. The live page and image both return HTTP 200; canonical and social image metadata were verified.
+- **W08-B image:** added `assets/resources/software-project-handover-checklist-1200x630.jpg` as an accessible on-page preview and unique Open Graph/Twitter card. The live page and image both return HTTP 200; canonical and social image metadata were verified.
+- **Owner/approver:** Ibrahim Uylas / Ibrahim Uylas. **Change annotation:** `W08 visual refresh`; commit `5a0b0b9`; production deploy `6ae35b1a3aa48a962da82ebd`, published 29 October 2026 15:41:45 BST.
+- The 7/14/28-day observation dates remain 5 November / 12 November / 26 November, measured from first production availability. Search Console indexing and conversion remain NOT VERIFIED. Browser keyboard/screen-reader review remains due 30 October.
+
 ### Monday evidence and resource brief — 26 October 2026
 
 **Owner / default factual approver:** Ibrahim Uylas. No client, intermediary, contact or publisher has been approached. This is a local planning record only; production publication and deployment still require explicit approval at the release gate.
