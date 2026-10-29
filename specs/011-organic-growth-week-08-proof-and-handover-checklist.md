@@ -1,6 +1,6 @@
 # Organic Growth Week 08 — First Proof and Handover Checklist
 
-**Status:** In progress — both assets are implemented locally as review drafts on 27 October. Public release remains blocked on P01 role/confidentiality and copy approval plus final page review; no production content has been published.
+**Status:** Release approved 29 October — both assets are implemented, anonymised and approved for publication. No individual role title is claimed. Production push and live verification are in progress.
 **Type:** Proof Page / Linkable Resource
 **Priority:** P1
 **Scheduled:** 26 October–1 November 2026
@@ -13,7 +13,7 @@ Complete core production with credible proof and a useful resource that supports
 
 ## Weekly Deliverables
 
-- [ ] Select one case with sufficient evidence and documented publication permission. P01 selected; exact-role, confidentiality and re-identification checks remain open.
+- [x] Select one case with sufficient evidence and documented publication permission. P01 selected; Ibrahim approved the anonymised account for publication on 29 October. No individual role title is claimed or disclosed.
 - [x] Write context, constraints, problem, actions, decisions, business outcome and verified evidence as an anonymised local review draft; no metrics or client/partner identifiers included.
 - [x] Write and implement the handover checklist as an ungated local web-resource review draft; no email capture or download gate.
 - [x] Add draft links from Project Rescue and Application Support services and the two relevant buyer articles.
@@ -50,14 +50,14 @@ Complete core production with credible proof and a useful resource that supports
 
 ## Acceptance Criteria
 
-- [ ] Proof type and ownership are explicit; Ibrahim's exact role and confidentiality/re-identification approval are still required.
-- [x] The local draft contains no client/partner name, logo, quote, identifying detail or sensitive metric. Production release remains blocked until the role/confidentiality review.
+- [x] Proof type and ownership are explicit: selected prior partner-led engineering experience, not a direct DuniaOps client case, endorsement or testimonial; no individual role title is claimed.
+- [x] Ibrahim approved publication of the anonymised account on 29 October. No client/partner name, logo, quote, identifying detail or sensitive metric is included.
 - [x] Proof draft explains the business problem, staged decisions, production handover and evidenced qualitative outcome.
 - [x] Checklist draft is specific, useful, ungated and connected to rescue/support services.
 - [x] `npm test` and `git diff --check` pass; the site build validates 324 public files, routes, JSON-LD, navigation and internal links.
 - [x] Responsive visual review: both local pages checked at desktop and 390 px mobile widths on 27 October; no horizontal overflow observed.
 - [ ] Assistive-technology review remains NOT VERIFIED; complete it after factual approval and before release.
-- [ ] Live, permission, conversion and indexing evidence is recorded. Live state is intentionally not applicable until approved release; conversion/indexing remain unverified.
+- [ ] Live HTTP/canonical/sitemap/production evidence is recorded after push; conversion and Search Console/indexing states remain unverified until measured.
 
 ## Completion Record
 
@@ -65,14 +65,14 @@ Record proof/checklist paths and URLs, permission-evidence location, validation,
 
 ### Tuesday implementation and release-gate record — 27 October 2026
 
-- **W08-A source / proposed route:** `work/fragmented-application-estate-modernisation.html` → `/work/fragmented-application-estate-modernisation`. Review draft only; `noindex,nofollow`, excluded from sitemap. Owner and factual approver: Ibrahim Uylas. Revision date: 27 October 2026. Change annotation: `W08 local proof/resource review draft` (no commit or deployment yet).
+- **W08-A source / route:** `work/fragmented-application-estate-modernisation.html` → `/work/fragmented-application-estate-modernisation`. Owner and factual approver: Ibrahim Uylas. Revised and approved 29 October 2026. Change annotation: `W08 proof/resource publication`. The public copy keeps the work anonymised and does not state an individual role title.
 - **Proof treatment:** anonymised account of a prior partner-led engagement; it is not represented as a DuniaOps client case, endorsement or testimonial. The draft describes the fragmented estate, staged portal/module modernisation, service separation, production completion/handover and qualitative acceptance/performance evidence. No numerical result is claimed.
-- **W08-B source / proposed route:** `resources/software-project-handover-checklist.html` → `/resources/software-project-handover-checklist`. Ungated, printable checklist draft; no email capture. Owner/content approver: Ibrahim Uylas. Revision date: 27 October 2026. Change annotation: `W08 local proof/resource review draft` (no commit or deployment yet).
-- **Links prepared:** Project Rescue service → proof and checklist; Application Support service → checklist; Project Rescue and support-takeover buyer articles → checklist. Both new pages link to their relevant commercial next steps. These draft links are not in production.
+- **W08-B source / route:** `resources/software-project-handover-checklist.html` → `/resources/software-project-handover-checklist`. Ungated, printable checklist; no email capture. Owner/content approver: Ibrahim Uylas. Approved for publication 29 October 2026. Change annotation: `W08 proof/resource publication`.
+- **Internal links:** Project Rescue service → proof and checklist; Application Support service → checklist; Project Rescue and support-takeover buyer articles → checklist. Both pages link to relevant commercial next steps. Production verification follows deploy.
 - **Sources:** [NCSC cloud platform security guidance](https://www.ncsc.gov.uk/collection/cloud/using-cloud-services-securely/using-a-cloud-platform-securely); [ICO contracts and data-sharing guidance](https://ico.org.uk/for-organisations/advice-and-services/audits/data-protection-audit-framework/toolkits/accountability/contracts-and-data-sharing/). They support general security/data-processing prompts only; the checklist is not legal advice.
-- **Still required before any release:** Ibrahim confirms his exact role in P01, confirms the prior engagement and the anonymised detail combination are safe under applicable confidentiality terms, then approves the composed proof copy and checklist. After that: assistive-technology review, final factual/metadata/internal-link review, production release approval, live HTTP/canonical/sitemap and Search Console checks. Automated repository validation and responsive desktop/390 px visual review have passed. No public URL, publication timestamp, commit/deploy, live state or observation cohort exists yet; set 7/14/28-day dates from the verified first-production timestamp.
+- **Release/verification state:** Ibrahim approved the anonymised copy and checklist on 29 October. No individual role title is stated. Automated repository validation and responsive desktop/390 px visual review have passed. Production deploy, live HTTP/canonical/sitemap verification, keyboard/accessibility review and Search Console state are pending. Record the actual first-production timestamp and set each asset's 7/14/28-day observations from it; conversion remains unverified.
 - **Voluntary review-request draft (not sent):** “If you found the work useful and feel comfortable sharing an honest review, you can leave one here. There is no incentive, and feedback—positive or critical—will not affect our work together.”
-- **Owner/date for open factual/release gates:** Ibrahim Uylas, 29 October 2026. If the proof cannot be approved by then, hold it and decide whether to substitute P02 or close the proof item as blocked; do not publish around the gate.
+- **Owner/date for remaining verification:** Ibrahim Uylas, 29 October 2026 and the first 7/14/28-day observation dates calculated from live release. If production checks fail, fix forward and do not report the assets as live until HTTP/canonical/sitemap checks pass.
 
 ### Monday evidence and resource brief — 26 October 2026
 
