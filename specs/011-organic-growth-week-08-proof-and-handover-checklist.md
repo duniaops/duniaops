@@ -1,6 +1,6 @@
 # Organic Growth Week 08 — First Proof and Handover Checklist
 
-**Status:** Release approved 29 October — both assets are implemented, anonymised and approved for publication. No individual role title is claimed. Production push and live verification are in progress.
+**Status:** Published and live-verified 29 October — both assets are anonymised, approved and deployed. No individual role title is claimed. Search Console indexing/conversion and keyboard/assistive-technology review remain unverified.
 **Type:** Proof Page / Linkable Resource
 **Priority:** P1
 **Scheduled:** 26 October–1 November 2026
@@ -56,8 +56,9 @@ Complete core production with credible proof and a useful resource that supports
 - [x] Checklist draft is specific, useful, ungated and connected to rescue/support services.
 - [x] `npm test` and `git diff --check` pass; the site build validates 324 public files, routes, JSON-LD, navigation and internal links.
 - [x] Responsive visual review: both local pages checked at desktop and 390 px mobile widths on 27 October; no horizontal overflow observed.
-- [ ] Assistive-technology review remains NOT VERIFIED; complete it after factual approval and before release.
-- [ ] Live HTTP/canonical/sitemap/production evidence is recorded after push; conversion and Search Console/indexing states remain unverified until measured.
+- [ ] Keyboard/assistive-technology review remains NOT VERIFIED; browser automation is disabled, so Ibrahim owns a manual keyboard and screen-reader smoke review by 30 October.
+- [x] Live production evidence recorded: Netlify deploy `6ae35aaf6ef383d164041aec`, ready/published 29 October 2026 14:39:59 UTC (15:39:59 BST); both canonical URLs return HTTP 200 and are present in the HTTP 200 sitemap.
+- [ ] Search Console URL state and conversion remain NOT VERIFIED; do not claim indexing or enquiries until observed.
 
 ## Completion Record
 
@@ -68,11 +69,11 @@ Record proof/checklist paths and URLs, permission-evidence location, validation,
 - **W08-A source / route:** `work/fragmented-application-estate-modernisation.html` → `/work/fragmented-application-estate-modernisation`. Owner and factual approver: Ibrahim Uylas. Revised and approved 29 October 2026. Change annotation: `W08 proof/resource publication`. The public copy keeps the work anonymised and does not state an individual role title.
 - **Proof treatment:** anonymised account of a prior partner-led engagement; it is not represented as a DuniaOps client case, endorsement or testimonial. The draft describes the fragmented estate, staged portal/module modernisation, service separation, production completion/handover and qualitative acceptance/performance evidence. No numerical result is claimed.
 - **W08-B source / route:** `resources/software-project-handover-checklist.html` → `/resources/software-project-handover-checklist`. Ungated, printable checklist; no email capture. Owner/content approver: Ibrahim Uylas. Approved for publication 29 October 2026. Change annotation: `W08 proof/resource publication`.
-- **Internal links:** Project Rescue service → proof and checklist; Application Support service → checklist; Project Rescue and support-takeover buyer articles → checklist. Both pages link to relevant commercial next steps. Production verification follows deploy.
+- **Internal links:** Project Rescue service → proof and checklist; Application Support service → checklist; Project Rescue and support-takeover buyer articles → checklist. Both pages link to relevant commercial next steps. Repository-native internal-link validation passed in `npm test`.
 - **Sources:** [NCSC cloud platform security guidance](https://www.ncsc.gov.uk/collection/cloud/using-cloud-services-securely/using-a-cloud-platform-securely); [ICO contracts and data-sharing guidance](https://ico.org.uk/for-organisations/advice-and-services/audits/data-protection-audit-framework/toolkits/accountability/contracts-and-data-sharing/). They support general security/data-processing prompts only; the checklist is not legal advice.
-- **Release/verification state:** Ibrahim approved the anonymised copy and checklist on 29 October. No individual role title is stated. Automated repository validation and responsive desktop/390 px visual review have passed. Production deploy, live HTTP/canonical/sitemap verification, keyboard/accessibility review and Search Console state are pending. Record the actual first-production timestamp and set each asset's 7/14/28-day observations from it; conversion remains unverified.
+- **Release/verification state:** Ibrahim approved the anonymised copy and checklist on 29 October. No individual role title is stated. Netlify production deploy `6ae35aaf6ef383d164041aec` is ready and published at 14:39:59 UTC / 15:39:59 BST. Both live URLs returned HTTP 200, matched their canonical URLs, had no `noindex`, and appeared in the HTTP 200 sitemap. Automated repository validation and responsive desktop/390 px visual review passed. Keyboard/assistive-technology review is NOT VERIFIED because browser automation is disabled; Ibrahim owns the manual review by 30 October. Search Console URL state and conversion remain NOT VERIFIED. For each asset, 7/14/28-day observations are due 5 November / 12 November / 26 November.
 - **Voluntary review-request draft (not sent):** “If you found the work useful and feel comfortable sharing an honest review, you can leave one here. There is no incentive, and feedback—positive or critical—will not affect our work together.”
-- **Owner/date for remaining verification:** Ibrahim Uylas, 29 October 2026 and the first 7/14/28-day observation dates calculated from live release. If production checks fail, fix forward and do not report the assets as live until HTTP/canonical/sitemap checks pass.
+- **Owner/date for remaining verification:** Ibrahim Uylas, 30 October for keyboard/assistive-technology smoke review; 5, 12 and 26 November for each asset's 7/14/28-day evidence. Search Console and conversion observations remain pending; update this Completion Record and Spec 019 after each check.
 
 ### Monday evidence and resource brief — 26 October 2026
 
@@ -95,7 +96,7 @@ The evidence supports qualitative statements only; the existence of performance 
 - **Sections:** ownership/IP questions; repositories and history; build/release; cloud accounts and DNS; data/backups; secrets/access rotation; integrations; monitoring/incidents; runbooks/support; people/knowledge; mobile-store/payment/vendor ownership; first-week takeover checks.
 - **Next step:** after the checklist, route stalled/fragile projects to Project Rescue Assessment and broadly stable inherited applications to Support Takeover Review.
 - **Sources:** NCSC secure-development/access guidance; ICO material only for personal-data controller/processor transitions. No legal advice or universal contract wording.
-- **Owner / approver:** Ibrahim Uylas / Ibrahim Uylas. Brief frozen 26 October; content and implementation are now complete as local noindex review drafts. Release remains pending the recorded checks above.
+- **Owner / approver:** Ibrahim Uylas / Ibrahim Uylas. Brief frozen 26 October; at that time, content and implementation were local noindex review drafts. This historical state was superseded by the approved production release recorded above.
 
 #### Monday carry-over reconciliation
 
