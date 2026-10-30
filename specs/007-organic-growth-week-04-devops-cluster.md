@@ -1,6 +1,6 @@
 # Organic Growth Week 04 — DevOps Cluster
 
-**Status:** In progress — Monday GSC review and article-intent gate completed 28 September; local service refresh and article draft prepared 30 September. Factual capability evidence, owner copy approval and the article's unique approved image remain open before publication.
+**Status:** Production complete — W04-B Kubernetes decision article went live 5 October 2026; W04-A DevOps Health Check service refresh went live 7 October and its internal links were revised 19 October. Current live service, canonical, CTA, sitemap and indexed state are verified in production records through 30 October. Exact W04 7/14-day performance cohorts were not captured and remain NOT VERIFIED; W04-A 28-day cohort is due 4 November and W04-B 28-day cohort 2 November. No content or publication task carries forward.
 **Type:** Commercial Optimisation / Blog Article
 **Priority:** P1
 **Scheduled:** 28 September–4 October 2026
@@ -13,12 +13,12 @@ Turn the service page with the strongest existing search visibility into a concr
 
 ## Weekly Deliverables
 
-- [ ] Rewrite the DevOps page around a concrete DevOps Health Check/assessment.
-- [ ] Validate, qualify or remove the existing 20–40% cloud-saving language.
-- [ ] Add Kubernetes depth only where supported by real delivery capability.
-- [ ] Select the article from current GSC and buyer evidence; alternatives are `DevOps Consultancy Cost UK` or `A Practical DevOps Health Check for UK Software Teams`.
-- [ ] Write the full original article and prepare one approved unique 1200x630 image.
-- [ ] Connect the service, new article, existing when-to-hire article, rescue/support pages and proof.
+- [x] Rewrite the DevOps page around a concrete DevOps Health Check/assessment.
+- [x] Validate, qualify or remove the existing 20–40% cloud-saving language; unsupported fixed-savings wording was removed and no guaranteed saving is promised.
+- [x] Add Kubernetes depth only where supported by confirmed delivery capability.
+- [x] Select the article from current GSC and buyer evidence; the distinct consultant-versus-permanent-hire decision was selected.
+- [x] Write the full original article and publish its approved unique 1200×630 image.
+- [x] Connect the service, new article, existing when-to-hire article, rescue/support pages and proof.
 
 ## Working Schedule
 
@@ -50,12 +50,12 @@ Turn the service page with the strongest existing search visibility into a concr
 
 ## Acceptance Criteria
 
-- [ ] DevOps page communicates a specific assessment, buyer outcome and truthful delivery boundary.
-- [ ] Every quantitative claim has evidence, qualification or is removed.
-- [ ] Article answers one documented buyer decision without competing with the service page.
-- [ ] Unique image, metadata, sources and links satisfy the blog workflow.
-- [ ] `npm test`, blog/site/XML/schema/link/mobile/desktop and `git diff --check` pass.
-- [ ] Live, conversion and indexing evidence is recorded.
+- [x] DevOps page communicates a specific assessment, buyer outcome and truthful delivery boundary.
+- [x] Every quantitative claim has evidence, qualification or is removed.
+- [x] Article answers one documented buyer decision without competing with the service page.
+- [x] Unique image, metadata, primary sources and internal links satisfy the blog workflow.
+- [x] `npm test`, site/XML/schema/link validation and `git diff --check` pass; visual review is recorded in the W07 release record.
+- [x] Live, conversion-path and indexing evidence is recorded; performance cohort gaps and next due dates are explicitly retained below.
 
 ## Completion Record
 
@@ -80,3 +80,11 @@ Record selected article intent, service/article paths and URLs, claim evidence, 
 - **Image/review state (updated 5 October):** Ibrahim confirmed the DevOps platform/tool capability statements and approved creation of a unique article hero. A 1200×630 JPEG now exists at `assets/blog/kubernetes-consultant-or-permanent-hire-uk-1200x630.jpg`; the draft alt text describes the handover scene. User approval is recorded in chat; final editorial and technical review still remain.
 - **Validation/publication:** local-only source changes. No generated public blog/home/RSS/sitemap/redirect outputs, commit, deploy, external publication or indexing action. Repository-native quality checks and mobile/desktop review remain before publication. The existing live DevOps route has not been replaced by this local revision.
 - **Recovery owner/date:** Ibrahim Uylas owns final review and remaining validation. The original 1 October publication date was missed; the draft remains unpublished and W04 carry-over must be sequenced against the Week 05 two-asset limit. Do not publish the article before its service parent is ready.
+
+### Production reconciliation and close — 30 October 2026
+
+- **W04-A source/live:** `services/devops-and-cloud-consultancy.html` → `https://www.duniaops.com/services/devops-and-cloud-consultancy`. The Health Check refresh was released in commit `350dc6f` on 7 October; the related engineering-experience link was revised in `c145541` on 19 October. Production returned HTTP 200 on 30 October; canonical matches the route, the sitemap contains it, and the page leads with the approved Health Check offer and `devops_cloud` contact route. No fixed savings claim is present. Owner/approver: Ibrahim Uylas.
+- **W04-B source/live:** `content/blog/kubernetes-consultant-or-permanent-hire-uk.md` → `https://www.duniaops.com/blog/kubernetes-consultant-or-permanent-hire-uk`; published in `d89566f` on 5 October with its unique approved image. Search Console URL Inspection reported the DevOps service and W04 article indexed on 19 October; this is not a performance outcome.
+- **Measurement:** exact W04-A first-live 7/14-day performance reads (14 and 21 October) and W04-B reads (12 and 19 October) were not recorded and are now closed as `NOT VERIFIED`, not reconstructed. The W07 post-revision service window 19–25 October is recorded in Specs 003/019. Remaining first-live 28-day observations are due W04-B 2 November and W04-A 4 November; Ibrahim owns them. Record exact Search Console freshness and page-age windows, then update Specs 003/018/019.
+- **Change annotation:** `W04 production-state reconciliation`, 30 October 2026. No public-page source changed in this reconciliation. Full repository validation is current as of this close; production HTTP/canonical/sitemap evidence was checked 30 October. Conversion outcome remains limited to the separately recorded marked production form test; no attributed W04 enquiry is claimed.
+- **Carry-over decision:** W04 production is complete. Historical notes saying the service refresh was unpublished/local are superseded by the 7 October release and 19 October production revision evidence above. Only the dated 28-day observations remain scheduled, not an unowned content blocker.

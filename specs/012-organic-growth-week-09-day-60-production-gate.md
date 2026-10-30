@@ -61,3 +61,11 @@ Finish core production, prevent quiet scope slippage and allocate the final 30 d
 ## Completion Record
 
 Record production-gate score, exceptions/owners/dates, Day-60 metrics, cohort ages, chosen improvement/hypothesis, validation, commit/deploy, live state and final-30-day priority order.
+
+### Week 09 pre-gate carry-in — 30 October 2026
+
+- **Production inventory:** W04 DevOps service/article and W08 proof/checklist are now reconciled as live; the W04 records previously labelled local/unpublished are superseded by Spec 007 and the asset-register 30 October record. No core publication is currently waiting to be written, approved, committed or deployed. No new article is planned for the gate week.
+- **Known evidence exceptions:** W04 exact first-live 7/14-day performance reads were not recorded; retain `NOT VERIFIED`. W04 article's 28-day check is due 2 November and service's 4 November. W05 cost article remains `Discovered – currently not indexed` in its 26 October inspection; exact 28-day check is due 6 November. W08 first Search Console check is due 5 November. Do not conflate crawl/index status with performance or claim an enquiry from a form test.
+- **Manual release checks:** W08 revised-image desktop/mobile rendering and keyboard/assistive-technology smoke review are NOT VERIFIED; owner Ibrahim Uylas, due 30 October. Browser automation is unavailable in this session, so repository tests do not close this check.
+- **Day-60 measurement:** on 5 November, Ibrahim captures the rolling 28-day and prior 28-day GSC/GA4 windows using complete-data dates, reconciles only qualified organic enquiries, and records page-age cohorts for live assets. Label missing or inaccessible account data `NOT VERIFIED`; do not invent values. Include current sources, capture freshness, owner, change annotations and next 7/14/28-day dates.
+- **Week 09 first task:** on Monday 2 November, audit every core asset against the source path, live URL, CTA, canonical/sitemap, production HTTP and current Search Console state; then set exception owners/dates and freeze recovery order before considering an optional improvement.

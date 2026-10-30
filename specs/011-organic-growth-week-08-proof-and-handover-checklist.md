@@ -1,6 +1,6 @@
 # Organic Growth Week 08 — First Proof and Handover Checklist
 
-**Status:** Published and live-verified 29 October — both assets are anonymised, approved and deployed. No individual role title is claimed. Search Console indexing/conversion and keyboard/assistive-technology review remain unverified.
+**Status:** Week 08 production complete — both assets were approved, published and live-verified 29 October. No individual role title is claimed. Manual keyboard/assistive-technology review is NOT VERIFIED because browser automation is unavailable. Search Console and conversion checks are scheduled from first live availability on 5, 12 and 26 November; they are not yet due.
 **Type:** Proof Page / Linkable Resource
 **Priority:** P1
 **Scheduled:** 26 October–1 November 2026
@@ -55,8 +55,8 @@ Complete core production with credible proof and a useful resource that supports
 - [x] Proof draft explains the business problem, staged decisions, production handover and evidenced qualitative outcome.
 - [x] Checklist draft is specific, useful, ungated and connected to rescue/support services.
 - [x] `npm test` and `git diff --check` pass; the site build validates 324 public files, routes, JSON-LD, navigation and internal links.
-- [x] Responsive visual review: both local pages checked at desktop and 390 px mobile widths on 27 October; no horizontal overflow observed.
-- [ ] Keyboard/assistive-technology review remains NOT VERIFIED; browser automation is disabled, so Ibrahim owns a manual keyboard and screen-reader smoke review by 30 October.
+- [ ] Responsive visual review: both pages were checked at desktop and 390 px on 27 October before the 29 October image revision. Revised image rendering has not been visually rechecked and remains NOT VERIFIED; Ibrahim owns this manual check.
+- [ ] Keyboard/assistive-technology review remains NOT VERIFIED; browser automation is unavailable in this session. Ibrahim owns the manual keyboard and screen-reader smoke review; do not infer completion from static HTML or site-build checks.
 - [x] Live production evidence recorded: Netlify deploy `6ae35aaf6ef383d164041aec`, ready/published 29 October 2026 14:39:59 UTC (15:39:59 BST); both canonical URLs return HTTP 200 and are present in the HTTP 200 sitemap.
 - [ ] Search Console URL state and conversion remain NOT VERIFIED; do not claim indexing or enquiries until observed.
 
@@ -81,6 +81,14 @@ Record proof/checklist paths and URLs, permission-evidence location, validation,
 - **W08-B image:** added `assets/resources/software-project-handover-checklist-1200x630.jpg` as an accessible on-page preview and unique Open Graph/Twitter card. The live page and image both return HTTP 200; canonical and social image metadata were verified.
 - **Owner/approver:** Ibrahim Uylas / Ibrahim Uylas. **Change annotation:** `W08 visual refresh`; commit `5a0b0b9`; production deploy `6ae35d1d91090e885022637f`, published 29 October 2026 15:50:21 BST.
 - The 7/14/28-day observation dates remain 5 November / 12 November / 26 November, measured from first production availability. Search Console indexing and conversion remain NOT VERIFIED. Browser keyboard/screen-reader review remains due 30 October.
+
+### Friday close and carry-over review — 30 October 2026
+
+- **Primary publications:** W08-A proof page and W08-B handover checklist are both DONE. Approved anonymised copy and ungated resource are live; both live URLs, their canonical/social metadata, image URLs and sitemap entries were checked in the 29 October release records and remain available. Weekly two-primary-asset cap respected; no companion article or extra asset is planned.
+- **Weekly deliverables:** all six are DONE: evidence/permission and anonymisation; proof narrative; checklist; service/article links; commercial next steps; voluntary review-request draft (not sent).
+- **Acceptance criteria:** proof type/ownership, copy approval, narrative evidence boundaries, checklist usefulness, `npm test`, deployment/HTTP/canonical/sitemap and change annotation are DONE. Desktop/390 px checks predate the 29 October visual revision, so current responsive image rendering and manual keyboard/assistive-technology interaction are NOT VERIFIED; Ibrahim owns both checks. Search Console URL state and attributed conversion are NOT VERIFIED and are scheduled, not yet due.
+- **Measurement schedule:** first-production date 29 October 2026 15:39:59 BST. W08-A and W08-B 7-day checks: 5 November; 14-day: 12 November; 28-day: 26 November. Ibrahim owns the Search Console page-level read and matching weekly Completion Record/master-tracker update on each date. Do not claim indexed status or an enquiry before evidence exists.
+- **Completion/carry-over decision:** no W08 content, approval, publication or deployment task remains. Two manual presentation/accessibility checks are explicitly owned by Ibrahim for 30 October; the three dated Search Console checks are future observations. Master tracker and asset register reconciled 30 October. Change annotation: `W08 Friday close and carry-over review`.
 
 ### Monday evidence and resource brief — 26 October 2026
 
