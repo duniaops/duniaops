@@ -1,6 +1,6 @@
 # Organic Growth Measurement Ledger
 
-**Status:** Active — W06 14-day Web cohort captured 27 October for 14–27 October, reports last updated 4 hours before capture: AI service 112 impressions / 0 clicks / position 68.4; AI decision article 164 / 0 / 78.7; both 0% CTR. The 28-day cohort is due 10 November; conversion remains NOT VERIFIED because no AI form test or attributed qualified enquiry is recorded. W07 first post-revision Web cohort was captured 26 October for 19–25 October: Rescue article 1 impression / 0 clicks / position 59; DevOps article 5 / 0 / 29.6; DevOps service 39 / 0 / 63.2; all 0% CTR. W05 cost article's 14-day exact-page window (10–23 October) was captured 26 October, last updated 2.5 hours before capture: 0 impressions / 0 clicks / 0% CTR / no position data. URL Inspection still reports `Discovered – currently not indexed`; sitemap and homepage are listed, crawl N/A. No request or resubmission was made; 28-day observation is due 6 November. W07 measurement-only production test is reconciled to 5 tests / 0 qualified organic / 0 unresolved. Custom Software remains URL-unknown despite an indexable live test and successful sitemap; no repeat request. Application Support's 16 October rolling 28-day report is 51 impressions, 0 clicks, position 73.2, not an exact first-live 28-day cohort. Detailed evidence and historical source snapshots follow; no prospect PII is stored here.
+**Status:** Active — Week 09 Day-60 gate. On 2 November, exact-page Search Console reports were captured for due W04-B, W05-A and W07 cohorts; all reports were last updated about 3–3.5 hours before capture and contain data only through 31 October. The W04-B and W05-A 28-day windows and W07 14-day windows are therefore one calendar date short and remain PARTIAL. URL Inspection now reports W05-A indexed; W03-B and W05-B are URL-unknown, but their live tests pass. W08-A/B are not yet on Google, as expected before their first 7-day check on 5 November. GA4 5 October–1 November vs 7 September–4 October and the restricted lead ledger were also captured 2 November; one genuine enquiry remains unresolved and the qualified-organic KPI remains 0. No indexing request or submission was made. Full dated evidence and next steps follow.
 **Programme owner:** ibrahim uylas
 **Measurement owner:** ibrahim uylas
 **Depends on:** `003-organic-client-acquisition-90-day-program.md`
@@ -135,6 +135,36 @@ Snapshot last updated 4 September 2026:
 - Search Console reported 3 external links to the homepage from 2 linking domains: Crunchbase and Endole. It reported 43 internal links in total.
 
 Performance and indexing reports can reflect different processing moments. The rescue article's one performance impression and current `Crawled - currently not indexed` status are therefore recorded together rather than forcing a false reconciliation.
+
+## Week 09 Early Day-60 GA4 and lead reconciliation — 2 November 2026
+
+### Search Console site-level comparison
+
+- **Property/report:** `sc-domain:duniaops.com`, Web search performance; captured 2 November 2026. The report said “Last update: 3 hours ago” and contained complete data through 31 October.
+- **Current:** 4–31 October 2026 (28 days) — 7 clicks, 1.22k impressions as displayed (rounded), 0.6% average CTR, average position 57.3.
+- **Previous:** 6 September–3 October 2026 (28 days) — 4 clicks, 354 impressions, 1.1% average CTR, average position 36.2.
+- **Interpretation:** clicks increased by 3 and displayed impressions by roughly 866, while CTR fell 0.5 percentage points and average position weakened by 21.1 positions. The impression mix includes newly published assets and terms with low rankings; this aggregate does not justify a site-wide snippet rewrite. Use exact-page cohorts and frozen high-intent query groups before prioritising individual changes. Visible query rows cover only a subset of total impressions and must not be summed as the total.
+- **Corporate page rows:** in the same comparison, AI Software Development service recorded 235 vs 53 impressions (+182), AI consultant-vs-development-company article 180 vs 0, DevOps service 160 vs 123 (+37), AI prototype-to-production article 137 vs 0, and Application Support service 130 vs 14 (+116). Each row has 0 clicks in the current window. The domain property also includes product subdomains, so the overall aggregate is not a pure corporate-page measure; use these exact `www.duniaops.com` page rows for prioritisation. These are exposure signals, not intent proof; review index state, page age, page relevance and query position before changing anything.
+
+### GA4 Traffic acquisition
+
+- **Property/report:** `DuniaOps - GA4`, Traffic acquisition by session default channel group; capture 2 November 2026, 10:49 UTC; report displays 100% of available data. Property timezone is Europe/London.
+- **Current complete prior-day 28-day window:** 5 October–1 November 2026 — 33 sessions; 21 engaged sessions; 63.64% engagement rate; 53 seconds average engagement; 193 events; 4 key events.
+- **Previous 28-day window:** 7 September–4 October 2026 — 61 sessions; 40 engaged sessions; 65.57% engagement rate; 1 minute 17 seconds average engagement; 485 events; 3 key events. Both ranges follow the 7 September timezone change and are comparable by duration and property timezone.
+- **Organic Search:** current 5 sessions, 5 engaged sessions, 16 seconds average engagement, 37 events and 2 key events; prior 3 sessions, 1 engaged session and 1 key event. The increase is directional only; consent suppresses some users, a key event is not a verified or qualified lead, and no event-to-submission join was attempted.
+- **AI Assistant:** current 1 session, 1 engaged session, 14 seconds average engagement, 7 events and 1 key event. This is channel-level reporting only and is not joined to the private submission.
+- **Interpretation:** overall sessions are down from 61 to 33 and key events are up from 3 to 4; organic-search sessions rose from 3 to 5. Counts are too small to claim a stable trend or conversion-rate change. Refresh the rolling window on 5 November for the formal Day-60 timestamp and preserve the same rule (latest complete prior day).
+
+### Netlify and access-restricted lead ledger
+
+- **Source/capture:** Netlify Forms `project-enquiry`, verified-submission list and form metadata, read 2 November 2026; total verified submission count 6. No submissions or test records were deleted or changed in Netlify.
+- **Private ledger update:** reconciled the new genuine non-test enquiry from 29 October without copying name, company, email, message or referrer URL into Git. One privacy-safe row was added with status `unresolved`, reason `insufficient_evidence`, category `unknown`, landing group `home`, channel `non_organic`, GA source/medium `unavailable`, owner `ibrahim uylas`, next action `reply`. The direct Netlify ID remains only in the restricted sheet. A referrer query indicates an AI-assistant referral, but no identity-level GA4 match was made.
+- **Updated overview:** 5 measurement tests; 1 unresolved enquiry; 0 qualified enquiries; 0 verified qualified organic enquiries. The overview formulas recalculated after the row write and were verified by read-back. The inquiry's service fit still requires owner review; reply is due 2 November. No customer was contacted.
+
+### Public citation/review spot-check
+
+- A focused public web search on 2 November surfaced [DuniaOps' LinkedIn company profile](https://uk.linkedin.com/company/duniaops) and [The Org company profile](https://theorg.com/org/duniaops-solution-and-consulting-ltd). No independent review page appeared among the focused results; this is a bounded search result, not an exhaustive proof that no reviews exist.
+- Search Console Links report captured 2 November reports 3 external links to the homepage (2 from `crunchbase.com`, 1 from `selling.com`) and 281 internal links. This supersedes the 6 September snapshot (which listed Endole instead of selling.com). The Links report did not expose a current report-update timestamp, so only the observation date is recorded. No profile, directory or review setting was changed and no review request was sent.
 
 ### GA4 configuration and event snapshot
 
@@ -370,3 +400,24 @@ Read-only Google Search Console Web reports for property `sc-domain:duniaops.com
 | W06-B `content/blog/ai-consultant-vs-ai-development-company.md` → `https://www.duniaops.com/blog/ai-consultant-vs-ai-development-company`; first live 13 Oct 2026 08:40 BST | 164 impressions / 0 clicks / 0% CTR / average position 78.7 | Cohort captured; 19 queries reported, first 10 visible; no lead or impact inference. Owner Ibrahim Uylas; 28-day due 10 Nov; annotation `W06 14-day GSC cohort`; source `fb06c88` / deploy `6ad16dbed6ce22019808a29b`. |
 
 Conversion remains NOT VERIFIED; no AI-prefilled form test was submitted and GSC cannot attribute qualified leads. No indexing request, copy change, or external account setting was made.
+
+## Week 09 Monday cohort and index-state update — 2 November 2026
+
+All Search Console reads used property `sc-domain:duniaops.com`, Web search, exact-page filters. The Performance report showed its latest complete date as 31 October and “Last update” about 3–3.5 hours before capture. Consequently, the due 14/28-day dates are not yet complete through 1 November; record these as partial and refresh on 4 November. No indexing request, sitemap resubmission, form submission or account change was made.
+
+| Asset / source → live URL | Exact window / evidence | Result | State / owner / next comparison |
+|---|---|---|---|
+| W04-B `content/blog/kubernetes-consultant-or-permanent-hire-uk.md` → `https://www.duniaops.com/blog/kubernetes-consultant-or-permanent-hire-uk`; first live 5 Oct; annotation `d89566f` | Search Console Web, exact page, 5–31 Oct (27 of 28 calendar dates); report last updated ~3h before capture | 112 impressions / 0 clicks / 0% CTR / average position 31.6 | PARTIAL, one data date pending; no impact inference. Owner Ibrahim Uylas; refresh 4 Nov. |
+| W05-A `services/custom-software-development.html` → `https://www.duniaops.com/services/custom-software-development`; first live 5 Oct; annotation `d89566f` | Search Console Web, exact page, 5–31 Oct (27 of 28 calendar dates); report last updated ~3.5h before capture | 13 impressions / 0 clicks / 0% CTR / average position 76.7 | PARTIAL. URL Inspection 2 Nov: indexed, one valid Breadcrumbs item. Owner Ibrahim Uylas; refresh 4 Nov. |
+| W07-A `content/blog/software-project-rescue-uk.md` → `https://www.duniaops.com/blog/software-project-rescue-uk`; revised 19 Oct; `c145541` / deploy `6ad600380c53a989007003c6` | Search Console Web, exact page, 19–31 Oct (13 of 14 dates); report last updated ~3h before capture | 1 impression / 0 clicks / 0% CTR / position 59.0 | PARTIAL; owner Ibrahim Uylas; refresh 4 Nov; low volume does not justify a change. |
+| W07-B `content/blog/when-to-hire-devops-consultancy-uk.md` → `https://www.duniaops.com/blog/when-to-hire-devops-consultancy-uk`; revised 19 Oct; `c145541` / deploy `6ad600380c53a989007003c6` | Search Console Web, exact page, 19–31 Oct (13 of 14 dates); report last updated ~3h before capture | 8 impressions / 0 clicks / 0% CTR / position 22.4 | PARTIAL; owner Ibrahim Uylas; refresh 4 Nov; low volume does not justify a change. |
+| W07 supporting service `services/devops-and-cloud-consultancy.html` → `https://www.duniaops.com/services/devops-and-cloud-consultancy`; link revision 19 Oct; `c145541` / deploy `6ad600380c53a989007003c6` | Search Console Web, exact page, 19–31 Oct (13 of 14 dates); report last updated ~3h before capture | 73 impressions / 0 clicks / 0% CTR / position 62.0 | PARTIAL; owner Ibrahim Uylas; refresh 4 Nov; low volume does not justify a change. |
+
+### URL Inspection and live tests — 2 November 2026
+
+- W03-B `content/blog/can-a-new-company-maintain-software-it-did-not-build.md` → `https://www.duniaops.com/blog/can-a-new-company-maintain-software-it-did-not-build`: Google Index says `URL unknown to Google`, no referring sitemap/page reported. Live URL test at 10:31 BST says available to Google and indexable; one valid Breadcrumbs item. Public sitemap contains the exact canonical URL. Cause NOT VERIFIED; owner Ibrahim Uylas, diagnose/recheck 4 Nov. No indexing request.
+- W05-B `content/blog/bespoke-software-development-cost-uk.md` → `https://www.duniaops.com/blog/bespoke-software-development-cost-uk`: Google Index says `URL unknown to Google`, no referring sitemap/page reported. Live URL test at 10:30 BST says available to Google and indexable; one valid Breadcrumbs item. Public sitemap contains the exact canonical URL. Cause NOT VERIFIED; owner Ibrahim Uylas, 28-day performance cohort due 6 Nov and discovery recheck 4 Nov. No indexing request.
+- W05-A `services/custom-software-development.html` → `https://www.duniaops.com/services/custom-software-development`: Google Index now says indexed and reports one valid Breadcrumbs item. This supersedes the 13 October `URL unknown` snapshot; no indexing request was made.
+- W08-A `/work/fragmented-application-estate-modernisation` and W08-B `/resources/software-project-handover-checklist`: Google Index says `URL unknown to Google` on 2 Nov. Both first went live 29 Oct and their first scheduled performance check is 5 Nov; do not interpret this as a fault or request indexing solely from this four-day snapshot.
+
+The W07 observations are small early signals, not evidence of impact. Preserve first-live 7/14-day gaps for W04 as `NOT VERIFIED`; these historical reads cannot be reconstructed from current windows. Day-60 rolling program windows, GA4, qualified-lead ledger reconciliation and final-30-day priority decision remain scheduled for 5 November.
