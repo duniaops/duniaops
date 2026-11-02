@@ -5,9 +5,9 @@ slug: "how-to-play-rockimals-earth-shield"
 title: "How to Play Earth Shield in Rockimals"
 description: "Find Earth Shield, rescue space animals from incoming rocks, understand the score and use the daily free play time in this gentle family guide."
 category: "discover-game"
-published: "2099-01-01T10:00:00Z"
-updated: "2099-01-01T10:00:00Z"
-draft: true
+published: "2026-11-02T10:29:13Z"
+updated: "2026-11-02T10:29:13Z"
+draft: false
 image: "/assets/rockimals-blog/rockimals-earth-shield/cover-v2.jpg"
 imageAlt: "Rockimals game characters Bobo the elephant and Ciko the dinosaur beside an illustrated Earth and glowing shield; not a game screenshot"
 author:
@@ -18,14 +18,14 @@ cta:
   id: "app-store"
   label: "Try Earth Shield in Rockimals"
 productGuide: true
-reviewedAppVersion: "1.5.4"
+reviewedAppVersion: "1.5.6"
 ---
 
 **Earth Shield is a quick, gentle game about rescuing space animals near Earth.** Tap an incoming space rock before it reaches the glowing shield. Breaking the rock frees its animal friend, who arrives safely on Earth. The shield is a *game story*, not a warning that a real asteroid is heading for Earth.
 
 ## Play your first round
 
-1. Open Rockimals and choose **Play**, then **Earth Shield**. On your first visit, follow the three short practice steps on the real game field: tap a space rock, see the rescued friend reach Earth and try a helper power. You can replay the tutorial later.
+1. Open Rockimals and choose **Games**, then **Earth Shield**. On your first visit, follow the three short practice steps on the real game field: tap a space rock, see the rescued friend reach Earth and try a helper power. You can replay the tutorial later.
 2. When the round starts, watch for an animal riding an incoming space rock. **Tap the rock** to break it and rescue the animal. Some larger rocks may need more than one tap.
 3. Watch the glowing shield around Earth. A rock that reaches it uses some shield energy. There is no need to rush a young child: use **Pause** and **Resume** whenever you want a break.
 4. At the end, read the friendly summary together. It shows how many animals you rescued, how many rocks reached the shield, your score and time. You can start another round if you still have play time.
@@ -38,7 +38,7 @@ Earth Shield includes **3 minutes of free active play each day**. Pausing or vie
 
 Rockimals uses real near-Earth visitor data for its space animals, with sample data when offline. The tapping, shield energy, powers and rescues are playful fiction, not a simulation of a particular asteroid's real path or of how scientists defend Earth. Rockimals is independent and is not affiliated with or endorsed by NASA.
 
-**Version note:** Gameplay, the first-play tutorial and the daily allowance were checked against Rockimals 1.5.4 release source on 30 October 2026. The UK App Store listed 1.5.4 that day; the public Google Play listing did not expose an independently verifiable Android version. If your installed screen differs, follow the labels shown in your app.
+**Version note:** The Games entry, gameplay, first-play tutorial and daily allowance were checked against Rockimals 1.5.6 release source on 2 November 2026. The UK App Store listed 1.5.6 that day; the public Google Play listing did not expose an independently verifiable Android version. If your installed screen differs, follow the labels shown in your app.
 
 ## Sources
 

@@ -5,9 +5,9 @@ slug: "rockimals-erdschild-spielanleitung"
 title: "So spielst du Erdschild in Rockimals"
 description: "Rette Weltraumtiere aus ankommenden Felsen, verstehe die Spielzusammenfassung und erfahre, wie viel kostenlose Spielzeit es täglich gibt."
 category: "discover-game"
-published: "2099-01-01T10:00:00Z"
-updated: "2099-01-01T10:00:00Z"
-draft: true
+published: "2026-11-02T10:29:13Z"
+updated: "2026-11-02T10:29:13Z"
+draft: false
 image: "/assets/rockimals-blog/rockimals-earth-shield/cover-v2.jpg"
 imageAlt: "Die Rockimals-Spielfiguren Bobo der Elefant und Ciko der Dino neben einer illustrierten Erde mit leuchtendem Schild; kein Screenshot des Spiels"
 author:
@@ -18,14 +18,14 @@ cta:
   id: "app-store"
   label: "Erdschild in Rockimals ausprobieren"
 productGuide: true
-reviewedAppVersion: "1.5.4"
+reviewedAppVersion: "1.5.6"
 ---
 
 **Erdschild ist ein kurzes, ruhiges Spiel: Du rettest Weltraumtiere in der Nähe der Erde.** Tippe auf einen ankommenden Weltraumfelsen, bevor er den leuchtenden Schild erreicht. Zerbricht der Felsen, wird sein tierischer Freund gerettet und erreicht sicher die Erde. Der Schild ist Teil einer *Spielgeschichte* und keine Warnung vor einem echten Asteroideneinschlag.
 
 ## Deine erste Runde
 
-1. Öffne in Rockimals **Spielen** und wähle **Erdschild**. Folge beim ersten Besuch den drei kurzen Übungsschritten auf dem echten Spielfeld: Tippe auf einen Weltraumfelsen, sieh, wie der gerettete Freund die Erde erreicht, und probiere eine Hilfskraft aus. Das Tutorial lässt sich später erneut öffnen.
+1. Öffne in Rockimals **Spiele** und wähle **Erdschild**. Folge beim ersten Besuch den drei kurzen Übungsschritten auf dem echten Spielfeld: Tippe auf einen Weltraumfelsen, sieh, wie der gerettete Freund die Erde erreicht, und probiere eine Hilfskraft aus. Das Tutorial lässt sich später erneut öffnen.
 2. Achte auf ein Tier auf einem ankommenden Weltraumfelsen. **Tippe auf den Felsen**, um ihn zu zerbrechen und das Tier zu retten. Manche größeren Felsen brauchen mehrere Tipps.
 3. Beobachte den leuchtenden Schild um die Erde. Erreicht ein Felsen ihn, verliert der Schild Energie. Mit kleinen Kindern muss es nicht hektisch werden: Nutze **Pause** und **Fortsetzen** für eine Auszeit.
 4. Schaut euch am Ende die freundliche Zusammenfassung an. Sie zeigt die geretteten Tiere, die Felsen am Schild, Punkte und Spielzeit. Wenn noch Spielzeit übrig ist, könnt ihr eine neue Runde beginnen.
@@ -38,7 +38,7 @@ Erdschild bietet **täglich 3 Minuten kostenlose aktive Spielzeit**. Eine Pause 
 
 Für die Weltraumtiere nutzt Rockimals Daten echter erdnaher Objekte und offline Beispieldaten. Antippen, Schildenergie, Kräfte und Rettungen sind fiktives Spielgeschehen. Sie bilden weder die wirkliche Bahn eines bestimmten Asteroiden noch wissenschaftliche Methoden zum Schutz der Erde ab. Rockimals ist unabhängig und weder mit der NASA verbunden noch von ihr empfohlen.
 
-**Versionshinweis:** Spielablauf, erste Übung und Gratiskontingent wurden am 30. Oktober 2026 mit dem Veröffentlichungscode von 1.5.4 abgeglichen. Der britische App Store zeigte an diesem Tag 1.5.4; die öffentliche Google-Play-Seite erlaubte keine unabhängige Prüfung der genauen Android-Version. Weicht dein Bildschirm ab, orientiere dich an den Angaben in deiner App.
+**Versionshinweis:** Der Zugang über Spiele, der Spielablauf, die erste Übung und das Gratiskontingent wurden am 2. November 2026 mit dem Veröffentlichungscode von 1.5.6 abgeglichen. Der britische App Store zeigte an diesem Tag 1.5.6; die öffentliche Google-Play-Seite erlaubte keine unabhängige Prüfung der genauen Android-Version. Weicht dein Bildschirm ab, orientiere dich an den Angaben in deiner App.
 
 ## Quellen
 

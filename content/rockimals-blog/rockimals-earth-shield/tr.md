@@ -5,9 +5,9 @@ slug: "rockimals-dunya-kalkani-nasil-oynanir"
 title: "Rockimals Dünya Kalkanı Nasıl Oynanır?"
 description: "Dünya Kalkanı'nı bulun, uzay hayvanlarını gelen taşlardan kurtarın, oyun özetini okuyun ve günlük ücretsiz süreyi öğrenin."
 category: "discover-game"
-published: "2099-01-01T10:00:00Z"
-updated: "2099-01-01T10:00:00Z"
-draft: true
+published: "2026-11-02T10:29:13Z"
+updated: "2026-11-02T10:29:13Z"
+draft: false
 image: "/assets/rockimals-blog/rockimals-earth-shield/cover-v2.jpg"
 imageAlt: "Rockimals oyunundaki fil Bobo ve dinozor Ciko, çizilmiş Dünya ve ışıklı kalkanın yanında; oyun ekranı değil"
 author:
@@ -18,14 +18,14 @@ cta:
   id: "app-store"
   label: "Rockimals'ta Dünya Kalkanı'nı dene"
 productGuide: true
-reviewedAppVersion: "1.5.4"
+reviewedAppVersion: "1.5.6"
 ---
 
 **Dünya Kalkanı, uzay hayvanlarını Dünya yakınında kurtardığınız kısa ve sakin bir oyundur.** Gelen uzay taşına, ışıklı kalkana ulaşmadan önce dokunun. Taş parçalanınca içindeki hayvan kurtulur ve Dünya'ya güvenle ulaşır. Kalkan bir *oyun kurgusudur*; gerçek bir asteroitin Dünya'ya çarpacağına dair uyarı değildir.
 
 ## İlk tur nasıl oynanır?
 
-1. Rockimals'ı açın, **Oyna** bölümünden **Dünya Kalkanı**'nı seçin. İlk ziyaretinizde gerçek oyun alanındaki üç kısa alıştırmayı yapın: uzay taşına dokunun, kurtarılan dostunuzun Dünya'ya ulaştığını görün ve bir yardımcı gücü deneyin. Eğitimi daha sonra tekrar açabilirsiniz.
+1. Rockimals'ı açın, **Oyunlar** bölümünden **Dünya Kalkanı**'nı seçin. İlk ziyaretinizde gerçek oyun alanındaki üç kısa alıştırmayı yapın: uzay taşına dokunun, kurtarılan dostunuzun Dünya'ya ulaştığını görün ve bir yardımcı gücü deneyin. Eğitimi daha sonra tekrar açabilirsiniz.
 2. Oyun başlayınca uzay taşıyla gelen bir hayvanı gözleyin. **Taşa dokunarak** onu parçalayın ve hayvanı kurtarın. Bazı büyük taşlara birden fazla kez dokunmanız gerekebilir.
 3. Dünya'nın çevresindeki ışıklı kalkanı izleyin. Kalkana ulaşan taşlar kalkan enerjisini azaltır. Küçük bir çocukla acele etmeniz gerekmez; istediğinizde **Duraklat** ve **Devam et** seçeneklerini kullanın.
 4. Tur bitince dostça hazırlanan özeti birlikte okuyun. Kurtardığınız hayvanları, kalkana ulaşan taşları, puanı ve süreyi görürsünüz. Oyun süreniz kaldıysa yeni bir tur başlatabilirsiniz.
@@ -38,7 +38,7 @@ Dünya Kalkanı'nda **her gün 3 dakika ücretsiz aktif oyun süresi** vardır. 
 
 Rockimals uzay hayvanları için Dünya'ya yakın gerçek ziyaretçi verilerinden, çevrimdışıyken de örnek verilerden yararlanır. Dokunma, kalkan enerjisi, güçler ve kurtarmalar oyunun kurgusudur; belirli bir asteroitin gerçek rotasını veya bilim insanlarının Dünya'yı koruma yöntemini canlandırmaz. Rockimals bağımsızdır; NASA ile bağlantılı değildir ve NASA tarafından onaylanmamıştır.
 
-**Sürüm notu:** Oynanış, ilk oyun eğitimi ve günlük süre 30 Ekim 2026'da Rockimals 1.5.4 yayın kaynağıyla karşılaştırıldı. O gün Birleşik Krallık App Store'da 1.5.4 görünüyordu; Google Play'in herkese açık sayfasından Android sürümü bağımsız olarak doğrulanamadı. Yüklü uygulamanızdaki ekran farklıysa orada gördüğünüz etiketleri izleyin.
+**Sürüm notu:** Oyunlar girişi, oynanış, ilk oyun eğitimi ve günlük süre 2 Kasım 2026’da Rockimals 1.5.6 yayın kaynağıyla karşılaştırıldı. O gün Birleşik Krallık App Store’da 1.5.6 görünüyordu; Google Play’in herkese açık sayfasından Android sürümü bağımsız olarak doğrulanamadı. Yüklü uygulamanızdaki ekran farklıysa orada gördüğünüz etiketleri izleyin.
 
 ## Kaynaklar
 
