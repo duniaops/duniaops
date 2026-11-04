@@ -444,3 +444,45 @@ These are planned reads, not new measurements. Owner for every row: Ibrahim Uyla
 For programme rolling windows on 5 November, derive both adjacent 28-day ranges from each source's actual complete end date `T`. GA4 uses its latest complete prior day in Europe/London; GSC uses its own complete date. Never assume the same cut-off. Domain-property totals include product subdomains; use exact corporate-page/query evidence for the Week 10–12 decision. Keep qualified organic leads separate from GA4 events, and keep all missing data PARTIAL or NOT VERIFIED.
 
 - **Automation evidence:** the update of legacy `weekly-article-publishing-reminder` failed because the app reported that it no longer existed; its local file also disappeared. After explicit user approval to restore one automation, `duniaops-seo-60-30-takip` was created ACTIVE and its saved configuration was read back. It retains Monday/Friday 09:00 runs through 11 December and adds 4/5/10/12/26 November at 09:00 Europe/London; 6 November is the existing Friday occurrence. It is read-only, suppresses unchanged non-actionable reports, and does not send customer messages. Reminder registration is not execution of the measurement. See Spec 012 for the remaining gate checklist.
+
+## Week 09 Wednesday GSC refresh and discovery diagnosis — 4 November 2026
+
+**Source:** connected Search Console UI, property `sc-domain:duniaops.com`, Web search, exact canonical page filters, morning capture 4 November; reports said `Last update: 4 hours ago`. The W04-A Days table and chart extend through 3 November; the requested 4 November date is absent. Record 3 November as the latest visible date, not an independently certified final-data cut-off. The fixed cohorts ending 1/2 November have all requested date coverage; normal GSC revisions remain possible. No GA4 refresh occurred in this check. Owner: Ibrahim Uylas.
+
+Source/live/release mappings remain the Spec 019 register: W04-B `content/blog/kubernetes-consultant-or-permanent-hire-uk.md` (5 Oct, `d89566f`); W05-A `services/custom-software-development.html` (5 Oct, `d89566f`); W04-A `services/devops-and-cloud-consultancy.html` (7 Oct, `350dc6f`); W07-A `content/blog/software-project-rescue-uk.md`, W07-B `content/blog/when-to-hire-devops-consultancy-uk.md` and supporting service `services/devops-and-cloud-consultancy.html` (19 Oct link/content revision, `c145541` / deploy `6ad600380c53a989007003c6`). Each URL is listed in the following observations; no source or first-live date changed today.
+
+### Legacy refresh — preserve publication/revision-day inclusion
+
+| Asset / canonical URL | Exact range | Impressions | Clicks | CTR displayed | Average position | State |
+|---|---|---:|---:|---|---:|---|
+| W04-B `https://www.duniaops.com/blog/kubernetes-consultant-or-permanent-hire-uk` | 5 Oct–1 Nov | 116 | 0 | 0% | 30.8 | All 28 dates captured; includes publication date, not 28 full post-live days |
+| W05-A `https://www.duniaops.com/services/custom-software-development` | 5 Oct–1 Nov | 14 | 0 | 0% | 77.5 | All 28 dates captured; includes publication date |
+| W07-A `https://www.duniaops.com/blog/software-project-rescue-uk` | 19 Oct–1 Nov | 1 | 0 | 0% | 59.0 | All 14 dates captured; includes revision date |
+| W07-B `https://www.duniaops.com/blog/when-to-hire-devops-consultancy-uk` | 19 Oct–1 Nov | 10 | 0 | 0% | 18.7 | All 14 dates captured; includes revision date |
+| W07 supporting service `https://www.duniaops.com/services/devops-and-cloud-consultancy` | 19 Oct–1 Nov | 79 | 0 | 0% | 61.1 | All 14 dates captured; includes revision date |
+
+These supersede only the incompleteness of the 2 November legacy reads. They do not overwrite those historical captures or demonstrate improvement caused by publication.
+
+### Separate first-full-daily observations
+
+| Asset | Exact range / intended daily coverage | Impressions | Clicks | CTR displayed | Average position | State / next read |
+|---|---|---:|---:|---|---|---|
+| W04-B, URL/source above | 6 Oct–2 Nov / 28 dates | 122 | 0 | 0% | 30.6 | Date coverage captured; include in 5 Nov Day-60 decision |
+| W05-A, URL/source above | 6 Oct–2 Nov / 28 dates | 14 | 0 | 0% | 77.5 | Date coverage captured; include in 5 Nov decision |
+| W07-A, URL/source above | 20 Oct–2 Nov / 14 dates | 0 | 0 | 0% (UI) | No position data (UI shows 0) | Date coverage captured; no CTR/position conclusion with zero impressions; 28-day checkpoint 16 Nov |
+| W07-B, URL/source above | 20 Oct–2 Nov / 14 dates | 9 | 0 | 0% | 18.2 | Date coverage captured; 28-day checkpoint 16 Nov |
+| W07 supporting service, URL/source above | 20 Oct–2 Nov / 14 dates | 76 | 0 | 0% | 60.5 | Date coverage captured; 28-day checkpoint 16 Nov |
+| W04-A, same service URL; 7 Oct release cohort | Requested 8 Oct–4 Nov; actual 8 Oct–3 Nov / 27 of 28 dates | 140 | 0 | 0% | 63.1 | PARTIAL; Ibrahim rechecks 5 Nov, then 6 Nov if needed |
+
+**Interpretation:** all observed page clicks remain zero. The W07 guide has only 9 impressions in the full-daily cohort; it does not meet the ledger's 50-impression snippet-work threshold despite position 18.2. W04-B has 122 impressions but average position 30.6, so a title rewrite is not automatically selected. The DevOps service remains mainly low-ranked. Retain copy until the 5 November query/page-age decision; do not infer lead outcomes or compare the legacy and full-daily windows as identical cohorts. Missing historical W04 7/14-day reads stay NOT VERIFIED.
+
+### W03-B / W05-B discovery evidence
+
+- **W03-B:** `content/blog/can-a-new-company-maintain-software-it-did-not-build.md` → `https://www.duniaops.com/blog/can-a-new-company-maintain-software-it-did-not-build`; first live 11 Sep, `596bd6a` / deploy `6aa3ded37934dd0008b0273d`. Google Index still says URL unknown, no referring sitemap/page, last crawl/canonicals N/A. Fresh live test at **4 Nov 09:27:15 GMT**, Google Inspection Tool smartphone: crawl allowed Yes, page fetch Successful, indexing allowed Yes, self-declared canonical correct, one valid Breadcrumbs item. Discovery is explicitly not checked by live tests. Root cause of the Google Index/discovery discrepancy remains NOT VERIFIED, not a diagnosed robots/canonical fault. Owner Ibrahim; recheck 5 Nov.
+- **W05-B:** `content/blog/bespoke-software-development-cost-uk.md` → `https://www.duniaops.com/blog/bespoke-software-development-cost-uk`; first live 9 Oct 16:39 BST, `8c678cb` / deploy `6ac90a9431a9180008315a26`. Google Index now says **Discovered – currently not indexed**, with `https://www.duniaops.com/sitemap.xml` and homepage recognised; last crawl N/A. This supersedes the 2 Nov URL-unknown state: discovery is now reported, crawling/indexing is still pending. Fresh smartphone live test at **4 Nov 09:28:56 GMT**: crawl allowed Yes, fetch Successful, indexing allowed Yes, self-canonical correct, one valid Breadcrumbs item. Do not claim indexed. Owner Ibrahim; 28-day observation 6 Nov (10 Oct–6 Nov, PARTIAL if delayed; retry 9 Nov).
+- **Sitemap and public evidence:** submitted `https://www.duniaops.com/sitemap.xml` is Success, last read 2 Nov, 33 discovered pages / 0 videos. Fresh GETs return HTTP 200 for both articles, their blog index, Support/Custom Software parents, both W08 pages, sitemap and robots.txt. Both article canonicals match; no robots-meta or X-Robots-Tag restriction is present. Public sitemap contains both exact canonicals; robots.txt allows `/` and declares that sitemap. Blog index links to both, Support service and handover checklist link to W03-B, and the articles link to each other. Thus neither is an orphan in this bounded sample; live reachability does not prove Google has crawled it.
+- **Bounded gap / decision candidate:** the Custom Software service has no direct cost-article link in current live HTML or repository source, while the blog index/homepage already expose the article. A reciprocal commercial-parent link is a possible 5 Nov improvement, not an established cause of Google's crawl choice. No site source was changed, no sitemap resubmitted and no indexing request made. Prioritise the unresolved W03 discovery/crawl issue before optional content.
+
+### W08 / private-source boundaries
+
+Mobile layout and actual screen-reader runtime are separate: the responsive smoke passes with the scope in Spec 011; native Chrome/VoiceOver access timed out, so VoiceOver remains NOT VERIFIED (Ibrahim, 5 Nov). The read-only heartbeat at 09:00 on 4 Nov read the private Sheet: 5 tests, 1 unresolved, 0 qualified, 0 qualified organic; the non-test controlled row still says `unresolved / insufficient_evidence`, `reply`, updated 2 Nov 10:49 UTC. It was not freshly reconciled to Netlify in this task. Private fit review remains overdue from 2 Nov; Ibrahim should review today, 4 Nov, and reconcile at the 5 Nov gate. No customer identity/message was copied, no contact made and no private record changed.

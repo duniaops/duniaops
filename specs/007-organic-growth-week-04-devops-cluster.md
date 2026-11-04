@@ -1,6 +1,6 @@
 # Organic Growth Week 04 — DevOps Cluster
 
-**Status:** Production complete — W04-B Kubernetes article first live 5 October; W04-A DevOps service first live 7 October and internally revised 19 October. Both are live, canonical and in sitemap (verified 30 October); Search Console reported indexed 19 October. On 2 November W04-B exact-page data for 5–31 October is 112 impressions / 0 clicks / 0% CTR / position 31.6, a 27/28-date PARTIAL cohort because 1 November is not processed. W04-A 28-day observation remains due 4 November. Exact W04 7/14-day gaps remain NOT VERIFIED and must not be reconstructed.
+**Status:** Production complete — article first live 5 October; service refresh first live 7 October, link revision 19 October. On 4 November W04-B legacy 5 Oct–1 Nov is captured (116 impressions / 0 clicks / position 30.8); separate full-daily 6 Oct–2 Nov is captured (122 / 0 / 30.6). W04-A requested full-daily 8 Oct–4 Nov is still PARTIAL: report contains 8 Oct–3 Nov, 140 impressions / 0 clicks / position 63.1; recheck 5 Nov. All observed CTRs display 0%. Exact historical 7/14-day gaps remain NOT VERIFIED.
 **Type:** Commercial Optimisation / Blog Article
 **Priority:** P1
 **Scheduled:** 28 September–4 October 2026
@@ -94,3 +94,11 @@ Record selected article intent, service/article paths and URLs, claim evidence, 
 - **Source / asset:** `content/blog/kubernetes-consultant-or-permanent-hire-uk.md` → `https://www.duniaops.com/blog/kubernetes-consultant-or-permanent-hire-uk`; first production 5 October 2026; publication annotation/commit `d89566f`; owner/approver Ibrahim Uylas.
 - **Search Console:** property `sc-domain:duniaops.com`, Web, exact page, 5–31 October; report last updated about 3 hours before capture. 112 impressions, 0 clicks, 0% CTR, average position 31.6. Search Console performance data through 31 October omits 1 November, so the scheduled 28-day observation is PARTIAL (27/28 calendar dates), not complete. Search Console had reported the URL indexed on 19 October; current HTTP/canonical/sitemap verification from 30 October remains recorded above.
 - **Decision / follow-up:** no content or snippet change from this small early sample. Ibrahim to refresh the exact-page report on 4 November when 1 November may be available, and update Specs 003, 012, 018 and 019. The lost exact first-live 7/14-day reads remain NOT VERIFIED.
+
+### W04 28-day performance refresh — 4 November 2026
+
+- **Source/owner:** GSC Web, exact canonical page filters, morning read, last update 4h; Ibrahim Uylas. Source/live/publication mappings are unchanged from the production record above.
+- **W04-B legacy:** `/blog/kubernetes-consultant-or-permanent-hire-uk`, 5 Oct–1 Nov, 116 impressions / 0 clicks / displayed 0% CTR / position 30.8. All 28 intended dates now present; publication-day inclusion remains a caveat. The prior 27/28-date observation is retained as historical evidence.
+- **W04-B separate full-daily:** 6 Oct–2 Nov, 122 impressions / 0 clicks / displayed 0% CTR / position 30.6. This excludes the partial publication day and is not the same window as the legacy refresh. Date coverage is captured, not proof of impact.
+- **W04-A PARTIAL:** `/services/devops-and-cloud-consultancy`, requested first-full-daily 8 Oct–4 Nov, actual 8 Oct–3 Nov (27/28 dates), 140 impressions / 0 clicks / displayed 0% CTR / position 63.1. Days table includes 3 Nov; that is the latest visible date, not independent certification of final data. Recheck 5 Nov, then 6 Nov if delayed. Do not replace it with the 19 Oct link-revision cohort.
+- **Decision:** HOLD copy; retain historical exact 7/14-day gaps as NOT VERIFIED. No publication, deployment, indexing request or form test. Specs 003/012/018/019 updated; 5 Nov Day-60 interpretation remains separate.
