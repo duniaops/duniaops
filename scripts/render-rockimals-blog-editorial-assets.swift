@@ -213,6 +213,66 @@ let stars: [(CGFloat, CGFloat, CGFloat)] = [
     (1115, 535, 3), (1160, 115, 2), (965, 70, 2), (585, 305, 2)
 ]
 
+if CommandLine.arguments.contains("--moon-distance-cover-only") {
+    // An editorial Earth–Moon comparison with exact Tavi and Pofi game art.
+    // Their positions are decorative, not individual flyby measurements.
+    let earth = try loadImage(gameRoot.appendingPathComponent("assets/images/radar_earth.webp"))
+    let cyan = NSColor(calibratedRed: 0.27, green: 0.82, blue: 1, alpha: 1)
+    let orange = NSColor(calibratedRed: 1, green: 0.51, blue: 0.24, alpha: 1)
+    try renderCover(output: outputRoot.appendingPathComponent("moon-distance-for-kids/cover.jpg")) {
+        drawGradient([
+            NSColor(calibratedRed: 0.015, green: 0.045, blue: 0.11, alpha: 1),
+            NSColor(calibratedRed: 0.08, green: 0.16, blue: 0.31, alpha: 1),
+            NSColor(calibratedRed: 0.12, green: 0.09, blue: 0.21, alpha: 1)
+        ], angle: 15)
+        drawStars(stars)
+        drawStars([
+            (90, 435, 2), (270, 175, 2), (450, 540, 2), (600, 60, 2),
+            (785, 500, 2), (1060, 125, 2), (1135, 460, 2)
+        ], color: cyan)
+
+        // Two soft guide arcs make the distance relationship legible at card size.
+        for (height, opacity, width) in [(315.0, 0.20, 15.0), (315.0, 0.72, 3.0)] {
+            let path = NSBezierPath()
+            path.move(to: NSPoint(x: 198, y: 258))
+            path.curve(to: NSPoint(x: 1012, y: 258),
+                       controlPoint1: NSPoint(x: 360, y: height + 130),
+                       controlPoint2: NSPoint(x: 850, y: height + 130))
+            cyan.withAlphaComponent(opacity).setStroke()
+            path.lineWidth = width
+            path.stroke()
+        }
+
+        cyan.withAlphaComponent(0.18).setFill()
+        NSBezierPath(ovalIn: NSRect(x: 55, y: 155, width: 310, height: 310)).fill()
+        drawImage(earth, inside: NSRect(x: 80, y: 180, width: 260, height: 260))
+
+        let moonRect = NSRect(x: 960, y: 225, width: 160, height: 160)
+        orange.withAlphaComponent(0.19).setFill()
+        NSBezierPath(ovalIn: moonRect.insetBy(dx: -20, dy: -20)).fill()
+        NSGradient(colors: [
+            NSColor(calibratedRed: 0.97, green: 0.93, blue: 0.78, alpha: 1),
+            NSColor(calibratedRed: 0.61, green: 0.68, blue: 0.79, alpha: 1)
+        ])?.draw(in: NSBezierPath(ovalIn: moonRect), angle: 135)
+        NSColor(calibratedRed: 0.38, green: 0.48, blue: 0.60, alpha: 0.20).setFill()
+        for crater in [
+            NSRect(x: 986, y: 316, width: 32, height: 20),
+            NSRect(x: 1051, y: 283, width: 23, height: 16),
+            NSRect(x: 1020, y: 248, width: 18, height: 14)
+        ] {
+            NSBezierPath(ovalIn: crater).fill()
+        }
+
+        drawImage(rabbit, inside: NSRect(x: 372, y: 70, width: 260, height: 260))
+        drawImage(bear, inside: NSRect(x: 660, y: 276, width: 245, height: 245))
+        orange.withAlphaComponent(0.90).setFill()
+        for point in [NSPoint(x: 495, y: 420), NSPoint(x: 755, y: 429)] {
+            NSBezierPath(ovalIn: NSRect(x: point.x - 5, y: point.y - 5, width: 10, height: 10)).fill()
+        }
+    }
+    exit(0)
+}
+
 if CommandLine.arguments.contains("--earth-shield-cover-only") {
     // Compose a new scene around exact game sprites: Bobo has not appeared on
     // a blog cover before, and Ciko appears here as a smaller second visitor.
