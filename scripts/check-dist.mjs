@@ -3,6 +3,7 @@ import path from 'node:path';
 import { fileURLToPath } from 'node:url';
 import { createRockimalsBlogManifest, loadRockimalsBlogSources } from './rockimals-blog-content.mjs';
 import { ROCKIMALS_GOOGLE_PLAY_URL, rockimalsGooglePlayBadge } from './rockimals-blog-cta.mjs';
+import { validateBreadcrumbs } from './validate-breadcrumbs.mjs';
 
 const ROOT = path.resolve(path.dirname(fileURLToPath(import.meta.url)), '..');
 const DIST_DIR = path.join(ROOT, 'dist');
@@ -347,7 +348,8 @@ async function validateHtmlQuality(files) {
 
     for (const schema of html.matchAll(/<script[^>]*type="application\/ld\+json"[^>]*>([\s\S]*?)<\/script>/gi)) {
       try {
-        JSON.parse(schema[1]);
+        const structuredData = JSON.parse(schema[1]);
+        errors.push(...validateBreadcrumbs(structuredData).map((message) => `${relativePath}: ${message}`));
       } catch (error) {
         errors.push(`${relativePath}: invalid JSON-LD (${error.message})`);
       }
