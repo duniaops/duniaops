@@ -5,9 +5,9 @@ slug: "eorini-uju-geori-dal-gijun"
 title: "아이에게 우주 거리를 설명하는 법: 달 거리를 기준으로"
 description: "달까지의 평균 거리를 기준으로 절반과 두 배를 비교하고, Rockimals에서 방문객이 지구에 가장 가까워지는 거리를 읽어 보세요."
 category: "learn-space"
-published: "2099-01-01T10:00:00Z"
-updated: "2099-01-01T10:00:00Z"
-draft: true
+published: "2026-11-09T10:01:50Z"
+updated: "2026-11-09T10:01:50Z"
+draft: false
 image: "/assets/rockimals-blog/moon-distance-for-kids/cover.jpg"
 imageAlt: "Rockimals 공식 캐릭터 타비와 포피가 그려진 지구와 달 옆에 있습니다. 캐릭터의 위치는 실제 근접 통과를 축척에 맞춰 나타낸 것이 아닙니다"
 author:

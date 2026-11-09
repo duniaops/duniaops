@@ -5,9 +5,9 @@ slug: "distance-espace-enfants-mesure-lune"
 title: "Comment expliquer les distances spatiales avec la Lune ?"
 description: "Comprenez la distance lunaire, comparez sa moitié et son double, puis lisez le passage le plus proche d'un visiteur dans Rockimals."
 category: "learn-space"
-published: "2099-01-01T10:00:00Z"
-updated: "2099-01-01T10:00:00Z"
-draft: true
+published: "2026-11-09T10:01:50Z"
+updated: "2026-11-09T10:01:50Z"
+draft: false
 image: "/assets/rockimals-blog/moon-distance-for-kids/cover.jpg"
 imageAlt: "Illustrations officielles de Tavi et Pofi de Rockimals avec la Terre et la Lune dessinées ; leurs positions ne sont pas à l'échelle d'un passage réel"
 author:

@@ -5,9 +5,9 @@ slug: "entfernungen-im-all-kinder-mondabstand"
 title: "Entfernungen im All: Der Mond als Maßstab für Kinder"
 description: "Erfahre, was ein Mondabstand bedeutet, vergleiche die Hälfte und das Doppelte und lies den erdnächsten Vorbeiflug in Rockimals."
 category: "learn-space"
-published: "2099-01-01T10:00:00Z"
-updated: "2099-01-01T10:00:00Z"
-draft: true
+published: "2026-11-09T10:01:50Z"
+updated: "2026-11-09T10:01:50Z"
+draft: false
 image: "/assets/rockimals-blog/moon-distance-for-kids/cover.jpg"
 imageAlt: "Originale Rockimals-Figuren Tavi und Pofi neben gezeichneter Erde und Mond; ihre Positionen zeigen keinen echten Vorbeiflug im Maßstab"
 author:

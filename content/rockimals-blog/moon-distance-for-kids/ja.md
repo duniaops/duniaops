@@ -5,9 +5,9 @@ slug: "kodomo-uchu-kyori-tsuki-kijun"
 title: "宇宙の距離を子どもに説明：月までの距離をものさしに"
 description: "月までの平均距離を基準に、半分・2倍の距離を比べ、Rockimalsの宇宙の訪問者が地球に最も近づく距離を読んでみましょう。"
 category: "learn-space"
-published: "2099-01-01T10:00:00Z"
-updated: "2099-01-01T10:00:00Z"
-draft: true
+published: "2026-11-09T10:01:50Z"
+updated: "2026-11-09T10:01:50Z"
+draft: false
 image: "/assets/rockimals-blog/moon-distance-for-kids/cover.jpg"
 imageAlt: "Rockimals公式のタヴィとポフィの絵と、描かれた地球と月。キャラクターの位置は実際の接近を縮尺どおりに示したものではありません"
 author:

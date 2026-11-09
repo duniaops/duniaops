@@ -5,9 +5,9 @@ slug: "distancias-espacio-ninos-distancia-luna"
 title: "Distancias en el espacio: la Luna como medida para niños"
 description: "Descubre qué es una distancia lunar, compara su mitad y su doble, y lee el paso más cercano de un visitante en Rockimals."
 category: "learn-space"
-published: "2099-01-01T10:00:00Z"
-updated: "2099-01-01T10:00:00Z"
-draft: true
+published: "2026-11-09T10:01:50Z"
+updated: "2026-11-09T10:01:50Z"
+draft: false
 image: "/assets/rockimals-blog/moon-distance-for-kids/cover.jpg"
 imageAlt: "Arte original de Tavi y Pofi de Rockimals junto a ilustraciones de la Tierra y la Luna; sus posiciones no muestran un sobrevuelo real a escala"
 author:

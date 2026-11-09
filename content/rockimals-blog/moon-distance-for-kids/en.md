@@ -5,9 +5,9 @@ slug: "space-distance-for-kids-moon-measure"
 title: "Space Distance for Kids: Use the Moon as a Ruler"
 description: "Learn what one Moon distance means, compare half and twice that distance, and read an asteroid visitor's closest pass in Rockimals."
 category: "learn-space"
-published: "2099-01-01T10:00:00Z"
-updated: "2099-01-01T10:00:00Z"
-draft: true
+published: "2026-11-09T10:01:50Z"
+updated: "2026-11-09T10:01:50Z"
+draft: false
 image: "/assets/rockimals-blog/moon-distance-for-kids/cover.jpg"
 imageAlt: "Official Rockimals art of Tavi and Pofi beside an illustrated Earth and Moon; their positions are not a scale drawing of a real flyby"
 author:

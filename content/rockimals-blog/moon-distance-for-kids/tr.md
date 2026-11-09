@@ -5,9 +5,9 @@ slug: "cocuklar-icin-uzay-mesafesi-ay-uzakligi"
 title: "Uzay Mesafesi Nasıl Anlatılır? Ay Uzaklığıyla Ölçelim"
 description: "Bir Ay uzaklığının ne olduğunu, yarım ve iki kat uzaklığı ve Rockimals'ta bir asteroitin en yakın geçişini nasıl okuyacağınızı öğrenin."
 category: "learn-space"
-published: "2099-01-01T10:00:00Z"
-updated: "2099-01-01T10:00:00Z"
-draft: true
+published: "2026-11-09T10:01:50Z"
+updated: "2026-11-09T10:01:50Z"
+draft: false
 image: "/assets/rockimals-blog/moon-distance-for-kids/cover.jpg"
 imageAlt: "Rockimals'ın özgün Tavi ve Pofi görselleri, çizim Dünya ve Ay ile birlikte; konumları gerçek bir geçişin ölçekli çizimi değildir"
 author:

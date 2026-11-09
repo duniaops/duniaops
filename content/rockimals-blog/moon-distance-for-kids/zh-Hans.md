@@ -5,9 +5,9 @@ slug: "ertong-yuzhou-juli-yueqiu-celiang"
 title: "怎样向孩子解释太空距离？用地月距离作标尺"
 description: "了解一倍地月距离，比较一半与两倍，并读懂 Rockimals 中太空访客最接近地球时的距离。"
 category: "learn-space"
-published: "2099-01-01T10:00:00Z"
-updated: "2099-01-01T10:00:00Z"
-draft: true
+published: "2026-11-09T10:01:50Z"
+updated: "2026-11-09T10:01:50Z"
+draft: false
 image: "/assets/rockimals-blog/moon-distance-for-kids/cover.jpg"
 imageAlt: "Rockimals 官方角色 Tavi 和 Pofi 与绘制的地球、月球同框；角色的位置不是按真实飞掠比例绘制的"
 author:
