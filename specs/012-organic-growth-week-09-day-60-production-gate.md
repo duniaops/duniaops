@@ -1,6 +1,6 @@
 # Organic Growth Week 09 — Day-60 Production Gate
 
-**Status:** Late evidence and Week 10–12 priority decision recorded 9 November; core production complete, verification exceptions remain OPEN. Fresh GSC/GA4/private-ledger reads and all due page-cohort windows are recorded in Spec 018. W08 actual VoiceOver is NOT DONE (Ibrahim confirmed 9 Nov), conversion delivery remains NOT VERIFIED and the diagnosed W08 breadcrumb fix is prepared, not live. This is not a blanket gate PASS; follow-ups have owners/dates in the latest Completion Record.
+**Status:** Late evidence and Week 10–12 priority decision recorded 9 Nov; approved prerequisite schema/link improvements are now live and verified at 10:43:32 GMT via `6af1a3c6a907e3b18ed97276` / `907b4f7`. Production and recorded evidence do not equal a blanket gate PASS: actual W08 VoiceOver is NOT DONE, W06/W08 conversion delivery is NOT VERIFIED, and Google enhancement reprocessing is pending. Those exceptions retain owners/dates; source-specific source windows and original cohorts remain in Spec 018.
 **Type:** Programme Gate / Measurement / Recovery
 **Priority:** P1
 **Scheduled:** 2–8 November 2026; execution Day 60 is 5 November.
@@ -56,7 +56,7 @@ Finish core production, prevent quiet scope slippage and allocate the final 30 d
 - [x] Late Day-60 review uses source-specific covered windows and page-age caveats; capture/finality limitations are retained in Spec 018.
 - [x] Prepared schema/link improvements have written observations, hypotheses and expected signals in Spec 013; this is not live-release evidence.
 - [x] Automated/build/XML/link and bounded mobile/desktop checks pass on 9 Nov; this does not close the separately open VoiceOver or end-to-end conversion criteria.
-- [ ] Live evidence, Day-60 decision and Week 10–12 order are recorded.
+- [x] Live evidence, late Day-60 decision and Week 10–12 order are recorded; manual/conversion and Google reprocessing exceptions remain explicitly open.
 
 ## Completion Record
 
@@ -123,3 +123,9 @@ Record production-gate score, exceptions/owners/dates, Day-60 metrics, cohort ag
 - **Priority decision:** (1) index/discovery/link paths and confirmed breadcrumb eligibility; (2) conversion/qualification, actual screen-reader and service-route evidence; (3) one optional CTR candidate only with sufficient impression/intent evidence; (4) permission-backed proof; (5) relevant authority. Week 10 actions are prepared above, Week 11 begins with reconciliation/manual paths before selecting CRO copy, Week 12 proof/outreach remains permission-dependent. W04-B is now a numerical CTR candidate (146 impressions / position 29.8), but title/meta remain HOLD pending 13 Nov disposition. No article quota.
 - **Validation:** `npm test` PASS (343 public files; includes five new breadcrumb cases), XML/syntax/links and local desktop/390/320 px smoke PASS; `git diff --check` PASS. These checks do not substitute for speech/rotor/announcement evidence or a delivered production form. No deployment in this task. An unrelated `3bf3e6f` publication was preserved and the suite rerun afterwards.
 - **Owner/date:** Ibrahim private fit review today 9 Nov; actual VoiceOver and conversion-evidence disposition 12 Nov; deployment decision 9 Nov or explicit carry to 13 Nov; W06 observation 10 Nov/retry 12 Nov; W08 14-day 12 Nov/retry 13 Nov; Week 10 close 13 Nov. On authorised release, record exact deploy/live surfaces and D+7/14/28 dates. Specs 003/007/008/011/013/018/019 contain the matching records. Conditional optional improvement remains HOLD while gate verification exceptions persist; the diagnosed prerequisite repair is prepared without pretending the whole gate has passed.
+
+### Prerequisite improvement released; verification exceptions retained — 9 November 2026
+
+- After explicit Ibrahim approval, prerequisite fixes `c76e758` / `18931e3` are live via ready deploy `6af1a3c6a907e3b18ed97276` at `907b4f7`, **9 Nov 10:43:32.083 GMT**. HTTP/canonical/sitemap/robots, fetched-live semantic schema, link destination and desktop/390/320 px checks pass; Spec 013 stores the evidence. Existing exact-candidate `npm test` evidence remains applicable; Netlify production build passed.
+- Day-60 late decision and Week 10–12 order are recorded, but actual VoiceOver (NOT DONE), conversion delivery and Google enhancement reprocessing (NOT VERIFIED) stay open. Owner Ibrahim; manual/conversion disposition 12 Nov, enhancement read 13 Nov. No new performance/private-lead evidence is inferred from deployment; no form or indexing request.
+- Separate revision observations **16 Nov / 23 Nov / 7 Dec**, delayed-data retries **20 Nov / 27 Nov / 11 Dec**; original W06/W08/W07 dates retained. Spec 018 defines the full-daily ranges and mid-window annotation. Existing automation covers them; no duplicate. This release closes the prepared-publication dependency, not the entire gate.

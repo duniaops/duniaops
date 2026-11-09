@@ -1,6 +1,6 @@
 # Organic Growth Week 10 — Indexation and Search-Result Optimisation
 
-**Status:** In progress — 9 November inventory, source refresh and diagnosis complete; schema/link fixes `c76e758` / `18931e3` pass local validation. Publication and post-release verification are NOT DONE pending explicit deployment authority. W06 10 Nov and W08 12 Nov are future observations. Ibrahim confirmed actual VoiceOver has not been done; it remains open.
+**Status:** Implementation released and live-verified 9 November 10:43:32 GMT: `6af1a3c6a907e3b18ed97276` at `907b4f7`. Inventory, diagnosis, contextual link and breadcrumb corrections are delivered. Week 10 remains in progress until its 13 Nov close and due observations; actual VoiceOver is NOT DONE, conversion delivery and Google enhancement-report reprocessing remain NOT VERIFIED. Original W06/W08 and separate revision observations have owners/dates below.
 **Type:** Technical SEO / Content Optimisation
 **Priority:** P1
 **Scheduled:** 9–15 November 2026
@@ -15,9 +15,9 @@ Make the completed asset portfolio discoverable and improve the clearest search-
 
 - [x] Inventory live status, canonical, sitemap membership, robots/indexability and Search Console state for all 14 priority URLs, captured 9 Nov.
 - [x] Investigate missing/weak indexing before any request: W03/W05 discovery is recognised, no technical exclusion found, exact crawl-selection cause remains NOT VERIFIED; W08 breadcrumb cause is confirmed. No request made.
-- [ ] Publish the contextual link improvement: existing commercial destinations already have supporting links; the observed missing service-to-guide path is prepared in `18931e3`, pending deployment.
+- [x] Publish the contextual link improvement: existing commercial destinations already have supporting links; the missing service-to-guide path in `18931e3` is live-verified after the approved 9 Nov release.
 - [x] Select at most one title/meta/on-page revision: HOLD optional snippet rewriting while fixing diagnosed schema/link defects; candidate W04-B and its limits are recorded below.
-- [x] Record observations, hypotheses, prepared elements and release-relative comparison rules below; actual release time and calendar comparison dates are pending deployment.
+- [x] Record observations, hypotheses, released elements, actual release time and separate 16 Nov / 23 Nov / 7 Dec comparison dates below.
 - [x] No new article commissioned or created.
 
 ## Working Schedule
@@ -51,11 +51,11 @@ Make the completed asset portfolio discoverable and improve the clearest search-
 ## Acceptance Criteria
 
 - [x] Every priority URL has a recorded live, canonical, sitemap and Search Console state (9 Nov inventory below).
-- [x] The prepared W08 correction addresses the GSC-confirmed missing breadcrumb item URL; the link correction addresses an observed parent-link gap, not a claimed crawl cause.
-- [x] Prepared link answers the commercial cost FAQ and points to its existing buyer guide; no generic anchor additions.
+- [x] The released W08 correction addresses the GSC-confirmed missing breadcrumb item URL; the link correction addresses an observed parent-link gap, not a claimed crawl cause.
+- [x] Live link answers the commercial cost FAQ and points to its existing buyer guide; no generic anchor additions.
 - [x] Hypotheses and evidence are recorded; no title/meta rewrite selected.
 - [x] `npm test`, XML/schema/link, bounded desktop/390/320 px checks and `git diff --check` pass locally on 9 Nov. Actual screen-reader testing remains a separate open criterion.
-- [ ] Live result, indexing action and comparison date are recorded.
+- [x] Live result, no indexing request, actual release and separate 16 Nov / 23 Nov / 7 Dec comparison dates are recorded below; Google reprocessing is not claimed complete.
 
 ## Completion Record
 
@@ -96,7 +96,8 @@ Record URL inventory, diagnosed cause, selected hypothesis, exact changes, valid
 
 | Remaining criterion / dependency | State now | Owner | Date / next step |
 |---|---|---|---|
-| Publish prepared contextual link and W08 schema fix; verify live result | NOT DONE, explicit deployment authority pending | Ibrahim | Review/release decision 9 Nov; if not approved carry to 13 Nov close |
+| Publish contextual link and W08 schema fix; verify live result | DONE after explicit approval; 9 Nov 10:43:32 GMT release | Ibrahim | Deploy `6af1a3c6a907e3b18ed97276`; post-release record below |
+| Google enhancement report after live W08 correction | NOT VERIFIED; live schema passes, stored report awaits reprocessing | Ibrahim | 13 Nov, then 16 Nov revision checkpoint; no validation/indexing request |
 | W03-B/W05-B crawl-selection cause/indexing | NOT VERIFIED; discovery is recognised | Ibrahim | 13 Nov, or the first scheduled post-release read; no repeated request |
 | Actual W08 VoiceOver | NOT DONE; Ibrahim explicitly confirmed 9 Nov | Ibrahim | 12 Nov; record version, skip link/headings/alt/checkbox/menu announcements; update 011/012/018/019/003 |
 | W06/W08 end-to-end conversion delivery | NOT VERIFIED; no new production submission authorised or sent | Ibrahim | 12 Nov disposition; explicit authority before a labelled production test |
@@ -106,3 +107,10 @@ Record URL inventory, diagnosed cause, selected hypothesis, exact changes, valid
 | Weekly close / optional W04-B candidate decision | NOT DUE today | Ibrahim | 13 Nov; classify all criteria from actual evidence |
 
 The single `duniaops-seo-60-30-takip` automation was viewed ACTIVE; its existing schedule includes 10/12/26 Nov plus Monday/Friday through 11 Dec. No new reminder or external-account mutation. This Completion Record and Specs 003/007/008/011/012/018/019 are updated together. Week 10 remains **in progress**, and Day-60 has a documented late decision with manual/conversion exceptions; neither is falsely marked complete.
+
+### Approved production release and live verification — 9 November 2026
+
+- **Authority and release:** Ibrahim explicitly approved production publication in chat after reviewing the prepared scope. Netlify Git-triggered production deploy `6af1a3c6a907e3b18ed97276` is ready at **9 November 2026 10:43:32.083 UTC / GMT**, source `907b4f7904702afb83b32b05967bee885192bf1f` on `main`. It includes fixes `c76e758` / `18931e3`. This is the actual new revision time; original publication dates are unchanged. Standard Netlify build also regenerated the eight existing Rockimals today pages/data; no unrelated source/content edit was made in this release.
+- **Live evidence:** GET checks consolidated **10:44:32 UTC** return HTTP 200, unchanged matching canonical, public-sitemap membership, robots eligibility and no noindex for the proof, checklist and Custom Software service. Both W08 live schemas/visible trails are Home → page, positions 1/2, with no invalid intermediate category. The existing semantic breadcrumb validator also passes against all three fetched live schemas. The service's cost-FAQ link is present, and browser navigation reaches the existing HTTP-200 guide. Live desktop (1613×1114), 390×844 and 320×740 checks show no horizontal overflow; mobile client/scroll widths match 375/305. W08 skip-link activation and next Tab enter main navigation. Viewport restored; no form submission or Google indexing/validation request.
+- **Evidence limits:** the earlier exact-candidate `npm test` PASS (343 files, five breadcrumb cases), XML/syntax/link and local QA remain the pre-release test evidence. Netlify's production build passed; post-release HTTP/schema/browser checks pass. **Google enhancement-report reprocessing is NOT VERIFIED**: the morning stored inspection is not a fresh recrawl of this release. Actual VoiceOver remains NOT DONE per Ibrahim; conversion delivery remains NOT VERIFIED, owner Ibrahim, **12 Nov**. No GA4/GSC performance, private Sheet or customer disposition was reread during this release; earlier snapshots retain their capture dates. The full Day-60/weekly programme is not marked PASS merely because these fixes are live.
+- **Separate revision observations:** owner Ibrahim. New first full daily post-revision ranges are **10–16 Nov** (7 dates, observe **16 Nov**, retry **20 Nov** if delayed), **10–23 Nov** (14, observe **23 Nov**, retry **27 Nov**) and **10 Nov–7 Dec** (28, observe **7 Dec**, retry **11 Dec** in the existing verification tail). These are for the W08 technical revision and Custom Software parent-link change; the cost guide is a monitored destination, not newly published content. Check Google enhancement/index state first on **13 Nov**, then at the revision checkpoints; no repeated indexing requests. The original W06 10 Nov, W08 12/26 Nov and W07 16 Nov cohorts remain separate. Original W08 cohorts spanning 9 Nov must carry the mid-window schema annotation. Existing Monday/Friday automation already covers all new checkpoint/retry dates; no duplicate or automation mutation.

@@ -58,3 +58,7 @@ Close the programme with the latest complete evidence rather than using prelimin
 ## Completion Record
 
 Record final data dates/values, qualified pipeline, cluster decisions, unresolved uncertainty, final programme status and approved next-programme path.
+
+### Added release-cohort dependency — 9 November 2026
+
+The approved Week 10 technical/link revision became live on **9 Nov 2026 10:43:32 GMT**, deploy `6af1a3c6a907e3b18ed97276` / `907b4f7`. Its first full daily 28-date range is **10 Nov–7 Dec**. Owner Ibrahim observes it on **7 Dec**; if GSC has not processed all dates, retain PARTIAL and retry **11 Dec**. Keep it separate from original W08 first-publication cohorts and the Day-90 programme windows. This dependency does not extend the execution programme beyond 5 Dec or manufacture a retrospective complete cohort. Existing Monday/Friday automation covers both dates; do not add a duplicate. Spec 018 stores the annotation and exact comparison contract. This is a planned future observation, not completed evidence.
