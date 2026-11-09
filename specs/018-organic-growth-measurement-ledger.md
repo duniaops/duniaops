@@ -1,10 +1,10 @@
 # Organic Growth Measurement Ledger
 
-**Status:** Active — Week 09 Day-60 gate. On 2 November, exact-page Search Console reports were captured for due W04-B, W05-A and W07 cohorts; all reports were last updated about 3–3.5 hours before capture and contain data only through 31 October. The W04-B and W05-A 28-day windows and W07 14-day windows are therefore one calendar date short and remain PARTIAL. URL Inspection now reports W05-A indexed; W03-B and W05-B are URL-unknown, but their live tests pass. W08-A/B are not yet on Google, as expected before their first 7-day check on 5 November. GA4 5 October–1 November vs 7 September–4 October and the restricted lead ledger were also captured 2 November; one genuine enquiry remains unresolved and the qualified-organic KPI remains 0. No indexing request or submission was made. Full dated evidence and next steps follow.
+**Status:** Active — Week 10 optimisation. Fresh 9 November source reads and late Day-60 review are below. GSC standard-report coverage ends 7 Nov, GA4 prior-day coverage 8 Nov; historical windows are refreshed separately. Current private classification remains 0 qualified organic / 5 tests / 1 unresolved. W04-A/W05-B 28-day and W08 seven-date coverage are captured; W06 10 Nov / W08 12 Nov are future observations. Earlier headings and snapshots remain historical.
 **Programme owner:** ibrahim uylas
 **Measurement owner:** ibrahim uylas
 **Depends on:** `003-organic-client-acquisition-90-day-program.md`
-**Day-30 capture:** 9 October 2026 (GSC through 6 October; GA4 through 8 October). **Next formal checkpoint:** Day 60, 5 November 2026; use the latest complete source-specific windows and record age cohorts separately.
+**Day-30 capture:** 9 October 2026 (GSC through 6 October; GA4 through 8 October). **Day-60 late review:** 9 November, with exceptions. **Next observations:** W06 10 November, W08 12 November; Day 90 remains 5 December with complete-data verification 11 December. Use source-specific cut-offs and separate page-age cohorts.
 
 This is the durable measurement contract for the organic client-acquisition programme. It records definitions, source precedence, comparable date windows, data-quality limits and decisions. It must never contain a prospect's name, email address, company, enquiry text or another direct identifier.
 
@@ -486,3 +486,71 @@ These supersede only the incompleteness of the 2 November legacy reads. They do 
 ### W08 / private-source boundaries
 
 Mobile layout and actual screen-reader runtime are separate: the responsive smoke passes with the scope in Spec 011; native Chrome/VoiceOver access timed out, so VoiceOver remains NOT VERIFIED (Ibrahim, 5 Nov). The read-only heartbeat at 09:00 on 4 Nov read the private Sheet: 5 tests, 1 unresolved, 0 qualified, 0 qualified organic; the non-test controlled row still says `unresolved / insufficient_evidence`, `reply`, updated 2 Nov 10:49 UTC. It was not freshly reconciled to Netlify in this task. Private fit review remains overdue from 2 Nov; Ibrahim should review today, 4 Nov, and reconcile at the 5 Nov gate. No customer identity/message was copied, no contact made and no private record changed.
+
+## Week 10 fresh-source review and late Day-60 decision — 9 November 2026
+
+**Capture contract:** authenticated GSC/GA4 UI and connected private Sheet/Netlify reads during the 9 Nov morning session; evidence consolidated at 10:16 GMT. Individual UI-read minutes were not logged separately. GSC property `sc-domain:duniaops.com`, search type displayed **Web (text)**, daily grain, all countries/devices, no query filter; exact canonical page filters for cohorts. Reports showed last update **3–3.5 hours ago**. Standard performance report ends **7 Nov**; this is the latest included date observed, not an independently certified immutable final-data boundary. GA4 Traffic acquisition uses **Session source / medium**, All Users, all key events, daily grain and the latest complete prior calendar day **8 Nov** under the previously configured Europe/London property timezone. UI reports 100% of available data; late processing and consent limits still apply. No account settings changed.
+
+### Programme windows — keep the fresh and historical comparisons separate
+
+| Source / view | Current window | Previous window | Observed result, current vs previous |
+|---|---|---|---|
+| GSC latest standard-report 28-date comparison | 11 Oct–7 Nov | 13 Sep–10 Oct | 8 vs 3 clicks; 1,532 vs 380 impressions (current exact value exposed by the metric tooltip); 0.5% vs 0.8% CTR; position 59.1 vs 39.0 |
+| GSC historical-window refresh | 4–31 Oct | 6 Sep–3 Oct | 7 vs 4 clicks; 1.22k UI-rounded vs 354 impressions; 0.6% vs 1.1% CTR; position 57.3 vs 36.2; same displayed totals as the 2 Nov capture |
+| GA4 latest prior-day 28-date comparison | 12 Oct–8 Nov | 14 Sep–11 Oct | 30 vs 37 sessions; 21 vs 21 engaged; 70% vs 56.76% engagement; 1m11s vs 11s average engagement/session; 179 vs 189 events; 3 vs 2 all key events |
+| GA4 historical-window refresh | 5 Oct–1 Nov | 7 Sep–4 Oct | 33 vs 61 sessions; 21 vs 40 engaged; 63.64% vs 65.57%; 53s vs 1m17s; 193 vs 485 events; 4 vs 3 all key events; headline totals agree with 2 Nov |
+
+The GSC domain includes product subdomains: the fresh Pages table contains Lumo and Rockimals clicks. Its 8 clicks cannot establish consultancy-page success. Page-level rows, not domain totals, determine the action below. No conversion rate is inferred from these small denominators.
+
+**GA4 source/medium detail:** fresh `google / organic` is 3 sessions / 3 engaged / 1 key event versus 5 / 3 / 1 in 14 Sep–11 Oct. The previous window separately contains `chatgpt.com / organic` (1 / 1 / 1); this is not independently verified Google acquisition or a qualified lead. Historical `google / organic` is 5 / 5 / 2 versus 3 / 1 / 0. These rows have a different grain from the earlier custom/default channel-group observations; do not silently relabel them as an Organic Search group refresh or overwrite those historical rows. Fresh current report also contains two localhost-referral sessions and one `chatgpt.com / ai-assistant` session / key event. Consent, QA/referral traffic and small samples prevent a causal conversion claim; no analytics filter or attribution rule was changed.
+
+### Due exact-page cohorts — captured late, not backdated
+
+| Asset | Full daily post-live range | Impressions | Clicks | CTR / average position | Disposition |
+|---|---|---:|---:|---|---|
+| W04-A DevOps service, 7 Oct first release | 8 Oct–4 Nov, 28 dates | 146 | 0 | 0% / 63.1 | Requested range now covered; supersedes only the 4 Nov 27/28-date incompleteness. The 19 Oct revision remains a separate annotation. |
+| W05-B cost guide, 9 Oct first release | 10 Oct–6 Nov, 28 dates | 0 | 0 | UI 0% / no position data | Complete date coverage observed 9 Nov; 6 Nov's partial observation remains historical. Zero impressions do not prove zero demand. |
+| W08-A proof, 29 Oct first release | 30 Oct–5 Nov, 7 dates | 0 | 0 | UI 0% / no position data | First seven-date observation captured late on 9 Nov; indexing is separate. |
+| W08-B checklist, 29 Oct first release | 30 Oct–5 Nov, 7 dates | 26 | 0 | 0% / 22.7 | First seven-date observation captured late on 9 Nov; below the 50-impression snippet threshold. |
+
+With zero impressions, displayed CTR 0% and position 0 are not meaningful performance ranks/rates. The five legacy and separate W04-B/W05-A/W07 ranges captured on 4 Nov remain distinct dated observations; they were not replaced with rolling totals. Missing historical W04 7/14-day reads remain NOT VERIFIED.
+
+### Current corporate-page opportunity rows — 11 Oct–7 Nov
+
+| Exact corporate URL path | Impressions | Clicks | Position | Decision input |
+|---|---:|---:|---:|---|
+| `/services/ai-software-development` | 374 | 0 | 74.0 | Low ranking; no CTR-only rewrite |
+| `/blog/ai-consultant-vs-ai-development-company` | 238 | 0 | 79.0 | Wait for the separate 10 Nov 28-day cohort |
+| `/blog/kubernetes-consultant-or-permanent-hire-uk` | 146 | 0 | 29.8 | Only selected CTR candidate; threshold met, but optional rewrite held behind diagnosed technical/link fixes |
+| `/services/devops-and-cloud-consultancy` | 143 | 0 | 63.2 | Commercial relevance/link/authority before snippets |
+| `/services/application-support-maintenance` | 137 | 0 | 76.0 | Preserve commercial intent; not a snippet-only case |
+| `/services/software-project-rescue` | 46 | 0 | 35.0 | Insufficient volume/position for a snippet experiment |
+| `/blog/software-project-rescue-uk` | 34 | 0 | 29.7 | Below volume threshold |
+| `/resources/software-project-handover-checklist` | 30 | 0 | 22.9 | Below volume threshold; repair diagnosed breadcrumb eligibility first |
+| `/blog/when-to-hire-devops-consultancy-uk` | 27 | 0 | 20.9 | Below volume threshold |
+| `/services/custom-software-development` | 21 | 0 | 80.7 | Complete contextual service/guide path; do not claim link gap caused low rank |
+| `/about` | 13 | 0 | 5.9 | Below volume threshold |
+
+W04-B's visible exact-page queries include `kubernetes consultant` 47 impressions / position 12.9, `kubernetes consulting uk` 14 / 11.0 and `uk kubernetes platform consultancy` 5 / 4.8, all zero clicks. Query rows are a partial visible sample. The existing title already expresses the consultant-versus-hire decision. Threshold eligibility alone does not mandate a rewrite; **HOLD title/meta**, revisit 13 Nov after technical release disposition. No site-wide rewrite or article was created.
+
+### Indexation, rich results and link evidence
+
+Fresh URL Inspection reports **12/14 indexed**. W03-B and W05-B both say **Discovered – currently not indexed**, last crawl N/A. W03-B now recognises the public sitemap and the cost-guide referrer (also an older Rockimals referrer); the 4 Nov URL-unknown mismatch is superseded, not still an undiscovered URL. Its underlying crawl-selection cause remains NOT VERIFIED. W05-B recognises sitemap/homepage. No new indexing request or live Google crawl test was triggered.
+
+Both W08 URLs now say **URL is on Google, but has issues / Page is indexed**. Their Breadcrumbs reports each identify **Missing field 'item'** on the intermediate item: `Selected experience` or `Resources`. Google shows successful crawl on 2 Nov at 20:01:06 / 19:54:13 respectively (UI timestamps; timezone not separately exposed). This is a rich-result eligibility defect, not proof of indexing failure. Google requires an item URL for non-final breadcrumbs; the final page may omit it: [official breadcrumb contract](https://developers.google.com/search/docs/appearance/structured-data/breadcrumb).
+
+The 09:54:53 UTC GET-only audit covers all 14 core URLs plus robots/sitemap: every URL returns 200, is self-canonical, is in the 33-URL sitemap, permits Googlebot and has no meta/header noindex. GSC submitted sitemap is Success, last read **8 Nov**, 33 discovered pages. Source paths, URL mappings and dated states are in Spec 013. Link report now shows **2 external links**, both Crunchbase to the homepage, and **274 internal links**. The 2 Nov 3/281 counts are historical; this report change is not proof that a particular link was removed from the web. No fresh public-review/citation audit beyond GSC was performed; independent review evidence remains NOT VERIFIED.
+
+### Private lead reconciliation — read-only
+
+The Sheet Overview and controlled row still show **5 tests / 1 unresolved / 0 qualified / 0 qualified organic**. The non-test row is `unresolved / insufficient_evidence`, non-organic, next action `reply`, owner Ibrahim; classification timestamp remains 2 Nov 10:49 UTC. This is the Sheet's current status, not proof about messages sent elsewhere. Ibrahim's private fit review remains overdue from 2 Nov; nearest follow-up **today, 9 Nov**. No message was sent and no Sheet cell was changed.
+
+The Netlify form metadata and returned six-record submission list were read afresh. Five records match private lookup IDs; the known 19 Oct synthetic test lacks a lookup ID in its Sheet row but matches the stored time and controlled test/service/landing fields. Record this limitation rather than claim six ID-exact matches. The latest returned submission is still 29 Oct; newer aggregate activity on 9 Nov is not a new verified customer lead. The response does not expose a per-record spam/verification flag, and no spam-queue audit was performed. No name, company, email, message, referrer or submission identifier is copied here.
+
+### Decision, validation and future observations
+
+Priority order: **(1) indexing/discovery paths and diagnosed breadcrumb repair; (2) conversion/qualification and actual assistive-technology evidence; (3) one optional CTR candidate only with sufficient evidence; (4) permission-backed proof; (5) relevant authority work.** Week 10 schema/link preparation is `c76e758` / `18931e3`; no deployment or Google account mutation in this task. Week 11 starts with private reconciliation and CTA/form verification before selecting any copy change. Week 12 proof/authority work needs factual permission and explicit authority for outreach, reviews or profile changes. New article decision: **DEFER**; no publication quota.
+
+`npm test` passes including five new breadcrumb regression cases, build and `check:site` (343 public files). XML, syntax, internal links, local desktop/390/320 px layout and keyboard skip-link checks pass. Old W08 markup was shown to fail the new semantic check before correction. Actual VoiceOver is **NOT DONE**, confirmed by Ibrahim on 9 Nov; synthetic submission delivery for W06/W08 remains **NOT VERIFIED**. These exceptions prevent a blanket Day-60 PASS.
+
+Owner for all follow-ups: Ibrahim Uylas. W06 28-day **14 Oct–10 Nov**, observe **10 Nov**, retry **12 Nov** if partial. W08 14-day **30 Oct–12 Nov**, observe **12 Nov**, retry **13 Nov**; W08 28-day **30 Oct–26 Nov**, observe **26 Nov**, retry **27 Nov**. W07 28-day remains **16 Nov**. Manual VoiceOver and disposition of conversion evidence: **12 Nov**, before Week 10 close **13 Nov**. Deployment decision: **9 Nov**, or carry explicitly to 13 Nov if not approved. New-change comparison dates are **actual live release D + 7/14/28 days**, to be entered at deployment; source-edit/commit dates are not publication dates. Existing original asset cohorts remain unchanged. The single existing automation is ACTIVE and already covers 10/12/26 Nov; no duplicate or schedule mutation was made.

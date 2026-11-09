@@ -1,6 +1,6 @@
 # Organic Growth Week 09 — Day-60 Production Gate
 
-**Status:** In progress — 4 November refresh completed the five legacy GSC ranges and captured separate full-daily W04-B/W05-A 28-day and all three W07 14-day cohorts. W04-A remains PARTIAL through 3 November (27/28 dates). W05-B now has sitemap/homepage discovery but no crawl; W03-B remains URL-unknown despite a fresh successful live smartphone test. Both W03-B/W05-B live tests are indexable; no indexing request was submitted. W08 mobile smoke checks pass at 390/320 px; VoiceOver remains NOT VERIFIED after native-app access timeouts, Ibrahim due 5 November. Fourteen assets were live in the 2 November inventory; no new content is planned. Day-60 complete-source GSC/GA4 refresh, private lead reconciliation, required validation and Week 10–12 priorities remain due 5 November.
+**Status:** Late evidence and Week 10–12 priority decision recorded 9 November; core production complete, verification exceptions remain OPEN. Fresh GSC/GA4/private-ledger reads and all due page-cohort windows are recorded in Spec 018. W08 actual VoiceOver is NOT DONE (Ibrahim confirmed 9 Nov), conversion delivery remains NOT VERIFIED and the diagnosed W08 breadcrumb fix is prepared, not live. This is not a blanket gate PASS; follow-ups have owners/dates in the latest Completion Record.
 **Type:** Programme Gate / Measurement / Recovery
 **Priority:** P1
 **Scheduled:** 2–8 November 2026; execution Day 60 is 5 November.
@@ -16,10 +16,10 @@ Finish core production, prevent quiet scope slippage and allocate the final 30 d
 - [x] Audit every Day-60 core asset as live, blocked or missing.
 - [x] Give every exception one owner, cause and earliest credible completion date.
 - [x] Capture rolling-28-day versus previous-28-day programme data with exact end dates.
-- [ ] Capture page-age cohorts and avoid comparing assets with materially different time live.
+- [x] Capture due page-age cohorts and avoid comparing assets with materially different time live; late 9 Nov captures are below, future and historical missing observations remain explicit.
 - [x] Complete the highest-value missing asset before optional optimisation.
 - [ ] If the gate is complete, implement one documented early-signal improvement.
-- [ ] Rank Week 10–12 priorities across indexation, CTR, conversion, proof and authority.
+- [x] Rank Week 10–12 priorities across indexation, CTR, conversion, proof and authority; recorded 9 Nov below.
 
 ## Working Schedule
 
@@ -53,9 +53,9 @@ Finish core production, prevent quiet scope slippage and allocate the final 30 d
 
 - [x] Every core asset is live or has an explicit blocker, owner and date.
 - [x] Missing commercial/conversion work outranks optional new content.
-- [ ] Day-60 data uses comparable complete windows and page-age caveats.
-- [ ] The selected improvement has a written observation, hypothesis and expected signal.
-- [ ] `npm test`, applicable content/site/link/mobile/desktop and `git diff --check` pass.
+- [x] Late Day-60 review uses source-specific covered windows and page-age caveats; capture/finality limitations are retained in Spec 018.
+- [x] Prepared schema/link improvements have written observations, hypotheses and expected signals in Spec 013; this is not live-release evidence.
+- [x] Automated/build/XML/link and bounded mobile/desktop checks pass on 9 Nov; this does not close the separately open VoiceOver or end-to-end conversion criteria.
 - [ ] Live evidence, Day-60 decision and Week 10–12 order are recorded.
 
 ## Completion Record
@@ -113,3 +113,13 @@ Record production-gate score, exceptions/owners/dates, Day-60 metrics, cohort ag
 - **Private follow-up:** the 4 Nov 09:00 heartbeat's read-only Sheet check still showed the unresolved controlled row and zero qualified organic leads; no new Netlify reconciliation or customer message occurred here. Ibrahim's service-fit review is overdue from 2 Nov; review privately today, 4 Nov, and reconcile the KPI again 5 Nov. No private identifiers/messages enter Git.
 - **Decision / remaining gate:** HOLD public production. Complete due measurements and blockers before new content; tomorrow use complete GSC/GA4 windows independently, private qualified organic outcomes, page-age/query evidence and required validations to rank Week 10–12. W04-A data, W08 actual screen-reader/conversion evidence and W03 root cause remain explicit exceptions; do not mark the whole gate PASS. Today's work changes records only; `npm test`/site build remain required for 5 Nov closure, not claimed run today.
 - **Documentation validation:** `git diff --check` passes; seven task-related spec files only. The captured legacy/full-daily windows and exception dates were cross-checked across the master, weekly records, measurement ledger and asset register. No site build or deployment is needed for this documentation change; future gate validation remains outstanding.
+
+### Late Day-60 evidence review and optimisation allocation — 9 November 2026
+
+- **Gate decision:** core production is complete; late source refresh and Week 10–12 priority decision are recorded today. This does **not** certify a full PASS: actual W08 screen-reader testing is NOT DONE (Ibrahim explicitly confirmed 9 Nov), W06/W08 conversion delivery is NOT VERIFIED, and prepared technical/link changes have no new live-release evidence. Keep those criteria open with owners/dates rather than backdate a 5 Nov close.
+- **Source refresh:** Spec 018 stores GSC 11 Oct–7 Nov vs 13 Sep–10 Oct separately from GA4 12 Oct–8 Nov vs 14 Sep–11 Oct, plus rereads of the exact original historical windows. Current GSC domain totals include product hosts; GA4 uses Session source/medium and contains localhost/AI-referral caveats. No corporate success or qualified lead is inferred from aggregate clicks/events. Fresh private reconciliation remains 0 qualified organic / 5 tests / 1 unresolved; no Sheet mutation or message.
+- **Cohorts:** W04-A full daily 8 Oct–4 Nov now has 146 impressions / 0 clicks / position 63.1. W05-B 10 Oct–6 Nov has 0/0/no position; W08-A 30 Oct–5 Nov 0/0/no position and W08-B same range 26/0/22.7. All requested dates are present; this closes only their date-coverage incompleteness. 4 Nov W04-B/W05-A/W07 legacy versus full-daily reads remain distinct. Missing historical W04 7/14-day observations remain NOT VERIFIED.
+- **Discovery/rich-result changes:** fresh 14-URL inventory in Spec 013 passes HTTP/canonical/sitemap/robots; 12/14 indexed. W03-B now recognises discovery, superseding URL-unknown; W03-B/W05-B still not crawled/indexed, exact cause NOT VERIFIED. Both W08 pages are indexed with GSC-confirmed missing intermediate breadcrumb URLs. `c76e758` repairs that specific schema/visible trail and adds semantic regression validation. `18931e3` completes the missing contextual Custom Software → cost-guide path; no claim it caused crawl failure.
+- **Priority decision:** (1) index/discovery/link paths and confirmed breadcrumb eligibility; (2) conversion/qualification, actual screen-reader and service-route evidence; (3) one optional CTR candidate only with sufficient impression/intent evidence; (4) permission-backed proof; (5) relevant authority. Week 10 actions are prepared above, Week 11 begins with reconciliation/manual paths before selecting CRO copy, Week 12 proof/outreach remains permission-dependent. W04-B is now a numerical CTR candidate (146 impressions / position 29.8), but title/meta remain HOLD pending 13 Nov disposition. No article quota.
+- **Validation:** `npm test` PASS (343 public files; includes five new breadcrumb cases), XML/syntax/links and local desktop/390/320 px smoke PASS; `git diff --check` PASS. These checks do not substitute for speech/rotor/announcement evidence or a delivered production form. No deployment in this task. An unrelated `3bf3e6f` publication was preserved and the suite rerun afterwards.
+- **Owner/date:** Ibrahim private fit review today 9 Nov; actual VoiceOver and conversion-evidence disposition 12 Nov; deployment decision 9 Nov or explicit carry to 13 Nov; W06 observation 10 Nov/retry 12 Nov; W08 14-day 12 Nov/retry 13 Nov; Week 10 close 13 Nov. On authorised release, record exact deploy/live surfaces and D+7/14/28 dates. Specs 003/007/008/011/013/018/019 contain the matching records. Conditional optional improvement remains HOLD while gate verification exceptions persist; the diagnosed prerequisite repair is prepared without pretending the whole gate has passed.
