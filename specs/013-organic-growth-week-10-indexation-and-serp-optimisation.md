@@ -1,6 +1,6 @@
 # Organic Growth Week 10 — Indexation and Search-Result Optimisation
 
-**Status:** Implementation released and live-verified 9 November 10:43:32 GMT: `6af1a3c6a907e3b18ed97276` at `907b4f7`. Inventory, diagnosis, contextual link and breadcrumb corrections are delivered. Week 10 remains in progress until its 13 Nov close and due observations; actual VoiceOver is NOT DONE, conversion delivery and Google enhancement-report reprocessing remain NOT VERIFIED. W06 is PARTIAL on 10 Nov (27/28 dates); Codex now owns routine execution, retries and record maintenance. Programme ownership/approval remains with Ibrahim.
+**Status:** Implementation released and live-verified 9 November 10:43:32 GMT: `6af1a3c6a907e3b18ed97276` at `907b4f7`. Inventory, diagnosis, contextual link and breadcrumb corrections are delivered. Week 10 remains in progress until its 13 Nov close and due observations; actual W08 VoiceOver is DONE by Ibrahim’s 10 Nov completion confirmation, conversion delivery and Google enhancement-report reprocessing remain NOT VERIFIED. W06 is PARTIAL on 10 Nov (27/28 dates); Codex now owns routine execution, retries and record maintenance. Programme ownership/approval remains with Ibrahim.
 **Type:** Technical SEO / Content Optimisation
 **Priority:** P1
 **Scheduled:** 9–15 November 2026
@@ -54,7 +54,7 @@ Make the completed asset portfolio discoverable and improve the clearest search-
 - [x] The released W08 correction addresses the GSC-confirmed missing breadcrumb item URL; the link correction addresses an observed parent-link gap, not a claimed crawl cause.
 - [x] Live link answers the commercial cost FAQ and points to its existing buyer guide; no generic anchor additions.
 - [x] Hypotheses and evidence are recorded; no title/meta rewrite selected.
-- [x] `npm test`, XML/schema/link, bounded desktop/390/320 px checks and `git diff --check` pass locally on 9 Nov. Actual screen-reader testing remains a separate open criterion.
+- [x] `npm test`, XML/schema/link, bounded desktop/390/320 px checks and `git diff --check` pass locally on 9 Nov. Actual W08 screen-reader completion was separately confirmed by Ibrahim on 10 Nov; no independent agent runtime result is claimed.
 - [x] Live result, no indexing request, actual release and separate 16 Nov / 23 Nov / 7 Dec comparison dates are recorded below; Google reprocessing is not claimed complete.
 
 ## Completion Record
@@ -99,7 +99,7 @@ Record URL inventory, diagnosed cause, selected hypothesis, exact changes, valid
 | Publish contextual link and W08 schema fix; verify live result | DONE after explicit approval; 9 Nov 10:43:32 GMT release | Ibrahim | Deploy `6af1a3c6a907e3b18ed97276`; post-release record below |
 | Google enhancement report after live W08 correction | NOT VERIFIED; live schema passes, stored report awaits reprocessing | Codex | 13 Nov, then 16 Nov revision checkpoint; no validation/indexing request |
 | W03-B/W05-B crawl-selection cause/indexing | NOT VERIFIED; discovery is recognised | Codex | 13 Nov, or the first scheduled post-release read; no repeated request |
-| Actual W08 VoiceOver | NOT VERIFIED / access blocked: native app access timed out 10 Nov; no running session established | Codex | Retry actual runtime 12 Nov if native access is available; no static-test substitution |
+| Actual W08 VoiceOver | DONE — Ibrahim confirmed completion and requested closure on 10 Nov | Ibrahim (manual completion); Codex (record closure) | Closed 10 Nov; 12 Nov retry cancelled. Versions and item-level results not supplied; no independent agent verification claimed |
 | W06/W08 end-to-end conversion delivery | NOT VERIFIED; no new production submission authorised or sent | Codex for audit/test preparation | 12 Nov; any actual production submission retains its separate approval boundary |
 | W06 first 28 full dates | PARTIAL on 10 Nov; source covers 14 Oct–9 Nov, 27/28 dates | Codex | Repeat 12 Nov for the same intended 14 Oct–10 Nov range |
 | W08 first 14 full dates | NOT DUE today | Codex | 12 Nov (30 Oct–12 Nov), retry 13 Nov |
@@ -122,3 +122,7 @@ Ibrahim's explicit instruction delegates routine checks, retry execution and rec
 The W06 read from today's 09:00 heartbeat (consolidated 09:02:53 GMT) is now persisted in Spec 009 and 018: intended **14 Oct–10 Nov**, actual **14 Oct–9 Nov**, **27/28 dates, PARTIAL**; AI service **407/0/0%/75.0**, guide **258/0/0%/78.8** (impressions/clicks/CTR/position), Web (text), exact URLs, daily grain, freshness 3h. This is not a new account capture or a completed 28-day cohort. Codex repeats it on **12 Nov** and keeps all records aligned. Original first-live dates and prior rolling/short cohorts are distinct.
 
 An actual native VoiceOver access attempt timed out; inventory then showed VoiceOver not running. No speech/rotor/announcement result or version was obtained, so runtime remains **NOT VERIFIED / access blocked**, with Codex retry at **12 Nov** if access exists. No settings were weakened or manual result invented. No new performance/lead outcome, production form submission, indexing request, site edit or deployment in this session. Documentation checks and `git diff --check` are applicable; no redundant full site test run is claimed.
+
+### W08 VoiceOver closure — 10 November 2026
+
+Ibrahim explicitly confirmed “VoiceOver tamamlandi. kapatabiirsin” on 10 November and requested closure. The W08 actual screen-reader criterion is **DONE — owner-confirmed completion**, recorded by Codex; earlier NOT DONE/access-blocked entries remain historical. The confirmation concerns the open W08 proof/checklist review. Browser/device/VoiceOver versions, exact test time and item-by-item announcement results were not supplied and are not invented. No independent agent runtime PASS or full accessibility certification is claimed. The 12 Nov VoiceOver retry is cancelled; the programme automation retains all other scheduled measurements and checks. Conversion delivery and Google enhancement reprocessing remain NOT VERIFIED; W06 remains PARTIAL pending its existing retry. No overall programme/gate PASS, new source read, site edit or deployment is implied. Matching closure is recorded in Specs 003/011/012/013/018/019; documentation consistency and `git diff --check` are the applicable validation.

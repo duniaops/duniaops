@@ -1,6 +1,6 @@
 # Organic Growth Week 09 — Day-60 Production Gate
 
-**Status:** Late evidence and Week 10–12 priority decision recorded 9 Nov; approved prerequisite schema/link improvements are now live and verified at 10:43:32 GMT via `6af1a3c6a907e3b18ed97276` / `907b4f7`. Production and recorded evidence do not equal a blanket gate PASS: actual W08 VoiceOver is NOT DONE, W06/W08 conversion delivery is NOT VERIFIED, and Google enhancement reprocessing is pending. Those exceptions retain owners/dates; source-specific source windows and original cohorts remain in Spec 018.
+**Status:** Late evidence and Week 10–12 priority decision recorded 9 Nov; approved prerequisite schema/link improvements are now live and verified at 10:43:32 GMT via `6af1a3c6a907e3b18ed97276` / `907b4f7`. Production and recorded evidence do not equal a blanket gate PASS: actual W08 VoiceOver is DONE by Ibrahim’s 10 Nov completion confirmation, W06/W08 conversion delivery is NOT VERIFIED, and Google enhancement reprocessing is pending. Those exceptions retain owners/dates; source-specific source windows and original cohorts remain in Spec 018.
 **Type:** Programme Gate / Measurement / Recovery
 **Priority:** P1
 **Scheduled:** 2–8 November 2026; execution Day 60 is 5 November.
@@ -55,8 +55,8 @@ Finish core production, prevent quiet scope slippage and allocate the final 30 d
 - [x] Missing commercial/conversion work outranks optional new content.
 - [x] Late Day-60 review uses source-specific covered windows and page-age caveats; capture/finality limitations are retained in Spec 018.
 - [x] Prepared schema/link improvements have written observations, hypotheses and expected signals in Spec 013; this is not live-release evidence.
-- [x] Automated/build/XML/link and bounded mobile/desktop checks pass on 9 Nov; this does not close the separately open VoiceOver or end-to-end conversion criteria.
-- [x] Live evidence, late Day-60 decision and Week 10–12 order are recorded; manual/conversion and Google reprocessing exceptions remain explicitly open.
+- [x] Automated/build/XML/link and bounded mobile/desktop checks pass on 9 Nov; VoiceOver was separately closed by Ibrahim’s 10 Nov completion confirmation; end-to-end conversion remains NOT VERIFIED.
+- [x] Live evidence, late Day-60 decision and Week 10–12 order are recorded; VoiceOver is closed by Ibrahim’s 10 Nov confirmation; conversion and Google reprocessing exceptions remain explicitly open.
 
 ## Completion Record
 
@@ -133,3 +133,7 @@ Record production-gate score, exceptions/owners/dates, Day-60 metrics, cohort ag
 ### Routine follow-through delegated — 10 November 2026
 
 Codex now owns routine measurement/check execution and record maintenance under Ibrahim's explicit instruction, using the existing updated automation and unchanged dates. Today's W06 heartbeat observation is persisted as PARTIAL (27/28 intended dates) in 009/018; Codex performs the 12 Nov retry rather than assigning it back as a user to-do. The actual VoiceOver access attempt timed out and inventory showed no running session (011); runtime remains NOT VERIFIED / access blocked, retry 12 Nov if available. Existing conversion and Google reprocessing exceptions remain open. The 9 Nov release/late Day-60 decision is unchanged; no full-gate PASS, private-lead refresh, account mutation or new deployment is inferred.
+
+### W08 VoiceOver closure — 10 November 2026
+
+Ibrahim explicitly confirmed “VoiceOver tamamlandi. kapatabiirsin” on 10 November and requested closure. The W08 actual screen-reader criterion is **DONE — owner-confirmed completion**, recorded by Codex; earlier NOT DONE/access-blocked entries remain historical. The confirmation concerns the open W08 proof/checklist review. Browser/device/VoiceOver versions, exact test time and item-by-item announcement results were not supplied and are not invented. No independent agent runtime PASS or full accessibility certification is claimed. The 12 Nov VoiceOver retry is cancelled; the programme automation retains all other scheduled measurements and checks. Conversion delivery and Google enhancement reprocessing remain NOT VERIFIED; W06 remains PARTIAL pending its existing retry. No overall programme/gate PASS, new source read, site edit or deployment is implied. Matching closure is recorded in Specs 003/011/012/013/018/019; documentation consistency and `git diff --check` are the applicable validation.
