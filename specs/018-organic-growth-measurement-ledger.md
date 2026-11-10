@@ -1,6 +1,6 @@
 # Organic Growth Measurement Ledger
 
-**Status:** Active — Week 10 optimisation. Fresh 9 November source reads and late Day-60 review are below. GSC standard-report coverage ends 7 Nov, GA4 prior-day coverage 8 Nov; historical windows are refreshed separately. Current private classification remains 0 qualified organic / 5 tests / 1 unresolved. W04-A/W05-B 28-day and W08 seven-date coverage are captured; W06 10 Nov / W08 12 Nov are future observations. Earlier headings and snapshots remain historical.
+**Status:** Active — Week 10. The 10 Nov W06 exact-page attempt is PARTIAL: requested 14 Oct–10 Nov, actual 14 Oct–9 Nov (27/28 dates); the 09:02:53 GMT heartbeat evidence is now persisted, with Codex retry 12 Nov. Routine execution and tracking are delegated to Codex. Latest full programme/source and private-ledger captures remain dated 9 Nov, not fresh 10 Nov reads. The approved 9 Nov release and separate original/revision cohorts are retained; actual VoiceOver access failed on 10 Nov and runtime remains NOT VERIFIED.
 **Programme owner:** ibrahim uylas
 **Measurement owner:** ibrahim uylas
 **Depends on:** `003-organic-client-acquisition-90-day-program.md`
@@ -568,3 +568,20 @@ Owner for all follow-ups: Ibrahim Uylas. W06 28-day **14 Oct–10 Nov**, observe
 | Custom Software cost-FAQ → guide link | Source `18931e3`; same actual live release; guide's own source/first-live date unchanged | Observe parent service and monitored guide destination separately, not as a new guide publication |
 
 Deterministic release acceptance (correct live markup/link) is DONE. Search enhancement validity after Google's reprocessing, crawl/index choices and any future traffic/lead effect remain NOT VERIFIED until fresh source evidence exists. Do not attribute performance to the release from today's pre-release figures.
+
+## W06 28-day attempt and delegated execution — 10 November 2026
+
+**Source/capture:** authenticated GSC UI during the 10 Nov 09:00 heartbeat, consolidated **09:02:53 GMT**. This record persists that observed evidence after Ibrahim's later explicit authorization; it is not another account read. Property `sc-domain:duniaops.com`; **Web (text)**, daily grain, exact canonical page filters, all countries/devices, no query filter; both reports showed **Last update: 3 hours ago**. Intended first full post-live 28-date window: **14 Oct–10 Nov**. Both charts contain **14 Oct–9 Nov only: 27/28 dates**, so both remain **PARTIAL**. Latest displayed date is 9 Nov, not an independently certified immutable final-data boundary.
+
+| Asset / source | Exact canonical URL | Actual captured range | Impressions | Clicks | CTR | Position | State |
+|---|---|---|---:|---:|---:|---:|---|
+| W06-A `services/ai-software-development.html` | https://www.duniaops.com/services/ai-software-development | 14 Oct–9 Nov | 407 | 0 | 0% | 75.0 | PARTIAL, 27/28 intended dates |
+| W06-B `content/blog/ai-consultant-vs-ai-development-company.md` | https://www.duniaops.com/blog/ai-consultant-vs-ai-development-company | 14 Oct–9 Nov | 258 | 0 | 0% | 78.8 | PARTIAL, 27/28 intended dates |
+
+Original first-live **13 Oct 08:40 BST**, service visual revision **10:31 BST**, source annotation `fb06c88` and original release provenance are unchanged. These are exact page-age reads, not the 11 Oct–7 Nov rolling programme page rows captured 9 Nov, and not comparable to the earlier seven-/14-day cohorts as equal-duration windows. No ranking lift, lead, conversion-rate or causal impact claim. No GA4, Netlify, private-ledger or current Google Index refresh occurred in this check. Conversion delivery remains NOT VERIFIED.
+
+**Execution and retry:** Codex performs the same intended **14 Oct–10 Nov** reads on **12 Nov**, then updates Spec 009's Completion Record, the current weekly Spec 013 and Specs 003/018/019. Missing dates stay PARTIAL until actually returned. Ibrahim remains programme owner; routine execution is delegated to Codex by the explicit 10 Nov chat instruction. The existing automation was updated and its saved prompt, unchanged schedule, ACTIVE state and target chat verified. No duplicate automation or new reminder date was created. Routine record commits/pushes are authorized with validation and `[skip netlify]`; publication/deployment, production forms, Google indexing/validation requests, customer contact and private-ledger/account changes keep their separate authorization boundaries.
+
+**Actual screen-reader attempt:** native macOS access to VoiceOver timed out in the later 10 Nov execution session; app inventory subsequently reported VoiceOver not running. No speech, rotor or announcements were observed; no screen-reader version was obtained. Actual runtime remains NOT VERIFIED / access blocked. Codex retries the actual check at the 12 Nov checkpoint if native access is available; static checks cannot close it. Spec 011 contains the evidence boundary. No permission/security settings or account state were changed.
+
+**Scope/validation:** programme documentation and authorized automation instructions only; no public site/content change or deployment. Exact numeric/window/ownership consistency and `git diff --check` are the validation scope; `npm test` was not rerun for these record-only edits. Prior 9 Nov release/test evidence remains dated, not a fresh run.
