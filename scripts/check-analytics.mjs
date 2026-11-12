@@ -121,4 +121,61 @@ assert.deepEqual(JSON.parse(JSON.stringify(leadCall[2])), {
 assert.equal(sessionStorage.getItem(LEAD_KEY), null, 'lead context should be removed after queueing');
 assert.equal(confirmation.scripts.length, 1, 'GA4 should load once after consent');
 
+// Follow the actual commercial CTAs through form preparation and thank-you queueing.
+for (const journey of [
+  { source: 'services/ai-software-development.html', origin: 'ai', service: 'ai' },
+  { source: 'work/fragmented-application-estate-modernisation.html', origin: 'proof', service: 'rescue' },
+  { source: 'resources/software-project-handover-checklist.html', origin: 'handover_checklist', service: 'rescue' }
+]) {
+  const html = await readFile(path.join(ROOT, journey.source), 'utf8');
+  const href = [...html.matchAll(/href="([^"\n]+)"/g)]
+    .map((match) => match[1].replaceAll('&amp;', '&'))
+    .find((value) => value.includes(`from=${journey.origin}#contact`));
+  assert.ok(href, `${journey.source}: commercial contact route must exist`);
+  const target = new URL(href, 'https://www.duniaops.com');
+  target.searchParams.set('measurement_test', '1');
+  const fields = {
+    service_category: { value: '', querySelector(selector) {
+      return selector === `option[value="${journey.service}"]` ? {} : null;
+    } },
+    landing_page_group: { value: 'home' },
+    test_submission: { value: 'false' }
+  };
+  let onSubmit;
+  const journeyForm = {
+    querySelector(selector) { return fields[selector.match(/^\[name="([^"\]]+)"\]$/)?.[1]] || null; },
+    addEventListener(name, handler) { if (name === 'submit') onSubmit = handler; }
+  };
+  const journeyStorage = memoryStorage();
+  runPage({ pathname: target.pathname, search: target.search,
+    localStorage: memoryStorage({ duniaops_analytics_consent: 'denied' }),
+    sessionStorage: journeyStorage, form: journeyForm });
+  assert.equal(fields.service_category.value, journey.service);
+  assert.equal(fields.landing_page_group.value, journey.origin, `${journey.source}: retain the CTA origin`);
+  assert.equal(fields.test_submission.value, 'true');
+  onSubmit(); // Local VM only: no browser, network request or production submission.
+  const thankYou = runPage({ pathname: '/thank-you',
+    localStorage: memoryStorage({ duniaops_analytics_consent: 'granted' }),
+    sessionStorage: journeyStorage });
+  const events = thankYou.window.dataLayer.map((entry) => Array.from(entry))
+    .filter((entry) => entry[0] === 'event' && entry[1] === 'generate_lead');
+  assert.equal(events.length, 1);
+  assert.equal(events[0][2].landing_page_group, journey.origin);
+  assert.equal(events[0][2].service_category, journey.service);
+  assert.equal(events[0][2].test_submission, 'true');
+  assert.equal(journeyStorage.getItem(LEAD_KEY), null);
+}
+
+// Adding known W08 origins must not admit arbitrary query values into analytics.
+const untrustedOriginField = { value: 'home' };
+const unknownOrigin = runPage({ pathname: '/', search: '?from=unrecognised-origin',
+  localStorage: memoryStorage({ duniaops_analytics_consent: 'denied' }),
+  sessionStorage: memoryStorage(), form: {
+    querySelector(selector) { return selector === '[name="landing_page_group"]' ? untrustedOriginField : null; },
+    addEventListener() {}
+  } });
+assert.equal(untrustedOriginField.value, 'home');
+assert.equal(unknownOrigin.scripts.length, 0, 'denied consent must not load GA4');
+assert.equal(unknownOrigin.window.dataLayer.some((entry) => entry[0] === 'event'), false);
+
 console.log('Validated privacy-safe project-enquiry attribution and generate_lead queueing.');

@@ -26,6 +26,8 @@
     'not-sure': 'unknown'
   };
   var landingPageGroups = {
+    proof: true,
+    handover_checklist: true,
     home: true,
     about: true,
     rescue: true,
