@@ -312,7 +312,7 @@ ${preview ? '<meta name="robots" content="noindex,nofollow">\n' : seo}<meta name
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Fredoka:wght@500;600;700&amp;family=Inter:wght@400;500;600;700;800&amp;family=Noto+Sans+JP:wght@400;600;700&amp;family=Noto+Sans+KR:wght@400;600;700&amp;family=Noto+Sans+SC:wght@400;600;700&amp;display=swap" rel="stylesheet">
-<link rel="stylesheet" href="/css/rockimals-blog.css?v=20261007-play">${sticky ? `\n${ROCKIMALS_STICKY_CTA_STYLE}` : ''}
+<link rel="stylesheet" href="/css/rockimals-blog.css?v=20261113-inline-visuals">${sticky ? `\n${ROCKIMALS_STICKY_CTA_STYLE}` : ''}
 </head>
 <body class="rkb-page">
 <a class="rkb-skip" href="#article-content">${escapeHtml(ui.skip)}</a>
