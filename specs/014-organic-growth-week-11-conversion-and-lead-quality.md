@@ -60,3 +60,9 @@ Turn relevant visits into better-qualified conversations and make lead evidence 
 ## Completion Record
 
 Record reconciled counts, unresolved differences, selected service/path, hypothesis, exact changes, validation, commit/deploy, live test and comparison date.
+
+### Attribution-revision carry-in — 13 November 2026
+
+The 12 Nov **17:44:51.507 GMT** origin-tag revision is separate from original W08 publication and the 9 Nov breadcrumb/link revision. Full daily windows / scheduled observations: **13–19 Nov → 20 Nov**, **13–26 Nov → 27 Nov**, **13 Nov–10 Dec → 11 Dec**. Canonical provenance, caveats and incomplete-tail handling are in Spec 018. These dates fit the existing automation; no duplicate or schedule change.
+
+Codex owns **16 Nov** Week 11 carry-in: W08 source-finality/enhancement, W03/W05 discovery discrepancy, routine CTA/private reconciliation and the blocked CTR read. Actual production delivery remains NOT VERIFIED; private qualification/reply and production submissions retain separate authority. VoiceOver is closed. Future approval-pending source stays outside deployable main because later scheduled builds can include it despite [skip netlify]. No hook/settings changed, no quota article.

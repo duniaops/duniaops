@@ -1,6 +1,6 @@
 # Organic Growth Week 10 — Indexation and Search-Result Optimisation
 
-**Status:** Implementation released and live-verified 9 November 10:43:32 GMT: `6af1a3c6a907e3b18ed97276` at `907b4f7`. Inventory, diagnosis, contextual link and breadcrumb corrections are delivered. Week 10 remains in progress until its 13 Nov close and due observations; actual W08 VoiceOver is DONE by Ibrahim’s 10 Nov completion confirmation, conversion delivery and Google enhancement-report reprocessing remain NOT VERIFIED. W06 full 28-date coverage is DONE on 12 Nov; W08 is PARTIAL (13/14 dates), retry 13 Nov; a W08 source-attribution correction is prepared locally, not released; Codex now owns routine execution, retries and record maintenance. Programme ownership/approval remains with Ibrahim.
+**Status:** Week 10 planned deliverables/acceptance criteria assessed DONE from dated implementation evidence and current bounded checks on 13 Nov. Delivery close is recorded with explicit verification carry-over, not a whole-programme PASS. W08 intended 14-date display is complete but finality remains PARTIAL / NOT VERIFIED (standard GSC ends 10 Nov), retry 16 Nov. W08 stored enhancement issues, W03/W05 fresh URL-unknown mismatch and conversion delivery remain NOT VERIFIED. c4c2318 is already live via the separate 12 Nov 17:44 GMT runtime deployment; no new deploy in this run. VoiceOver remains owner-confirmed DONE. Optional W04-B rewrite remains HOLD; a fresh candidate read timed out. Week 11 starts 16 Nov.
 **Type:** Technical SEO / Content Optimisation
 **Priority:** P1
 **Scheduled:** 9–15 November 2026
@@ -97,14 +97,14 @@ Record URL inventory, diagnosed cause, selected hypothesis, exact changes, valid
 | Remaining criterion / dependency | State now | Owner | Date / next step |
 |---|---|---|---|
 | Publish contextual link and W08 schema fix; verify live result | DONE after explicit approval; 9 Nov 10:43:32 GMT release | Ibrahim | Deploy `6af1a3c6a907e3b18ed97276`; post-release record below |
-| Google enhancement report after live W08 correction | NOT VERIFIED; live schema passes, stored report awaits reprocessing | Codex | 13 Nov, then 16 Nov revision checkpoint; no validation/indexing request |
-| W03-B/W05-B crawl-selection cause/indexing | NOT VERIFIED; discovery is recognised | Codex | 13 Nov, or the first scheduled post-release read; no repeated request |
+| Google enhancement report after live W08 correction | NOT VERIFIED; both stored inspections still show one invalid item and 2 Nov crawl | Codex | Recheck 16 Nov; do not equate aggregate validity with per-URL recrawl |
+| W03-B/W05-B crawl-selection cause/indexing | NOT VERIFIED; fresh 13 Nov inspections say URL unknown, no referrer/sitemap/crawl; public eligibility passes | Codex | Investigate conflicting discovery snapshots 16 Nov; no repeated request |
 | Actual W08 VoiceOver | DONE — Ibrahim confirmed completion and requested closure on 10 Nov | Ibrahim (manual completion); Codex (record closure) | Closed 10 Nov; 12 Nov retry cancelled. Versions and item-level results not supplied; no independent agent verification claimed |
-| W06/W08 end-to-end conversion delivery | NOT VERIFIED; audit/test preparation performed 12 Nov. W08 source-tag loss diagnosed; local fix prepared, not live | Codex for execution; Ibrahim for external-action approval | 13 Nov disposition; deployment and actual production submission retain separate approval boundaries |
+| W06/W08 end-to-end conversion delivery | NOT VERIFIED; source-tag fix is live, but no production test/notification/GA4 delivery evidence | Codex for preparation; Ibrahim for external-action approval | 16 Nov Week 11 disposition; no fabricated delivery or classification |
 | W06 first 28 full dates | DONE — 12 Nov capture covers 14 Oct–10 Nov, 28/28 dates | Codex | Observation closed; no lead/conversion inference |
-| W08 first 14 full dates | PARTIAL — 12 Nov capture covers 30 Oct–11 Nov, 13/14 dates | Codex | Repeat intended 30 Oct–12 Nov range on 13 Nov; carry to 16 Nov if delayed |
+| W08 first 14 full dates | PARTIAL / NOT VERIFIED finality: chart/Days show 30 Oct–12 Nov (14 dates), standard report still ends 10 Nov | Codex | Recheck source-complete coverage 16 Nov; preserve displayed snapshot separately |
 | W08 first 28 full dates | NOT DUE | Codex | 26 Nov (30 Oct–26 Nov), retry 27 Nov |
-| Weekly close / optional W04-B candidate decision | NOT DUE today | Codex | 13 Nov; classify all criteria from actual evidence |
+| Weekly close / optional W04-B candidate decision | DONE — delivery close 13 Nov, optional rewrite HOLD; fresh candidate read timed out | Codex | Week 11 starts 16 Nov; repeat source read then, no quota article |
 
 The single `duniaops-seo-60-30-takip` automation was viewed ACTIVE; its existing schedule includes 10/12/26 Nov plus Monday/Friday through 11 Dec. No new reminder or external-account mutation. This Completion Record and Specs 003/007/008/011/012/018/019 are updated together. Week 10 remains **in progress**, and Day-60 has a documented late decision with manual/conversion exceptions; neither is falsely marked complete.
 
@@ -138,3 +138,39 @@ Conversion audit found a concrete W08 attribution defect: live proof/checklist C
 VoiceOver remains **DONE by Ibrahim’s 10 Nov confirmation**, with no retry. Fresh private aggregate reconciliation is unchanged and recorded with limitations in 018; no customer identifiers/messages enter Git, no contact or private-account mutation occurred. No GA4 performance refresh or fresh per-URL Google Index/enhancement read was performed; those earlier states remain dated and the scheduled per-URL recheck stays **13 Nov**. No new article, title rewrite, indexing request or deployment. Specs 003/009/011/012/013/018/019 are updated together.
 
 **Prepared candidate and actual validation:** `c4c2318` changes only `js/analytics.js` and `scripts/check-analytics.mjs`; no public deployment. Live `/js/analytics.js` GET at **09:41:50 UTC** returned 200 and was byte-identical to the pre-fix source, confirming both W08 origins are still absent in production. `npm test` **PASS**, including the new three commercial-CTA journeys, unknown-origin/denied-consent guard and five breadcrumb regressions; full build/site check validates **343 public files**, release routes, JSON-LD/navigation and no broken internal links. `node --check` on both changed scripts, `xmllint --noout sitemap.xml feed.xml` and `git diff --check` **PASS**. No visual markup/CSS changed, so no new desktop/mobile or VoiceOver result is claimed. The local regression is not a production form delivery test. Record-only commit and the prepared fix use `[skip netlify]`; separate production approval is still required. Codex owns the 13 Nov W08/per-URL/conversion follow-through; other original/revision/tail dates are preserved.
+
+### Friday delivery close and verification carry-over — 13 November 2026
+
+Fresh 13 Nov W08 Web (text) exact-page/daily charts and Days table display 30 Oct–12 Nov (14 rows): proof 0 impressions/0 clicks/no meaningful CTR or position; checklist 30/0/0%/22.9, freshness 5.5h. Standard 28-day report still ends 10 Nov, so finality remains PARTIAL / NOT VERIFIED, Codex retry 16 Nov. Initial “measurement complete” shorthand is superseded by this source-boundary check. Both W08 inspections remain indexed with one invalid breadcrumb, stored crawls 2 Nov 20:01:06 / 19:54:13; post-fix recrawl NOT VERIFIED. VoiceOver stays owner-confirmed DONE, actual form delivery NOT VERIFIED.
+
+Attribution repair c4c2318 is already live via separate runtime deployment 6af5fb049b3d585fbc4c157c at 12 Nov 17:44:51.507 GMT (9ac4aaf), verified against public/deploy-specific JavaScript; current scheduled deployment is 6af657c4b069b4de6468fc17 at 13 Nov 00:20:35.719 GMT. No new deploy/approval or production submission in this run. Spec 018 holds canonical capture, release, privacy and validation limits; original 29 Oct / 9 Nov / 12 Nov annotations remain distinct.
+
+Fresh 14-URL HTTP/canonical/sitemap/robots audit passes. W03/W05 now report URL unknown, no sitemap/referrer/crawl, conflicting with 9 Nov discovery; GSC sitemap Success/read 13 Nov/33 pages. Cause NOT VERIFIED, Codex 16 Nov. Only four Google Index states were reread, not a property-wide index count. Private aggregate remains 0 qualified organic / 5 tests / 1 unresolved; no private mutation/reply. Optional W04-B rewrite HOLD; fresh read timed out, retry 16 Nov. No new article or full-programme PASS. Week 10 planned delivery is closed with the explicit verification carry-over below; fresh analytics/five breadcrumb checks pass, full npm test remains dated 12 Nov and UI evidence dated 9 Nov.
+
+| Friday assessment | State | Evidence / practical limit |
+|---|---|---|
+| Deliverable 1 — 14-URL inventory | DONE | All source/URL states recorded 9 Nov; live 14-URL eligibility refreshed 13 Nov, four GSC exceptions reread |
+| Deliverable 2 — indexing investigation | DONE | Diagnosed W08 defect repaired; current W03/W05 discrepancy recorded with unverified cause, not a guaranteed index outcome |
+| Deliverable 3 — contextual link publication | DONE | Approved 9 Nov publication evidence retained; no new publication needed |
+| Deliverable 4 — at most one snippet revision | DONE | Zero selected; HOLD justified, fresh candidate read unavailable and retry 16 Nov |
+| Deliverable 5 — evidence/release/comparison record | DONE | Original 9 Nov cohorts retained; separate 12 Nov attribution revision added |
+| Deliverable 6 — no quota-driven article | DONE | No new article commissioned/created |
+| Acceptance 1 — priority URL states recorded | DONE | Dated 9 Nov inventory plus bounded fresh 13 Nov updates; no invented whole-property refresh |
+| Acceptance 2 — fix addresses confirmed breadcrumb defect | DONE | Original diagnosis/code/live evidence; Google reprocessing still NOT VERIFIED |
+| Acceptance 3 — commercial FAQ link works | DONE | Dated 9 Nov live link/destination evidence; no fresh browser navigation claimed today |
+| Acceptance 4 — supported hypothesis / no title reset | DONE | Existing link/schema hypotheses, optional rewrite remains HOLD |
+| Acceptance 5 — applicable validation | DONE | Exact-candidate full test 12 Nov and dated 9 Nov desktop/mobile; fresh analytics/breadcrumb checks 13 Nov; owner-confirmed VoiceOver 10 Nov. No end-to-end delivery certificate |
+| Acceptance 6 — live release and follow-up recorded | DONE | Separate 9/12 Nov release provenance and 7/14/28-day windows; no Google request |
+| Carry-over — W08 data finality | NOT VERIFIED | Custom 14-date display conflicts with standard reporting boundary; Codex 16 Nov |
+| Carry-over — W08 post-fix Google recrawl | NOT VERIFIED | Stored 2 Nov crawls still report issues; Codex 16 Nov |
+| Carry-over — W03/W05 Google discovery cause | NOT VERIFIED | Fresh URL-unknown versus 9 Nov discovered snapshot; public eligibility passes; Codex 16 Nov |
+| Carry-over — W06/W08 production delivery | NOT VERIFIED | Source-tag fix live, no authorised production submission/notification/GA4 join; Codex preparation 16 Nov |
+| Carry-over — fresh W04-B CTR read | BLOCKED | Browser access timed out during read; no fresh metrics claimed; Codex retry 16 Nov |
+
+### Attribution-revision carry-in — 13 November 2026
+
+The 12 Nov **17:44:51.507 GMT** origin-tag revision is separate from original W08 publication and the 9 Nov breadcrumb/link revision. Full daily windows / scheduled observations: **13–19 Nov → 20 Nov**, **13–26 Nov → 27 Nov**, **13 Nov–10 Dec → 11 Dec**. Canonical provenance, caveats and incomplete-tail handling are in Spec 018. These dates fit the existing automation; no duplicate or schedule change.
+
+Codex owns **16 Nov** Week 11 carry-in: W08 source-finality/enhancement, W03/W05 discovery discrepancy, routine CTA/private reconciliation and the blocked CTR read. Actual production delivery remains NOT VERIFIED; private qualification/reply and production submissions retain separate authority. VoiceOver is closed. Future approval-pending source stays outside deployable main because later scheduled builds can include it despite [skip netlify]. No hook/settings changed, no quota article.
+
+**Automation/record verification — 13 Nov:** the existing single heartbeat was updated to use today’s source/finality and live-release evidence, 16 Nov carry-over and separate origin-tag windows. Saved prompt, ACTIVE status, unchanged schedule and target chat were read back. Record consistency and `git diff --check` pass; no duplicate or account/build-hook mutation.

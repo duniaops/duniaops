@@ -1,6 +1,6 @@
 # Organic Growth Week 03 — Application Support Cluster
 
-**Status:** Live — the companion article was published on 11 September and the Application Support & Software Maintenance commercial parent on 14 September. On 16 October, Search Console's rolling 28-day exact-page report (16 September–13 October) showed the service at 51 impressions, 0 clicks, 0% CTR and average position 73.2. This is a current rolling view, not an exact first-28-live-days cohort. The service is indexed; the companion article remains discovered but not indexed. The article's 28-day observation remains NOT VERIFIED because the captured report does not cover its full 28 live days. No change or indexing request was made.
+**Status:** Both core pages are live (article 11 Sep; parent service 14 Sep). Fresh 13 Nov URL Inspection for the support-takeover article reports URL unknown to Google, no reported sitemap/referrer/crawl, conflicting with the 9 Nov discovered-not-indexed snapshot. Cause remains NOT VERIFIED; public HTTP/self-canonical/sitemap/robots checks pass today, with GSC sitemap Success/read 13 Nov. The parent service’s indexed state is dated 9 Nov, not freshly reread. Older performance windows remain historical; no indexing request or content change.
 **Type:** Commercial Service Page / Blog Article
 **Priority:** P1
 **Scheduled:** 21–27 September 2026
@@ -120,3 +120,7 @@ Record service/article paths and URLs, draft/publication/image state, operationa
 - **Performance:** 4 impressions, 0 clicks, 0% CTR and average position 69. The visible query rows include `application maintenance services` (2 impressions) and `application support and maintenance services` (1); visible rows are partial and do not sum to the page total.
 - **Index state:** URL Inspection on 28 September reports `URL is on Google` / `Page is indexed`, with one valid Breadcrumbs item. No live test, indexing request or external setting change was made in this checkpoint.
 - **Decision/owner:** Hold; this low-volume, incomplete post-publication window does not justify copy or snippet changes. Ibrahim Uylas owns the next service cohort check on 12 October and the article 28-day check on 9 October. Production CTA/form, canonical, sitemap and live HTTP were verified at the 14 September release, not repeated today.
+
+### Fresh discovery discrepancy — 13 November 2026
+
+Codex reread the exact article in property `sc-domain:duniaops.com`: URL Inspection now reports **URL unknown to Google**, no referring sitemap/page, crawl N/A; this supersedes only the current-state summary of the 9 Nov discovered-not-indexed snapshot, not its historical evidence. GSC sitemap is Success, read 13 Nov, 33 pages; fresh HTTP/self-canonical/public-sitemap/Googlebot/no-noindex checks pass. Cause remains NOT VERIFIED; no live Google crawl test, indexing/validation request or source edit. Codex repeats diagnosis **16 Nov**; actual publication, source path and performance windows remain unchanged. Spec 018 holds the full source/freshness/privacy boundaries. No new qualified-lead or whole-property index claim.
