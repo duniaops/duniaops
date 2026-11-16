@@ -1,6 +1,6 @@
 # Topic 39 — language and phone review
 
-**Date:** 16 November 2026, Europe/London. **Result:** PASS for the requested AI-assisted editorial review and browser phone-layout checks. All eight articles remain drafts. The user's later instruction authorizes local commits of this preparation and its review fixes only; publication, push and deploy remain unauthorized.
+**Date:** 16 November 2026, Europe/London. **Result:** PASS for the requested AI-assisted editorial review and browser phone-layout checks. The owner has now approved the exact cover and spoiler boundary and authorized committing and pushing that approval record. All eight articles remain drafts until the **23 November 2026, 10.00 Europe/London** conditional automatic publication run. No immediate publication or deployment is authorized.
 
 This records an editorial review by the authoring agent, not an independent native-speaker sign-off. Phone evidence comes from browser emulation with verified CSS viewport dimensions, not a physical handset or mobile Safari/Chrome installation.
 
@@ -51,7 +51,15 @@ Local evidence is in `.rockimals-blog-preview/meet-barney-phone-review/`: `layou
 - `npm test`: PASS, exit 0, 58 tests passed, zero failed/skipped; 88 source files, 10 publishable topics, 80 public article pages, 355 public files validated. Log: `/tmp/rockimals-meet-barney-review-npm-test.log`.
 - Separate checks cover the final source flags/timestamps, localized names and library terms, the eight meaningful body-link targets, the cover/alt manifest, the 24-case phone matrix and the continued absence of topic 39 from public article routes and sitemap.
 - All eight `draft` fields remain `true`; both timestamps remain `2099-01-01T10:00:00Z`. No publication fields were opened. Private pages remain `noindex,nofollow` and the loopback server is not a deploy.
-- The requested language and phone checks are complete. Owner/editor approval of the cover and the later release decision remain separate; independent human/native-speaker and physical-device review are not represented as completed.
+- The requested language and phone checks are complete. The owner approval below closes the cover/spoiler item. Publication remains conditional on fresh runbook checks on 23 November; independent human/native-speaker and physical-device review are not represented as completed.
+
+## Owner approval — 16 November 2026
+
+- The project owner explicitly approved the cover and spoiler boundary in this chat: “Kapak ve spoiler sınırını onaylıyorum.” The earlier `pending` owner-approval state is closed.
+- Approved cover: `assets/rockimals-blog/meet-barney/cover.jpg`, SHA-256 `f6e7f344e5234c8cceb8cdcba9329e9bfe91191d66ae1bafb9df4a469c02ff46`. No artwork changed to record this approval.
+- Approved spoiler scope: the eight reviewed introductions cover only the opening garden, hill and packing scenes; no departure, chapter-ending scene or season ending. The reviewed article hashes below remain unchanged.
+- The owner authorized committing and pushing only these approval records. The eight Markdown sources must stay `draft: true`, with their existing placeholder timestamps, until the **23 November 2026 at 10.00 Europe/London** scheduled publication run. No immediate deploy is permitted.
+- That run must still verify the clean main/upstream, same-week publication limit, current product/store evidence, candidate completeness, previews, tests and eventual live URLs/canonical/language alternatives/sitemap according to the runbook. This editorial approval is not a claim that the future operational checks or physical-device/native-speaker acceptance have passed.
 
 ## Reviewed source hashes
 

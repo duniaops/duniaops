@@ -155,7 +155,21 @@
   "reviewStatus": {
     "visualMatching": "source artwork visually compared; exact source bytes match committed 1.5.8 snapshot",
     "nativeLanguageReview": "independent human/native-speaker sign-off not performed or claimed",
-    "ownerApproval": "pending",
+    "ownerApproval": "approved",
+    "ownerApprovalRecord": {
+      "date": "2026-11-16",
+      "timezone": "Europe/London",
+      "approver": "project owner",
+      "evidence": "Explicit owner instruction in this chat: Kapak ve spoiler sınırını onaylıyorum.",
+      "scope": [
+        "The exact textless Barney cover identified by coverSha256",
+        "The eight reviewed drafts' opening-scene boundary: garden, hill and packing only; no departure, chapter-ending scene or season ending"
+      ],
+      "coverSha256": "f6e7f344e5234c8cceb8cdcba9329e9bfe91191d66ae1bafb9df4a469c02ff46",
+      "publicationWindow": "2026-11-23 10:00 Europe/London, conditional on the runbook gates",
+      "keepDraftUntilPublicationRun": true,
+      "immediateDeploymentAuthorized": false
+    },
     "physicalDeviceAcceptance": "not performed",
     "editorialLanguageReview": "complete: AI-assisted review in eight locales; see meet-barney-review-2026-11-16.md",
     "phoneLayoutReview": "complete: eight locales at verified 320×568, 390×844 and 430×844 CSS viewport sizes; browser emulation",
