@@ -2,7 +2,7 @@
 
 **Karar:** Kullanıcı 22 Eylül 2026'da haftada bir özgün konunun sekiz dilde, hafta 2'den başlayarak pazartesi yayımlanmasını ve otomatik yayın ile hazırlık hatırlatması kurulmasını istedi. İlk konu 22 Eylül'de yayımlanmış istisnadır. Hedef yayın saati pazartesi 10.00, hazırlık hatırlatması cuma 10.00; ikisi de `Europe/London` saatine göre. Bu saat bir SEO iddiası değil, operasyon tercihi ve önceki 10.00 önerisinin pazartesiye taşınmış biçimidir.
 
-**Aktif Codex görevi:** `Rockimals haftalık hatırlatma ve yayın` (`rockimals-pazartesi-blog-yay-n`); aynı takip görevi cuma salt okunur hatırlatma, pazartesi koşullu yayın çalıştırır. Ayrı bir GitHub/Netlify sunucu zamanlayıcısı kurulmadı.
+**Aktif Codex görevi:** `Rockimals haftalık hatırlatma ve yayın` (`rockimals-haftal-k-hat-rlatma-ve-yay-n`); 16 Kasım 2026’da mevcut sohbete bağlı tek aktif takip görevi olarak yeniden kuruldu. Aynı görev cuma salt okunur hatırlatma, pazartesi koşullu yayın çalıştırır. Ayrı bir GitHub/Netlify sunucu zamanlayıcısı kurulmadı.
 
 **1.5.0 ürün güncellemesi:** [Web sitesi uyum işi](../specs/037-rockimals-1-5-web-refresh.md) 17 Ekim 2026’da uygulandı ve canlıda doğrulandı. Güncel ürün referansı 10 ücretsiz okuma bölümü, günde en fazla üç yeni ücretsiz bölüm, üç dakikalık Dünya Kalkanı ve ayrı EN/TR sesli deneme hakkını içerir. Yeni yazıları bu kaynakla karşılaştır; iOS 1.5.0 ile Android yayın durumunu ayır. Eski snapshotlar yalnızca tarihsel kanıttır.
 
