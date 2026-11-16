@@ -4,8 +4,8 @@
   "type": "module",
   "scripts": {
     "build:blog": "node scripts/build-blog.mjs",
-    "build:site": "npm run build:blog && node scripts/build-site.mjs && node scripts/build-zoday-invite.mjs && node scripts/build-zoday-landing.mjs && node scripts/build-rockimals-landing.mjs && node scripts/build-rockimals-blog.mjs && node scripts/build-rockimals-today.mjs",
-    "check:analytics": "node scripts/check-analytics.mjs",
+    "build:site": "npm run build:blog && node scripts/build-site.mjs && node scripts/build-zoday-invite.mjs && node scripts/build-zoday-landing.mjs && node scripts/build-rockimals-landing.mjs && node scripts/build-rockimals-blog.mjs && node scripts/build-rockimals-today.mjs && node scripts/version-analytics.mjs",
+    "check:analytics": "node scripts/check-analytics.mjs && node --test tests/analytics-cache.test.mjs",
     "check:breadcrumbs": "node --test tests/breadcrumbs.test.mjs",
     "check:rockimals-blog-article": "node --test tests/rockimals-blog-article.test.mjs && node scripts/preview-rockimals-blog-article.mjs",
     "check:rockimals-blog-index": "node --test tests/rockimals-blog-index.test.mjs && node scripts/preview-rockimals-blog-index.mjs",

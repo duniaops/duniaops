@@ -4,6 +4,7 @@ import { fileURLToPath } from 'node:url';
 import { createRockimalsBlogManifest, loadRockimalsBlogSources } from './rockimals-blog-content.mjs';
 import { ROCKIMALS_GOOGLE_PLAY_URL, rockimalsGooglePlayBadge } from './rockimals-blog-cta.mjs';
 import { validateBreadcrumbs } from './validate-breadcrumbs.mjs';
+import { analyticsRevision, staleAnalyticsSources } from './analytics-cache.mjs';
 
 const ROOT = path.resolve(path.dirname(fileURLToPath(import.meta.url)), '..');
 const DIST_DIR = path.join(ROOT, 'dist');
@@ -198,6 +199,14 @@ async function rockimalsRouteExists(pathname) {
 
 async function validateHtmlLinks(files) {
   const errors = [];
+
+  const revision = analyticsRevision(await readFile(path.join(DIST_DIR, 'js/analytics.js')));
+  for (const file of files.filter((file) => file.endsWith('.html'))) {
+    const html = await readFile(path.join(DIST_DIR, file), 'utf8');
+    for (const source of staleAnalyticsSources(html, revision)) {
+      errors.push(`${file}: analytics URL does not match delivered script content: ${source}`);
+    }
+  }
   const htmlFiles = files.filter((file) => file.endsWith('.html'));
 
   for (const relativePath of htmlFiles) {
