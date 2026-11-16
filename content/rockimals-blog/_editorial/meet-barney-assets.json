@@ -1,0 +1,164 @@
+{
+  "topicId": "39",
+  "translationKey": "meet-barney",
+  "reviewDate": "2026-11-16",
+  "language": "textless-shared",
+  "sources": [
+    {
+      "repository": "rockimals",
+      "commit": "cb7694f82d94da9de1ba654b50baac93de7dc0b2",
+      "path": "assets/testflight_catalog/catalog.json",
+      "sha256": "cebd2943d3a7ef114fee9a23a88d6b7b6fa7b2d2f7d0cb5c4319f715201affe7"
+    },
+    {
+      "repository": "rockimals",
+      "commit": "cb7694f82d94da9de1ba654b50baac93de7dc0b2",
+      "path": "assets/animals/transparent/fox.webp",
+      "sha256": "fe8f9a8aea3114836056597ee8c3b0f82494a5a70e55d51568c423109f8d047d"
+    },
+    {
+      "repository": "rockimals",
+      "commit": "cb7694f82d94da9de1ba654b50baac93de7dc0b2",
+      "path": "assets/images/stories/fox_departure_v2/fox_departure_hill_v2_02.webp",
+      "sha256": "0f4bdf9087a435028dfbb0b8366ee3c39bad521bff0420803d9a898f0e008c3c"
+    },
+    {
+      "repository": "rockimals",
+      "commit": "cb7694f82d94da9de1ba654b50baac93de7dc0b2",
+      "path": "lib/features/heroes/testflight_editorial_catalog.dart",
+      "sha256": "5547a69edbd87b0f100e498fa4032247caa3d84d02899981c01f03ecc60fff80"
+    },
+    {
+      "repository": "rockimals",
+      "commit": "cb7694f82d94da9de1ba654b50baac93de7dc0b2",
+      "path": "assets/stories/barney_departure_tr.json",
+      "sha256": "e4a063d08b04a0f6a68413f00a696d50705a3368092ca20e708db8f7d263a1b6"
+    },
+    {
+      "repository": "rockimals",
+      "commit": "cb7694f82d94da9de1ba654b50baac93de7dc0b2",
+      "path": "docs/fixtures/barney_chapter_01/en.json",
+      "sha256": "f3aa4a6be8ac5f10722a9555888e0d3afdd198cfd5524dea10144802bec166cc"
+    },
+    {
+      "repository": "rockimals",
+      "commit": "cb7694f82d94da9de1ba654b50baac93de7dc0b2",
+      "path": "docs/fixtures/barney_chapter_01/ja.json",
+      "sha256": "804ec7d0efd920d697bf6fea647412102dfff56d1a41c6968a2ccecc165ff408"
+    },
+    {
+      "repository": "rockimals",
+      "commit": "cb7694f82d94da9de1ba654b50baac93de7dc0b2",
+      "path": "docs/fixtures/barney_chapter_01/ko.json",
+      "sha256": "c425c41fc278e2c28b8edfd378a265d117506fd596c2fe02d738273588e05e58"
+    },
+    {
+      "repository": "rockimals",
+      "commit": "cb7694f82d94da9de1ba654b50baac93de7dc0b2",
+      "path": "docs/fixtures/barney_chapter_01/zh-Hans.json",
+      "sha256": "292c1cb29ba99739869517d7ef65fd8406e00cc339c0285fb6595d3f83faf7a7"
+    },
+    {
+      "repository": "rockimals",
+      "commit": "cb7694f82d94da9de1ba654b50baac93de7dc0b2",
+      "path": "docs/fixtures/barney_chapter_01/fr.json",
+      "sha256": "96f6f48f6435d488c4da44f4c64bd7fb6c7316e37037bfaed4660dbf2bc9ea3b"
+    },
+    {
+      "repository": "rockimals",
+      "commit": "cb7694f82d94da9de1ba654b50baac93de7dc0b2",
+      "path": "docs/fixtures/barney_chapter_01/de.json",
+      "sha256": "a67aa8abbbcc40b0d4e78928507fdc66cf5062bb71bc74547bf0513b5005dea8"
+    },
+    {
+      "repository": "rockimals",
+      "commit": "cb7694f82d94da9de1ba654b50baac93de7dc0b2",
+      "path": "docs/fixtures/barney_chapter_01/es.json",
+      "sha256": "a5e0c0324b901254468c2664b1eecfcf61285321dc1ec8efd7ca9f7411c50a37"
+    },
+    {
+      "repository": "rockimals",
+      "commit": "cb7694f82d94da9de1ba654b50baac93de7dc0b2",
+      "path": "lib/l10n/app_en.arb",
+      "sha256": "47d69313cdb7037e9990a12b59e9c5ab033d57defba0e98572c6d8c1fc874891"
+    },
+    {
+      "repository": "rockimals",
+      "commit": "cb7694f82d94da9de1ba654b50baac93de7dc0b2",
+      "path": "lib/l10n/app_tr.arb",
+      "sha256": "8c713529f784325cf29b06ab6f01972c39f56edfa516044ac71847080422ff46"
+    },
+    {
+      "repository": "rockimals",
+      "commit": "cb7694f82d94da9de1ba654b50baac93de7dc0b2",
+      "path": "lib/l10n/app_ja.arb",
+      "sha256": "e369d155329f85c952fadc03fe712250085c8f56caf4d9705a285fcf45bb990a"
+    },
+    {
+      "repository": "rockimals",
+      "commit": "cb7694f82d94da9de1ba654b50baac93de7dc0b2",
+      "path": "lib/l10n/app_ko.arb",
+      "sha256": "4a59b856674cb01e9bac2a7f182a74e8f2bf9d35f7884c32fc6c12c41ecb9e3d"
+    },
+    {
+      "repository": "rockimals",
+      "commit": "cb7694f82d94da9de1ba654b50baac93de7dc0b2",
+      "path": "lib/l10n/app_zh.arb",
+      "sha256": "6b44498a952e5afb0a06248bba4060858baeeb13e12ee78684fb69d8fdc09796"
+    },
+    {
+      "repository": "rockimals",
+      "commit": "cb7694f82d94da9de1ba654b50baac93de7dc0b2",
+      "path": "lib/l10n/app_fr.arb",
+      "sha256": "3c38c3bb06a99b03de23378cf7857030df970613d8ff46c50af8b8dcccbd7b06"
+    },
+    {
+      "repository": "rockimals",
+      "commit": "cb7694f82d94da9de1ba654b50baac93de7dc0b2",
+      "path": "lib/l10n/app_de.arb",
+      "sha256": "d5376c7bc35e060202e450ab91775b415c345d332e7e8256a9c99c9278262a46"
+    },
+    {
+      "repository": "rockimals",
+      "commit": "cb7694f82d94da9de1ba654b50baac93de7dc0b2",
+      "path": "lib/l10n/app_es.arb",
+      "sha256": "394ac36deb7c1927b36bba9522cde03a6def26a191e85086773f0306c06f4e2c"
+    }
+  ],
+  "catalogScene": {
+    "document": "assets/stories/barney_departure_tr.json",
+    "sceneId": "fiction_02",
+    "assetId": "fox_departure_hill_v2_02",
+    "sourcePath": "assets/images/stories/fox_departure_v2/fox_departure_hill_v2_02.webp",
+    "mobilePath": "assets/testflight_catalog/mobile/97a7f80429206a18d32df91667d4a046cd1b14e1be7c37a16ca6f67bcc0c46ca.webp",
+    "mobileSha256": "97a7f80429206a18d32df91667d4a046cd1b14e1be7c37a16ca6f67bcc0c46ca"
+  },
+  "output": {
+    "path": "assets/rockimals-blog/meet-barney/cover.jpg",
+    "width": 1200,
+    "height": 630,
+    "bytes": 179665,
+    "sha256": "f6e7f344e5234c8cceb8cdcba9329e9bfe91191d66ae1bafb9df4a469c02ff46",
+    "renderSource": "scripts/render-rockimals-barney-cover.swift"
+  },
+  "composition": "Approved fox character render beside the opening hill illustration. Only the lower empty caption area is omitted; no story characters or magical object are cropped. Not an app screenshot or real meteor photograph. No chapter ending or new scene is generated.",
+  "localizedAlt": {
+    "en": "Barney on a space rock beside a story scene of him and a rabbit watching a glowing magical rock from a hill",
+    "tr": "Bir uzay taşının üzerindeki Barney ve yanında, bir tavşanla tepeden parlayan sihirli taşı izlediği hikâye sahnesi",
+    "ja": "宇宙の岩に乗るバーニーと、丘でウサギと光る魔法の石を見上げるお話の場面を並べた表紙",
+    "ko": "우주 바위 위의 바니와, 언덕에서 토끼와 함께 빛나는 마법의 돌을 바라보는 이야기 장면을 나란히 배치한 표지",
+    "zh-Hans": "左侧是坐在太空岩石上的巴尼，右侧是他与兔子在山坡上仰望发光魔法石的故事画面",
+    "fr": "Barney sur un rocher spatial, à côté d’une scène où il observe une pierre magique lumineuse depuis une colline avec un lapin",
+    "de": "Barney auf einem Weltraumfelsen neben einer Szene, in der er mit einem Kaninchen vom Hügel aus einen leuchtenden Zauberstein beobachtet",
+    "es": "Barney sobre una roca espacial junto a una escena en la que observa una piedra mágica luminosa desde una colina con un conejo"
+  },
+  "reviewStatus": {
+    "visualMatching": "source artwork visually compared; exact source bytes match committed 1.5.8 snapshot",
+    "nativeLanguageReview": "independent human/native-speaker sign-off not performed or claimed",
+    "ownerApproval": "pending",
+    "physicalDeviceAcceptance": "not performed",
+    "editorialLanguageReview": "complete: AI-assisted review in eight locales; see meet-barney-review-2026-11-16.md",
+    "phoneLayoutReview": "complete: eight locales at verified 320×568, 390×844 and 430×844 CSS viewport sizes; browser emulation",
+    "reviewRecord": "content/rockimals-blog/_editorial/meet-barney-review-2026-11-16.md"
+  }
+}
