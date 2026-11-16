@@ -1,6 +1,6 @@
 # Organic Growth Week 03 — Application Support Cluster
 
-**Status:** Both core pages are live (article 11 Sep; parent service 14 Sep). Fresh 13 Nov URL Inspection for the support-takeover article reports URL unknown to Google, no reported sitemap/referrer/crawl, conflicting with the 9 Nov discovered-not-indexed snapshot. Cause remains NOT VERIFIED; public HTTP/self-canonical/sitemap/robots checks pass today, with GSC sitemap Success/read 13 Nov. The parent service’s indexed state is dated 9 Nov, not freshly reread. Older performance windows remain historical; no indexing request or content change.
+**Status:** Both core pages live. Fresh 16 Nov article URL Inspection now reports URL is on Google / Page is indexed, smartphone crawl 14 Nov 10:06:48, successful fetch and self-canonical selected. This supersedes 13 Nov URL-unknown state; sitemap field still reports Temporary processing error and the earlier discrepancy's cause is NOT VERIFIED. Parent service state remains dated 9 Nov. No indexing request or content change.
 **Type:** Commercial Service Page / Blog Article
 **Priority:** P1
 **Scheduled:** 21–27 September 2026
@@ -124,3 +124,7 @@ Record service/article paths and URLs, draft/publication/image state, operationa
 ### Fresh discovery discrepancy — 13 November 2026
 
 Codex reread the exact article in property `sc-domain:duniaops.com`: URL Inspection now reports **URL unknown to Google**, no referring sitemap/page, crawl N/A; this supersedes only the current-state summary of the 9 Nov discovered-not-indexed snapshot, not its historical evidence. GSC sitemap is Success, read 13 Nov, 33 pages; fresh HTTP/self-canonical/public-sitemap/Googlebot/no-noindex checks pass. Cause remains NOT VERIFIED; no live Google crawl test, indexing/validation request or source edit. Codex repeats diagnosis **16 Nov**; actual publication, source path and performance windows remain unchanged. Spec 018 holds the full source/freshness/privacy boundaries. No new qualified-lead or whole-property index claim.
+
+### Fresh index-state resolution — 16 November 2026
+
+Codex freshly inspected **https://www.duniaops.com/blog/can-a-new-company-maintain-software-it-did-not-build** in `sc-domain:duniaops.com` during 09:00–09:28 GMT: **URL is on Google / Page is indexed**, last crawl **14 Nov 10:06:48**, smartphone, fetch successful, crawl/index allowed, declared/selected canonical the inspected URL. Sitemaps field says **Temporary processing error**; referring pages include the Rockimals-hosted same path and corporate cost guide. This supersedes the 13 Nov URL-unknown state; it does not establish the earlier discrepancy's cause or that any particular link caused indexing. No fresh article performance cohort or parent-service Index read, live Google test or indexing request. Original 11 Sep publication/source/owner unchanged; complete fresh measurement boundaries in 018. **Current non-indexed status closed; processing/discrepancy cause NOT VERIFIED**, Codex can revisit at existing 20 Nov verification if still relevant.

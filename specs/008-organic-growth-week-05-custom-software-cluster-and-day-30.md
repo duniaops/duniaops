@@ -1,6 +1,6 @@
 # Organic Growth Week 05 — Custom Software Cluster and Day-30 Check
 
-**Status:** Both core assets are live; original cost-guide first production is 9 Oct 16:39 BST (visible 5 Oct remains separate). Its first full 28-date cohort, 10 Oct–6 Nov, was captured 9 Nov: 0 impressions/clicks, no meaningful CTR/position. Fresh 13 Nov article URL Inspection now reports URL unknown/no reported sitemap/referrer/crawl, conflicting with 9 Nov discovered-not-indexed; root cause NOT VERIFIED. HTTP/canonical/sitemap/robots pass and GSC sitemap is Success/read 13 Nov. The service’s indexed state is dated 9 Nov, not a new read. Private aggregate classification freshly remains 5 tests / 1 unresolved / 0 qualified organic (Spec 018); no reply, classification mutation or indexing request.
+**Status:** Both core assets live; cost-guide first production 9 Oct 16:39 BST remains distinct from visible 5 Oct date. First full 28-date 10 Oct–6 Nov cohort was captured 9 Nov (0 impressions/clicks). Fresh 16 Nov Inspection still reports URL unknown/no detected sitemap/referrer/crawl, conflicting with 9 Nov discovery; cause NOT VERIFIED, Codex 20 Nov. Separate 10–14 Nov technical-link observation has 0 impressions/clicks and is not a replacement cohort. No request, private write or publication.
 **Type:** Commercial Service Page / Blog Article / Measurement
 **Priority:** P1
 **Scheduled:** 5–11 October 2026
@@ -151,3 +151,9 @@ Ibrahim approved production release. The missing cost-FAQ link on `services/cust
 ### Fresh discovery discrepancy — 13 November 2026
 
 Codex reread the exact article in property `sc-domain:duniaops.com`: URL Inspection now reports **URL unknown to Google**, no referring sitemap/page, crawl N/A; this supersedes only the current-state summary of the 9 Nov discovered-not-indexed snapshot, not its historical evidence. GSC sitemap is Success, read 13 Nov, 33 pages; fresh HTTP/self-canonical/public-sitemap/Googlebot/no-noindex checks pass. Cause remains NOT VERIFIED; no live Google crawl test, indexing/validation request or source edit. Codex repeats diagnosis **16 Nov**; actual publication, source path and performance windows remain unchanged. Spec 018 holds the full source/freshness/privacy boundaries. No new qualified-lead or whole-property index claim.
+
+### Week 11 discovery and revision follow-through — 16 November 2026
+
+Fresh exact canonical article Inspection in `sc-domain:duniaops.com`, session 09:00–09:28 GMT, remains **URL unknown to Google**, no referring sitemap/page, crawl N/A. The 9 Nov discovered-not-indexed snapshot stays historical; root cause **NOT VERIFIED**, **Codex retry 20 Nov**, no indexing/validation request. Source `content/blog/bespoke-software-development-cost-uk.md`, live **https://www.duniaops.com/blog/bespoke-software-development-cost-uk**, original first-live **9 Oct 16:39 BST**, visible 5 Oct date, owner and source release remain unchanged.
+
+Separate 9 Nov contextual-link observation intended **10–16 Nov** has only **10–14 Nov (5/7 dates)** within standard GSC boundary 14 Nov, freshness 3.5h: parent service **3 impressions / 0 clicks / 0% / position 82.7**, linked cost guide **0/0**, no meaningful CTR/rank. Not a fresh first-live 28-date cohort or proof the link caused discovery; retain the completed 10 Oct–6 Nov first-full-daily range as dated evidence. **Codex retries 10–16 Nov on 20 Nov**. Fresh private/GA4 limits and local cache candidate are in 018/014; no article, copy revision, private write, form or deployment.

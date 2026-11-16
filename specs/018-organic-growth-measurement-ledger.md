@@ -1,10 +1,10 @@
 # Organic Growth Measurement Ledger
 
-**Status:** Active — 13 Nov, execution Day 68 / Week 10 delivery close with carry-over. W08 30 Oct–12 Nov custom charts/Days expose 14 dates (0/30 impressions, zero clicks), but the standard 28-day report still ends 10 Nov: finality is PARTIAL / NOT VERIFIED, Codex retry 16 Nov. W06 coverage remains closed 12 Nov. Fresh private aggregate remains 0 qualified organic / 5 tests / 1 unresolved. Four fresh GSC inspections show W08 indexed with old crawl issues, W03/W05 URL unknown; no fresh whole-property index inventory. c4c2318 is live via the separate 12 Nov 17:44 GMT runtime deployment, verified 13 Nov. Conversion delivery NOT VERIFIED; GA4 comparison remains dated 9 Nov; VoiceOver remains DONE by owner confirmation.
+**Status:** Active — 16 Nov, Day 71 / Week 11. Fresh GSC standard boundary 14 Nov closes W08 30 Oct–12 Nov coverage (0/30 impressions, no clicks). W07 26/28 and 9 Nov revision 5/7 dates PARTIAL, retry 20 Nov. Fresh GA4 19 Oct–15 Nov vs 21 Sep–18 Oct and private 0 qualified organic / 5 tests / 1 unresolved captured. W03-B indexed; W05-B URL unknown; W08 stored enhancement issues remain. Tested cache candidate 85fdaa0 is isolated locally, not published. Conversion delivery NOT VERIFIED; owner-confirmed VoiceOver remains DONE.
 **Programme owner:** ibrahim uylas
 **Measurement owner:** ibrahim uylas
 **Depends on:** `003-organic-client-acquisition-90-day-program.md`
-**Day-30 capture:** 9 October 2026 (GSC through 6 October; GA4 through 8 October). **Day-60 late review:** 9 November, with exceptions. **Next observations:** W06 28-day coverage captured 12 November; W08 partial retry 13 November; Day 90 remains 5 December with complete-data verification 11 December. Use source-specific cut-offs and separate page-age cohorts.
+**Day-30 capture:** 9 October 2026 (GSC through 6 October; GA4 through 8 October). **Day-60 late review:** 9 November, with exceptions. **Next observations:** W06 coverage closed 12 Nov, W08 14-date coverage closed 16 Nov; W07 and 9 Nov revision retries plus first post-origin revision 20 Nov; W08 28-date 26 Nov/retry 27 Nov. Day 90 remains 5 Dec with complete-data verification 11 Dec. Use source-specific cut-offs and separate page-age cohorts.
 
 This is the durable measurement contract for the organic client-acquisition programme. It records definitions, source precedence, comparable date windows, data-quality limits and decisions. It must never contain a prospect's name, email address, company, enquiry text or another direct identifier.
 
@@ -636,3 +636,87 @@ Separate full daily post-origin-revision windows: **13–19 Nov** (7 dates; obse
 Week 11 entry on **16 Nov**: Codex repeats W08 source-finality and individual enhancement/discovery reads, completes routine CTA/source audit and private read-only reconciliation, and selects further CRO only from observed friction. VoiceOver is closed by owner confirmation; no retry. Private qualification/reply and actual production form submission are not implied by routine execution authority. No new article quota. Prepared source changes must stay outside deployable main until publication approval because the scheduled build hook can include that branch despite `[skip netlify]`.
 
 **Automation/record verification — 13 Nov:** the existing single heartbeat was updated to use today’s source/finality and live-release evidence, 16 Nov carry-over and separate origin-tag windows. Saved prompt, ACTIVE status, unchanged schedule and target chat were read back. Record consistency and `git diff --check` pass; no duplicate or account/build-hook mutation.
+
+## Week 11 Monday execution — 16 November 2026
+
+**Capture:** authenticated account reads during **09:00–09:28 GMT** (Europe/London); local rendered checks continued through **09:31 GMT**. These are fresh reads, not re-use of 13 Nov observations. Execution **Day 71 / Week 11**, Spec 014. Codex executes; Ibrahim remains programme/factual and external-action owner.
+
+### GSC boundary and original W08 coverage
+
+Property `sc-domain:duniaops.com`, Web (text), **daily grain**, all countries/devices, no query filter; page observations use the **exact https://www.duniaops.com canonical**, not the non-www redirect. The standard three-month report now shows **15 Aug–14 Nov**; **14 Nov is the latest observed standard reporting boundary**, freshness **3–3.5 hours** during capture. This establishes normal date coverage for earlier ranges, not immutable final data; Google may revise it. The 13 Nov standard-boundary exception is historical.
+
+| Original W08 full daily range | Exact page | Impressions | Clicks | CTR | Average position | Coverage |
+|---|---|---:|---:|---|---|---|
+| 30 Oct–12 Nov | `https://www.duniaops.com/work/fragmented-application-estate-modernisation` | 0 | 0 | No meaningful rate | No observed rank | **DONE — 14/14 dates**, now within standard source boundary |
+| 30 Oct–12 Nov | `https://www.duniaops.com/resources/software-project-handover-checklist` | 30 | 0 | 0% | 22.9 | **DONE — 14/14 dates** |
+
+This closes **only the original 14-date coverage observation**. First-live **29 Oct 14:39:59 GMT**, visual revision **14:50:21 GMT**, source paths and owner remain the Spec 019 mappings. Both ranges span the **9 Nov 10:43:32 GMT** breadcrumb revision and **12 Nov 17:44:51 GMT** origin-tag revision. Do not infer either revision's effect or qualified leads from these counts. Original 28-date range remains **30 Oct–26 Nov**, observe **26 Nov**, retry **27 Nov**.
+
+### W07 first full daily 28-date attempt — PARTIAL
+
+Intended range **20 Oct–16 Nov**, separately for all three exact canonical pages. Source-covered capture is explicitly **20 Oct–14 Nov**, **26/28 intended dates**, freshness **3.5h**. It does not include unprocessed 15/16 Nov as zero days and does not replace the legacy revision-inclusive 19 Oct–1 Nov observation or the separate 20 Oct–2 Nov 14-date cohort.
+
+| Source path → exact canonical URL | Impressions | Clicks | CTR | Average position |
+|---|---:|---:|---:|---:|
+| `content/blog/software-project-rescue-uk.md` → `https://www.duniaops.com/blog/software-project-rescue-uk` | 9 | 0 | 0% | 7.4 |
+| `content/blog/when-to-hire-devops-consultancy-uk.md` → `https://www.duniaops.com/blog/when-to-hire-devops-consultancy-uk` | 9 | 0 | 0% | 18.2 |
+| `services/devops-and-cloud-consultancy.html` → `https://www.duniaops.com/services/devops-and-cloud-consultancy` | 119 | 0 | 0% | 58.5 |
+
+Revision remains **19 Oct 12:34 BST**, `c145541` / deploy `6ad600380c53a989007003c6`; no new publication. **Codex retries the same intended 20 Oct–16 Nov range on 20 Nov**. Low samples do not establish ranking/lead impact; these performance reads are not fresh Index inspections of the three URLs. W06 28-date coverage remains closed from 12 Nov and was not repeated.
+
+### Separate 9 Nov technical/link revision — first seven dates PARTIAL
+
+Intended **10–16 Nov**; actual source-covered range **10–14 Nov**, **5/7 dates**, same exact-page/Web/daily filters and freshness **3.5h**. Proof **0 impressions / 0 clicks** and checklist **0 / 0** (no meaningful CTR/position); Custom Software parent **3 / 0 / 0% / 82.7**. Cost guide, an existing linked destination rather than a new release, **0 / 0**, no meaningful rate/rank. These are four distinct page observations, not domain totals or an explanation for the original checklist's 30 impressions. The partial range also crosses the separate 12 Nov origin-tag change.
+
+**Codex retry 20 Nov** for the unchanged intended **10–16 Nov** range. Subsequent technical/link full daily ranges **10–23 Nov → 23 Nov/retry 27 Nov** and **10 Nov–7 Dec → 7 Dec/retry 11 Dec** remain. Separately, post-origin-tag windows remain **13–19 Nov → 20 Nov**, **13–26 Nov → 27 Nov**, **13 Nov–10 Dec → 11 Dec**; not yet due today.
+
+### Fresh individual Index/enhancement reads and optional CTR decision
+
+- **W03-B support takeover guide:** now **URL is on Google / Page is indexed**, smartphone last crawl **14 Nov 10:06:48** (GSC display); fetch successful, crawl/index allowed, declared and Google-selected canonical are the inspected www URL. Sitemaps field says **Temporary processing error**; reported referrers include the Rockimals-hosted same path and the corporate cost guide. This supersedes the **13 Nov URL-unknown** snapshot and closes its current non-indexed status, **not the unexplained historical discrepancy or sitemap-processing cause**. No claim that a particular link caused indexing, and no live test/indexing request.
+- **W05-B cost guide:** still **URL unknown to Google**, no detected referring sitemap/page, last crawl N/A. This is a fresh 16 Nov read; the 9 Nov discovered-not-indexed state remains historical. Exact cause **NOT VERIFIED**, Codex retry **20 Nov**; no repeat request.
+- **W08 proof/checklist:** both indexed, **one invalid Breadcrumbs item each**, unchanged stored smartphone crawls **2 Nov 20:01:06 / 19:54:13**, successful fetch, allowed indexing, inspected canonicals selected. They do not yet verify a post-9-Nov recrawl or enhancement repair. **Codex retry 20 Nov** without requesting validation/indexing. No fresh whole-property corporate inventory was performed; domain/product overview counts are not substituted.
+- **W04-B current CTR candidate:** exact `https://www.duniaops.com/blog/kubernetes-consultant-or-permanent-hire-uk`, **18 Oct–14 Nov**, full 28 source-covered dates, **154 impressions / 0 clicks / 0% / position 33.1**, freshness **3h**. Visible top 10 of 16 query rows: kubernetes consultant **44**, hire kubernetes experts **27**, kubernetes consulting uk **13**, hire kubernetes expert **13**, kubernetes consultancy **12**, kubernetes consultants **8**, kubernetes consultancy uk **5**, uk kubernetes platform consultants **5**, uk kubernetes platform experts **5**, uk kubernetes platform consultancy **3**; each zero clicks. Query rows are partial/anonymised and not all page impressions. Unlike 9 Nov's dated position 29.8 snapshot, current average **33.1 is outside the 1–30 snippet-priority band**. **HOLD title/meta rewrite**; fix the diagnosed conversion instrumentation/cache dependency first. No article or site-wide title change.
+
+### GA4 complete prior-day comparison
+
+Fresh **Traffic acquisition → Session source/medium**, property **DuniaOps – GA4**, All Users, **100% of available data**. Europe/London timezone is the previously recorded setting, not a new admin read. Current **19 Oct–15 Nov** versus adjacent previous **21 Sep–18 Oct** (28 dates each); GA4 complete prior day **15 Nov** differs from GSC's observed **14 Nov** boundary. Current historical reports can still revise.
+
+| Metric | 19 Oct–15 Nov | 21 Sep–18 Oct |
+|---|---:|---:|
+| Sessions | 24 | 34 |
+| Engaged sessions | 17 | 20 |
+| Engagement rate | 70.83% | 58.82% |
+| Average engagement/session | 1m34s | 19s |
+| All event count | 153 | 169 |
+| All key events | 1 | 4 |
+| Explicitly selected `generate_lead` key events | 1 | 4 |
+| `google / organic` sessions / engaged | 3 / 3 | 6 / 4 |
+| `google / organic` `generate_lead` | 0 | 2 |
+
+The key-event dropdown was explicitly switched to `generate_lead`; **153/169 remain all events**, not lead-event counts. Google/organic average engagement **26s / 11s**, all event counts **21 / 43**. Current GitHub/referral **7 sessions / 7 engaged / 1 generate_lead** versus **7 / 5 / 0**; direct current **10 / 4 / 0**, LinkedIn **2 / 2 / 0** versus **7 / 2 / 0**. Loopback QA referral current **1 session / 0 engaged / 2 events / 0 generate_lead**; prior 2 sessions. ChatGPT ai-assistant/organic rows have zero current sessions versus respectively 2/1 prior, each with one prior key event; do not relabel these as verified Google-organic customer enquiries.
+
+Consent loss, QA/referral traffic, tiny counts and no safe identity/event-to-submission join limit interpretation. The known 19 Oct synthetic test lies in the current dates, but this read does not prove which GA4 row/event corresponds to it. **GA4 key events are not qualified leads**. Earlier frozen Day-30/Day-60 windows are still dated observations, not silently replaced by this new rolling comparison.
+
+### Fresh private read-only reconciliation
+
+Fresh Sheet metadata, bounded Overview and controlled Lead Ledger columns; fresh Netlify form metadata and six returned records. Aggregate remains **0 qualified organic / 0 qualified / 5 tests / 1 unresolved**. Six returned records still end **29 Oct 12:42:55.915 UTC**; aggregate form activity now **16 Nov 06:06:31 UTC** is not a new verified submission. Five private lookup IDs match exactly; the known 19 Oct synthetic test is matched by minute/controlled fields with its lookup ID still absent. This is **not six exact-ID joins**. Connector records do not expose per-record spam/verified flags; no spam-queue certification.
+
+The remaining non-test classification is `unresolved / insufficient_evidence`, recorded `non_organic`, next action reply, last updated **2 Nov 10:49 UTC**. Ibrahim's private fit review remains overdue from 2 Nov; nearest owner follow-up **16 Nov**, re-read by Codex **20 Nov**. No identity, enquiry content, private ID or message is copied here; no classification or reply was changed. Read-only reconciliation is complete within these limits; human qualification is not complete.
+
+### Diagnosed cache defect and isolated candidate
+
+Live versioned `/js/analytics.js?v=20260907-lead-taxonomy` returned **HTTP 200** at **09:13:42.658 UTC**, byte-identical to tested `c4c2318`, but with **Cache-Control: public,max-age=31536000,immutable**. The source content changed on 12 Nov while the requesting URL did not. **Returning browsers may retain pre-fix attribution code**; fresh GET success proves current server bytes, not invalidation of previously cached clients. This is a diagnosed delivery-of-instrumentation risk, not proof of lost customer submissions. Site JavaScript's other version URL was sampled but no unrelated change is proposed.
+
+Local candidate **`85fdaa0d799e76c6005ba2c5c3911e38305c5963`**, branch **`codex/w11-analytics-cache`**, worktree **`/Users/uylas/Documents/DuniaOps/Projects/DuniaOps-w11-analytics-cache`**, based on **`cf13a1a`**, changes five build/check/test files. A final build step fingerprints only first-party analytics script URLs using actual delivered SHA-256 (12 hex chars); current revision **`e12b17600a91`**, **45 public HTML files** updated in ignored dist after all generators. External scripts and other assets remain unchanged. The output validator rejects stale URLs. No authoring copy, analytics taxonomy/consent runtime or account setting changed.
+
+**Hypothesis / primary signal:** after an authorised release, every rendered first-party analytics URL matches delivered bytes; a changed script gets a new immutable cache key. **Guardrails:** no new event/PII field, no weakening of consent, no higher-quality-lead claim or form-content change. Baseline is the unchanged live URL/header above. Fresh clients should fetch the new URL; no measured client adoption or lead uplift is asserted.
+
+**Actual validation:** final **`npm test` PASS (exit 0)**, **354 public files**, build/links/JSON-LD, existing analytics/consent/CTA regressions and **four new cache regressions**. Initial integration run correctly failed six stale URLs emitted by later product generators; moving fingerprinting after all generators resolved it, and the final unchanged candidate passed. `node --check` on the three scripts, `xmllint --noout dist/sitemap.xml dist/feed.xml` and `git diff --check` PASS. Chrome local built-output walks covered all five priority service CTAs plus both W08 CTAs at **1280×844 / 390×844**: correct visible service selected, no horizontal overflow, fingerprinted script referenced, no GA4 script loaded after rejecting optional cookies. Form visually reviewed at **1280 / 390 / 320 px**; required inputs remain name/email/brief. Hidden attribution is covered by local VM regressions, not independently certified by the rendered DOM read. No form was submitted and no actual delivery/notification/GA4 pipeline is certified. Existing W08 VoiceOver remains owner-confirmed DONE, not a new agent screen-reader check.
+
+Candidate is **local only, not pushed, not on main, not deployed**; separate specific publication authority is still needed. Current production metadata instead confirms ready deploy **`6afa4c45477940c78affac54`**, source **`cf13a1a`**, published **16 Nov 00:20:36.809 GMT** by the existing product build. No deploy was made by this run. Publication/follow-up dates for the cache fix are **not set from its commit**; if approved, calculate separate full daily 7/14/28-date windows from actual live time and retain all original/revision cohorts.
+
+### Next execution and boundaries
+
+**Codex, existing 20 Nov run:** retry W07 **20 Oct–16 Nov**, 9 Nov revision **10–16 Nov**, first origin-revision **13–19 Nov**, individual W05/W08 Google states and fresh private reconciliation; assess all Week 11 deliverables/criteria with actual evidence. Cache release disposition is Ibrahim-owned, nearest review **16 Nov**, next scheduled status **20 Nov**; actual W06/W08 delivery remains **NOT VERIFIED** without separately authorised production evidence. No generic article, title rewrite, outreach, indexing/validation request, private write or new deployment. No duplicate automation; preserve original **23/26/27 Nov / 7/11 Dec** checkpoints and **5 Dec** execution end.
+
+**Automation and record validation — 16 Nov:** existing single heartbeat prompt updated to the closed W08 coverage/current W03 state, separate partial cohorts and isolated cache candidate; saved prompt, ACTIVE state, unchanged schedule/target read back. No duplicate. Documentation consistency/privacy review and `git diff --check` PASS; programme documentation only on main with [skip netlify], local candidate remains separate.

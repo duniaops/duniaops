@@ -1,6 +1,6 @@
 # Organic Growth Week 10 — Indexation and Search-Result Optimisation
 
-**Status:** Week 10 planned deliverables/acceptance criteria assessed DONE from dated implementation evidence and current bounded checks on 13 Nov. Delivery close is recorded with explicit verification carry-over, not a whole-programme PASS. W08 intended 14-date display is complete but finality remains PARTIAL / NOT VERIFIED (standard GSC ends 10 Nov), retry 16 Nov. W08 stored enhancement issues, W03/W05 fresh URL-unknown mismatch and conversion delivery remain NOT VERIFIED. c4c2318 is already live via the separate 12 Nov 17:44 GMT runtime deployment; no new deploy in this run. VoiceOver remains owner-confirmed DONE. Optional W04-B rewrite remains HOLD; a fresh candidate read timed out. Week 11 starts 16 Nov.
+**Status:** Week 10 delivery closed 13 Nov; 16 Nov follow-through closes original W08 14-date coverage and records W03-B now indexed. W05-B URL unknown and W08 stored enhancement issues remain, retry 20 Nov. Separate 9 Nov revision 10–16 Nov has only 10–14 Nov (5/7 dates), PARTIAL. Existing 12 Nov attribution fix is live; actual delivery NOT VERIFIED. Week 11 cache candidate 85fdaa0 is isolated locally, not deployed. VoiceOver owner-confirmed DONE; optional W04-B rewrite HOLD on fresh 16 Nov evidence.
 **Type:** Technical SEO / Content Optimisation
 **Priority:** P1
 **Scheduled:** 9–15 November 2026
@@ -174,3 +174,11 @@ The 12 Nov **17:44:51.507 GMT** origin-tag revision is separate from original W0
 Codex owns **16 Nov** Week 11 carry-in: W08 source-finality/enhancement, W03/W05 discovery discrepancy, routine CTA/private reconciliation and the blocked CTR read. Actual production delivery remains NOT VERIFIED; private qualification/reply and production submissions retain separate authority. VoiceOver is closed. Future approval-pending source stays outside deployable main because later scheduled builds can include it despite [skip netlify]. No hook/settings changed, no quota article.
 
 **Automation/record verification — 13 Nov:** the existing single heartbeat was updated to use today’s source/finality and live-release evidence, 16 Nov carry-over and separate origin-tag windows. Saved prompt, ACTIVE status, unchanged schedule and target chat were read back. Record consistency and `git diff --check` pass; no duplicate or account/build-hook mutation.
+
+### Week 10 carry-over executed in Week 11 — 16 November 2026
+
+Original W08 **30 Oct–12 Nov** coverage is now **DONE** (standard GSC through 14 Nov; proof 0/checklist 30 impressions, no clicks). W03-B now indexed, smartphone crawl 14 Nov 10:06:48; W05-B still URL unknown. W08 still has one stored invalid breadcrumb each from 2 Nov crawls; reprocessing remains NOT VERIFIED, **Codex 20 Nov**, no Google request.
+
+The separate **9 Nov 10:43:32 GMT** release's intended full daily **10–16 Nov** read is **PARTIAL**: actual **10–14 Nov, 5/7 dates**, exact pages, Web/daily/no query filter, freshness 3.5h. Proof 0 impressions, checklist 0, Custom Software 3/0 clicks/0%/position 82.7, existing linked cost guide 0/no meaningful rank. These observations span the separate 12 Nov origin-tag change and cannot be used to infer causality. **Codex retries unchanged 10–16 Nov on 20 Nov**. Later ranges **10–23 Nov / 10 Nov–7 Dec** remain; first origin-tag **13–19 Nov** remains a separate 20 Nov read.
+
+Optional W04-B fresh **18 Oct–14 Nov** is **154 impressions / 0 clicks / 0% / position 33.1**, outside the ledger's 1–30 snippet band; **HOLD rewrite**. Current conversion work is the diagnosed cache candidate **85fdaa0**, isolated locally in Week 11 (014/018), not a new Week 10 release. Current ready product deploy **6afa4c45477940c78affac54 / cf13a1a**, 16 Nov 00:20:36.809 GMT, is separate and was not deployed by this run. VoiceOver remains owner-confirmed DONE; actual delivery NOT VERIFIED. All source dates, permissions and original cohorts retained; no article or deployment.
