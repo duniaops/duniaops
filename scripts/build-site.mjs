@@ -11,6 +11,7 @@ const PUBLIC_DIRECTORIES = [
   'blog',
   'css',
   'js',
+  'lumo',
   'products',
   'rockimals',
   'resources',

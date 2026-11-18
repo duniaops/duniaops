@@ -190,6 +190,43 @@
   status = 200
   force = true
 
+# Lumo support and legal pages on the product domain.
+[[redirects]]
+  from = "https://lumo.duniaops.com/privacy.html"
+  to = "https://lumo.duniaops.com/privacy"
+  status = 301
+  force = true
+
+[[redirects]]
+  from = "https://lumo.duniaops.com/privacy"
+  to = "/lumo/privacy.html"
+  status = 200
+  force = true
+
+[[redirects]]
+  from = "https://lumo.duniaops.com/terms.html"
+  to = "https://lumo.duniaops.com/terms"
+  status = 301
+  force = true
+
+[[redirects]]
+  from = "https://lumo.duniaops.com/terms"
+  to = "/lumo/terms.html"
+  status = 200
+  force = true
+
+[[redirects]]
+  from = "https://lumo.duniaops.com/support.html"
+  to = "https://lumo.duniaops.com/support"
+  status = 301
+  force = true
+
+[[redirects]]
+  from = "https://lumo.duniaops.com/support"
+  to = "/lumo/support.html"
+  status = 200
+  force = true
+
 # Lumo's coming-soon product page on its canonical subdomain.
 [[redirects]]
   from = "https://lumo.duniaops.com/"
