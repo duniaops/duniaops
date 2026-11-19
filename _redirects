@@ -62,6 +62,17 @@ https://lumo.duniaops.com/tr/support /lumo/tr/support.html 200!
 https://lumo.duniaops.com/tr/privacy /lumo/tr/privacy.html 200!
 https://lumo.duniaops.com/tr/terms /lumo/tr/terms.html 200!
 
+https://lumo.duniaops.com/de /lumo/locales/de.html 200!
+https://lumo.duniaops.com/es /lumo/locales/es.html 200!
+https://lumo.duniaops.com/fr /lumo/locales/fr.html 200!
+https://lumo.duniaops.com/it /lumo/locales/it.html 200!
+https://lumo.duniaops.com/ja /lumo/locales/ja.html 200!
+https://lumo.duniaops.com/ko /lumo/locales/ko.html 200!
+https://lumo.duniaops.com/nl /lumo/locales/nl.html 200!
+https://lumo.duniaops.com/pt-BR /lumo/locales/pt-BR.html 200!
+https://lumo.duniaops.com/ru /lumo/locales/ru.html 200!
+https://lumo.duniaops.com/zh-Hans /lumo/locales/zh-Hans.html 200!
+
 # Zoday canonical subdomain (keep legacy links and query parameters).
 https://zoday.duniaops.com/support /zoday/support.html 200!
 https://zoday.duniaops.com/support/:lang /zoday/support/:lang.html 200!

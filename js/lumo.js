@@ -1,9 +1,23 @@
 (() => {
   const reducedMotion = window.matchMedia('(prefers-reduced-motion: reduce)');
-  const languageLink = document.querySelector('.language-link');
-  languageLink?.addEventListener('click', () => {
-    languageLink.hash = window.location.hash;
-  });
+  const picker = document.querySelector('[data-language-picker]');
+  if (picker) {
+    const trigger = picker.querySelector('summary');
+    picker.addEventListener('click', (event) => {
+      const link = event.target.closest('a');
+      if (link) link.hash = window.location.hash;
+    });
+    picker.addEventListener('keydown', (event) => {
+      if (event.key === 'Escape' && picker.open) {
+        event.preventDefault();
+        picker.open = false;
+        trigger.focus();
+      }
+    });
+    document.addEventListener('pointerdown', (event) => {
+      if (picker.open && !picker.contains(event.target)) picker.open = false;
+    });
+  }
 
   const demo = document.querySelector('[data-review-demo]');
   if (demo) {
