@@ -92,9 +92,37 @@
   </url>
   <url>
     <loc>https://lumo.duniaops.com/</loc>
-    <lastmod>2026-09-13</lastmod>
+    <lastmod>2026-11-19</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://lumo.duniaops.com/support</loc>
+    <lastmod>2026-11-19</lastmod>
+  </url>
+  <url>
+    <loc>https://lumo.duniaops.com/privacy</loc>
+    <lastmod>2026-11-19</lastmod>
+  </url>
+  <url>
+    <loc>https://lumo.duniaops.com/terms</loc>
+    <lastmod>2026-11-19</lastmod>
+  </url>
+  <url>
+    <loc>https://lumo.duniaops.com/tr</loc>
+    <lastmod>2026-11-19</lastmod>
+  </url>
+  <url>
+    <loc>https://lumo.duniaops.com/tr/support</loc>
+    <lastmod>2026-11-19</lastmod>
+  </url>
+  <url>
+    <loc>https://lumo.duniaops.com/tr/privacy</loc>
+    <lastmod>2026-11-19</lastmod>
+  </url>
+  <url>
+    <loc>https://lumo.duniaops.com/tr/terms</loc>
+    <lastmod>2026-11-19</lastmod>
   </url>
   <url>
     <loc>https://www.duniaops.com/privacy</loc>

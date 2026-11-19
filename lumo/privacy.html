@@ -4,43 +4,84 @@
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <title>Privacy Policy · Lumo</title>
-<meta name="description" content="How Lumo processes your photos on your device, stores local data, and handles optional Apple place lookup.">
+<meta name="description" content="Learn how Lumo analyses photos on your device, stores local data and handles optional services.">
 <link rel="canonical" href="https://lumo.duniaops.com/privacy">
+<link rel="alternate" hreflang="en" href="https://lumo.duniaops.com/privacy">
+<link rel="alternate" hreflang="tr" href="https://lumo.duniaops.com/tr/privacy">
+<link rel="alternate" hreflang="x-default" href="https://lumo.duniaops.com/privacy">
+<meta name="theme-color" content="#f7f9fe">
 <link rel="icon" href="/assets/products/lumo-icon.png">
-<link rel="stylesheet" href="/lumo/legal.css">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Geist:wght@400..800&amp;display=swap" rel="stylesheet">
+<link rel="stylesheet" href="/css/lumo.css?v=20261119-8">
+<script src="/js/lumo.js?v=20261119-4" defer></script>
 </head>
 <body>
 <a class="skip" href="#main">Skip to content</a>
-<header class="header"><a class="brand" href="https://lumo.duniaops.com/"><img src="/assets/products/lumo-icon.png" alt="" width="44" height="44"><span>Lumo</span></a><nav aria-label="Lumo support and legal"><a href="https://lumo.duniaops.com/support">Support</a><a href="https://lumo.duniaops.com/privacy" aria-current="page">Privacy</a><a href="https://lumo.duniaops.com/terms">Terms</a></nav></header>
-<main id="main"><p class="eyebrow">YOUR PHOTOS. YOUR CHOICE.</p><h1>Lumo Privacy Policy</h1>
-<p>Effective 17 November 2026</p>
-<p>Lumo is made by DuniaOps (<a href="https://www.duniaops.com">www.duniaops.com</a>). Lumo is designed so that your photos, previews, recognized text, labels, and search index never leave your device. Optional Apple place lookup is the only search-related exception and is separately explained before you choose whether to enable it.</p>
-<h2>What Lumo does with your photos</h2>
-<p>Lumo reads the photo folders and, if you allow it, the system photo library that you point it at. Every scan — scoring, grouping similar shots, generating previews, classifying scenes and objects, and recognizing visible text — runs entirely on your device. Nothing from your photo library is uploaded by this analysis. The app is sandboxed.</p>
-<h2>What Lumo stores</h2>
-<p>Lumo stores, on your device only:</p>
-<ul>
-<li>Preferences (appearance, language, deletion policy, thumbnail size).</li>
-<li>A local free-experience record containing counted photo identities, remaining allowance, and the first unlocked sharing suggestion. Deleting rebuildable analysis caches does not reset this record.</li>
-<li>Security-scoped bookmarks for folders you have opened, so it can reopen them with your permission after a relaunch.</li>
-<li>A rebuildable Search index containing source identities, capture metadata, local classification labels, recognized visible text, and cached thumbnails. You can delete it from Settings without changing source photographs or Photos assets.</li>
-<li>A <code>lumo-report.json</code> file inside a folder you have finished reviewing, recording what was kept, moved or removed. It stays in that folder and travels with it.</li>
-<li>Temporary preview renders, kept in the system temporary directory and cleaned up by the system.</li>
-</ul>
-<h2>What Lumo collects</h2>
-<p>Lumo has no analytics, no telemetry, no crash reporting service, no accounts, and no advertising. DuniaOps receives no photo or in-app activity data from your use of Lumo.</p>
-<h2>Purchases and gift codes</h2>
-<p>Apple StoreKit handles product prices, payments, gift-code redemption, and restoration. Lumo reads verified Apple transaction information to determine access. DuniaOps does not receive your payment card details. Your photographs and analysis results are not sent to Apple as part of a purchase.</p>
-<h2>Optional Apple place lookup</h2>
-<p>The first time a place-name search could benefit from Apple's geocoding service, Lumo explains the request and asks for your choice. If you allow it, Apple may receive the place query or one representative coordinate from a 0.1-degree location cluster and return a city, region, or country. Lumo never sends Apple a photograph, preview, recognized text, classification label, or search index. If you decline, filename, visible-text, label, and metadata search continue to work locally.</p>
-<h2>Photos library access</h2>
-<p>If you use the All Photos section, Lumo asks the system for read access to your photo library. Browsing never changes your library. If you run a cull on library photos, additions to albums and deletions are performed through the system Photos frameworks, which ask for your explicit confirmation before anything is removed. Removed photos go to the Photos app's Recently Deleted album, where the system keeps them for about 30 days.</p>
-<h2>Deleting files</h2>
-<p>For folder sessions, discarded photos go to the system Trash by default, where they remain recoverable until you empty it. You can switch to permanent deletion in Settings; that choice, and its consequences, stay on your device like everything else.</p>
-<h2>Changes and contact</h2>
-<p>If a future version of Lumo ever changes any of the above, this policy will be updated and the change will be called out in the release notes. Questions are welcome at <a href="https://www.duniaops.com">www.duniaops.com</a>.</p>
-<p>© 2026 DuniaOps</p>
-<aside class="contact"><h2>Need help?</h2><p>Contact DuniaOps at <a href="mailto:info@duniaops.com?subject=Lumo%20support">info@duniaops.com</a> or visit <a href="https://lumo.duniaops.com/support">Lumo Support</a>.</p></aside></main>
-<footer><span>© 2026 DuniaOps Solution and Consulting LTD</span><a href="mailto:info@duniaops.com">info@duniaops.com</a></footer>
+<header class="site-header">
+  <div class="wrap header-inner">
+    <a class="brand" href="/"><img src="/assets/products/lumo-icon.png" alt="" width="40" height="40">Lumo</a>
+    <nav aria-label="Main navigation"><a href="/support">Support</a><a href="/privacy" aria-current="page">Privacy</a><a href="/terms">Terms</a></nav>
+    <div class="header-tools">
+      <a class="language-link" href="/tr/privacy" hreflang="tr" lang="tr">Türkçe</a>
+      <a class="header-action" href="/#workflow">Explore Lumo <span aria-hidden="true">↗</span></a>
+    </div>
+  </div>
+</header>
+<main id="main">
+  <section class="interior-hero" aria-labelledby="page-title">
+    <div class="wrap">
+      <div><p class="label">Lumo</p><h1 id="page-title">Privacy <em>policy.</em></h1><p class="lead">Effective 17 November 2026</p></div>
+      <img src="/assets/products/lumo-preview/tram.webp" alt="" width="760" height="570">
+    </div>
+  </section>
+  <div class="wrap interior-body">
+    <nav class="contents" aria-label="On this page">
+      <p class="label">On this page</p>
+      <ul><li><a href="#photo-analysis">What Lumo does with your photos</a></li><li><a href="#local-storage">What Lumo stores</a></li><li><a href="#data-collection">What Lumo collects</a></li><li><a href="#purchases">Purchases and gift codes</a></li><li><a href="#place-lookup">Optional Apple place lookup</a></li><li><a href="#library-access">Photos library access</a></li><li><a href="#deletion">Deleting files</a></li><li><a href="#sharing">Sharing and export</a></li><li><a href="#internal-testing">Optional copy assistant in internal testing</a></li><li><a href="#analytics-cookies">Website cookies</a></li><li><a href="#changes">Changes and contact</a></li></ul>
+    </nav>
+    <div class="document">
+      <p>Lumo is made by DuniaOps (<a href="https://www.duniaops.com">www.duniaops.com</a>). Lumo processes and indexes your photos on your device. When you choose to share a photo or use a feature that connects to a service, the details below explain what is shared and when.</p>
+      <h2 id="photo-analysis">What Lumo does with your photos</h2>
+      <p>Lumo reads the photo folders and, if you allow it, the system photo library that you point it at. Every scan — scoring, grouping similar shots, generating previews, classifying scenes and objects, and recognizing visible text — runs entirely on your device. Nothing from your photo library is uploaded by this analysis. The app is sandboxed.</p>
+      <h2 id="local-storage">What Lumo stores</h2>
+      <p>Lumo stores, on your device only:</p>
+      <ul>
+      <li>Preferences (appearance, language, deletion policy, thumbnail size).</li>
+      <li>A local free-experience record containing counted photo identities, remaining allowance, and the first unlocked sharing suggestion. Deleting rebuildable analysis caches does not reset this record.</li>
+      <li>Security-scoped bookmarks for folders you have opened, so it can reopen them with your permission after a relaunch.</li>
+      <li>A rebuildable Search index containing source identities, capture metadata, local classification labels, recognized visible text, and cached thumbnails. You can delete it from Settings without changing source photographs or Photos assets.</li>
+      <li>A <code>lumo-report.json</code> file inside a folder you have finished reviewing, recording what was kept, moved or removed. It stays in that folder and travels with it.</li>
+      <li>Temporary preview renders, kept in the system temporary directory and cleaned up by the system.</li>
+      </ul>
+      <h2 id="data-collection">What Lumo collects</h2>
+      <p>Lumo does not use advertising, analytics or crash reporting services and core features do not require a Lumo account. Photo analysis and indexing do not send photos or activity data to DuniaOps.</p>
+      <h2 id="purchases">Purchases and gift codes</h2>
+      <p>Apple StoreKit handles product prices, payments, gift-code redemption, and restoration. Lumo reads verified Apple transaction information to determine access. DuniaOps does not receive your payment card details. Your photographs and analysis results are not sent to Apple as part of a purchase.</p>
+      <h2 id="place-lookup">Optional Apple place lookup</h2>
+      <p>The first time a place-name search could benefit from Apple's geocoding service, Lumo explains the request and asks for your choice. If you allow it, Apple may receive the place query or one representative coordinate from a 0.1-degree location cluster and return a city, region, or country. Lumo never sends Apple a photograph, preview, recognized text, classification label, or search index. If you decline, filename, visible-text, label, and metadata search continue to work locally.</p>
+      <h2 id="library-access">Photos library access</h2>
+      <p>If you use the All Photos section, Lumo asks the system for read access to your photo library. Browsing never changes your library. If you run a cull on library photos, additions to albums and deletions are performed through the system Photos frameworks, which ask for your explicit confirmation before anything is removed. Removed photos go to the Photos app's Recently Deleted album, where the system keeps them for about 30 days.</p>
+      <h2 id="deletion">Deleting files</h2>
+      <p>For folder sessions, discarded photos go to the system Trash by default, where they remain recoverable until you empty it. You can switch to permanent deletion in Settings; that choice, and its consequences, stay on your device like everything else.</p>
+      <h2 id="sharing">Sharing and export</h2>
+      <p>If you choose to share or export, Lumo passes the selected files and any text you include to the destination you chose. The destination’s privacy policy applies once it receives them.</p>
+      <h2 id="internal-testing">Optional copy assistant in internal testing</h2>
+      <p>Selected internal builds can use an optional cloud service to suggest captions, hashtags and alternative text. When you choose to send a request after reviewing the consent prompt, the service uses an anonymous session and can receive general photo topics, your notes, output preferences and approximate place context if you include it. The copy service sends this text context to OpenAI. The request excludes images, previews, visible text recognised in photos, exact coordinates and the search index. The cloud service is limited to internal testing.</p>
+      <h2 id="analytics-cookies">Website cookies</h2>
+      <p>The Lumo website uses optional Google Analytics cookies when you consent on the home page. You can update your choice through Cookie settings on that page. See the <a href="https://www.duniaops.com/privacy#analytics-cookies">DuniaOps website privacy notice</a> for details.</p>
+      <h2 id="changes">Changes and contact</h2>
+      <p>If a future version of Lumo ever changes any of the above, this policy will be updated and the change will be called out in the release notes. Questions are welcome at <a href="https://www.duniaops.com">www.duniaops.com</a>.</p>
+      <aside class="help-card"><h2>Need help?</h2><p>Visit <a href="/support">Lumo Support</a> or email <a href="mailto:info@duniaops.com?subject=Lumo%20support">info@duniaops.com</a>.</p></aside>
+    </div>
+  </div>
+</main>
+<footer class="site-footer">
+  <div class="wrap footer-inner">
+    <p><a href="/">Lumo</a> by <a href="https://www.duniaops.com/">DuniaOps</a></p>
+    <nav aria-label="Footer navigation"><a href="/support">Support</a><a href="/privacy" aria-current="page">Privacy</a><a href="/terms">Terms</a></nav>
+  </div>
+</footer>
 </body>
 </html>

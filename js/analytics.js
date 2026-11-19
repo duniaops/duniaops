@@ -225,15 +225,33 @@
     banner.hidden = true;
     banner.setAttribute('aria-labelledby', 'cookie-title');
     banner.setAttribute('aria-describedby', 'cookie-description');
+    var turkish = document.currentScript && document.currentScript.getAttribute('data-lumo-consent') === 'tr';
+    var copy = turkish ? {
+      title: 'Çerez tercihlerin',
+      description: 'İsteğe bağlı çerezleri, web sitemizin nasıl kullanıldığını anlamak ve siteyi iyileştirmek için kullanıyoruz. İletişim bilgilerini veya proje açıklamalarını analiz hizmetine göndermiyoruz.',
+      privacyUrl: '/tr/privacy#analytics-cookies',
+      privacy: 'Çerez ve gizlilik ayrıntıları',
+      accept: 'İsteğe bağlı çerezleri kabul et',
+      reject: 'İsteğe bağlı çerezleri reddet',
+      manage: 'Çerez ayarları'
+    } : {
+      title: 'Your cookie choices',
+      description: 'We use optional cookies to understand how people use our website and help us improve it. We never send your contact details or project description to analytics.',
+      privacyUrl: '/privacy#analytics-cookies',
+      privacy: 'Cookie and privacy details',
+      accept: 'Accept optional cookies',
+      reject: 'Reject optional cookies',
+      manage: 'Cookie settings'
+    };
     banner.innerHTML =
       '<div class="cookie-copy">' +
-        '<h2 id="cookie-title" tabindex="-1">Your cookie choices</h2>' +
-        '<p id="cookie-description">We use optional cookies to understand how people use our website and help us improve it. We never send your contact details or project description to analytics.</p>' +
-        '<a href="/privacy#analytics-cookies">Cookie and privacy details</a>' +
+        '<h2 id="cookie-title" tabindex="-1">' + copy.title + '</h2>' +
+        '<p id="cookie-description">' + copy.description + '</p>' +
+        '<a href="' + copy.privacyUrl + '">' + copy.privacy + '</a>' +
       '</div>' +
       '<div class="cookie-actions">' +
-        '<button class="btn btn-red" type="button" data-consent="granted">Accept optional cookies</button>' +
-        '<button class="btn btn-outline" type="button" data-consent="denied">Reject optional cookies</button>' +
+        '<button class="btn btn-red" type="button" data-consent="granted">' + copy.accept + '</button>' +
+        '<button class="btn btn-outline" type="button" data-consent="denied">' + copy.reject + '</button>' +
       '</div>';
     document.body.appendChild(banner);
 
@@ -246,7 +264,7 @@
       var manage = document.createElement('button');
       manage.type = 'button';
       manage.className = 'cookie-manage';
-      manage.textContent = 'Cookie settings';
+      manage.textContent = copy.manage;
       manage.addEventListener('click', function () { showBanner(true); });
       footerBase.appendChild(manage);
     }

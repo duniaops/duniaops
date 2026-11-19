@@ -699,7 +699,6 @@ footer{background:var(--navy);color:var(--text-dark-muted);padding:64px 0 34px;b
 /* shared product detail format */
 .product-page{--product-accent:var(--blue-bright);--product-accent-ink:var(--blue);--product-accent-soft:var(--tint);--product-surface:var(--navy-2)}
 .product-page.zoday-product{--product-accent:#ccbeff;--product-accent-ink:#6f5ab7;--product-accent-soft:#f0edff;--product-surface:#1a1a2b}
-.product-page.lumo-product{--product-accent:#4a9bff;--product-accent-ink:#176bc1;--product-accent-soft:#eaf3ff;--product-surface:#10151d}
 .product-page.rockimals-product{--product-accent:#f28b52;--product-accent-ink:#c45f2c;--product-accent-soft:#fff0e7;--product-surface:#111827}
 .product-hero{padding:72px 0 80px}
 .product-hero>.container{position:relative}
@@ -728,11 +727,6 @@ footer{background:var(--navy);color:var(--text-dark-muted);padding:64px 0 34px;b
     url('../assets/products/zoday-nebula.png') center/cover,
     #0e0e1c;
 }
-.lumo-product .product-hero{background:radial-gradient(48rem 28rem at 84% 15%,rgba(36,119,232,.27),transparent 60%),radial-gradient(42rem 24rem at 12% -20%,rgba(43,157,224,.18),transparent 60%),#090d13}
-.lumo-brand-art{background:#090d13}
-.lumo-brand-art .lumo-hero-image{position:absolute;inset:0;z-index:0;width:100%;height:100%;object-fit:cover}
-.lumo-brand-art .app-icon{position:absolute;top:24px;right:24px;width:64px;height:64px;border-radius:14px;box-shadow:none}
-.lumo-hero-name{position:absolute;left:28px;bottom:28px;z-index:1;color:#fff;font:800 clamp(36px,4vw,48px)/1 'Inter',sans-serif;letter-spacing:-.04em}
 .rockimals-product .product-hero{background:radial-gradient(48rem 30rem at 84% 15%,rgba(242,139,82,.24),transparent 60%),radial-gradient(42rem 24rem at 10% -20%,rgba(43,157,224,.16),transparent 60%),#07101d}
 .store-actions{display:flex;gap:12px;flex-wrap:wrap;margin-top:30px}
 .app-store-badge-link{display:inline-flex;align-items:center;min-height:48px;text-decoration:none}
