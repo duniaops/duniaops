@@ -28,14 +28,20 @@
     const review = demo.querySelector('[data-demo-review]');
     const reviewLabel = review.textContent;
     const reset = demo.querySelector('[data-demo-reset]');
+    const scoreDialog = demo.querySelector('.demo-score-dialog');
+    const focusMeter = scoreDialog.querySelector('#demo-focus-meter');
+    const technicalMeter = scoreDialog.querySelector('#demo-technical-meter');
+    const focusOutput = scoreDialog.querySelector('[data-score-focus]');
+    const technicalOutput = scoreDialog.querySelector('[data-score-technical]');
+    const reason = scoreDialog.querySelector('[data-score-reason-text]');
     let reviewing = false;
 
     function updateReview() {
       const kept = choices.filter((choice) => choice.checked).length;
       choices.forEach((choice) => {
         choice.closest('.demo-card').hidden = reviewing && !choice.checked;
+        choice.disabled = reviewing;
       });
-      frames.disabled = reviewing;
       review.disabled = kept === 0;
       review.textContent = reviewing ? review.dataset.showAll : reviewLabel;
       summary.textContent = summary.dataset.pattern.replace('{count}', kept).replace('{total}', choices.length);
@@ -53,6 +59,20 @@
       updateReview();
     });
 
+    demo.addEventListener('click', (event) => {
+      const button = event.target.closest('[data-demo-score]');
+      if (!button) return;
+      const { demoScore, technicalScore, scoreReason } = button.dataset;
+      focusMeter.value = Number(demoScore);
+      technicalMeter.value = Number(technicalScore);
+      focusOutput.textContent = demoScore;
+      technicalOutput.textContent = technicalScore;
+      reason.textContent = scoreReason;
+      scoreDialog.classList.toggle('demo-strong-score', focusMeter.value >= 90);
+      scoreDialog.showModal();
+    });
+
+    frames.disabled = false;
     updateReview();
     footer.hidden = false;
   }
@@ -74,6 +94,33 @@
         video.focus();
       }
     });
+  }
+
+  const sticky = document.querySelector('[data-lumo-sticky]');
+  if (sticky && 'IntersectionObserver' in window) {
+    const heroBadge = document.querySelector('.hero .lumo-app-store');
+    const closing = document.querySelector('#availability');
+    const mobile = window.matchMedia('(max-width: 680px)');
+    const storageKey = 'lumo-sticky-download-dismissed';
+    const closeButton = sticky.querySelector('[data-lumo-sticky-close]');
+    let dismissed = false;
+    try { dismissed = window.sessionStorage.getItem(storageKey) === '1'; } catch { /* Private browsing. */ }
+
+    const syncDownload = () => {
+      sticky.hidden = dismissed || !mobile.matches ||
+        heroBadge.getBoundingClientRect().bottom > 0 ||
+        closing.getBoundingClientRect().top < window.innerHeight;
+    };
+    const visibility = new IntersectionObserver(syncDownload);
+    visibility.observe(heroBadge);
+    visibility.observe(closing);
+    mobile.addEventListener('change', syncDownload);
+    closeButton.addEventListener('click', () => {
+      dismissed = true;
+      try { window.sessionStorage.setItem(storageKey, '1'); } catch { /* Private browsing. */ }
+      syncDownload();
+    });
+    syncDownload();
   }
 
   if (reducedMotion.matches || !('IntersectionObserver' in window)) return;

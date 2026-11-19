@@ -4,12 +4,7 @@ import { access, mkdir, readFile, writeFile } from 'node:fs/promises';
 const dist = new URL('../dist/', import.meta.url);
 const origin = 'https://lumo.duniaops.com';
 const iosStore = 'https://apps.apple.com/app/lumo-photo-culling/id6799718934';
-const translations = JSON.parse(await readFile(new URL('../content/lumo/locales.json', import.meta.url), 'utf8'));
-const languages = {
-  en: { name: 'English', language: 'Language' },
-  tr: { name: 'Türkçe', language: 'Dil' },
-  ...translations
-};
+const languages = JSON.parse(await readFile(new URL('../content/lumo/locales.json', import.meta.url), 'utf8'));
 const escape = (value) => value.replace(/[&<>"']/g, (character) => ({
   '&': '&amp;', '<': '&lt;', '>': '&gt;', '"': '&quot;', "'": '&#39;'
 })[character]);
@@ -36,12 +31,18 @@ function demo(l) {
     const score = recommended ? 95 : 70;
     const image = recommended ? 'tutorial-cat-2-detail.jpg' : `tutorial-cat-${i + 1}.jpg`;
     const dimensions = recommended ? [887, 1774] : [320, 640];
-    return `<label class="demo-card">
-        <input class="visually-hidden" type="checkbox"${recommended ? ' checked' : ''} aria-label="${escape(l.keep + ': ' + alt)}">
-        <img src="/assets/products/lumo-preview/demo/${image}" alt="${escape(alt)}" width="${dimensions[0]}" height="${dimensions[1]}">
-        ${recommended ? `<span class="demo-pick">${escape(l.pick)}</span>` : ''}
-        <span class="demo-card-controls"><span class="demo-score"><span class="visually-hidden">${escape(l.score)} ${score}/100</span><span aria-hidden="true">${score}<span class="demo-score-total">/100</span></span></span><span class="demo-choice"><span class="demo-check" aria-hidden="true"></span>${escape(l.keep)}</span></span>
-      </label>`;
+    const choiceId = `demo-keep-${i + 1}`;
+    const technical = recommended ? 92 : 74;
+    return `<div class="demo-card">
+        <label class="demo-photo" for="${choiceId}">
+          <img src="/assets/products/lumo-preview/demo/${image}" alt="${escape(alt)}" width="${dimensions[0]}" height="${dimensions[1]}">
+          ${recommended ? `<span class="demo-pick">${escape(l.pick)}</span>` : ''}
+        </label>
+        <div class="demo-card-controls">
+          <button class="demo-score" type="button" aria-haspopup="dialog" aria-controls="demo-score-panel" aria-label="${escape(l.score)} ${score}/100" data-demo-score="${score}" data-technical-score="${technical}" data-score-reason="${escape(recommended ? l.strongFocus : l.softFocus)}">${score}<span class="demo-score-total">/100</span></button>
+          <label class="demo-choice"><input id="${choiceId}" class="visually-hidden" type="checkbox"${recommended ? ' checked' : ''} aria-label="${escape(l.keep + ': ' + alt)}"><span class="demo-check" aria-hidden="true"></span>${escape(l.keep)}</label>
+        </div>
+      </div>`;
   });
   return `<section class="review-demo" id="review-demo" data-review-demo aria-labelledby="demo-title">
       <div class="demo-header"><div><h2 id="demo-title">${escape(l.review)}</h2><p>${escape(l.reviewIntro)}</p></div><span class="demo-tag">${escape(l.sample)}</span></div>
@@ -49,7 +50,31 @@ function demo(l) {
       <div class="demo-footer" hidden><p data-demo-summary data-pattern="${escape(l.summary)}" role="status">${escape(l.summary.replace('{count}', '1').replace('{total}', '3'))}</p>
         <div class="demo-actions"><button class="demo-reset" type="button" data-demo-reset>${escape(l.reset)}</button><button class="demo-review" type="button" data-demo-review data-show-all="${escape(l.showAll)}">${escape(l.selection)}</button></div>
       </div>
+      <dialog class="demo-score-dialog" id="demo-score-panel" aria-labelledby="demo-score-title">
+        <div class="demo-score-header">
+          <h3 id="demo-score-title">${escape(l.scoreBreakdown)}</h3>
+          <form method="dialog"><button type="submit" class="demo-dialog-close" aria-label="${escape(l.close)}" autofocus>&times;</button></form>
+        </div>
+        <div class="demo-score-row">
+          <label for="demo-focus-meter">${escape(l.score)}</label><span class="demo-score-number"><strong data-score-focus></strong><span> / 100</span></span>
+          <meter id="demo-focus-meter" min="0" max="100" value="0"></meter>
+        </div>
+        <div class="demo-score-row demo-score-row-secondary">
+          <label for="demo-technical-meter">${escape(l.technicalScore)}</label><span class="demo-score-number"><strong data-score-technical></strong><span> / 100</span></span>
+          <meter id="demo-technical-meter" min="0" max="100" value="0"></meter>
+        </div>
+        <p class="demo-score-reason" data-score-reason-text></p>
+      </dialog>
     </section>`;
+}
+
+function stickyDownload(l) {
+  return `<aside class="lumo-sticky-download" data-lumo-sticky hidden aria-label="${escape(l.download)}">
+  <img class="lumo-sticky-icon" src="/assets/products/lumo-icon.png" alt="" width="36" height="36">
+  <span class="lumo-sticky-copy">${escape(l.installNow)}</span>
+  <a class="lumo-sticky-store" href="${iosStore}"><img src="/assets/products/download-on-the-app-store.svg" alt="${escape(l.download)}" width="120" height="40"></a>
+  <button class="lumo-sticky-close" data-lumo-sticky-close type="button" aria-label="${escape(l.close)}">&times;</button>
+</aside>`;
 }
 
 function landing(code, l) {
@@ -84,15 +109,15 @@ ${alternateLinks()}
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Geist:wght@400..800&amp;display=swap" rel="stylesheet">
-<link rel="stylesheet" href="/css/lumo.css?v=20261119-11">
-<script src="/js/lumo.js?v=20261119-5" defer></script>
+<link rel="stylesheet" href="/css/lumo.css?v=20261119-12">
+<script src="/js/lumo.js?v=20261119-6" defer></script>
 </head>
 <body>
 <a class="skip" href="#main">${escape(l.skip)}</a>
 <header class="site-header"><div class="wrap header-inner">
   <a class="brand" href="${route(code)}" aria-current="page"><img src="/assets/products/lumo-icon.png" alt="" width="40" height="40">Lumo</a>
   <nav aria-label="${escape(l.navigation)}"><a href="#workflow">${escape(l.workflow)}</a><a href="#plans">${escape(l.plans)}</a>${support}</nav>
-  <div class="header-tools">${languagePicker(code)}<a class="header-action" href="#availability">${escape(l.availability)} <span aria-hidden="true">↗</span></a></div>
+  <div class="header-tools">${languagePicker(code)}</div>
 </div></header>
 <main id="main">
 <section class="hero-stage" aria-labelledby="hero-title"><div class="hero wrap">
@@ -139,6 +164,7 @@ ${alternateLinks()}
 </div></section>
 </main>
 <footer class="site-footer"><div class="wrap footer-inner"><p><a href="${route(code)}">Lumo</a> · <a href="https://www.duniaops.com/">DuniaOps</a></p><nav aria-label="${escape(l.footer)}">${support}${privacy}${terms}</nav></div></footer>
+${stickyDownload(l)}
 </body>
 </html>
 `;
@@ -150,11 +176,16 @@ for (const code of ['en', 'tr']) {
     const html = await readFile(file, 'utf8');
     const fallback = /<a class="language-link"[^>]*>[^<]*<\/a>/;
     assert.match(html, fallback);
-    if (!page) assert.ok(html.includes(iosStore), `Missing iOS App Store link: ${code}`);
-    const updated = html.replace(fallback, languagePicker(code, page))
+    let updated = html.replace(fallback, languagePicker(code, page))
       .replace(/<link rel="alternate" hreflang="en"[^>]*>\n<link rel="alternate" hreflang="tr"[^>]*>\n<link rel="alternate" hreflang="x-default"[^>]*>/, alternateLinks(page))
-      .replace('lumo.css?v=20261119-8', 'lumo.css?v=20261119-11')
-      .replace('lumo.js?v=20261119-4', 'lumo.js?v=20261119-5');
+      .replace('lumo.css?v=20261119-8', 'lumo.css?v=20261119-12')
+      .replace('lumo.js?v=20261119-4', 'lumo.js?v=20261119-6');
+    if (!page) {
+      assert.ok(html.includes(iosStore), `Missing iOS App Store link: ${code}`);
+      assert.ok(html.includes('<!-- lumo-review-demo -->'), `Missing demo insertion point: ${code}`);
+      updated = updated.replace('<!-- lumo-review-demo -->', demo(languages[code]))
+        .replace('</body>', `${stickyDownload(languages[code])}\n</body>`);
+    }
     await writeFile(file, updated);
   }
 }
@@ -163,7 +194,7 @@ const directory = new URL('lumo/locales/', dist);
 await mkdir(directory, { recursive: true });
 const redirects = await readFile(new URL('_redirects', dist), 'utf8');
 const sitemap = await readFile(new URL('sitemap.xml', dist), 'utf8');
-for (const [code, locale] of Object.entries(translations)) {
+for (const [code, locale] of Object.entries(languages).filter(([code]) => code !== 'en' && code !== 'tr')) {
   assert.match(code, /^[a-z]{2}(?:-[A-Z][A-Za-z]+)?$/);
   assert.equal(locale.features.length, 3, code);
   assert.ok(redirects.includes(`${origin}/${code} /lumo/locales/${code}.html 200!`), `Missing route: ${code}`);

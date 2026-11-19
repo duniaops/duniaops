@@ -1,4 +1,52 @@
 {
+  "en": {
+    "name": "English",
+    "language": "Language",
+    "download": "Download on the App Store",
+    "review": "Review photos",
+    "reviewIntro": "Compare three similar shots and their focus scores. Mark the ones you want to keep.",
+    "sample": "Sample photos",
+    "catLeft": "Orange cat looking left with its eyes half closed",
+    "catCentre": "Sharp frame of the orange cat looking at the camera",
+    "catRight": "Orange cat looking to the right",
+    "keep": "Keep",
+    "pick": "Lumo’s pick",
+    "score": "Focus score",
+    "summary": "Frames to keep {count}/{total}",
+    "showAll": "Show all frames",
+    "reset": "Reset",
+    "selection": "Review keepers",
+    "close": "Close",
+    "scoreBreakdown": "Score breakdown",
+    "technicalScore": "Technical score",
+    "softFocus": "soft focus or motion blur",
+    "strongFocus": "strong technical baseline",
+    "installNow": "Download now"
+  },
+  "tr": {
+    "name": "Türkçe",
+    "language": "Dil",
+    "download": "App Store’dan indir",
+    "review": "Fotoğrafları incele",
+    "reviewIntro": "Üç benzer kareyi netlik puanlarıyla karşılaştır ve saklamak istediklerini işaretle.",
+    "sample": "Örnek fotoğraflar",
+    "catLeft": "Gözleri kısık, sola bakan turuncu kedi",
+    "catCentre": "Kameraya bakan turuncu kedinin net bir karesi",
+    "catRight": "Sağa bakan turuncu kedi",
+    "keep": "Sakla",
+    "pick": "Lumo önerisi",
+    "score": "Netlik puanı",
+    "summary": "Seçilen kareler {count}/{total}",
+    "showAll": "Tüm kareler",
+    "reset": "Başa dön",
+    "selection": "Seçimi gör",
+    "close": "Kapat",
+    "scoreBreakdown": "Puan ayrıntıları",
+    "technicalScore": "Teknik puan",
+    "softFocus": "netlik düşük veya hareket bulanıklığı var",
+    "strongFocus": "teknik açıdan güçlü",
+    "installNow": "Şimdi indir"
+  },
   "de": {
     "name": "Deutsch",
     "language": "Sprache",
@@ -7,7 +55,6 @@
     "workflow": "Funktionen",
     "plans": "Gratis und Pro",
     "support": "Support",
-    "availability": "Verfügbarkeit",
     "watch": "Video ansehen",
     "platforms": "Jetzt für iPhone und iPad erhältlich",
     "review": "Fotos vergleichen",
@@ -55,7 +102,13 @@
     ],
     "culling": "Lumo gruppiert ähnliche Fotos und empfiehlt starke Aufnahmen anhand von Schärfe, Belichtung und weiteren technischen Kriterien. Vergleiche Alternativen, zoome in Details und behalte ein oder mehrere Lieblingsbilder. Du hast das letzte Wort.",
     "privacyCopy": "Die Analyse zur Fotoauswahl läuft auf deinem iPhone. Dabei werden deine Fotos nicht hochgeladen.",
-    "download": "Im App Store laden"
+    "download": "Im App Store laden",
+    "close": "Schließen",
+    "scoreBreakdown": "Punktaufschlüsselung",
+    "technicalScore": "Technische Bewertung",
+    "softFocus": "unscharfer Fokus oder Bewegungsunschärfe",
+    "strongFocus": "starke technische Basis",
+    "installNow": "Jetzt laden"
   },
   "es": {
     "name": "Español",
@@ -65,7 +118,6 @@
     "workflow": "Cómo funciona",
     "plans": "Gratis y Pro",
     "support": "Ayuda",
-    "availability": "Disponibilidad",
     "watch": "Ver el vídeo",
     "platforms": "Ya disponible para iPhone y iPad",
     "review": "Revisa tus fotos",
@@ -113,7 +165,13 @@
     ],
     "culling": "Lumo agrupa fotos similares y te propone las mejores opciones según la nitidez, la exposición y otros criterios técnicos. Compara, amplía los detalles y guarda una o varias. La última palabra siempre es tuya.",
     "privacyCopy": "El análisis para seleccionar fotos se realiza en tu iPhone. Tus fotos no se suben durante este proceso.",
-    "download": "Descargar en el App Store"
+    "download": "Descargar en el App Store",
+    "close": "Cerrar",
+    "scoreBreakdown": "Desglose de la puntuación",
+    "technicalScore": "Puntuación técnica",
+    "softFocus": "enfoque suave o desenfoque por movimiento",
+    "strongFocus": "base técnica sólida",
+    "installNow": "Descargar ahora"
   },
   "fr": {
     "name": "Français",
@@ -123,7 +181,6 @@
     "workflow": "Fonctionnalités",
     "plans": "Gratuit et Pro",
     "support": "Assistance",
-    "availability": "Disponibilité",
     "watch": "Voir la vidéo",
     "platforms": "Disponible sur iPhone et iPad",
     "review": "Comparez vos photos",
@@ -171,7 +228,13 @@
     ],
     "culling": "Lumo regroupe les photos similaires et recommande les prises les plus réussies selon la netteté, l'exposition et d'autres critères techniques. Zoomez, comparez les alternatives et gardez une ou plusieurs favorites. Le dernier mot vous revient.",
     "privacyCopy": "L'analyse de sélection s'effectue sur votre iPhone. Vos photos ne sont pas envoyées en ligne pendant cette opération.",
-    "download": "Télécharger sur l’App Store"
+    "download": "Télécharger sur l’App Store",
+    "close": "Fermer",
+    "scoreBreakdown": "Détail du score",
+    "technicalScore": "Score technique",
+    "softFocus": "mise au point douce ou flou de bougé",
+    "strongFocus": "solide base technique",
+    "installNow": "Télécharger"
   },
   "it": {
     "name": "Italiano",
@@ -181,7 +244,6 @@
     "workflow": "Come funziona",
     "plans": "Gratis e Pro",
     "support": "Assistenza",
-    "availability": "Disponibilità",
     "watch": "Guarda il video",
     "platforms": "Ora disponibile per iPhone e iPad",
     "review": "Confronta le foto",
@@ -229,7 +291,13 @@
     ],
     "culling": "Lumo raggruppa le foto simili e suggerisce gli scatti migliori in base a nitidezza, esposizione e altri criteri tecnici. Confronta le alternative, ingrandisci i dettagli e tieni una o più foto. Decidi sempre tu.",
     "privacyCopy": "L'analisi per la selezione delle foto avviene sul tuo iPhone. Durante questa operazione le tue foto non vengono caricate online.",
-    "download": "Scarica dall’App Store"
+    "download": "Scarica dall’App Store",
+    "close": "Chiudi",
+    "scoreBreakdown": "Dettaglio del punteggio",
+    "technicalScore": "Punteggio tecnico",
+    "softFocus": "messa a fuoco morbida o mosso",
+    "strongFocus": "solida base tecnica",
+    "installNow": "Scarica ora"
   },
   "ja": {
     "name": "日本語",
@@ -239,7 +307,6 @@
     "workflow": "機能",
     "plans": "無料版とPro",
     "support": "サポート",
-    "availability": "配信状況",
     "watch": "動画を見る",
     "platforms": "iPhoneとiPadで配信中",
     "review": "写真を見比べる",
@@ -287,7 +354,13 @@
     ],
     "culling": "似た写真をグループにまとめ、シャープさや露出などの技術的な基準からおすすめを提案します。細部を拡大して比べ、一枚でも複数枚でも残せます。最後に決めるのは、いつでもあなたです。",
     "privacyCopy": "写真選別の解析はiPhone上で行われ、この処理中に写真がアップロードされることはありません。",
-    "download": "App Storeからダウンロード"
+    "download": "App Storeからダウンロード",
+    "close": "閉じる",
+    "scoreBreakdown": "スコアの内訳",
+    "technicalScore": "技術スコア",
+    "softFocus": "ピントの甘さまたはブレ",
+    "strongFocus": "高い技術的水準",
+    "installNow": "今すぐ入手"
   },
   "ko": {
     "name": "한국어",
@@ -297,7 +370,6 @@
     "workflow": "기능",
     "plans": "무료 및 Pro",
     "support": "지원",
-    "availability": "출시 안내",
     "watch": "동영상 보기",
     "platforms": "iPhone 및 iPad에서 이용 가능",
     "review": "사진 비교하기",
@@ -345,7 +417,13 @@
     ],
     "culling": "Lumo는 비슷한 사진을 모아 선명도와 노출 등 기술적인 기준으로 좋은 컷을 추천해요. 세부 사항을 확대해서 비교하고, 한 장 또는 여러 장을 남길 수 있어요. 마지막 결정은 언제나 여러분의 몫이에요.",
     "privacyCopy": "사진 선별 분석은 iPhone에서 진행되며, 이 과정에서 사진을 업로드하지 않아요.",
-    "download": "App Store에서 다운로드"
+    "download": "App Store에서 다운로드",
+    "close": "닫기",
+    "scoreBreakdown": "점수 세부 정보",
+    "technicalScore": "기술 점수",
+    "softFocus": "초점 흐림 또는 모션 블러",
+    "strongFocus": "탄탄한 기술적 기본기",
+    "installNow": "지금 다운로드"
   },
   "nl": {
     "name": "Nederlands",
@@ -355,7 +433,6 @@
     "workflow": "Functies",
     "plans": "Gratis en Pro",
     "support": "Ondersteuning",
-    "availability": "Beschikbaarheid",
     "watch": "Bekijk de video",
     "platforms": "Nu beschikbaar voor iPhone en iPad",
     "review": "Foto’s vergelijken",
@@ -403,7 +480,13 @@
     ],
     "culling": "Lumo groepeert vergelijkbare foto's en doet suggesties op basis van scherpte, belichting en andere technische kenmerken. Vergelijk de opties, zoom in op details en bewaar één favoriet of meerdere. Jij beslist.",
     "privacyCopy": "De analyse voor fotoselectie draait op je iPhone. Tijdens dit proces worden je foto's niet geüpload.",
-    "download": "Download in de App Store"
+    "download": "Download in de App Store",
+    "close": "Sluit",
+    "scoreBreakdown": "Scoreopbouw",
+    "technicalScore": "Technische score",
+    "softFocus": "onscherpe focus of bewegingsonscherpte",
+    "strongFocus": "sterke technische basis",
+    "installNow": "Download nu"
   },
   "pt-BR": {
     "name": "Português (Brasil)",
@@ -413,7 +496,6 @@
     "workflow": "Como funciona",
     "plans": "Grátis e Pro",
     "support": "Suporte",
-    "availability": "Disponibilidade",
     "watch": "Ver o vídeo",
     "platforms": "Já disponível para iPhone e iPad",
     "review": "Compare suas fotos",
@@ -461,7 +543,13 @@
     ],
     "culling": "O Lumo reúne fotos semelhantes e sugere boas escolhas com base em nitidez, exposição e outros critérios técnicos. Compare as opções, amplie os detalhes e guarde uma ou várias favoritas. A decisão é sua.",
     "privacyCopy": "A análise para selecionar fotos acontece no seu iPhone. Suas fotos não são enviadas durante esse processo.",
-    "download": "Baixe na App Store"
+    "download": "Baixe na App Store",
+    "close": "Fechar",
+    "scoreBreakdown": "Detalhamento da pontuação",
+    "technicalScore": "Pontuação técnica",
+    "softFocus": "foco suave ou desfoque de movimento",
+    "strongFocus": "base técnica sólida",
+    "installNow": "Baixe agora"
   },
   "ru": {
     "name": "Русский",
@@ -471,7 +559,6 @@
     "workflow": "Возможности",
     "plans": "Бесплатно и Pro",
     "support": "Поддержка",
-    "availability": "Доступность",
     "watch": "Смотреть видео",
     "platforms": "Уже доступно на iPhone и iPad",
     "review": "Сравните фотографии",
@@ -519,7 +606,13 @@
     ],
     "culling": "Lumo собирает похожие фото в группы и рекомендует удачные кадры по резкости, экспозиции и другим техническим показателям. Сравнивайте варианты, увеличивайте детали и сохраняйте один снимок или несколько. Последнее слово всегда за вами.",
     "privacyCopy": "Анализ для отбора фотографий выполняется на iPhone. Во время этого процесса снимки никуда не загружаются.",
-    "download": "Скачать в App Store"
+    "download": "Скачать в App Store",
+    "close": "Закрыть",
+    "scoreBreakdown": "Состав оценки",
+    "technicalScore": "Техническая оценка",
+    "softFocus": "нерезкий фокус или смазанность",
+    "strongFocus": "высокий технический уровень",
+    "installNow": "Скачать сейчас"
   },
   "zh-Hans": {
     "name": "简体中文",
@@ -529,7 +622,6 @@
     "workflow": "功能介绍",
     "plans": "免费版和 Pro",
     "support": "支持",
-    "availability": "发布状态",
     "watch": "观看视频",
     "platforms": "iPhone 和 iPad 版现已推出",
     "review": "对比照片",
@@ -577,6 +669,12 @@
     ],
     "culling": "Lumo 将相似照片归为一组，根据清晰度、曝光等技术指标推荐值得保留的照片。你可以放大细节、对比其他选择，留一张或多张都可以。最终决定权始终在你手中。",
     "privacyCopy": "照片筛选分析在你的 iPhone 上进行，此过程不会上传照片。",
-    "download": "在 App Store 下载"
+    "download": "在 App Store 下载",
+    "close": "关闭",
+    "scoreBreakdown": "评分明细",
+    "technicalScore": "技术评分",
+    "softFocus": "对焦不实或运动模糊",
+    "strongFocus": "技术基础扎实",
+    "installNow": "立即下载"
   }
 }
