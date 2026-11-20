@@ -113,3 +113,9 @@ The visible query rows were `software project rescue` (1 impression); DevOps gui
 Codex captured GSC Web, daily grain, all countries/devices, no query filter, exact www canonical pages; session 09:00–09:28 GMT, freshness 3.5h, standard boundary 14 Nov. Intended **20 Oct–16 Nov**, actual explicitly **20 Oct–14 Nov**, **26/28 dates — PARTIAL**. Rescue article **9 impressions / 0 clicks / 0% / position 7.4**; DevOps guide **9 / 0 / 0% / 18.2**; supporting DevOps service **119 / 0 / 0% / 58.5**. Source/live mappings above, owner Ibrahim, revision **c145541 / 19 Oct 12:34 BST**, deploy **6ad600380c53a989007003c6** unchanged. Earlier legacy 19 Oct–1 Nov and first-full-daily 20 Oct–2 Nov 14-date observations are retained separately, not relabelled. No fresh individual Index read of these three URLs or impact/qualified-lead claim.
 
 **Codex retries the same intended 20 Oct–16 Nov range 20 Nov** in the existing Friday run. Records in 003/014/018/019 agree. No new article, source edit, request or deployment.
+
+### Full daily 28-date coverage completed — 20 November 2026
+
+Fresh exact-canonical GSC Web/daily capture during 09:00–09:11 GMT, all countries/devices/no query filter, freshness **3.5h**, standard boundary **18 Nov**: intended **20 Oct–16 Nov now DONE, 28/28 source-covered dates**. Rescue article **11 impressions / 0 clicks / 0% / position 7.5**; DevOps guide **9 / 0 / 0% / 18.2**; supporting service **126 / 0 / 0% / 58.3**. Source/live mappings above, owner Ibrahim, executor Codex, revision **c145541 / 19 Oct 12:34 BST** unchanged. This closes the 16 Nov 26/28-date attempt, not the legacy 19 Oct–1 Nov cohort or a new first-live observation.
+
+No rank/lead impact claim, fresh per-URL Index read of these three URLs, source change or deployment. Shared later measurement revisions are annotated in 018; canonical full results and Friday disposition linked from 003/014/019. The 28-date coverage item is closed, not a repeated 23 Nov task.

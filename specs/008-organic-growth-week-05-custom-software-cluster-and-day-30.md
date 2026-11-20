@@ -1,6 +1,6 @@
 # Organic Growth Week 05 — Custom Software Cluster and Day-30 Check
 
-**Status:** Both core assets live; cost-guide first production 9 Oct 16:39 BST remains distinct from visible 5 Oct date. First full 28-date 10 Oct–6 Nov cohort was captured 9 Nov (0 impressions/clicks). Fresh 16 Nov Inspection still reports URL unknown/no detected sitemap/referrer/crawl, conflicting with 9 Nov discovery; cause NOT VERIFIED, Codex 20 Nov. Separate 10–14 Nov technical-link observation has 0 impressions/clicks and is not a replacement cohort. No request, private write or publication.
+**Status:** Both assets live; fresh 20 Nov cost-guide Inspection remains URL unknown with no reported sitemap/referrer/crawl, cause NOT VERIFIED, Codex 23 Nov. Separate 9 Nov link revision 10–16 Nov is now source-covered 7/7 dates: parent 6 impressions/0 clicks/73.3, guide 0/0/no rank. Original cost-guide first production 9 Oct 16:39 BST and first 28-date cohort remain distinct. No new request, source change or publication.
 **Type:** Commercial Service Page / Blog Article / Measurement
 **Priority:** P1
 **Scheduled:** 5–11 October 2026
@@ -157,3 +157,9 @@ Codex reread the exact article in property `sc-domain:duniaops.com`: URL Inspect
 Fresh exact canonical article Inspection in `sc-domain:duniaops.com`, session 09:00–09:28 GMT, remains **URL unknown to Google**, no referring sitemap/page, crawl N/A. The 9 Nov discovered-not-indexed snapshot stays historical; root cause **NOT VERIFIED**, **Codex retry 20 Nov**, no indexing/validation request. Source `content/blog/bespoke-software-development-cost-uk.md`, live **https://www.duniaops.com/blog/bespoke-software-development-cost-uk**, original first-live **9 Oct 16:39 BST**, visible 5 Oct date, owner and source release remain unchanged.
 
 Separate 9 Nov contextual-link observation intended **10–16 Nov** has only **10–14 Nov (5/7 dates)** within standard GSC boundary 14 Nov, freshness 3.5h: parent service **3 impressions / 0 clicks / 0% / position 82.7**, linked cost guide **0/0**, no meaningful CTR/rank. Not a fresh first-live 28-date cohort or proof the link caused discovery; retain the completed 10 Oct–6 Nov first-full-daily range as dated evidence. **Codex retries 10–16 Nov on 20 Nov**. Fresh private/GA4 limits and local cache candidate are in 018/014; no article, copy revision, private write, form or deployment.
+
+### Friday discovery / link-cohort verification — 20 November 2026
+
+Fresh exact article Inspection still **URL unknown to Google**, no detected sitemap/referrer/crawl; cause **NOT VERIFIED**, **Codex 23 Nov**, no live test or repeat indexing/validation request. Original source/live/9 Oct 16:39 BST first production and dated first-full-daily 10 Oct–6 Nov cohort remain unchanged.
+
+Separate 9 Nov contextual-link intended **10–16 Nov now DONE, 7/7 source-covered dates**, GSC Web/exact www canonical/daily/all countries/devices/no query filter, standard boundary **18 Nov**, freshness **3.5h**: Custom Software parent **6 impressions / 0 clicks / 0% / position 73.3**, linked cost guide **0/0**, no meaningful CTR/rank. Not a replacement first-live cohort or proof the link solved discovery. Next **10–23 Nov → 23/retry 27 Nov**, then **10 Nov–7 Dec → 7/retry 11 Dec**; annotate 12/16 Nov shared measurement changes. Full source/privacy/runtime caveats in 018; no article, copy, private write, form or deployment.

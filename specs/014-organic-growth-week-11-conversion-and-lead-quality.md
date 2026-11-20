@@ -1,6 +1,6 @@
 # Organic Growth Week 11 — Conversion and Qualified-Lead Optimisation
 
-**Status:** In progress — 16 Nov. Ibrahim specifically approved publication of 85fdaa0; identical five-file implementation 6708100 reached production at 10:50:50 GMT (deploy 6afadff7dd981e0f91a35cd5). Build/site/XML/diff and live URL/hash/consent/pre-submission smoke PASS. Cache improvement publication DONE; private classification and actual production form/notification delivery remain open. Earlier morning local-only notes are historical.
+**Status:** Friday 20 Nov assessment recorded — four deliverables DONE within scope, private classification NOT DONE, actual acknowledgement delivery NOT VERIFIED. A1/A2/A4 DONE within bounds; A3/A5/A6 NOT VERIFIED end to end. Approved cache implementation/publication completed 16 Nov, no second deployment. Fresh reconciliation, 14-URL audit, seven live desktop/mobile CTA walks, analytics/cache/breadcrumb checks completed. W07 28-date and technical/link 7-date coverage closed; origin-tag 6/7-date retry and W05/W08 Google checks owned by Codex 23 Nov. No blanket weekly PASS.
 **Type:** Conversion / Measurement
 **Priority:** P1
 **Scheduled:** 16–22 November 2026
@@ -15,10 +15,10 @@ Turn relevant visits into better-qualified conversations and make lead evidence 
 
 - [x] Reconcile Netlify Forms, GA4 `generate_lead` and the private lead ledger without exposing PII.
 - [ ] Classify leads as qualified, unqualified, test, spam, job or sales solicitation.
-- [x] Walk every primary service CTA/form route on mobile and desktop — local built output, pre-submission scope, 16 Nov.
+- [x] Walk every primary service CTA/form route on mobile and desktop — fresh live pre-submission checks, 20 Nov; actual delivery remains NOT VERIFIED.
 - [x] Confirm a distinct low-friction offer for rescue, support, DevOps, custom software and AI.
-- [x] Select one page/form improvement from observed friction, click/no-lead evidence or broken routing — cache candidate prepared locally, not released.
-- [x] Verify acknowledgement, response expectation and privacy language — copy reviewed; actual delivery NOT VERIFIED.
+- [x] Select one page/form improvement from observed friction, click/no-lead evidence or broken routing — cache fix approved and published 16 Nov; matching current key verified 20 Nov.
+- [ ] Verify acknowledgement, response expectation and privacy language — copy review DONE; actual acknowledgement delivery NOT VERIFIED in the 20 Nov assessment.
 
 ## Working Schedule
 
@@ -51,7 +51,7 @@ Turn relevant visits into better-qualified conversations and make lead evidence 
 ## Acceptance Criteria
 
 - [x] Lead classifications and counts reconcile or have explicit unresolved differences. See 16 Nov assessment and limitations.
-- [ ] No form content or PII enters GA4 or the repository.
+- [x] No form content or PII enters GA4 or the repository — DONE for inspected code/VM tests and record scope; not an exhaustive account certificate (20 Nov).
 - [ ] Every priority service has a specific offer and working conversion route.
 - [x] The selected change has evidence, one primary signal and a guardrail against lower lead quality. See 16 Nov assessment and limitations.
 - [ ] `npm test`, form/analytics/accessibility/mobile/desktop and `git diff --check` pass.
@@ -119,3 +119,37 @@ Ibrahim explicitly answered **“Evet, düzeltmeyi yayınla”** for candidate *
 Original W08 **30 Oct–26 Nov**, W07 **20 Oct–16 Nov**, 9 Nov technical/link **10–16 Nov / 10–23 Nov / 10 Nov–7 Dec**, and 12 Nov origin-tag **13–19 Nov / 13–26 Nov / 13 Nov–10 Dec** remain separate. Ranges spanning **16 Nov** now additionally carry the cache-revision annotation. The next existing **20 Nov** execution retains cohort retries, outstanding W05/W08 Google states, private read-only reconciliation and Week 11 evidence assessment; no second deployment is required for this released fix.
 
 **Release tracking / automation:** existing heartbeat updated to the approved live cache release and its separate observation ranges; ACTIVE prompt, unchanged schedule and target read back. No duplicate or schedule extension. Record consistency and `git diff --check` PASS; tracking commit uses [skip netlify].
+
+### Friday evidence assessment — 20 November 2026
+
+**Day 75 / Week 11**, optimisation phase. Codex executed the scheduled reads and checks; canonical filters, capture/freshness, counts, source/live mappings, caveats and retry dates are in [Spec 018 — Week 11 Friday verification](018-organic-growth-measurement-ledger.md#week-11-friday-verification--20-november-2026). The 16 Nov cache release is complete; today's work changed programme documentation only.
+
+| Deliverable | Assessment | Actual evidence / exception |
+|---|---|---|
+| D1 Netlify / GA4 / private reconciliation | **DONE — bounded** | Fresh six-record read; 5 tests / 1 unresolved / 0 qualified organic. Five exact-ID joins plus known synthetic test matched by controlled fields; missing lookup ID retained. GA4 23 Oct–19 Nov vs 25 Sep–22 Oct separately records 36/34 sessions, 0/5 selected generate_lead; no identity-to-event join or qualified-lead inference. |
+| D2 Classify all leads | **NOT DONE** | Private fit decision remains unresolved/insufficient_evidence on fresh read, last updated 2 Nov. Ibrahim owns fit/reply; overdue, nearest 20 Nov review. Codex does not mutate classification or contact anyone. |
+| D3 Walk primary CTA/form routes | **DONE — pre-submission scope** | All five service and two W08 CTAs freshly clicked live at 1280/390 px; correct visible service, matching analytics key, no overflow, consent rejection respected. Actual successful delivery is separate and NOT VERIFIED. |
+| D4 Distinct service offers | **DONE** | Existing Rescue Assessment, Support Takeover Review, DevOps Health Check, Software Discovery Session and AI discussion retained and route-verified; no new promise or quota content. |
+| D5 Select/implement improvement | **DONE — published 16 Nov** | 6708100 / ready deploy 6afadff7dd981e0f91a35cd5, 16 Nov 10:50:50 GMT. Fresh 14-URL audit now finds ec2b5da81a16 after separate Lumo shared-script changes; content-derived cache key tracks actual bytes. No second release needed. |
+| D6 Acknowledgement / expectation / privacy | **NOT VERIFIED for actual delivery** | Copy/privacy and pre-submission form review are DONE; successful acknowledgement, notification and GA4 delivery have not been exercised for W06/W08. Publication approval was not a production-test authorisation. |
+
+| Acceptance criterion | Assessment | Evidence / limit |
+|---|---|---|
+| A1 Counts reconcile or differences explicit | **DONE — bounded** | Six returned records reconcile with five tests/one unresolved, known missing-ID limitation and no event/submission identity join explicitly retained. |
+| A2 No form content/PII enters GA4 or Git | **DONE for inspected source and record scope** | Fresh analytics VM privacy/allowlist/consent checks and private-data-free tracker diff; no exhaustive account/traffic certificate. |
+| A3 Specific offer and working conversion route for each service | **NOT VERIFIED end to end** | Distinct offers and all seven pre-submission paths pass; actual delivery remains absent. |
+| A4 Evidence, primary signal and quality guardrail | **DONE** | Immutable URL baseline, actual-content fingerprint, live matching hashes; consent/allowlist/form content unchanged by the approved fix; no unsupported lead-rate claim. |
+| A5 npm / form / analytics / accessibility / mobile / desktop / diff checks | **NOT VERIFIED as a complete end-to-end gate** | Historical exact 16 Nov release npm/build PASS; fresh 20 Nov analytics + four cache and five breadcrumb regressions / 14-URL audit / live 1280/390 and form 320 px checks PASS. No new full suite/build or VoiceOver certificate; successful form-delivery test missing. |
+| A6 Live test and follow-up dates | **NOT VERIFIED for production form delivery** | Technical live cache/route smoke and separate 7/14/28-date windows are recorded; no successful form/notification/GA4 test. |
+
+**New coverage closed:** W07 exact **20 Oct–16 Nov**, all 28 dates (Rescue **11 impressions**, DevOps guide **9**, service **126**, all zero clicks); separate 9 Nov revision **10–16 Nov**, all 7 dates (proof/checklist **0/0 impressions**, Custom Software **6**, cost guide **0**, all zero clicks). Only these observations are closed, not a lead or impact outcome.
+
+**Still partial:** separate origin-tag intended **13–19 Nov** has actual **13–18 Nov**, **6/7** dates, both W08 pages 0 impressions/clicks; **Codex retry 23 Nov**, no missing-date zero. W05 remains URL unknown; both W08 URLs indexed with stored 2 Nov invalid breadcrumbs, checklist sitemap field Temporary processing error; **Codex recheck 23 Nov**, no request. W03-B and closed W06/W08 original coverage are not reopened.
+
+**Current production / test boundary:** ready product deploy **6aff92454064571d6c4f4470 / f236614**, 20 Nov 00:20:36.001 GMT. Shared analytics source now includes Lumo consent localisation from 78daaa1 (source commit date 19 Nov 10:58 UTC, first live time not established here). Fresh current bytes/hash pass; the 16 Nov full-suite candidate is not silently treated as the current product release. No form, message, private write, new implementation or deployment today. Actual VoiceOver stays DONE by Ibrahim's 10 Nov confirmation.
+
+**Close with exceptions:** implementation/technical measurement work delivered; D2 and end-to-end portions of D6/A3/A5/A6 remain explicitly open, no blanket PASS. Routine follow-through belongs to Codex **23 Nov**; private fit/reply remains Ibrahim-owned (20 Nov review, next bounded read 23 Nov), production-test authority remains outstanding and previously reported. No repeated approval request for an unchanged exception.
+
+**Next:** existing **23 Nov** run retries 13–19 Nov, observes separate technical/link **10–23 Nov** and cache **17–23 Nov**, rechecks W05/W08/private aggregates and starts Spec 015 from current proof/permission evidence. Original W08 **26/retry 27 Nov**, origin-tag **27 Nov**, cache 14-date **30 Nov/retry 4 Dec**, technical 28-date **7 Dec/retry 11 Dec**, origin 28-date **11 Dec** stay distinct. Cache **17 Nov–14 Dec** remains 11 Dec handover, Ibrahim owner, proposed 18 Dec read only with separately authorised continuation; no schedule extension or duplicate.
+
+**Friday record / automation validation:** existing single heartbeat updated to the closed W07/technical seven-date observations, partial origin retry and 23 Nov Week 12 carry-in; ACTIVE prompt, unchanged schedule/end and target read back. Documentation consistency/privacy review and `git diff --check` PASS. Tracking commit uses [skip netlify]; no deployment or duplicate reminder.
