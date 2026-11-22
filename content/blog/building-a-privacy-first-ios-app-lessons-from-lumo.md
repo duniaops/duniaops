@@ -23,6 +23,8 @@ choose the frames they want to keep, review removals and find prepared photos
 again. This is a first-party account of the product and its engineering,
 rather than a client delivery story.
 
+[![Download Lumo on the App Store](/assets/products/download-on-the-app-store.svg)](https://apps.apple.com/gb/app/lumo-photo-culling/id6799718934)
+
 For a business commissioning a mobile app, Lumo provides a concrete way to
 examine three questions: where does sensitive processing happen, who controls
 the result, and what happens when an action could remove something valuable?
@@ -34,7 +36,7 @@ implementation uses Apple's Vision framework for image classification and
 recognising visible text. Those observations contribute to a local catalogue
 that helps people find photographs by what they remember about them.
 
-![Selected photographs pass through on-device image and text analysis into Lumo's local search index](/assets/blog/lumo-on-device-analysis-flow.svg)
+![Selected photographs pass through on-device image and text analysis into Lumo's local search index](/assets/blog/lumo-on-device-analysis-flow-compact-v2.svg)
 
 *Photo-analysis flow, simplified from the project implementation. Optional
 service connections are separate from this diagram.*
@@ -85,7 +87,7 @@ suggestions to removing assets. Lumo asks the user to confirm removals, and
 Photos library deletions use the system's Photos workflow and Recently
 Deleted recovery route.
 
-![The user compares photographs, chooses keepers, reviews proposed removals and explicitly confirms removal](/assets/blog/lumo-review-and-removal-flow.svg)
+![The user compares photographs, chooses keepers, reviews proposed removals and explicitly confirms removal](/assets/blog/lumo-review-and-removal-flow-compact-v2.svg)
 
 *A simplified review flow. Reviewing a recommendation does not itself
 authorise removal; this diagram is an explanation rather than an app screen.*

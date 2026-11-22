@@ -137,6 +137,7 @@ available on iPhone and iPad. It helps people compare similar photographs,
 choose the frames they want to keep, review removals and find prepared photos
 again. This is a first-party account of the product and its engineering,
 rather than a client delivery story.</p>
+<p><a href="https://apps.apple.com/gb/app/lumo-photo-culling/id6799718934"><img src="/assets/products/download-on-the-app-store.svg" alt="Download Lumo on the App Store" loading="lazy" decoding="async"></a></p>
 <p>For a business commissioning a mobile app, Lumo provides a concrete way to
 examine three questions: where does sensitive processing happen, who controls
 the result, and what happens when an action could remove something valuable?</p>
@@ -145,7 +146,7 @@ the result, and what happens when an action could remove something valuable?</p>
 implementation uses Apple’s Vision framework for image classification and
 recognising visible text. Those observations contribute to a local catalogue
 that helps people find photographs by what they remember about them.</p>
-<p><img src="/assets/blog/lumo-on-device-analysis-flow.svg" alt="Selected photographs pass through on-device image and text analysis into Lumo's local search index" loading="lazy" decoding="async"></p>
+<p><img src="/assets/blog/lumo-on-device-analysis-flow-compact-v2.svg" alt="Selected photographs pass through on-device image and text analysis into Lumo's local search index" loading="lazy" decoding="async"></p>
 <p><em>Photo-analysis flow, simplified from the project implementation. Optional
 service connections are separate from this diagram.</em></p>
 <p>The important boundary is specific: photographs are not uploaded for this
@@ -184,7 +185,7 @@ recommendation should be clear enough for someone to accept or correct it.</p>
 suggestions to removing assets. Lumo asks the user to confirm removals, and
 Photos library deletions use the system’s Photos workflow and Recently
 Deleted recovery route.</p>
-<p><img src="/assets/blog/lumo-review-and-removal-flow.svg" alt="The user compares photographs, chooses keepers, reviews proposed removals and explicitly confirms removal" loading="lazy" decoding="async"></p>
+<p><img src="/assets/blog/lumo-review-and-removal-flow-compact-v2.svg" alt="The user compares photographs, chooses keepers, reviews proposed removals and explicitly confirms removal" loading="lazy" decoding="async"></p>
 <p><em>A simplified review flow. Reviewing a recommendation does not itself
 authorise removal; this diagram is an explanation rather than an app screen.</em></p>
 <p>The project source also shows explicit removal operations and confirmation
