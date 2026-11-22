@@ -1,6 +1,6 @@
 # Lumo case study — editorial brief and evidence
 
-**Current state (22 November):** LIVE at `https://www.duniaops.com/blog/building-a-privacy-first-ios-app-lessons-from-lumo` from 08:54:06.813 GMT; source `04b8a27c545459bb9f8bf92c654d5d08bd67a24c` / ready production deploy `6b02ad9fe50f6b98afa405e1`. Lumo-style hero and two inline diagrams verified; final candidate and live checks PASS. Earlier draft-only and pending-release entries are historical.
+**Current state (22 November):** LIVE. Original publication 08:54:06.813 GMT; approved compact-diagram/logo/App Store badge revision live 09:32:00.435 GMT, source aaeff75 / deploy 6b02b68225f0507b6bf17510. Original cohort clocks retained. Earlier draft/preparation entries are historical.
 
 ## Pre-writing decision — 22 November 2026
 
@@ -105,3 +105,11 @@ Use case: ads-marketing. Create a new original editorial cover for DuniaOps's Lu
 
 - **Automation:** the existing single `duniaops-seo-60-30-takip` prompt now recognises the completed Lumo release and these ranges; ACTIVE prompt, unchanged schedule/end and target were read back and matched. No duplicate reminder or extension. Carry the 28-day range in the 11 December handover.
 - **Remaining:** Week 12 authority/profile research, bounded draft messages and distribution remain separate unfinished deliverables; Codex starts the existing 23 November work under Spec 015, with external mutations/sends requiring their own authority. This record does not close the whole week or any earlier qualification/delivery/Google-state exception.
+
+### 22 November 2026 09:32 GMT — smaller diagrams, Lumo identity and App Store link
+
+User-requested presentation update is LIVE: release `aaeff75bf9f96f795f435e5a9f35f9f7aed02e62`, ready production deploy `6b02b68225f0507b6bf17510`, published **22 November 09:32:00.435 GMT**. The two inline diagrams now use self-contained `assets/blog/lumo-on-device-analysis-flow-compact-v2.svg` and `assets/blog/lumo-review-and-removal-flow-compact-v2.svg`: desktop width **480 px** (previously 720), centred; mobile remains **335 px** at a 390 px viewport. Each embeds a resized copy of the actual owned Lumo icon. Final `npm test` PASS (**451 public files**); SVG/feed/sitemap XML, JS syntax and `git diff --check` PASS. Versioned URLs avoid reusing the one-year immutable cached assets; original SVGs remain available. The existing official `assets/products/download-on-the-app-store.svg` badge links to `https://apps.apple.com/gb/app/lumo-photo-culling/id6799718934`, with accessible link text via image alt.
+
+Final `npm test` exit 0 (**451 public files**), XML and `git diff --check` PASS; desktop 1440×1000/mobile 390×844 have no horizontal overflow. Browser verifies smaller diagrams, visible Lumo icon and correct badge target; no new VoiceOver or production form test claimed. Fresh **09:33:34 GMT** GETs verify the article, both new SVGs and badge HTTP 200; all three assets byte-match source. Main was normally pushed to verified origin/main. No shared CSS, hero, factual narrative, Google/account setting or automation schedule change.
+
+This is a same-day presentation revision, not another primary asset or a measured conversion result. Original first production **08:54:06.813 GMT on 22 November** remains unchanged. Keep full-daily **23–29 Nov → 30 Nov/retry 4 Dec**, **23 Nov–6 Dec → 7 Dec/retry 11 Dec**, and the out-of-tail **23 Nov–20 Dec** handover exactly as registered. Annotate this revision when reading those original cohorts; do not reset them or infer app downloads/qualified leads from a badge. Codex owns routine observations; Ibrahim remains programme owner. No fresh GSC/GA4/private-lead read was performed for this visual update.
