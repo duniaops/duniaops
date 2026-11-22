@@ -131,6 +131,7 @@ https://duniaops.com/* https://www.duniaops.com/:splat 301!
 /thank-you.html /thank-you 301!
 # blog:start
 /blog.html /blog 301!
+/blog/building-a-privacy-first-ios-app-lessons-from-lumo.html /blog/building-a-privacy-first-ios-app-lessons-from-lumo 301!
 /blog/ai-consultant-vs-ai-development-company.html /blog/ai-consultant-vs-ai-development-company 301!
 /blog/bespoke-software-development-cost-uk.html /blog/bespoke-software-development-cost-uk 301!
 /blog/kubernetes-consultant-or-permanent-hire-uk.html /blog/kubernetes-consultant-or-permanent-hire-uk 301!

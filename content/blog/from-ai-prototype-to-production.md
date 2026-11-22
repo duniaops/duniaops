@@ -130,6 +130,11 @@ mistake increase. That is a useful rule for businesses because it avoids both
 extremes—treating every experiment like a regulated system, or assuming that a
 working demo is ready for customers.
 
+For a concrete mobile example, our
+[Lumo case study](/blog/building-a-privacy-first-ios-app-lessons-from-lumo)
+examines on-device photo analysis, user-controlled recommendations and explicit
+removal decisions in DuniaOps's own iOS product.
+
 ## The real goal of production
 
 Production readiness is not about removing AI from the product. It is about

@@ -6,7 +6,19 @@
     <description>Practical articles about software development, AI, DevOps, cloud engineering, booking platforms and mobile products.</description>
     <language>en-gb</language>
     <atom:link href="https://www.duniaops.com/feed.xml" rel="self" type="application/rss+xml"/>
-    <lastBuildDate>Tue, 13 Oct 2026 00:00:00 GMT</lastBuildDate>
+    <lastBuildDate>Sun, 22 Nov 2026 00:00:00 GMT</lastBuildDate>
+    <item>
+      <title>Building a Privacy-First iOS App: Lessons from Lumo</title>
+      <link>https://www.duniaops.com/blog/building-a-privacy-first-ios-app-lessons-from-lumo</link>
+      <guid isPermaLink="true">https://www.duniaops.com/blog/building-a-privacy-first-ios-app-lessons-from-lumo</guid>
+      <pubDate>Sun, 22 Nov 2026 00:00:00 GMT</pubDate>
+      <description>Inside Lumo, DuniaOps&#39;s photo app: how on-device analysis, user-led review and explicit deletion controls shape a practical approach to mobile development.</description>
+      <author>info@duniaops.com (DuniaOps Team)</author>
+      <category>Mobile App Development</category>
+      <category>iOS Development</category>
+      <category>On-Device Processing</category>
+      <category>Product Engineering</category>
+    </item>
     <item>
       <title>AI Consultant vs AI Development Company: Which Do You Need?</title>
       <link>https://www.duniaops.com/blog/ai-consultant-vs-ai-development-company</link>
