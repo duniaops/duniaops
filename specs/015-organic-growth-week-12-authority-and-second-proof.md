@@ -1,6 +1,6 @@
 # Organic Growth Week 12 — Authority and Second Proof
 
-**Status:** In progress — Lumo proof publication approved 22 November; release verification pending
+**Status:** In progress — Lumo second proof and contextual links published early on 22 November; authority/distribution work remains open
 **Type:** Proof / Distribution / Authority
 **Priority:** P1
 **Scheduled:** 23–29 November 2026
@@ -14,7 +14,7 @@ Strengthen trust and discoverability with verifiable evidence and relevant third
 ## Weekly Deliverables
 
 - [x] Select and write the second proof asset with an evidence/permission matrix. Lumo first-party draft prepared 22 November; final factual/editorial approval remains pending.
-- [ ] Link the proof from the most relevant service and buyer-content pages.
+- [x] Link the proof from the most relevant service and buyer-content pages. Mobile App Development and the existing AI production-readiness article verified live 22 November.
 - [ ] Audit Google Business Profile, Clutch and a small set of genuinely relevant UK/technical profiles or citations.
 - [ ] Prepare personalised, value-led outreach tied to the checklist, proof or a genuinely relevant article.
 - [ ] Prepare voluntary, non-incentivised review requests for eligible real clients.
@@ -50,11 +50,11 @@ Strengthen trust and discoverability with verifiable evidence and relevant third
 
 ## Acceptance Criteria
 
-- [ ] Proof ownership, facts, permissions and commercial relevance are explicit.
-- [ ] Every public name, logo, quote and metric is approved.
+- [x] Proof ownership, facts, permissions and commercial relevance are explicit. Owned Lumo product, dated evidence matrix and explicit publication approval.
+- [x] Every public name, logo, quote and metric is approved. Owned product naming/illustrations authorised; no client quote, logo or outcome metric introduced.
 - [ ] No purchased links, bulk spam, fabricated citation or incentivised review is used.
 - [ ] External actions are personalised, relevant and explicitly approved.
-- [ ] `npm test`, link/mobile/desktop/accessibility and `git diff --check` pass.
+- [x] `npm test`, link/mobile/desktop/accessibility and `git diff --check` pass for the published article scope: final 449-file suite, links, XML, responsive render and image/heading/navigation semantics smoke. No new VoiceOver or successful form-delivery test is claimed.
 - [ ] Live proof and authority-ledger evidence are recorded.
 
 ## Completion Record
@@ -79,3 +79,20 @@ Ibrahim reviewed the draft and explicitly authorised its Lumo-style cover and pu
 ### 22 November 2026 — approved illustrated Lumo release candidate
 
 Ibrahim explicitly approved the Lumo-style cover and publication, then requested relevant inline visuals. Final candidate includes a unique 1200×630 Lumo-style JPEG, two clearly labelled explanatory SVG diagrams, the reviewed article and contextual links from Mobile App Development and the existing AI production-readiness post. Previous draft-only approval/hero blockers are closed. Full final `npm test` PASS (449 public files), generator/metadata/discovery checks, XML and `git diff --check` PASS; browser desktop 1440×1000/mobile 390×844 smoke and all three external article-source GETs PASS. Detailed provenance, scope and readiness are in `lumo-case-study-editorial-review-2026-11-22.md`. No fresh GSC/GA4/private-ledger read or new performance claim. Production commit/deploy/time and observation dates remain pending actual release verification; Codex executes this authorised publication now, with no indexing request, account setting change or outreach. Remaining Week 12 authority work stays open.
+
+### 22 November 2026 — Lumo publication verified
+
+- **Actual release:** `https://www.duniaops.com/blog/building-a-privacy-first-ios-app-lessons-from-lumo`; source `content/blog/building-a-privacy-first-ios-app-lessons-from-lumo.md`; category `mobile-app-development`, `draft: false`. First production **22 November 2026 08:54:06.813 GMT**, ready Netlify production deploy `6b02ad9fe50f6b98afa405e1`, release commit `04b8a27c545459bb9f8bf92c654d5d08bd67a24c`. Git `main` was fast-forwarded from verified `bb6ad5a` to the clean exact candidate and normal-pushed to verified `origin/main`; remote hash matched. No manual deployment, branch protection bypass, hook change or history rewrite.
+- **Approval / change:** Ibrahim approved the reviewed Lumo draft, a Lumo-style cover and then additional inline visuals in this chat. Cover is original generated concept artwork; two original SVGs explain device-side photo analysis and explicit removal review. First-party owned product, not client proof. One actual primary corporate publication in the 16–22 November week, delivered early for Week 12; do not move its live date to 23 November or commission another quota article.
+- **Fresh production evidence:** GET capture **22 November 08:54:53 GMT**: article, 1200×630 hero, both SVGs, homepage, blog index, feed, sitemap, Mobile App Development and linked AI production article all HTTP 200. Canonical and OG image match; both diagrams are present; all three visual assets byte-match committed files. Production browser shows the correct article/cover. Local 1440×1000 and 390×844 checks passed without overflow, images load, mobile menu toggles; image alt/heading/navigation semantics checked. Skip-link keyboard activation changed the target hash; this is not a focus-management certificate or a fresh VoiceOver test.
+- **Validation:** final candidate `npm test` PASS, **449 public files**; JS syntax, XML (feed/sitemap/two SVGs), metadata/discovery/source-link checks and `git diff --check` PASS. No production form, indexing request, contact/outreach or private-ledger write. No fresh GSC/GA4/private reconciliation; prior 20 November account evidence keeps its capture date. Lumo indexing, traffic and qualified conversion remain **NOT VERIFIED**, not zero or inferred from release checks.
+- **Measurement / ownership:** release day 22 November is partial and excluded from the new complete daily ranges below. Existing W08 original and 9/12/16 November revision windows remain separate. No older service/article original clock is reset by the small contextual-link additions. Codex owns routine observations; Ibrahim remains programme owner.
+
+| Lumo original cohort | Intended complete daily dates | Existing checkpoint / retry | State / owner |
+|---|---|---|---|
+| 7 dates | 23–29 November 2026 | 30 November / 4 December if delayed | NOT DUE; Codex reads GSC/GA4 at independent complete boundaries |
+| 14 dates | 23 November–6 December 2026 | 7 December / 11 December if delayed | NOT DUE; Codex, within verification tail |
+| 28 dates | 23 November–20 December 2026 | Proposed 21 December, outside current programme/tail | NOT DUE; Ibrahim owns handover; Codex read only if post-programme continuation authorised |
+
+- **Automation:** the existing single `duniaops-seo-60-30-takip` prompt now recognises the completed Lumo release and these ranges; ACTIVE prompt, unchanged schedule/end and target were read back and matched. No duplicate reminder or extension. Carry the 28-day range in the 11 December handover.
+- **Remaining:** Week 12 authority/profile research, bounded draft messages and distribution remain separate unfinished deliverables; Codex starts the existing 23 November work under Spec 015, with external mutations/sends requiring their own authority. This record does not close the whole week or any earlier qualification/delivery/Google-state exception.
