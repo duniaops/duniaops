@@ -80,6 +80,11 @@ RSS feed, sitemap entries, and clean-URL redirects. Generated files are
 committed with their Markdown source. Draft posts and `_template.md` are never
 published. The generated `dist/` directory is intentionally ignored by Git.
 
+The Lumo article opts into its owned logo and linked official App Store badge
+over the cover with `heroProduct: "lumo"`. Other articles omit this optional
+field. The controlled renderer rejects unknown products, and only opted-in
+article pages load the product-overlay stylesheet with a content hash.
+
 ## Public output boundary
 
 Netlify runs `npm run build:site` and publishes only `dist/`, as configured in `netlify.toml`. The build uses an explicit allowlist for runtime HTML, assets, styles, scripts, redirects, headers, RSS, and sitemap files.

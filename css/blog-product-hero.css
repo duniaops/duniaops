@@ -1,0 +1,26 @@
+/* Optional product identity and store action over the existing editorial cover. */
+.article-hero-brand{
+  position:absolute;top:24px;left:24px;display:flex;align-items:center;gap:12px;
+  padding:12px 18px 12px 12px;border:1px solid #ffffff38;border-radius:18px;
+  color:#fff;background:#0d1423ed;box-shadow:0 8px 24px #0005;
+  font:700 32px/1.1 'Inter',system-ui,sans-serif;pointer-events:none
+}
+.article-hero-image .article-hero-brand img{
+  width:64px;height:64px;object-fit:contain;border-radius:14px
+}
+.article-hero-store{
+  position:absolute;right:24px;bottom:24px;display:block;width:260px;
+  border-radius:12px;line-height:0;filter:drop-shadow(0 6px 14px #0008)
+}
+.article-hero-image .article-hero-store img{
+  width:100%;height:auto;object-fit:contain
+}
+.article-hero-store:focus-visible{outline:3px solid #f0b84b;outline-offset:5px}
+@media(max-width:600px){
+  .article-hero-brand{
+    top:12px;left:12px;gap:8px;padding:6px 10px 6px 6px;
+    border-radius:12px;font-size:21px
+  }
+  .article-hero-image .article-hero-brand img{width:36px;height:36px;border-radius:8px}
+  .article-hero-store{right:12px;bottom:12px;width:148px;border-radius:7px}
+}

@@ -4,6 +4,7 @@ import path from 'node:path';
 import { fileURLToPath } from 'node:url';
 import matter from 'gray-matter';
 import MarkdownIt from 'markdown-it';
+import { renderProductHero } from './blog-product-hero.mjs';
 
 const ROOT = path.resolve(path.dirname(fileURLToPath(import.meta.url)), '..');
 const CONTENT_DIR = path.join(ROOT, 'content', 'blog');
@@ -230,6 +231,7 @@ async function loadPosts() {
     .sort();
   const posts = [];
   const seenSlugs = new Set();
+  let productHeroStylesheet;
 
   for (const filename of filenames) {
     const source = path.posix.join('content/blog', filename);
@@ -286,6 +288,12 @@ async function loadPosts() {
       throw new Error(`${source}: article image must be exactly 1200×630 pixels.`);
     }
 
+    const productHero = renderProductHero(parsed.data.heroProduct);
+    if (productHero && !productHeroStylesheet) {
+      const styles = await readFile(path.join(ROOT, 'css', 'blog-product-hero.css'));
+      productHeroStylesheet = `/css/blog-product-hero.css?v=${createHash('sha256').update(styles).digest('hex').slice(0, 12)}`;
+    }
+
     const rendered = renderMarkdown(parsed.content, source);
     posts.push({
       slug,
@@ -299,6 +307,8 @@ async function loadPosts() {
       image: parsed.data.image,
       imageAlt: parsed.data.imageAlt.trim(),
       imageVersion: createHash('sha256').update(imageBuffer).digest('hex').slice(0, 12),
+      productHero,
+      productHeroStylesheet: productHero ? productHeroStylesheet : undefined,
       readingMinutes: Math.max(1, Math.ceil(wordsIn(parsed.content) / 200)),
       bodyHtml: rendered.html,
       toc: rendered.toc
@@ -559,7 +569,7 @@ ${baseHead({
     canonical,
     socialType: 'article',
     image: imageUrl,
-    extra: `<meta property="article:published_time" content="${post.published}T00:00:00Z">
+    extra: `${post.productHeroStylesheet ? `<link rel="stylesheet" href="${post.productHeroStylesheet}">\n` : ''}<meta property="article:published_time" content="${post.published}T00:00:00Z">
 <meta property="article:modified_time" content="${post.updated}T00:00:00Z">
 <meta property="article:section" content="${escapeHtml(category.label)}">
 ${post.tags.map((tag) => `<meta property="article:tag" content="${escapeHtml(tag)}">`).join('\n')}
@@ -581,7 +591,7 @@ ${header('blog')}
 ${updated}      </div>
     </header>
     <div class="container">
-      <figure class="article-hero-image"><img src="${post.image}?v=${post.imageVersion}" alt="${escapeHtml(post.imageAlt)}" width="1200" height="630"></figure>
+      <figure class="article-hero-image"><img src="${post.image}?v=${post.imageVersion}" alt="${escapeHtml(post.imageAlt)}" width="1200" height="630">${post.productHero ? `\n        ${post.productHero}\n      ` : ''}</figure>
       <div class="article-layout">
         <div class="article-main">
 ${toc}          <div class="article-content prose">${post.bodyHtml}</div>

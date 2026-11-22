@@ -9,6 +9,7 @@ tags:
   - "Product Engineering"
 image: "/assets/blog/building-a-privacy-first-ios-app-lessons-from-lumo-1200x630.jpg"
 imageAlt: "Three orange-cat photo cards in front of a dark phone, with the central photograph highlighted in Lumo blue"
+heroProduct: "lumo"
 draft: false
 ---
 
