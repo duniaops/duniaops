@@ -261,12 +261,13 @@ h3 { font: 700 1.75rem/1.13 var(--font); letter-spacing: -.045em; }
 .lumo-sticky-download {
   position: fixed;
   z-index: 5;
-  inset: auto 0 0;
+  inset: auto .75rem calc(.75rem + env(safe-area-inset-bottom));
   display: flex;
   align-items: center;
   gap: clamp(.35rem, 1.7vw, .65rem);
-  padding: .55rem max(.75rem, env(safe-area-inset-right))
-    calc(.55rem + env(safe-area-inset-bottom)) max(.75rem, env(safe-area-inset-left));
+  padding: .55rem .6rem;
+  border: 1px solid #536b97;
+  border-radius: .95rem;
   background: var(--dark);
   color: #edf3ff;
 }
