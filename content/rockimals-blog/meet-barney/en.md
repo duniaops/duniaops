@@ -5,9 +5,9 @@ slug: "meet-barney-curious-fox-big-journey"
 title: "Meet Barney: A Curious Fox’s Big Journey"
 description: "Meet Barney, the curious fox in Rockimals. Explore the start of his illustrated adventure, notice small clues and try three questions for reading together."
 category: "stories-activities"
-published: "2099-01-01T10:00:00Z"
-updated: "2099-01-01T10:00:00Z"
-draft: true
+published: "2026-11-23T10:07:06Z"
+updated: "2026-11-23T10:07:06Z"
+draft: false
 image: "/assets/rockimals-blog/meet-barney/cover.jpg"
 imageAlt: "Barney on a space rock beside a story scene of him and a rabbit watching a glowing magical rock from a hill"
 author:

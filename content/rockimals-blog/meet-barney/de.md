@@ -5,9 +5,9 @@ slug: "barney-neugieriger-fuchs-grosse-reise"
 title: "Lernt Barney kennen: Die große Reise eines neugierigen Fuchses"
 description: "Lernt Barney, den neugierigen Fuchs aus Rockimals, kennen. Entdeckt den Anfang seiner Bildergeschichte und drei Fragen zum gemeinsamen Lesen und Erzählen."
 category: "stories-activities"
-published: "2099-01-01T10:00:00Z"
-updated: "2099-01-01T10:00:00Z"
-draft: true
+published: "2026-11-23T10:07:06Z"
+updated: "2026-11-23T10:07:06Z"
+draft: false
 image: "/assets/rockimals-blog/meet-barney/cover.jpg"
 imageAlt: "Barney auf einem Weltraumfelsen neben einer Szene, in der er mit einem Kaninchen vom Hügel aus einen leuchtenden Zauberstein beobachtet"
 author:

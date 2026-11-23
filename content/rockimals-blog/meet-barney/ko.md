@@ -5,9 +5,9 @@ slug: "barney-hogisim-yeou-yeohaeng"
 title: "바니를 만나 보세요: 호기심 많은 여우의 커다란 여행"
 description: "Rockimals의 여우 바니(Barney)를 만나 보세요. 모험의 시작에서 그림 속 단서를 찾아보고, 함께 읽으며 나눌 세 가지 질문도 살펴보세요."
 category: "stories-activities"
-published: "2099-01-01T10:00:00Z"
-updated: "2099-01-01T10:00:00Z"
-draft: true
+published: "2026-11-23T10:07:06Z"
+updated: "2026-11-23T10:07:06Z"
+draft: false
 image: "/assets/rockimals-blog/meet-barney/cover.jpg"
 imageAlt: "우주 바위 위의 바니와, 언덕에서 토끼와 함께 빛나는 마법의 돌을 바라보는 이야기 장면을 나란히 배치한 표지"
 author:

@@ -5,9 +5,9 @@ slug: "barney-kitsune-ookina-tabi"
 title: "バーニーと出会おう：好奇心いっぱいのキツネの大きな旅"
 description: "Rockimalsのキツネ、バーニー（Barney）をご紹介。お話の始まりをのぞき、絵の小さな手がかりを探して、三つの質問をきっかけに親子で話してみましょう。"
 category: "stories-activities"
-published: "2099-01-01T10:00:00Z"
-updated: "2099-01-01T10:00:00Z"
-draft: true
+published: "2026-11-23T10:07:06Z"
+updated: "2026-11-23T10:07:06Z"
+draft: false
 image: "/assets/rockimals-blog/meet-barney/cover.jpg"
 imageAlt: "宇宙の岩に乗るバーニーと、丘でウサギと光る魔法の石を見上げるお話の場面を並べた表紙"
 author:

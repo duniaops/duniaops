@@ -5,9 +5,9 @@ slug: "barney-ile-tanisin-merakli-tilkinin-buyuk-yolculugu"
 title: "Barney ile tanışın: Meraklı bir tilkinin büyük yolculuğu"
 description: "Rockimals’ın meraklı tilkisi Barney ile tanışın. Macerasının başlangıcındaki ipuçlarını keşfedin; birlikte okumak ve konuşmak için üç soruyu deneyin."
 category: "stories-activities"
-published: "2099-01-01T10:00:00Z"
-updated: "2099-01-01T10:00:00Z"
-draft: true
+published: "2026-11-23T10:07:06Z"
+updated: "2026-11-23T10:07:06Z"
+draft: false
 image: "/assets/rockimals-blog/meet-barney/cover.jpg"
 imageAlt: "Bir uzay taşının üzerindeki Barney ve yanında, bir tavşanla tepeden parlayan sihirli taşı izlediği hikâye sahnesi"
 author:

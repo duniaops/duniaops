@@ -5,9 +5,9 @@ slug: "renshi-barney-huli-da-lvxing"
 title: "认识巴尼：好奇小狐狸的大旅行"
 description: "认识Rockimals里好奇的小狐狸巴尼（Barney）。从冒险的开头寻找画面中的小线索，用三个问题开启亲子共读，不提前揭晓旅程结局。"
 category: "stories-activities"
-published: "2099-01-01T10:00:00Z"
-updated: "2099-01-01T10:00:00Z"
-draft: true
+published: "2026-11-23T10:07:06Z"
+updated: "2026-11-23T10:07:06Z"
+draft: false
 image: "/assets/rockimals-blog/meet-barney/cover.jpg"
 imageAlt: "左侧是坐在太空岩石上的巴尼，右侧是他与兔子在山坡上仰望发光魔法石的故事画面"
 author:

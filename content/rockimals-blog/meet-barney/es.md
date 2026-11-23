@@ -5,9 +5,9 @@ slug: "conoce-barney-zorro-curioso-gran-viaje"
 title: "Conoce a Barney: el gran viaje de un zorro curioso"
 description: "Conoce a Barney, el zorro curioso de Rockimals. Descubre el comienzo de su aventura ilustrada y tres preguntas para conversar mientras leéis en familia."
 category: "stories-activities"
-published: "2099-01-01T10:00:00Z"
-updated: "2099-01-01T10:00:00Z"
-draft: true
+published: "2026-11-23T10:07:06Z"
+updated: "2026-11-23T10:07:06Z"
+draft: false
 image: "/assets/rockimals-blog/meet-barney/cover.jpg"
 imageAlt: "Barney sobre una roca espacial junto a una escena en la que observa una piedra mágica luminosa desde una colina con un conejo"
 author:

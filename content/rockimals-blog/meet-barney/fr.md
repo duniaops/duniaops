@@ -5,9 +5,9 @@ slug: "rencontrez-barney-renard-grand-voyage"
 title: "Rencontrez Barney : le grand voyage d’un renard curieux"
 description: "Découvrez Barney, le renard curieux de Rockimals. Explorez le début de son aventure illustrée et trois questions à partager pendant une lecture en famille."
 category: "stories-activities"
-published: "2099-01-01T10:00:00Z"
-updated: "2099-01-01T10:00:00Z"
-draft: true
+published: "2026-11-23T10:07:06Z"
+updated: "2026-11-23T10:07:06Z"
+draft: false
 image: "/assets/rockimals-blog/meet-barney/cover.jpg"
 imageAlt: "Barney sur un rocher spatial, à côté d’une scène où il observe une pierre magique lumineuse depuis une colline avec un lapin"
 author:
