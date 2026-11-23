@@ -1,6 +1,6 @@
 # Organic Growth Week 09 — Day-60 Production Gate
 
-**Status:** Late Day-60 decision retains explicit exceptions. Fresh 20 Nov closes W07 28-date and 9 Nov revision 7-date coverage; origin-tag 6/7-date retry 23 Nov. W06/W08 original coverage and owner-confirmed VoiceOver remain closed. W05 unknown/W08 stored enhancement and actual production delivery exceptions remain; no blanket gate PASS. Week 11 Friday assessment and fresh bounded reconciliation recorded in 014/018; no new publication/deploy.
+**Status:** Late Day-60 review retains exceptions. 23 Nov closes origin-tag seven-date coverage; technical/cache intended ranges ending 23 Nov remain PARTIAL, retry 27 Nov. Closed original coverage/owner-confirmed VoiceOver remain closed. W05 discovery/W08 stored enhancement and actual delivery/qualification remain exceptions; no blanket gate PASS. Week 12 execution in 015/018.
 **Type:** Programme Gate / Measurement / Recovery
 **Priority:** P1
 **Scheduled:** 2–8 November 2026; execution Day 60 is 5 November.
@@ -175,3 +175,10 @@ This is a **separate shared cache revision**, not a new asset, original W08 publ
 Codex completed fresh W07 **20 Oct–16 Nov** 28-date coverage and separate 9 Nov **10–16 Nov** seven-date coverage; exact page results and boundaries in 018. Origin-tag **13–19 Nov** stays **PARTIAL (actual 13–18 Nov, 6/7)**, Codex **23 Nov**. Closed W06/W08 original coverage and owner-confirmed VoiceOver remain closed. Fresh W05 URL unknown and W08 stored 2 Nov breadcrumb issues persist; checklist Google sitemap field Temporary processing error while public sitemap passes, cause/recrawl NOT VERIFIED, Codex **23 Nov** without requests.
 
 Fresh bounded GA4/private reconciliation, 14-URL live audit and seven desktop/mobile pre-submission walks completed. Four Week 11 deliverables DONE within scope; private classification NOT DONE and actual acknowledgement/end-to-end delivery criteria NOT VERIFIED (014). Cache release is already complete, current shared runtime has separately changed for Lumo and matching hash verified (018). No blanket Day-60/programme PASS, repeat publication approval, new form, message, private write or deployment.
+
+
+### Week 12 gate-exception follow-through — 23 November 2026
+
+Codex closed origin-tag **13–19 Nov** coverage (7/7; W08 both 0/0); technical/link **10–23 Nov** and cache **17–23 Nov** remain PARTIAL at GSC **21 Nov** and GA4 **22 Nov** independent boundaries, exact subsets/filters in 018. **Codex 27 Nov** retries intended ranges. Closed W06/W07/original W08 coverage and Ibrahim-confirmed VoiceOver remain closed. W05 still URL unknown; W08 per-URL invalid Breadcrumbs remain from 2 Nov, so aggregate 0 invalid does not close recrawl. Cause/Google reprocessing NOT VERIFIED, **27 Nov** read-only recheck.
+
+Fresh 15-URL HTTP/canonical/robots/sitemap audit, restricted reconciliation and bounded local regressions completed; private qualification remains NOT DONE/Ibrahim-owned, actual production delivery NOT VERIFIED, no blanket gate PASS or submission. Week 12 Lumo proof already published; social preparation and bounded authority evidence in 015/distribution brief. Original W08 **26/retry 27 Nov**, Lumo and all later revision/tail dates retained. No new article, deployment, message, private write or Google request.

@@ -1,6 +1,6 @@
 # Organic Growth Week 10 — Indexation and Search-Result Optimisation
 
-**Status:** Week 10 delivery remains closed; 20 Nov verifies 9 Nov technical/link 10–16 Nov full daily coverage DONE, 7/7 dates (W08 0/0 impressions, parent 6, cost guide 0; all zero clicks). Separate origin-tag 13–19 Nov remains 6/7, retry 23 Nov. W05 URL unknown and W08 stored enhancement issues persist, Codex 23 Nov. 16 Nov cache release remains complete; current live content-hash key follows separate Lumo consent change. No new title/article/deploy or actual-delivery certification.
+**Status:** Week 10 delivery closed. 23 Nov origin-tag 13–19 Nov coverage DONE (7/7); technical/link 10–23 Nov PARTIAL, GSC 10–21 (12/14), GA4 10–22 (13/14), retry 27 Nov. W05 discovery/W08 stored enhancement remain NOT VERIFIED, same retry. No snippet rewrite, new article, deployment or delivery certification.
 **Type:** Technical SEO / Content Optimisation
 **Priority:** P1
 **Scheduled:** 9–15 November 2026
@@ -194,3 +194,10 @@ This is a **separate shared cache revision**, not a new asset, original W08 publ
 Fresh GSC exact www canonical/Web/daily/all countries/devices/no query filter, freshness **3.5h**, standard boundary **18 Nov**: intended **10–16 Nov DONE, 7/7 dates**. Proof/checklist **0/0 impressions/clicks/no meaningful rate/rank**; Custom Software **6 impressions / 0 clicks / 0% / position 73.3**; existing linked cost guide **0/0/no rank**. This closes the 16 Nov 5/7-date attempt; original assets and 9 Nov actual release remain distinct, with 12/16 Nov mid-window measurement annotations. Next **10–23 Nov → 23/retry 27 Nov**, **10 Nov–7 Dec → 7/retry 11 Dec**.
 
 Separate origin-tag **13–19 Nov** is **PARTIAL, 6/7 dates through 18 Nov**, Codex retries **23 Nov**. W05 URL unknown/W08 stored issues remain, no Google request. The 16 Nov approved cache fix is live and is not awaiting redeployment; current script key **ec2b5da81a16** reflects separate Lumo consent-copy revision, validated in 018. Actual delivery NOT VERIFIED, VoiceOver owner-confirmed DONE. No new W04-B metric read, title rewrite, article, source change or deployment.
+
+
+### Monday technical/link observation — 23 November 2026
+
+Intended **10–23 Nov** is retained. Fresh GSC exact www canonical/Web/daily/all countries/devices/no query filter has explicit actual **10–21 Nov, 12/14 PARTIAL**, standard boundary 21 Nov/freshness 4–4.5h. Proof/checklist/cost guide 0 impressions/0 clicks/no meaningful rate/rank; Custom Software **19/0/0%/26.3**. Independent GA4 property-level actual **10–22 Nov, 13/14 PARTIAL**: 31 sessions/21 engaged/132 all events/0 generate_lead; Google organic 3/3/0. Not a per-page or intervention result. **Codex 27 Nov** repeats the unchanged intended range; 12/16/19 Nov shared-runtime caveats apply. Original clocks are not reset.
+
+Origin-tag **13–19 Nov DONE, 7/7**, both W08 0/0, closes its earlier partial. W05 remains URL unknown; W08 both indexed/invalid Breadcrumbs from 2 Nov, proof sitemap processing flag and checklist sitemap now listed. Overview 0 invalid is insufficient per-URL recrawl evidence. Fresh public sitemap/core-plus-Lumo audit passes, root cause/reprocessing NOT VERIFIED, **Codex 27 Nov** without requests. Canonical account/live/source limitations in 018, Week 12 actions in 015; no title rewrite or new site change.

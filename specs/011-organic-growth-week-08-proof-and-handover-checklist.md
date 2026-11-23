@@ -1,6 +1,6 @@
 # Organic Growth Week 08 — First Proof and Handover Checklist
 
-**Status:** Production, original 14-date coverage and Ibrahim-confirmed VoiceOver remain DONE. Fresh 20 Nov technical-revision 10–16 Nov range DONE (7/7; both W08 pages 0 impressions/clicks). Separate origin-tag 13–19 Nov is PARTIAL (13–18 Nov, 6/7), Codex 23 Nov. Both indexed with stored 2 Nov invalid breadcrumb items; checklist sitemap field Temporary processing error, public sitemap passes. Post-fix recrawl and actual delivery NOT VERIFIED. Original 28-date observation 26/retry 27 Nov; no new asset or deploy.
+**Status:** Production, original 14-date coverage and Ibrahim-confirmed VoiceOver remain DONE. 23 Nov origin-tag 13–19 Nov DONE (7/7, both 0/0); technical/cache periods ending 23 Nov PARTIAL, retry 27 Nov. Both indexed with stored 2 Nov invalid breadcrumbs; proof sitemap processing flag/checklist sitemap listed. Post-fix recrawl/delivery NOT VERIFIED. Original 28-date check 26/retry 27 Nov.
 **Type:** Proof Page / Linkable Resource
 **Priority:** P1
 **Scheduled:** 26 October–1 November 2026
@@ -202,3 +202,12 @@ Fresh exact-page GSC Web/daily, standard boundary **18 Nov**, freshness **3.5h**
 Both fresh stored inspections remain indexed/one invalid breadcrumb, smartphone crawls proof **2 Nov 20:01:06**, checklist **2 Nov 19:54:13**, successful/allowed/self-canonical selected. Checklist sitemap field now Temporary processing error; public 14-URL sitemap/canonical audit passes. Post-fix Google reprocessing **NOT VERIFIED, Codex 23 Nov**, no requests. Seven live pre-submission CTA walks at 1280/390 and form visuals 320 px pass, current matching script **ec2b5da81a16** reflects separate Lumo consent localisation (018), not a new W08 publication.
 
 VoiceOver remains **DONE — Ibrahim-confirmed 10 Nov**, not retried. Actual production delivery **NOT VERIFIED**, no test form or notification evidence. Spec 014 has explicit Friday acceptance assessment; 018 canonical reads/limits; 003/019 current tracking. No new asset, source edit or deployment today.
+
+
+### Monday revision / Google follow-through — 23 November 2026
+
+Origin-tag intended **13–19 Nov now DONE, 7/7**, exact www pages/Web/daily/no query filter, both 0 impressions/0 clicks/no meaningful rate or rank, standard GSC boundary **21 Nov**, morning freshness **4–4.5h**. Technical/link intended **10–23 Nov PARTIAL**, actual **10–21 Nov, 12/14**; cache intended **17–23 Nov PARTIAL**, actual **17–21 Nov, 5/7**; both W08 pages 0/0 in each subset. The intended ranges are unchanged, **Codex retry 27 Nov**. Independent property-level GA4 subsets and limits are in 018; no W08 delivery/lead claim.
+
+Fresh **10:17–10:20** stored Index reads: both still indexed/one invalid Breadcrumbs, successful smartphone crawls **2 Nov 20:01:06 / 19:54:13**, allowed/self-canonical selected. Proof sitemap field now Temporary processing error; checklist sitemap/referrer now lists the corporate sitemap, superseding 20 Nov's field without a new crawl. Overview 13 valid/0 invalid is not a per-URL recrawl. Public sitemap/15-URL audit passes; cause/reprocessing NOT VERIFIED, **Codex 27 Nov**, no request. Source paths, first-live 29 Oct, 9/12/16 Nov annotations remain separate.
+
+Original **30 Oct–26 Nov → 26/retry 27 Nov, then 30 Nov if delayed** remains future. VoiceOver DONE by Ibrahim's 10 Nov confirmation, not reopened. Actual production delivery NOT VERIFIED, no form submitted. Analytics/cache and five breadcrumb regressions freshly PASS; no new visual or full-suite claim. Spec 015 Monday record, 018 canonical evidence and 003/019 updated together; no new asset or deployment.
