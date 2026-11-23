@@ -109,7 +109,7 @@ ${alternateLinks()}
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Geist:wght@400..800&amp;display=swap" rel="stylesheet">
-<link rel="stylesheet" href="/css/lumo.css?v=20261119-12">
+<link rel="stylesheet" href="/css/lumo.css?v=20261123-1">
 <script src="/js/lumo.js?v=20261119-6" defer></script>
 </head>
 <body>
@@ -178,7 +178,7 @@ for (const code of ['en', 'tr']) {
     assert.match(html, fallback);
     let updated = html.replace(fallback, languagePicker(code, page))
       .replace(/<link rel="alternate" hreflang="en"[^>]*>\n<link rel="alternate" hreflang="tr"[^>]*>\n<link rel="alternate" hreflang="x-default"[^>]*>/, alternateLinks(page))
-      .replace('lumo.css?v=20261119-8', 'lumo.css?v=20261119-12')
+      .replace('lumo.css?v=20261119-8', 'lumo.css?v=20261123-1')
       .replace('lumo.js?v=20261119-4', 'lumo.js?v=20261119-6');
     if (!page) {
       assert.ok(html.includes(iosStore), `Missing iOS App Store link: ${code}`);
