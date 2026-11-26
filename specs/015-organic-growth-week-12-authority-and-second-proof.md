@@ -1,6 +1,6 @@
 # Organic Growth Week 12 — Authority and Second Proof
 
-**Status:** In progress — Monday 23 Nov execution recorded; Lumo proof/links and LinkedIn copy preparation DONE. Bounded public authority audit PARTIAL; target/review preparation owned by Codex 27 Nov. Due source reads completed within available dates, honest technical/cache PARTIAL retries 27 Nov. No new publication or external message.
+**Status:** In progress — 26 Nov original W08 checkpoint executed, source-incomplete: GSC 26/28 and GA4 property context 27/28, retry 27 Nov / 30 Nov. Lumo proof/links and LinkedIn preparation DONE. Authority/eligible-target/review preparation and Friday assessment remain Codex 27 Nov; no new publication or external message.
 **Type:** Proof / Distribution / Authority
 **Priority:** P1
 **Scheduled:** 23–29 November 2026
@@ -147,3 +147,12 @@ Acceptance: ownership/approved naming/previous article validation remain DONE wi
 **Validation / boundaries:** fresh analytics/cache regression check and five breadcrumb regressions PASS; no source change, new full npm/visual/VoiceOver certificate, production form, indexing request, outreach, private write or deployment. Separate 23 Nov Rockimals production is dated in 018, not attributed to this run. Documentation consistency/privacy/link checks and git diff --check precede explicit-path [skip netlify] commit/push. Existing single automation's run-integrity guard was saved after the wrong-output diagnosis; current evidence prompt is reconciled without changing schedule/end/target. No unchanged fit/delivery approval question is repeated.
 
 **23 Nov final record validation:** document consistency, new local links, privacy-marker review, fixed-range coverage assertions and `git diff --check` PASS. Existing single automation's current prompt/ACTIVE status, unchanged schedule/end and target read back and matched. Git fetch verifies origin/main at the same pre-commit source; explicit task-only documentation staging and normal push follow, with no source build/deploy.
+
+
+### Thursday W08 checkpoint — 26 November 2026
+
+**Week 12 / Day 81**, optimisation. Codex performed the existing dated **30 Oct–26 Nov** observation at **09:00–09:03 GMT**. GSC actual **30 Oct–24 Nov**, **26/28 PARTIAL**, standard boundary 24 Nov/freshness 2.5h, Exact URL/Web/daily: W08 proof 0 impressions/0 clicks, checklist 30/0/0%/22.9. Independent GA4 actual **30 Oct–25 Nov**, **27/28 PARTIAL**, source-medium/All Users/daily/100%/selected generate_lead: 44 sessions/28 engaged/191 all events/0 selected leads; property context only, not W08/corporate conversion. Intended range not shortened; **Codex retries 27 Nov, then 30 Nov if delayed**. Complete exact URLs/source paths, original/revision annotations and source limits in 018; 003/011/012/019 updated together.
+
+Fresh bounded W08 HTTP/canonical/noindex/sitemap/analytics-byte audit passes; no site/source/deployment, new full-suite/mobile/VoiceOver certificate, production form, indexing request, message or private-account read/write. Closed owner-confirmed VoiceOver remains DONE; stored Google/private exceptions remain dated. This executes Thursday's observation within available data; it does not close the 28-date cohort or the full week. **27 Nov** authority preparation, technical/cache retries, origin-tag 14-date read, Google/private recheck and actual Friday assessment remain the next existing execution. Existing single automation and end date are unchanged.
+
+**26 Nov documentation validation:** dated-record/date-count/privacy/source-path consistency and `git diff --check` PASS. Six explicit task-related documentation paths only; no source build or production test required/performed for this record update. Normal origin/main publication uses `[skip netlify]`; existing automation schedule/target/end are unchanged.

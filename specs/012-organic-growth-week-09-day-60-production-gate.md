@@ -1,6 +1,6 @@
 # Organic Growth Week 09 — Day-60 Production Gate
 
-**Status:** Late Day-60 review retains exceptions. 23 Nov closes origin-tag seven-date coverage; technical/cache intended ranges ending 23 Nov remain PARTIAL, retry 27 Nov. Closed original coverage/owner-confirmed VoiceOver remain closed. W05 discovery/W08 stored enhancement and actual delivery/qualification remain exceptions; no blanket gate PASS. Week 12 execution in 015/018.
+**Status:** Late Day-60 exceptions remain explicit. 26 Nov original W08 28-date read PARTIAL at GSC 24 Nov (26/28) / GA4 context 25 Nov (27/28), retry Codex 27 Nov / 30 Nov. No blanket gate PASS or fresh qualification/Google reprocessing claim. Existing closed coverage/owner-confirmed VoiceOver and other 27 Nov work unchanged.
 **Type:** Programme Gate / Measurement / Recovery
 **Priority:** P1
 **Scheduled:** 2–8 November 2026; execution Day 60 is 5 November.
@@ -182,3 +182,10 @@ Fresh bounded GA4/private reconciliation, 14-URL live audit and seven desktop/mo
 Codex closed origin-tag **13–19 Nov** coverage (7/7; W08 both 0/0); technical/link **10–23 Nov** and cache **17–23 Nov** remain PARTIAL at GSC **21 Nov** and GA4 **22 Nov** independent boundaries, exact subsets/filters in 018. **Codex 27 Nov** retries intended ranges. Closed W06/W07/original W08 coverage and Ibrahim-confirmed VoiceOver remain closed. W05 still URL unknown; W08 per-URL invalid Breadcrumbs remain from 2 Nov, so aggregate 0 invalid does not close recrawl. Cause/Google reprocessing NOT VERIFIED, **27 Nov** read-only recheck.
 
 Fresh 15-URL HTTP/canonical/robots/sitemap audit, restricted reconciliation and bounded local regressions completed; private qualification remains NOT DONE/Ibrahim-owned, actual production delivery NOT VERIFIED, no blanket gate PASS or submission. Week 12 Lumo proof already published; social preparation and bounded authority evidence in 015/distribution brief. Original W08 **26/retry 27 Nov**, Lumo and all later revision/tail dates retained. No new article, deployment, message, private write or Google request.
+
+
+### Original W08 checkpoint follow-through — 26 November 2026
+
+Scheduled **30 Oct–26 Nov** full-daily cohort attempted by Codex, **09:00–09:03 GMT**. GSC actual **30 Oct–24 Nov, 26/28 PARTIAL**, standard boundary 24 Nov/freshness 2.5h, exact canonical Web/daily: proof 0 impressions/clicks/no rank; checklist 30/0/0%/22.9. Independent GA4 actual **30 Oct–25 Nov, 27/28 PARTIAL** is unfiltered property context, not W08 conversion. Fixed intended range, original/revision annotations and **27 Nov / 30 Nov** retry in 018; 011/015 and master/asset records updated.
+
+Fresh W08 HTTP/canonical/noindex/sitemap/script checks pass within scope. No fresh stored Index/private classification, full npm/visual/VoiceOver or production delivery test; dated exceptions remain for 27 Nov and do not become a gate PASS. No site/content change, production form, indexing request, outreach, private mutation or deployment.

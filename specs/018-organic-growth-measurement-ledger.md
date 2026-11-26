@@ -1,6 +1,6 @@
 # Organic Growth Measurement Ledger
 
-**Status:** Active — 23 Nov Week 12 / Day 78 reads recorded. Origin-tag 13–19 Nov coverage DONE (7/7); technical/link 10–23 Nov and cache 17–23 Nov remain PARTIAL at independent GSC/GA4 boundaries, retry 27 Nov. W05 discovery/W08 stored enhancement and actual-delivery exceptions remain. Lumo original clocks unchanged, first reads 30 Nov / 7 Dec; no new publication or deployment.
+**Status:** Active — 26 Nov W08 original 28-date observation attempted: intended 30 Oct–26 Nov retained; GSC actual 30 Oct–24 Nov (26/28), GA4 context 30 Oct–25 Nov (27/28), both PARTIAL. Codex retries 27 Nov, then 30 Nov if delayed. Other 23 Nov evidence remains dated; no new publication/deployment or fresh qualification claim.
 **Programme owner:** ibrahim uylas
 **Measurement owner:** ibrahim uylas
 **Depends on:** `003-organic-client-acquisition-90-day-program.md`
@@ -956,3 +956,37 @@ Fresh local **npm run check:analytics PASS** (attribution guard plus four cache 
 Monday execution and the operational week plan are in Spec 015. Codex owns profile/eligible-target/review preparation by the next existing **27 Nov** run, **26 Nov** original W08 observation, and **27 Nov** technical/cache retries, origin-tag 14-date read and Friday criterion assessment. No separate Tuesday/Wednesday run is claimed or created. Lumo original **23–29 Nov → 30 Nov/retry 4 Dec**, **23 Nov–6 Dec → 7 Dec/retry 11 Dec** remain NOT DUE. Beyond-tail cache **17 Nov–14 Dec** and Lumo **23 Nov–20 Dec** go into the **11 Dec handover**, Ibrahim owner, proposed 18/21 Dec Codex reads only with separately authorised continuation. Execution end **5 Dec** and verification end **11 Dec** are unchanged. No new article or site-wide title rewrite is supported by these observations.
 
 **23 Nov final record validation:** document consistency, new local links, privacy-marker review, fixed-range coverage assertions and `git diff --check` PASS. Existing single automation's current prompt/ACTIVE status, unchanged schedule/end and target read back and matched. Git fetch verifies origin/main at the same pre-commit source; explicit task-only documentation staging and normal push follow, with no source build/deploy.
+
+
+## 26 November 2026 — W08 original 28-date checkpoint
+
+**Capture / phase / executor:** Thursday **26 Nov 09:00–09:03 GMT**, Europe/London; **Week 12 / Day 81**, optimisation, Spec 015. Codex executes and records; Ibrahim remains programme/asset owner. This is the scheduled original W08 observation, not a refresh of the separate 9/12/16 November revision cohorts or the Lumo article.
+
+**Fixed intended full-daily range: 30 October–26 November, 28 dates. PARTIAL, not complete.** First production remains **29 Oct 14:39:59 GMT**, `4134796` / `6ae35aaf6ef383d164041aec`; same-day visual revision **14:50:21 GMT**, `5a0b0b9` / `6ae35d1d91090e885022637f`. The intended range is not replaced by either source's available subset. It spans the approved **9 Nov breadcrumb/link**, **12 Nov origin-tag**, **16 Nov cache** and later **19 Nov shared analytics consent-copy** changes (the last change's first-live time was not established). No isolated intervention or ranking/lead effect is claimed.
+
+### GSC exact-page observation
+
+Fresh property **sc-domain:duniaops.com**, Performance, **Web (text)**, **Daily**, all countries/devices, no query filter, **Exact URL** for each www canonical. Standard three-month chart ends **24 November**, freshness **2.5 hours**. Attempting intended end 26 November is rejected with **Date can't be after 2026-11-25**. A separately labelled source-complete subset **30 Oct–24 Nov** was selected; both Days reports show **26 rows**, newest **24 Nov**, matching the standard boundary. Missing **25–26 Nov** are not zero observations. A date-picker validation error persisted after typed correction; selecting 24 Nov through the visible calendar cleared it before applying the report.
+
+| Asset / source / exact live URL | Actual captured subset | Coverage | Impressions | Clicks | CTR | Average position |
+|---|---|---|---:|---:|---|---|
+| W08-A, `work/fragmented-application-estate-modernisation.html`; `https://www.duniaops.com/work/fragmented-application-estate-modernisation` | 30 Oct–24 Nov | **PARTIAL, 26/28 intended dates** | 0 | 0 | No meaningful rate | No observed rank |
+| W08-B, `resources/software-project-handover-checklist.html`; `https://www.duniaops.com/resources/software-project-handover-checklist` | 30 Oct–24 Nov | **PARTIAL, 26/28 intended dates** | 30 | 0 | 0% | 22.9 |
+
+These observations do not close the original 28-date cohort or imply qualified enquiries. The earlier complete 14-date and origin-tag seven-date observations remain closed with their own dates. **Codex repeats intended 30 Oct–26 Nov at the existing 27 Nov run; if still source-incomplete, 30 Nov**, without inventing a reminder or shortening the range.
+
+### Independently completed GA4 context
+
+Fresh **DuniaOps – GA4**, Traffic acquisition → **Session source/medium**, All Users, **Daily**, **100% available data**, comparison disabled, selected **generate_lead**. Explicit actual range **30 Oct–25 Nov**, **27/28 intended dates**, latest complete prior calendar day **25 Nov**, independently later than GSC's 24 Nov. Recorded property timezone Europe/London retained; not rechecked in Admin. The current 26 Nov day is incomplete; intended 30 Oct–26 Nov remains PARTIAL, same **27 Nov / 30 Nov** retry rule.
+
+Property totals **44 sessions / 28 engaged / 63.64% engagement / 41s average engagement per session / 191 all events / 0 generate_lead**. Source rows (sessions / engaged / selected generate_lead): direct **33/18/0**, GitHub **4/4/0**, Google organic **3/3/0**, LinkedIn **3/2/0**, loopback QA **1/1/0**. Google organic all events **28**, average engagement **24s**. No hostname or W08 page filter: these totals are explicitly property-level context, not W08 page performance, a new corporate acquisition conclusion, delivered forms or qualified leads. Product, QA/referral and consent effects remain; no event/submission identity join was established.
+
+### Bounded live audit and carry-over
+
+Fresh public GETs **09:03:10–09:03:12 GMT**: both exact W08 URLs return **200**, no redirect, self-canonical, no meta/header noindex and membership in the **HTTP 200 / parseable 51-URL sitemap**. Both reference analytics **ec2b5da81a16**; the public script is HTTP 200 and byte-matches current `js/analytics.js`. These are HTTP/source checks, not fresh visual, mobile, screen-reader, stored Index/enhancement, delivery or full npm-suite evidence. Independent Lumo product CSS/localisation commits **6ac7169 / a56a8c0** observed in local history do not reset W08 source/publication clocks; no source edit or deployment was made by this run.
+
+No new stored Google Index, private-lead reconciliation, rolling programme comparison, authority outreach or full accessibility test was due/read on this bounded checkpoint. Their **23 Nov** (or explicitly earlier) records remain dated, not current account reads; outstanding Google/private/authority work remains **Codex 27 Nov**. VoiceOver stays **DONE from Ibrahim's 10 Nov confirmation**, not reopened. Actual W06/W08 production delivery remains **NOT VERIFIED**; no production submission, notification test, private write, message, indexing/validation request, publication or deployment.
+
+Specs **003/011/012/015/019** updated with this measurement entry. Validation for documentation-only maintenance: dated-record/coverage/privacy/path consistency and `git diff --check`; no fresh full npm or old release-suite reuse claimed. The existing single automation already covers 27/30 Nov retries, all later original/revision/Lumo dates and the 11 Dec handover; schedule, end and prompt need no change. This partial read introduces no new user action or content decision.
+
+**26 Nov documentation validation:** dated-record/date-count/privacy/source-path consistency and `git diff --check` PASS. Six explicit task-related documentation paths only; no source build or production test required/performed for this record update. Normal origin/main publication uses `[skip netlify]`; existing automation schedule/target/end are unchanged.
