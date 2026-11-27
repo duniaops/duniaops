@@ -1,6 +1,6 @@
 # Organic Growth Week 06 — AI Service and Buyer Cluster
 
-**Status:** Production published 13 October; original source/live annotations unchanged. The 12 Nov GSC retry covers all 28 intended dates, 14 Oct–10 Nov: AI service 420 impressions / 0 clicks / 0% CTR / position 75.0; guide 263 / 0 / 0% / 78.7. Date-coverage observation DONE; the 10 Nov partial remains historical. 27 Nov authorised AI acknowledgement/Netlify/GA4 receipt DONE; notification receipt NOT VERIFIED, full chain PARTIAL. Codex owns follow-through; Spec 018 records freshness and caveats.
+**Status:** Production published 13 October; original source/live annotations unchanged. The 12 Nov GSC retry covers all 28 intended dates, 14 Oct–10 Nov: AI service 420 impressions / 0 clicks / 0% CTR / position 75.0; guide 263 / 0 / 0% / 78.7. Date-coverage observation DONE; the 10 Nov partial remains historical. 27 Nov authorised AI acknowledgement/Netlify/GA4 receipt DONE; notification receipt DONE by Ibrahim's 27 Nov confirmation; three-route end-to-end check DONE. Codex owns follow-through; Spec 018 records freshness and caveats.
 **Type:** Commercial Optimisation / Blog Article
 **Priority:** P1
 **Scheduled:** 12–18 October 2026
@@ -152,3 +152,8 @@ VoiceOver remains **DONE by Ibrahim’s 10 Nov confirmation**, with no retry. Fr
 ### 27 November — authorised AI production test
 
 Codex followed the live AI service CTA, then added the supported measurement_test=1 marker and submitted one owner-authorised synthetic test. Retained timestamp 11:50:57.758 GMT; actual thank-you acknowledgement, Netlify ai/ai + test_submission=true + project_enquiry_v2 retention, and GA4 Realtime generate_lead with ai origin/service are DONE. Notification receipt is NOT VERIFIED because the configured target mailbox is not the available mailbox; the full delivery chain is PARTIAL. No qualified lead, publication/revision or cohort reset. See the canonical [27 Nov authorised-test record in 018](018-organic-growth-measurement-ledger.md). Codex follows up read-only 30 Nov; Ibrahim supplies target-mailbox receipt evidence if needed. No repeat test or deployment.
+
+
+### 27 November 13:58 GMT — owner-confirmed notification closure
+
+Ibrahim explicitly confirmed that all three controlled-test notifications arrived in the configured info mailbox and requested closure. Notification receipt is **DONE — owner-confirmed**; the AI end-to-end delivery check is **DONE**, combining this confirmation with Codex's earlier actual acknowledgement, Netlify retention and GA4 receipt. Recording time 13:58 GMT is not an email-arrival timestamp. No independent agent mailbox read is claimed. The earlier NOT VERIFIED/PARTIAL record is superseded within this test scope; see [018](018-organic-growth-measurement-ledger.md) for the final component/evidence matrix. Cancel the 30 Nov notification/access follow-up and do not repeat tests or the receipt question. Keep 30 Nov read-only private reconciliation, synthetic-test exclusion, other programme exceptions and all original/revision/cohort dates. No new account read, private write, source change or deployment in this closure.

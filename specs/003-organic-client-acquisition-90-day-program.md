@@ -1,6 +1,6 @@
 # DuniaOps 90 Günlük Organik Müşteri Kazanım Programı
 
-**Status:** Active — Week 12 / Day 82 Friday assessed 27 Nov. Technical/link 10–23 Nov and cache 17–23 Nov coverage DONE; original W08 GSC 27/28 and origin-tag GSC 13/14 remain PARTIAL, retry Codex 30 Nov. Four Week 12 deliverables DONE within scope, profile/eligible-review criteria NOT VERIFIED; no blanket PASS/new content/deployment. Later approved three-route acknowledgement/Netlify/GA4 receipt DONE; notification receipt NOT VERIFIED, full chain PARTIAL.
+**Status:** Active — Week 12 / Day 82 Friday assessed 27 Nov. Technical/link 10–23 Nov and cache 17–23 Nov coverage DONE; original W08 GSC 27/28 and origin-tag GSC 13/14 remain PARTIAL, retry Codex 30 Nov. Four Week 12 deliverables DONE within scope, profile/eligible-review criteria NOT VERIFIED; no blanket PASS/new content/deployment. Later approved three-route acknowledgement/Netlify/GA4 receipt DONE; notification receipt DONE by Ibrahim's 27 Nov confirmation; three-route end-to-end check DONE.
 **Type:** Programme
 **Priority:** P1
 **Period:** 7 September–5 December 2026 (90 execution days); complete-data verification 11 December 2026.
@@ -622,3 +622,8 @@ Next **30 Nov**, Codex starts Spec 016 with W08/origin GSC retries, Lumo **23–
 ### 27 Kasım — onaylı canlı form testleri
 
 Ibrahim canlı testleri açıkça onayladı; Codex AI (`ai/ai`), W08 vaka (`rescue/proof`) ve checklist (`rescue/handover_checklist`) yollarından birer işaretli test gönderdi. 11:50:57 / 11:53:55 / 11:54:10 GMT saklama zamanları: üç teşekkür ekranı, üç Netlify kaydı ve doğru kaynak/hizmet/test etiketleriyle üç GA4 generate_lead **DONE**. Bildirimin ayarlı hedef posta kutusuna ulaştığı **NOT VERIFIED**; uçtan uca zincir **PARTIAL**. Sadece hedef kutudaki üç bildirim için dar kanıt sorusu soruldu; Codex mevcut 30 Kasım çalıştırmasında takip eder, yeni test göndermez. Özel Sheet bu sonraki çalıştırmada okunmadı/yazılmadı: sabahki 5 test/1 açık kayıt tarihsel; Netlify artık 8 bilinen test ve 1 önceki test olmayan kayıt içeriyor. Yeni qualified lead iddiası yok. Tam yöntem, kaynak yolları/URL’ler, GA4 grain/filtre/sınırlar ve kalan bağımlılık [018](018-organic-growth-measurement-ledger.md) içinde. Yayın, deployment, içerik veya gözlem tarihleri değişmedi.
+
+
+### 27 Kasım 13:58 GMT — bildirim onayı ve uçtan uca kontrolün kapanışı
+
+Ibrahim üç test bildiriminin de info kutusuna geldiğini açıkça doğrulayıp kapatılmasını istedi. Bildirim **DONE — sahibi doğruladı**; AI, vaka ve checklist için teşekkür ekranı → Netlify kaydı → GA4 alımı → bildirim zinciri **DONE**. Önceki NOT VERIFIED/PARTIAL kaydı tarihsel; e-posta kutusu ajan tarafından bağımsız okunmuş sayılmaz ve kesin e-posta varış saati uydurulmaz. [018](018-organic-growth-measurement-ledger.md) kanıt türlerini ayırır. 30 Kasım bildirim/erişim takibi iptal; yeni form testi yok. Aynı günkü rutin özel-defter uzlaştırması ve diğer açık program işleri korunur. Bu kapanışta yeni hesap okuması, özel veri değişikliği veya yayın yok.

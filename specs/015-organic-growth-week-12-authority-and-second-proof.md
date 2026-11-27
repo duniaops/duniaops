@@ -1,6 +1,6 @@
 # Organic Growth Week 12 — Authority and Second Proof
 
-**Status:** Friday 27 Nov assessed with explicit carry-over: D1/D2/D4/D6 DONE within scope; D3/D5 NOT VERIFIED. A1/A2/A3/A5/A6 DONE within stated limits; A4 NOT VERIFIED for external execution. Technical/link 14-date and cache 7-date coverage closed; original W08/origin14 GSC partials retry 30 Nov. No new article/deployment or outreach send. Later approved three-route acknowledgement/Netlify/GA4 receipt DONE; notification receipt NOT VERIFIED, full chain PARTIAL.
+**Status:** Friday 27 Nov assessed with explicit carry-over: D1/D2/D4/D6 DONE within scope; D3/D5 NOT VERIFIED. A1/A2/A3/A5/A6 DONE within stated limits; A4 NOT VERIFIED for external execution. Technical/link 14-date and cache 7-date coverage closed; original W08/origin14 GSC partials retry 30 Nov. No new article/deployment or outreach send. Later approved three-route acknowledgement/Netlify/GA4 receipt DONE; notification receipt DONE by Ibrahim's 27 Nov confirmation; three-route end-to-end check DONE.
 **Type:** Proof / Distribution / Authority
 **Priority:** P1
 **Scheduled:** 23–29 November 2026
@@ -195,3 +195,11 @@ Ibrahim subsequently approved controlled live tests; this is separate from the 0
 
 
 **Later authorised-test documentation validation:** dated three-route outcomes, component-level PARTIAL disposition, owner/30 Nov follow-up, new local links and privacy-marker checks PASS; `git diff --check` PASS. The existing single automation prompt was updated/read back with the narrower delivery state and spent test authority; ACTIVE, schedule/end and target unchanged. No fresh full npm/build claim or site deployment.
+
+
+### 27 November 13:58 GMT — owner-confirmed notification closure
+
+Ibrahim explicitly confirmed that all three controlled-test notifications arrived in the configured info mailbox and requested closure. Notification receipt is **DONE — owner-confirmed**; the AI/proof/checklist end-to-end delivery check is **DONE**, combining this confirmation with Codex's earlier actual acknowledgement, Netlify retention and GA4 receipt. Recording time 13:58 GMT is not an email-arrival timestamp. No independent agent mailbox read is claimed. The earlier NOT VERIFIED/PARTIAL record is superseded within this test scope; see [018](018-organic-growth-measurement-ledger.md) for the final component/evidence matrix. Cancel the 30 Nov notification/access follow-up and do not repeat tests or the receipt question. Keep 30 Nov read-only private reconciliation, synthetic-test exclusion, other programme exceptions and all original/revision/cohort dates. No new account read, private write, source change or deployment in this closure.
+
+
+**Closure validation:** nine-record status/provenance/follow-up consistency, new local links, privacy-marker review and `git diff --check` PASS. Existing automation closure prompt read back correctly; ACTIVE status, schedule/end and target unchanged. Documentation-only change; no fresh account read, form submission, full npm/build or deployment.

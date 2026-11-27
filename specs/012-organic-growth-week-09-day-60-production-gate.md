@@ -1,6 +1,6 @@
 # Organic Growth Week 09 — Day-60 Production Gate
 
-**Status:** 27 Nov technical/link 14-date and cache seven-date coverage closed; original W08 27/28 and origin-tag 13/14 GSC PARTIAL, Codex 30 Nov. Google/private exceptions remain; approved three-route acknowledgement/retention/GA4 DONE, notification receipt NOT VERIFIED; no blanket gate PASS. Friday assessment in 015/018.
+**Status:** 27 Nov technical/link 14-date and cache seven-date coverage closed; original W08 27/28 and origin-tag 13/14 GSC PARTIAL, Codex 30 Nov. Google/private exceptions remain; approved three-route end-to-end check DONE, notification receipt Ibrahim-confirmed 27 Nov; no blanket gate PASS. Friday assessment in 015/018.
 **Type:** Programme Gate / Measurement / Recovery
 **Priority:** P1
 **Scheduled:** 2–8 November 2026; execution Day 60 is 5 November.
@@ -200,3 +200,8 @@ Fresh W05 URL unknown/W08 stored 2 Nov invalid Breadcrumbs persist, now both sit
 ### 27 November — conversion exception narrowed by approved live tests
 
 Explicit approval enabled one controlled production test for AI, W08 proof and W08 checklist. Real acknowledgement, retained Netlify records and GA4 Realtime receipt with correct service/origin/test labels are DONE for those three routes. Notification receipt remains NOT VERIFIED, so end-to-end delivery is PARTIAL and the whole Day-60 gate is not certified PASS. The [018 canonical record](018-organic-growth-measurement-ledger.md) contains exact 11:50–11:58 GMT evidence and limits. Codex follows up read-only 30 Nov, without repeated tests; Ibrahim supplies target-mailbox receipt evidence if inaccessible. Three new known tests are excluded from qualification, private Sheet unchanged. Existing GSC/Google/client-fit/authority carry-over, owner-confirmed VoiceOver and all publication/revision clocks remain intact.
+
+
+### 27 November 13:58 GMT — owner-confirmed notification closure
+
+Ibrahim explicitly confirmed that all three controlled-test notifications arrived in the configured info mailbox and requested closure. Notification receipt is **DONE — owner-confirmed**; the AI/proof/checklist end-to-end delivery check is **DONE**, combining this confirmation with Codex's earlier actual acknowledgement, Netlify retention and GA4 receipt. Recording time 13:58 GMT is not an email-arrival timestamp. No independent agent mailbox read is claimed. The earlier NOT VERIFIED/PARTIAL record is superseded within this test scope; see [018](018-organic-growth-measurement-ledger.md) for the final component/evidence matrix. Cancel the 30 Nov notification/access follow-up and do not repeat tests or the receipt question. Keep 30 Nov read-only private reconciliation, synthetic-test exclusion, other programme exceptions and all original/revision/cohort dates. No new account read, private write, source change or deployment in this closure.

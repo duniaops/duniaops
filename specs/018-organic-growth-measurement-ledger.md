@@ -1,6 +1,6 @@
 # Organic Growth Measurement Ledger
 
-**Status:** Active — 27 Nov Friday review: technical/link 10–23 Nov DONE (14/14) and cache 17–23 Nov DONE (7/7), GSC/GA4 coverage. W08 original 30 Oct–26 Nov GSC remains PARTIAL 27/28, origin-tag 13–26 Nov GSC PARTIAL 13/14; retry 30 Nov. Later explicitly authorised AI/proof/checklist tests: acknowledgement, retained submission and GA4 receipt DONE; notification receipt NOT VERIFIED. No site change.
+**Status:** Active — 27 Nov Friday review: technical/link 10–23 Nov DONE (14/14) and cache 17–23 Nov DONE (7/7), GSC/GA4 coverage. W08 original 30 Oct–26 Nov GSC remains PARTIAL 27/28, origin-tag 13–26 Nov GSC PARTIAL 13/14; retry 30 Nov. Later explicitly authorised AI/proof/checklist tests: end-to-end check DONE; acknowledgement/retention/GA4 agent-observed, notification receipt Ibrahim-confirmed. No site change.
 **Programme owner:** ibrahim uylas
 **Measurement owner:** ibrahim uylas
 **Depends on:** `003-organic-client-acquisition-90-day-program.md`
@@ -1098,3 +1098,21 @@ Original publication/revision timestamps, owner Ibrahim, source paths, live URLs
 
 
 **Later authorised-test documentation validation:** dated three-route outcomes, component-level PARTIAL disposition, owner/30 Nov follow-up, new local links and privacy-marker checks PASS; `git diff --check` PASS. The existing single automation prompt was updated/read back with the narrower delivery state and spent test authority; ACTIVE, schedule/end and target unchanged. No fresh full npm/build claim or site deployment.
+
+
+## Notification closure — owner confirmation, 27 November 2026
+
+Ibrahim explicitly reported in chat: **“Üç bildirim de info kutusuna geldi, kalan kontrolü de kapatabilirsin.”** Codex recorded this confirmation at **13:58 GMT, 27 Nov**; this is the recording time, not an invented email-arrival timestamp. Notification receipt for the three AI/proof/checklist controlled tests is **DONE — owner-confirmed**. The earlier mailbox-access/scope limits are historical and do not block this accepted evidence; no independent agent mailbox verification, email header inspection or exact arrival time is claimed.
+
+| Component, limited to the three 27 Nov controlled tests | Final disposition / evidence |
+|---|---|
+| Actual production acknowledgement | **DONE** — Codex-observed submission redirects/thank-you screens, 11:50–11:54 GMT |
+| Retained form record and test/service/origin fields | **DONE** — fresh Netlify reads recorded above |
+| Consented GA4 event receipt and controlled labels | **DONE** — fresh Realtime drilldowns recorded above |
+| Configured notification mailbox receipt | **DONE — Ibrahim-confirmed**, explicit report that all three arrived |
+| Complete three-route end-to-end check | **DONE**, combining agent-observed components with owner-confirmed notification receipt |
+
+Close the notification exception and cancel its **30 Nov receipt/access follow-up**. Do not ask again, reconnect mail, change settings or send further test forms for this completed check unless a new evidenced regression justifies a separately authorised action. The **30 Nov read-only private reconciliation remains scheduled**: the three synthetic records still need to be distinguished from the earlier Sheet snapshot; no private write or new account read occurred in this closure. Tests remain excluded from business lead qualification. This closes only the stated AI/proof/checklist delivery check, not the whole programme/Day-60 gate, unrelated services, Google/cohort/authority/client-fit exceptions or a new accessibility certificate. Publication/revision/observation dates remain unchanged.
+
+
+**Closure validation:** nine-record status/provenance/follow-up consistency, new local links, privacy-marker review and `git diff --check` PASS. Existing automation closure prompt read back correctly; ACTIVE status, schedule/end and target unchanged. Documentation-only change; no fresh account read, form submission, full npm/build or deployment.
