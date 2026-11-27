@@ -1,6 +1,6 @@
 # Organic Growth Week 09 — Day-60 Production Gate
 
-**Status:** Late Day-60 exceptions remain explicit. 26 Nov original W08 28-date read PARTIAL at GSC 24 Nov (26/28) / GA4 context 25 Nov (27/28), retry Codex 27 Nov / 30 Nov. No blanket gate PASS or fresh qualification/Google reprocessing claim. Existing closed coverage/owner-confirmed VoiceOver and other 27 Nov work unchanged.
+**Status:** 27 Nov technical/link 14-date and cache seven-date coverage closed; original W08 27/28 and origin-tag 13/14 GSC PARTIAL, Codex 30 Nov. Google/private/delivery exceptions remain; no blanket gate PASS. Friday assessment in 015/018.
 **Type:** Programme Gate / Measurement / Recovery
 **Priority:** P1
 **Scheduled:** 2–8 November 2026; execution Day 60 is 5 November.
@@ -189,3 +189,9 @@ Fresh 15-URL HTTP/canonical/robots/sitemap audit, restricted reconciliation and 
 Scheduled **30 Oct–26 Nov** full-daily cohort attempted by Codex, **09:00–09:03 GMT**. GSC actual **30 Oct–24 Nov, 26/28 PARTIAL**, standard boundary 24 Nov/freshness 2.5h, exact canonical Web/daily: proof 0 impressions/clicks/no rank; checklist 30/0/0%/22.9. Independent GA4 actual **30 Oct–25 Nov, 27/28 PARTIAL** is unfiltered property context, not W08 conversion. Fixed intended range, original/revision annotations and **27 Nov / 30 Nov** retry in 018; 011/015 and master/asset records updated.
 
 Fresh W08 HTTP/canonical/noindex/sitemap/script checks pass within scope. No fresh stored Index/private classification, full npm/visual/VoiceOver or production delivery test; dated exceptions remain for 27 Nov and do not become a gate PASS. No site/content change, production form, indexing request, outreach, private mutation or deployment.
+
+### Week 12 Friday gate-exception follow-through — 27 November 2026
+
+Codex closed technical/link **10–23 Nov, 14/14** and cache **17–23 Nov, 7/7** source coverage. Original W08 **30 Oct–26 Nov** GSC remains **27/28 PARTIAL** and origin-tag **13–26 Nov** remains **13/14 PARTIAL**, both actual through 25 Nov, retry unchanged **30 Nov**. Independent GA4 through 26 Nov covers full intended calendar ranges, not missing GSC dates. Closed earlier cohorts and owner-confirmed VoiceOver remain closed; canonical filters, captures and limits in 018.
+
+Fresh W05 URL unknown/W08 stored 2 Nov invalid Breadcrumbs persist, now both sitemap processing flags. Submitted sitemap Success/read 23 Nov/51 pages matches fresh public 51; recrawl/cause NOT VERIFIED. Fresh private reconciliation unchanged; qualification NOT DONE/Ibrahim-owned, actual delivery NOT VERIFIED. No test authority, form, private write, contact or Google request. Fresh 15-URL HTTP/hash and bounded regressions PASS, no new full-suite/visual certificate. Spec 015 assesses all Friday criteria with explicit exceptions, no gate/programme PASS. Next Google/private/cohort/authority work **Codex 30 Nov**, no new article/deployment.

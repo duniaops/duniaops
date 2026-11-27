@@ -1,10 +1,10 @@
 # Organic Growth Measurement Ledger
 
-**Status:** Active — 26 Nov W08 original 28-date observation attempted: intended 30 Oct–26 Nov retained; GSC actual 30 Oct–24 Nov (26/28), GA4 context 30 Oct–25 Nov (27/28), both PARTIAL. Codex retries 27 Nov, then 30 Nov if delayed. Other 23 Nov evidence remains dated; no new publication/deployment or fresh qualification claim.
+**Status:** Active — 27 Nov Friday review: technical/link 10–23 Nov DONE (14/14) and cache 17–23 Nov DONE (7/7), GSC/GA4 coverage. W08 original 30 Oct–26 Nov GSC remains PARTIAL 27/28, origin-tag 13–26 Nov GSC PARTIAL 13/14; GA4 context covers each full intended range. Retry only remaining source gaps 30 Nov. Friday authority/qualification/delivery exceptions explicit; no new site change.
 **Programme owner:** ibrahim uylas
 **Measurement owner:** ibrahim uylas
 **Depends on:** `003-organic-client-acquisition-90-day-program.md`
-**Day-30 capture:** 9 October 2026 (GSC through 6 October; GA4 through 8 October). **Day-60 late review:** 9 November, with exceptions. **Next observations:** W06 coverage closed 12 Nov, W08 14-date closed 16 Nov, W07 28-date and technical/link first-seven-date closed 20 Nov, origin-tag first-seven-date closed 23 Nov. W08 original 28-date 26 Nov/retry 27 Nov; technical/cache partial and origin-tag 14-date reads 27 Nov. Day 90 remains 5 Dec with complete-data verification 11 Dec. Use source-specific cut-offs and separate page-age cohorts.
+**Day-30 capture:** 9 October 2026 (GSC through 6 October; GA4 through 8 October). **Day-60 late review:** 9 November, with exceptions. **Next observations:** closed W06/W07/W0814/origin7 and technical7/14/cache7 coverage stay closed. W08 original 28-date and origin-tag 14-date GSC retries 30 Nov; Lumo first-seven-date and cache 14-date reads 30 Nov/retry 4 Dec. Execution Day 90 is 5 Dec; verification tail ends 11 Dec. Use independent source boundaries and fixed intended windows.
 
 This is the durable measurement contract for the organic client-acquisition programme. It records definitions, source precedence, comparable date windows, data-quality limits and decisions. It must never contain a prospect's name, email address, company, enquiry text or another direct identifier.
 
@@ -990,3 +990,87 @@ No new stored Google Index, private-lead reconciliation, rolling programme compa
 Specs **003/011/012/015/019** updated with this measurement entry. Validation for documentation-only maintenance: dated-record/coverage/privacy/path consistency and `git diff --check`; no fresh full npm or old release-suite reuse claimed. The existing single automation already covers 27/30 Nov retries, all later original/revision/Lumo dates and the 11 Dec handover; schedule, end and prompt need no change. This partial read introduces no new user action or content decision.
 
 **26 Nov documentation validation:** dated-record/date-count/privacy/source-path consistency and `git diff --check` PASS. Six explicit task-related documentation paths only; no source build or production test required/performed for this record update. Normal origin/main publication uses `[skip netlify]`; existing automation schedule/target/end are unchanged.
+
+
+## 27 November 2026 — Week 12 Friday execution and assessment
+
+**Date / scope / executor:** Friday, **Week 12 / Day 82**, optimisation, Spec 015, Europe/London. Private/public research captures **09:00–09:08 GMT**; account performance/Index/Links **09:08–09:11**; live audit **09:10:54–09:10:57**. Codex executes/maintains records, Ibrahim owns programme/factual decisions. Latest 26 Nov W08 PARTIAL is historical, not fresh or complete evidence. No new corporate content, source change, form or deployment.
+
+### GSC source boundary, programme comparison and fixed cohorts
+
+Fresh **sc-domain:duniaops.com**, Performance, **Web (text)**, **Daily**, all countries/devices, no query filter. Standard three-month chart ends **25 November**; freshness **3.5 hours**. Programme comparison has no hostname/page filter and includes product subdomains. Separate exact date-range reads: **29 Oct–25 Nov** versus adjacent **1–28 Oct**, 28 dates each. Current/previous **7/8 clicks**, **1.79k/1.07k impressions** (both UI-rounded), **0.4%/0.7% CTR**, **54.3/56.1 average position**. Not corporate-page success, a qualified-enquiry KPI or causal improvement. Historical rolling windows retain their dates.
+
+Cohort observations use **Exact URL**, www canonical, same Web/daily/all-country/device/no-query filters. The three zero-impression pages show UI 0%/position 0, normalised below as no meaningful rate/rank. Declared four-page sample: proof, checklist, Custom Software and cost guide; not all runtime-affected URLs.
+
+| Cohort / intended range | Actual GSC capture / row evidence | State / page result | Next action |
+|---|---|---|---|
+| Original W08 **30 Oct–26 Nov**, 28 dates | **30 Oct–25 Nov**, 27 daily rows, within standard boundary | **PARTIAL, 27/28**; proof 0 impressions/0 clicks/no rank; checklist 30/0/0%/22.9 | Codex **30 Nov**, unchanged intended range; 26 Nov not a zero observation |
+| 12 Nov origin tags **13–26 Nov**, 14 dates | **13–25 Nov**, 13 rows | **PARTIAL, 13/14**; proof/checklist both 0/0/no meaningful rate/rank | Codex **30 Nov**, unchanged intended range |
+| 9 Nov technical/link **10–23 Nov**, 14 dates | Exact **10–23 Nov**, 14 rows | **DONE, 14/14 source-covered dates**; four-page results below | Closes 23 Nov partial; no recurring retry |
+| 16 Nov cache **17–23 Nov**, 7 dates | Exact **17–23 Nov**, 7 rows | **DONE, 7/7 source-covered dates**; four-page results below | Closes 23 Nov partial; no recurring retry |
+
+| Exact www canonical page | Technical/link 10–23 Nov: impressions / clicks / CTR / position | Cache 17–23 Nov: impressions / clicks / CTR / position |
+|---|---|---|
+| `https://www.duniaops.com/work/fragmented-application-estate-modernisation` | 0 / 0 / no meaningful rate / no rank | 0 / 0 / no meaningful rate / no rank |
+| `https://www.duniaops.com/resources/software-project-handover-checklist` | 0 / 0 / no meaningful rate / no rank | 0 / 0 / no meaningful rate / no rank |
+| `https://www.duniaops.com/services/custom-software-development` | 20 / 0 / 0% / 25.5 | 14 / 0 / 0% / 4.9 |
+| `https://www.duniaops.com/blog/bespoke-software-development-cost-uk` | 0 / 0 / no meaningful rate / no rank | 0 / 0 / no meaningful rate / no rank |
+
+Original source/live ownership remains explicit: W08-A `work/fragmented-application-estate-modernisation.html` and W08-B `resources/software-project-handover-checklist.html`, exact URLs above, owner Ibrahim. First production **29 Oct 14:39:59 GMT**, source `4134796` / deploy `6ae35aaf6ef383d164041aec`, visual revision **14:50:21**, `5a0b0b9` / `6ae35d1d91090e885022637f`. Technical/link **9 Nov 10:43:32**, origin tags **12 Nov 17:44:51.507**, cache **16 Nov 10:50:50.905**, and separately committed **19 Nov consent-copy shared runtime** remain different changes (last change's first-live time not established). Applicable windows carry mid-window annotations. Overlapping ranges, tiny samples and query mix prevent attributing rank/lead movement to any one revision; no new title rewrite or article follows. Closed original W06, W07 revision, W08 14-date and origin-tag seven-date coverage were not repeated.
+
+### Fresh stored Google Index, sitemap and Links
+
+**27 Nov ~09:09–09:11**, stored Index only, no TEST LIVE URL, indexing/validation request:
+
+- **W05-B cost guide:** URL unknown to Google; no detected referring sitemap/page, crawl N/A. Earlier discovered-not-indexed snapshots remain dated. Root cause NOT VERIFIED, Codex **30 Nov**.
+- **W08 proof/checklist:** both indexed, each one invalid Breadcrumbs item from stored **2 Nov 20:01:06 / 19:54:13** smartphone crawls. Fetch successful, crawl/index allowed, self-canonical selected. Both sitemap fields now **Temporary processing error**, corporate sitemap shown as referring page. Checklist field differs from 23 Nov; no newer crawl is established.
+- Fresh overview **126 indexed / 29 not indexed**, Breadcrumbs **12 valid / 0 invalid**. Domain/product totals are not a fresh 14-core-URL Index inventory and do not override the two stored invalid per-URL items. Post-fix recrawl/reprocessing remains **NOT VERIFIED**, Codex **30 Nov**.
+- Submitted corporate sitemap **Success**, last read **23 Nov**, **51 discovered pages**. Public sitemap fresh 200/parseable/51 URLs. The older 33-versus-51 count discrepancy is superseded at this snapshot, while stored per-URL processing flags remain unexplained. No diagnosed public sitemap defect or proof all pages indexed.
+- Links: **2** external links, homepage destination, displayed **crunchbase.com** domain; **294** internal. Delayed/subset report, not newly earned links or a complete backlink count. W03-B's indexed result remains dated **16 Nov**, not reopened or freshly reread.
+
+### Independent GA4 complete prior-day windows
+
+Fresh **DuniaOps – GA4 → Traffic acquisition → Session source/medium**, All Users, **Daily**, **100% available data**, selected **generate_lead**. Latest complete prior calendar day **26 Nov**, independently later than GSC 25 Nov. Recorded Europe/London timezone retained, no Admin setting read/change. Rolling **30 Oct–26 Nov** versus adjacent **2–29 Oct**, 28 dates each, explicitly displayed comparison:
+
+| Metric | 30 Oct–26 Nov | 2–29 Oct |
+|---|---:|---:|
+| Sessions | 45 | 37 |
+| Engaged sessions | 28 | 23 |
+| Engagement rate | 62.22% | 62.16% |
+| Average engagement/session | 40s | 48s |
+| All events | 194 | 213 |
+| Selected generate_lead | 0 | 5 |
+| google / organic sessions / engaged / selected generate_lead | 3 / 3 / 0 | 8 / 6 / 2 |
+
+Current source rows sessions/engaged/leads: direct **33/18/0**, GitHub **4/4/0**, LinkedIn **4/2/0**, loopback QA **1/1/0**. Google organic events **28/51**, average engagement **24s/11s** current/previous. Two previous ChatGPT source categories each have one session/key event; neither is a Google-organic qualified enquiry.
+
+Separate exact custom-range context reads (comparison disabled, otherwise same filters):
+
+| Fixed intended range | Coverage in GA4 | Sessions / engaged / all events / generate_lead | google / organic sessions / engaged / generate_lead |
+|---|---|---|---|
+| Technical/link **10–23 Nov** | **DONE, 14/14 dates** | 34 / 23 / 142 / 0 | 3 / 3 / 0 |
+| Cache **17–23 Nov** | **DONE, 7/7 dates** | 32 / 21 / 125 / 0 | 2 / 2 / 0 |
+| Origin tags **13–26 Nov** | **DONE, 14/14 dates** | 40 / 24 / 158 / 0 | 3 / 3 / 0 |
+| Original W08 **30 Oct–26 Nov** | **DONE, 28/28 prior calendar dates**, same exact window as current comparison | 45 / 28 / 194 / 0 | 3 / 3 / 0 |
+
+GA4 coverage does not close either GSC partial. No corporate hostname or W08 page filter: all counts are property context, including product launches, QA/referrals and consent limitations, not individual corporate/W08 success, causal cache improvement, delivered forms or qualified leads. No safe event/submission identity join established. A prior calendar day and 100% available data do not guarantee every consented/late event has arrived. Lumo's first full seven-date range **23–29 Nov** remains NOT DUE until the existing **30 Nov** read; no early total substitutes for it.
+
+### Fresh read-only private reconciliation
+
+Restricted Sheet metadata/header/bounded ledger/Overview and six returned Netlify records re-read **09:02–09:04 GMT**: **0 qualified organic / 0 qualified / 5 tests / 1 unresolved**. Template excluded. Five exact private-ID joins plus the known **19 Oct 14:17** synthetic test matched by minute and controlled test/service/landing fields; missing Sheet lookup ID retained. Returned records still end **29 Oct 12:42:55.915 UTC**. Aggregate form activity **27 Nov 08:02:19.313 UTC** is not evidence of a new enquiry; per-record spam/verified flags and exhaustive spam queue are not exposed.
+
+Unresolved insufficient_evidence classification, unknown service/home/non-organic, reply workflow and **2 Nov 10:49** update remain unchanged. Qualification/reply stays **Ibrahim-owned / NOT DONE**, previously reported; no new customer question or automatic qualification. Codex completed routine reconciliation, next existing **30 Nov** read. No private ID, Sheet URL, customer identity/message, private edit or contact in Git. Actual W06/W08 successful production acknowledgement/notification/GA4 delivery remains NOT VERIFIED, no new test authority or submission.
+
+### Live audit / actual validation
+
+Fresh **09:10:54–09:10:57 GMT**: **14 core URLs plus separately counted Lumo** all HTTP 200/no redirect/self-canonical/no meta/header noindex/in 200-parseable **51-URL** sitemap; all reference **ec2b5da81a16**. Public script 200, source-byte match and one-year immutable header. Current ready Netlify deploy **6b08cccb26f06340e302d421**, source **4bffd8919d91fd98f48798bdd0f6f049b0bf568c**, published **27 Nov 00:20:42.801 GMT**, is the existing scheduled rebuild; no programme deployment or reset of any original/revision clock today.
+
+Fresh **npm run check:analytics PASS**, including attribution guard and four cache regressions; **npm run check:breadcrumbs PASS**, five regressions. Documentation-only change: record/date-count/privacy/local-link consistency and git diff --check apply. No fresh full npm/build, desktop/mobile/VoiceOver or actual-form delivery result claimed; 22 Nov final 453-file Lumo suite stays historical exact-candidate evidence. No source/code change, production submission, indexing request or external mutation.
+
+### Friday decision / next dates
+
+Spec 015 assesses **all six deliverables and all six acceptance criteria**. Four deliverables DONE within scope (proof, contextual links, bounded unsent outreach draft, social copy); full profile audit and eligible-client review requests **NOT VERIFIED**. Acceptance A1/A2/A3/A5/A6 DONE within documented limits; A4 **NOT VERIFIED for external execution** because no send/action was approved or performed. No blanket whole-week/Day-60/programme PASS. Local The Org profile-correction request and neutral review text are in the [distribution brief](week-12-authority-and-distribution-2026-11-23.md); no fabricated recipient, review destination, editorial relationship or earned result.
+
+**Codex 30 Nov:** retry original W08 **30 Oct–26 Nov** and origin-tag **13–26 Nov** GSC only as needed; read Lumo **23–29 Nov** first-seven-date and cache **17–30 Nov** 14-date with independent source cut-offs, retry **4 Dec** if delayed; complete Week 13 measurement/decision preparation and carry explicit profile/review/Google/private limits. Technical/link 10–23 and cache 17–23 are closed coverage, not repeated retries. Preserve technical/link **10 Nov–7 Dec → 7/retry 11 Dec**, origin tags **13 Nov–10 Dec → 11 Dec**, Lumo **23 Nov–6 Dec → 7/retry 11 Dec**. Cache **17 Nov–14 Dec** and Lumo **23 Nov–20 Dec** remain **11 Dec handover**, Ibrahim owner, proposed 18/21 Dec Codex reads only with separately authorised continuation. Execution end **5 Dec**, verification end **11 Dec**, single automation and its schedule unchanged. No quota article or speculative site-wide rewrite.
+
+**27 Nov final documentation validation:** all six deliverables and six criteria assessed; fixed-window date counts, coverage/metric consistency, new local links, privacy-marker review and `git diff --check` PASS. Fresh analytics/cache and five breadcrumb regressions PASS; no full npm build claimed for documentation-only maintenance. Existing single automation's updated closure/carry-over prompt, ACTIVE status, unchanged schedule/end and target read back and matched. Explicit task-only staging and normal verified-origin/main push follow with `[skip netlify]`; no source deployment.

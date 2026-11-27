@@ -1,6 +1,6 @@
 # Week 12 authority and distribution — 23 November 2026
 
-**State:** Monday preparation in progress; no external message, profile mutation or review request sent.
+**State:** Friday 27 November review recorded below; public profile audit bounded, GBP/Clutch and eligible-client destination remain NOT VERIFIED. One route-specific profile-correction draft and neutral review copy prepared; no external send or profile mutation.
 **Executor:** Codex. **Programme/factual owner:** Ibrahim Uylas.
 **Primary proof:** [Lumo case](https://www.duniaops.com/blog/building-a-privacy-first-ios-app-lessons-from-lumo), already approved and published 22 November. Publication, banner and diagram revisions are recorded in Spec 015; no new article is commissioned.
 
@@ -77,3 +77,51 @@ https://www.duniaops.com/blog/building-a-privacy-first-ios-app-lessons-from-lumo
 ## Measurement and authority boundary
 
 No UTM campaign or account setting was created. Preserve `linkedin.com / referral` separately from Google organic. A social draft, a public profile or a store badge proves neither posting, downloads nor qualified enquiries. Account evidence and independent date boundaries are in Spec 018; the Lumo original 7/14-date reads remain **30 November / 7 December**. No external action, purchased placement, review incentive, production form or deployment occurred in this preparation.
+
+
+## Friday follow-through — 27 November 2026
+
+**Executor:** Codex; programme/factual owner Ibrahim. Public-source reads **09:03–09:12 GMT** (some index extracts cached 3 days; no authenticated admin read). Fresh exact-brand Clutch/Google Business searches plus existing programme evidence still do not establish a reliable owned profile/review URL. **NOT VERIFIED**, not absence, zero reviews or a reason to create duplicate listings. Codex carries exact-profile/destination verification to the existing **30 November** run; no external mutation.
+
+LinkedIn public company identity/website and The Org's existing unverified entry remain evidenced by the linked public pages. The Org entry's extracted Links section does not expose the official website; live editor/database state is not established. A missing extracted destination is not proof of an editable defect. The public LinkedIn extract includes earlier W08 proof/checklist shares, but has no exact posting timestamps and may be cached: do not assign a new share date or infer Lumo posting. Lumo's **23 November** social drafts remain prepared, actual posting NOT VERIFIED.
+
+Fresh GSC Links **27 Nov ~09:10 GMT**: **2** reported external links to the homepage from the displayed **crunchbase.com** domain, **294** internal links. No newly earned placement/review, full backlink inventory or causal gain is established. Full account boundaries in Spec 018.
+
+### Prepared outreach draft — The Org support, not sent
+
+**Target fit:** readers comparing a consultancy should be able to reach its official site and distinguish owned-product proof from client endorsements. This is one existing company entry, not bulk directory submission or a publisher pitch. The current Lumo case supplies an accurate first-party work example; no client name, quote or performance claim.
+
+**Verified public route:** [The Org contact](https://theorg.com/contact) → [Support centre](https://support.theorg.com/en/) → [How do I get help?](https://support.theorg.com/en/articles/11690859-how-do-i-get-help). The latter, dated 9 September 2026, explicitly supports company-page management/issues and describes email/chat support. No contact address is guessed, form opened for submission, chatbot contacted or message sent. Profile ownership and exact correction are not asserted as verified.
+
+**Subject:** Official website and owned-product proof for the existing DuniaOps entry
+
+Hello The Org support team,
+
+I’m reviewing the public entry for Duniaops Solution and Consulting Ltd:
+https://theorg.com/org/duniaops-solution-and-consulting-ltd
+
+The public view is labelled unverified, and I couldn’t confirm an official website destination in its Links section. Our corporate website is https://www.duniaops.com.
+
+We have also published a clearly labelled account of Lumo, our own iOS product:
+https://www.duniaops.com/blog/building-a-privacy-first-ios-app-lessons-from-lumo
+
+It gives readers a concrete example of our engineering work. It is owned-product proof, without a client endorsement or numerical outcome claim.
+
+Could you point us to the process for verifying the existing company entry and confirming its website information? We would like to keep the current entry accurate for readers.
+
+Thank you,
+Ibrahim
+
+**Disposition:** preparation DONE for this bounded personalised draft; factual ownership/admin process and any actual send require separate confirmation/approval. This does not earn a link, verify a profile or satisfy an editor's article-submission policy. InfoQ/LeadDev unchanged submissions remain deferred on the dated policy evidence, not reopened as a quota article. Codex rechecks target/destination facts **30 November** before any separately authorised send.
+
+### Eligible-client review preparation — neutral copy ready, eligibility NOT VERIFIED
+
+Prepared text, **not sent**:
+
+If you would like to share an honest review of our work together, I can send the verified public review link. Participation is entirely optional. There is no incentive, and positive or critical feedback will not affect our work together.
+
+The draft deliberately contains no fabricated client or destination. Before a personalised request exists, evidence must establish a real direct client relationship, the actual experience being reviewed, an accurate review destination and the sender's authority. Current first-party product proof and anonymised partner-led experience do not establish an eligible direct client. The private lead ledger is a qualification record, not a list of clients eligible for reviews. Thus the eligible-client deliverable stays **NOT VERIFIED**, neutral copy preparation DONE. No customer identification is copied into Git. Ibrahim owns relationship facts/send authority; Codex owns bounded route/eligibility preparation, next existing **30 November** checkpoint. No repeat approval question or incentivised/positive-only review request.
+
+### Friday disposition
+
+D1 proof, D2 contextual links, D4 bounded outreach-draft preparation and D6 LinkedIn-copy preparation are **DONE within these scopes**. D3 full profile audit and D5 eligible-client requests are **NOT VERIFIED**, with the precise limits above. No messages, account edits, reviews, paid placements or links were created. Next existing 30 November run carries only these open evidence items, not a fresh article or an implied authority result.

@@ -1,6 +1,6 @@
 # Organic Growth Week 11 — Conversion and Qualified-Lead Optimisation
 
-**Status:** Friday 20 Nov assessment remains scoped, not a blanket PASS. 23 Nov read-only reconciliation unchanged, origin-tag seven-date coverage DONE, technical/cache periods ending 23 Nov PARTIAL at GSC 21 Nov / GA4 22 Nov, retry 27 Nov. Approved releases remain complete; human qualification NOT DONE and actual delivery NOT VERIFIED. Week 12 current execution in 015/018.
+**Status:** Week 11 scoped Friday outcomes retained. 27 Nov cache 17–23 Nov DONE, 7/7 and technical/link 10–23 Nov DONE, 14/14. Fresh reconciliation unchanged; human qualification NOT DONE, actual delivery NOT VERIFIED. W08/origin GSC partials retry 30 Nov.
 **Type:** Conversion / Measurement
 **Priority:** P1
 **Scheduled:** 16–22 November 2026
@@ -162,3 +162,9 @@ Fresh morning private reconciliation remains **0 qualified organic / 5 tests / 1
 Origin-tag **13–19 Nov DONE, 7/7**, both W08 pages 0/0. Cache intended **17–23 Nov** stays PARTIAL: exact four-page GSC subset **17–21 Nov, 5/7**, proof/checklist/cost 0/0; Custom Software **13 impressions/0 clicks/0%/4.6**. Fresh separate GA4 property-level subset **17–22 Nov, 6/7**: **29 sessions / 19 engaged / 115 all events / 0 generate_lead**, Google organic **2/2/0**, 100% available data, daily/source-medium, no hostname/page filter. **Codex 27 Nov** retries the intended complete period, no substitution or cache-lift claim. Technical/link partial and rolling comparison are separately recorded in 018.
 
 Fresh 15-URL matching-script/HTTP/canonical/sitemap audit and analytics/cache/breadcrumb regressions PASS; no full npm, new visual/VoiceOver or actual-delivery PASS is claimed for documentation-only work. Separate 19 Nov shared-runtime source and 23 Nov Rockimals production release annotated in 018, approved 16 Nov cache clock unchanged. Week 11 Friday criterion outcomes are historical and not silently upgraded. Week 12 authority/social work in 015; no new article or deployment.
+
+### Friday cache and reconciliation follow-through — 27 November 2026
+
+Cache **17–23 Nov DONE, 7/7** source-covered GSC dates, standard 25 Nov/freshness 3.5h, Exact www/Web/daily/all countries/devices/no query filter: proof/checklist/cost guide 0/0/no rank; Custom Software **14 impressions/0 clicks/0%/4.9**. GA4 same fixed range, source-medium/All Users/daily/100%/selected generate_lead: **32 sessions/21 engaged/125 events/0 leads**, Google organic 2/2/0, no hostname/page filter. Closes 23 Nov partial; runtime changes, overlap and small volumes prevent cache-lift inference. Next cache **17–30 Nov → 30 Nov/retry 4 Dec**; beyond-tail 28-date range retained in 11 Dec handover. Technical 14-date also DONE; W08/origin GSC partials retry 30 Nov (018).
+
+Fresh private 0 qualified organic / 5 tests / 1 unresolved, five exact-ID joins plus the known synthetic bounded match/missing lookup ID. Returned records still end 29 Oct; aggregate 27 Nov activity is not a new lead. Qualification NOT DONE/Ibrahim-owned, actual acknowledgement/notification/GA4 delivery NOT VERIFIED; no identity join or production test authority added. Fresh 15-URL HTTP/hash and analytics/cache/five breadcrumb regressions PASS; no new full npm/mobile/VoiceOver certificate. Current ready 27 Nov scheduled rebuild is not an agent deployment. Week 11 criterion outcomes remain historical, Week 12 assessment in 015; no source, form, private write or contact.

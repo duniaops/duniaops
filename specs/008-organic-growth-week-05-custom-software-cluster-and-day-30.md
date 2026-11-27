@@ -1,6 +1,6 @@
 # Organic Growth Week 05 — Custom Software Cluster and Day-30 Check
 
-**Status:** Both assets live; fresh 23 Nov cost-guide Inspection remains URL unknown, cause NOT VERIFIED, Codex 27 Nov. Separate technical/link intended 10–23 Nov remains PARTIAL, actual GSC 10–21 Nov (12/14); parent 19 impressions/0 clicks/26.3, guide 0/0/no rank. Original first-live/28-date evidence unchanged; no new request or publication.
+**Status:** Both assets live; 27 Nov technical/link 10–23 Nov coverage DONE, 14/14: parent 20/0/25.5, guide 0/0/no rank. Cost-guide Index still URL unknown, cause NOT VERIFIED, Codex 30 Nov. Original clocks unchanged; no request/site change.
 **Type:** Commercial Service Page / Blog Article / Measurement
 **Priority:** P1
 **Scheduled:** 5–11 October 2026
@@ -170,3 +170,9 @@ Separate 9 Nov contextual-link intended **10–16 Nov now DONE, 7/7 source-cover
 Fresh stored exact-page Inspection **10:18–10:19 GMT** still reports cost guide URL unknown, no detected sitemap/referrer/crawl. Public URL is HTTP 200, self-canonical, no noindex and in the fresh parseable sitemap. Submitted sitemap Success/read 18 Nov/33 pages differs from the public 51-URL sitemap. Cause NOT VERIFIED; **Codex 27 Nov**, no live test/index request. Original `content/blog/bespoke-software-development-cost-uk.md`, www canonical URL, owner, 9 Oct 16:39 BST first production and completed original 10 Oct–6 Nov cohort are unchanged.
 
 Technical/link intended **10–23 Nov**, GSC actual **10–21 Nov, 12/14 PARTIAL**: Custom Software 19 impressions/0 clicks/0%/26.3; cost guide 0/0/no meaningful rate/rank. Separate cache subset **17–21 Nov, 5/7**: parent 13/0/0%/4.6, guide 0/0. Exact filters/source cut-offs and independent GA4 10–22/17–22 subsets are in 018. **Codex 27 Nov** retries fixed intended ranges, preserving original/revision/intervening-runtime annotations; no causal discovery or lift inference, source change or deployment.
+
+### Friday discovery/link follow-through — 27 November 2026
+
+Fresh exact cost-guide stored Index remains **URL unknown**, no detected sitemap/referrer/crawl; cause NOT VERIFIED, **Codex 30 Nov**, no live test/index request. Public URL passes HTTP 200/self-canonical/no noindex/sitemap; submitted sitemap Success/read 23 Nov/51 pages matches public 51. Original source `content/blog/bespoke-software-development-cost-uk.md`, www canonical, **9 Oct 16:39 BST** first-live and completed **10 Oct–6 Nov** original cohort remain unchanged.
+
+Technical/link **10–23 Nov DONE, 14/14**, GSC standard 25 Nov/freshness 3.5h, Exact URL/Web/daily/all countries/devices/no query filter: Custom Software **20 impressions/0 clicks/0%/25.5**, guide 0/0/no meaningful rate/rank. Cache **17–23 Nov DONE, 7/7**: parent 14/0/0%/4.9, guide 0/0. Independent GA4 full-window property context and intervening changes are in 018; no discovery/link/cache-impact conclusion. Coverage closed; next technical **10 Nov–7 Dec → 7 Dec/retry 11 Dec**. No article, copy, source or deployment change.

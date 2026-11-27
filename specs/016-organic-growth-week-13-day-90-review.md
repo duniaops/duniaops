@@ -61,3 +61,9 @@ Reach the Day-90 calendar point with comparable evidence, improve one mature opp
 ## Completion Record
 
 Record latest metrics, cohort maturity, selected page/hypothesis, exact revision, validation, commit/deploy, live URL, qualified pipeline, provisional decisions and unresolved Day-90 data.
+
+### Friday carry-in prepared — 27 November 2026 (execution begins 30 November)
+
+Spec 015 Friday assessment is explicit, not a whole-programme PASS. Technical/link **10–23 Nov** 14-date and cache **17–23 Nov** seven-date coverage closed 27 Nov; do not repeat them as open. **Codex 30 Nov** retries unchanged original W08 **30 Oct–26 Nov** GSC (currently 27/28) and origin-tag **13–26 Nov** GSC (13/14), both actually through 25 Nov. GA4 through 26 Nov cannot close GSC. Read Lumo **23–29 Nov** first seven dates and cache **17–30 Nov** 14 dates at independent source boundaries, retry **4 Dec** if delayed. A mature-page revision requires adequate diagnosed cause/evidence; otherwise record HOLD and continue commercial/conversion/indexing work.
+
+Carry NOT VERIFIED W05 discovery/W08 stored 2 Nov enhancement reprocessing, actual production delivery, profile/review destination and eligible-client facts. Human private fit remains Ibrahim-owned; routine fresh reads/preparation **Codex 30 Nov**. No repeat approval request or new source/deployment. Dated 23/26/27 Nov records, source filters, annotations/privacy in 018; authority drafts in distribution brief. Technical **10 Nov–7 Dec**, origin **13 Nov–10 Dec**, Lumo 14-date **7 Dec/retry 11 Dec** and beyond-tail handover unchanged. Execution ends 5 Dec, tail 11 Dec, single automation preserved.

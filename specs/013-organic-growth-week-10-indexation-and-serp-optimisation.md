@@ -1,6 +1,6 @@
 # Organic Growth Week 10 — Indexation and Search-Result Optimisation
 
-**Status:** Week 10 delivery closed. 23 Nov origin-tag 13–19 Nov coverage DONE (7/7); technical/link 10–23 Nov PARTIAL, GSC 10–21 (12/14), GA4 10–22 (13/14), retry 27 Nov. W05 discovery/W08 stored enhancement remain NOT VERIFIED, same retry. No snippet rewrite, new article, deployment or delivery certification.
+**Status:** Week 10 delivery closed. 27 Nov technical/link 10–23 Nov DONE, 14/14; cache seven-date also closed. Original W08/origin GSC partials and Google exceptions retry 30 Nov; no rewrite/article/deploy.
 **Type:** Technical SEO / Content Optimisation
 **Priority:** P1
 **Scheduled:** 9–15 November 2026
@@ -201,3 +201,9 @@ Separate origin-tag **13–19 Nov** is **PARTIAL, 6/7 dates through 18 Nov**, Co
 Intended **10–23 Nov** is retained. Fresh GSC exact www canonical/Web/daily/all countries/devices/no query filter has explicit actual **10–21 Nov, 12/14 PARTIAL**, standard boundary 21 Nov/freshness 4–4.5h. Proof/checklist/cost guide 0 impressions/0 clicks/no meaningful rate/rank; Custom Software **19/0/0%/26.3**. Independent GA4 property-level actual **10–22 Nov, 13/14 PARTIAL**: 31 sessions/21 engaged/132 all events/0 generate_lead; Google organic 3/3/0. Not a per-page or intervention result. **Codex 27 Nov** repeats the unchanged intended range; 12/16/19 Nov shared-runtime caveats apply. Original clocks are not reset.
 
 Origin-tag **13–19 Nov DONE, 7/7**, both W08 0/0, closes its earlier partial. W05 remains URL unknown; W08 both indexed/invalid Breadcrumbs from 2 Nov, proof sitemap processing flag and checklist sitemap now listed. Overview 0 invalid is insufficient per-URL recrawl evidence. Fresh public sitemap/core-plus-Lumo audit passes, root cause/reprocessing NOT VERIFIED, **Codex 27 Nov** without requests. Canonical account/live/source limitations in 018, Week 12 actions in 015; no title rewrite or new site change.
+
+### Friday technical/link coverage closed — 27 November 2026
+
+Fixed **10–23 Nov**, Exact www URL/Web/daily/all countries/devices/no query filter, standard 25 Nov/freshness 3.5h, 14 daily rows: **DONE, 14/14**. Proof/checklist/cost guide 0 impressions/clicks/no meaningful rate/rank; Custom Software **20/0/0%/25.5**. GA4 same fixed range **34 sessions/23 engaged/142 events/0 generate_lead**, Google organic 3/3/0, unfiltered property context. This closes the 23 Nov partial, not causal link/rank/lead success. Retain 9/12/16/19 Nov annotations. Next technical **10 Nov–7 Dec → 7 Dec/retry 11 Dec**, no repeated 14-date retry.
+
+Original W08 GSC 27/28 and origin-tag GSC 13/14 retry 30 Nov; cache seven-date coverage also DONE. Fresh W05 URL unknown and W08 indexed/stored 2 Nov invalid Breadcrumbs/both sitemap processing flags remain. Submitted sitemap Success/read 23 Nov/51 pages matches live public map. Cause/recrawl NOT VERIFIED, **Codex 30 Nov**, no requests. Full evidence 018, Week 12 disposition 015; no new title, article, source or deployment/full-suite certificate.

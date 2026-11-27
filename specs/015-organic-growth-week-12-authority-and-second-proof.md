@@ -1,6 +1,6 @@
 # Organic Growth Week 12 — Authority and Second Proof
 
-**Status:** In progress — 26 Nov original W08 checkpoint executed, source-incomplete: GSC 26/28 and GA4 property context 27/28, retry 27 Nov / 30 Nov. Lumo proof/links and LinkedIn preparation DONE. Authority/eligible-target/review preparation and Friday assessment remain Codex 27 Nov; no new publication or external message.
+**Status:** Friday 27 Nov assessed with explicit carry-over: D1/D2/D4/D6 DONE within scope; D3/D5 NOT VERIFIED. A1/A2/A3/A5/A6 DONE within stated limits; A4 NOT VERIFIED for external execution. Technical/link 14-date and cache 7-date coverage closed; original W08/origin14 GSC partials retry 30 Nov. No new article/deployment or external send.
 **Type:** Proof / Distribution / Authority
 **Priority:** P1
 **Scheduled:** 23–29 November 2026
@@ -15,9 +15,9 @@ Strengthen trust and discoverability with verifiable evidence and relevant third
 
 - [x] Select and write the second proof asset with an evidence/permission matrix. Lumo explicitly approved and published 22 November; earlier approval-pending draft record is historical.
 - [x] Link the proof from the most relevant service and buyer-content pages. Mobile App Development and the existing AI production-readiness article verified live 22 November.
-- [ ] Audit Google Business Profile, Clutch and a small set of genuinely relevant UK/technical profiles or citations. PARTIAL 23 Nov: LinkedIn/The Org and GSC Links read; GBP/Clutch identity/ownership NOT VERIFIED, bounded follow-up Codex 27 Nov.
-- [ ] Prepare personalised, value-led outreach tied to the checklist, proof or a genuinely relevant article.
-- [ ] Prepare voluntary, non-incentivised review requests for eligible real clients.
+- [ ] Audit Google Business Profile, Clutch and a small set of genuinely relevant UK/technical profiles or citations. NOT VERIFIED after the 27 Nov bounded follow-up: public LinkedIn/The Org and fresh GSC Links read; exact GBP/Clutch identity/ownership/review destinations remain unestablished, Codex 30 Nov.
+- [x] Prepare personalised, value-led outreach tied to the checklist, proof or a genuinely relevant article. 27 Nov: one bounded The Org profile-correction draft uses the owned Lumo proof, verified public support route; not sent, no editorial-placement or backlink result.
+- [ ] Prepare voluntary, non-incentivised review requests for eligible real clients. NOT VERIFIED: neutral copy ready, eligible direct client/destination not evidenced; Codex 30 Nov preparation, Ibrahim relationship facts/send authority.
 - [x] Repurpose the strongest asset into useful founder/engineer LinkedIn content. User-requested English/Turkish Lumo copy delivered in chat 23 Nov and saved in the linked distribution brief; posting NOT VERIFIED, no account action.
 
 ## Working Schedule
@@ -63,10 +63,10 @@ Strengthen trust and discoverability with verifiable evidence and relevant third
 
 - [x] Proof ownership, facts, permissions and commercial relevance are explicit. Owned Lumo product, dated evidence matrix and explicit publication approval.
 - [x] Every public name, logo, quote and metric is approved. Owned product naming/illustrations authorised; no client quote, logo or outcome metric introduced.
-- [ ] No purchased links, bulk spam, fabricated citation or incentivised review is used.
+- [x] No purchased links, bulk spam, fabricated citation or incentivised review is used. DONE for the recorded local preparation; no external action performed.
 - [ ] External actions are personalised, relevant and explicitly approved.
-- [x] `npm test`, link/mobile/desktop/accessibility and `git diff --check` pass for the published article scope: final 449-file suite, links, XML, responsive render and image/heading/navigation semantics smoke. No new VoiceOver or successful form-delivery test is claimed.
-- [ ] Live proof and authority-ledger evidence are recorded.
+- [x] `npm test`, link/mobile/desktop/accessibility and `git diff --check` pass for the published article scope: dated 22 Nov final 453-file suite (earlier initial release 449), links, XML, responsive render and image/heading/navigation semantics smoke; 27 Nov fresh HTTP and bounded analytics/breadcrumb checks pass, not a new full-suite/mobile certification. No new VoiceOver or successful form-delivery test is claimed.
+- [x] Live proof and authority-ledger evidence are recorded. DONE within bounded public/account reads and explicit unknowns in the distribution brief/018; no earned link/review inferred.
 
 ## Completion Record
 
@@ -156,3 +156,34 @@ Acceptance: ownership/approved naming/previous article validation remain DONE wi
 Fresh bounded W08 HTTP/canonical/noindex/sitemap/analytics-byte audit passes; no site/source/deployment, new full-suite/mobile/VoiceOver certificate, production form, indexing request, message or private-account read/write. Closed owner-confirmed VoiceOver remains DONE; stored Google/private exceptions remain dated. This executes Thursday's observation within available data; it does not close the 28-date cohort or the full week. **27 Nov** authority preparation, technical/cache retries, origin-tag 14-date read, Google/private recheck and actual Friday assessment remain the next existing execution. Existing single automation and end date are unchanged.
 
 **26 Nov documentation validation:** dated-record/date-count/privacy/source-path consistency and `git diff --check` PASS. Six explicit task-related documentation paths only; no source build or production test required/performed for this record update. Normal origin/main publication uses `[skip netlify]`; existing automation schedule/target/end are unchanged.
+
+
+### Friday evidence-based assessment — 27 November 2026
+
+**Week 12 / Day 82, optimisation.** Fresh source reads, bounded live audit, private reconciliation and prepared authority copy are in 018 and the [distribution brief](week-12-authority-and-distribution-2026-11-23.md). Historical publication/approval/validation remains dated; no new primary publication this week, no quota article or deployment. Codex executes routine follow-up; Ibrahim owns programme facts/external action authority.
+
+| Deliverable | Friday disposition | Evidence / unfinished owner and date |
+|---|---|---|
+| D1 Second proof with evidence/permission matrix | **DONE** | Owned Lumo case approved/live 22 Nov, actual source/deploy/time recorded; no client result invented |
+| D2 Contextual commercial/buyer links | **DONE** | Existing mobile-service/AI buyer-content links published 22 Nov; no new link rollout claimed |
+| D3 GBP/Clutch/relevant profile audit | **NOT VERIFIED** end to end | Public LinkedIn/The Org and fresh GSC Links read; exact GBP/Clutch profile/admin/review destinations unestablished after bounded searches, not absence. Codex 30 Nov |
+| D4 Personalised value-led outreach preparation | **DONE within bounded draft scope** | The Org existing-entry support draft tied to owned Lumo proof and verified support route; unsent, ownership/correction/earned link not verified |
+| D5 Voluntary eligible-client review requests | **NOT VERIFIED** end to end | Neutral non-incentivised text ready; eligible direct client and actual review destination not evidenced. Codex 30 Nov preparation; Ibrahim relationship facts/send authority |
+| D6 Founder/engineer LinkedIn repurposing | **DONE for preparation** | Requested English/Turkish drafts delivered 23 Nov and saved; Lumo posting/engagement NOT VERIFIED |
+
+| Acceptance criterion | Friday disposition | Evidence / boundary |
+|---|---|---|
+| A1 Ownership/facts/permissions/commercial relevance explicit | **DONE** | Owned product, dated factual matrix and explicit publication authority |
+| A2 Public names/logos/quotes/metrics approved | **DONE within published scope** | Owned identity/illustrations approved, no client identity/quote/performance metric introduced |
+| A3 No purchased links/spam/fabricated citation/incentivised review | **DONE for recorded actions** | Local preparation and read-only audit only, no external send/account change or earned-result claim |
+| A4 External actions personalised/relevant/approved | **NOT VERIFIED for execution** | One relevant draft is reviewable; no external send/profile/review action approved/performed by this run. Not treated as delivered |
+| A5 Validation | **DONE within dated release/current check scopes** | 22 Nov final 453-file Lumo release suite/visuals retained historically; fresh 27 Nov 15-URL HTTP audit, analytics/cache/five breadcrumb regressions and documentation checks; no new full suite/mobile/VoiceOver or real-form certificate |
+| A6 Live proof/authority evidence recorded | **DONE within explicit evidence limits** | Original live source/date/deploy plus public-profile/Links/unknown-destination ledger; no newly earned link/review inferred |
+
+**Measurement closure:** technical/link **10–23 Nov DONE, 14/14** and cache **17–23 Nov DONE, 7/7** in GSC and GA4 context; proof/checklist/cost have zero impressions/clicks, Custom Software **20/0/25.5** and **14/0/4.9** respectively. These are complete coverage observations, not revision impact. Original W08 intended **30 Oct–26 Nov** GSC is **27/28 PARTIAL** and origin-tag **13–26 Nov** GSC **13/14 PARTIAL**, both actual end **25 Nov**, standard source boundary/freshness 3.5h. GA4 independently through **26 Nov** covers those complete intended calendar dates but cannot close GSC or prove W08 delivery. **Codex 30 Nov** retries fixed intended GSC ranges; closes no missing date as zero.
+
+Fresh W05 URL unknown/W08 indexed but stored 2 Nov invalid breadcrumbs remain NOT VERIFIED recrawl; both sitemap processing flags persist despite fresh submitted sitemap Success/read 23 Nov/51 pages matching the public map. Overview 126 indexed/29 not indexed/12 valid Breadcrumbs is domain-level only. Private reconciliation remains 0 qualified organic/5 tests/1 unresolved; human qualification NOT DONE, actual delivery NOT VERIFIED, no repeated permission question. VoiceOver stays DONE from Ibrahim's 10 Nov confirmation. Full source/PII boundaries in 018.
+
+**Next existing execution, Codex 30 Nov:** complete-data W08/origin retries, Lumo 23–29 Nov and cache 17–30 Nov observations (retry 4 Dec if delayed), Week 13 measurement/decision preparation, bounded authority/profile/eligible-review evidence, read-only Google/private follow-through. Technical14/cache7 coverage is closed and must not recur as unfinished. No new publication, indexing request, production form, outreach/profile/review mutation, private write or duplicate automation. Execution/tail end 5/11 Dec retained; beyond-tail observations remain 11 Dec handover.
+
+**27 Nov final documentation validation:** all six deliverables and six criteria assessed; fixed-window date counts, coverage/metric consistency, new local links, privacy-marker review and `git diff --check` PASS. Fresh analytics/cache and five breadcrumb regressions PASS; no full npm build claimed for documentation-only maintenance. Existing single automation's updated closure/carry-over prompt, ACTIVE status, unchanged schedule/end and target read back and matched. Explicit task-only staging and normal verified-origin/main push follow with `[skip netlify]`; no source deployment.

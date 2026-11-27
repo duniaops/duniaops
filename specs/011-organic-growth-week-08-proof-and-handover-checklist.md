@@ -1,6 +1,6 @@
 # Organic Growth Week 08 — First Proof and Handover Checklist
 
-**Status:** Production, original 14-date and origin-tag seven-date coverage, and owner-confirmed VoiceOver remain DONE. 26 Nov original 30 Oct–26 Nov read PARTIAL: GSC actual 30 Oct–24 Nov, 26/28; proof 0/checklist 30 impressions, no clicks. Independent GA4 property context 27/28. Codex retry 27 Nov / 30 Nov; stored enhancement/delivery exceptions retain their dated evidence.
+**Status:** 27 Nov original W08 GSC 27/28 and origin-tag 13/14 remain PARTIAL, retry 30 Nov. Technical/link 14-date and cache seven-date coverage DONE. Stored 2 Nov enhancement/delivery NOT VERIFIED; owner-confirmed VoiceOver stays DONE.
 **Type:** Proof Page / Linkable Resource
 **Priority:** P1
 **Scheduled:** 26 October–1 November 2026
@@ -218,3 +218,11 @@ Original **30 Oct–26 Nov → 26/retry 27 Nov, then 30 Nov if delayed** remains
 Codex read at **09:00–09:03 GMT**. Intended **30 Oct–26 Nov** remains fixed, **PARTIAL**: standard GSC through **24 Nov**, freshness **2.5h**, explicit actual **30 Oct–24 Nov (26/28)**; both Days tables show 26 rows. Web/daily/Exact URL/www/all countries/devices/no query filter: proof **0 impressions/0 clicks/no meaningful rate/rank**, checklist **30/0/0%/22.9**. Picker rejects 26 Nov; missing 25/26 Nov are not zeros. Independent GA4 source-medium/All Users/daily/100%/selected generate_lead actual **30 Oct–25 Nov (27/28)** is property-wide context only (44 sessions/28 engaged/0 selected events; Google organic 3/3/0). Full paths, exact URLs, original/revision provenance and limits are in 018.
 
 **Codex repeats the intended 30 Oct–26 Nov range 27 Nov, then 30 Nov if delayed**, using existing runs. Original 29 Oct publication and mid-window 9/12/16/19 Nov changes are annotated, no isolated-impact claim. Both live URLs/200/self-canonical/no noindex/sitemap/current analytics bytes pass fresh GET audit. No new visual/mobile/Index/VoiceOver/full-suite or successful delivery test; VoiceOver owner-confirmed DONE, actual production delivery NOT VERIFIED. 23 Nov Google-state observations remain dated for 27 Nov recheck. No source change, form, request, private read/write, contact or deployment. Current weekly 015 and master/measurement/asset records updated together.
+
+### Friday original/revision/Google observation — 27 November 2026
+
+Fresh GSC standard **25 Nov**, freshness **3.5h**, exact www/Web/daily/all countries/devices/no query filter: original intended **30 Oct–26 Nov**, actual **30 Oct–25 Nov, 27/28 PARTIAL**; proof 0 impressions/clicks/no rank, checklist 30/0/0%/22.9. Origin-tag intended **13–26 Nov**, actual **13–25 Nov, 13/14 PARTIAL**, both 0/0. Daily row counts confirm coverage. **Codex 30 Nov** repeats unchanged intended ranges; missing 26 Nov is not zero. GA4 through 26 Nov covers 28/28 and 14/14 prior calendar dates as unfiltered property context, not W08 conversion or GSC closure; full evidence in 018.
+
+Technical/link **10–23 Nov DONE, 14/14** and cache **17–23 Nov DONE, 7/7**, both W08 pages 0/0. Original 29 Oct and intervening 9/12/16/19 Nov annotations remain distinct. Both stored inspections still indexed/one invalid Breadcrumbs from **2 Nov 20:01:06 / 19:54:13**, successful/allowed/self-canonical selected; now both sitemap processing flags. Submitted sitemap Success/read 23 Nov/51 matches public 51; aggregate 12 valid/0 invalid does not establish per-URL recrawl. Cause/reprocessing NOT VERIFIED, **Codex 30 Nov**, no requests.
+
+Fresh 15-URL audit and analytics/cache/five breadcrumb regressions PASS; no new full npm/visual/mobile/VoiceOver/delivery certificate. VoiceOver stays Ibrahim-confirmed DONE; actual production delivery NOT VERIFIED. Specs 015/018 and master/gate/asset records reconciled; no source, form, private write, message or deployment.
