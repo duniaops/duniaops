@@ -1116,3 +1116,10 @@ Close the notification exception and cancel its **30 Nov receipt/access follow-u
 
 
 **Closure validation:** nine-record status/provenance/follow-up consistency, new local links, privacy-marker review and `git diff --check` PASS. Existing automation closure prompt read back correctly; ACTIVE status, schedule/end and target unchanged. Documentation-only change; no fresh account read, form submission, full npm/build or deployment.
+
+
+### 27 November 14:13 GMT — status enquiry / fresh private-ledger read
+
+Codex re-read private Sheet metadata and the bounded ledger header/rows read-only before reporting remaining work. The Sheet still contains **5 tests / 1 unresolved (insufficient_evidence) / 0 qualified organic**, excluding the template; the unresolved row still carries the 2 Nov 10:49 update and reply action. This is a fresh classification read, not a new customer message or fit decision. Ibrahim retains fit/reply ownership, next programme disposition **30 Nov**; no contact or private write. The three known 27 Nov synthetic submissions remain distinct from this unchanged Sheet snapshot; their earlier retained Netlify evidence is not a new Netlify account read at 14:13. Codex keeps read-only reconciliation on **30 Nov**. No identifiers, customer messages or Sheet URL enter Git.
+
+The three-route form/notification closure remains DONE and is not retried. Remaining Google/cohort/profile/review and Week 13/Day-90 work stays on the existing schedule; no fresh GSC/GA4/profile observation, source change, publication or deployment occurred during this status answer.

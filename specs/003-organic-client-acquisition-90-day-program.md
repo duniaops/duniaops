@@ -627,3 +627,10 @@ Ibrahim canlı testleri açıkça onayladı; Codex AI (`ai/ai`), W08 vaka (`resc
 ### 27 Kasım 13:58 GMT — bildirim onayı ve uçtan uca kontrolün kapanışı
 
 Ibrahim üç test bildiriminin de info kutusuna geldiğini açıkça doğrulayıp kapatılmasını istedi. Bildirim **DONE — sahibi doğruladı**; AI, vaka ve checklist için teşekkür ekranı → Netlify kaydı → GA4 alımı → bildirim zinciri **DONE**. Önceki NOT VERIFIED/PARTIAL kaydı tarihsel; e-posta kutusu ajan tarafından bağımsız okunmuş sayılmaz ve kesin e-posta varış saati uydurulmaz. [018](018-organic-growth-measurement-ledger.md) kanıt türlerini ayırır. 30 Kasım bildirim/erişim takibi iptal; yeni form testi yok. Aynı günkü rutin özel-defter uzlaştırması ve diğer açık program işleri korunur. Bu kapanışta yeni hesap okuması, özel veri değişikliği veya yayın yok.
+
+
+### 27 November 14:13 GMT — status enquiry / fresh private-ledger read
+
+Codex re-read private Sheet metadata and the bounded ledger header/rows read-only before reporting remaining work. The Sheet still contains **5 tests / 1 unresolved (insufficient_evidence) / 0 qualified organic**, excluding the template; the unresolved row still carries the 2 Nov 10:49 update and reply action. This is a fresh classification read, not a new customer message or fit decision. Ibrahim retains fit/reply ownership, next programme disposition **30 Nov**; no contact or private write. The three known 27 Nov synthetic submissions remain distinct from this unchanged Sheet snapshot; their earlier retained Netlify evidence is not a new Netlify account read at 14:13. Codex keeps read-only reconciliation on **30 Nov**. No identifiers, customer messages or Sheet URL enter Git.
+
+The three-route form/notification closure remains DONE and is not retried. Remaining Google/cohort/profile/review and Week 13/Day-90 work stays on the existing schedule; no fresh GSC/GA4/profile observation, source change, publication or deployment occurred during this status answer.
