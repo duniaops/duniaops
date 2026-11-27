@@ -1,6 +1,6 @@
 # Organic Growth Week 09 — Day-60 Production Gate
 
-**Status:** 27 Nov technical/link 14-date and cache seven-date coverage closed; original W08 27/28 and origin-tag 13/14 GSC PARTIAL, Codex 30 Nov. Google/private/delivery exceptions remain; no blanket gate PASS. Friday assessment in 015/018.
+**Status:** 27 Nov technical/link 14-date and cache seven-date coverage closed; original W08 27/28 and origin-tag 13/14 GSC PARTIAL, Codex 30 Nov. Google/private exceptions remain; approved three-route acknowledgement/retention/GA4 DONE, notification receipt NOT VERIFIED; no blanket gate PASS. Friday assessment in 015/018.
 **Type:** Programme Gate / Measurement / Recovery
 **Priority:** P1
 **Scheduled:** 2–8 November 2026; execution Day 60 is 5 November.
@@ -195,3 +195,8 @@ Fresh W08 HTTP/canonical/noindex/sitemap/script checks pass within scope. No fre
 Codex closed technical/link **10–23 Nov, 14/14** and cache **17–23 Nov, 7/7** source coverage. Original W08 **30 Oct–26 Nov** GSC remains **27/28 PARTIAL** and origin-tag **13–26 Nov** remains **13/14 PARTIAL**, both actual through 25 Nov, retry unchanged **30 Nov**. Independent GA4 through 26 Nov covers full intended calendar ranges, not missing GSC dates. Closed earlier cohorts and owner-confirmed VoiceOver remain closed; canonical filters, captures and limits in 018.
 
 Fresh W05 URL unknown/W08 stored 2 Nov invalid Breadcrumbs persist, now both sitemap processing flags. Submitted sitemap Success/read 23 Nov/51 pages matches fresh public 51; recrawl/cause NOT VERIFIED. Fresh private reconciliation unchanged; qualification NOT DONE/Ibrahim-owned, actual delivery NOT VERIFIED. No test authority, form, private write, contact or Google request. Fresh 15-URL HTTP/hash and bounded regressions PASS, no new full-suite/visual certificate. Spec 015 assesses all Friday criteria with explicit exceptions, no gate/programme PASS. Next Google/private/cohort/authority work **Codex 30 Nov**, no new article/deployment.
+
+
+### 27 November — conversion exception narrowed by approved live tests
+
+Explicit approval enabled one controlled production test for AI, W08 proof and W08 checklist. Real acknowledgement, retained Netlify records and GA4 Realtime receipt with correct service/origin/test labels are DONE for those three routes. Notification receipt remains NOT VERIFIED, so end-to-end delivery is PARTIAL and the whole Day-60 gate is not certified PASS. The [018 canonical record](018-organic-growth-measurement-ledger.md) contains exact 11:50–11:58 GMT evidence and limits. Codex follows up read-only 30 Nov, without repeated tests; Ibrahim supplies target-mailbox receipt evidence if inaccessible. Three new known tests are excluded from qualification, private Sheet unchanged. Existing GSC/Google/client-fit/authority carry-over, owner-confirmed VoiceOver and all publication/revision clocks remain intact.

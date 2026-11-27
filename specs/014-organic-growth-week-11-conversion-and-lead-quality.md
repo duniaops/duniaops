@@ -1,6 +1,6 @@
 # Organic Growth Week 11 — Conversion and Qualified-Lead Optimisation
 
-**Status:** Week 11 scoped Friday outcomes retained. 27 Nov cache 17–23 Nov DONE, 7/7 and technical/link 10–23 Nov DONE, 14/14. Fresh reconciliation unchanged; human qualification NOT DONE, actual delivery NOT VERIFIED. W08/origin GSC partials retry 30 Nov.
+**Status:** Week 11 scoped Friday outcomes retained. 27 Nov cache 17–23 Nov DONE, 7/7 and technical/link 10–23 Nov DONE, 14/14. Morning reconciliation remains dated; later approved three-route acknowledgement/retention/GA4 DONE, notification NOT VERIFIED; human qualification NOT DONE. W08/origin GSC partials retry 30 Nov.
 **Type:** Conversion / Measurement
 **Priority:** P1
 **Scheduled:** 16–22 November 2026
@@ -168,3 +168,8 @@ Fresh 15-URL matching-script/HTTP/canonical/sitemap audit and analytics/cache/br
 Cache **17–23 Nov DONE, 7/7** source-covered GSC dates, standard 25 Nov/freshness 3.5h, Exact www/Web/daily/all countries/devices/no query filter: proof/checklist/cost guide 0/0/no rank; Custom Software **14 impressions/0 clicks/0%/4.9**. GA4 same fixed range, source-medium/All Users/daily/100%/selected generate_lead: **32 sessions/21 engaged/125 events/0 leads**, Google organic 2/2/0, no hostname/page filter. Closes 23 Nov partial; runtime changes, overlap and small volumes prevent cache-lift inference. Next cache **17–30 Nov → 30 Nov/retry 4 Dec**; beyond-tail 28-date range retained in 11 Dec handover. Technical 14-date also DONE; W08/origin GSC partials retry 30 Nov (018).
 
 Fresh private 0 qualified organic / 5 tests / 1 unresolved, five exact-ID joins plus the known synthetic bounded match/missing lookup ID. Returned records still end 29 Oct; aggregate 27 Nov activity is not a new lead. Qualification NOT DONE/Ibrahim-owned, actual acknowledgement/notification/GA4 delivery NOT VERIFIED; no identity join or production test authority added. Fresh 15-URL HTTP/hash and analytics/cache/five breadcrumb regressions PASS; no new full npm/mobile/VoiceOver certificate. Current ready 27 Nov scheduled rebuild is not an agent deployment. Week 11 criterion outcomes remain historical, Week 12 assessment in 015; no source, form, private write or contact.
+
+
+### 27 November — authorised production conversion check
+
+AI/proof/checklist were each submitted once with the supported measurement_test=1 marker after explicit user approval. Actual thank-you acknowledgement, Netlify retention and GA4 receipt are DONE for all three routes; labels are ai/ai, rescue/proof and rescue/handover_checklist, test_submission=true. Exact retained times and Realtime evidence are recorded in [018](018-organic-growth-measurement-ledger.md). Notification receipt remains NOT VERIFIED, full delivery chain PARTIAL. No organic/qualified conversion is inferred; Netlify known tests rise from 5 to 8 while the 09:00 Sheet snapshot remains dated and unedited. Codex owns 30 Nov read-only reconciliation/receipt follow-up; Ibrahim supplies configured target-mailbox evidence if unavailable. Existing fit-review gap, Google/cohort boundaries and all completed deployments remain unchanged.

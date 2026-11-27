@@ -1,6 +1,6 @@
 # Organic Growth Week 12 — Authority and Second Proof
 
-**Status:** Friday 27 Nov assessed with explicit carry-over: D1/D2/D4/D6 DONE within scope; D3/D5 NOT VERIFIED. A1/A2/A3/A5/A6 DONE within stated limits; A4 NOT VERIFIED for external execution. Technical/link 14-date and cache 7-date coverage closed; original W08/origin14 GSC partials retry 30 Nov. No new article/deployment or external send.
+**Status:** Friday 27 Nov assessed with explicit carry-over: D1/D2/D4/D6 DONE within scope; D3/D5 NOT VERIFIED. A1/A2/A3/A5/A6 DONE within stated limits; A4 NOT VERIFIED for external execution. Technical/link 14-date and cache 7-date coverage closed; original W08/origin14 GSC partials retry 30 Nov. No new article/deployment or outreach send. Later approved three-route acknowledgement/Netlify/GA4 receipt DONE; notification receipt NOT VERIFIED, full chain PARTIAL.
 **Type:** Proof / Distribution / Authority
 **Priority:** P1
 **Scheduled:** 23–29 November 2026
@@ -187,3 +187,11 @@ Fresh W05 URL unknown/W08 indexed but stored 2 Nov invalid breadcrumbs remain NO
 **Next existing execution, Codex 30 Nov:** complete-data W08/origin retries, Lumo 23–29 Nov and cache 17–30 Nov observations (retry 4 Dec if delayed), Week 13 measurement/decision preparation, bounded authority/profile/eligible-review evidence, read-only Google/private follow-through. Technical14/cache7 coverage is closed and must not recur as unfinished. No new publication, indexing request, production form, outreach/profile/review mutation, private write or duplicate automation. Execution/tail end 5/11 Dec retained; beyond-tail observations remain 11 Dec handover.
 
 **27 Nov final documentation validation:** all six deliverables and six criteria assessed; fixed-window date counts, coverage/metric consistency, new local links, privacy-marker review and `git diff --check` PASS. Fresh analytics/cache and five breadcrumb regressions PASS; no full npm build claimed for documentation-only maintenance. Existing single automation's updated closure/carry-over prompt, ACTIVE status, unchanged schedule/end and target read back and matched. Explicit task-only staging and normal verified-origin/main push follow with `[skip netlify]`; no source deployment.
+
+
+### Friday later execution — authorised production form tests, 27 November
+
+Ibrahim subsequently approved controlled live tests; this is separate from the 09:00 Friday assessment. Codex completed one actual submission each through AI, W08 proof and W08 checklist. Acknowledgement and retained records DONE (11:50:57.758 / 11:53:55.236 / 11:54:10.947 GMT); GA4 Realtime DONE for three generate_lead events with ai/proof/handover_checklist once each and test_submission=true three times. Notification receipt NOT VERIFIED: configured target is the public info mailbox, available Zoho session is a different owner mailbox and Gmail read lacks scope. The narrow target-mailbox receipt question is pending; full end-to-end delivery remains PARTIAL. See [018](018-organic-growth-measurement-ledger.md) for complete method, scope, source/grain and limits. Codex carries read-only follow-up/reconciliation to 30 Nov, without another form submission. No new customer qualification; eight known tests in nine Netlify records, Sheet not edited. Earlier Friday D/A dispositions and all proof/authority exceptions remain unchanged; no source/site/deployment or new cohort. Documentation consistency and git diff --check apply, no fresh full-suite claim.
+
+
+**Later authorised-test documentation validation:** dated three-route outcomes, component-level PARTIAL disposition, owner/30 Nov follow-up, new local links and privacy-marker checks PASS; `git diff --check` PASS. The existing single automation prompt was updated/read back with the narrower delivery state and spent test authority; ACTIVE, schedule/end and target unchanged. No fresh full npm/build claim or site deployment.

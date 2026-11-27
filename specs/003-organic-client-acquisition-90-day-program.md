@@ -1,6 +1,6 @@
 # DuniaOps 90 Günlük Organik Müşteri Kazanım Programı
 
-**Status:** Active — Week 12 / Day 82 Friday assessed 27 Nov. Technical/link 10–23 Nov and cache 17–23 Nov coverage DONE; original W08 GSC 27/28 and origin-tag GSC 13/14 remain PARTIAL, retry Codex 30 Nov. Four Week 12 deliverables DONE within scope, profile/eligible-review criteria NOT VERIFIED; no blanket PASS/new content/deployment.
+**Status:** Active — Week 12 / Day 82 Friday assessed 27 Nov. Technical/link 10–23 Nov and cache 17–23 Nov coverage DONE; original W08 GSC 27/28 and origin-tag GSC 13/14 remain PARTIAL, retry Codex 30 Nov. Four Week 12 deliverables DONE within scope, profile/eligible-review criteria NOT VERIFIED; no blanket PASS/new content/deployment. Later approved three-route acknowledgement/Netlify/GA4 receipt DONE; notification receipt NOT VERIFIED, full chain PARTIAL.
 **Type:** Programme
 **Priority:** P1
 **Period:** 7 September–5 December 2026 (90 execution days); complete-data verification 11 December 2026.
@@ -617,3 +617,8 @@ Rolling GSC **29 Oct–25 Nov vs 1–28 Oct**: 7/8 clicks, rounded 1.79k/1.07k i
 Spec 015 assesses all six deliverables and criteria: **D1/D2/D4/D6 DONE within scope, D3/D5 NOT VERIFIED**; **A1/A2/A3/A5/A6 DONE within limits, A4 NOT VERIFIED for external execution**. An unsent The Org profile-correction draft tied to owned Lumo proof and neutral review copy are saved; exact GBP/Clutch, review destination and eligible-client evidence remain missing. No earned links/reviews, sends, blanket programme PASS or extra article quota. Fresh 15-URL HTTP/canonical/sitemap/hash audit and analytics/cache/breadcrumb checks PASS; no new full npm/mobile/VoiceOver/form certification. Spec 018 holds exact captures, filters, values and limitations.
 
 Next **30 Nov**, Codex starts Spec 016 with W08/origin GSC retries, Lumo **23–29 Nov** first-seven-date and cache **17–30 Nov** 14-date reads (retry **4 Dec**), Google/private reads and bounded authority carry-over. Later revision/Lumo/tail clocks and out-of-tail handover remain unchanged. Existing single automation preserved; documentation-only [skip netlify] commit/push, no new source, deployment or external mutation.
+
+
+### 27 Kasım — onaylı canlı form testleri
+
+Ibrahim canlı testleri açıkça onayladı; Codex AI (`ai/ai`), W08 vaka (`rescue/proof`) ve checklist (`rescue/handover_checklist`) yollarından birer işaretli test gönderdi. 11:50:57 / 11:53:55 / 11:54:10 GMT saklama zamanları: üç teşekkür ekranı, üç Netlify kaydı ve doğru kaynak/hizmet/test etiketleriyle üç GA4 generate_lead **DONE**. Bildirimin ayarlı hedef posta kutusuna ulaştığı **NOT VERIFIED**; uçtan uca zincir **PARTIAL**. Sadece hedef kutudaki üç bildirim için dar kanıt sorusu soruldu; Codex mevcut 30 Kasım çalıştırmasında takip eder, yeni test göndermez. Özel Sheet bu sonraki çalıştırmada okunmadı/yazılmadı: sabahki 5 test/1 açık kayıt tarihsel; Netlify artık 8 bilinen test ve 1 önceki test olmayan kayıt içeriyor. Yeni qualified lead iddiası yok. Tam yöntem, kaynak yolları/URL’ler, GA4 grain/filtre/sınırlar ve kalan bağımlılık [018](018-organic-growth-measurement-ledger.md) içinde. Yayın, deployment, içerik veya gözlem tarihleri değişmedi.

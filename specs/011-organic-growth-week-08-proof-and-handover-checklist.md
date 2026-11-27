@@ -1,6 +1,6 @@
 # Organic Growth Week 08 — First Proof and Handover Checklist
 
-**Status:** 27 Nov original W08 GSC 27/28 and origin-tag 13/14 remain PARTIAL, retry 30 Nov. Technical/link 14-date and cache seven-date coverage DONE. Stored 2 Nov enhancement/delivery NOT VERIFIED; owner-confirmed VoiceOver stays DONE.
+**Status:** 27 Nov original W08 GSC 27/28 and origin-tag 13/14 remain PARTIAL, retry 30 Nov. Technical/link 14-date and cache seven-date coverage DONE. Stored 2 Nov enhancement NOT VERIFIED; later approved W08 acknowledgement/retention/GA4 DONE, notification NOT VERIFIED; owner-confirmed VoiceOver stays DONE.
 **Type:** Proof Page / Linkable Resource
 **Priority:** P1
 **Scheduled:** 26 October–1 November 2026
@@ -226,3 +226,8 @@ Fresh GSC standard **25 Nov**, freshness **3.5h**, exact www/Web/daily/all count
 Technical/link **10–23 Nov DONE, 14/14** and cache **17–23 Nov DONE, 7/7**, both W08 pages 0/0. Original 29 Oct and intervening 9/12/16/19 Nov annotations remain distinct. Both stored inspections still indexed/one invalid Breadcrumbs from **2 Nov 20:01:06 / 19:54:13**, successful/allowed/self-canonical selected; now both sitemap processing flags. Submitted sitemap Success/read 23 Nov/51 matches public 51; aggregate 12 valid/0 invalid does not establish per-URL recrawl. Cause/reprocessing NOT VERIFIED, **Codex 30 Nov**, no requests.
 
 Fresh 15-URL audit and analytics/cache/five breadcrumb regressions PASS; no new full npm/visual/mobile/VoiceOver/delivery certificate. VoiceOver stays Ibrahim-confirmed DONE; actual production delivery NOT VERIFIED. Specs 015/018 and master/gate/asset records reconciled; no source, form, private write, message or deployment.
+
+
+### 27 November — authorised W08 production tests
+
+After explicit user approval, Codex followed each real W08 CTA, added measurement_test=1 at the observed destination, and sent one synthetic test per path. Proof retained 11:53:55.236 GMT, checklist 11:54:10.947 GMT. Both actual thank-you screens and Netlify records are DONE with service rescue, distinct proof/handover_checklist origins, project_enquiry_v2 and test_submission=true. GA4 Realtime received each origin once; the three-route set including AI shows true 3 and rescue 2 / ai 1. Notification receipt remains NOT VERIFIED; complete delivery is PARTIAL, not a blanket PASS. Full path/URL, method, privacy, source/grain and reconciliation evidence is in [018](018-organic-growth-measurement-ledger.md). Codex read-only follow-up 30 Nov; Ibrahim target-mailbox evidence if unavailable, no repeated submissions. No Google/VoiceOver closure, site change or reset of original/revision observation dates.
